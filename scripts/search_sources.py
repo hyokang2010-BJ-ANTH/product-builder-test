@@ -103,9 +103,12 @@ def search_pubmed(max_results=15):
 def fetch_abstract(pmid):
     """논문 초록(원문 영어)을 가져온다.
 
-    XML로 받아 <AbstractText> 태그만 읽는다. 예전에는 text 모드 응답을
-    빈 줄 기준으로 잘라 "가장 긴 문단"을 초록으로 골랐는데, 저자가 많은 논문에서는
-    저자 명단 블록이 초록으로 잘못 선택돼 대본에 이름들이 그대로 나갔다.
+    XML로 받아 <Abstract> 안의 <AbstractText>만 읽는다.
+
+    두 가지를 피하기 위한 구조다:
+    - text 모드로 받아 "가장 긴 문단"을 고르면 저자 명단이 초록으로 잘못 선택된다.
+    - <OtherAbstract>에는 같은 논문의 번역본(프랑스어 등)이 들어 있어, 전체
+      <AbstractText>를 훑으면 영문 초록에 외국어 번역이 뒤섞인다.
     """
     r = _eutils_get("efetch.fcgi", {"db": "pubmed", "id": pmid, "retmode": "xml"})
 
@@ -115,13 +118,15 @@ def fetch_abstract(pmid):
         return ""
 
     chunks = []
-    for node in root.iter("AbstractText"):
-        # itertext(): <i>, <sub> 같은 중첩 태그 안의 글자까지 모두 모은다
-        text = "".join(node.itertext()).strip()
-        if not text:
-            continue
-        label = node.get("Label")  # 구조화 초록의 BACKGROUND/METHODS/RESULTS 등
-        chunks.append(f"{label.capitalize()}: {text}" if label else text)
+    # iter("Abstract")는 태그명이 정확히 일치할 때만 걸리므로 <OtherAbstract>는 제외된다
+    for abstract in root.iter("Abstract"):
+        for node in abstract.iter("AbstractText"):
+            # itertext(): <i>, <sub> 같은 중첩 태그 안의 글자까지 모두 모은다
+            text = "".join(node.itertext()).strip()
+            if not text:
+                continue
+            label = node.get("Label")  # 구조화 초록의 BACKGROUND/METHODS/RESULTS 등
+            chunks.append(f"{label.capitalize()}: {text}" if label else text)
 
     return re.sub(r"\s+", " ", " ".join(chunks)).strip()
 
