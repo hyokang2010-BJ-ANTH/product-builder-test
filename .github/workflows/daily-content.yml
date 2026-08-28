@@ -44,6 +44,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "변경 사항 없음 - 커밋 생략"
           else
-            git commit -m "chore: daily content $(date -u +%F)"
+            # 데이터 폴더가 KST 날짜로 만들어지므로 커밋 메시지도 KST로 맞춘다
+            git commit -m "chore: daily content $(TZ=Asia/Seoul date +%F)"
             git push
           fi
