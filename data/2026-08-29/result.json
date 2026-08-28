@@ -2,41 +2,39 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42663085",
-    "title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
-    "journal": "Aging cell",
-    "pub_date": "2026 Sep",
-    "authors": [
-      "Wang L",
-      "Zhao B",
-      "Yang J"
-    ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
-    "id": "pmid:42663085",
-    "abstract": "Wang L(1), Zhao B(1)(2), Yang J(1)(2), Liang Y(1), Yao Y(1)(2), Xiao X(1)(2), Yang L(1)(2), Xia J(1)(2), Li H(1)(2), Gao L(1)(2), Zhang J(1)(2), Su T(1)(2), Xu H(1)(2), Zhang J(1)(2), Wang H(1), Liu J(1), Hong X(1), Liu JP(1)(3)(4)."
+    "pmid": "42661279",
+    "title": "RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
+    "journal": "The Journal of dermatology",
+    "pub_date": "2026 Aug 27",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42661279/",
+    "id": "pmid:42661279",
+    "abstract": "A. Babul, D. Mehta, Y. Soliman, M. Hussain, and N. Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959. The above article, published online on 11 October 2025 in Wiley Online Library (wileyonlinelibrary.com), has been retracted by agreement between the journal Editor-in-Chief, Dr. Takafumi Kadono; the Japanese Dermatological Association; and John Wiley & Sons Australia, Ltd.. The journal received concerns from authors of a separate article published in another Wiley journal [1] that this article may have plagiarized results from their own work. The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements. When the authors were asked for their response to the concerns, cooperated fully, acknowledged that they did not have access to the proprietary individual patient data for ritlecitinib, should not have implied that all of their comparative data analysis was performed de novo, and should have provided explicit attribution for data in Table 3, Table 4, and Figure 2. Because the data and analysis was taken without either permission or attribution, and because readers were misled about the analysis reported, the Editor-in-Chief has lost confidence in the article and its conclusions. Therefore, the article must be retracted. Upon being informed of this decision the authors disagreed with the decision to retract and instead suggested issuance of a correction as the appropriate remedy. [1] D. Aceituno, C.G. Fawsitt, G.M. Power, E. Law, S. Vaghela, and H. Thom, \"Systematic review and indirect treatment comparisons of ritlecitinib against baricitinib in alopecia areata,\" Journal of The European Academy of Dermatology & Venereology 39, no. 6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Aging cell》 - Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
+    "intro": "《The Journal of dermatology》 - RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
     "highlights": [
-      "Wang L(1), Zhao B(1)(2), Yang J(1)(2), Liang Y(1), Yao Y(1)(2), Xiao X(1)(2), Yang L(1)(2), Xia J(1)(2), Li H(1)(2), Gao L(1)(2), Zhang J(1)(2), Su T(1)(2), Xu H(1)(2), Zhang J(1)(2), Wang H(1), Liu J(1), Hong X(1), Liu JP(1)(3)(4)."
+      "6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372.",
+      "Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959.",
+      "The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Aging cell》에 실린\n\"Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells\" 입니다. (Wang L, Zhao B, Yang J 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Wang L(1), Zhao B(1)(2), Yang J(1)(2), Liang Y(1), Yao Y(1)(2), Xiao X(1)(2), Yang L(1)(2), Xia J(1)(2), Li H(1)(2), Gao L(1)(2), Zhang J(1)(2), Su T(1)(2), Xu H(1)(2), Zhang J(1)(2), Wang H(1), Liu J(1), Hong X(1), Liu JP(1)(3)(4). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
-    "reference_title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《The Journal of dermatology》에 실린\n\"RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison\" 입니다. (연구진 외, 2026 Aug 27)\n\n핵심 내용은 이렇습니다:\n- 6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372. [검수 필요: 한글 번역/의역 확인]\n- Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959. [검수 필요: 한글 번역/의역 확인]\n- The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42661279/",
+    "reference_title": "RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
     "reference_type": "paper"
   },
   "assets": {
     "paper_card": "paper_card.png",
     "topic_images": [
-      "images/topic_1.png",
-      "images/topic_2.png"
+      "images/topic_1.png"
     ],
     "frames": [
       "images/frame_01_hook.png",
       "images/frame_02_paper_intro.png",
       "images/frame_03_key_finding_1.png",
+      "images/frame_04_key_finding_2.png",
       "images/frame_05_my_take.png",
       "images/frame_06_cta.png"
     ],
