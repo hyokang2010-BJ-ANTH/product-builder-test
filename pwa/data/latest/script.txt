@@ -1,11 +1,11 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
 오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린
-"Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology" 입니다. (Wei J, Bu F, Zhao B 외, 2026 Aug 21)
+"Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis" 입니다. (Zhai W, Yang J, Zhang L 외, 2026 Aug 17)
 
 핵심 내용은 이렇습니다:
-- Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. [검수 필요: 한글 번역/의역 확인]
-- Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. [검수 필요: 한글 번역/의역 확인]
-- Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. [검수 필요: 한글 번역/의역 확인]
+- Androgenetic alopecia (AGA) is the most common form of hair loss, characterized by the progressive miniaturization of hair follicles driven by dihydrotestosterone (DHT)-mediated androgen receptor signaling. [검수 필요: 한글 번역/의역 확인]
+- Current pharmacotherapies remain limited in efficacy and are often associated with undesirable side effects. [검수 필요: 한글 번역/의역 확인]
+- Transcriptomic profiling combined with network pharmacology suggested that the protective effects of pungenin are associated with transcriptional regulation of the PI3K/AKT/FoxO/mTOR axis, identifying 25 putative therapeutic targets, with qPCR further confirming the altered expression of key genes within this network. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

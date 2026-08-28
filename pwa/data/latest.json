@@ -2,34 +2,34 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42654016",
-    "title": "Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
+    "pmid": "42653946",
+    "title": "Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis",
     "journal": "Molecules (Basel, Switzerland)",
-    "pub_date": "2026 Aug 21",
+    "pub_date": "2026 Aug 17",
     "authors": [
-      "Wei J",
-      "Bu F",
-      "Zhao B"
+      "Zhai W",
+      "Yang J",
+      "Zhang L"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42654016/",
-    "id": "pmid:42654016",
-    "abstract": "Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. By simultaneously incorporating hydrophilic functional groups and lipophilic alkyl chains into the covalent organic skeleton, the material exhibits excellent amphiphilicity, high specific surface area, and well-ordered porous structures. Owing to its amphiphilic nature, amCOF disperses uniformly in aqueous physiological media and adapts favorably to the lipophilic microenvironment within hair follicles. Furthermore, the ordered porous architecture endows amCOF with rapid DHT adsorption kinetics, high adsorption capacity, and high removal efficiency. Functional assays demonstrate that amCOF effectively reverses the inhibitory effects of DHT on the proliferation and migration of human dermal papilla cells. In animal models, topical application of amCOF significantly reduces local DHT concentrations, promotes hair regrowth, and shows favorable biosafety profiles. Collectively, this work provides a new strategy for treating androgenetic alopecia by scavenging pathogenic lipophilic molecules from sebum using amphiphilic porous materials and also establishes a solid foundation for expanding the biomedical applications of COFs."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42653946/",
+    "id": "pmid:42653946",
+    "abstract": "Androgenetic alopecia (AGA) is the most common form of hair loss, characterized by the progressive miniaturization of hair follicles driven by dihydrotestosterone (DHT)-mediated androgen receptor signaling. Current pharmacotherapies remain limited in efficacy and are often associated with undesirable side effects. Pungenin, a phenolic glucoside isolated from Picea wilsonii Mast., was investigated for its therapeutic efficacy in DHT-induced AGA model mice in this study. In primary mouse hair follicle cells exposed to DHT, pungenin mitigated cellular injury, restored normal morphology and viability, and significantly reduced the expression of type II 5α-reductase (Srd5α2). Topical treatment with pungenin markedly accelerated hair regeneration, as demonstrated by histological analysis and serum biochemical measurements. Transcriptomic profiling combined with network pharmacology suggested that the protective effects of pungenin are associated with transcriptional regulation of the PI3K/AKT/FoxO/mTOR axis, identifying 25 putative therapeutic targets, with qPCR further confirming the altered expression of key genes within this network. Collectively, these findings demonstrate that pungenin protects hair follicles against DHT-induced injury through suppression of Srd5α2 and transcriptional modulation of the PI3K/AKT/mTOR signaling axis, supporting further preclinical evaluation of pungenin as a potential candidate for AGA management."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Molecules (Basel, Switzerland)》 - Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
+    "intro": "《Molecules (Basel, Switzerland)》 - Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis",
     "highlights": [
-      "Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit.",
-      "Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions.",
-      "Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized."
+      "Androgenetic alopecia (AGA) is the most common form of hair loss, characterized by the progressive miniaturization of hair follicles driven by dihydrotestosterone (DHT)-mediated androgen receptor signaling.",
+      "Current pharmacotherapies remain limited in efficacy and are often associated with undesirable side effects.",
+      "Transcriptomic profiling combined with network pharmacology suggested that the protective effects of pungenin are associated with transcriptional regulation of the PI3K/AKT/FoxO/mTOR axis, identifying 25 putative therapeutic targets, with qPCR further confirming the altered expression of key genes within this network."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린\n\"Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology\" 입니다. (Wei J, Bu F, Zhao B 외, 2026 Aug 21)\n\n핵심 내용은 이렇습니다:\n- Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. [검수 필요: 한글 번역/의역 확인]\n- Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. [검수 필요: 한글 번역/의역 확인]\n- Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42654016/",
-    "reference_title": "Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린\n\"Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis\" 입니다. (Zhai W, Yang J, Zhang L 외, 2026 Aug 17)\n\n핵심 내용은 이렇습니다:\n- Androgenetic alopecia (AGA) is the most common form of hair loss, characterized by the progressive miniaturization of hair follicles driven by dihydrotestosterone (DHT)-mediated androgen receptor signaling. [검수 필요: 한글 번역/의역 확인]\n- Current pharmacotherapies remain limited in efficacy and are often associated with undesirable side effects. [검수 필요: 한글 번역/의역 확인]\n- Transcriptomic profiling combined with network pharmacology suggested that the protective effects of pungenin are associated with transcriptional regulation of the PI3K/AKT/FoxO/mTOR axis, identifying 25 putative therapeutic targets, with qPCR further confirming the altered expression of key genes within this network. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42653946/",
+    "reference_title": "Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis",
     "reference_type": "paper"
   },
   "assets": {
