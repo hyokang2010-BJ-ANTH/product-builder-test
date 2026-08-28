@@ -2,14 +2,51 @@
 import os
 import re
 import html
+import time
 
 import requests
 
 from common import ROOT
 
-HEADERS = {"User-Agent": "hair-content-automation/1.0"}
+# 위키미디어는 연락처가 없는 User-Agent를 정책적으로 차단한다.
+# (https://meta.wikimedia.org/wiki/User-Agent_policy)
+# 개인 이메일 대신 공개 저장소 주소를 연락처로 쓴다.
+HEADERS = {
+    "User-Agent": (
+        "hair-content-automation/1.0 "
+        "(+https://github.com/hyokang2010-BJ-ANTH/product-builder-test)"
+    )
+}
 TIMEOUT = 20
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+
+MIN_REQUEST_INTERVAL = 0.5
+RETRY_STATUSES = (429, 500, 502, 503, 504)
+_last_request_at = 0.0
+
+
+def _polite_get(url, **kwargs):
+    """위키미디어 요청을 간격을 지켜 보내고, 429/5xx는 백오프 후 재시도한다."""
+    global _last_request_at
+
+    for attempt in range(4):
+        wait = MIN_REQUEST_INTERVAL - (time.monotonic() - _last_request_at)
+        if wait > 0:
+            time.sleep(wait)
+
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kwargs)
+        _last_request_at = time.monotonic()
+
+        if r.status_code in RETRY_STATUSES and attempt < 3:
+            time.sleep(2**attempt)
+            continue
+
+        r.raise_for_status()
+        return r
+
+    r.raise_for_status()
+    return r
+
 
 ALLOWED_LICENSE_PREFIXES = ("cc0", "public domain", "cc by")
 
@@ -42,8 +79,7 @@ def wikimedia_search_images(keyword, limit=3):
         "srnamespace": 6,
         "srlimit": limit,
     }
-    r = requests.get(COMMONS_API, params=params, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _polite_get(COMMONS_API, params=params)
     titles = [item["title"] for item in r.json().get("query", {}).get("search", [])]
 
     results = []
@@ -63,8 +99,7 @@ def _get_image_info(title):
         "iiprop": "url|extmetadata|size",
         "iiurlwidth": 1080,
     }
-    r = requests.get(COMMONS_API, params=params, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _polite_get(COMMONS_API, params=params)
     pages = r.json().get("query", {}).get("pages", {})
     for page in pages.values():
         infos = page.get("imageinfo")
@@ -87,8 +122,7 @@ def _get_image_info(title):
 
 
 def download_image(info, dest_path):
-    r = requests.get(info["url"], headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _polite_get(info["url"])
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
     with open(dest_path, "wb") as f:
         f.write(r.content)
@@ -98,8 +132,7 @@ def download_image(info, dest_path):
 def _download_font(url, dest_path):
     os.makedirs(FONT_DIR, exist_ok=True)
     try:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
+        r = _polite_get(url)
         with open(dest_path, "wb") as f:
             f.write(r.content)
         return dest_path
