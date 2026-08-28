@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-29",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42663453",
+    "title": "Prospective multicenter evaluation of an easy-to-use DNA microarray for the detection of dermatophytes in clinical samples compared with conventional mycological methods",
+    "journal": "Microbiology spectrum",
+    "pub_date": "2026 Aug 28",
+    "authors": [
+      "Guegan H",
+      "Cremer G",
+      "Foulet F"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42663453/",
+    "id": "pmid:42663453",
+    "abstract": "Molecular methods are increasingly used for the diagnosis of superficial fungal infections, providing rapid and sensitive detection of dermatophytes. This multicenter study evaluated the diagnostic performance of the DendrisKIT (DP assay), an automated DNA microarray for dermatophyte detection, compared with conventional mycological methods. In total, 490 clinical samples from four French centers were analyzed using the DP assay, direct examination (DE), and fungal culture. After excluding invalid results, 487 samples (316 nail samples, 145 skin scrapings, 26 scalp samples) were included. Discrepant results were further investigated using an alternative commercial molecular assay. The DP assay detected dermatophytes in 367/487 samples (75.4%), outperforming DE (67.4%) and culture (63.4%). Compared with culture, the DP assay showed that the sensitivity to culture was 96.4% [94.3-98.5], while the specificity was 61.2% [54.0-68.4], reflecting additional detections rather than false positives. Among culture-negative/DP assay-positive samples, 58 were considered probable true positives, leading to an adjusted specificity of 90.8% [95%CI: 85.6-96.0]. Eleven culture-positive/DP-negative cases were observed, likely due to heterogeneous fungal distribution within the sample. The highest detection rates were achieved by combining the DP assay with DE or culture (80.9% and 77.6%, respectively). The DP assay is a reliable, easy-to-use, rapid, and high-throughput method for dermatophyte detection. When used with conventional mycological methods, it improves diagnostic yield and reduces turnaround time, but culture remains essential for identifying rare fungi causing superficial fungal infections but not included in the panel, such as non-dermatophyte molds.IMPORTANCECommercial multiplex assays improve dermatophyte detection in clinical samples, but their use is limited by poor standardization and accreditation constraints. DNA microarray technology expands pathogen detection and offers a promising alternative to multiplex real-time PCR. Here, we evaluated the DendrisKIT DP DNA microarray in a large multicenter cohort, showing improved diagnostic yield and shorter turnaround times, while culture remains essential for detecting rare fungi, including non-dermatophyte molds not covered by the panel."
+  },
+  "script": {
+    "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
+    "intro": "《Microbiology spectrum》 - Prospective multicenter evaluation of an easy-to-use DNA microarray for the detection of dermatophytes in clinical samples compared with conventional mycological methods",
+    "highlights": [
+      "Compared with culture, the DP assay showed that the sensitivity to culture was 96.4% [94.3-98.5], while the specificity was 61.2% [54.0-68.4], reflecting additional detections rather than false positives.",
+      "The DP assay detected dermatophytes in 367/487 samples (75.4%), outperforming DE (67.4%) and culture (63.4%).",
+      "Among culture-negative/DP assay-positive samples, 58 were considered probable true positives, leading to an adjusted specificity of 90.8% [95%CI: 85.6-96.0]."
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Microbiology spectrum》에 실린\n\"Prospective multicenter evaluation of an easy-to-use DNA microarray for the detection of dermatophytes in clinical samples compared with conventional mycological methods\" 입니다. (Guegan H, Cremer G, Foulet F 외, 2026 Aug 28)\n\n핵심 내용은 이렇습니다:\n- Compared with culture, the DP assay showed that the sensitivity to culture was 96.4% [94.3-98.5], while the specificity was 61.2% [54.0-68.4], reflecting additional detections rather than false positives. [검수 필요: 한글 번역/의역 확인]\n- The DP assay detected dermatophytes in 367/487 samples (75.4%), outperforming DE (67.4%) and culture (63.4%). [검수 필요: 한글 번역/의역 확인]\n- Among culture-negative/DP assay-positive samples, 58 were considered probable true positives, leading to an adjusted specificity of 90.8% [95%CI: 85.6-96.0]. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42663453/",
+    "reference_title": "Prospective multicenter evaluation of an easy-to-use DNA microarray for the detection of dermatophytes in clinical samples compared with conventional mycological methods",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.png",
+      "images/topic_2.png"
+    ],
+    "frames": [
+      "images/frame_01_hook.png",
+      "images/frame_02_paper_intro.png",
+      "images/frame_03_key_finding_1.png",
+      "images/frame_04_key_finding_2.png",
+      "images/frame_05_my_take.png",
+      "images/frame_06_cta.png"
+    ],
+    "pptx": "slides.pptx"
+  }
+}
