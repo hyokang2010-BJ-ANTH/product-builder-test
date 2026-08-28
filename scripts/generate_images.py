@@ -6,6 +6,7 @@
 """
 import json
 import os
+import shutil
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageFilter
 
@@ -119,6 +120,12 @@ def render_paper_card(topic, out_path):
 
 # ---------- 2) 주제 관련 이미지 ----------
 def fetch_topic_images(keywords, out_dir, count=2):
+    """주제 이미지를 받아 topic_1.jpg, topic_2.jpg로 정규화해 저장한다.
+
+    파일명을 고정하는 이유: 예전에는 원본 URL의 확장자를 그대로 따랐는데
+    (.png로 저장되는 경우가 있었다), 씬 템플릿은 topic_N.jpg를 찾기 때문에
+    다운로드가 성공해도 프레임에는 빈 배경이 깔렸다.
+    """
     saved = []
     credits = []
     for kw in keywords:
@@ -126,19 +133,25 @@ def fetch_topic_images(keywords, out_dir, count=2):
             break
         try:
             results = wikimedia_search_images(kw, limit=3)
-        except Exception:
+        except Exception as e:
+            print(f"  위키미디어 검색 실패 ({kw}): {e}")
             results = []
         for info in results:
             if len(saved) >= count:
                 break
             try:
                 idx = len(saved) + 1
-                ext = ".jpg" if info["url"].lower().endswith((".jpg", ".jpeg")) else ".png"
-                dest = os.path.join(out_dir, f"topic_{idx}{ext}")
-                download_image(info, dest)
+                dest = os.path.join(out_dir, f"topic_{idx}.jpg")
+                tmp = os.path.join(out_dir, f".topic_{idx}.download")
+                download_image(info, tmp)
+                # 원본이 PNG든 무엇이든 항상 JPEG로 통일한다
+                Image.open(tmp).convert("RGB").save(dest, "JPEG", quality=88)
+                os.remove(tmp)
                 saved.append(dest)
                 credits.append(info)
-            except Exception:
+            except Exception as e:
+                # 조용히 넘어가면 왜 플레이스홀더가 나왔는지 알 수 없으므로 남긴다
+                print(f"  이미지 내려받기 실패 ({info.get('title', '?')[:40]}): {e}")
                 continue
     return saved, credits
 
@@ -237,6 +250,9 @@ def generate_all_images(content, day_dir):
     topic = content["topic"]
     script = content["script"]
     images_dir = os.path.join(day_dir, "images")
+    # 같은 날 다시 실행할 때 이전 회차 파일이 남아 섞이지 않도록 비우고 시작한다
+    if os.path.isdir(images_dir):
+        shutil.rmtree(images_dir)
     os.makedirs(images_dir, exist_ok=True)
 
     paper_card_path = os.path.join(day_dir, "paper_card.png")
