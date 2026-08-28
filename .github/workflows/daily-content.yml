@@ -1,0 +1,47 @@
+name: Daily Hair Content Automation
+
+on:
+  schedule:
+    # 01:00 UTC = 10:00 KST (매일)
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-hair-content
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run content pipeline
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_CONTACT_EMAIL: ${{ secrets.VAPID_CONTACT_EMAIL }}
+        run: python scripts/pipeline.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "hair-content-bot"
+          git config user.email "actions@github.com"
+          git add data/ pwa/data/ assets/fonts/
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음 - 커밋 생략"
+          else
+            git commit -m "chore: daily content $(date -u +%F)"
+            git push
+          fi

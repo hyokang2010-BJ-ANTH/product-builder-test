@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>탈모 콘텐츠 자동화</title>
+<meta name="theme-color" content="#1B1F3B" />
+<link rel="manifest" href="./manifest.json" />
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="탈모숏폼" />
+<style>
+  :root {
+    --bg: #12142a;
+    --card: #1b1f3b;
+    --accent: #ff6b6b;
+    --text: #f5f5fa;
+    --muted: #a9acc4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    background: linear-gradient(180deg, var(--bg), #0b0c1a);
+    color: var(--text);
+    padding-bottom: 60px;
+  }
+  header {
+    padding: 28px 20px 16px;
+    text-align: center;
+  }
+  header h1 { font-size: 22px; margin: 0 0 4px; }
+  header p { color: var(--muted); font-size: 13px; margin: 0; }
+  main { max-width: 480px; margin: 0 auto; padding: 0 16px; }
+  #status {
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  #date { color: var(--muted); font-size: 13px; }
+  #title { font-size: 18px; font-weight: 700; margin: 6px 0 10px; line-height: 1.4; }
+  #hook { font-size: 15px; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+  a.link { color: #8ab4ff; font-size: 13px; }
+  pre#script {
+    white-space: pre-wrap;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    background: rgba(0,0,0,0.25);
+    padding: 14px;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .thumb { text-align: center; }
+  .thumb img {
+    width: 100%;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #222;
+  }
+  .thumb span { font-size: 11px; color: var(--muted); }
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .btn-primary { background: var(--accent); color: white; }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: var(--text); }
+  #subscription-box {
+    display: none;
+    margin-top: 10px;
+    font-size: 11px;
+  }
+  #subscription-json {
+    white-space: pre-wrap;
+    word-break: break-all;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 160px;
+    overflow: auto;
+  }
+  details { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  details summary { cursor: pointer; color: var(--text); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🧑‍⚕️ 탈모 콘텐츠 자동화</h1>
+  <p>매일 오전 10시(KST) 자동 업데이트</p>
+</header>
+
+<main>
+  <div id="status">불러오는 중...</div>
+
+  <div id="content" style="display:none;">
+    <div class="card">
+      <span class="badge" id="source-type">📄 논문</span>
+      <div id="date">-</div>
+      <div id="title">-</div>
+      <a class="link" id="source-link" href="#" target="_blank" rel="noopener">원문 보러가기 →</a>
+    </div>
+
+    <div class="card">
+      <div id="hook">-</div>
+      <pre id="script"></pre>
+    </div>
+
+    <div class="card">
+      <div style="font-weight:700; margin-bottom:10px;">🎬 영상 제작용 이미지</div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+
+    <a class="btn btn-primary" id="pptx-link" href="#" download>📊 PPT 다운로드</a>
+    <button class="btn btn-secondary" id="subscribe-btn">🔔 알림 받기</button>
+
+    <div id="subscription-box">
+      <div>구독 정보가 생성되었습니다. 최초 1회, 아래 내용을 <code>data/push_subscriptions.json</code>에 저장하면 매일 자동 알림을 받을 수 있어요.</div>
+      <div id="subscription-json"></div>
+    </div>
+
+    <details>
+      <summary>📱 아이폰 홈 화면에 추가하는 방법</summary>
+      Safari로 이 페이지를 열고 → 하단 공유 버튼(⬆️) → "홈 화면에 추가"를 누르면 아이콘이 생성됩니다.
+      알림을 받으려면 홈 화면 아이콘으로 앱을 실행한 뒤 "🔔 알림 받기"를 눌러주세요.
+    </details>
+  </div>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>

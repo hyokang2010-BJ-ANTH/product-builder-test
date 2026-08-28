@@ -1,0 +1,17 @@
+{
+  "name": "탈모 콘텐츠 자동화",
+  "short_name": "탈모숏폼",
+  "description": "매일 아침 탈모/모발이식 관련 최신 논문·기사와 쇼츠 대본을 자동으로 정리해줍니다.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1B1F3B",
+  "theme_color": "#1B1F3B",
+  "lang": "ko",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" }
+  ]
+}

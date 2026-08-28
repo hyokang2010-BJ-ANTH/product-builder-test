@@ -1,0 +1,74 @@
+{
+  "name": "탈모/모발이식 뉴스 60초 쇼츠 템플릿",
+  "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+  "total_duration_sec": 58,
+  "scenes": [
+    {
+      "id": "hook",
+      "order": 1,
+      "duration_sec": 4,
+      "layout": "full_bleed_text",
+      "background": "gradient_brand",
+      "text_source": "script.hook",
+      "font_size": 88,
+      "notes": "가장 임팩트 있는 한 줄. 시청 유지율의 핵심 구간."
+    },
+    {
+      "id": "paper_intro",
+      "order": 2,
+      "duration_sec": 9,
+      "layout": "image_top_text_bottom",
+      "image_source": "images/paper_card.png",
+      "text_source": "script.intro",
+      "font_size": 52,
+      "notes": "오늘 다룰 논문/기사 표지 카드 노출 + 출처 소개"
+    },
+    {
+      "id": "key_finding_1",
+      "order": 3,
+      "duration_sec": 12,
+      "layout": "topic_image_bg_text_overlay",
+      "image_source": "images/topic_1.jpg",
+      "text_source": "script.highlights[0]",
+      "font_size": 56,
+      "notes": "핵심 포인트 1 - 주제 관련 이미지 배경 + 자막 오버레이"
+    },
+    {
+      "id": "key_finding_2",
+      "order": 4,
+      "duration_sec": 12,
+      "layout": "topic_image_bg_text_overlay",
+      "image_source": "images/topic_2.jpg",
+      "text_source": "script.highlights[1]",
+      "font_size": 56,
+      "notes": "핵심 포인트 2 (없으면 이 씬 스킵)"
+    },
+    {
+      "id": "my_take",
+      "order": 5,
+      "duration_sec": 12,
+      "layout": "personal_photo_bg_text_overlay",
+      "image_source": "assets/my-photo/latest.jpg",
+      "text_source": "custom.my_comment",
+      "font_size": 52,
+      "notes": "본인 사진 + 한마디 코멘트. assets/my-photo/latest.jpg 로 직접 교체."
+    },
+    {
+      "id": "cta",
+      "order": 6,
+      "duration_sec": 9,
+      "layout": "full_bleed_text",
+      "background": "gradient_brand",
+      "text_source": "script.cta",
+      "font_size": 64,
+      "notes": "구독/팔로우 유도 + 원문 링크는 고정 댓글 안내"
+    }
+  ],
+  "style_guide": {
+    "brand_gradient": ["#1B1F3B", "#3A2E5C"],
+    "accent_color": "#FF6B6B",
+    "font_family": "Pretendard, AppleSDGothicNeo, sans-serif",
+    "text_color": "#FFFFFF",
+    "subtitle_background": "rgba(0,0,0,0.45)"
+  }
+}
