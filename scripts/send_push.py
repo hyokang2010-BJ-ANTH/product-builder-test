@@ -15,7 +15,7 @@ from common import DATA_DIR
 
 SUBS_PATH = os.path.join(DATA_DIR, "push_subscriptions.json")
 VAPID_PRIVATE_KEY = os.environ.get("VAPID_PRIVATE_KEY")
-VAPID_CONTACT = os.environ.get("VAPID_CONTACT_EMAIL", "mailto:hyokang2010@gmail.com")
+VAPID_CONTACT = os.environ.get("VAPID_CONTACT_EMAIL", "")
 
 
 def _load_subscriptions():
@@ -29,6 +29,14 @@ def _load_subscriptions():
 def notify_new_content(title, date_str):
     if not VAPID_PRIVATE_KEY:
         print("VAPID_PRIVATE_KEY 미설정 - 웹 푸시 알림 건너뜀 (README '알림 설정' 참고)")
+        return
+
+    if not VAPID_CONTACT:
+        # VAPID 규격상 연락처(sub 클레임)가 없으면 푸시 서비스가 요청을 거부한다
+        print(
+            "VAPID_CONTACT_EMAIL 미설정 - 웹 푸시 알림 건너뜀 "
+            "(Actions Secret에 mailto:your@email.com 형식으로 등록하세요)"
+        )
         return
 
     subs = _load_subscriptions()

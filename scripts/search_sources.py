@@ -12,8 +12,52 @@ import requests
 from common import PUBMED_QUERY, NEWS_QUERIES
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-HEADERS = {"User-Agent": "hair-content-automation/1.0 (contact: hyokang2010@gmail.com)"}
+HEADERS = {"User-Agent": "hair-content-automation/1.0"}
 TIMEOUT = 20
+
+# NCBI E-utilities는 API 키 없이 초당 3회로 제한된다.
+# 이를 넘기면 429가 떨어지므로 모든 요청 사이에 최소 간격을 강제한다.
+MIN_REQUEST_INTERVAL = 0.4
+RETRY_STATUSES = (429, 500, 502, 503, 504)
+
+_last_request_at = 0.0
+
+
+def _eutils_get(endpoint, params, max_retries=4):
+    """E-utilities 요청을 레이트 리밋을 지키며 보내고, 일시적 오류는 재시도한다."""
+    global _last_request_at
+
+    last_error = None
+    for attempt in range(max_retries):
+        wait = MIN_REQUEST_INTERVAL - (time.monotonic() - _last_request_at)
+        if wait > 0:
+            time.sleep(wait)
+
+        try:
+            r = requests.get(
+                f"{EUTILS}/{endpoint}", params=params, headers=HEADERS, timeout=TIMEOUT
+            )
+        except requests.RequestException as e:
+            last_error = e
+            _last_request_at = time.monotonic()
+            if attempt == max_retries - 1:
+                raise
+            time.sleep(2**attempt)
+            continue
+
+        _last_request_at = time.monotonic()
+
+        if r.status_code in RETRY_STATUSES and attempt < max_retries - 1:
+            # 429는 잠시 뒤 대체로 풀리므로 지수 백오프로 물러섰다 재시도한다
+            time.sleep(2**attempt)
+            continue
+
+        r.raise_for_status()
+        return r
+
+    if last_error:
+        raise last_error
+    raise RuntimeError(f"E-utilities 요청 실패: {endpoint}")
 
 
 def search_pubmed(max_results=15):
@@ -25,16 +69,13 @@ def search_pubmed(max_results=15):
         "retmax": max_results,
         "sort": "most+recent",
     }
-    r = requests.get(f"{EUTILS}/esearch.fcgi", params=params, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _eutils_get("esearch.fcgi", params)
     ids = r.json().get("esearchresult", {}).get("idlist", [])
     if not ids:
         return []
 
-    time.sleep(0.4)
     sum_params = {"db": "pubmed", "id": ",".join(ids), "retmode": "json"}
-    r = requests.get(f"{EUTILS}/esummary.fcgi", params=sum_params, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _eutils_get("esummary.fcgi", sum_params)
     summary = r.json().get("result", {})
 
     papers = []
@@ -64,9 +105,7 @@ def fetch_abstract(pmid):
     빈 줄 기준으로 잘라 "가장 긴 문단"을 초록으로 골랐는데, 저자가 많은 논문에서는
     저자 명단 블록이 초록으로 잘못 선택돼 대본에 이름들이 그대로 나갔다.
     """
-    params = {"db": "pubmed", "id": pmid, "retmode": "xml"}
-    r = requests.get(f"{EUTILS}/efetch.fcgi", params=params, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = _eutils_get("efetch.fcgi", {"db": "pubmed", "id": pmid, "retmode": "xml"})
 
     try:
         root = ET.fromstring(r.content)

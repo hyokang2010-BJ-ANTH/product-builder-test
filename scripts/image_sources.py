@@ -7,7 +7,7 @@ import requests
 
 from common import ROOT
 
-HEADERS = {"User-Agent": "hair-content-automation/1.0 (contact: hyokang2010@gmail.com)"}
+HEADERS = {"User-Agent": "hair-content-automation/1.0"}
 TIMEOUT = 20
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 
