@@ -5,10 +5,20 @@
 """
 import re
 
-from common import USED_TOPICS_PATH, load_json, save_json, today_str
+from common import RELEVANCE_KEYWORDS, USED_TOPICS_PATH, load_json, save_json, today_str
 from search_sources import fetch_abstract, search_news, search_pubmed
 
 NUMBER_PATTERN = re.compile(r"\b\d+(?:\.\d+)?\s?%|\b\d+(?:,\d{3})*(?:\.\d+)?\b")
+
+
+def is_on_topic(title):
+    """제목에 탈모/모발 핵심 키워드가 있는지 확인한다.
+
+    PubMed 쿼리는 초록까지 훑기 때문에, 모발 샘플을 다뤘을 뿐 주제는 다른 논문
+    (예: 두피 백선 진단법)이 걸릴 수 있다. 제목 기준으로 한 번 더 거른다.
+    """
+    lowered = (title or "").lower()
+    return any(k in lowered for k in RELEVANCE_KEYWORDS)
 
 
 def pick_topic():
@@ -16,9 +26,19 @@ def pick_topic():
     used_ids = set(used.get("ids", []))
 
     papers = search_pubmed()
-    for p in papers:
-        if p["id"] not in used_ids:
+    fresh = [p for p in papers if p["id"] not in used_ids]
+
+    # 1순위: 제목에 탈모/모발 키워드가 있는 논문
+    for p in fresh:
+        if is_on_topic(p["title"]):
             p["abstract"] = fetch_abstract(p["pmid"])
+            return p, used
+
+    # 2순위: 제목엔 없지만 초록에 키워드가 충분히 나오는 논문
+    for p in fresh:
+        abstract = fetch_abstract(p["pmid"])
+        if is_on_topic(abstract):
+            p["abstract"] = abstract
             return p, used
 
     news = search_news()
@@ -26,10 +46,11 @@ def pick_topic():
         if n["id"] not in used_ids:
             return n, used
 
-    # 모두 소진된 경우: 사용 이력을 초기화하고 첫 논문/뉴스 재사용
-    if papers:
-        papers[0]["abstract"] = fetch_abstract(papers[0]["pmid"])
-        return papers[0], {"ids": []}
+    # 모두 소진된 경우: 사용 이력을 초기화하고 주제에 맞는 논문/뉴스를 재사용
+    on_topic = [p for p in papers if is_on_topic(p["title"])]
+    if on_topic:
+        on_topic[0]["abstract"] = fetch_abstract(on_topic[0]["pmid"])
+        return on_topic[0], {"ids": []}
     if news:
         return news[0], {"ids": []}
     return None, used
