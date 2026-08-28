@@ -48,7 +48,8 @@ def pick_topic():
     used = load_json(USED_TOPICS_PATH, {"ids": []})
     used_ids = set(used.get("ids", []))
 
-    papers = [p for p in search_pubmed() if is_publishable(p)]
+    # 제목 기준으로만 주제를 판정하므로 후보를 넉넉히 받아온다
+    papers = [p for p in search_pubmed(max_results=30) if is_publishable(p)]
     fresh = [p for p in papers if p["id"] not in used_ids]
 
     # 1순위: 제목에 탈모/모발 키워드가 있는 논문
@@ -60,23 +61,22 @@ def pick_topic():
             p["abstract"] = abstract
             return p, used
 
-    # 2순위: 제목엔 없지만 초록에 키워드가 충분히 나오는 논문
-    for p in fresh:
-        abstract = fetch_abstract(p["pmid"])
-        if is_on_topic(abstract):
-            p["abstract"] = abstract
-            return p, used
-
+    # 초록 기준 판정은 쓰지 않는다. 항암제 논문처럼 부작용으로 탈모를 한 줄 언급한
+    # 무관한 연구가 통과하기 때문이다(실제로 폐암 논문이 선정된 적이 있다).
+    # 제목에 맞는 논문이 없으면 차라리 뉴스로 넘어간다.
     news = search_news()
     for n in news:
         if n["id"] not in used_ids:
             return n, used
 
     # 모두 소진된 경우: 사용 이력을 초기화하고 주제에 맞는 논문/뉴스를 재사용
-    on_topic = [p for p in papers if is_on_topic(p["title"])]
-    if on_topic:
-        on_topic[0]["abstract"] = fetch_abstract(on_topic[0]["pmid"])
-        return on_topic[0], {"ids": []}
+    for p in papers:
+        if not is_on_topic(p["title"]):
+            continue
+        abstract = fetch_abstract(p["pmid"])
+        if abstract:
+            p["abstract"] = abstract
+            return p, {"ids": []}
     if news:
         return news[0], {"ids": []}
     return None, used
