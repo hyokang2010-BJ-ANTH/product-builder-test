@@ -1,11 +1,11 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
-오늘 소개할 논문은 《Aging cell》에 실린
-"Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells" 입니다. (Wang L, Zhao B, Yang J 외, 2026 Sep)
+오늘 소개할 논문은 《Prostaglandins & other lipid mediators》에 실린
+"Role of Prostaglandins in Androgenetic Alopecia" 입니다. (Hu J, Liao L, Yang X 외, 2026 Aug 27)
 
 핵심 내용은 이렇습니다:
-- Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive. [검수 필요: 한글 번역/의역 확인]
-- Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice. [검수 필요: 한글 번역/의역 확인]
-- Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration. [검수 필요: 한글 번역/의역 확인]
+- Androgenetic alopecia (AGA) is the most prevalent progressive hair loss disorder worldwide, and its pathogenesis is closely linked to dysregulated androgen metabolism. [검수 필요: 한글 번역/의역 확인]
+- Conventional therapies for AGA have limited efficacy and adverse reactions. [검수 필요: 한글 번역/의역 확인]
+- Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

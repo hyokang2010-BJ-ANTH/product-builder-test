@@ -2,34 +2,35 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42663085",
-    "title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
-    "journal": "Aging cell",
-    "pub_date": "2026 Sep",
+    "pmid": "42660347",
+    "title": "Role of Prostaglandins in Androgenetic Alopecia",
+    "journal": "Prostaglandins & other lipid mediators",
+    "pub_date": "2026 Aug 27",
     "authors": [
-      "Wang L",
-      "Zhao B",
-      "Yang J"
+      "Hu J",
+      "Liao L",
+      "Yang X"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
-    "id": "pmid:42663085",
-    "abstract": "Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive. Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice. Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration. Mechanistically, increased TPP1 mobilizes bulge hair follicle stem cells (bHFSCs) by coordinating telomere capping and telomerase recruitment. By facilitating the synchronization and transition of hair follicles from the quiescent telogen phase to the proliferative anagen phase, TPP1 drives bHFSCs proliferation, differentiation, and migration. These findings identify TPP1 as a master regulator of hair regeneration through telomere capping and elongation, and suggest that topical TELODIN represents a novel therapeutic strategy for advancing hair growth. This work establishes a therapeutic framework for telomere-targeted interventions against alopecia."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42660347/",
+    "id": "pmid:42660347",
+    "abstract": "Androgenetic alopecia (AGA) is the most prevalent progressive hair loss disorder worldwide, and its pathogenesis is closely linked to dysregulated androgen metabolism. Conventional therapies for AGA have limited efficacy and adverse reactions. Prostaglandins (PGs), a class of lipid signaling molecules, have recently been implicated in AGA development. This review systematically examines the association of PGs with key pathogenic mechanisms of AGA, including androgen pathway dysregulation, immune response, inflammation, vascular microenvironment disturbances, and lipid metabolism disorders. Accumulating evidence indicates that the homeostatic imbalance of PGs may represent a core common pathological mechanism in AGA. In alopecic scalp tissues of AGA patients, prostaglandin D₂ (PGD₂) and prostaglandin I₂ (PGI₂) levels are significantly elevated, whereas prostaglandin E₂ (PGE₂) and prostaglandin F₂α (PGF₂α) levels are markedly reduced. Moreover, PG expression levels strongly correlated with the clinical stage and disease duration of AGA. Therefore, PG-related parameters can serve as novel non-invasive biomarkers for early and differential diagnosis of AGA. Additionally, the PG pathway is a promising therapeutic target for AGA. Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. This review systematically summarizes the roles of PGs in the pathogenesis of AGA and research advances in PG-based diagnosis and therapy, aiming to provide a valuable reference for clinicians and researchers."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Aging cell》 - Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
+    "intro": "《Prostaglandins & other lipid mediators》 - Role of Prostaglandins in Androgenetic Alopecia",
     "highlights": [
-      "Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive.",
-      "Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice.",
-      "Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration."
+      "Androgenetic alopecia (AGA) is the most prevalent progressive hair loss disorder worldwide, and its pathogenesis is closely linked to dysregulated androgen metabolism.",
+      "Conventional therapies for AGA have limited efficacy and adverse reactions.",
+      "Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Aging cell》에 실린\n\"Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells\" 입니다. (Wang L, Zhao B, Yang J 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive. [검수 필요: 한글 번역/의역 확인]\n- Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice. [검수 필요: 한글 번역/의역 확인]\n- Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
-    "reference_title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Prostaglandins & other lipid mediators》에 실린\n\"Role of Prostaglandins in Androgenetic Alopecia\" 입니다. (Hu J, Liao L, Yang X 외, 2026 Aug 27)\n\n핵심 내용은 이렇습니다:\n- Androgenetic alopecia (AGA) is the most prevalent progressive hair loss disorder worldwide, and its pathogenesis is closely linked to dysregulated androgen metabolism. [검수 필요: 한글 번역/의역 확인]\n- Conventional therapies for AGA have limited efficacy and adverse reactions. [검수 필요: 한글 번역/의역 확인]\n- Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42660347/",
+    "reference_title": "Role of Prostaglandins in Androgenetic Alopecia",
     "reference_type": "paper"
   },
   "assets": {
