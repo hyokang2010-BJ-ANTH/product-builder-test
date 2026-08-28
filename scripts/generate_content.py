@@ -83,17 +83,28 @@ def pick_topic():
 
 
 def extract_highlights(abstract, max_items=3):
-    """초록에서 수치(%, 표본수 등)가 포함된 문장을 핵심 포인트 후보로 추출한다."""
+    """초록에서 핵심 포인트로 쓸 문장을 고른다.
+
+    수치(%, 표본수)가 든 문장을 우선하되, 수치가 거의 없는 리뷰 논문에서도
+    씬을 채울 수 있도록 나머지 문장으로 정원을 채운다. 예전에는 수치가 있는
+    문장만 남겨서 리뷰 논문이면 포인트가 1개로 줄고 씬 하나가 통째로 비었다.
+    """
     if not abstract:
         return []
-    sentences = re.split(r"(?<=[.!?])\s+", abstract)
-    scored = [
-        (s, len(NUMBER_PATTERN.findall(s)))
-        for s in sentences
-        if len(s) > 20 and not CITATION_PATTERN.search(s)
+
+    sentences = [
+        s.strip()
+        for s in re.split(r"(?<=[.!?])\s+", abstract)
+        if len(s.strip()) > 20 and not CITATION_PATTERN.search(s)
     ]
-    scored.sort(key=lambda x: x[1], reverse=True)
-    return [s for s, score in scored[:max_items] if score > 0] or sentences[:1]
+    if not sentences:
+        return []
+
+    # 수치가 많은 순으로 뽑되(동점이면 초록 순서 유지)…
+    ranked = sorted(sentences, key=lambda s: len(NUMBER_PATTERN.findall(s)), reverse=True)
+    chosen = set(ranked[:max_items])
+    # …대본 흐름이 자연스럽도록 초록에 나온 순서대로 되돌린다
+    return [s for s in sentences if s in chosen]
 
 
 def build_script_for_paper(paper):
