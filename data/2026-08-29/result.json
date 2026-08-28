@@ -2,34 +2,35 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42657759",
-    "title": "New insights from data analysis of 12 global clinical studies on hair shedding",
-    "journal": "International journal of cosmetic science",
-    "pub_date": "2026 Aug 27",
+    "pmid": "42656655",
+    "title": "Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
+    "journal": "Frontiers in immunology",
+    "pub_date": "2026",
     "authors": [
-      "Li Y",
-      "Lin S",
-      "Paterson S"
+      "Chang HC",
+      "Lai VP",
+      "Su YJ"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Multicenter Study"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42657759/",
-    "id": "pmid:42657759",
-    "abstract": "Excessive hair shedding continues to be a major concern for individuals, negatively affecting their wellbeing and confidence. This research analysed 12 clinical studies involving 805 participants (323 males and 482 females) across eight countries (China, Indonesia, UK, India, Brazil, Thailand, Turkey and US) with concerns about hair loss. Two recent studies in China and a study in Indonesia were investigated in depth, focusing on hair shedding and breakage conditions, and age-related differences in hair shedding. The two China studies were further investigated in hair shedding during different scalp or hair care procedures (washing, drying, and combing after drying). Additionally, nine historical clinical studies from various regions were further reviewed for hair shedding and breakage conditions to provide a global view on this topic. Across the three recent Asian studies, whilst total hair fall comprised both shed hairs from the root (exogen hairs with a typical club end) and broken hairs, shed hairs from the root represented the predominant proportion, accounting for an average of 96.5% of total hair fall in Chinese female participants, 98.8% in Chinese male participants, and 72.2% in Indonesian female participants. Analysis of the nine historical studies supported the insight that shed hairs from the root are more than broken hairs. Regardless of region or gender, more shed hairs from the root were collected from scalp than broken hairs, with shed hair proportions ranging from 67.1% to 97.7%. Data mining of the two recent Chinese studies revealed that most hair shedding occurred during the washing stage (49.6% in females and 74.1% in males), followed by drying and combing after drying. Further analysis of the 2 recent Chinese studies and the recent Indonesian study also explored the differences in hair shedding with age. Spearman correlation analysis showed an increasing trend of hair shedding with age in female participants. Subgroup analysis of younger (18-42 years) and older participants (>42 years) using the Mann-Whitney U test also indicated increased hair shedding with age in females."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656655/",
+    "id": "pmid:42656655",
+    "abstract": "Background: Alopecia areata (AA) is a T cell-mediated autoimmune disease characterized by systemic immune activation that may extend to ocular tissues. However, whether AA increases the long-term risk of glaucoma remains unclear. Methods: We conducted a multicenter retrospective cohort study using the TriNetX Global Collaborative Network, comprising over 144 million patients across 147 healthcare organizations. For cross-database validation, we additionally performed a parallel analysis in another dataset, the US collaborative network, restricting the population to patients from healthcare organizations in the United States. Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis. Exclusion criteria included prior glaucoma, malignancy, or death before the index date. Propensity score matching incorporated demographic, socioeconomic, and clinical factors, including hypertension, diabetes, conjunctivitis, and Sjögren syndrome. The primary endpoint was new-onset glaucoma, with additional assessment of subtypes. Stratified analyses were performed by age and sex, and sensitivity analyses applied alternative definitions, matching models, and washout periods. Hazard ratios (HRs) and 95% confidence intervals (CIs) were estimated. Results: The final matched cohort included 28,966 patients with AA and 28,966 controls. During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses. The risk was elevated for primary glaucoma (HR = 1.99; 95% CI, 1.10-3.62) and glaucoma-suspect states. Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89). For the cross-database validation, the association remained significant in the US collaborative network, with a hazard ratio of 2.11 (95% CI, 1.72-2.59). Conclusions: AA was associated with a higher long-term risk of glaucoma across the primary, sensitivity, and cross-database analyses. However, this observational study establishes an epidemiologic association only and does not demonstrate a direct biological or immune-mediated link. Further prospective studies incorporating detailed ophthalmic examinations, longitudinal intraocular pressure measurements, retinal imaging, and systemic or ocular immune biomarkers are needed to determine whether shared inflammatory pathways contribute to this association."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《International journal of cosmetic science》 - New insights from data analysis of 12 global clinical studies on hair shedding",
+    "intro": "《Frontiers in immunology》 - Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
     "highlights": [
-      "This research analysed 12 clinical studies involving 805 participants (323 males and 482 females) across eight countries (China, Indonesia, UK, India, Brazil, Thailand, Turkey and US) with concerns about hair loss.",
-      "Across the three recent Asian studies, whilst total hair fall comprised both shed hairs from the root (exogen hairs with a typical club end) and broken hairs, shed hairs from the root represented the predominant proportion, accounting for an average of 96.5% of total hair fall in Chinese female participants, 98.8% in Chinese male participants, and 72.2% in Indonesian female participants.",
-      "Subgroup analysis of younger (18-42 years) and older participants (>42 years) using the Mann-Whitney U test also indicated increased hair shedding with age in females."
+      "Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis.",
+      "During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses.",
+      "Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89)."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《International journal of cosmetic science》에 실린\n\"New insights from data analysis of 12 global clinical studies on hair shedding\" 입니다. (Li Y, Lin S, Paterson S 외, 2026 Aug 27)\n\n핵심 내용은 이렇습니다:\n- This research analysed 12 clinical studies involving 805 participants (323 males and 482 females) across eight countries (China, Indonesia, UK, India, Brazil, Thailand, Turkey and US) with concerns about hair loss. [검수 필요: 한글 번역/의역 확인]\n- Across the three recent Asian studies, whilst total hair fall comprised both shed hairs from the root (exogen hairs with a typical club end) and broken hairs, shed hairs from the root represented the predominant proportion, accounting for an average of 96.5% of total hair fall in Chinese female participants, 98.8% in Chinese male participants, and 72.2% in Indonesian female participants. [검수 필요: 한글 번역/의역 확인]\n- Subgroup analysis of younger (18-42 years) and older participants (>42 years) using the Mann-Whitney U test also indicated increased hair shedding with age in females. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42657759/",
-    "reference_title": "New insights from data analysis of 12 global clinical studies on hair shedding",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Frontiers in immunology》에 실린\n\"Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study\" 입니다. (Chang HC, Lai VP, Su YJ 외, 2026)\n\n핵심 내용은 이렇습니다:\n- Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis. [검수 필요: 한글 번역/의역 확인]\n- During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses. [검수 필요: 한글 번역/의역 확인]\n- Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42656655/",
+    "reference_title": "Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
     "reference_type": "paper"
   },
   "assets": {
@@ -39,12 +40,12 @@
       "images/topic_2.jpg"
     ],
     "frames": [
-      "images/frame_01_hook.png",
-      "images/frame_02_paper_intro.png",
-      "images/frame_03_key_finding_1.png",
-      "images/frame_04_key_finding_2.png",
-      "images/frame_05_my_take.png",
-      "images/frame_06_cta.png"
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_03_key_finding_1.jpg",
+      "images/frame_04_key_finding_2.jpg",
+      "images/frame_05_my_take.jpg",
+      "images/frame_06_cta.jpg"
     ],
     "pptx": "slides.pptx"
   }
