@@ -36,6 +36,46 @@ def _font(size, display=False):
     return ImageFont.load_default()
 
 
+# 헤드라인 폰트(Black Han Sans)에는 수학·그리스 기호 글리프가 없어 빈칸으로 렌더링된다.
+# 의학 초록에는 이런 기호가 흔하므로(실제로 "Adults (≥18 years)"가 "Adults (  18 years)"로
+# 나왔다) 읽을 수 있는 형태로 바꿔 그린다.
+SYMBOL_REPLACEMENTS = {
+    "≥": ">=", "≤": "<=", "±": "+/-", "×": "x", "÷": "/",
+    "−": "-", "–": "-", "—": "-", "…": "...",
+    "′": "'", "″": '"', "‰": "/1000", "°": "도", "→": "->",
+    "μ": "u", "α": "alpha", "β": "beta", "γ": "gamma", "δ": "delta",
+}
+
+
+def _sanitize_for_font(text):
+    for src, dst in SYMBOL_REPLACEMENTS.items():
+        text = text.replace(src, dst)
+    return text
+
+
+def _text_block_height(draw, lines, font, line_spacing):
+    heights = [draw.textbbox((0, 0), l, font=font)[3] for l in lines]
+    return sum(heights) + line_spacing * (len(lines) - 1), heights
+
+
+def _fit_font(draw, text, box, base_size, display=True, min_size=30, line_spacing=14):
+    """텍스트가 주어진 영역에 들어갈 때까지 글자 크기를 줄여 폰트를 고른다.
+
+    긴 초록 문장이 그대로 들어오면 자막이 패널 밖으로 넘치기 때문에 필요하다.
+    """
+    text = _sanitize_for_font(text)  # 치환 후 길이로 재야 실제 렌더링과 일치한다
+    x0, y0, x1, y1 = box
+    size = base_size
+    while size > min_size:
+        font = _font(size, display=display)
+        lines = _wrap(draw, text, font, x1 - x0)
+        total_h, _ = _text_block_height(draw, lines, font, line_spacing)
+        if total_h <= (y1 - y0):
+            return font
+        size -= 4
+    return _font(min_size, display=display)
+
+
 def _wrap(draw, text, font, max_width):
     words = text.replace("\n", " \n ").split(" ")
     lines, cur = [], ""
@@ -71,10 +111,10 @@ def _cover_resize(img, size):
 
 
 def _draw_centered_text(draw, text, font, box, fill="white", line_spacing=14, align="center"):
+    text = _sanitize_for_font(text)
     x0, y0, x1, y1 = box
     lines = _wrap(draw, text, font, x1 - x0)
-    heights = [draw.textbbox((0, 0), l, font=font)[3] for l in lines]
-    total_h = sum(heights) + line_spacing * (len(lines) - 1)
+    total_h, heights = _text_block_height(draw, lines, font, line_spacing)
     y = y0 + max((y1 - y0 - total_h) // 2, 0)
     for line, lh in zip(lines, heights):
         w = draw.textlength(line, font=font)
@@ -156,6 +196,41 @@ def fetch_topic_images(keywords, out_dir, count=2):
     return saved, credits
 
 
+def write_attribution(credits, topic, out_path):
+    """영상 설명란에 그대로 붙여넣을 출처·저작권 표시문을 만든다.
+
+    위키미디어 이미지는 CC BY / CC BY-SA가 많아 저작자 표시가 의무다.
+    """
+    lines = [
+        "[출처]",
+        f"논문: {topic.get('title', '')}",
+        f"게재: {topic.get('journal') or topic.get('source_name', '')}",
+        f"원문: {topic.get('url', '')}",
+        "",
+    ]
+
+    if credits:
+        lines.append("[이미지 출처]")
+        for c in credits:
+            name = c.get("title", "").replace("File:", "")
+            artist = c.get("artist") or "저작자 미상"
+            lines.append(f"- {name} / {artist} / {c.get('license', '')}")
+            lines.append(f"  {c.get('source_page', '')}")
+        if any("sa" in (c.get("license") or "").lower() for c in credits):
+            lines += [
+                "",
+                "※ CC BY-SA 이미지가 포함되어 있습니다. 저작자 표시가 필수이며,",
+                "  동일조건변경허락(ShareAlike) 조항이 영상 전체에 적용될 수 있으니",
+                "  상업적 이용 시 해당 이미지를 교체하는 편이 안전합니다.",
+            ]
+    else:
+        lines.append("[이미지 출처] 자체 생성 이미지만 사용 (외부 출처 없음)")
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    return out_path
+
+
 def _placeholder_topic_image(out_path, label="주제 이미지"):
     img = _gradient(top=(40, 40, 60), bottom=(20, 20, 35))
     draw = ImageDraw.Draw(img)
@@ -210,12 +285,12 @@ def render_scene_frames(script, day_dir):
             continue  # 하이라이트가 부족하면 스킵
 
         font_size = scene.get("font_size", 56)
-        display_font = _font(font_size, display=True)
 
         if scene["layout"] == "full_bleed_text":
             frame = _gradient()
             draw = ImageDraw.Draw(frame)
-            _draw_centered_text(draw, text, display_font, (100, H // 2 - 300, W - 100, H // 2 + 300))
+            box = (100, H // 2 - 300, W - 100, H // 2 + 300)
+            _draw_centered_text(draw, text, _fit_font(draw, text, box, font_size), box)
 
         elif scene["layout"] == "image_top_text_bottom":
             src = os.path.join(day_dir, os.path.basename(scene["image_source"]))
@@ -234,7 +309,8 @@ def render_scene_frames(script, day_dir):
             frame = _cover_resize(base, (W, H)).filter(ImageFilter.GaussianBlur(0))
             frame = _bottom_panel(frame)
             draw = ImageDraw.Draw(frame)
-            _draw_centered_text(draw, text, display_font, (80, H - 560, W - 80, H - 80))
+            box = (80, H - 560, W - 80, H - 80)
+            _draw_centered_text(draw, text, _fit_font(draw, text, box, font_size), box)
         else:
             frame = _gradient()
             draw = ImageDraw.Draw(frame)
@@ -280,9 +356,12 @@ def generate_all_images(content, day_dir):
     with open(credits_path, "w", encoding="utf-8") as f:
         json.dump(credits, f, ensure_ascii=False, indent=2)
 
+    attribution_path = write_attribution(credits, topic, os.path.join(day_dir, "attribution.txt"))
+
     return {
         "paper_card": paper_card_path,
         "topic_images": saved,
         "frames": frames,
         "credits_file": credits_path,
+        "attribution_file": attribution_path,
     }
