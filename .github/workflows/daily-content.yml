@@ -16,6 +16,8 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    # 외부 소스(PubMed/뉴스/위키미디어) 응답이 지연돼도 무한 대기하지 않도록 제한
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
