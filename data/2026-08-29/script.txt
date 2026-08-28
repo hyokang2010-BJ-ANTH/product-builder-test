@@ -1,11 +1,11 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
-오늘 소개할 논문은 《International journal of cosmetic science》에 실린
-"New insights from data analysis of 12 global clinical studies on hair shedding" 입니다. (Li Y, Lin S, Paterson S 외, 2026 Aug 27)
+오늘 소개할 논문은 《Asian Pacific journal of cancer prevention : APJCP》에 실린
+"Do Generic EGFR-TKIs Perform as Well as Innovators? Real-World Evidence from Gefitinib-Treated EGFR-Mutated NSCLC in Indonesia" 입니다. (Nurhayati F, Andalucia R, Thobari JA 외, 2026 Aug 1)
 
 핵심 내용은 이렇습니다:
-- Cette recherche a analysé 12 études cliniques portant sur 805 participants (323 hommes et 482 femmes) issus de 8 pays (Chine, Indonésie, Royaume‐Uni, Inde, Brésil, Thaïlande, Turquie et États‐Unis) préoccupés par la perte de cheveux. [검수 필요: 한글 번역/의역 확인]
-- Dans les 3 études asiatiques récentes, alors que la chute totale de cheveux comprenait à la fois les cheveux tombés à la racine (cheveux exogènes présentant une extrémité en forme caractéristique d’une massue) et les cheveux cassés, les cheveux tombés à la racine représentaient la proportion prédominante, soit en moyenne 96,5 % de la chute totale chez les participantes chinoises, 98,8 % chez les participants chinois et 72,2 % chez les participantes indonésiennes. [검수 필요: 한글 번역/의역 확인]
-- L’analyse des données issues des 2 études chinoises récentes a révélé que la majeure partie de la chute de cheveux se produisait pendant le lavage (49,6 % chez les femmes et 74,1 % chez les hommes), suivie du séchage et du brossage après le séchage. [검수 필요: 한글 번역/의역 확인]
+- Result: A total of 192 patients met the inclusion criteria (innovator n = 124; generic n = 68). [검수 필요: 한글 번역/의역 확인]
+- The median PFS was 12.2 months (95% CI, 8.7-15.7) in the innovator group and 16.4 months (95% CI, 13.7-19.1) in the generic group. [검수 필요: 한글 번역/의역 확인]
+- Although the generic formulation demonstrated a numerically longer median PFS, the difference was not statistically significant (HR = 1.61, 95% CI, 0.98-2.63; p = 0.104). [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
