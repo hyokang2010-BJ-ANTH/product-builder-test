@@ -1,11 +1,11 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
-오늘 소개할 논문은 《Frontiers in immunology》에 실린
-"Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study" 입니다. (Chang HC, Lai VP, Su YJ 외, 2026)
+오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린
+"Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology" 입니다. (Wei J, Bu F, Zhao B 외, 2026 Aug 21)
 
 핵심 내용은 이렇습니다:
-- Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis. [검수 필요: 한글 번역/의역 확인]
-- During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses. [검수 필요: 한글 번역/의역 확인]
-- Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89). [검수 필요: 한글 번역/의역 확인]
+- Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. [검수 필요: 한글 번역/의역 확인]
+- Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. [검수 필요: 한글 번역/의역 확인]
+- Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

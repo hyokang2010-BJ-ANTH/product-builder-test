@@ -2,35 +2,34 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42656655",
-    "title": "Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
-    "journal": "Frontiers in immunology",
-    "pub_date": "2026",
+    "pmid": "42654016",
+    "title": "Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
+    "journal": "Molecules (Basel, Switzerland)",
+    "pub_date": "2026 Aug 21",
     "authors": [
-      "Chang HC",
-      "Lai VP",
-      "Su YJ"
+      "Wei J",
+      "Bu F",
+      "Zhao B"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Multicenter Study"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42656655/",
-    "id": "pmid:42656655",
-    "abstract": "Background: Alopecia areata (AA) is a T cell-mediated autoimmune disease characterized by systemic immune activation that may extend to ocular tissues. However, whether AA increases the long-term risk of glaucoma remains unclear. Methods: We conducted a multicenter retrospective cohort study using the TriNetX Global Collaborative Network, comprising over 144 million patients across 147 healthcare organizations. For cross-database validation, we additionally performed a parallel analysis in another dataset, the US collaborative network, restricting the population to patients from healthcare organizations in the United States. Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis. Exclusion criteria included prior glaucoma, malignancy, or death before the index date. Propensity score matching incorporated demographic, socioeconomic, and clinical factors, including hypertension, diabetes, conjunctivitis, and Sjögren syndrome. The primary endpoint was new-onset glaucoma, with additional assessment of subtypes. Stratified analyses were performed by age and sex, and sensitivity analyses applied alternative definitions, matching models, and washout periods. Hazard ratios (HRs) and 95% confidence intervals (CIs) were estimated. Results: The final matched cohort included 28,966 patients with AA and 28,966 controls. During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses. The risk was elevated for primary glaucoma (HR = 1.99; 95% CI, 1.10-3.62) and glaucoma-suspect states. Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89). For the cross-database validation, the association remained significant in the US collaborative network, with a hazard ratio of 2.11 (95% CI, 1.72-2.59). Conclusions: AA was associated with a higher long-term risk of glaucoma across the primary, sensitivity, and cross-database analyses. However, this observational study establishes an epidemiologic association only and does not demonstrate a direct biological or immune-mediated link. Further prospective studies incorporating detailed ophthalmic examinations, longitudinal intraocular pressure measurements, retinal imaging, and systemic or ocular immune biomarkers are needed to determine whether shared inflammatory pathways contribute to this association."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42654016/",
+    "id": "pmid:42654016",
+    "abstract": "Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. By simultaneously incorporating hydrophilic functional groups and lipophilic alkyl chains into the covalent organic skeleton, the material exhibits excellent amphiphilicity, high specific surface area, and well-ordered porous structures. Owing to its amphiphilic nature, amCOF disperses uniformly in aqueous physiological media and adapts favorably to the lipophilic microenvironment within hair follicles. Furthermore, the ordered porous architecture endows amCOF with rapid DHT adsorption kinetics, high adsorption capacity, and high removal efficiency. Functional assays demonstrate that amCOF effectively reverses the inhibitory effects of DHT on the proliferation and migration of human dermal papilla cells. In animal models, topical application of amCOF significantly reduces local DHT concentrations, promotes hair regrowth, and shows favorable biosafety profiles. Collectively, this work provides a new strategy for treating androgenetic alopecia by scavenging pathogenic lipophilic molecules from sebum using amphiphilic porous materials and also establishes a solid foundation for expanding the biomedical applications of COFs."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Frontiers in immunology》 - Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
+    "intro": "《Molecules (Basel, Switzerland)》 - Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
     "highlights": [
-      "Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis.",
-      "During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses.",
-      "Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89)."
+      "Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit.",
+      "Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions.",
+      "Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Frontiers in immunology》에 실린\n\"Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study\" 입니다. (Chang HC, Lai VP, Su YJ 외, 2026)\n\n핵심 내용은 이렇습니다:\n- Adults (≥18 years) with at least two visit records and a diagnosis of AA between 2005 and 2023 were included and matched 1:1 with individuals undergoing general health examinations without an AA diagnosis. [검수 필요: 한글 번역/의역 확인]\n- During a 15-year follow-up, AA was associated with a higher risk of glaucoma (HR = 1.89; 95% CI, 1.51-2.38), consistent across models and sensitivity analyses. [검수 필요: 한글 번역/의역 확인]\n- Stratified analyses revealed stronger associations in females (HR = 1.78; 95% CI, 1.36-2.33) and older adults (≥65 years; HR = 2.76; 95% CI, 1.95-3.89). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42656655/",
-    "reference_title": "Alopecia areata patients are associated with increased risk of glaucoma: a multicenter, retrospective cohort study",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린\n\"Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology\" 입니다. (Wei J, Bu F, Zhao B 외, 2026 Aug 21)\n\n핵심 내용은 이렇습니다:\n- Androgenetic alopecia (AGA) is a prevalent clinical disorder, and the key pathogenic factor is dihydrotestosterone (DHT) present in the pilosebaceous unit. [검수 필요: 한글 번역/의역 확인]\n- Current clinical therapeutic options are often associated with notable adverse effects, highlighting the urgent need for safer and more effective interventions. [검수 필요: 한글 번역/의역 확인]\n- Herein, a novel amphiphilic covalent organic framework (amCOF) is designed and synthesized. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42654016/",
+    "reference_title": "Amphiphilic Covalent Organic Framework for Efficient DHT Adsorption and Androgenetic Alopecia Treatment via Spectral Technology",
     "reference_type": "paper"
   },
   "assets": {
