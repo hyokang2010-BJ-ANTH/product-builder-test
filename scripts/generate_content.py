@@ -31,7 +31,10 @@ def pick_topic():
     # 1순위: 제목에 탈모/모발 키워드가 있는 논문
     for p in fresh:
         if is_on_topic(p["title"]):
-            p["abstract"] = fetch_abstract(p["pmid"])
+            abstract = fetch_abstract(p["pmid"])
+            if not abstract:
+                continue  # 사설·코멘터리 등 초록 없는 글은 대본을 만들 수 없다
+            p["abstract"] = abstract
             return p, used
 
     # 2순위: 제목엔 없지만 초록에 키워드가 충분히 나오는 논문

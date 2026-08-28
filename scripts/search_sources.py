@@ -4,6 +4,7 @@
 import re
 import time
 import urllib.parse as up
+import xml.etree.ElementTree as ET
 
 import feedparser
 import requests
@@ -57,22 +58,31 @@ def search_pubmed(max_results=15):
 
 
 def fetch_abstract(pmid):
-    """논문 초록(원문 영어)을 가져온다."""
-    params = {"db": "pubmed", "id": pmid, "rettype": "abstract", "retmode": "text"}
+    """논문 초록(원문 영어)을 가져온다.
+
+    XML로 받아 <AbstractText> 태그만 읽는다. 예전에는 text 모드 응답을
+    빈 줄 기준으로 잘라 "가장 긴 문단"을 초록으로 골랐는데, 저자가 많은 논문에서는
+    저자 명단 블록이 초록으로 잘못 선택돼 대본에 이름들이 그대로 나갔다.
+    """
+    params = {"db": "pubmed", "id": pmid, "retmode": "xml"}
     r = requests.get(f"{EUTILS}/efetch.fcgi", params=params, headers=HEADERS, timeout=TIMEOUT)
     r.raise_for_status()
-    text = r.text.strip()
-    # efetch abstract 텍스트 정리: 제목/저자 라인 이후 본문만 추출 시도
-    parts = re.split(r"\n\n+", text)
-    abstract = ""
-    for p in parts:
-        p = p.strip()
-        if len(p) > 200 and not p.lower().startswith(("author information", "doi:", "pmid:")):
-            abstract = p
-            break
-    if not abstract and parts:
-        abstract = max(parts, key=len)
-    return re.sub(r"\s+", " ", abstract).strip()
+
+    try:
+        root = ET.fromstring(r.content)
+    except ET.ParseError:
+        return ""
+
+    chunks = []
+    for node in root.iter("AbstractText"):
+        # itertext(): <i>, <sub> 같은 중첩 태그 안의 글자까지 모두 모은다
+        text = "".join(node.itertext()).strip()
+        if not text:
+            continue
+        label = node.get("Label")  # 구조화 초록의 BACKGROUND/METHODS/RESULTS 등
+        chunks.append(f"{label.capitalize()}: {text}" if label else text)
+
+    return re.sub(r"\s+", " ", " ".join(chunks)).strip()
 
 
 def search_news(max_per_query=5):
