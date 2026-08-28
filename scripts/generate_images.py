@@ -239,8 +239,10 @@ def render_scene_frames(script, day_dir):
             frame = _gradient()
             draw = ImageDraw.Draw(frame)
 
-        out_path = os.path.join(images_dir, f"frame_{scene['order']:02d}_{scene['id']}.png")
-        frame.save(out_path)
+        # 사진 배경이 들어간 프레임을 PNG로 저장하면 한 장에 3MB를 넘어
+        # 저장소가 빠르게 불어난다. 영상 소재로는 고품질 JPEG로 충분하다.
+        out_path = os.path.join(images_dir, f"frame_{scene['order']:02d}_{scene['id']}.jpg")
+        frame.convert("RGB").save(out_path, "JPEG", quality=92, optimize=True)
         frame_paths.append(out_path)
 
     return frame_paths
@@ -258,7 +260,14 @@ def generate_all_images(content, day_dir):
     paper_card_path = os.path.join(day_dir, "paper_card.png")
     render_paper_card(topic, paper_card_path)
 
-    keywords = ["hair loss treatment", "hair transplant surgery", "scalp dermatology"]
+    # 'hair'만 넣으면 청각 유모세포·식물 뿌리털 같은 무관한 사진이 걸리므로
+    # 탈모/두피 맥락이 분명한 표현을 쓴다
+    keywords = [
+        "androgenetic alopecia",
+        "hair transplant surgery",
+        "hair loss baldness",
+        "human scalp",
+    ]
     saved, credits = fetch_topic_images(keywords, images_dir, count=2)
     for i in range(len(saved), 2):
         _placeholder_topic_image(os.path.join(images_dir, f"topic_{i + 1}.jpg"))

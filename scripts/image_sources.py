@@ -50,6 +50,27 @@ def _polite_get(url, **kwargs):
 
 ALLOWED_LICENSE_PREFIXES = ("cc0", "public domain", "cc by")
 
+# 'hair'가 들어가지만 모발과 무관한 이미지를 걸러낸다.
+# 실제로 "hair cells"(속귀의 청각 유모세포) 현미경 사진이 선택된 적이 있다.
+IMAGE_EXCLUDE_PATTERNS = (
+    "hair cell",
+    "cochlea",
+    "auditory",
+    "inner ear",
+    "neuromast",
+    "zebrafish",
+    "gentamicin",
+    "root hair",  # 식물 뿌리털
+    "hair follicle mite",
+    "insect",
+    "caterpillar",
+)
+
+
+def _is_relevant_image(title):
+    lowered = (title or "").lower()
+    return not any(p in lowered for p in IMAGE_EXCLUDE_PATTERNS)
+
 FONT_DIR = os.path.join(ROOT, "assets", "fonts")
 FONT_PATH = os.path.join(FONT_DIR, "BlackHanSans-Regular.ttf")
 FONT_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/blackhansans/BlackHanSans-Regular.ttf"
@@ -80,7 +101,11 @@ def wikimedia_search_images(keyword, limit=3):
         "srlimit": limit,
     }
     r = _polite_get(COMMONS_API, params=params)
-    titles = [item["title"] for item in r.json().get("query", {}).get("search", [])]
+    titles = [
+        item["title"]
+        for item in r.json().get("query", {}).get("search", [])
+        if _is_relevant_image(item["title"])
+    ]
 
     results = []
     for title in titles:
