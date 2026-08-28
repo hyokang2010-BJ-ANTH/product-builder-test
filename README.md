@@ -37,12 +37,39 @@ assets/fonts/                무료 한글 폰트 (Black Han Sans, Noto Sans KR 
   pages.yml               pwa/ 변경 시 GitHub Pages 자동 배포
 ```
 
+## ⚠️ 먼저 확인: 이 저장소는 현재 **공개(public)** 상태입니다
+
+생성되는 모든 콘텐츠와 **`assets/my-photo/latest.jpg`에 올리는 본인 사진이 인터넷에 공개**됩니다.
+사진을 올릴 계획이라면 먼저 저장소를 비공개로 바꾸는 것을 권장합니다:
+**Settings → 맨 아래 Danger Zone → Change repository visibility → Make private**
+
+> 참고: 비공개로 바꾸면 GitHub Pages는 유료 플랜(Pro 이상)에서만 동작합니다.
+> 무료 플랜을 유지하려면 저장소는 공개로 두되 본인 사진은 넣지 않는 방법도 있습니다
+> (그 경우 "내 코멘트" 씬은 자동 생성된 배경 이미지로 채워집니다).
+
 ## 자동화 활성화 방법 (최초 1회)
 
-1. 이 브랜치를 `main`에 병합하세요. **GitHub Actions의 스케줄(cron)은 기본 브랜치에서만 동작합니다.**
-2. 저장소 **Settings → Pages → Build and deployment → Source** 를 **GitHub Actions**로 설정하세요.
-3. (선택) `workflow_dispatch`로 `daily-content` 워크플로를 한 번 수동 실행해 첫 콘텐츠를 생성하세요.
-4. 몇 분 후 `https://<사용자명>.github.io/<저장소명>/` 에서 대시보드가 보입니다.
+**현재 이 저장소의 기본 브랜치는 `claude/hair-content-automation-pmaa4z` 입니다.**
+`main` 브랜치는 존재하지 않으며, 병합할 필요가 없습니다. 스케줄(cron)은 기본 브랜치에서만
+동작하는데 이미 조건을 만족하므로, 아래 두 가지만 하면 됩니다.
+
+1. **Actions 활성화 확인** — 저장소 상단 **Actions** 탭을 엽니다.
+   - "Workflows aren't being run on this repository" 같은 안내와 함께 초록색
+     **I understand my workflows, go ahead and enable them** 버튼이 보이면 눌러주세요.
+   - 왼쪽 목록에 `Daily Hair Content Automation`이 보이면 이미 활성화된 상태입니다.
+2. **Pages 활성화** — **Settings → Pages → Build and deployment → Source** 를
+   **GitHub Actions**로 설정합니다.
+
+그다음 **Actions → Daily Hair Content Automation → Run workflow** 로 한 번 수동 실행하면
+첫 콘텐츠가 생성되고, 이어서 Pages 배포가 자동으로 따라옵니다. 몇 분 뒤
+`https://hyokang2010-bj-anth.github.io/product-builder-test/` 에서 대시보드를 볼 수 있습니다.
+
+이후에는 매일 오전 10시(KST)에 자동으로 실행됩니다.
+
+> 기본 브랜치 이름을 나중에 `main`으로 바꾸고 싶다면
+> **Settings → Branches → 브랜치 이름 옆 연필 아이콘**에서 변경할 수 있습니다.
+> `.github/workflows/pages.yml`의 `branches:` 목록에 `main`도 이미 포함되어 있어
+> 이름을 바꿔도 그대로 동작합니다.
 
 ## 아이폰 홈 화면 아이콘 + 알림
 

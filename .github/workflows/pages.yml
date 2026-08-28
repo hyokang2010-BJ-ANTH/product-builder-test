@@ -2,9 +2,15 @@ name: Deploy PWA to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, "claude/hair-content-automation-pmaa4z"]
     paths:
       - "pwa/**"
+  # 매일 콘텐츠 생성이 끝나면 Pages를 자동 재배포한다.
+  # (Actions의 GITHUB_TOKEN으로 만든 커밋은 push 이벤트를 트리거하지 않으므로
+  #  workflow_run 트리거가 반드시 필요하다.)
+  workflow_run:
+    workflows: ["Daily Hair Content Automation"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
