@@ -91,6 +91,8 @@ def search_pubmed(max_results=15):
                 "journal": item.get("fulljournalname") or item.get("source", ""),
                 "pub_date": item.get("pubdate", ""),
                 "authors": [a.get("name") for a in item.get("authors", [])][:3],
+                # 철회 공지·정오표 등을 걸러내는 데 쓴다 (예: "Retraction of Publication")
+                "pubtypes": item.get("pubtype") or [],
                 "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
                 "id": f"pmid:{pmid}",
             }

@@ -5,10 +5,33 @@
 """
 import re
 
-from common import RELEVANCE_KEYWORDS, USED_TOPICS_PATH, load_json, save_json, today_str
+from common import (
+    EXCLUDED_PUBTYPES,
+    EXCLUDED_TITLE_PREFIXES,
+    RELEVANCE_KEYWORDS,
+    USED_TOPICS_PATH,
+    load_json,
+    save_json,
+    today_str,
+)
 from search_sources import fetch_abstract, search_news, search_pubmed
 
 NUMBER_PATTERN = re.compile(r"\b\d+(?:\.\d+)?\s?%|\b\d+(?:,\d{3})*(?:\.\d+)?\b")
+# 초록에 섞여 들어오는 인용/링크 문장은 대본으로 읽을 수 없으므로 하이라이트에서 제외한다
+CITATION_PATTERN = re.compile(r"https?://|doi\.org|\bdoi:", re.IGNORECASE)
+
+
+def is_publishable(paper):
+    """쇼츠 소재로 쓸 수 있는 원논문인지 확인한다.
+
+    PubMed는 철회 공지("RETRACTION: ...")나 정오표도 최신 문헌으로 색인한다.
+    이런 글이 선정되면 철회된 연구를 최신 성과처럼 소개하게 되므로 반드시 걸러야 한다.
+    """
+    types = {str(t).strip().lower() for t in (paper.get("pubtypes") or [])}
+    if types & EXCLUDED_PUBTYPES:
+        return False
+    title = (paper.get("title") or "").strip().lower()
+    return not title.startswith(EXCLUDED_TITLE_PREFIXES)
 
 
 def is_on_topic(title):
@@ -25,7 +48,7 @@ def pick_topic():
     used = load_json(USED_TOPICS_PATH, {"ids": []})
     used_ids = set(used.get("ids", []))
 
-    papers = search_pubmed()
+    papers = [p for p in search_pubmed() if is_publishable(p)]
     fresh = [p for p in papers if p["id"] not in used_ids]
 
     # 1순위: 제목에 탈모/모발 키워드가 있는 논문
@@ -64,7 +87,11 @@ def extract_highlights(abstract, max_items=3):
     if not abstract:
         return []
     sentences = re.split(r"(?<=[.!?])\s+", abstract)
-    scored = [(s, len(NUMBER_PATTERN.findall(s))) for s in sentences if len(s) > 20]
+    scored = [
+        (s, len(NUMBER_PATTERN.findall(s)))
+        for s in sentences
+        if len(s) > 20 and not CITATION_PATTERN.search(s)
+    ]
     scored.sort(key=lambda x: x[1], reverse=True)
     return [s for s, score in scored[:max_items] if score > 0] or sentences[:1]
 

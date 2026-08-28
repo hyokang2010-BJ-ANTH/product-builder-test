@@ -29,6 +29,33 @@ PUBMED_QUERY = (
 
 # 논문이 실제로 탈모/모발 주제인지 판정할 때 쓰는 핵심 키워드.
 # 제목에 하나라도 있으면 확실한 주제로 본다.
+# 쇼츠 소재로 쓸 수 없는 문헌 유형.
+# PubMed에는 원논문뿐 아니라 철회 공지·정오표·사설도 함께 색인된다.
+# 실제로 자동 실행에서 "RETRACTION: ..." 공지가 최신 연구로 선정된 적이 있어 걸러낸다.
+EXCLUDED_PUBTYPES = {
+    "retraction of publication",
+    "retracted publication",
+    "published erratum",
+    "erratum",
+    "correction",
+    "comment",
+    "editorial",
+    "expression of concern",
+}
+
+EXCLUDED_TITLE_PREFIXES = (
+    "retraction",
+    "retracted",
+    "withdrawn",
+    "erratum",
+    "correction",
+    "corrigendum",
+    "author correction",
+    "expression of concern",
+    "comment on",
+    "editorial",
+)
+
 RELEVANCE_KEYWORDS = [
     "alopecia",
     "hair",
