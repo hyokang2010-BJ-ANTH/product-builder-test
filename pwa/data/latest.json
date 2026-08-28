@@ -2,34 +2,34 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42663218",
-    "title": "Do Generic EGFR-TKIs Perform as Well as Innovators? Real-World Evidence from Gefitinib-Treated EGFR-Mutated NSCLC in Indonesia",
-    "journal": "Asian Pacific journal of cancer prevention : APJCP",
-    "pub_date": "2026 Aug 1",
+    "pmid": "42663085",
+    "title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
+    "journal": "Aging cell",
+    "pub_date": "2026 Sep",
     "authors": [
-      "Nurhayati F",
-      "Andalucia R",
-      "Thobari JA"
+      "Wang L",
+      "Zhao B",
+      "Yang J"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42663218/",
-    "id": "pmid:42663218",
-    "abstract": "Background: Gefitinib is standard first-line therapy for $EGFR$-mutated non-small cell lung cancer (NSCLC). Following Indonesia's 2020 transition to generic gefitinib in national procurement, real-world comparative data remain limited. This study compared clinical outcomes between innovator and generic gefitinib in Indonesian referral hospitals. Methods: We conducted a retrospective cohort study of adults with EGFR-mutated NSCLC receiving first-line innovator or generic gefitinib between 2019-2022 at national cancer center and national respiratory center. The effectiveness was evaluated using progression-free survival (PFS) estimated by Kaplan-Meier and compared with the log-rank test; hazard ratios (HRs) were derived from Cox regression. Adverse events (AEs) were abstracted from patients' medical records based on physicians' documentation in the clinical progress notes and analyzed using Mann-Whitney tests. Multivariable analyses were performed to evaluate the association between gefitinib type (generic vs. innovator) and clinical outcomes while adjusting for potential confounders, including demographics, smoking status, comorbidities, disease stage, ECOG performance status, radiotherapy history, COVID-19 history, mutation subtype, and hospital. The follow-up period was 18 months within a 4-year horizon. Result: A total of 192 patients met the inclusion criteria (innovator n = 124; generic n = 68). The median PFS was 12.2 months (95% CI, 8.7-15.7) in the innovator group and 16.4 months (95% CI, 13.7-19.1) in the generic group. Although the generic formulation demonstrated a numerically longer median PFS, the difference was not statistically significant (HR = 1.61, 95% CI, 0.98-2.63; p = 0.104). Multivariate analysis showed that no baseline variable was significantly associated with PFS after adjustment. Safety profiles were generally comparable, but dermatologic and gastrointestinal AEs occurred more frequently with the generic formulation, with significantly higher frequencies (rate-adjusted) of diarrhoea, paronychia, and stomatitis (p = 0.002, 0.011, and 0.001, respectively). Other AEs, including dyspepsia, alopecia, neuropathy, and AST/ALT elevation did not differ significantly between groups. Conclusion: The generic formulation demonstrated comparable efficacy to the innovator drug in terms of progression-free survival, although a higher incidence of certain mild-to-moderate adverse events was noted. These findings support the therapeutic use of the generic gefitinib with careful monitoring of tolerability."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
+    "id": "pmid:42663085",
+    "abstract": "Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive. Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice. Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration. Mechanistically, increased TPP1 mobilizes bulge hair follicle stem cells (bHFSCs) by coordinating telomere capping and telomerase recruitment. By facilitating the synchronization and transition of hair follicles from the quiescent telogen phase to the proliferative anagen phase, TPP1 drives bHFSCs proliferation, differentiation, and migration. These findings identify TPP1 as a master regulator of hair regeneration through telomere capping and elongation, and suggest that topical TELODIN represents a novel therapeutic strategy for advancing hair growth. This work establishes a therapeutic framework for telomere-targeted interventions against alopecia."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Asian Pacific journal of cancer prevention : APJCP》 - Do Generic EGFR-TKIs Perform as Well as Innovators? Real-World Evidence from Gefitinib-Treated EGFR-Mutated NSCLC in Indonesia",
+    "intro": "《Aging cell》 - Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
     "highlights": [
-      "Result: A total of 192 patients met the inclusion criteria (innovator n = 124; generic n = 68).",
-      "The median PFS was 12.2 months (95% CI, 8.7-15.7) in the innovator group and 16.4 months (95% CI, 13.7-19.1) in the generic group.",
-      "Although the generic formulation demonstrated a numerically longer median PFS, the difference was not statistically significant (HR = 1.61, 95% CI, 0.98-2.63; p = 0.104)."
+      "Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive.",
+      "Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice.",
+      "Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Asian Pacific journal of cancer prevention : APJCP》에 실린\n\"Do Generic EGFR-TKIs Perform as Well as Innovators? Real-World Evidence from Gefitinib-Treated EGFR-Mutated NSCLC in Indonesia\" 입니다. (Nurhayati F, Andalucia R, Thobari JA 외, 2026 Aug 1)\n\n핵심 내용은 이렇습니다:\n- Result: A total of 192 patients met the inclusion criteria (innovator n = 124; generic n = 68). [검수 필요: 한글 번역/의역 확인]\n- The median PFS was 12.2 months (95% CI, 8.7-15.7) in the innovator group and 16.4 months (95% CI, 13.7-19.1) in the generic group. [검수 필요: 한글 번역/의역 확인]\n- Although the generic formulation demonstrated a numerically longer median PFS, the difference was not statistically significant (HR = 1.61, 95% CI, 0.98-2.63; p = 0.104). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42663218/",
-    "reference_title": "Do Generic EGFR-TKIs Perform as Well as Innovators? Real-World Evidence from Gefitinib-Treated EGFR-Mutated NSCLC in Indonesia",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Aging cell》에 실린\n\"Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells\" 입니다. (Wang L, Zhao B, Yang J 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Telomere shortening drives hair follicle senescence, yet successful reversal of this aging process has remained elusive. [검수 필요: 한글 번역/의역 확인]\n- Here, we report that stem cell overexpression of Acd, the gene encoding TPP1 (telomere protection protein 1)-a shelterin component that recruits telomerase-accelerates hair regeneration in mice. [검수 필요: 한글 번역/의역 확인]\n- Stabilization of TPP1 protein via topical application of TELODIN, a synthetic octapeptide that inhibits TPP1 degradation, similarly promotes hair regeneration. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42663085/",
+    "reference_title": "Shelterin TPP1 Promotes Hair Regeneration Through Activating Bulge Hair Follicle Stem Cells",
     "reference_type": "paper"
   },
   "assets": {
