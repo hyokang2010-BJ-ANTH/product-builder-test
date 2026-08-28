@@ -133,6 +133,10 @@ python scripts/pipeline.py
    인용되고 `[검수 필요]` 표시가 붙습니다. 그대로 읽지 말고 다듬어주세요.
 2. **논문이 실제로 그 주장을 하는지** — 자동 추출은 초록의 문장을 고르는 것이지
    내용을 이해하는 것이 아닙니다. 의학 정보인 만큼 원문 링크로 한 번 확인하세요.
+3. **이미지 저작권과 인물 사진** — `data/YYYY-MM-DD/attribution.txt`에 그날 쓰인
+   논문·이미지 출처가 영상 설명란에 붙여넣을 형태로 정리됩니다. 위키미디어 의학
+   사진에는 **실제 인물의 얼굴이 포함될 수 있으니** 업로드 전 프레임을 확인하고,
+   부담스러우면 해당 이미지를 교체하세요. CC BY-SA가 섞이면 파일에 경고가 붙습니다.
 
 ## 자동 걸러내는 것들 (실제 운영에서 발견해 대응한 사례)
 
@@ -142,9 +146,16 @@ python scripts/pipeline.py
 | 증상 | 원인 | 대응 위치 |
 | --- | --- | --- |
 | 탈모와 무관한 논문 선정 (두피 백선 진단법 등) | `scalp` 키워드가 지나치게 광범위 | `common.py`의 `PUBMED_QUERY`, `RELEVANCE_KEYWORDS` |
+| 부작용으로 탈모만 언급한 논문 선정 (폐암 항암제 등) | 제목에 없으면 초록으로 판정하던 경로 | `generate_content.pick_topic` (제목 기준으로만 판정) |
 | 대본에 저자 명단이 초록 대신 노출 | efetch 텍스트 파싱이 "가장 긴 문단"을 초록으로 오인 | `search_sources.fetch_abstract` (XML 파싱) |
+| 대본이 통째로 프랑스어로 출력 | 번역 초록 `<OtherAbstract>`까지 함께 수집 | `search_sources.fetch_abstract` (`<Abstract>`만 읽음) |
 | 철회(RETRACTION) 공지가 최신 논문으로 선정 | PubMed는 철회 공지·정오표도 함께 색인 | `generate_content.is_publishable` |
 | 429 Too Many Requests로 실행 실패 | NCBI는 API 키 없이 초당 3회 제한 | `search_sources._eutils_get` (간격 강제 + 백오프) |
+| 이미지가 늘 플레이스홀더로 나옴 | 위키미디어가 연락처 없는 User-Agent를 차단 | `image_sources.HEADERS`, `_polite_get` |
+| 이미지를 받아도 프레임에 반영 안 됨 | 저장 확장자(.png)와 템플릿 참조(.jpg) 불일치 | `generate_images.fetch_topic_images` (JPEG 정규화) |
+| 청각 유모세포(hair cell) 사진이 선택됨 | 'hair'가 모발 외 의미로도 쓰임 | `image_sources.IMAGE_EXCLUDE_PATTERNS` |
+| 자막에 `≥` 등이 빈칸으로 렌더링 | 헤드라인 폰트에 수학·그리스 기호 글리프 없음 | `generate_images.SYMBOL_REPLACEMENTS` |
+| 긴 자막이 패널 밖으로 넘침 | 고정 글자 크기 사용 | `generate_images._fit_font` (자동 축소) |
 | 핵심 포인트가 1개만 나와 씬이 빔 | 수치 없는 리뷰 논문에서 문장이 전부 탈락 | `generate_content.extract_highlights` |
 
 ## 그 밖의 동작 방식
