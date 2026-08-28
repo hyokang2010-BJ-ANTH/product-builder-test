@@ -1,11 +1,9 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
-오늘 소개할 논문은 《The Journal of dermatology》에 실린
-"RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison" 입니다. (연구진 외, 2026 Aug 27)
+오늘 소개할 논문은 《Prostaglandins & other lipid mediators》에 실린
+"Role of Prostaglandins in Androgenetic Alopecia" 입니다. (Hu J, Liao L, Yang X 외, 2026 Aug 27)
 
 핵심 내용은 이렇습니다:
-- 6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372. [검수 필요: 한글 번역/의역 확인]
-- Babul, "Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison," The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959. [검수 필요: 한글 번역/의역 확인]
-- The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements. [검수 필요: 한글 번역/의역 확인]
+- Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

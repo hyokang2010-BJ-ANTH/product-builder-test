@@ -2,39 +2,45 @@
   "date": "2026-08-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42661279",
-    "title": "RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
-    "journal": "The Journal of dermatology",
+    "pmid": "42660347",
+    "title": "Role of Prostaglandins in Androgenetic Alopecia",
+    "journal": "Prostaglandins & other lipid mediators",
     "pub_date": "2026 Aug 27",
-    "authors": [],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42661279/",
-    "id": "pmid:42661279",
-    "abstract": "A. Babul, D. Mehta, Y. Soliman, M. Hussain, and N. Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959. The above article, published online on 11 October 2025 in Wiley Online Library (wileyonlinelibrary.com), has been retracted by agreement between the journal Editor-in-Chief, Dr. Takafumi Kadono; the Japanese Dermatological Association; and John Wiley & Sons Australia, Ltd.. The journal received concerns from authors of a separate article published in another Wiley journal [1] that this article may have plagiarized results from their own work. The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements. When the authors were asked for their response to the concerns, cooperated fully, acknowledged that they did not have access to the proprietary individual patient data for ritlecitinib, should not have implied that all of their comparative data analysis was performed de novo, and should have provided explicit attribution for data in Table 3, Table 4, and Figure 2. Because the data and analysis was taken without either permission or attribution, and because readers were misled about the analysis reported, the Editor-in-Chief has lost confidence in the article and its conclusions. Therefore, the article must be retracted. Upon being informed of this decision the authors disagreed with the decision to retract and instead suggested issuance of a correction as the appropriate remedy. [1] D. Aceituno, C.G. Fawsitt, G.M. Power, E. Law, S. Vaghela, and H. Thom, \"Systematic review and indirect treatment comparisons of ritlecitinib against baricitinib in alopecia areata,\" Journal of The European Academy of Dermatology & Venereology 39, no. 6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372."
+    "authors": [
+      "Hu J",
+      "Liao L",
+      "Yang X"
+    ],
+    "pubtypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42660347/",
+    "id": "pmid:42660347",
+    "abstract": "Androgenetic alopecia (AGA) is the most prevalent progressive hair loss disorder worldwide, and its pathogenesis is closely linked to dysregulated androgen metabolism. Conventional therapies for AGA have limited efficacy and adverse reactions. Prostaglandins (PGs), a class of lipid signaling molecules, have recently been implicated in AGA development. This review systematically examines the association of PGs with key pathogenic mechanisms of AGA, including androgen pathway dysregulation, immune response, inflammation, vascular microenvironment disturbances, and lipid metabolism disorders. Accumulating evidence indicates that the homeostatic imbalance of PGs may represent a core common pathological mechanism in AGA. In alopecic scalp tissues of AGA patients, prostaglandin D₂ (PGD₂) and prostaglandin I₂ (PGI₂) levels are significantly elevated, whereas prostaglandin E₂ (PGE₂) and prostaglandin F₂α (PGF₂α) levels are markedly reduced. Moreover, PG expression levels strongly correlated with the clinical stage and disease duration of AGA. Therefore, PG-related parameters can serve as novel non-invasive biomarkers for early and differential diagnosis of AGA. Additionally, the PG pathway is a promising therapeutic target for AGA. Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. This review systematically summarizes the roles of PGs in the pathogenesis of AGA and research advances in PG-based diagnosis and therapy, aiming to provide a valuable reference for clinicians and researchers."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《The Journal of dermatology》 - RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
+    "intro": "《Prostaglandins & other lipid mediators》 - Role of Prostaglandins in Androgenetic Alopecia",
     "highlights": [
-      "6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372.",
-      "Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959.",
-      "The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements."
+      "Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《The Journal of dermatology》에 실린\n\"RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison\" 입니다. (연구진 외, 2026 Aug 27)\n\n핵심 내용은 이렇습니다:\n- 6 (2025): 1134-1142, https://doi.org/10.1111/jdv.20372. [검수 필요: 한글 번역/의역 확인]\n- Babul, \"Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison,\" The Journal of Dermatology (Early View): https://doi.org/10.1111/1346-8138.17959. [검수 필요: 한글 번역/의역 확인]\n- The concerns include direct numerical overlap of their core results reported in Table 3, Table 4, and Figure 2 as well as use without permission or attribution of the private individual patient data (IPD) for ritlecitinib that only the authors of the previously published article had access to, due to proprietary agreements. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42661279/",
-    "reference_title": "RETRACTION: Comparative Efficacy of Janus Kinase Inhibitors Indicated for Severe Alopecia Areata: A Bayesian Network Meta-Analysis and Matching-Adjusted Indirect Comparison",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Prostaglandins & other lipid mediators》에 실린\n\"Role of Prostaglandins in Androgenetic Alopecia\" 입니다. (Hu J, Liao L, Yang X 외, 2026 Aug 27)\n\n핵심 내용은 이렇습니다:\n- Several novel agents, including PG analogs, receptor modulators, and 15-hydroxyprostaglandin dehydrogenase inhibitors, have shown potential applications in AGA treatment. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42660347/",
+    "reference_title": "Role of Prostaglandins in Androgenetic Alopecia",
     "reference_type": "paper"
   },
   "assets": {
     "paper_card": "paper_card.png",
     "topic_images": [
-      "images/topic_1.png"
+      "images/topic_1.png",
+      "images/topic_2.png"
     ],
     "frames": [
       "images/frame_01_hook.png",
       "images/frame_02_paper_intro.png",
       "images/frame_03_key_finding_1.png",
-      "images/frame_04_key_finding_2.png",
       "images/frame_05_my_take.png",
       "images/frame_06_cta.png"
     ],
