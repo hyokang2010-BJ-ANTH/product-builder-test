@@ -1,11 +1,11 @@
 오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.
 
-오늘 소개할 논문은 《Molecules (Basel, Switzerland)》에 실린
-"Pungenin Promotes Hair Growth in Mouse Models of Androgenic Alopecia Through Transcriptional Regulation of the PI3K/AKT/mTOR Axis" 입니다. (Zhai W, Yang J, Zhang L 외, 2026 Aug 17)
+오늘 소개할 논문은 《Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]》에 실린
+"Can Transplanted Hair Follicles Survive in the Absence of Arrector Pili Muscle Attachments?" 입니다. (FitzGerald H, Morriss S, Nirenberg A 외, 2026 Aug 31)
 
 핵심 내용은 이렇습니다:
-- Androgenetic alopecia (AGA) is the most common form of hair loss, characterized by the progressive miniaturization of hair follicles driven by dihydrotestosterone (DHT)-mediated androgen receptor signaling. [검수 필요: 한글 번역/의역 확인]
-- Current pharmacotherapies remain limited in efficacy and are often associated with undesirable side effects. [검수 필요: 한글 번역/의역 확인]
-- Transcriptomic profiling combined with network pharmacology suggested that the protective effects of pungenin are associated with transcriptional regulation of the PI3K/AKT/FoxO/mTOR axis, identifying 25 putative therapeutic targets, with qPCR further confirming the altered expression of key genes within this network. [검수 필요: 한글 번역/의역 확인]
+- Methods: Scalp biopsies from recipient and native donor areas of 5 patients with suboptimal graft survival after HT were analyzed. [검수 필요: 한글 번역/의역 확인]
+- Two 4-mm punch biopsies were obtained in each case for horizontal and vertical sectioning. [검수 필요: 한글 번역/의역 확인]
+- In recipient areas after FU excision (FUE) and FU transplantation, identifiable APMs were associated with 17.2% and 30.0% of FUs, respectively, compared with 25.6% in native occipital donor areas. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
