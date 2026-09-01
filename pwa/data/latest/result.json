@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "topic": {
     "source_type": "paper",
-    "pmid": "42669171",
-    "title": "Leek-Derived Exosome-like Nanoparticles Inhibit Hair Growth by Controlling the Differentiation Fate of Hair Follicle Stem Cells",
-    "journal": "ACS applied bio materials",
-    "pub_date": "2026 Aug 24",
+    "pmid": "42674883",
+    "title": "Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
+    "journal": "Journal of dermatological science",
+    "pub_date": "2026 Aug 22",
     "authors": [
-      "Guan L",
-      "Zhang C",
-      "Wang D"
+      "Sentoku K",
+      "Hisamoto T",
+      "Inoue A"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42669171/",
-    "id": "pmid:42669171",
-    "abstract": "With the changing pace of life and increasing environmental pressures, the prevalence of hirsutism has increased. Hair follicle stem cells (HFSCs) are the starting factor and the key factor in hair follicle regeneration. In this study, we conducted in vitro and in vivo experiments to systematically examine the effects of exosome-like nanoparticles derived from leeks (LELNs) on the proliferation and differentiation of HFSCs and the underlying molecular mechanisms. LELNs promoted the proliferation and migration of HFSCs and improved their endogenous antioxidant and antibacterial capacities. In addition, LELNs inhibited the expression of NLRP3 protein in the classical pathway of HFSCs and exerted anti-inflammatory effects, which reduced the release of inflammatory factors. Furthermore, these particles inhibited hair maturation in rat models by inhibiting the Wnt/β-catenin signaling pathway and triggering HFSC differentiation into sebaceous gland cells. In conclusion, this study highlights LELNs altering HFSC differentiation direction by inhibiting the Wnt/β-catenin pathway and the potential therapeutic efficacy of LELNs in managing hirsutism."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42674883/",
+    "id": "pmid:42674883",
+    "abstract": "Background: Autosomal recessive woolly hair (ARWH) is a congenital hair disorder characterized by excessively curled scalp hair with limited growth. One of the causative genes, LIPH encoding PA-PLA1α, is involved in a lipid mediator-dependent signaling, and loss-of-function variants in C3orf52 encoding the transmembrane protein associated with PA-PLA1α, have recently been implicated in ARWH. The pathogenic mechanisms for ARWH, however, remain incompletely understood. Objective: To characterize LIPH gene-variants responsible for ARWH and to further clarify the molecular properties of C3orf52. Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed. C3orf52 expression was additionally assessed in human scalp skin sections. Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress. We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini. In addition, we confirmed that C3orf52 anchored PA-PLA1α on the plasma membrane in cultured cells. Finally, we showed that secretion of the downstream effector TGF-α via the LPA receptor LPA6 was markedly decreased in cells expressing each of the mutant PA-PLA1α proteins tested. Conclusion: Our results indicate that LIPH gene variants cause ARWH through multiple pathogenic pathways, while also providing new insight into the role of C3orf52 in hair follicle development in humans."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《ACS applied bio materials》 - Leek-Derived Exosome-like Nanoparticles Inhibit Hair Growth by Controlling the Differentiation Fate of Hair Follicle Stem Cells",
+    "intro": "《Journal of dermatological science》 - Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
     "highlights": [
-      "With the changing pace of life and increasing environmental pressures, the prevalence of hirsutism has increased.",
-      "Hair follicle stem cells (HFSCs) are the starting factor and the key factor in hair follicle regeneration.",
-      "In this study, we conducted in vitro and in vivo experiments to systematically examine the effects of exosome-like nanoparticles derived from leeks (LELNs) on the proliferation and differentiation of HFSCs and the underlying molecular mechanisms."
+      "Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed.",
+      "Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress.",
+      "We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《ACS applied bio materials》에 실린\n\"Leek-Derived Exosome-like Nanoparticles Inhibit Hair Growth by Controlling the Differentiation Fate of Hair Follicle Stem Cells\" 입니다. (Guan L, Zhang C, Wang D 외, 2026 Aug 24)\n\n핵심 내용은 이렇습니다:\n- With the changing pace of life and increasing environmental pressures, the prevalence of hirsutism has increased. [검수 필요: 한글 번역/의역 확인]\n- Hair follicle stem cells (HFSCs) are the starting factor and the key factor in hair follicle regeneration. [검수 필요: 한글 번역/의역 확인]\n- In this study, we conducted in vitro and in vivo experiments to systematically examine the effects of exosome-like nanoparticles derived from leeks (LELNs) on the proliferation and differentiation of HFSCs and the underlying molecular mechanisms. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42669171/",
-    "reference_title": "Leek-Derived Exosome-like Nanoparticles Inhibit Hair Growth by Controlling the Differentiation Fate of Hair Follicle Stem Cells",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Journal of dermatological science》에 실린\n\"Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52\" 입니다. (Sentoku K, Hisamoto T, Inoue A 외, 2026 Aug 22)\n\n핵심 내용은 이렇습니다:\n- Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed. [검수 필요: 한글 번역/의역 확인]\n- Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress. [검수 필요: 한글 번역/의역 확인]\n- We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42674883/",
+    "reference_title": "Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
     "reference_type": "paper"
   },
   "assets": {
