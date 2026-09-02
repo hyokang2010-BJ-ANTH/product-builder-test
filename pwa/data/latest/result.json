@@ -1,35 +1,36 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "topic": {
     "source_type": "paper",
-    "pmid": "42674883",
-    "title": "Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
-    "journal": "Journal of dermatological science",
-    "pub_date": "2026 Aug 22",
+    "pmid": "42675998",
+    "title": "Leukotrichia: A comprehensive review of follicular depigmentation",
+    "journal": "The Journal of international medical research",
+    "pub_date": "2026 Sep",
     "authors": [
-      "Sentoku K",
-      "Hisamoto T",
-      "Inoue A"
+      "Iamsumang W",
+      "Kositkuljorn C",
+      "Leerunyakul K"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42674883/",
-    "id": "pmid:42674883",
-    "abstract": "Background: Autosomal recessive woolly hair (ARWH) is a congenital hair disorder characterized by excessively curled scalp hair with limited growth. One of the causative genes, LIPH encoding PA-PLA1α, is involved in a lipid mediator-dependent signaling, and loss-of-function variants in C3orf52 encoding the transmembrane protein associated with PA-PLA1α, have recently been implicated in ARWH. The pathogenic mechanisms for ARWH, however, remain incompletely understood. Objective: To characterize LIPH gene-variants responsible for ARWH and to further clarify the molecular properties of C3orf52. Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed. C3orf52 expression was additionally assessed in human scalp skin sections. Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress. We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini. In addition, we confirmed that C3orf52 anchored PA-PLA1α on the plasma membrane in cultured cells. Finally, we showed that secretion of the downstream effector TGF-α via the LPA receptor LPA6 was markedly decreased in cells expressing each of the mutant PA-PLA1α proteins tested. Conclusion: Our results indicate that LIPH gene variants cause ARWH through multiple pathogenic pathways, while also providing new insight into the role of C3orf52 in hair follicle development in humans."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42675998/",
+    "id": "pmid:42675998",
+    "abstract": "Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft. Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance. The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types. This narrative review, based on a structured literature search of biomedical databases, summarizes current evidence on terminology, follicular biology, mechanisms, etiologic spectrum, diagnostic approach, management, and prognosis of leukotrichia. Leukotrichia is best regarded as a final manifestation of diverse mechanisms, including congenital absence of melanocytes, immune-mediated melanocyte destruction, collapse of follicular immune privilege, melanocyte stem cell depletion, functional inhibition of melanogenesis, and structural injury to the follicular pigmentary unit. In vitiligo, hair depigmentation may indicate depletion of the follicular melanocyte reservoir and has been associated with a poorer response to medical and phototherapeutic interventions. In other settings, it may reflect stable developmental absence or structural injury with limited potential for repigmentation. Management is primarily cause-directed, and hair repigmentation should be evaluated separately from surrounding skin repigmentation in both clinical practice and research. Key priorities include standardization of terminology, development of specific outcome measures, independent reporting of hair and skin responses, and identification of predictive biomarkers for restoration of follicular pigmentation."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Journal of dermatological science》 - Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
+    "intro": "《The Journal of international medical research》 - Leukotrichia: A comprehensive review of follicular depigmentation",
     "highlights": [
-      "Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed.",
-      "Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress.",
-      "We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini."
+      "Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft.",
+      "Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance.",
+      "The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Journal of dermatological science》에 실린\n\"Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52\" 입니다. (Sentoku K, Hisamoto T, Inoue A 외, 2026 Aug 22)\n\n핵심 내용은 이렇습니다:\n- Methods: Wild-type and five mutant PA-PLA1α (p.W108R, p.H205R, p.C246S, p.H248N, and p.V437Gfs*4), as well as wild-type C3orf52, were overexpressed in cultured cells, and a series of expression and functional analyzes were performed. [검수 필요: 한글 번역/의역 확인]\n- Results: We demonstrated that the three mutant PA-PLA1α (p.W108R, p.H205R, and p.V437Gfs*4) were not secreted from the cells and induced more severe endoplasmic reticulum stress. [검수 필요: 한글 번역/의역 확인]\n- We further showed that only the C-terminal variant p.V437Gfs*4 exhibited a significantly reduced binding affinity to C3orf52, consistent with the finding that PA-PLA1α and C3orf52 interacted via their C-termini. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42674883/",
-    "reference_title": "Different properties of loss-of-function between variants in the LIPH gene responsible for autosomal recessive woolly hair and further characterization of C3orf52",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《The Journal of international medical research》에 실린\n\"Leukotrichia: A comprehensive review of follicular depigmentation\" 입니다. (Iamsumang W, Kositkuljorn C, Leerunyakul K 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft. [검수 필요: 한글 번역/의역 확인]\n- Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance. [검수 필요: 한글 번역/의역 확인]\n- The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42675998/",
+    "reference_title": "Leukotrichia: A comprehensive review of follicular depigmentation",
     "reference_type": "paper"
   },
   "assets": {
