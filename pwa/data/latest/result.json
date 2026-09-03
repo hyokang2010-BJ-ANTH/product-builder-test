@@ -1,36 +1,35 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "topic": {
     "source_type": "paper",
-    "pmid": "42675998",
-    "title": "Leukotrichia: A comprehensive review of follicular depigmentation",
-    "journal": "The Journal of international medical research",
-    "pub_date": "2026 Sep",
+    "pmid": "42684692",
+    "title": "Delphi Consensus Statement on Treatment of Severe Alopecia Areata in US Adults",
+    "journal": "JAMA dermatology",
+    "pub_date": "2026 Sep 2",
     "authors": [
-      "Iamsumang W",
-      "Kositkuljorn C",
-      "Leerunyakul K"
+      "Gregoire S",
+      "Dewey E",
+      "Biba U"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42675998/",
-    "id": "pmid:42675998",
-    "abstract": "Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft. Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance. The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types. This narrative review, based on a structured literature search of biomedical databases, summarizes current evidence on terminology, follicular biology, mechanisms, etiologic spectrum, diagnostic approach, management, and prognosis of leukotrichia. Leukotrichia is best regarded as a final manifestation of diverse mechanisms, including congenital absence of melanocytes, immune-mediated melanocyte destruction, collapse of follicular immune privilege, melanocyte stem cell depletion, functional inhibition of melanogenesis, and structural injury to the follicular pigmentary unit. In vitiligo, hair depigmentation may indicate depletion of the follicular melanocyte reservoir and has been associated with a poorer response to medical and phototherapeutic interventions. In other settings, it may reflect stable developmental absence or structural injury with limited potential for repigmentation. Management is primarily cause-directed, and hair repigmentation should be evaluated separately from surrounding skin repigmentation in both clinical practice and research. Key priorities include standardization of terminology, development of specific outcome measures, independent reporting of hair and skin responses, and identification of predictive biomarkers for restoration of follicular pigmentation."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42684692/",
+    "id": "pmid:42684692",
+    "abstract": "Importance: Alopecia areata (AA) is an autoimmune hair loss disorder that affects more than 7 million people in the US. Before US Food and Drug Administration-approved trials of Janus kinase inhibitors, numerous treatments had been explored, with variable efficacy and quality of evidence. The absence of standardized treatment guidelines may lead to poor treatment outcomes and payer coverage. Objective: To establish a consensus on treatment for adults with severe AA in the US. Evidence review: Systematic literature reviews for all known therapies used for treating AA were performed in PubMed from inception to December 2024. Inclusion criteria required studies to be randomized clinical trials or have an observational design, evaluate adult (≥18 years old) participants with moderate to severe AA (defined by Severity of Alopecia Tool scores >20%), and be published in English. Studies were excluded if they included patients with non-AA hair loss or if they exclusively evaluated pediatric participants or those with mild AA (Severity of Alopecia Tool scores ≤20%). Three rounds of anonymous, iterative online surveys were administered from May through November 2025. Consensus was predefined at an agreement threshold of 70% or greater. A definition of AA severity was proposed for determining patient eligibility. Experts with recent AA-related research and extensive clinical experience treating adults with severe disease indicated their agreement or disagreement with the use of 29 treatments for adults with severe AA. Treatments that reached consensus for inclusion were further explored with respect to therapeutic positioning, treatment regimens, and long-term management. Findings: Thirty-one US-based AA experts completed 3 rounds of iterative surveys. Consensus was achieved on treatment of adults with severe alopecia areata, as defined by the Alopecia Areata Scale. Oral Janus kinase inhibitors represented the primary, long-term therapy for all patients, with dupilumab as an alternative option for patients with comorbid atopy. Supplemental treatments included oral and topical minoxidil; intralesional, oral, and high-potency topical corticosteroids; and topical Janus kinase inhibitors and prostaglandins, with body site-specific indications. Patient support resources should be offered alongside medical treatment. Conclusion and relevance: This study defines expert-established consensus on treatment of adults with severe AA in the US. Additional high-quality investigations are needed to establish the efficacy of existing therapies in subpopulations and enable head-to-head comparisons of new and existing interventions. These recommendations are not indicated for children, pregnant patients, patients with mild to moderate disease, or those with underlying comorbidities; additional research is needed to inform treatment guidelines for these specific patient populations."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《The Journal of international medical research》 - Leukotrichia: A comprehensive review of follicular depigmentation",
+    "intro": "《JAMA dermatology》 - Delphi Consensus Statement on Treatment of Severe Alopecia Areata in US Adults",
     "highlights": [
-      "Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft.",
-      "Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance.",
-      "The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types."
+      "Importance: Alopecia areata (AA) is an autoimmune hair loss disorder that affects more than 7 million people in the US.",
+      "Evidence review: Systematic literature reviews for all known therapies used for treating AA were performed in PubMed from inception to December 2024.",
+      "Inclusion criteria required studies to be randomized clinical trials or have an observational design, evaluate adult (≥18 years old) participants with moderate to severe AA (defined by Severity of Alopecia Tool scores >20%), and be published in English."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《The Journal of international medical research》에 실린\n\"Leukotrichia: A comprehensive review of follicular depigmentation\" 입니다. (Iamsumang W, Kositkuljorn C, Leerunyakul K 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Leukotrichia refers to whitening or depigmentation of hair resulting from reduced or absent melanin in the hair shaft. [검수 필요: 한글 번역/의역 확인]\n- Although often considered a cosmetic finding, it may reflect underlying alterations in follicular melanocyte biology and therefore have diagnostic, prognostic, and therapeutic relevance. [검수 필요: 한글 번역/의역 확인]\n- The clinical spectrum includes congenital and genetic disorders, including piebaldism, Waardenburg syndrome, tuberous sclerosis complex, and pigment dilution syndromes; autoimmune and inflammatory conditions, including vitiligo and follicular vitiligo, alopecia areata, and Vogt-Koyanagi-Harada disease; nevus- and melanoma-associated immune phenomena; drug-induced changes; and postinflammatory, traumatic, laser-associated, and idiopathic types. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42675998/",
-    "reference_title": "Leukotrichia: A comprehensive review of follicular depigmentation",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《JAMA dermatology》에 실린\n\"Delphi Consensus Statement on Treatment of Severe Alopecia Areata in US Adults\" 입니다. (Gregoire S, Dewey E, Biba U 외, 2026 Sep 2)\n\n핵심 내용은 이렇습니다:\n- Importance: Alopecia areata (AA) is an autoimmune hair loss disorder that affects more than 7 million people in the US. [검수 필요: 한글 번역/의역 확인]\n- Evidence review: Systematic literature reviews for all known therapies used for treating AA were performed in PubMed from inception to December 2024. [검수 필요: 한글 번역/의역 확인]\n- Inclusion criteria required studies to be randomized clinical trials or have an observational design, evaluate adult (≥18 years old) participants with moderate to severe AA (defined by Severity of Alopecia Tool scores >20%), and be published in English. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42684692/",
+    "reference_title": "Delphi Consensus Statement on Treatment of Severe Alopecia Areata in US Adults",
     "reference_type": "paper"
   },
   "assets": {
