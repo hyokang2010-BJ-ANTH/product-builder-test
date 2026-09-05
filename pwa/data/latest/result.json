@@ -1,35 +1,35 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "topic": {
     "source_type": "paper",
-    "pmid": "42682781",
-    "title": "Abrocitinib Treatment in Diffuse Alopecia Areata: A Case Report and a Literature Review",
-    "journal": "Clinical case reports",
-    "pub_date": "2026 Sep",
+    "pmid": "42697555",
+    "title": "Folliculitis decalvans in two families",
+    "journal": "Clinical and experimental dermatology",
+    "pub_date": "2026 Sep 5",
     "authors": [
-      "Zhang X",
-      "Zhong J",
-      "Wu L"
+      "Bhoyrul B",
+      "Fahey V",
+      "Kho YC"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42682781/",
-    "id": "pmid:42682781",
-    "abstract": "Alopecia areata is an autoimmune disease with diverse clinical manifestations. This case report describes a patient with diffuse alopecia areata who responded well to oral abrocitinib, resulting in complete hair regrowth. The patient achieved complete recovery without any observed adverse effects."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42697555/",
+    "id": "pmid:42697555",
+    "abstract": "Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss. Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility. We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation. Clinical and histopathological findings were consistent with FD in all cases. Staphylococcus aureus was identified in three of the affected individuals. Compared with previously reported familial cases, which predominantly involve male relatives or twins, this series represents the largest female-predominant familial cluster and the first clear mother-daughter occurrence. These findings support a potential heritable component in FD and highlight the need for further genomic and mechanistic studies."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Clinical case reports》 - Abrocitinib Treatment in Diffuse Alopecia Areata: A Case Report and a Literature Review",
+    "intro": "《Clinical and experimental dermatology》 - Folliculitis decalvans in two families",
     "highlights": [
-      "Alopecia areata is an autoimmune disease with diverse clinical manifestations.",
-      "This case report describes a patient with diffuse alopecia areata who responded well to oral abrocitinib, resulting in complete hair regrowth.",
-      "The patient achieved complete recovery without any observed adverse effects."
+      "Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss.",
+      "Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility.",
+      "We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Clinical case reports》에 실린\n\"Abrocitinib Treatment in Diffuse Alopecia Areata: A Case Report and a Literature Review\" 입니다. (Zhang X, Zhong J, Wu L 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Alopecia areata is an autoimmune disease with diverse clinical manifestations. [검수 필요: 한글 번역/의역 확인]\n- This case report describes a patient with diffuse alopecia areata who responded well to oral abrocitinib, resulting in complete hair regrowth. [검수 필요: 한글 번역/의역 확인]\n- The patient achieved complete recovery without any observed adverse effects. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42682781/",
-    "reference_title": "Abrocitinib Treatment in Diffuse Alopecia Areata: A Case Report and a Literature Review",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Clinical and experimental dermatology》에 실린\n\"Folliculitis decalvans in two families\" 입니다. (Bhoyrul B, Fahey V, Kho YC 외, 2026 Sep 5)\n\n핵심 내용은 이렇습니다:\n- Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss. [검수 필요: 한글 번역/의역 확인]\n- Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility. [검수 필요: 한글 번역/의역 확인]\n- We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42697555/",
+    "reference_title": "Folliculitis decalvans in two families",
     "reference_type": "paper"
   },
   "assets": {
