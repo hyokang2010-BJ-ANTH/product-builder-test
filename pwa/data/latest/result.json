@@ -1,35 +1,33 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "topic": {
     "source_type": "paper",
-    "pmid": "42697555",
-    "title": "Folliculitis decalvans in two families",
-    "journal": "Clinical and experimental dermatology",
+    "pmid": "42698034",
+    "title": "Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
+    "journal": "Stem cell reviews and reports",
     "pub_date": "2026 Sep 5",
     "authors": [
-      "Bhoyrul B",
-      "Fahey V",
-      "Kho YC"
+      "Mishra M",
+      "Kapoor R",
+      "Kumar MS"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Letter"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42697555/",
-    "id": "pmid:42697555",
-    "abstract": "Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss. Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility. We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation. Clinical and histopathological findings were consistent with FD in all cases. Staphylococcus aureus was identified in three of the affected individuals. Compared with previously reported familial cases, which predominantly involve male relatives or twins, this series represents the largest female-predominant familial cluster and the first clear mother-daughter occurrence. These findings support a potential heritable component in FD and highlight the need for further genomic and mechanistic studies."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42698034/",
+    "id": "pmid:42698034",
+    "abstract": "• Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Clinical and experimental dermatology》 - Folliculitis decalvans in two families",
+    "intro": "《Stem cell reviews and reports》 - Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
     "highlights": [
-      "Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss.",
-      "Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility.",
-      "We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation."
+      "• Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Clinical and experimental dermatology》에 실린\n\"Folliculitis decalvans in two families\" 입니다. (Bhoyrul B, Fahey V, Kho YC 외, 2026 Sep 5)\n\n핵심 내용은 이렇습니다:\n- Folliculitis decalvans (FD) is a primary cicatricial alopecia characterised by recurrent pustulation, tufting and progressive scarring hair loss. [검수 필요: 한글 번역/의역 확인]\n- Familial clustering is rarely reported, limiting understanding of potential genetic susceptibility. [검수 필요: 한글 번역/의역 확인]\n- We describe five cases of FD occurring in two unrelated families: three sisters with adolescent-onset disease and a mother-daughter pair with adult-onset disease, with a possible history in a preceding generation. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42697555/",
-    "reference_title": "Folliculitis decalvans in two families",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Stem cell reviews and reports》에 실린\n\"Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation\" 입니다. (Mishra M, Kapoor R, Kumar MS 외, 2026 Sep 5)\n\n핵심 내용은 이렇습니다:\n- • Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42698034/",
+    "reference_title": "Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
     "reference_type": "paper"
   },
   "assets": {
@@ -42,7 +40,6 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_03_key_finding_1.jpg",
-      "images/frame_04_key_finding_2.jpg",
       "images/frame_05_my_take.jpg",
       "images/frame_06_cta.jpg"
     ],
