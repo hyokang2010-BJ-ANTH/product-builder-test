@@ -1,33 +1,35 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "topic": {
     "source_type": "paper",
-    "pmid": "42698034",
-    "title": "Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
-    "journal": "Stem cell reviews and reports",
-    "pub_date": "2026 Sep 5",
+    "pmid": "42693528",
+    "title": "COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
+    "journal": "Experimental dermatology",
+    "pub_date": "2026 Sep",
     "authors": [
-      "Mishra M",
-      "Kapoor R",
-      "Kumar MS"
+      "Joo HW",
+      "Jeong G",
+      "Shin SH"
     ],
     "pubtypes": [
-      "Letter"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698034/",
-    "id": "pmid:42698034",
-    "abstract": "• Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42693528/",
+    "id": "pmid:42693528",
+    "abstract": "Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited. Here, we investigated the relationships among age, hair tensile resistance, and cortical disulfide bond content. Hair shafts from healthy volunteers (20-40 years vs. > 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy. In parallel, human scalp hair follicles were stratified according to disulfide bond content and donor age to generate transcriptomic datasets for analysis. We identified follicular gene-expression signatures associated with these parameters. Differential expression analysis revealed a shared gene set associated with reduced disulfide bond content and age, which was subsequently evaluated in ex vivo human hair follicle cultures. Among these candidates, cochlin (COCH) emerged as a prominent candidate gene associated with higher cortical disulfide bond content and enhanced tensile resistance of the hair shaft. Immunohistochemical analysis revealed that COCH predominantly localized to the hair matrix and outer root sheath, supporting a follicle-derived contribution to shaft biochemistry. Together, these findings identify COCH as a promising candidate marker linked to disulfide bond integrity and tensile properties of human hair and establish an integrative framework for connecting follicular gene expression with age-associated changes in hair shaft mechanics."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Stem cell reviews and reports》 - Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
+    "intro": "《Experimental dermatology》 - COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
     "highlights": [
-      "• Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability."
+      "Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited.",
+      "Hair shafts from healthy volunteers (20-40 years vs.",
+      "> 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Stem cell reviews and reports》에 실린\n\"Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation\" 입니다. (Mishra M, Kapoor R, Kumar MS 외, 2026 Sep 5)\n\n핵심 내용은 이렇습니다:\n- • Bulge progenitors' cells (BPC) are multipotent cells that fuel hair follicle cycling, sebaceous turnover, and epidermal repair.• BPC activation from quiescence is governed by niche-derived Wnt/β-catenin (anagen entry), BMP antagonism (licensing transit), and TGF-β/Smad (catagen enforcement).• Preclinical models demonstrate de novo folliculogenesis using BPC- dermal papilla cell recombinants in 3D scaffolds, with > 70% graft viability and restored cyclic hair growth.• Early-phase clinical trials of autologous BPC-enriched micrografts report 20-30% increases in hair density in androgenetic alopecia, with minimal adverse events.• Translational realization demands GMP-compliant isolation, biomimetic niche engineering (hydrogels, bioprinting), and immunomodulatory strategies to ensure safety, scalability, and durability. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42698034/",
-    "reference_title": "Bulge Progenitor Cells: A Promising Frontier in Hair Follicle Regeneration and Clinical Translation",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Experimental dermatology》에 실린\n\"COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair\" 입니다. (Joo HW, Jeong G, Shin SH 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited. [검수 필요: 한글 번역/의역 확인]\n- Hair shafts from healthy volunteers (20-40 years vs. [검수 필요: 한글 번역/의역 확인]\n- > 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42693528/",
+    "reference_title": "COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
     "reference_type": "paper"
   },
   "assets": {
@@ -40,6 +42,7 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_03_key_finding_1.jpg",
+      "images/frame_04_key_finding_2.jpg",
       "images/frame_05_my_take.jpg",
       "images/frame_06_cta.jpg"
     ],
