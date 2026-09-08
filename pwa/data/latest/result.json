@@ -1,35 +1,35 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "topic": {
     "source_type": "paper",
-    "pmid": "42693528",
-    "title": "COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
-    "journal": "Experimental dermatology",
-    "pub_date": "2026 Sep",
+    "pmid": "42704199",
+    "title": "Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
+    "journal": "Journal of cutaneous medicine and surgery",
+    "pub_date": "2026 Sep 7",
     "authors": [
-      "Joo HW",
-      "Jeong G",
-      "Shin SH"
+      "Ji R",
+      "Chisanga M",
+      "Jian J"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42693528/",
-    "id": "pmid:42693528",
-    "abstract": "Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited. Here, we investigated the relationships among age, hair tensile resistance, and cortical disulfide bond content. Hair shafts from healthy volunteers (20-40 years vs. > 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy. In parallel, human scalp hair follicles were stratified according to disulfide bond content and donor age to generate transcriptomic datasets for analysis. We identified follicular gene-expression signatures associated with these parameters. Differential expression analysis revealed a shared gene set associated with reduced disulfide bond content and age, which was subsequently evaluated in ex vivo human hair follicle cultures. Among these candidates, cochlin (COCH) emerged as a prominent candidate gene associated with higher cortical disulfide bond content and enhanced tensile resistance of the hair shaft. Immunohistochemical analysis revealed that COCH predominantly localized to the hair matrix and outer root sheath, supporting a follicle-derived contribution to shaft biochemistry. Together, these findings identify COCH as a promising candidate marker linked to disulfide bond integrity and tensile properties of human hair and establish an integrative framework for connecting follicular gene expression with age-associated changes in hair shaft mechanics."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42704199/",
+    "id": "pmid:42704199",
+    "abstract": "Background: Alopecia areata (AA) is frequently associated with atopic and autoimmune comorbidities, yet comprehensive data in Chinese populations remain scarce. We aimed to characterize the comorbidity landscape and identify predictors of the total comorbidity count in AA patients. Methods: In this cross-sectional study of 1008 AA patients, we assessed the prevalence of atopic and autoimmune comorbidities across different age groups and clinical subtypes. Predictors of the total comorbidity count were identified using multivariable negative binomial regression. Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune). The comorbidity profile of AA exhibits significant age-specific distribution variations: younger patients are more frequently affected by atopic conditions, whereas autoimmune comorbidities progressively increase with advancing age, reflecting general population immunological trends. Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013). Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count. Conclusion: The comorbidity profile of AA is defined by a striking age dichotomy: younger patients are predominantly predisposed to atopic conditions, whereas autoimmune comorbidities progressively emerge with advancing age. This age-specific transition strongly advocates for age-stratified, targeted screening strategies."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Experimental dermatology》 - COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
+    "intro": "《Journal of cutaneous medicine and surgery》 - Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
     "highlights": [
-      "Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited.",
-      "Hair shafts from healthy volunteers (20-40 years vs.",
-      "> 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy."
+      "Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune).",
+      "Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013).",
+      "Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Experimental dermatology》에 실린\n\"COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair\" 입니다. (Joo HW, Jeong G, Shin SH 외, 2026 Sep)\n\n핵심 내용은 이렇습니다:\n- Although hair aging affects appearance and hair quality, objective biomarkers linking molecular alterations to clinically relevant mechanical properties of hair remain limited. [검수 필요: 한글 번역/의역 확인]\n- Hair shafts from healthy volunteers (20-40 years vs. [검수 필요: 한글 번역/의역 확인]\n- > 50 years) were analysed for tensile resistance, which was measured as maximum tensile force, and disulfide bond content was assessed by Raman spectroscopy. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42693528/",
-    "reference_title": "COCH Expression in the Hair Follicle Microenvironment Is Associated With Cortical Disulfide Bonding and Tensile Resistance in Aging Hair",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Journal of cutaneous medicine and surgery》에 실린\n\"Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study\" 입니다. (Ji R, Chisanga M, Jian J 외, 2026 Sep 7)\n\n핵심 내용은 이렇습니다:\n- Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune). [검수 필요: 한글 번역/의역 확인]\n- Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013). [검수 필요: 한글 번역/의역 확인]\n- Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42704199/",
+    "reference_title": "Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
     "reference_type": "paper"
   },
   "assets": {
