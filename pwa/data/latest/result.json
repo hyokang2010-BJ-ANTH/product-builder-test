@@ -1,35 +1,35 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "topic": {
     "source_type": "paper",
-    "pmid": "42704199",
-    "title": "Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
-    "journal": "Journal of cutaneous medicine and surgery",
-    "pub_date": "2026 Sep 7",
+    "pmid": "42710720",
+    "title": "High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
+    "journal": "Clinics in dermatology",
+    "pub_date": "2026 Sep 8",
     "authors": [
-      "Ji R",
-      "Chisanga M",
-      "Jian J"
+      "Gonzalez C",
+      "Palacios C",
+      "Macías P"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42704199/",
-    "id": "pmid:42704199",
-    "abstract": "Background: Alopecia areata (AA) is frequently associated with atopic and autoimmune comorbidities, yet comprehensive data in Chinese populations remain scarce. We aimed to characterize the comorbidity landscape and identify predictors of the total comorbidity count in AA patients. Methods: In this cross-sectional study of 1008 AA patients, we assessed the prevalence of atopic and autoimmune comorbidities across different age groups and clinical subtypes. Predictors of the total comorbidity count were identified using multivariable negative binomial regression. Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune). The comorbidity profile of AA exhibits significant age-specific distribution variations: younger patients are more frequently affected by atopic conditions, whereas autoimmune comorbidities progressively increase with advancing age, reflecting general population immunological trends. Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013). Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count. Conclusion: The comorbidity profile of AA is defined by a striking age dichotomy: younger patients are predominantly predisposed to atopic conditions, whereas autoimmune comorbidities progressively emerge with advancing age. This age-specific transition strongly advocates for age-stratified, targeted screening strategies."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42710720/",
+    "id": "pmid:42710720",
+    "abstract": "High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes. Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation. This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias. PubMed and Scopus were searched to identify publications describing HRUD applications in alopecias, and ultrasonographic images and illustrative cases from the authors' collections were included to demonstrate key findings. Across alopecias, HRUD demonstrates recognizable imaging patterns that may support diagnosis and clinical assessment. Reported findings include follicular miniaturization in pattern alopecia, drop-like follicular widening in alopecia areata, perifollicular inflammatory changes and increased vascularization in scarring alopecias, follicular fusion in folliculitis decalvans, and fistulous tracts in dissecting cellulitis of the scalp. HRUD may also facilitate assessment of disease activity, treatment response, and clinicopathologic correlations. In conclusion, HRUD provides clinically useful structural and vascular information in alopecias and may complement clinical examination and trichoscopy. Standardization of imaging protocols and further clinical studies may help define its role in diagnosis, monitoring, and research."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Journal of cutaneous medicine and surgery》 - Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
+    "intro": "《Clinics in dermatology》 - High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
     "highlights": [
-      "Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune).",
-      "Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013).",
-      "Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count."
+      "High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes.",
+      "Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation.",
+      "This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Journal of cutaneous medicine and surgery》에 실린\n\"Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study\" 입니다. (Ji R, Chisanga M, Jian J 외, 2026 Sep 7)\n\n핵심 내용은 이렇습니다:\n- Results: Overall, 21.1% of patients presented with at least 1 comorbidity (14.7% atopic, 8.2% autoimmune). [검수 필요: 한글 번역/의역 확인]\n- Furthermore, autoimmune comorbidities were significantly associated with the alopecia totalis subtype (22.5% vs 8.2% in the overall cohort; P = .013). [검수 필요: 한글 번역/의역 확인]\n- Multivariable regression identified female sex (aIRR = 1.507, P = .003), pediatric age (aIRR = 1.553, P = .006), and notably, mild disease severity (Severity of Alopecia Tool <25; aIRR = 1.854, P = .011) as independent predictors of the total comorbidity count. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42704199/",
-    "reference_title": "Age- and Phenotype-Specific Patterns of Atopic and Autoimmune Comorbidities in Alopecia Areata: A Cross-Sectional Study",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Clinics in dermatology》에 실린\n\"High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns\" 입니다. (Gonzalez C, Palacios C, Macías P 외, 2026 Sep 8)\n\n핵심 내용은 이렇습니다:\n- High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes. [검수 필요: 한글 번역/의역 확인]\n- Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation. [검수 필요: 한글 번역/의역 확인]\n- This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42710720/",
+    "reference_title": "High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
     "reference_type": "paper"
   },
   "assets": {
