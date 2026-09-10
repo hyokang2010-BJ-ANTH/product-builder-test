@@ -1,35 +1,35 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "topic": {
     "source_type": "paper",
-    "pmid": "42710720",
-    "title": "High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
-    "journal": "Clinics in dermatology",
-    "pub_date": "2026 Sep 8",
+    "pmid": "42715487",
+    "title": "Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
+    "journal": "Cutaneous and ocular toxicology",
+    "pub_date": "2026 Sep 9",
     "authors": [
-      "Gonzalez C",
-      "Palacios C",
-      "Macías P"
+      "Agaoglu E",
+      "Isiklar OO",
+      "Kacer I"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42710720/",
-    "id": "pmid:42710720",
-    "abstract": "High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes. Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation. This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias. PubMed and Scopus were searched to identify publications describing HRUD applications in alopecias, and ultrasonographic images and illustrative cases from the authors' collections were included to demonstrate key findings. Across alopecias, HRUD demonstrates recognizable imaging patterns that may support diagnosis and clinical assessment. Reported findings include follicular miniaturization in pattern alopecia, drop-like follicular widening in alopecia areata, perifollicular inflammatory changes and increased vascularization in scarring alopecias, follicular fusion in folliculitis decalvans, and fistulous tracts in dissecting cellulitis of the scalp. HRUD may also facilitate assessment of disease activity, treatment response, and clinicopathologic correlations. In conclusion, HRUD provides clinically useful structural and vascular information in alopecias and may complement clinical examination and trichoscopy. Standardization of imaging protocols and further clinical studies may help define its role in diagnosis, monitoring, and research."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42715487/",
+    "id": "pmid:42715487",
+    "abstract": "Objective: Early-onset androgenetic alopecia (AGA) is the most common form of male hair loss and is associated with metabolic dysregulation. Irisin is an adipomyokine that has been proposed to regulate insulin sensitivity and metabolic syndrome (MS). In this study, we aimed to evaluate the serum irisin levels and metabolic parameters associated with insulin resistance (IR) in male patients with early-onset AGA. Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5). Anthropometric measurements (body mass index (BMI), waist circumference, blood pressure) and fasting biochemical parameters (glucose, insulin, lipid profile, uric acid, high sensitivity C-reactive protein (hs-CRP), erythrocyte sedimentation rate (ESR)) were assessed. To evaluate IR, the Homeostasis Model Assessment (HOMA-IR) was used. Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05). No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05). Severity of disease was not associated with differences in biochemical parameters or serum irisin levels. Conclusion: This preliminary study found no significant differences in serum irisin or IR between early-onset AGA patients and healthy controls suggesting that irisin signaling may be more pronounced in phenotypes with a higher metabolic load. However, higher BMI and waist circumference in AGA patients suggest a predisposition to obesity-related metabolic disorders. Early monitoring of men with early-onset AGA may help prevent long-term cardiometabolic consequences."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Clinics in dermatology》 - High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
+    "intro": "《Cutaneous and ocular toxicology》 - Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
     "highlights": [
-      "High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes.",
-      "Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation.",
-      "This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias."
+      "Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5).",
+      "Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05).",
+      "No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05)."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Clinics in dermatology》에 실린\n\"High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns\" 입니다. (Gonzalez C, Palacios C, Macías P 외, 2026 Sep 8)\n\n핵심 내용은 이렇습니다:\n- High-resolution ultrasound with Doppler (HRUD) is an emerging imaging modality that enables noninvasive visualization of hair follicles, perifollicular structures, and vascular changes. [검수 필요: 한글 번역/의역 확인]\n- Recent studies have identified characteristic ultrasonographic findings in both non-scarring and scarring alopecias, expanding the role of ultrasound in their clinical evaluation. [검수 필요: 한글 번역/의역 확인]\n- This narrative review summarizes HRUD principles, sonoanatomy of the hair, scanning techniques, indications, and representative imaging findings in alopecias. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42710720/",
-    "reference_title": "High-Resolution Ultrasound in Alopecias: Principles, Sonoanatomy, and Imaging Patterns",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Cutaneous and ocular toxicology》에 실린\n\"Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study\" 입니다. (Agaoglu E, Isiklar OO, Kacer I 외, 2026 Sep 9)\n\n핵심 내용은 이렇습니다:\n- Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5). [검수 필요: 한글 번역/의역 확인]\n- Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05). [검수 필요: 한글 번역/의역 확인]\n- No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42715487/",
+    "reference_title": "Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
     "reference_type": "paper"
   },
   "assets": {
