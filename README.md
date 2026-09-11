@@ -117,21 +117,16 @@ PWA 상단의 **지난 아티클** 탭에서 그동안 쌓인 콘텐츠를 전�
 - 구독 전용 논문이면 이 부분은 자동으로 빠지고 기존 구성으로 진행됩니다.
   빠진 이유(구독 전용/CC BY-NC 등)는 PWA의 "논문 속 그림·표" 칸에 표시됩니다.
 
-### CC BY-NC 논문도 쓰고 싶다면
+### CC BY-NC 설정 (현재 켜져 있음)
 
 의학 오픈액세스 저널 상당수(Dove Press 등)가 **CC BY-NC**로 배포합니다.
-기본값은 안전하게 제외하므로, 그림·표가 안 나오는 날이 꽤 있을 수 있습니다.
+이 채널은 **수익화하지 않으므로** `.github/workflows/daily-content.yml`에
+`ALLOW_NC_FIGURES: "true"` 가 켜져 있고, CC BY-NC 논문의 그림·표도 사용합니다.
+`attribution.txt`와 화면에는 "비상업 한정" 표시가 함께 남습니다.
 
-**수익화하지 않는 채널**이라면 워크플로에 환경변수를 켜서 쓸 수 있습니다.
-`.github/workflows/daily-content.yml`의 `Run content pipeline` 단계에 추가하세요:
-
-```yaml
-        env:
-          ALLOW_NC_FIGURES: "true"
-```
-
-켜더라도 `attribution.txt`와 화면에 "비상업 한정" 경고가 함께 남습니다.
-광고 수익이 붙는 채널이라면 켜지 않는 편이 안전합니다.
+> **나중에 광고 수익을 붙일 계획이 생기면** 그 줄을 지우거나 `"false"`로 바꾸세요.
+> ShareAlike·비상업 조항이 붙은 소재가 영상에 섞인 채로 수익화하면 문제가 될 수 있습니다.
+> 과거에 만든 영상도 `data/<날짜>/attribution.txt`에서 라이선스를 확인할 수 있습니다.
 
 ## 숏폼 제작 템플릿
 

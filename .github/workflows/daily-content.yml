@@ -34,6 +34,9 @@ jobs:
         env:
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           VAPID_CONTACT_EMAIL: ${{ secrets.VAPID_CONTACT_EMAIL }}
+          # 비수익화 채널이므로 CC BY-NC(비상업 한정) 논문의 그림·표도 사용한다.
+          # 나중에 광고 수익을 붙일 계획이 생기면 이 줄을 지우거나 "false"로 바꿀 것.
+          ALLOW_NC_FIGURES: "true"
         run: python scripts/pipeline.py
 
       - name: Commit and push results
