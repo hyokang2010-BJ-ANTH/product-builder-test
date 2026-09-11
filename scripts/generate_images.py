@@ -196,7 +196,7 @@ def fetch_topic_images(keywords, out_dir, count=2):
     return saved, credits
 
 
-def write_attribution(credits, topic, out_path):
+def write_attribution(credits, topic, out_path, paper_assets=None):
     """영상 설명란에 그대로 붙여넣을 출처·저작권 표시문을 만든다.
 
     위키미디어 이미지는 CC BY / CC BY-SA가 많아 저작자 표시가 의무다.
@@ -226,8 +226,83 @@ def write_attribution(credits, topic, out_path):
     else:
         lines.append("[이미지 출처] 자체 생성 이미지만 사용 (외부 출처 없음)")
 
+    src = (paper_assets or {}).get("source")
+    if src:
+        figs = (paper_assets or {}).get("figures") or []
+        tabs = (paper_assets or {}).get("tables") or []
+        lines += [
+            "",
+            "[논문 본문 그림·표]",
+            f"- PubMed Central {src['pmcid']} ({src['license_note']})",
+            f"  https://www.ncbi.nlm.nih.gov/pmc/articles/{src['pmcid']}/",
+        ]
+        for f_ in figs:
+            lines.append(f"  · {f_.get('label', 'Figure')}")
+        for t_ in tabs:
+            lines.append(f"  · {t_.get('label', 'Table')}")
+        lines.append("  ※ 오픈액세스 논문의 그림·표이며, 위 원문 출처를 함께 표기하세요.")
+
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
+    return out_path
+
+
+def render_table_image(table, out_path):
+    """논문의 표를 읽기 좋은 카드 이미지로 그린다 (1080x1920)."""
+    img = _gradient(top=(22, 26, 48), bottom=(15, 17, 32))
+    draw = ImageDraw.Draw(img)
+
+    label_font = _font(44, display=True)
+    draw.rounded_rectangle([70, 150, 70 + draw.textlength(table["label"], font=label_font) + 60, 224],
+                           radius=18, fill=ACCENT)
+    draw.text((100, 162), table["label"], font=label_font, fill="white")
+
+    cap_font = _font(36)
+    _draw_centered_text(draw, table.get("caption", "")[:110], cap_font,
+                        (70, 250, W - 70, 430), fill=(210, 214, 235), align="left")
+
+    rows = table.get("rows") or []
+    if not rows:
+        img.save(out_path)
+        return out_path
+
+    ncols = max(len(r) for r in rows)
+    ncols = min(ncols, 4)  # 세로 화면에 4열까지가 한계
+    col_w = (W - 140) // ncols
+    cell_font = _font(32)
+    head_font = _font(34, display=True)
+
+    # 표를 화면 세로 중앙에 배치한다 (위로 쏠리면 아래가 휑하게 빈다)
+    row_h = 88
+    visible = min(len(rows), 8)
+    y = max(470, (H - visible * row_h) // 2)
+    for ri, row in enumerate(rows[:8]):
+        is_head = ri == 0
+        if is_head:
+            draw.rectangle([70, y, W - 70, y + row_h], fill=(58, 46, 92))
+        elif ri % 2 == 0:
+            draw.rectangle([70, y, W - 70, y + row_h], fill=(30, 34, 58))
+
+        for ci in range(ncols):
+            text = row[ci] if ci < len(row) else ""
+            text = _sanitize_for_font(text)
+            f = head_font if is_head else cell_font
+            # 셀 폭을 넘으면 잘라내되, 잘렸다는 표시(...)를 반드시 남긴다.
+            # (예전 로직은 글자를 줄이다 폭 안에 들어가면 표시 없이 끝나서
+            #  'Hair regrowth'가 'Hair regro'로 보이는 문제가 있었다)
+            if draw.textlength(text, font=f) > col_w - 24:
+                while text and draw.textlength(text + "...", font=f) > col_w - 24:
+                    text = text[:-1]
+                text = text.rstrip() + "..."
+            draw.text((82 + ci * col_w, y + (row_h - 42) // 2), text, font=f,
+                      fill="white" if is_head else (225, 228, 245))
+        y += row_h
+        if y > H - 300:
+            break
+
+    foot = _font(28)
+    draw.text((70, H - 150), "출처: 논문 본문 표 (오픈액세스)", font=foot, fill=(150, 155, 180))
+    img.save(out_path)
     return out_path
 
 
@@ -273,20 +348,124 @@ def _resolve_text(script, source):
     return source
 
 
-def render_scene_frames(script, day_dir):
+def render_hook_frame(accent, sub, topic, out_path):
+    """첫 화면. 0.5초 안에 스크롤을 멈추게 하는 것이 유일한 목적이다.
+
+    - 상단에 저널명 배지를 얹어 "검증된 연구"라는 신호를 준다
+    - 문구에서 가장 강한 낱말을 골라 악센트 색으로 키운다
+    - 하단에 날짜 + 채널 고정 문구로 연속성을 준다
+    """
+    frame = _gradient()
+    draw = ImageDraw.Draw(frame)
+
+    # 배경 장식: 큰 원형 글로우로 시선을 가운데로 모은다
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gdraw = ImageDraw.Draw(glow)
+    gdraw.ellipse([-200, H // 2 - 700, W + 200, H // 2 + 300], fill=(255, 107, 107, 38))
+    frame = Image.alpha_composite(frame.convert("RGBA"), glow.filter(ImageFilter.GaussianBlur(120))).convert("RGB")
+    draw = ImageDraw.Draw(frame)
+
+    # 저널 신뢰 배지
+    journal = (topic.get("journal") or topic.get("source_name") or "").strip()
+    if journal:
+        badge = _sanitize_for_font(journal[:38].upper())
+        bfont = _font(32, display=True)
+        bw = draw.textlength(badge, font=bfont) + 56
+        draw.rounded_rectangle([(W - bw) / 2, 300, (W + bw) / 2, 374], radius=37,
+                               outline=(255, 107, 107), width=3)
+        draw.text(((W - draw.textlength(badge, font=bfont)) / 2, 316), badge, font=bfont, fill=(255, 150, 150))
+
+    # 강조구 -> 설명구 순서를 그대로 지킨다.
+    # (예전에는 '가장 긴 낱말'을 뽑아 위로 올렸다가 문장 순서가 뒤집혀 읽을 수 없었다)
+    accent = _sanitize_for_font(accent or "")
+    sub = _sanitize_for_font(sub or "")
+    if not accent:
+        accent, sub = sub, ""
+
+    abox = (80, 660, W - 80, 1040)
+    _draw_centered_text(draw, accent, _fit_font(draw, accent, abox, 170), abox, fill=(255, 107, 107))
+
+    if sub:
+        sbox = (90, 1090, W - 90, 1400)
+        _draw_centered_text(draw, sub, _fit_font(draw, sub, sbox, 72), sbox, fill="white")
+
+    # 하단 고정 문구
+    ffont = _font(34, display=True)
+    tail = f"{topic.get('pub_date', '')}  |  매일 아침 탈모 연구 한 편"
+    tail = _sanitize_for_font(tail.strip(" |"))
+    draw.text(((W - draw.textlength(tail, font=ffont)) / 2, H - 220), tail, font=ffont, fill=(170, 175, 205))
+
+    frame.convert("RGB").save(out_path, "JPEG", quality=92, optimize=True)
+    return out_path
+
+
+def render_scene_frames(script, day_dir, topic=None, paper_assets=None):
     with open(os.path.join(TEMPLATES_DIR, "shortform_template.json"), encoding="utf-8") as f:
         template = json.load(f)
+
+    topic = topic or {}
+    paper_assets = paper_assets or {"figures": [], "tables": []}
+    figures = paper_assets.get("figures") or []
+    tables = paper_assets.get("tables") or []
 
     images_dir = os.path.join(day_dir, "images")
     frame_paths = []
     for scene in template["scenes"]:
+        sid = scene["id"]
+
+        # 논문 그림·표는 확보된 경우에만 씬을 만든다
+        if sid == "paper_figure" and not figures:
+            continue
+        if sid == "paper_table" and not tables:
+            continue
+
         text = _resolve_text(script, scene.get("text_source", "")) if scene.get("text_source") else ""
-        if not text and scene["id"] in ("key_finding_2",):
+        if sid == "paper_figure":
+            text = figures[0].get("caption", "")
+        elif sid == "paper_table":
+            text = tables[0].get("caption", "")
+        if not text and sid == "key_finding_2":
             continue  # 하이라이트가 부족하면 스킵
 
         font_size = scene.get("font_size", 56)
 
-        if scene["layout"] == "full_bleed_text":
+        if scene["layout"] == "hook_impact":
+            out_path = os.path.join(images_dir, f"frame_{scene['order']:02d}_{sid}.jpg")
+            render_hook_frame(
+                script.get("hook_accent") or text,
+                script.get("hook_sub", ""),
+                topic,
+                out_path,
+            )
+            frame_paths.append(out_path)
+            continue
+
+        elif scene["layout"] == "paper_asset":
+            # 논문 그림은 잘리면 정보가 사라지므로 원본 비율을 지켜 가운데 배치한다
+            frame = _gradient(top=(18, 20, 38), bottom=(12, 13, 26))
+            fig_img = Image.open(figures[0]["path"]).convert("RGB")
+            fig_img.thumbnail((W - 120, 1060), Image.LANCZOS)
+            frame.paste(fig_img, ((W - fig_img.width) // 2, 420))
+            draw = ImageDraw.Draw(frame)
+            lab = _font(40, display=True)
+            label = _sanitize_for_font(f"논문 {figures[0].get('label', 'Figure')}")
+            draw.rounded_rectangle([70, 250, 70 + draw.textlength(label, font=lab) + 56, 320],
+                                   radius=18, fill=ACCENT)
+            draw.text((98, 261), label, font=lab, fill="white")
+            cbox = (80, 1560, W - 80, H - 120)
+            _draw_centered_text(draw, text, _fit_font(draw, text, cbox, font_size), cbox,
+                                fill=(225, 228, 245))
+
+        elif scene["layout"] == "paper_table":
+            out_path = os.path.join(images_dir, f"frame_{scene['order']:02d}_{sid}.jpg")
+            tmp = os.path.join(images_dir, f".table_{sid}.png")
+            render_table_image(tables[0], tmp)
+            Image.open(tmp).convert("RGB").save(out_path, "JPEG", quality=92, optimize=True)
+            os.remove(tmp)
+            frame_paths.append(out_path)
+            continue
+
+        elif scene["layout"] == "full_bleed_text":
             frame = _gradient()
             draw = ImageDraw.Draw(frame)
             box = (100, H // 2 - 300, W - 100, H // 2 + 300)
@@ -350,17 +529,25 @@ def generate_all_images(content, day_dir):
 
     ensure_my_photo_placeholder()
 
-    frames = render_scene_frames(script, day_dir)
+    # 논문 본문의 실제 그림·표 (오픈액세스 + 재사용 가능 라이선스일 때만)
+    from paper_figures import collect_paper_assets
+
+    paper_assets = collect_paper_assets(topic, images_dir)
+
+    frames = render_scene_frames(script, day_dir, topic=topic, paper_assets=paper_assets)
 
     credits_path = os.path.join(day_dir, "image_credits.json")
     with open(credits_path, "w", encoding="utf-8") as f:
         json.dump(credits, f, ensure_ascii=False, indent=2)
 
-    attribution_path = write_attribution(credits, topic, os.path.join(day_dir, "attribution.txt"))
+    attribution_path = write_attribution(
+        credits, topic, os.path.join(day_dir, "attribution.txt"), paper_assets
+    )
 
     return {
         "paper_card": paper_card_path,
         "topic_images": saved,
+        "paper_assets": paper_assets,
         "frames": frames,
         "credits_file": credits_path,
         "attribution_file": attribution_path,

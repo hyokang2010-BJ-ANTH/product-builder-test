@@ -43,6 +43,17 @@ EXCLUDED_PUBTYPES = {
     "expression of concern",
 }
 
+# 사람 탈모 채널이므로 동물 대상 연구는 제외한다.
+# 실제로 "Canine Flank Alopecia"(개 옆구리 탈모) 논문이 선정된 적이 있다.
+ANIMAL_KEYWORDS = (
+    "canine", "feline", "bovine", "equine", "porcine", "ovine", "murine",
+    "dog", "dogs", "cat", "cats", "cattle", "horse", "sheep", "swine", "pig",
+    "mouse", "mice", "rat", "rats", "rabbit", "zebrafish", "veterinary",
+    "alpaca", "llama", "poultry", "chicken", "goat",
+)
+# 저널명에 이런 말이 들어가면 수의학 저널로 본다
+ANIMAL_JOURNAL_HINTS = ("veterinary", "vet ", "animal", "zoo")
+
 EXCLUDED_TITLE_PREFIXES = (
     "retraction",
     "retracted",

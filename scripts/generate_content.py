@@ -6,6 +6,8 @@
 import re
 
 from common import (
+    ANIMAL_JOURNAL_HINTS,
+    ANIMAL_KEYWORDS,
     EXCLUDED_PUBTYPES,
     EXCLUDED_TITLE_PREFIXES,
     RELEVANCE_KEYWORDS,
@@ -30,8 +32,20 @@ def is_publishable(paper):
     types = {str(t).strip().lower() for t in (paper.get("pubtypes") or [])}
     if types & EXCLUDED_PUBTYPES:
         return False
+
     title = (paper.get("title") or "").strip().lower()
-    return not title.startswith(EXCLUDED_TITLE_PREFIXES)
+    if title.startswith(EXCLUDED_TITLE_PREFIXES):
+        return False
+
+    # 사람 대상 채널이므로 동물 연구는 뺀다
+    words = set(re.findall(r"[a-z]+", title))
+    if words & set(ANIMAL_KEYWORDS):
+        return False
+    journal = (paper.get("journal") or "").lower()
+    if any(h in journal for h in ANIMAL_JOURNAL_HINTS):
+        return False
+
+    return True
 
 
 def is_on_topic(title):
@@ -107,10 +121,70 @@ def extract_highlights(abstract, max_items=3):
     return [s for s in sentences if s in chosen]
 
 
+PERCENT_PATTERN = re.compile(r"(\d{1,3}(?:\.\d+)?)\s?%")
+SAMPLE_PATTERN = re.compile(r"\b(\d{2,6})\s+(?:patients|participants|subjects|men|women|cases)\b", re.I)
+
+# 논문 주제를 한눈에 알리는 키워드 (제목에서 찾으면 훅 소재로 쓴다)
+HOOK_TOPIC_WORDS = [
+    ("transplant", "모발이식"),
+    ("minoxidil", "미녹시딜"),
+    ("finasteride", "피나스테리드"),
+    ("dutasteride", "두타스테리드"),
+    ("stem cell", "줄기세포"),
+    ("exosome", "엑소좀"),
+    ("microneedl", "마이크로니들"),
+    ("laser", "레이저"),
+    ("platelet-rich", "PRP"),
+    ("jak", "JAK 억제제"),
+    ("alopecia areata", "원형탈모"),
+    ("androgenetic", "남성형 탈모"),
+    ("female pattern", "여성형 탈모"),
+    ("ultrasound", "초음파 진단"),
+    ("regenerat", "모발 재생"),
+]
+
+
+def build_hook_parts(paper, highlights):
+    """첫 화면에 쓸 (강조구, 설명구)를 논문마다 다르게 만든다.
+
+    매일 같은 문구를 띄우면 팔로워가 금세 지나치므로, 논문에서 가장 강한
+    숫자나 주제어를 뽑아 첫 줄을 바꾼다. 읽는 순서는 강조구 -> 설명구로 유지한다.
+    """
+    blob = " ".join([paper.get("abstract", "") or ""] + list(highlights or []))
+    title = (paper.get("title") or "").lower()
+
+    # 1순위: 인상적인 퍼센트 (너무 작거나 100 초과인 값은 제외)
+    pcts = [float(p) for p in PERCENT_PATTERN.findall(blob)]
+    pcts = [p for p in pcts if 5 <= p <= 100]
+    if pcts:
+        best = max(pcts)
+        best_txt = f"{best:g}%"
+        return best_txt, "이 숫자, 탈모 연구가 새로 내놨습니다"
+
+    # 2순위: 표본 규모 (숫자가 클수록 신뢰 신호가 된다)
+    samples = [int(s) for s in SAMPLE_PATTERN.findall(blob)]
+    if samples:
+        n = max(samples)
+        if n >= 100:
+            return f"{n:,}명", "대규모 연구에서 나온 결과입니다"
+
+    # 3순위: 제목의 주제 키워드
+    for key, label in HOOK_TOPIC_WORDS:
+        if key in title:
+            return label, "오늘 나온 최신 연구를 정리했습니다"
+
+    # 마지막: 저널 권위로 승부
+    journal = (paper.get("journal") or "").split(":")[0].strip()
+    if journal:
+        return "오늘의 논문", f"{journal}에 실린 새 연구입니다"
+    return "오늘의 탈모 연구", "새로 나온 논문을 정리했습니다"
+
+
 def build_script_for_paper(paper):
     highlights = extract_highlights(paper.get("abstract", ""))
     authors = ", ".join(paper.get("authors") or []) or "연구진"
-    hook = f"오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다."
+    accent, sub = build_hook_parts(paper, highlights)
+    hook = f"{accent} {sub}"
     body_lines = [
         f"오늘 소개할 논문은 《{paper['journal']}》에 실린",
         f"\"{paper['title']}\" 입니다. ({authors} 외, {paper.get('pub_date', '')})",
@@ -126,6 +200,8 @@ def build_script_for_paper(paper):
     )
     return {
         "hook": hook,
+        "hook_accent": accent,
+        "hook_sub": sub,
         "intro": f"《{paper['journal']}》 - {paper['title']}",
         "highlights": highlights,
         "cta": cta,
@@ -137,7 +213,8 @@ def build_script_for_paper(paper):
 
 
 def build_script_for_news(article):
-    hook = "오늘 탈모 관련 최신 소식, 3줄 요약해드립니다."
+    accent, sub = "탈모 뉴스", "오늘 나온 소식을 3줄로 정리했습니다"
+    hook = f"{accent} {sub}"
     summary = article.get("summary") or article.get("title")
     body_lines = [
         f"오늘의 소식: {article['title']}",
@@ -150,6 +227,8 @@ def build_script_for_news(article):
     script_text = "\n".join([hook, "", *body_lines, "", cta])
     return {
         "hook": hook,
+        "hook_accent": accent,
+        "hook_sub": sub,
         "intro": article["title"],
         "highlights": [summary],
         "cta": cta,

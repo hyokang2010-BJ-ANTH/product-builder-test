@@ -1,32 +1,43 @@
 {
   "name": "탈모/모발이식 뉴스 60초 쇼츠 템플릿",
   "canvas": { "width": 1080, "height": 1920, "fps": 30 },
-  "total_duration_sec": 58,
+  "total_duration_sec": 60,
   "scenes": [
     {
       "id": "hook",
       "order": 1,
       "duration_sec": 4,
-      "layout": "full_bleed_text",
+      "layout": "hook_impact",
       "background": "gradient_brand",
       "text_source": "script.hook",
-      "font_size": 88,
-      "notes": "가장 임팩트 있는 한 줄. 시청 유지율의 핵심 구간."
+      "font_size": 96,
+      "notes": "0.5초 안에 스크롤을 멈추게 하는 구간. 큰 키워드 + 저널 신뢰 배지."
     },
     {
       "id": "paper_intro",
       "order": 2,
-      "duration_sec": 9,
+      "duration_sec": 8,
       "layout": "image_top_text_bottom",
-      "image_source": "images/paper_card.png",
+      "image_source": "paper_card.png",
       "text_source": "script.intro",
       "font_size": 52,
       "notes": "오늘 다룰 논문/기사 표지 카드 노출 + 출처 소개"
     },
     {
-      "id": "key_finding_1",
+      "id": "paper_figure",
       "order": 3,
-      "duration_sec": 12,
+      "duration_sec": 10,
+      "layout": "paper_asset",
+      "image_source": "images/paper_figure_1.jpg",
+      "text_source": "assets.figure_caption",
+      "font_size": 46,
+      "optional": true,
+      "notes": "논문에 실린 실제 그래프/사진. 없으면 이 씬은 빠진다."
+    },
+    {
+      "id": "key_finding_1",
+      "order": 4,
+      "duration_sec": 10,
       "layout": "topic_image_bg_text_overlay",
       "image_source": "images/topic_1.jpg",
       "text_source": "script.highlights[0]",
@@ -34,19 +45,30 @@
       "notes": "핵심 포인트 1 - 주제 관련 이미지 배경 + 자막 오버레이"
     },
     {
+      "id": "paper_table",
+      "order": 5,
+      "duration_sec": 8,
+      "layout": "paper_table",
+      "text_source": "assets.table_caption",
+      "font_size": 44,
+      "optional": true,
+      "notes": "논문 표를 직접 그려서 보여주는 구간. 없으면 빠진다."
+    },
+    {
       "id": "key_finding_2",
-      "order": 4,
-      "duration_sec": 12,
+      "order": 6,
+      "duration_sec": 10,
       "layout": "topic_image_bg_text_overlay",
       "image_source": "images/topic_2.jpg",
       "text_source": "script.highlights[1]",
       "font_size": 56,
+      "optional": true,
       "notes": "핵심 포인트 2 (없으면 이 씬 스킵)"
     },
     {
       "id": "my_take",
-      "order": 5,
-      "duration_sec": 12,
+      "order": 7,
+      "duration_sec": 10,
       "layout": "personal_photo_bg_text_overlay",
       "image_source": "assets/my-photo/latest.jpg",
       "text_source": "custom.my_comment",
@@ -55,8 +77,8 @@
     },
     {
       "id": "cta",
-      "order": 6,
-      "duration_sec": 9,
+      "order": 8,
+      "duration_sec": 8,
       "layout": "full_bleed_text",
       "background": "gradient_brand",
       "text_source": "script.cta",

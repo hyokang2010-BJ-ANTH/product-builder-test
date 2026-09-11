@@ -35,10 +35,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Assemble site (PWA + 지난 아티클 아카이브)
+        run: |
+          mkdir -p _site
+          cp -r pwa/. _site/
+          # 지난 날짜 폴더를 archive/ 아래로 그대로 올려 아카이브 화면에서 열람 가능하게 한다
+          mkdir -p _site/archive
+          for d in data/2*/; do
+            [ -d "$d" ] && cp -r "$d" "_site/archive/" || true
+          done
+          [ -f data/index.json ] && cp data/index.json _site/archive/index.json || true
+          echo "배포 용량: $(du -sh _site | cut -f1), 아카이브 $(ls -d _site/archive/2*/ 2>/dev/null | wc -l)건"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: pwa
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment

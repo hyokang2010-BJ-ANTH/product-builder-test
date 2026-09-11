@@ -8,13 +8,31 @@ function urlBase64ToUint8Array(base64String) {
   return Uint8Array.from([...rawData].map((c) => c.charCodeAt(0)));
 }
 
+// 지난 아티클은 Pages 배포 시 archive/ 아래에 올라간다 (pages.yml 참고)
+const ARCHIVE_BASE = "./archive/";
+
 async function loadContent() {
   const res = await fetch("./data/latest.json", { cache: "no-store" });
   if (!res.ok) throw new Error("데이터 없음");
   return res.json();
 }
 
-function renderContent(data) {
+async function loadArchiveIndex() {
+  // 배포본은 archive/index.json, 로컬 개발 시에는 data/index.json을 쓴다
+  for (const url of [ARCHIVE_BASE + "index.json", "./data/index.json"]) {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (res.ok) return await res.json();
+    } catch (e) {
+      /* 다음 경로 시도 */
+    }
+  }
+  throw new Error("아카이브 없음");
+}
+
+function renderContent(data, baseOverride) {
+  // 오늘 자료는 data/latest/, 지난 자료는 archive/<날짜>/ 에서 읽는다
+  const base = baseOverride || "./data/latest/";
   document.getElementById("status").style.display = "none";
   document.getElementById("content").style.display = "block";
 
@@ -27,7 +45,7 @@ function renderContent(data) {
   document.getElementById("script").textContent = data.script.full_script;
 
   const pptxLink = document.getElementById("pptx-link");
-  pptxLink.href = `./data/latest/${data.assets.pptx}`;
+  pptxLink.href = `${base}${data.assets.pptx}`;
 
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
@@ -44,8 +62,113 @@ function renderContent(data) {
     wrap.appendChild(cap);
     gallery.appendChild(wrap);
   };
-  addImg(`./data/latest/${data.assets.paper_card}`, "표지 카드");
-  (data.assets.frames || []).forEach((f, i) => addImg(`./data/latest/${f}`, `씬 ${i + 1}`));
+  addImg(`${base}${data.assets.paper_card}`, "표지 카드");
+  (data.assets.frames || []).forEach((f, i) => addImg(`${base}${f}`, `씬 ${i + 1}`));
+
+  // 논문 본문에서 가져온 그림·표가 있으면 따로 보여준다
+  const paperBox = document.getElementById("paper-assets");
+  const figs = (data.assets && data.assets.paper_figures) || [];
+  const tbls = (data.assets && data.assets.paper_tables) || [];
+  if (paperBox) {
+    if (figs.length || tbls.length) {
+      paperBox.style.display = "block";
+      const g = document.getElementById("paper-gallery");
+      g.innerHTML = "";
+      figs.forEach((f) => {
+        const wrap = document.createElement("div");
+        wrap.className = "thumb";
+        const img = document.createElement("img");
+        img.src = `${base}${f.path}`;
+        img.loading = "lazy";
+        img.style.aspectRatio = "auto";
+        const cap = document.createElement("span");
+        cap.textContent = f.label || "Figure";
+        wrap.appendChild(img);
+        wrap.appendChild(cap);
+        g.appendChild(wrap);
+      });
+      document.getElementById("paper-tables").textContent = tbls.length
+        ? tbls.map((t) => `${t.label}: ${t.caption || ""}`).join("\n")
+        : "";
+    } else {
+      paperBox.style.display = "none";
+    }
+  }
+}
+
+function renderArchive(index, filter) {
+  const list = document.getElementById("archive-list");
+  const q = (filter || "").trim().toLowerCase();
+  const items = (index.items || []).filter(
+    (it) =>
+      !q ||
+      (it.title || "").toLowerCase().includes(q) ||
+      (it.journal || "").toLowerCase().includes(q)
+  );
+
+  document.getElementById("archive-count").textContent =
+    q ? `${items.length}건 (전체 ${index.count}건)` : `전체 ${index.count}건`;
+
+  list.innerHTML = "";
+  if (!items.length) {
+    list.innerHTML = '<div style="color:var(--muted);font-size:13px;padding:20px 0;">검색 결과가 없습니다.</div>';
+    return;
+  }
+
+  items.forEach((it) => {
+    const row = document.createElement("div");
+    row.className = "arch-item";
+
+    const img = document.createElement("img");
+    img.src = ARCHIVE_BASE + it.thumb;
+    img.loading = "lazy";
+    img.alt = "";
+    img.onerror = () => {
+      img.style.visibility = "hidden";
+    };
+
+    const meta = document.createElement("div");
+    meta.className = "arch-meta";
+    const badge = it.has_paper_figures ? '<span class="arch-badge">논문 그림</span>' : "";
+    const accent = it.hook_accent ? `<span class="arch-accent">${it.hook_accent}</span>` : "";
+    meta.innerHTML =
+      `<div class="arch-date">${it.date}${accent}${badge}</div>` +
+      `<div class="arch-title">${it.title || "(제목 없음)"}</div>` +
+      `<div class="arch-journal">${it.journal || ""}</div>`;
+
+    row.appendChild(img);
+    row.appendChild(meta);
+    row.addEventListener("click", () => openArchiveItem(it));
+    list.appendChild(row);
+  });
+}
+
+async function openArchiveItem(item) {
+  try {
+    const res = await fetch(`${ARCHIVE_BASE}${item.dir}/result.json`, { cache: "no-store" });
+    if (!res.ok) throw new Error("불러오기 실패");
+    const data = await res.json();
+    renderContent(data, `${ARCHIVE_BASE}${item.dir}/`);
+    showTab("today", { keepArchive: true });
+    const back = document.getElementById("back-to-archive");
+    if (back) back.style.display = "block";
+    window.scrollTo(0, 0);
+  } catch (e) {
+    alert("이 날짜의 상세 자료를 불러오지 못했습니다. (아직 배포되지 않았을 수 있어요)");
+  }
+}
+
+function showTab(which, opts) {
+  const isToday = which === "today";
+  document.getElementById("tab-today").classList.toggle("active", isToday);
+  document.getElementById("tab-archive").classList.toggle("active", !isToday);
+  document.getElementById("content").style.display = isToday ? "block" : "none";
+  document.getElementById("archive-view").style.display = isToday ? "none" : "block";
+  document.getElementById("status").style.display = "none";
+  if (!(opts && opts.keepArchive)) {
+    const back = document.getElementById("back-to-archive");
+    if (back) back.style.display = "none";
+  }
 }
 
 function checkForNewContentAndNotify(data) {
@@ -130,4 +253,42 @@ window.addEventListener("load", async () => {
   }
 
   document.getElementById("subscribe-btn").addEventListener("click", subscribePush);
+
+  // 지난 아티클 탭
+  let archiveIndex = null;
+  const loadAndRenderArchive = async () => {
+    if (!archiveIndex) {
+      try {
+        archiveIndex = await loadArchiveIndex();
+      } catch (e) {
+        document.getElementById("archive-list").innerHTML =
+          '<div style="color:var(--muted);font-size:13px;padding:20px 0;">아직 쌓인 아티클이 없습니다.</div>';
+        return;
+      }
+    }
+    renderArchive(archiveIndex, document.getElementById("archive-search").value);
+  };
+
+  document.getElementById("tab-archive").addEventListener("click", async () => {
+    showTab("archive");
+    await loadAndRenderArchive();
+  });
+  document.getElementById("tab-today").addEventListener("click", async () => {
+    showTab("today");
+    try {
+      renderContent(await loadContent());
+    } catch (e) {
+      /* 오늘 자료가 없으면 그대로 둔다 */
+    }
+  });
+  document.getElementById("archive-search").addEventListener("input", () => {
+    if (archiveIndex) renderArchive(archiveIndex, document.getElementById("archive-search").value);
+  });
+  const back = document.getElementById("back-to-archive");
+  if (back) {
+    back.addEventListener("click", async () => {
+      showTab("archive");
+      await loadAndRenderArchive();
+    });
+  }
 });

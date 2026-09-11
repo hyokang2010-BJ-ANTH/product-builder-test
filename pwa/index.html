@@ -115,6 +115,96 @@
   }
   details { color: var(--muted); font-size: 13px; margin-top: 8px; }
   details summary { cursor: pointer; color: var(--text); }
+
+  /* 탭 */
+  .tabs {
+    display: flex;
+    gap: 6px;
+    background: rgba(255,255,255,0.06);
+    padding: 4px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+  }
+  .tab {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .tab.active { background: var(--accent); color: #fff; }
+
+  /* 아카이브 목록 */
+  .arch-item {
+    display: flex;
+    gap: 12px;
+    background: var(--card);
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+  }
+  .arch-item img {
+    width: 54px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #222;
+    flex-shrink: 0;
+  }
+  .arch-meta { min-width: 0; }
+  .arch-date { font-size: 11px; color: var(--muted); }
+  .arch-accent {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--accent);
+    margin-left: 6px;
+  }
+  .arch-title {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 3px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .arch-journal { font-size: 11px; color: var(--muted); }
+  .arch-badge {
+    font-size: 10px;
+    background: rgba(255,107,107,0.18);
+    color: var(--accent);
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-left: 4px;
+  }
+  #archive-search {
+    width: 100%;
+    padding: 11px 13px;
+    border-radius: 11px;
+    border: none;
+    background: rgba(255,255,255,0.08);
+    color: var(--text);
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  #archive-search::placeholder { color: var(--muted); }
+  .back-btn {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px 0 12px;
+  }
 </style>
 </head>
 <body>
@@ -124,9 +214,23 @@
 </header>
 
 <main>
+  <div class="tabs">
+    <button class="tab active" id="tab-today">오늘</button>
+    <button class="tab" id="tab-archive">지난 아티클</button>
+  </div>
+
   <div id="status">불러오는 중...</div>
 
+  <!-- 지난 아티클 목록 -->
+  <div id="archive-view" style="display:none;">
+    <input id="archive-search" type="search" placeholder="제목·저널로 검색" autocomplete="off" />
+    <div id="archive-count" style="font-size:12px;color:var(--muted);margin-bottom:10px;"></div>
+    <div id="archive-list"></div>
+  </div>
+
   <div id="content" style="display:none;">
+    <button class="back-btn" id="back-to-archive" style="display:none;">← 목록으로</button>
+
     <div class="card">
       <span class="badge" id="source-type">📄 논문</span>
       <div id="date">-</div>
@@ -137,6 +241,15 @@
     <div class="card">
       <div id="hook">-</div>
       <pre id="script"></pre>
+    </div>
+
+    <div class="card" id="paper-assets" style="display:none;">
+      <div style="font-weight:700; margin-bottom:4px;">📊 논문 속 그림·표</div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:10px;">
+        오픈액세스 논문 본문에서 가져왔습니다. 영상에 쓸 때 출처를 함께 표기하세요.
+      </div>
+      <div class="gallery" id="paper-gallery"></div>
+      <pre id="paper-tables" style="white-space:pre-wrap;font-family:inherit;font-size:12px;color:var(--muted);margin:8px 0 0;"></pre>
     </div>
 
     <div class="card">
