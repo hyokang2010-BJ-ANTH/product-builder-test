@@ -266,39 +266,66 @@ def render_table_image(table, out_path):
         img.save(out_path)
         return out_path
 
-    ncols = max(len(r) for r in rows)
-    ncols = min(ncols, 4)  # 세로 화면에 4열까지가 한계
+    # 세로 화면에서는 3열을 넘기면 글자가 뭉개져 읽을 수 없다
+    ncols = min(max(len(r) for r in rows), 3)
     col_w = (W - 140) // ncols
-    cell_font = _font(32)
-    head_font = _font(34, display=True)
 
-    # 표를 화면 세로 중앙에 배치한다 (위로 쏠리면 아래가 휑하게 빈다)
-    row_h = 88
-    visible = min(len(rows), 8)
-    y = max(470, (H - visible * row_h) // 2)
-    for ri, row in enumerate(rows[:8]):
-        is_head = ri == 0
-        if is_head:
-            draw.rectangle([70, y, W - 70, y + row_h], fill=(58, 46, 92))
-        elif ri % 2 == 0:
-            draw.rectangle([70, y, W - 70, y + row_h], fill=(30, 34, 58))
+    # 열이 많을수록 글자를 줄여 최대한 잘리지 않게 한다
+    cell_size = {1: 36, 2: 32, 3: 27}[ncols]
+    cell_font = _font(cell_size)
+    head_font = _font(cell_size + 2, display=True)
+    line_h = cell_size + 10
 
+    # 셀 내용을 잘라내는 대신 줄바꿈한다. 예전에는 한 줄에 억지로 넣느라
+    # 거의 모든 칸이 '...'로 끝나 정보가 남지 않았다.
+    def cell_lines(text, font, max_lines):
+        lines = _wrap(draw, _sanitize_for_font(text), font, col_w - 24)
+        if len(lines) > max_lines:
+            lines = lines[:max_lines]
+            last = lines[-1]
+            while last and draw.textlength(last + "...", font=font) > col_w - 24:
+                last = last[:-1]
+            lines[-1] = last.rstrip() + "..."
+        return lines
+
+    # 행 높이를 내용에 맞춰 미리 계산한다
+    max_rows = 7
+    shown = rows[:max_rows]
+    layout = []
+    for ri, row in enumerate(shown):
+        f = head_font if ri == 0 else cell_font
+        cells = []
         for ci in range(ncols):
             text = row[ci] if ci < len(row) else ""
-            text = _sanitize_for_font(text)
-            f = head_font if is_head else cell_font
-            # 셀 폭을 넘으면 잘라내되, 잘렸다는 표시(...)를 반드시 남긴다.
-            # (예전 로직은 글자를 줄이다 폭 안에 들어가면 표시 없이 끝나서
-            #  'Hair regrowth'가 'Hair regro'로 보이는 문제가 있었다)
-            if draw.textlength(text, font=f) > col_w - 24:
-                while text and draw.textlength(text + "...", font=f) > col_w - 24:
-                    text = text[:-1]
-                text = text.rstrip() + "..."
-            draw.text((82 + ci * col_w, y + (row_h - 42) // 2), text, font=f,
-                      fill="white" if is_head else (225, 228, 245))
-        y += row_h
-        if y > H - 300:
-            break
+            # 병합 셀을 채워 넣은 값이 매 행 반복되면 지저분하므로,
+            # 바로 윗행과 같은 값이면 비워서 원본 표처럼 보이게 한다
+            if ri > 1 and ci < len(shown[ri - 1]) and text and text == shown[ri - 1][ci]:
+                text = ""
+            cells.append(cell_lines(text, f, 2 if ri == 0 else 3))
+        height = max(len(c) for c in cells) * line_h + 22
+        layout.append((cells, height, f))
+
+    total_h = sum(h for _, h, _ in layout)
+    # 화면을 넘치면 뒤쪽 행을 덜어낸다
+    while total_h > H - 700 and len(layout) > 2:
+        layout.pop()
+        total_h = sum(h for _, h, _ in layout)
+
+    y = max(470, (H - total_h) // 2)
+    for ri, (cells, height, f) in enumerate(layout):
+        is_head = ri == 0
+        if is_head:
+            draw.rectangle([70, y, W - 70, y + height], fill=(58, 46, 92))
+        elif ri % 2 == 0:
+            draw.rectangle([70, y, W - 70, y + height], fill=(30, 34, 58))
+
+        for ci, lines in enumerate(cells):
+            ty = y + 11
+            for line in lines:
+                draw.text((82 + ci * col_w, ty), line, font=f,
+                          fill="white" if is_head else (225, 228, 245))
+                ty += line_h
+        y += height
 
     foot = _font(28)
     draw.text((70, H - 150), "출처: 논문 본문 표 (오픈액세스)", font=foot, fill=(150, 155, 180))

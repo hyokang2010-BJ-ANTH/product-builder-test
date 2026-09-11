@@ -139,11 +139,43 @@ def extract_tables(root, max_items=2):
 
         rows = []
         for tr in tw.iter("tr"):
-            cells = [_clean("".join(td.itertext())) for td in tr if td.tag in ("td", "th")]
+            cells = []
+            for td in tr:
+                if td.tag not in ("td", "th"):
+                    continue
+                text = _clean("".join(td.itertext()))
+                cells.append(text)
+                # 가로 병합(colspan)은 빈 칸을 채워 열 위치를 맞춘다
+                try:
+                    span = int(td.attrib.get("colspan", 1))
+                except ValueError:
+                    span = 1
+                cells.extend([""] * (span - 1))
             if any(cells):
                 rows.append(cells)
         if not rows:
             continue
+
+        # 세로 병합(rowspan)으로 비어 버린 앞쪽 칸은 위 행의 값을 이어받는다.
+        # 그대로 두면 '분류' 열이 통째로 비어 표를 읽을 수 없다.
+        width = max(len(r) for r in rows)
+        filled = []
+        prev = [""] * width
+        for ri, row in enumerate(rows):
+            row = list(row) + [""] * (width - len(row))
+            # 헤더(0행)는 이어받기의 출처로 쓰지 않는다.
+            # 그러지 않으면 2행 첫 칸에 열 제목이 그대로 복사된다.
+            if ri > 1:
+                for ci in range(width):
+                    if not row[ci] and prev[ci]:
+                        row[ci] = prev[ci]
+            filled.append(row)
+            if ri >= 1:
+                prev = row
+        rows = filled
+
+        # 캡션 끝에 붙는 인용 참조([12345] 등)는 노이즈라 떼어낸다
+        caption = re.sub(r"\[\d[\d,\s\-]*\]\s*$", "", caption).strip()
 
         tables.append(
             {
