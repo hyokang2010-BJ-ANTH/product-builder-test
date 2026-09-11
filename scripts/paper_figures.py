@@ -195,22 +195,37 @@ def download_figure(fig, dest_dir, index):
     fname = fig["file"]
     candidates = [fname] if "." in fname else [f"{fname}.jpg", f"{fname}.png", f"{fname}.gif"]
 
-    for cand in candidates:
-        url = PMC_IMG_BASE.format(pmcid=fig["pmcid"], fname=cand)
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-            if r.status_code != 200 or not r.content:
+    # 임시 파일은 반드시 지운다. 예전에는 이미지 변환이 실패하면 정리 코드에
+    # 닿지 못해 .paperfig_N.download 가 저장소에 그대로 커밋됐다.
+    tmp = os.path.join(dest_dir, f".paperfig_{index}.download")
+    last_error = None
+    try:
+        for cand in candidates:
+            url = PMC_IMG_BASE.format(pmcid=fig["pmcid"], fname=cand)
+            try:
+                r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+                if r.status_code != 200 or not r.content:
+                    continue
+                # PMC는 없는 파일에도 200과 함께 안내 페이지를 주는 경우가 있어
+                # 내용이 진짜 이미지인지 확인한다
+                ctype = r.headers.get("Content-Type", "")
+                if not ctype.startswith("image/"):
+                    last_error = f"이미지가 아닌 응답({ctype or '알 수 없음'})"
+                    continue
+
+                with open(tmp, "wb") as f:
+                    f.write(r.content)
+                dest = os.path.join(dest_dir, f"paper_figure_{index}.jpg")
+                Image.open(tmp).convert("RGB").save(dest, "JPEG", quality=90)
+                return dest
+            except Exception as e:
+                last_error = e
                 continue
-            tmp = os.path.join(dest_dir, f".paperfig_{index}.download")
-            with open(tmp, "wb") as f:
-                f.write(r.content)
-            dest = os.path.join(dest_dir, f"paper_figure_{index}.jpg")
-            Image.open(tmp).convert("RGB").save(dest, "JPEG", quality=90)
+    finally:
+        if os.path.exists(tmp):
             os.remove(tmp)
-            return dest
-        except Exception:
-            continue
-    print(f"  논문 그림 내려받기 실패: {fig.get('label')} ({fname})")
+
+    print(f"  논문 그림 내려받기 실패: {fig.get('label')} ({fname}) - {last_error}")
     return None
 
 

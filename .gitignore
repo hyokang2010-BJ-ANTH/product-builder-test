@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# 파이프라인 임시 파일 (이미지 변환 실패 시 남을 수 있음)
+*.download
