@@ -16,13 +16,19 @@ from search_sources import _eutils_get, HEADERS, TIMEOUT
 
 import requests
 
-ID_CONVERTER = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
-PMC_IMG_BASE = "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/bin/{fname}"
+ID_CONVERTERS = (
+    "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/",
+    "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/",
+)
+PMC_IMG_BASE = "https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/bin/{fname}"
 
 # 같은 그림이 호스트·확장자에 따라 다른 경로로 제공된다.
 # 본문 XML이 가리키는 이름(.webp 등)이 그대로는 404가 나는 경우가 많아
 # 확장자를 바꿔가며, 그리고 Europe PMC 미러까지 차례로 시도한다.
+# NCBI는 PMC를 pmc.ncbi.nlm.nih.gov 도메인으로 옮겼다.
+# 예전 www.ncbi.nlm.nih.gov/pmc/... 경로는 이미지도 API도 모두 404를 준다.
 PMC_IMG_HOSTS = (
+    "https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/bin/{fname}",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/bin/{fname}",
     "https://europepmc.org/articles/{pmcid}/bin/{fname}",
 )
@@ -63,19 +69,21 @@ ALLOW_NC = os.environ.get("ALLOW_NC_FIGURES", "").strip().lower() in ("1", "true
 
 def pmid_to_pmcid(pmid):
     """PMID를 PMCID로 바꾼다. PMC에 없으면 None."""
-    try:
-        r = requests.get(
-            ID_CONVERTER,
-            params={"ids": pmid, "format": "json", "tool": "hair-content-automation"},
-            headers=HEADERS,
-            timeout=TIMEOUT,
-        )
-        r.raise_for_status()
-        records = r.json().get("records", [])
-        if records and records[0].get("pmcid"):
-            return records[0]["pmcid"]
-    except Exception as e:
-        print(f"  PMCID 변환 실패 (pmid {pmid}): {e}")
+    for service in ID_CONVERTERS:
+        try:
+            r = requests.get(
+                service,
+                params={"ids": pmid, "format": "json", "tool": "hair-content-automation"},
+                headers=HEADERS,
+                timeout=TIMEOUT,
+            )
+            r.raise_for_status()
+            records = r.json().get("records", [])
+            if records and records[0].get("pmcid"):
+                return records[0]["pmcid"]
+            return None  # 응답은 정상인데 PMC에 없는 논문
+        except Exception as e:
+            print(f"  PMCID 변환 실패 (pmid {pmid}, {service.split('/')[2]}): {e}")
     return None
 
 
@@ -212,7 +220,11 @@ def extract_tables(root, max_items=2):
     return tables
 
 
-OA_SERVICE = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
+# 신 도메인을 우선 쓰고, 혹시 몰라 구 주소도 남겨 차례로 시도한다
+OA_SERVICES = (
+    "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi",
+    "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi",
+)
 
 
 def fetch_oa_package(pmcid, dest_dir):
@@ -223,12 +235,18 @@ def fetch_oa_package(pmcid, dest_dir):
     """
     import tarfile
 
-    try:
-        r = requests.get(OA_SERVICE, params={"id": pmcid}, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
-        root = ET.fromstring(r.content)
-    except Exception as e:
-        print(f"  OA 패키지 조회 실패 ({pmcid}): {e}")
+    root = None
+    last_error = None
+    for service in OA_SERVICES:
+        try:
+            r = requests.get(service, params={"id": pmcid}, headers=HEADERS, timeout=TIMEOUT)
+            r.raise_for_status()
+            root = ET.fromstring(r.content)
+            break
+        except Exception as e:
+            last_error = e
+    if root is None:
+        print(f"  OA 패키지 조회 실패 ({pmcid}): {last_error}")
         return None
 
     href = None
