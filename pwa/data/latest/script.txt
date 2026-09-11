@@ -1,11 +1,11 @@
 원형탈모 오늘 나온 최신 연구를 정리했습니다
 
-오늘 소개할 논문은 《Frontiers in medicine》에 실린
-"IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives" 입니다. (Fan J, Luo Y, Gao C 외, 2026)
+오늘 소개할 논문은 《Recent advances in inflammation & allergy drug discovery》에 실린
+"Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies" 입니다. (Thakur R, Gill P, Bala R 외, 2026 Aug 28)
 
 핵심 내용은 이렇습니다:
-- In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. [검수 필요: 한글 번역/의역 확인]
-- Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. [검수 필요: 한글 번역/의역 확인]
-- Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. [검수 필요: 한글 번역/의역 확인]
+- Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss. [검수 필요: 한글 번역/의역 확인]
+- The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder. [검수 필요: 한글 번역/의역 확인]
+- Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

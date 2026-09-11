@@ -2,37 +2,36 @@
   "date": "2026-09-11",
   "topic": {
     "source_type": "paper",
-    "pmid": "42707815",
-    "title": "IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
-    "journal": "Frontiers in medicine",
-    "pub_date": "2026",
+    "pmid": "42706968",
+    "title": "Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
+    "journal": "Recent advances in inflammation & allergy drug discovery",
+    "pub_date": "2026 Aug 28",
     "authors": [
-      "Fan J",
-      "Luo Y",
-      "Gao C"
+      "Thakur R",
+      "Gill P",
+      "Bala R"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42707815/",
-    "id": "pmid:42707815",
-    "abstract": "Alopecia areata (AA) is a highly prevalent human autoimmune disease. It is now regarded by most scientists as a defect of immune privilege (IP). The impaired IP in the hair follicles is an essential driver of AA, which is developed by the imbalanced local CD8+ T cell, NK cell, tissue-resident Treg cells and infiltration of many factors such as IFN-γ and TGF-β. In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. In contemporary century, there has been a gradually growing recognition of their critical role in modulating immune tolerance (via Treg cell). Low-dose IL-2 preferentially induces Treg cell, recovering the balance status between Treg cell and effector T cell and representing an original strategy for autoimmune systematic diseases. Recent study found IL-15 was the guardian of IP in hair follicles arousing the attention of IL-15 in maintain immune tolerance. IL-15, as a pleiotropic cytokine, shares many overlapping biological functions with IL-2. Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. Low-dose IL-2 and certain concentration of IL-15 complement each other, maintaining the function of Treg cell, and induce reconstruction in immune tolerance, which may be a new strategy for treating alopecia areata. Therefore, refocusing on the function of IL-15 and its role in AA might provide new insights into the pathogenesis and therapy of AA."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42706968/",
+    "id": "pmid:42706968",
+    "abstract": "Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss. The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder. Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches. Methods: Mechanistic studies, clinical trials, peer-reviewed articles, and epidemiological data have been combined into this review. A literature review of the pathophysiology of AA, environmental factors, traditional medicines, and newer therapeutic approaches, including biologics, metabolic regulators, regenerative therapies, and new drug delivery systems, was comprehensively reviewed and included. Results: Activation of CD8⁷NKG2D⁷ T cells through IFN-γ and breaching of follicular immune privilege are the primary drivers of AA disease. Other factors contributing to disease development include stress, smoking, alcohol use, sleep disorders, obesity, vitamin D deficiency, alterations of the microbiota, virus infections, and medication exposure. The efficacy of conventional therapies, including topical corticosteroids, minoxidil, topical immunotherapy, glucocorticoids, cyclosporine, oral minoxidil, and JAK inhibitors, is variable. Novel treatments target the prostaglandin pathways, thyroid receptors, Wnt/β-catenin signaling, androgen receptors, LDH-driven metabolic activation, PDE4, and RIPK1. Among regenerative techniques, PRP, dermal papilla and sheath cup cells, adipose-derived stem cells, stromal vascular fraction, and exosomes have reported promising initial findings. Nanoparticles, microneedles, and 3D-printed scaffolds improve drug delivery and safety. Discussion: Complex interplays of immunological pathways, hair cycle control, and environmental modifiers influence AA. Biologics and regenerative techniques offer more targeted and possibly longer-acting treatments, whereas current medications yield only partial benefits. Conclusion: Future management of AA will require personalized, mechanism-driven therapeutic approaches. For the incorporation of new drugs into clinical practice, continuous study of long-term safety, established techniques, and practical efficacy is necessary."
   },
   "script": {
     "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
     "hook_accent": "원형탈모",
     "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Frontiers in medicine》 - IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
+    "intro": "《Recent advances in inflammation & allergy drug discovery》 - Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
     "highlights": [
-      "In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses.",
-      "Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment.",
-      "Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased."
+      "Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss.",
+      "The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder.",
+      "Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Frontiers in medicine》에 실린\n\"IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives\" 입니다. (Fan J, Luo Y, Gao C 외, 2026)\n\n핵심 내용은 이렇습니다:\n- In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. [검수 필요: 한글 번역/의역 확인]\n- Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. [검수 필요: 한글 번역/의역 확인]\n- Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42707815/",
-    "reference_title": "IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
+    "full_script": "원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Recent advances in inflammation & allergy drug discovery》에 실린\n\"Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies\" 입니다. (Thakur R, Gill P, Bala R 외, 2026 Aug 28)\n\n핵심 내용은 이렇습니다:\n- Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss. [검수 필요: 한글 번역/의역 확인]\n- The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder. [검수 필요: 한글 번역/의역 확인]\n- Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42706968/",
+    "reference_title": "Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
     "reference_type": "paper"
   },
   "assets": {
@@ -45,58 +44,14 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "The comparison of IL-15 effect in different studies of AA.",
-        "rows": [
-          [
-            "Study",
-            "Model",
-            "IL-15 exposure",
-            "Main finding",
-            "Key limitation",
-            "Relevance to human AA"
-          ],
-          [
-            "Suzuki et al., 2024 (76)",
-            "Human AA tissue;ex vivo human hair follicle;human hair follicle organ culture",
-            "rhIL-15 exact concentration reported in original study",
-            "IL-15 exerts the anti-inflammatory effects to maintain IP in hair follicles, and promotes hair regrowth in established AA lesions",
-            "Ex vivo model; limited clinical validation",
-            "High"
-          ],
-          [
-            "Suzuki et al., 2024 (82)",
-            "Human AA tissue",
-            "rhIL-15(1, 50 and 100 ng/ml)",
-            "IL-15 promotes hair follicles growth in human scalp",
-            "Ex vivo model; limited clinical validation;Organ culture",
-            "High"
-          ],
-          [
-            "Seok et al., 2023 (75)",
-            "AA mouse model;cell culture",
-            "IL-15",
-            "IL-15 promotes the production of a new subset of pathologic CD8+ memory-related T cells, CD44super-high(s-hi)CD49dloCD8+ T cells, to participated in AA",
-            "Human AA tissue;ex vivo human hair follicle",
-            "Moderate"
-          ]
-        ]
-      }
-    ],
-    "paper_source": {
-      "pmcid": "PMC13548128",
-      "license_note": "재사용 가능 라이선스"
-    },
-    "paper_skip_reason": null
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문"
   }
 }
