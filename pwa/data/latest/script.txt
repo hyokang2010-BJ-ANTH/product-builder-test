@@ -1,11 +1,11 @@
-93.16% 이 숫자, 탈모 연구가 새로 내놨습니다
+원형탈모 오늘 나온 최신 연구를 정리했습니다
 
-오늘 소개할 논문은 《Indian journal of dermatology》에 실린
-"Effectiveness and Safety Profile of Oral Tofacitinib in Alopecia Areata: An Observational Study from a Tertiary Hospital" 입니다. (Bhat YJ, Ul Islam MS, Trumboo T 외, 2026 Sep-Oct)
+오늘 소개할 논문은 《Frontiers in medicine》에 실린
+"IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives" 입니다. (Fan J, Luo Y, Gao C 외, 2026)
 
 핵심 내용은 이렇습니다:
-- Results: SALT score at 6 months showed a mean SALT reduction of 79.27% (43.33% of patients), followed by 93.16% (26.67%), 28.24% (20%), and 3.76% (10%). [검수 필요: 한글 번역/의역 확인]
-- Similarly, at 6 months, we observed a positive change in AAPS of 4.25 (>90% SALT reduction) followed by 2.9 (50%-90%), 1.66 (10%-50%), and 1 (<10%). [검수 필요: 한글 번역/의역 확인]
-- Conclusion: Oral tofacitinib showed promising results, with most patients showing a >50% (mean = 79.27%) SALT reduction and a mean 2.9 dermoscopic positive change in AAPS assessment. [검수 필요: 한글 번역/의역 확인]
+- In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. [검수 필요: 한글 번역/의역 확인]
+- Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. [검수 필요: 한글 번역/의역 확인]
+- Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. [검수 필요: 한글 번역/의역 확인]
 
 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!

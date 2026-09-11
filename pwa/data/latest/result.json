@@ -2,36 +2,37 @@
   "date": "2026-09-11",
   "topic": {
     "source_type": "paper",
-    "pmid": "42708150",
-    "title": "Effectiveness and Safety Profile of Oral Tofacitinib in Alopecia Areata: An Observational Study from a Tertiary Hospital",
-    "journal": "Indian journal of dermatology",
-    "pub_date": "2026 Sep-Oct",
+    "pmid": "42707815",
+    "title": "IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
+    "journal": "Frontiers in medicine",
+    "pub_date": "2026",
     "authors": [
-      "Bhat YJ",
-      "Ul Islam MS",
-      "Trumboo T"
+      "Fan J",
+      "Luo Y",
+      "Gao C"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42708150/",
-    "id": "pmid:42708150",
-    "abstract": "Introduction: Alopecia areata (AA) is a chronic folliculocentric inflammatory disease with hair loss ranging from patchy to diffuse involvement, with a chronic remitting and relapsing course. It has a multifactorial pathogenesis and immense psychosocial implications. Janus kinase/signal transducers and activators of transcription (JAK-STAT) pathway involving the inhibition of interferon-gamma (IFNγ) and subsequent inflammatory cytokine cascade is its key mechanism of action. Aim: To determine the effectiveness and safety profile of oral tofacitinib in alopecia areata. Materials and methods: A total of 30 patients with extensive AA, not responding to conventional therapies, were included in this study. Clinical assessment was performed by Severity of Alopecia Tool (SALT) score and dermoscopic assessment by alopecia areata predictive score (AAPS). Results: SALT score at 6 months showed a mean SALT reduction of 79.27% (43.33% of patients), followed by 93.16% (26.67%), 28.24% (20%), and 3.76% (10%). Similarly, at 6 months, we observed a positive change in AAPS of 4.25 (>90% SALT reduction) followed by 2.9 (50%-90%), 1.66 (10%-50%), and 1 (<10%). Highly statistically significant results were achieved. Autoimmune thyroid disease was the most common comorbidity. Mild side effects were observed and managed with dose reduction. Limitations: These included small sample size, less follow-up periods, lack of controls, and non-responders. Conclusion: Oral tofacitinib showed promising results, with most patients showing a >50% (mean = 79.27%) SALT reduction and a mean 2.9 dermoscopic positive change in AAPS assessment. Mild or no side effects were observed."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42707815/",
+    "id": "pmid:42707815",
+    "abstract": "Alopecia areata (AA) is a highly prevalent human autoimmune disease. It is now regarded by most scientists as a defect of immune privilege (IP). The impaired IP in the hair follicles is an essential driver of AA, which is developed by the imbalanced local CD8+ T cell, NK cell, tissue-resident Treg cells and infiltration of many factors such as IFN-γ and TGF-β. In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. In contemporary century, there has been a gradually growing recognition of their critical role in modulating immune tolerance (via Treg cell). Low-dose IL-2 preferentially induces Treg cell, recovering the balance status between Treg cell and effector T cell and representing an original strategy for autoimmune systematic diseases. Recent study found IL-15 was the guardian of IP in hair follicles arousing the attention of IL-15 in maintain immune tolerance. IL-15, as a pleiotropic cytokine, shares many overlapping biological functions with IL-2. Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. Low-dose IL-2 and certain concentration of IL-15 complement each other, maintaining the function of Treg cell, and induce reconstruction in immune tolerance, which may be a new strategy for treating alopecia areata. Therefore, refocusing on the function of IL-15 and its role in AA might provide new insights into the pathogenesis and therapy of AA."
   },
   "script": {
-    "hook": "93.16% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "93.16%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Indian journal of dermatology》 - Effectiveness and Safety Profile of Oral Tofacitinib in Alopecia Areata: An Observational Study from a Tertiary Hospital",
+    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "원형탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Frontiers in medicine》 - IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
     "highlights": [
-      "Results: SALT score at 6 months showed a mean SALT reduction of 79.27% (43.33% of patients), followed by 93.16% (26.67%), 28.24% (20%), and 3.76% (10%).",
-      "Similarly, at 6 months, we observed a positive change in AAPS of 4.25 (>90% SALT reduction) followed by 2.9 (50%-90%), 1.66 (10%-50%), and 1 (<10%).",
-      "Conclusion: Oral tofacitinib showed promising results, with most patients showing a >50% (mean = 79.27%) SALT reduction and a mean 2.9 dermoscopic positive change in AAPS assessment."
+      "In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses.",
+      "Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment.",
+      "Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "93.16% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n오늘 소개할 논문은 《Indian journal of dermatology》에 실린\n\"Effectiveness and Safety Profile of Oral Tofacitinib in Alopecia Areata: An Observational Study from a Tertiary Hospital\" 입니다. (Bhat YJ, Ul Islam MS, Trumboo T 외, 2026 Sep-Oct)\n\n핵심 내용은 이렇습니다:\n- Results: SALT score at 6 months showed a mean SALT reduction of 79.27% (43.33% of patients), followed by 93.16% (26.67%), 28.24% (20%), and 3.76% (10%). [검수 필요: 한글 번역/의역 확인]\n- Similarly, at 6 months, we observed a positive change in AAPS of 4.25 (>90% SALT reduction) followed by 2.9 (50%-90%), 1.66 (10%-50%), and 1 (<10%). [검수 필요: 한글 번역/의역 확인]\n- Conclusion: Oral tofacitinib showed promising results, with most patients showing a >50% (mean = 79.27%) SALT reduction and a mean 2.9 dermoscopic positive change in AAPS assessment. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42708150/",
-    "reference_title": "Effectiveness and Safety Profile of Oral Tofacitinib in Alopecia Areata: An Observational Study from a Tertiary Hospital",
+    "full_script": "원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Frontiers in medicine》에 실린\n\"IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives\" 입니다. (Fan J, Luo Y, Gao C 외, 2026)\n\n핵심 내용은 이렇습니다:\n- In the past, IL-2 and IL-15 are generally recognized for their roles in promoting pro-inflammatory immune responses. [검수 필요: 한글 번역/의역 확인]\n- Moreover, cytokine-based therapeutic strategies utilizing IL-2 or IL-15 have the capacity to expand effector T cell and NK cells, thereby offering a viable alternative immunotherapeutic approach for cancer treatment. [검수 필요: 한글 번역/의역 확인]\n- Notably, IL-15 will replace IL-2 to play a certain role while the level and function of IL-2 has decreased. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42707815/",
+    "reference_title": "IL-15 in alopecia areata: the immune tolerance mechanistic insights and translational perspectives",
     "reference_type": "paper"
   },
   "assets": {
@@ -55,53 +56,45 @@
       {
         "kind": "table",
         "label": "Table 1",
-        "caption": "SALT reduction with oral Tofacitinib at 3 and 6 months in Alopecia areata",
+        "caption": "The comparison of IL-15 effect in different studies of AA.",
         "rows": [
           [
-            "Group",
-            "Mean percentage SALT reduction at 3 months",
-            "P",
-            "Group",
-            "Mean percentage SALT reduction at 6 months",
-            "P"
+            "Study",
+            "Model",
+            "IL-15 exposure",
+            "Main finding",
+            "Key limitation",
+            "Relevance to human AA"
           ],
           [
-            "<10% reduction",
-            "2.06%",
-            "0.04",
-            "<10% reduction",
-            "3.76%",
-            "0.11"
+            "Suzuki et al., 2024 (76)",
+            "Human AA tissue;ex vivo human hair follicle;human hair follicle organ culture",
+            "rhIL-15 exact concentration reported in original study",
+            "IL-15 exerts the anti-inflammatory effects to maintain IP in hair follicles, and promotes hair regrowth in established AA lesions",
+            "Ex vivo model; limited clinical validation",
+            "High"
           ],
           [
-            "10–50% reduction",
-            "35.31%",
-            "<0.001",
-            "10–50% reduction",
-            "28.24%",
-            "0.008"
+            "Suzuki et al., 2024 (82)",
+            "Human AA tissue",
+            "rhIL-15(1, 50 and 100 ng/ml)",
+            "IL-15 promotes hair follicles growth in human scalp",
+            "Ex vivo model; limited clinical validation;Organ culture",
+            "High"
           ],
           [
-            "50–90% reduction",
-            "59.75%",
-            "<0.001",
-            "50–90% reduction",
-            "79.27%",
-            "<0.001"
-          ],
-          [
-            ">90% reduction",
-            "-",
-            "-",
-            ">90% reduction",
-            "93.16%",
-            "<0.001"
+            "Seok et al., 2023 (75)",
+            "AA mouse model;cell culture",
+            "IL-15",
+            "IL-15 promotes the production of a new subset of pathologic CD8+ memory-related T cells, CD44super-high(s-hi)CD49dloCD8+ T cells, to participated in AA",
+            "Human AA tissue;ex vivo human hair follicle",
+            "Moderate"
           ]
         ]
       }
     ],
     "paper_source": {
-      "pmcid": "PMC13549691",
+      "pmcid": "PMC13548128",
       "license_note": "재사용 가능 라이선스"
     },
     "paper_skip_reason": null
