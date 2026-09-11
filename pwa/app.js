@@ -87,9 +87,10 @@ function renderContent(data, baseOverride) {
         wrap.appendChild(cap);
         g.appendChild(wrap);
       });
-      document.getElementById("paper-tables").textContent = tbls.length
-        ? tbls.map((t) => `${t.label}: ${t.caption || ""}`).join("\n")
-        : "";
+      const lines = tbls.map((t) => `${t.label}: ${t.caption || ""}`);
+      const note = data.assets && data.assets.paper_figure_note;
+      if (note) lines.push(note);
+      document.getElementById("paper-tables").textContent = lines.join("\n");
     } else {
       const why = data.assets && data.assets.paper_skip_reason;
       if (why) {

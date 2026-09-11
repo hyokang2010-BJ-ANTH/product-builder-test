@@ -66,6 +66,18 @@ NON_REUSABLE_HINTS = ("no commercial", "noncommercial", "non-commercial", "nc/")
 # 쓸 수 있다. 켜더라도 attribution.txt에 경고가 함께 기록된다.
 ALLOW_NC = os.environ.get("ALLOW_NC_FIGURES", "").strip().lower() in ("1", "true", "yes")
 
+# 논문 '그림' 자동 수집은 기본으로 끈다.
+#
+# 2026-09 진단 결과: PMC는 기계적 이미지 접근을 막고 있다. 신·구 도메인 모두
+# 200을 주면서도 실제 내용은 HTML 안내 페이지였고(Content-Type: text/html),
+# 공식 OA 패키지 서비스(oa.fcgi)는 양쪽 도메인에서 404였다. Europe PMC는 520.
+# 그림 하나에 10개 URL을 두드려도 전부 실패하므로, 매일 헛된 요청을 보내기보다
+# 꺼두는 편이 낫다. 표는 본문 XML에서 직접 읽으므로 이 설정과 무관하게 동작한다.
+#
+# 나중에 PMC 정책이 바뀌거나 다른 경로를 찾으면 이 값을 켜서 확인할 수 있다.
+# 상태 점검은 "Diagnose PMC figures" 워크플로로 언제든 다시 해볼 수 있다.
+TRY_FIGURES = os.environ.get("FETCH_PAPER_FIGURES", "").strip().lower() in ("1", "true", "yes")
+
 
 def pmid_to_pmcid(pmid):
     """PMID를 PMCID로 바꾼다. PMC에 없으면 None."""
@@ -392,7 +404,12 @@ def collect_paper_assets(topic, dest_dir, max_figures=2, max_tables=1):
     tables = extract_tables(root, max_items=max_tables)
 
     saved = []
-    if figures:
+    if figures and not TRY_FIGURES:
+        print(
+            f"  논문 그림 {len(figures)}개는 건너뜀 "
+            "(PMC가 이미지 직접 접근을 차단 - README '논문 그림' 항목 참고)"
+        )
+    elif figures:
         # 그림은 OA 패키지에서만 안정적으로 얻을 수 있다.
         # (본문이 가리키는 /bin/ 경로는 현재 모두 404)
         package_dir = fetch_oa_package(pmcid, dest_dir)
@@ -413,8 +430,15 @@ def collect_paper_assets(topic, dest_dir, max_figures=2, max_tables=1):
     if saved or tables:
         print(f"  논문 자료 확보: 그림 {len(saved)}개, 표 {len(tables)}개 ({pmcid}, {reason})")
 
-    return {
+    result = {
         "figures": saved,
         "tables": tables,
         "source": {"pmcid": pmcid, "license_note": reason},
     }
+    if figures and not saved:
+        # 그림이 있는 논문인데 못 가져온 경우, 화면에서 이유를 볼 수 있게 남긴다
+        result["figure_note"] = (
+            f"이 논문에는 그림 {len(figures)}개가 있지만 PMC가 이미지 직접 접근을 막아 "
+            f"자동으로 가져오지 못했습니다. 원문({pmcid})에서 직접 캡처해 쓰세요."
+        )
+    return result
