@@ -19,6 +19,30 @@ import requests
 ID_CONVERTER = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
 PMC_IMG_BASE = "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/bin/{fname}"
 
+# 같은 그림이 호스트·확장자에 따라 다른 경로로 제공된다.
+# 본문 XML이 가리키는 이름(.webp 등)이 그대로는 404가 나는 경우가 많아
+# 확장자를 바꿔가며, 그리고 Europe PMC 미러까지 차례로 시도한다.
+PMC_IMG_HOSTS = (
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/bin/{fname}",
+    "https://europepmc.org/articles/{pmcid}/bin/{fname}",
+)
+IMG_EXTENSIONS = ("jpg", "jpeg", "png", "gif", "webp")
+
+
+def _candidate_image_urls(pmcid, fname):
+    stem, _, ext = fname.rpartition(".")
+    if not stem:  # 확장자가 없는 이름
+        stem, ext = fname, ""
+
+    exts = ([ext] if ext else []) + [e for e in IMG_EXTENSIONS if e != ext]
+    seen = set()
+    for host in PMC_IMG_HOSTS:
+        for e in exts:
+            url = host.format(pmcid=pmcid, fname=f"{stem}.{e}" if e else stem)
+            if url not in seen:
+                seen.add(url)
+                yield url
+
 # 재배포가 가능한 라이선스만 사용한다. PMC 오픈액세스라도 일부는
 # "구독자 열람만 가능"이라 본문 그림을 영상에 쓸 수 없다.
 REUSABLE_LICENSE_HINTS = (
@@ -193,18 +217,17 @@ def download_figure(fig, dest_dir, index):
     from PIL import Image
 
     fname = fig["file"]
-    candidates = [fname] if "." in fname else [f"{fname}.jpg", f"{fname}.png", f"{fname}.gif"]
 
     # 임시 파일은 반드시 지운다. 예전에는 이미지 변환이 실패하면 정리 코드에
     # 닿지 못해 .paperfig_N.download 가 저장소에 그대로 커밋됐다.
     tmp = os.path.join(dest_dir, f".paperfig_{index}.download")
     last_error = None
     try:
-        for cand in candidates:
-            url = PMC_IMG_BASE.format(pmcid=fig["pmcid"], fname=cand)
+        for url in _candidate_image_urls(fig["pmcid"], fname):
             try:
-                r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+                r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
                 if r.status_code != 200 or not r.content:
+                    last_error = f"HTTP {r.status_code}"
                     continue
                 # PMC는 없는 파일에도 200과 함께 안내 페이지를 주는 경우가 있어
                 # 내용이 진짜 이미지인지 확인한다
