@@ -110,6 +110,7 @@ def run():
             ],
             "paper_tables": paper_assets.get("tables") or [],
             "paper_source": paper_assets.get("source"),
+            "paper_skip_reason": paper_assets.get("skip_reason"),
         },
     }
     save_json(os.path.join(d, "result.json"), result)

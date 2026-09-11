@@ -91,7 +91,15 @@ function renderContent(data, baseOverride) {
         ? tbls.map((t) => `${t.label}: ${t.caption || ""}`).join("\n")
         : "";
     } else {
-      paperBox.style.display = "none";
+      const why = data.assets && data.assets.paper_skip_reason;
+      if (why) {
+        paperBox.style.display = "block";
+        document.getElementById("paper-gallery").innerHTML = "";
+        document.getElementById("paper-tables").textContent =
+          `이 논문의 그림·표는 쓰지 않았습니다 - ${why}`;
+      } else {
+        paperBox.style.display = "none";
+      }
     }
   }
 }

@@ -31,6 +31,11 @@ REUSABLE_LICENSE_HINTS = (
 )
 NON_REUSABLE_HINTS = ("no commercial", "noncommercial", "non-commercial", "nc/")
 
+# 의학 오픈액세스 저널 상당수가 CC BY-NC(비상업 한정)로 배포한다.
+# 기본값은 안전하게 제외하지만, 수익화하지 않는 채널이라면 아래 환경변수를 켜서
+# 쓸 수 있다. 켜더라도 attribution.txt에 경고가 함께 기록된다.
+ALLOW_NC = os.environ.get("ALLOW_NC_FIGURES", "").strip().lower() in ("1", "true", "yes")
+
 
 def pmid_to_pmcid(pmid):
     """PMID를 PMCID로 바꾼다. PMC에 없으면 None."""
@@ -64,7 +69,9 @@ def _license_ok(root):
     if not blob:
         return False, "라이선스 표기 없음"
     if any(h in blob for h in NON_REUSABLE_HINTS):
-        return False, "비상업적 이용 한정 라이선스"
+        if ALLOW_NC:
+            return True, "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
+        return False, "비상업적 이용 한정 라이선스(CC BY-NC)"
     if any(h in blob for h in REUSABLE_LICENSE_HINTS):
         return True, "재사용 가능 라이선스"
     return False, "재사용 가능 여부 불명"
@@ -181,23 +188,26 @@ def collect_paper_assets(topic, dest_dir, max_figures=2, max_tables=1):
     반환: {"figures": [...다운로드된 경로와 설명...], "tables": [...행 데이터...], "source": 설명}
     오픈액세스가 아니거나 라이선스가 불분명하면 빈 결과를 돌려준다.
     """
-    empty = {"figures": [], "tables": [], "source": None}
+    def skipped(reason):
+        # 왜 그림이 없는지 남겨야 화면에서 "기능이 빠진 것"처럼 보이지 않는다
+        return {"figures": [], "tables": [], "source": None, "skip_reason": reason}
+
     if topic.get("source_type") != "paper" or not topic.get("pmid"):
-        return empty
+        return skipped("논문이 아닌 소재(뉴스)")
 
     pmcid = pmid_to_pmcid(topic["pmid"])
     if not pmcid:
         print("  PMC 오픈액세스 아님 - 논문 그림·표 생략")
-        return empty
+        return skipped("PMC 오픈액세스로 공개되지 않은 논문")
 
     root = fetch_pmc_article(pmcid)
     if root is None:
-        return empty
+        return skipped("PMC 본문을 불러오지 못함")
 
     ok, reason = _license_ok(root)
     if not ok:
         print(f"  논문 그림·표 사용 불가 ({reason}) - 생략")
-        return empty
+        return skipped(reason)
 
     figures = extract_figures(root, pmcid, max_items=max_figures)
     tables = extract_tables(root, max_items=max_tables)
