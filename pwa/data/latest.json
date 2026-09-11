@@ -2,37 +2,34 @@
   "date": "2026-09-11",
   "topic": {
     "source_type": "paper",
-    "pmid": "42719841",
-    "title": "Dupilumab Combined with Topical 5% Minoxidil for Severe Alopecia Areata in a 2-Year-Old Child with Type 2 Immune Features: A Case Report",
-    "journal": "Clinical, cosmetic and investigational dermatology",
-    "pub_date": "2026",
+    "pmid": "42708156",
+    "title": "'Cutting Through the Roots': A Critical Appraisal of Transverse and Vertical Sectioning Techniques of Scalp Biopsy for Primary Alopecia",
+    "journal": "Indian journal of dermatology",
+    "pub_date": "2026 Sep-Oct",
     "authors": [
-      "Song YH",
-      "Zhang YQ",
-      "Zhang B"
+      "Palo S"
     ],
     "pubtypes": [
-      "Case Reports",
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42719841/",
-    "id": "pmid:42719841",
-    "abstract": "Background: Severe alopecia areata (AA) in very young children is difficult to manage because evidence-based treatment options are limited and currently approved Janus kinase (JAK) inhibitor therapies do not cover children younger than 12 years. Type 2 immune activity may contribute to AA in a subset of patients with atopic features, providing a rationale for considering dupilumab. Case presentation: A 2-year-and-5-month-old girl with a 2-year history of progressive scalp hair loss presented with severe diffuse AA (Severity of Alopecia Tool [SALT] score, 85%). She had a history of eczema, a family history of eczema, and mildly elevated total serum immunoglobulin E. Baseline dermoscopy showed sparse vellus hairs and occasional black dots without prominent perifollicular erythema or vascular changes. Previous topical and systemic treatments had produced minimal improvement. Intervention and outcome: After discussion with the family regarding the off-label nature, uncertainties, potential risks, and alternatives, subcutaneous dupilumab was initiated together with topical 5% minoxidil. Initial regrowth was observed at week 7, followed by progressive improvement; the SALT score decreased to approximately 9% by week 37. No treatment-related adverse events were reported during 9 months of follow-up. Conclusion: This case adds to emerging evidence that dupilumab may be considered in carefully selected pediatric patients with severe, treatment-refractory AA and features suggestive of type 2 immune involvement. Because minoxidil was continued concomitantly, baseline inflammatory activity was limited, and spontaneous regrowth cannot be excluded, the clinical improvement cannot be attributed to dupilumab alone."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42708156/",
+    "id": "pmid:42708156",
+    "abstract": "Alopecia, a prevalent and distressing condition with diverse aetiologies, encompasses both scarring and non-scarring types and necessitates accurate diagnostic approaches for effective management. Apart from optimal biopsy site selection based on clinical suspicion, such as active borders for scarring alopecias and lesion borders for non-scarring alopecias, choice of appropriate method for grossing of alopecic scalp biopsies also forms a key step. Historically, debates on 'One (biopsy) Vs Two (biopsies)' and 'Vertical/Longitudinal Vs Horizontal/Transverse' sections persist, each approach carrying its advantages and disadvantages. Traditional methods, such as those proposed by Headington and Whiting, describe the landmarks for slicing a biopsy for transverse section. Newer innovative strategies, including the HoVert technique and the Tyler technique, aim to obtain both vertical and horizontal sections from a single biopsy. This article meticulously presents all the methodologies employed in the grossing of alopecic scalp biopsies in a simplified manner, presents a comprehensive overview of their strengths and limitations, and offers evidence-based recommendation for choosing optimal grossing techniques based on clinical scenarios."
   },
   "script": {
-    "hook": "85% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "85%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Clinical, cosmetic and investigational dermatology》 - Dupilumab Combined with Topical 5% Minoxidil for Severe Alopecia Areata in a 2-Year-Old Child with Type 2 Immune Features: A Case Report",
+    "hook": "오늘의 논문 Indian journal of dermatology에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Indian journal of dermatology에 실린 새 연구입니다",
+    "intro": "《Indian journal of dermatology》 - 'Cutting Through the Roots': A Critical Appraisal of Transverse and Vertical Sectioning Techniques of Scalp Biopsy for Primary Alopecia",
     "highlights": [
-      "Background: Severe alopecia areata (AA) in very young children is difficult to manage because evidence-based treatment options are limited and currently approved Janus kinase (JAK) inhibitor therapies do not cover children younger than 12 years.",
-      "Case presentation: A 2-year-and-5-month-old girl with a 2-year history of progressive scalp hair loss presented with severe diffuse AA (Severity of Alopecia Tool [SALT] score, 85%).",
-      "Initial regrowth was observed at week 7, followed by progressive improvement; the SALT score decreased to approximately 9% by week 37."
+      "Alopecia, a prevalent and distressing condition with diverse aetiologies, encompasses both scarring and non-scarring types and necessitates accurate diagnostic approaches for effective management.",
+      "Apart from optimal biopsy site selection based on clinical suspicion, such as active borders for scarring alopecias and lesion borders for non-scarring alopecias, choice of appropriate method for grossing of alopecic scalp biopsies also forms a key step.",
+      "Historically, debates on 'One (biopsy) Vs Two (biopsies)' and 'Vertical/Longitudinal Vs Horizontal/Transverse' sections persist, each approach carrying its advantages and disadvantages."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "85% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n오늘 소개할 논문은 《Clinical, cosmetic and investigational dermatology》에 실린\n\"Dupilumab Combined with Topical 5% Minoxidil for Severe Alopecia Areata in a 2-Year-Old Child with Type 2 Immune Features: A Case Report\" 입니다. (Song YH, Zhang YQ, Zhang B 외, 2026)\n\n핵심 내용은 이렇습니다:\n- Background: Severe alopecia areata (AA) in very young children is difficult to manage because evidence-based treatment options are limited and currently approved Janus kinase (JAK) inhibitor therapies do not cover children younger than 12 years. [검수 필요: 한글 번역/의역 확인]\n- Case presentation: A 2-year-and-5-month-old girl with a 2-year history of progressive scalp hair loss presented with severe diffuse AA (Severity of Alopecia Tool [SALT] score, 85%). [검수 필요: 한글 번역/의역 확인]\n- Initial regrowth was observed at week 7, followed by progressive improvement; the SALT score decreased to approximately 9% by week 37. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42719841/",
-    "reference_title": "Dupilumab Combined with Topical 5% Minoxidil for Severe Alopecia Areata in a 2-Year-Old Child with Type 2 Immune Features: A Case Report",
+    "full_script": "오늘의 논문 Indian journal of dermatology에 실린 새 연구입니다\n\n오늘 소개할 논문은 《Indian journal of dermatology》에 실린\n\"'Cutting Through the Roots': A Critical Appraisal of Transverse and Vertical Sectioning Techniques of Scalp Biopsy for Primary Alopecia\" 입니다. (Palo S 외, 2026 Sep-Oct)\n\n핵심 내용은 이렇습니다:\n- Alopecia, a prevalent and distressing condition with diverse aetiologies, encompasses both scarring and non-scarring types and necessitates accurate diagnostic approaches for effective management. [검수 필요: 한글 번역/의역 확인]\n- Apart from optimal biopsy site selection based on clinical suspicion, such as active borders for scarring alopecias and lesion borders for non-scarring alopecias, choice of appropriate method for grossing of alopecic scalp biopsies also forms a key step. [검수 필요: 한글 번역/의역 확인]\n- Historically, debates on 'One (biopsy) Vs Two (biopsies)' and 'Vertical/Longitudinal Vs Horizontal/Transverse' sections persist, each approach carrying its advantages and disadvantages. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42708156/",
+    "reference_title": "'Cutting Through the Roots': A Critical Appraisal of Transverse and Vertical Sectioning Techniques of Scalp Biopsy for Primary Alopecia",
     "reference_type": "paper"
   },
   "assets": {
@@ -45,13 +42,66 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
+      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [],
-    "paper_source": null
+    "paper_tables": [
+      {
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "Common primary alopecia subtypes and their key histological features[12345]",
+        "rows": [
+          [
+            "Broad category",
+            "Disease entity",
+            "Key histopathological findings"
+          ],
+          [
+            "",
+            "Cutaneous/Discoid lupus erythematosus",
+            "• Follicular plugging"
+          ],
+          [
+            "Scarring (cicatricial) alopecia",
+            "",
+            "• Vacuolar degeneration of the basal layer"
+          ],
+          [
+            "",
+            "",
+            "• Thickened basement membrane of the epidermis (better visualised on Periodic acid Schiff-stained sections)"
+          ],
+          [
+            "",
+            "",
+            "• Apoptotic keratinocytes"
+          ],
+          [
+            "",
+            "",
+            "• Interface dermatitis"
+          ],
+          [
+            "",
+            "",
+            "• Superficial and deep perifollicular and perivascular lymphocytic infiltrate"
+          ],
+          [
+            "",
+            "",
+            "• Increased dermal mucin (better visualised on Alcian Blue-stained or colloidal iron-stained sections)"
+          ]
+        ]
+      }
+    ],
+    "paper_source": {
+      "pmcid": "PMC13549692",
+      "license_note": "재사용 가능 라이선스"
+    },
+    "paper_skip_reason": null
   }
 }

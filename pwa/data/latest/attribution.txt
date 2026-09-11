@@ -1,7 +1,7 @@
 [출처]
-논문: Dupilumab Combined with Topical 5% Minoxidil for Severe Alopecia Areata in a 2-Year-Old Child with Type 2 Immune Features: A Case Report
-게재: Clinical, cosmetic and investigational dermatology
-원문: https://pubmed.ncbi.nlm.nih.gov/42719841/
+논문: 'Cutting Through the Roots': A Critical Appraisal of Transverse and Vertical Sectioning Techniques of Scalp Biopsy for Primary Alopecia
+게재: Indian journal of dermatology
+원문: https://pubmed.ncbi.nlm.nih.gov/42708156/
 
 [이미지 출처]
 - Male pattern baldness.jpg / Originally uploaded by Lkinkade (Transferred by XenonX3) / CC BY-SA 2.5
@@ -12,3 +12,9 @@
 ※ CC BY-SA 이미지가 포함되어 있습니다. 저작자 표시가 필수이며,
   동일조건변경허락(ShareAlike) 조항이 영상 전체에 적용될 수 있으니
   상업적 이용 시 해당 이미지를 교체하는 편이 안전합니다.
+
+[논문 본문 그림·표]
+- PubMed Central PMC13549692 (재사용 가능 라이선스)
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13549692/
+  · Table 1
+  ※ 오픈액세스 논문의 그림·표이며, 위 원문 출처를 함께 표기하세요.
