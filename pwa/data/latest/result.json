@@ -1,35 +1,36 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "topic": {
     "source_type": "paper",
-    "pmid": "42715487",
-    "title": "Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
-    "journal": "Cutaneous and ocular toxicology",
-    "pub_date": "2026 Sep 9",
+    "pmid": "42722190",
+    "title": "Canine Flank Alopecia: A Narrative Review of Clinical Presentation, Genetic Basis, and Therapeutic Management",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "pub_date": "2026 Sep 10",
     "authors": [
-      "Agaoglu E",
-      "Isiklar OO",
-      "Kacer I"
+      "Verschuuren-Tjoeng MUMY",
+      "Schlotter YM",
+      "van Geijlswijk IM"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42715487/",
-    "id": "pmid:42715487",
-    "abstract": "Objective: Early-onset androgenetic alopecia (AGA) is the most common form of male hair loss and is associated with metabolic dysregulation. Irisin is an adipomyokine that has been proposed to regulate insulin sensitivity and metabolic syndrome (MS). In this study, we aimed to evaluate the serum irisin levels and metabolic parameters associated with insulin resistance (IR) in male patients with early-onset AGA. Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5). Anthropometric measurements (body mass index (BMI), waist circumference, blood pressure) and fasting biochemical parameters (glucose, insulin, lipid profile, uric acid, high sensitivity C-reactive protein (hs-CRP), erythrocyte sedimentation rate (ESR)) were assessed. To evaluate IR, the Homeostasis Model Assessment (HOMA-IR) was used. Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05). No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05). Severity of disease was not associated with differences in biochemical parameters or serum irisin levels. Conclusion: This preliminary study found no significant differences in serum irisin or IR between early-onset AGA patients and healthy controls suggesting that irisin signaling may be more pronounced in phenotypes with a higher metabolic load. However, higher BMI and waist circumference in AGA patients suggest a predisposition to obesity-related metabolic disorders. Early monitoring of men with early-onset AGA may help prevent long-term cardiometabolic consequences."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42722190/",
+    "id": "pmid:42722190",
+    "abstract": "Canine flank alopecia (CFA) is a seasonally recurrent skin disorder with a strong breed predisposition. Affected dogs display non-inflammatory, often hyperpigmented, well-circumscribed, symmetrical patches of hair loss, typically located on the thoracolumbar flanks. The onset of hair loss occurs during periods of decreasing daylight, usually in autumn or winter, with spontaneous partial or complete regrowth of hair during the following spring or summer. CFA is not associated with systemic symptoms and does not compromise the dog's general health. While the disorder is primarily considered a cosmetic condition, its chronic, cyclical nature and poorly understood pathogenesis present a challenge for veterinary clinicians and concerns for dog owners and breeders. This narrative review synthesizes current knowledge on CFA, discussing its clinical presentation, histopathological features, epidemiology, and suspected etiopathogenetic mechanisms, including photoperiod-dependent neuroendocrine influences and breed-related genetic predispositions. Diagnosis of CFA is based on signalment, the characteristic clinical presentation, exclusion of differential diagnoses, and supportive histopathology. Histological findings vary with disease stage and are suggestive, though not pathognomonic. Epidemiological data indicate breed predisposition and recurrence patterns, but quantitative data on prevalence are lacking. The pathogenesis appears multifactorial, likely involving interactions between environmental, neurohormonal, and genetic factors. Management of CFA ranges from watchful waiting to melatonin administration, with emerging treatments, such as low-level laser therapy, although evidence from placebo-controlled studies is limited. Current knowledge gaps on the genetic basis and biological pathomechanisms involved in CFA should be addressed through well-designed research, which will improve understanding and inform breeding strategies and management of CFA in veterinary practice."
   },
   "script": {
     "hook": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.",
-    "intro": "《Cutaneous and ocular toxicology》 - Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
+    "intro": "《Veterinary journal (London, England : 1997)》 - Canine Flank Alopecia: A Narrative Review of Clinical Presentation, Genetic Basis, and Therapeutic Management",
     "highlights": [
-      "Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5).",
-      "Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05).",
-      "No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05)."
+      "Canine flank alopecia (CFA) is a seasonally recurrent skin disorder with a strong breed predisposition.",
+      "Affected dogs display non-inflammatory, often hyperpigmented, well-circumscribed, symmetrical patches of hair loss, typically located on the thoracolumbar flanks.",
+      "The onset of hair loss occurs during periods of decreasing daylight, usually in autumn or winter, with spontaneous partial or complete regrowth of hair during the following spring or summer."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Cutaneous and ocular toxicology》에 실린\n\"Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study\" 입니다. (Agaoglu E, Isiklar OO, Kacer I 외, 2026 Sep 9)\n\n핵심 내용은 이렇습니다:\n- Materials and methods: This case-control study included 40 male patients (mean age: 23.1) with early-onset AGA and 40 healthy men (mean age: 22.5). [검수 필요: 한글 번역/의역 확인]\n- Results: Early-onset AGA patients had significantly higher BMI and waist circumference compared to controls (p < 0.05). [검수 필요: 한글 번역/의역 확인]\n- No significant differences were observed in blood pressure, presence of IR, glucose, insulin, lipid levels, uric acid, hs-CRP, ESR and serum irisin levels between groups (p > 0.05). [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42715487/",
-    "reference_title": "Serum irisin and insulin resistance in patients with early-onset androgenetic alopecia: a case-control study",
+    "full_script": "오늘 새로 나온 탈모 연구, 이거 안 보면 손해입니다.\n\n오늘 소개할 논문은 《Veterinary journal (London, England : 1997)》에 실린\n\"Canine Flank Alopecia: A Narrative Review of Clinical Presentation, Genetic Basis, and Therapeutic Management\" 입니다. (Verschuuren-Tjoeng MUMY, Schlotter YM, van Geijlswijk IM 외, 2026 Sep 10)\n\n핵심 내용은 이렇습니다:\n- Canine flank alopecia (CFA) is a seasonally recurrent skin disorder with a strong breed predisposition. [검수 필요: 한글 번역/의역 확인]\n- Affected dogs display non-inflammatory, often hyperpigmented, well-circumscribed, symmetrical patches of hair loss, typically located on the thoracolumbar flanks. [검수 필요: 한글 번역/의역 확인]\n- The onset of hair loss occurs during periods of decreasing daylight, usually in autumn or winter, with spontaneous partial or complete regrowth of hair during the following spring or summer. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42722190/",
+    "reference_title": "Canine Flank Alopecia: A Narrative Review of Clinical Presentation, Genetic Basis, and Therapeutic Management",
     "reference_type": "paper"
   },
   "assets": {
