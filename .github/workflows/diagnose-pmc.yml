@@ -1,0 +1,23 @@
+name: Diagnose PMC figures
+
+# 논문 그림이 안 나올 때 원인을 확인하는 진단용 워크플로.
+# Actions 탭에서 PMC ID를 넣고 수동 실행하면, 후보 URL별 응답을 표로 보여준다.
+on:
+  workflow_dispatch:
+    inputs:
+      pmcid:
+        description: "점검할 PMC ID (예: PMC13548128)"
+        required: true
+        default: "PMC13548128"
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_pmc_figure.py "${{ inputs.pmcid }}"
