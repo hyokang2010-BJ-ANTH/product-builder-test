@@ -212,6 +212,97 @@ def extract_tables(root, max_items=2):
     return tables
 
 
+OA_SERVICE = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
+
+
+def fetch_oa_package(pmcid, dest_dir):
+    """PMC 오픈액세스 패키지(tar.gz)를 받아 풀어놓고 그 경로를 돌려준다.
+
+    본문 XML이 가리키는 /bin/ 이미지 경로는 현재 모두 404를 반환한다(2026-09 확인).
+    NCBI가 공식으로 제공하는 방법은 이 OA 서비스로 패키지를 통째로 받는 것뿐이다.
+    """
+    import tarfile
+
+    try:
+        r = requests.get(OA_SERVICE, params={"id": pmcid}, headers=HEADERS, timeout=TIMEOUT)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+    except Exception as e:
+        print(f"  OA 패키지 조회 실패 ({pmcid}): {e}")
+        return None
+
+    href = None
+    for link in root.iter("link"):
+        if link.get("format") == "tgz" and link.get("href"):
+            href = link.get("href")
+            break
+    if not href:
+        print(f"  OA 패키지 없음 ({pmcid}) - 그림 사용 불가")
+        return None
+
+    # OA 서비스는 ftp:// 주소를 주는데, 러너에서는 https로 받아야 한다
+    href = href.replace("ftp://ftp.ncbi.nlm.nih.gov", "https://ftp.ncbi.nlm.nih.gov")
+
+    archive = os.path.join(dest_dir, ".oa_package.tar.gz")
+    extract_dir = os.path.join(dest_dir, ".oa_package")
+    try:
+        with requests.get(href, headers=HEADERS, timeout=60, stream=True) as resp:
+            resp.raise_for_status()
+            total = 0
+            with open(archive, "wb") as f:
+                for chunk in resp.iter_content(1 << 16):
+                    total += len(chunk)
+                    if total > 80 * 1024 * 1024:  # 비정상적으로 큰 패키지는 건너뛴다
+                        raise RuntimeError("패키지가 80MB를 초과")
+                    f.write(chunk)
+
+        os.makedirs(extract_dir, exist_ok=True)
+        with tarfile.open(archive, "r:gz") as tar:
+            members = [
+                m for m in tar.getmembers()
+                if m.isfile() and os.path.splitext(m.name)[1].lower() in
+                (".jpg", ".jpeg", ".png", ".gif", ".webp", ".tif", ".tiff")
+            ]
+            for m in members:
+                m.name = os.path.basename(m.name)  # 경로 이탈 방지
+            tar.extractall(extract_dir, members=members)
+        return extract_dir
+    except Exception as e:
+        print(f"  OA 패키지 내려받기 실패 ({pmcid}): {e}")
+        return None
+    finally:
+        if os.path.exists(archive):
+            os.remove(archive)
+
+
+def figure_from_package(fig, package_dir, dest_dir, index):
+    """풀어놓은 OA 패키지에서 해당 그림 파일을 찾아 JPEG로 저장한다."""
+    from PIL import Image
+
+    if not package_dir or not os.path.isdir(package_dir):
+        return None
+
+    stem = os.path.splitext(os.path.basename(fig["file"]))[0].lower()
+    available = os.listdir(package_dir)
+
+    # 파일명(확장자 제외)이 같은 것을 우선 찾고, 없으면 stem으로 시작하는 것을 쓴다
+    match = next((f for f in available if os.path.splitext(f)[0].lower() == stem), None)
+    if not match:
+        match = next((f for f in available if f.lower().startswith(stem)), None)
+    if not match:
+        print(f"  패키지에 그림 없음: {fig.get('label')} ({fig['file']})")
+        return None
+
+    try:
+        dest = os.path.join(dest_dir, f"paper_figure_{index}.jpg")
+        with Image.open(os.path.join(package_dir, match)) as im:
+            im.convert("RGB").save(dest, "JPEG", quality=90)
+        return dest
+    except Exception as e:
+        print(f"  그림 변환 실패 ({match}): {e}")
+        return None
+
+
 def download_figure(fig, dest_dir, index):
     """PMC에서 그림 이미지를 내려받아 JPEG로 저장한다."""
     from PIL import Image
@@ -283,11 +374,23 @@ def collect_paper_assets(topic, dest_dir, max_figures=2, max_tables=1):
     tables = extract_tables(root, max_items=max_tables)
 
     saved = []
-    for i, fig in enumerate(figures, 1):
-        path = download_figure(fig, dest_dir, i)
-        if path:
-            fig["path"] = path
-            saved.append(fig)
+    if figures:
+        # 그림은 OA 패키지에서만 안정적으로 얻을 수 있다.
+        # (본문이 가리키는 /bin/ 경로는 현재 모두 404)
+        package_dir = fetch_oa_package(pmcid, dest_dir)
+        for i, fig in enumerate(figures, 1):
+            path = figure_from_package(fig, package_dir, dest_dir, i)
+            if not path:
+                path = download_figure(fig, dest_dir, i)  # 예전 경로도 한 번은 시도
+            if path:
+                fig["path"] = path
+                saved.append(fig)
+
+        # 풀어놓은 패키지는 결과물이 아니므로 정리한다
+        if package_dir and os.path.isdir(package_dir):
+            import shutil
+
+            shutil.rmtree(package_dir, ignore_errors=True)
 
     if saved or tables:
         print(f"  논문 자료 확보: 그림 {len(saved)}개, 표 {len(tables)}개 ({pmcid}, {reason})")

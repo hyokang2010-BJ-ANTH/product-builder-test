@@ -16,6 +16,8 @@ import requests
 
 from paper_figures import (
     HEADERS,
+    fetch_oa_package,
+    figure_from_package,
     TIMEOUT,
     _candidate_image_urls,
     _license_ok,
@@ -44,6 +46,25 @@ def main(pmcid):
         print("그림이 없는 논문입니다.")
         return 0
 
+    # 1) 공식 경로: OA 패키지
+    import tempfile
+
+    workdir = tempfile.mkdtemp()
+    print("--- OA 패키지 경로 ---")
+    package_dir = fetch_oa_package(pmcid, workdir)
+    if package_dir:
+        files = sorted(os.listdir(package_dir))
+        print(f"패키지에서 이미지 {len(files)}개 확보: {', '.join(files[:6])}"
+              + (" ..." if len(files) > 6 else ""))
+        for i, fig in enumerate(figures, 1):
+            path = figure_from_package(fig, package_dir, workdir, i)
+            print(f"  {'OK ' if path else '실패'} {fig['label']} ({fig['file']})"
+                  + (f" -> {os.path.getsize(path)//1024}KB" if path else ""))
+    else:
+        print("패키지를 받지 못했습니다.")
+
+    # 2) 예전 경로: 본문이 가리키는 /bin/ URL (참고용)
+    print("\n--- /bin/ 직접 접근 (참고) ---")
     for fig in figures:
         print(f"[{fig['label']}] 원본 파일명: {fig['file']}")
         found = False
