@@ -1,37 +1,38 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-13",
   "topic": {
     "source_type": "paper",
-    "pmid": "42706968",
-    "title": "Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
-    "journal": "Recent advances in inflammation & allergy drug discovery",
-    "pub_date": "2026 Aug 28",
+    "pmid": "42727783",
+    "title": "Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
+    "journal": "Journal of the American Academy of Dermatology",
+    "pub_date": "2026 Sep 11",
     "authors": [
-      "Thakur R",
-      "Gill P",
-      "Bala R"
+      "Hill MA",
+      "Irfan M",
+      "Bergfeld W"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42706968/",
-    "id": "pmid:42706968",
-    "abstract": "Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss. The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder. Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches. Methods: Mechanistic studies, clinical trials, peer-reviewed articles, and epidemiological data have been combined into this review. A literature review of the pathophysiology of AA, environmental factors, traditional medicines, and newer therapeutic approaches, including biologics, metabolic regulators, regenerative therapies, and new drug delivery systems, was comprehensively reviewed and included. Results: Activation of CD8⁷NKG2D⁷ T cells through IFN-γ and breaching of follicular immune privilege are the primary drivers of AA disease. Other factors contributing to disease development include stress, smoking, alcohol use, sleep disorders, obesity, vitamin D deficiency, alterations of the microbiota, virus infections, and medication exposure. The efficacy of conventional therapies, including topical corticosteroids, minoxidil, topical immunotherapy, glucocorticoids, cyclosporine, oral minoxidil, and JAK inhibitors, is variable. Novel treatments target the prostaglandin pathways, thyroid receptors, Wnt/β-catenin signaling, androgen receptors, LDH-driven metabolic activation, PDE4, and RIPK1. Among regenerative techniques, PRP, dermal papilla and sheath cup cells, adipose-derived stem cells, stromal vascular fraction, and exosomes have reported promising initial findings. Nanoparticles, microneedles, and 3D-printed scaffolds improve drug delivery and safety. Discussion: Complex interplays of immunological pathways, hair cycle control, and environmental modifiers influence AA. Biologics and regenerative techniques offer more targeted and possibly longer-acting treatments, whereas current medications yield only partial benefits. Conclusion: Future management of AA will require personalized, mechanism-driven therapeutic approaches. For the incorporation of new drugs into clinical practice, continuous study of long-term safety, established techniques, and practical efficacy is necessary."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42727783/",
+    "id": "pmid:42727783",
+    "abstract": "Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden. Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease. Janus kinase-inhibitors (JAKis) have emerged as promising targeted therapies that interrupt the JAK-STAT signaling pathway central to AA pathogenesis. Currently, ritlecitinib is the only U.S. Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label. Despite this, emerging evidence and clinical experience demonstrate meaningful hair regrowth in pediatric patients treated with several JAKis, including abrocitinib, baricitinib, deuruxolitinib, ritlecitinib, ruxolitinib, tofacitinib, and upadacitinib, with generally favorable safety profiles. Additionally, evidence suggests that JAKis may be particularly beneficial in children with concomitant atopic or autoimmune disease and may also play a role in patients with elevated IgE levels and eosinophilia. Early-onset and severe disease may also warrant earlier consideration of systemic therapy. Limitations include heterogeneous outcome reporting between various reports and studies. Overall, this clinical review synthesizes current evidence and clinical experience to provide practical guidance on JAKi selection, dosing, safety monitoring, and key considerations for implementing these therapies in pediatric AA."
   },
   "script": {
-    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "원형탈모",
+    "hook": "JAK 억제제 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "JAK 억제제",
     "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Recent advances in inflammation & allergy drug discovery》 - Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
+    "intro": "《Journal of the American Academy of Dermatology》 - Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
     "highlights": [
-      "Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss.",
-      "The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder.",
-      "Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches."
+      "Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden.",
+      "Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease.",
+      "Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label."
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Recent advances in inflammation & allergy drug discovery》에 실린\n\"Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies\" 입니다. (Thakur R, Gill P, Bala R 외, 2026 Aug 28)\n\n핵심 내용은 이렇습니다:\n- Introduction: Alopecia areata is a non-scarring autoimmune disease that is usually characterized by patchy or diffuse hair loss. [검수 필요: 한글 번역/의역 확인]\n- The collapse of the immunological privilege of hair follicles and activation of cytotoxic T-cell pathways, regulated by metabolic, psychological, and environmental variables, cause this disorder. [검수 필요: 한글 번역/의역 확인]\n- Advances in the fields of immunology and regenerative medicine have identified new therapeutic targets and novel approaches. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42706968/",
-    "reference_title": "Understanding Alopecia Areata: An Integrative Review of Causes, Mechanisms, and Management Strategies",
+    "full_script": "JAK 억제제 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Journal of the American Academy of Dermatology》에 실린\n\"Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice\" 입니다. (Hill MA, Irfan M, Bergfeld W 외, 2026 Sep 11)\n\n핵심 내용은 이렇습니다:\n- Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden. [검수 필요: 한글 번역/의역 확인]\n- Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease. [검수 필요: 한글 번역/의역 확인]\n- Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42727783/",
+    "reference_title": "Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
     "reference_type": "paper"
   },
   "assets": {
@@ -52,6 +53,7 @@
     "paper_figures": [],
     "paper_tables": [],
     "paper_source": null,
-    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문"
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }

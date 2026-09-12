@@ -1,7 +1,20 @@
 {
-  "count": 14,
-  "updated": "2026-09-11",
+  "count": 15,
+  "updated": "2026-09-13",
   "items": [
+    {
+      "date": "2026-09-13",
+      "dir": "2026-09-13",
+      "title": "Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
+      "journal": "Journal of the American Academy of Dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42727783/",
+      "hook_accent": "JAK 억제제",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-13/paper_card.png",
+      "pptx": "2026-09-13/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-11",
       "dir": "2026-09-11",
