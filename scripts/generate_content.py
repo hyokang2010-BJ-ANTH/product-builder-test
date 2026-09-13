@@ -10,8 +10,12 @@ from common import (
     ANIMAL_KEYWORDS,
     EXCLUDED_PUBTYPES,
     EXCLUDED_TITLE_PREFIXES,
+    OFF_TOPIC_PHRASES,
+    OFF_TOPIC_WORD_PREFIXES,
+    PLANT_JOURNAL_PREFIXES,
     RELEVANCE_KEYWORDS,
     USED_TOPICS_PATH,
+    has_word_prefix,
     load_json,
     save_json,
     today_str,
@@ -48,14 +52,31 @@ def is_publishable(paper):
     return True
 
 
-def is_on_topic(title):
+def is_off_topic(text):
+    """"hair"가 들어가지만 사람 모발과 무관한 분야인지 확인한다.
+
+    "hair" 한 낱말만 보면 식물 뿌리털(root hair), 내이 유모세포(hair cell)까지 걸린다.
+    실제로 애기장대 가뭄 내성 논문이 "root hair growth"라는 제목으로 선정된 적이 있다.
+    """
+    lowered = (text or "").lower()
+    if any(p in lowered for p in OFF_TOPIC_PHRASES):
+        return True
+    return has_word_prefix(lowered, OFF_TOPIC_WORD_PREFIXES)
+
+
+def is_on_topic(title, journal=""):
     """제목에 탈모/모발 핵심 키워드가 있는지 확인한다.
 
     PubMed 쿼리는 초록까지 훑기 때문에, 모발 샘플을 다뤘을 뿐 주제는 다른 논문
     (예: 두피 백선 진단법)이 걸릴 수 있다. 제목 기준으로 한 번 더 거른다.
     """
     lowered = (title or "").lower()
-    return any(k in lowered for k in RELEVANCE_KEYWORDS)
+    if not any(k in lowered for k in RELEVANCE_KEYWORDS):
+        return False
+    if is_off_topic(lowered):
+        return False
+    # 저널이 식물·농학 분야면 제목이 어떻든 사람 모발 연구가 아니다
+    return not has_word_prefix(journal, PLANT_JOURNAL_PREFIXES)
 
 
 def pick_topic():
@@ -68,10 +89,15 @@ def pick_topic():
 
     # 1순위: 제목에 탈모/모발 키워드가 있는 논문
     for p in fresh:
-        if is_on_topic(p["title"]):
+        if is_on_topic(p["title"], p.get("journal", "")):
             abstract = fetch_abstract(p["pmid"])
             if not abstract:
                 continue  # 사설·코멘터리 등 초록 없는 글은 대본을 만들 수 없다
+            # 제목만으로 가려지지 않는 분야는 초록에서 한 번 더 거른다.
+            # 초록은 배제에만 쓴다. 선정에 쓰면 부작용으로 탈모를 한 줄 언급한
+            # 항암제 논문까지 통과한다(실제로 폐암 논문이 선정된 적이 있다).
+            if is_off_topic(abstract):
+                continue
             p["abstract"] = abstract
             return p, used
 
@@ -85,10 +111,10 @@ def pick_topic():
 
     # 모두 소진된 경우: 사용 이력을 초기화하고 주제에 맞는 논문/뉴스를 재사용
     for p in papers:
-        if not is_on_topic(p["title"]):
+        if not is_on_topic(p["title"], p.get("journal", "")):
             continue
         abstract = fetch_abstract(p["pmid"])
-        if abstract:
+        if abstract and not is_off_topic(abstract):
             p["abstract"] = abstract
             return p, {"ids": []}
     if news:

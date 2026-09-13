@@ -1,6 +1,7 @@
 """공통 설정 및 유틸리티."""
 import json
 import os
+import re
 from datetime import datetime, timezone, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -78,6 +79,28 @@ RELEVANCE_KEYWORDS = [
     "baldness",
     "tricholog",
 ]
+# 제목에 "hair"가 들어가도 사람 모발과 무관한 분야가 있다.
+# 실제로 2026-09-13 실행에서 애기장대 뿌리털(root hair) 논문이 선정됐다.
+#   "Enhanced drought tolerance in Arabidopsis thaliana ... linked to root hair growth"
+# 내이 유모세포(hair cell)나, 모발을 시료로만 쓰는 연구(머리카락 코르티솔 등)도 같은 이유로 뺀다.
+OFF_TOPIC_PHRASES = (
+    "root hair",
+    "hairy root",
+    "hair cell",
+    "hair-cell",
+    "hair cortisol",
+    "hair analysis",
+)
+# 아래 낱말이 제목이나 초록에 나오면 식물학·청각 연구로 본다.
+# "implant"가 "plant"로 잘못 걸리지 않도록 낱말 단위로 비교한다(common.has_word_prefix).
+OFF_TOPIC_WORD_PREFIXES = (
+    "arabidopsis", "thaliana", "rhizosphere", "rhizobacteri", "phytohormone",
+    "seedling", "germinat", "photosynthe", "chloroplast", "xylem",
+    "cochlea", "stereocili",
+)
+# 저널명이 이 낱말로 시작하는 단어를 포함하면 식물·농학 저널로 본다
+PLANT_JOURNAL_PREFIXES = ("plant", "botan", "agron", "agricultur", "crop", "phytopath", "horticult")
+
 NEWS_QUERIES = ["탈모 치료", "모발이식", "탈모 신약", "모발 연구"]
 
 WIKIMEDIA_TOPIC_KEYWORDS = [
@@ -94,6 +117,14 @@ def today_kst():
 
 def today_str():
     return today_kst().strftime("%Y-%m-%d")
+
+
+def has_word_prefix(text, prefixes):
+    """텍스트를 낱말로 쪼갠 뒤, 그 중 하나라도 주어진 접두사로 시작하는지 본다.
+
+    단순 부분 문자열 검사는 "implant"에서 "plant"를 찾아내는 식으로 오작동한다.
+    """
+    return any(w.startswith(prefixes) for w in re.findall(r"[a-z]+", (text or "").lower()))
 
 
 def ensure_dirs(*paths):
