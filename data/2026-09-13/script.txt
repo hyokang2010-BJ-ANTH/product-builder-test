@@ -1,20 +1,28 @@
-[훅] 90% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 모발 재생 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial
-저널: Journal of the American Academy of Dermatology
-저자: King B, Kempers S, Mesinkovska NA 외
+제목: Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages
+저널: The Journal of investigative dermatology
+저자: Huang KR, Chang NW, Tai KY 외
 발행: 2026 Sep 11
-원문: https://pubmed.ncbi.nlm.nih.gov/42727780/
+원문: https://pubmed.ncbi.nlm.nih.gov/42727722/
 
 [한눈에 보기]
-- Objective: To evaluate the efficacy and safety of the Janus kinase 1/2 inhibitor deuruxolitinib dosed 8 mg twice daily (BID) or 16 mg once daily (QD) in adults with severe AA.
-- Methods: In this phase 2 study (NCT03811912), patients were randomized to deuruxolitinib 8 mg BID or 16 mg QD.
-- At Week 24, the mean relative change from baseline in SALT score was greater with deuruxolitinib 8 mg BID (46.4 [90% confidence interval [CI], 34.3-58.4]) vs 16 mg QD (18.0 [90% CI, 7.6-28.4]) and a greater proportion of patients receiving deuruxolitinib 8 mg BID vs 16 mg QD achieved SALT score ≤20 and ≤10.
+- Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.
+- We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.
+- Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration.
 
-[본문 요약]
-  이 논문은 전문을 받아올 수 없어(구독 전용 또는 PMC 미공개) 초록만 정리했습니다.
-  더 자세한 내용은 위 원문 링크에서 확인하세요.
+[상세 내용] (초록 1개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 초록 요약 — Abstract
+  · Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.
+  · We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.
+  · Among all immunocytes, macrophages underwent the most prominent compositional and functional remodeling.
+  · We resolved five transcriptionally distinct macrophage subsets, with contact hypersensitivity driving a shift from homeostatic antigen-presenting cells toward a pro-inflammatory CD14+SPP1+ population.
+  · Trajectory analysis revealed divergent differentiation paths under homeostatic versus allergic conditions, highlighting the plasticity of skin macrophages.
+  · Mechanistically, CD14+SPP1+ macrophages secreted SPP1 (osteopontin), which engaged CD44 on hair follicle stem cells to activate PI3K-AKT signaling and trigger their proliferation.
+  · Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration.
+  · These findings reveal a macrophage-dependent mechanism of immune-mediated hair regeneration, offering therapeutic insights into immune-stem cell crosstalk.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
