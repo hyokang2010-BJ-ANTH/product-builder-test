@@ -165,6 +165,88 @@ _ABSTRACT_SPLIT = re.compile(
 )
 
 
+# 라벨 없는 초록을 나눌 때 쓰는 단서. 의학 초록은 대체로
+# 배경 -> 방법 -> 결과 -> 결론 순으로 서술되고, 문장의 동사가 그 단계를 드러낸다.
+_METHOD_CUES = (
+    "we integrated", "we performed", "we analyzed", "we analysed", "we conducted",
+    "we enrolled", "we investigated", "we used", "we examined", "we assessed",
+    "we evaluated", "we compared", "we reviewed", "we searched", "we developed",
+    "was performed", "were performed", "were analyzed", "were enrolled",
+    "were randomized", "this study", "in this", "using ", "to determine",
+    "to evaluate", "to investigate", "to assess",
+)
+_RESULT_CUES = (
+    "revealed", "showed", "demonstrated", "we found", "found that", "resulted",
+    "observed", "underwent", "we resolved", "increased", "decreased", "improved",
+    "was greater", "were greater", "was higher", "significantly", "compared with",
+    "mechanistically", "notably", "interestingly", "among all",
+)
+# 결론 단서는 문장 첫머리에서만 본다.
+# "highlighting", "underscoring" 같은 말은 결과 문장의 부연으로도 흔히 쓰여서
+# 단순 포함 검사로 잡으면 결과가 결론으로 밀려난다(실제로 그런 오분류가 있었다).
+_CONCLUSION_STARTS = (
+    "these findings", "our findings", "these results", "our results",
+    "in conclusion", "we conclude", "collectively", "taken together",
+    "overall", "in summary", "altogether",
+)
+_CONCLUSION_TAIL_CUES = (
+    "suggest", "indicate", "highlight", "underscore", "offer", "provide insight",
+    "warrant", "may serve", "therapeutic", "future",
+)
+
+
+def _stage_of(sentence, index, total):
+    low = sentence.lower()
+    head = low[:70]
+
+    # 1) 첫머리가 명확히 결론을 알리는 경우
+    if any(head.startswith(c) for c in _CONCLUSION_STARTS):
+        return "conclusion"
+
+    # 2) 결과 서술이면 결과. 부연에 highlight 같은 말이 붙어도 결과로 둔다.
+    if any(c in low for c in _RESULT_CUES):
+        return "results"
+
+    if any(c in low for c in _METHOD_CUES):
+        return "methods"
+
+    # 3) 마지막 문장이 마무리 표현을 담고 있으면 결론으로 본다
+    if index == total - 1 and any(c in low for c in _CONCLUSION_TAIL_CUES):
+        return "conclusion"
+
+    # 앞부분은 대체로 배경 설명이다
+    return "intro" if index < max(1, total // 3) else "results"
+
+
+def _group_plain_abstract(sentences):
+    """라벨 없는 초록을 배경·방법·결과·결론으로 묶는다.
+
+    정확한 분류는 아니지만, 8문장이 한 덩어리로 붙어 있는 것보다
+    편집할 때 훨씬 고르기 쉽다. 문장 순서는 원문 그대로 둔다.
+    """
+    total = len(sentences)
+    buckets = {"intro": [], "methods": [], "results": [], "conclusion": []}
+    for i, s in enumerate(sentences):
+        buckets[_stage_of(s, i, total)].append(s)
+
+    titles = {
+        "intro": "Background", "methods": "Methods",
+        "results": "Results", "conclusion": "Conclusion",
+    }
+    out = []
+    for kind in ("intro", "methods", "results", "conclusion"):
+        if buckets[kind]:
+            out.append(
+                {
+                    "label": KIND_LABELS[kind],
+                    "title": titles[kind] + " (자동 구분)",
+                    "kind": kind,
+                    "sentences": buckets[kind],
+                }
+            )
+    return out
+
+
 def summarize_abstract(abstract, max_sentences_per_part=6):
     """초록을 섹션처럼 나눠 요약 재료로 만든다.
 
@@ -179,19 +261,12 @@ def summarize_abstract(abstract, max_sentences_per_part=6):
     chunks = [c.strip() for c in _ABSTRACT_SPLIT.split(abstract) if c.strip()]
     sections = []
 
-    # 라벨이 하나도 없으면 통짜 초록이므로 문장만 넉넉히 뽑는다
+    # 라벨이 하나도 없으면 통짜 초록이다. 문장의 서술 방식으로 나눠 편집하기 쉽게 만든다.
     if len(chunks) <= 1:
         sentences = [s for s in _split_sentences(abstract) if not CITATION_NOISE.search(s)]
         if not sentences:
             sentences = [abstract]
-        sections.append(
-            {
-                "label": "초록 요약",
-                "title": "Abstract",
-                "kind": "other",
-                "sentences": sentences[: max_sentences_per_part + 2],
-            }
-        )
+        sections.extend(_group_plain_abstract(sentences[: max_sentences_per_part + 3]))
     else:
         for chunk in chunks:
             head, _, rest = chunk.partition(":")
