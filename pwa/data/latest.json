@@ -2,53 +2,68 @@
   "date": "2026-09-13",
   "topic": {
     "source_type": "paper",
-    "pmid": "42727722",
-    "title": "Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages",
-    "journal": "The Journal of investigative dermatology",
-    "pub_date": "2026 Sep 11",
+    "pmid": "42727487",
+    "title": "Enhanced drought tolerance in Arabidopsis thaliana is mediated by Pseudomonas sp. M25 linked to root hair growth",
+    "journal": "Plant physiology and biochemistry : PPB",
+    "pub_date": "2026 Sep 7",
     "authors": [
-      "Huang KR",
-      "Chang NW",
-      "Tai KY"
+      "Berdion Gabarain V",
+      "Llamedo I",
+      "Cáceres PD"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727722/",
-    "id": "pmid:42727722",
-    "abstract": "Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear. We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice. Among all immunocytes, macrophages underwent the most prominent compositional and functional remodeling. We resolved five transcriptionally distinct macrophage subsets, with contact hypersensitivity driving a shift from homeostatic antigen-presenting cells toward a pro-inflammatory CD14+SPP1+ population. Trajectory analysis revealed divergent differentiation paths under homeostatic versus allergic conditions, highlighting the plasticity of skin macrophages. Mechanistically, CD14+SPP1+ macrophages secreted SPP1 (osteopontin), which engaged CD44 on hair follicle stem cells to activate PI3K-AKT signaling and trigger their proliferation. Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration. These findings reveal a macrophage-dependent mechanism of immune-mediated hair regeneration, offering therapeutic insights into immune-stem cell crosstalk."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42727487/",
+    "id": "pmid:42727487",
+    "abstract": "Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience. Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness. Despite extensive evidence supporting their beneficial effects, the molecular and cellular mechanisms underlying microbe-driven modulation of specific root traits remain incompletely understood. Through extensive phenotypic investigation, we established that Pseudomonas sp. M25, a previously described PGPR strain, produces a significant increase in leaf relative water content and evapotranspiration of Arabidopsis thaliana without impacting on rosette growth or photosynthetic parameters. Inoculation with M25 leads to enhanced drought tolerance, and this is associated not with changes in root architecture but with a marked increase in root hair (RH) abundance and length. The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2). Pseudomonas sp. M25 can partially circumvent the lack of RHD6 but requires RSL1 and the downstream transcription factors RSL2 and RSL4 to induce RH growth. These findings indicate that this bacterium can circumvent RHD6 to activate RSL4, which subsequently promotes RH growth. Our investigation identifies some essential signaling components regulated by Pseudomonas sp. M25 to optimize RH responses."
   },
   "script": {
-    "hook": "모발 재생 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "모발 재생",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《The Journal of investigative dermatology》 - Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages",
+    "hook": "오늘의 논문 Plant physiology and biochemistry에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Plant physiology and biochemistry에 실린 새 연구입니다",
+    "intro": "《Plant physiology and biochemistry : PPB》 - Enhanced drought tolerance in Arabidopsis thaliana is mediated by Pseudomonas sp. M25 linked to root hair growth",
     "highlights": [
-      "Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.",
-      "We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.",
-      "Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration."
+      "Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.",
+      "Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.",
+      "The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2)."
     ],
     "sections": [
       {
-        "label": "초록 요약",
-        "title": "Abstract",
-        "kind": "other",
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
         "sentences": [
-          "Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.",
-          "We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.",
-          "Among all immunocytes, macrophages underwent the most prominent compositional and functional remodeling.",
-          "We resolved five transcriptionally distinct macrophage subsets, with contact hypersensitivity driving a shift from homeostatic antigen-presenting cells toward a pro-inflammatory CD14+SPP1+ population.",
-          "Trajectory analysis revealed divergent differentiation paths under homeostatic versus allergic conditions, highlighting the plasticity of skin macrophages.",
-          "Mechanistically, CD14+SPP1+ macrophages secreted SPP1 (osteopontin), which engaged CD44 on hair follicle stem cells to activate PI3K-AKT signaling and trigger their proliferation.",
-          "Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration.",
-          "These findings reveal a macrophage-dependent mechanism of immune-mediated hair regeneration, offering therapeutic insights into immune-stem cell crosstalk."
+          "Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.",
+          "Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.",
+          "Despite extensive evidence supporting their beneficial effects, the molecular and cellular mechanisms underlying microbe-driven modulation of specific root traits remain incompletely understood."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Through extensive phenotypic investigation, we established that Pseudomonas sp.",
+          "M25, a previously described PGPR strain, produces a significant increase in leaf relative water content and evapotranspiration of Arabidopsis thaliana without impacting on rosette growth or photosynthetic parameters.",
+          "Inoculation with M25 leads to enhanced drought tolerance, and this is associated not with changes in root architecture but with a marked increase in root hair (RH) abundance and length.",
+          "The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2).",
+          "M25 can partially circumvent the lack of RHD6 but requires RSL1 and the downstream transcription factors RSL2 and RSL4 to induce RH growth."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion (자동 구분)",
+        "kind": "conclusion",
+        "sentences": [
+          "These findings indicate that this bacterium can circumvent RHD6 to activate RSL4, which subsequently promotes RH growth."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 모발 재생 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages\n저널: The Journal of investigative dermatology\n저자: Huang KR, Chang NW, Tai KY 외\n발행: 2026 Sep 11\n원문: https://pubmed.ncbi.nlm.nih.gov/42727722/\n\n[한눈에 보기]\n- Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.\n- We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.\n- Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration.\n\n[상세 내용] (초록 1개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 초록 요약 — Abstract\n  · Allergic contact dermatitis, or contact hypersensitivity (CHS), is a pathological adaptive immune response that paradoxically induces hair regeneration, yet its underlying mechanisms remain unclear.\n  · We integrated high-resolution spatial transcriptomics and single-cell RNA sequencing to map the intricate interactions between immune cells, stroma, and hair follicles during CHS-induced hair growth in mice.\n  · Among all immunocytes, macrophages underwent the most prominent compositional and functional remodeling.\n  · We resolved five transcriptionally distinct macrophage subsets, with contact hypersensitivity driving a shift from homeostatic antigen-presenting cells toward a pro-inflammatory CD14+SPP1+ population.\n  · Trajectory analysis revealed divergent differentiation paths under homeostatic versus allergic conditions, highlighting the plasticity of skin macrophages.\n  · Mechanistically, CD14+SPP1+ macrophages secreted SPP1 (osteopontin), which engaged CD44 on hair follicle stem cells to activate PI3K-AKT signaling and trigger their proliferation.\n  · Notably, canonical pro-inflammatory cytokine signaling through TNF-α and IL-1 was dispensable for this process, underscoring the specificity of the SPP1-CD44 axis in immune-mediated hair regeneration.\n  · These findings reveal a macrophage-dependent mechanism of immune-mediated hair regeneration, offering therapeutic insights into immune-stem cell crosstalk.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42727722/",
-    "reference_title": "Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages",
+    "full_script": "[훅] 오늘의 논문 Plant physiology and biochemistry에 실린 새 연구입니다\n\n[논문 정보]\n제목: Enhanced drought tolerance in Arabidopsis thaliana is mediated by Pseudomonas sp. M25 linked to root hair growth\n저널: Plant physiology and biochemistry : PPB\n저자: Berdion Gabarain V, Llamedo I, Cáceres PD 외\n발행: 2026 Sep 7\n원문: https://pubmed.ncbi.nlm.nih.gov/42727487/\n\n[한눈에 보기]\n- Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.\n- Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.\n- The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2).\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.\n  · Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.\n  · Despite extensive evidence supporting their beneficial effects, the molecular and cellular mechanisms underlying microbe-driven modulation of specific root traits remain incompletely understood.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Through extensive phenotypic investigation, we established that Pseudomonas sp.\n  · M25, a previously described PGPR strain, produces a significant increase in leaf relative water content and evapotranspiration of Arabidopsis thaliana without impacting on rosette growth or photosynthetic parameters.\n  · Inoculation with M25 leads to enhanced drought tolerance, and this is associated not with changes in root architecture but with a marked increase in root hair (RH) abundance and length.\n  · The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2).\n  · M25 can partially circumvent the lack of RHD6 but requires RSL1 and the downstream transcription factors RSL2 and RSL4 to induce RH growth.\n\n◆ 결론 — Conclusion (자동 구분)\n  · These findings indicate that this bacterium can circumvent RHD6 to activate RSL4, which subsequently promotes RH growth.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42727487/",
+    "reference_title": "Enhanced drought tolerance in Arabidopsis thaliana is mediated by Pseudomonas sp. M25 linked to root hair growth",
     "reference_type": "paper"
   },
   "assets": {
