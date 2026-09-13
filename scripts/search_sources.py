@@ -1,6 +1,7 @@
 """탈모/모발이식 관련 최신 논문(PubMed) 및 뉴스(Google News RSS)를 검색한다.
 외부 API 키가 필요 없는 무료 소스만 사용한다.
 """
+import html
 import re
 import time
 import urllib.parse as up
@@ -9,7 +10,7 @@ import xml.etree.ElementTree as ET
 import feedparser
 import requests
 
-from common import PUBMED_QUERY, NEWS_QUERIES
+from common import NEWS_QUERIES, PUBMED_DAYS, pubmed_query
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 HEADERS = {"User-Agent": "hair-content-automation/1.0"}
@@ -60,11 +61,11 @@ def _eutils_get(endpoint, params, max_retries=4):
     raise RuntimeError(f"E-utilities 요청 실패: {endpoint}")
 
 
-def search_pubmed(max_results=15):
-    """최근 30일 이내 탈모/모발 관련 논문 목록을 반환한다."""
+def search_pubmed(max_results=15, days=PUBMED_DAYS):
+    """최근 days일 이내 탈모/모발 관련 논문 목록을 반환한다."""
     params = {
         "db": "pubmed",
-        "term": PUBMED_QUERY,
+        "term": pubmed_query(days),
         "retmode": "json",
         "retmax": max_results,
         "sort": "most+recent",
@@ -131,6 +132,17 @@ def fetch_abstract(pmid):
     return re.sub(r"\s+", " ", " ".join(chunks)).strip()
 
 
+def _clean_html(text):
+    """RSS 요약에서 태그와 HTML 엔티티를 걷어낸다.
+
+    구글 뉴스 RSS는 제목을 &nbsp;로 이어 붙여 보내기 때문에, 태그만 지우면
+    대본에 "&nbsp;&nbsp;"가 그대로 남는다.
+    """
+    plain = re.sub("<[^<]+?>", " ", text or "")
+    plain = html.unescape(plain)
+    return re.sub(r"\s+", " ", plain).replace("\xa0", " ").strip()
+
+
 def search_news(max_per_query=5):
     """Google News RSS로 한글 뉴스 기사를 검색한다 (API 키 불필요)."""
     articles = []
@@ -156,7 +168,7 @@ def search_news(max_per_query=5):
                     "title": entry.get("title", "").strip(),
                     "source_name": entry.get("source", {}).get("title", "") if hasattr(entry, "source") else "",
                     "pub_date": entry.get("published", ""),
-                    "summary": re.sub("<[^<]+?>", "", entry.get("summary", "")).strip(),
+                    "summary": _clean_html(entry.get("summary", "")),
                     "url": link,
                     "id": f"news:{link}",
                     "query": q,

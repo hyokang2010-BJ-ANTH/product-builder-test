@@ -17,19 +17,27 @@ KST = timezone(timedelta(hours=9))
 #
 # 주의: 예전에는 "scalp"를 단독 키워드로 넣었는데, 두피 백선(무좀균) 진단법 논문처럼
 # 탈모와 무관한 연구까지 끌려와서 제외했다. 대신 탈모/모발에 특이적인 용어를 나열한다.
-PUBMED_QUERY = (
+PUBMED_TERMS = (
     '(alopecia[Title/Abstract] OR "hair loss"[Title/Abstract] '
     'OR "hair transplant"[Title/Abstract] OR "hair transplantation"[Title/Abstract] '
     'OR "hair restoration"[Title/Abstract] OR "hair regrowth"[Title/Abstract] '
     'OR "hair growth"[Title/Abstract] OR "hair follicle"[Title/Abstract] '
     'OR "hair density"[Title/Abstract] OR "follicular unit"[Title/Abstract] '
     'OR minoxidil[Title/Abstract] OR finasteride[Title/Abstract] '
-    'OR dutasteride[Title/Abstract] OR baldness[Title/Abstract]) '
-    'AND ("last 30 days"[PDat])'
+    'OR dutasteride[Title/Abstract] OR baldness[Title/Abstract])'
 )
+# 기본 검색 기간(일). 평소에는 30일이면 충분하지만, 이미 다룬 논문이 쌓여
+# 새 논문이 없는 날에는 아래 PUBMED_FALLBACK_DAYS까지 넓혀 다시 찾는다.
+PUBMED_DAYS = 30
+PUBMED_FALLBACK_DAYS = 120
 
-# 논문이 실제로 탈모/모발 주제인지 판정할 때 쓰는 핵심 키워드.
-# 제목에 하나라도 있으면 확실한 주제로 본다.
+
+def pubmed_query(days=PUBMED_DAYS):
+    return f'{PUBMED_TERMS} AND ("last {int(days)} days"[PDat])'
+
+
+PUBMED_QUERY = pubmed_query()
+
 # 쇼츠 소재로 쓸 수 없는 문헌 유형.
 # PubMed에는 원논문뿐 아니라 철회 공지·정오표·사설도 함께 색인된다.
 # 실제로 자동 실행에서 "RETRACTION: ..." 공지가 최신 연구로 선정된 적이 있어 걸러낸다.
@@ -68,6 +76,8 @@ EXCLUDED_TITLE_PREFIXES = (
     "editorial",
 )
 
+# 논문이 실제로 탈모/모발 주제인지 판정할 때 쓰는 핵심 키워드.
+# 제목에 하나라도 있으면 주제 후보로 본다(아래 OFF_TOPIC_* 로 한 번 더 거른다).
 RELEVANCE_KEYWORDS = [
     "alopecia",
     "hair",

@@ -11,6 +11,7 @@ from common import (
     EXCLUDED_PUBTYPES,
     EXCLUDED_TITLE_PREFIXES,
     OFF_TOPIC_PHRASES,
+    PUBMED_FALLBACK_DAYS,
     OFF_TOPIC_WORD_PREFIXES,
     PLANT_JOURNAL_PREFIXES,
     RELEVANCE_KEYWORDS,
@@ -79,44 +80,56 @@ def is_on_topic(title, journal=""):
     return not has_word_prefix(journal, PLANT_JOURNAL_PREFIXES)
 
 
+def _first_usable_paper(papers, used_ids=None):
+    """주제에 맞고 아직 쓰지 않은 논문 중 첫 번째를 초록까지 붙여 반환한다."""
+    for p in papers:
+        if used_ids is not None and p["id"] in used_ids:
+            continue
+        if not is_on_topic(p["title"], p.get("journal", "")):
+            continue
+        abstract = fetch_abstract(p["pmid"])
+        if not abstract:
+            continue  # 사설·코멘터리 등 초록 없는 글은 대본을 만들 수 없다
+        # 제목만으로 가려지지 않는 분야는 초록에서 한 번 더 거른다.
+        # 초록은 배제에만 쓴다. 선정에 쓰면 부작용으로 탈모를 한 줄 언급한
+        # 항암제 논문까지 통과한다(실제로 폐암 논문이 선정된 적이 있다).
+        if is_off_topic(abstract):
+            continue
+        p["abstract"] = abstract
+        return p
+    return None
+
+
 def pick_topic():
     used = load_json(USED_TOPICS_PATH, {"ids": []})
     used_ids = set(used.get("ids", []))
 
     # 제목 기준으로만 주제를 판정하므로 후보를 넉넉히 받아온다
     papers = [p for p in search_pubmed(max_results=30) if is_publishable(p)]
-    fresh = [p for p in papers if p["id"] not in used_ids]
 
-    # 1순위: 제목에 탈모/모발 키워드가 있는 논문
-    for p in fresh:
-        if is_on_topic(p["title"], p.get("journal", "")):
-            abstract = fetch_abstract(p["pmid"])
-            if not abstract:
-                continue  # 사설·코멘터리 등 초록 없는 글은 대본을 만들 수 없다
-            # 제목만으로 가려지지 않는 분야는 초록에서 한 번 더 거른다.
-            # 초록은 배제에만 쓴다. 선정에 쓰면 부작용으로 탈모를 한 줄 언급한
-            # 항암제 논문까지 통과한다(실제로 폐암 논문이 선정된 적이 있다).
-            if is_off_topic(abstract):
-                continue
-            p["abstract"] = abstract
-            return p, used
+    # 1순위: 최근 30일 안에서 아직 다루지 않은 논문
+    chosen = _first_usable_paper(papers, used_ids)
+    if chosen:
+        return chosen, used
 
-    # 초록 기준 판정은 쓰지 않는다. 항암제 논문처럼 부작용으로 탈모를 한 줄 언급한
-    # 무관한 연구가 통과하기 때문이다(실제로 폐암 논문이 선정된 적이 있다).
-    # 제목에 맞는 논문이 없으면 차라리 뉴스로 넘어간다.
+    # 2순위: 기간을 넓혀 다시 찾는다.
+    # 30일 치를 다 소진하는 날이 실제로 생긴다(이미 다룬 논문이 쌓이면 그렇다).
+    # 이 채널의 주재료는 논문이므로, 뉴스로 내려가기 전에 검색 창을 먼저 넓힌다.
+    wider = [p for p in search_pubmed(max_results=60, days=PUBMED_FALLBACK_DAYS) if is_publishable(p)]
+    chosen = _first_usable_paper(wider, used_ids)
+    if chosen:
+        return chosen, used
+
+    # 3순위: 그래도 없으면 뉴스
     news = search_news()
     for n in news:
         if n["id"] not in used_ids:
             return n, used
 
     # 모두 소진된 경우: 사용 이력을 초기화하고 주제에 맞는 논문/뉴스를 재사용
-    for p in papers:
-        if not is_on_topic(p["title"], p.get("journal", "")):
-            continue
-        abstract = fetch_abstract(p["pmid"])
-        if abstract and not is_off_topic(abstract):
-            p["abstract"] = abstract
-            return p, {"ids": []}
+    chosen = _first_usable_paper(wider or papers)
+    if chosen:
+        return chosen, {"ids": []}
     if news:
         return news[0], {"ids": []}
     return None, used
