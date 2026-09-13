@@ -1,37 +1,9 @@
-[훅] 오늘의 논문 Plant physiology and biochemistry에 실린 새 연구입니다
+탈모 뉴스 오늘 나온 소식을 3줄로 정리했습니다
 
-[논문 정보]
-제목: Enhanced drought tolerance in Arabidopsis thaliana is mediated by Pseudomonas sp. M25 linked to root hair growth
-저널: Plant physiology and biochemistry : PPB
-저자: Berdion Gabarain V, Llamedo I, Cáceres PD 외
-발행: 2026 Sep 7
-원문: https://pubmed.ncbi.nlm.nih.gov/42727487/
+오늘의 소식: [에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그
+(에이피알 공식 블로그, Sat, 12 Sep 2026 23:08:16 GMT)
 
-[한눈에 보기]
-- Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.
-- Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.
-- The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2).
+요약:
+- [에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재&nbsp;&nbsp;에이피알 공식 블로그 [검수 필요: 원문 대조 확인]
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
-
-◆ 배경 — Background (자동 구분)
-  · Plants establish intimate associations with rhizosphere microorganisms that profoundly influence their growth, development, and stress resilience.
-  · Among these, plant-growth-promoting rhizobacteria (PGPR) enhance nutrient acquisition, modulate phytohormone homeostasis and reshape root system architecture, thereby improving plant fitness.
-  · Despite extensive evidence supporting their beneficial effects, the molecular and cellular mechanisms underlying microbe-driven modulation of specific root traits remain incompletely understood.
-
-◆ 주요 결과 — Results (자동 구분)
-  · Through extensive phenotypic investigation, we established that Pseudomonas sp.
-  · M25, a previously described PGPR strain, produces a significant increase in leaf relative water content and evapotranspiration of Arabidopsis thaliana without impacting on rosette growth or photosynthetic parameters.
-  · Inoculation with M25 leads to enhanced drought tolerance, and this is associated not with changes in root architecture but with a marked increase in root hair (RH) abundance and length.
-  · The stimulation of RH development by this Pseudomonas strain is based on the genetic requirement for RH-related basic helix-loop-helix family transcription factors, including ROOT HAIR DEFECTIVE 6 (RHD6) and RHD6-LIKE 1 (RSL1), which regulate RH development via RHD6-LIKE 4 (RSL4) and RHD6-LIKE 2 (RSL2).
-  · M25 can partially circumvent the lack of RHD6 but requires RSL1 and the downstream transcription factors RSL2 and RSL4 to induce RH growth.
-
-◆ 결론 — Conclusion (자동 구분)
-  · These findings indicate that this bacterium can circumvent RHD6 to activate RSL4, which subsequently promotes RH growth.
-
-[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
-
-------------------------------------------------------------
-※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
-   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
-   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
+원문은 링크에서 확인하세요. 매일 새로운 탈모 소식, 놓치지 마세요!
