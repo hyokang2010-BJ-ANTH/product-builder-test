@@ -1,11 +1,24 @@
-JAK 억제제 오늘 나온 최신 연구를 정리했습니다
+[훅] 90% 이 숫자, 탈모 연구가 새로 내놨습니다
 
-오늘 소개할 논문은 《Journal of the American Academy of Dermatology》에 실린
-"Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice" 입니다. (Hill MA, Irfan M, Bergfeld W 외, 2026 Sep 11)
+[논문 정보]
+제목: Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial
+저널: Journal of the American Academy of Dermatology
+저자: King B, Kempers S, Mesinkovska NA 외
+발행: 2026 Sep 11
+원문: https://pubmed.ncbi.nlm.nih.gov/42727780/
 
-핵심 내용은 이렇습니다:
-- Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden. [검수 필요: 한글 번역/의역 확인]
-- Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease. [검수 필요: 한글 번역/의역 확인]
-- Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label. [검수 필요: 한글 번역/의역 확인]
+[한눈에 보기]
+- Objective: To evaluate the efficacy and safety of the Janus kinase 1/2 inhibitor deuruxolitinib dosed 8 mg twice daily (BID) or 16 mg once daily (QD) in adults with severe AA.
+- Methods: In this phase 2 study (NCT03811912), patients were randomized to deuruxolitinib 8 mg BID or 16 mg QD.
+- At Week 24, the mean relative change from baseline in SALT score was greater with deuruxolitinib 8 mg BID (46.4 [90% confidence interval [CI], 34.3-58.4]) vs 16 mg QD (18.0 [90% CI, 7.6-28.4]) and a greater proportion of patients receiving deuruxolitinib 8 mg BID vs 16 mg QD achieved SALT score ≤20 and ≤10.
 
-더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+[본문 요약]
+  이 논문은 전문을 받아올 수 없어(구독 전용 또는 PMC 미공개) 초록만 정리했습니다.
+  더 자세한 내용은 위 원문 링크에서 확인하세요.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

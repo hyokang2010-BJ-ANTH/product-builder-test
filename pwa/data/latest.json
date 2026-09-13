@@ -2,37 +2,37 @@
   "date": "2026-09-13",
   "topic": {
     "source_type": "paper",
-    "pmid": "42727783",
-    "title": "Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
+    "pmid": "42727780",
+    "title": "Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial",
     "journal": "Journal of the American Academy of Dermatology",
     "pub_date": "2026 Sep 11",
     "authors": [
-      "Hill MA",
-      "Irfan M",
-      "Bergfeld W"
+      "King B",
+      "Kempers S",
+      "Mesinkovska NA"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727783/",
-    "id": "pmid:42727783",
-    "abstract": "Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden. Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease. Janus kinase-inhibitors (JAKis) have emerged as promising targeted therapies that interrupt the JAK-STAT signaling pathway central to AA pathogenesis. Currently, ritlecitinib is the only U.S. Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label. Despite this, emerging evidence and clinical experience demonstrate meaningful hair regrowth in pediatric patients treated with several JAKis, including abrocitinib, baricitinib, deuruxolitinib, ritlecitinib, ruxolitinib, tofacitinib, and upadacitinib, with generally favorable safety profiles. Additionally, evidence suggests that JAKis may be particularly beneficial in children with concomitant atopic or autoimmune disease and may also play a role in patients with elevated IgE levels and eosinophilia. Early-onset and severe disease may also warrant earlier consideration of systemic therapy. Limitations include heterogeneous outcome reporting between various reports and studies. Overall, this clinical review synthesizes current evidence and clinical experience to provide practical guidance on JAKi selection, dosing, safety monitoring, and key considerations for implementing these therapies in pediatric AA."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42727780/",
+    "id": "pmid:42727780",
+    "abstract": "Background: The autoimmune disorder alopecia areata (AA) results in patchy or complete hair loss. Objective: To evaluate the efficacy and safety of the Janus kinase 1/2 inhibitor deuruxolitinib dosed 8 mg twice daily (BID) or 16 mg once daily (QD) in adults with severe AA. Methods: In this phase 2 study (NCT03811912), patients were randomized to deuruxolitinib 8 mg BID or 16 mg QD. Primary endpoint was relative change from baseline in Severity of Alopecia Tool (SALT) score at Week 24. Safety included treatment-emergent adverse events (TEAEs). Results: The study included 57 patients (mean age, 40.1 years; 66.7% female). At Week 24, the mean relative change from baseline in SALT score was greater with deuruxolitinib 8 mg BID (46.4 [90% confidence interval [CI], 34.3-58.4]) vs 16 mg QD (18.0 [90% CI, 7.6-28.4]) and a greater proportion of patients receiving deuruxolitinib 8 mg BID vs 16 mg QD achieved SALT score ≤20 and ≤10. TEAEs were mild or moderate in severity. Limitations: This study had a small sample size. Larger studies will further evaluate the efficacy and safety of deuruxolitinib. Conclusion: Deuruxolitinib 8 mg BID was associated with greater improvements in scalp hair regrowth vs deuruxolitinib 16 mg QD."
   },
   "script": {
-    "hook": "JAK 억제제 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "JAK 억제제",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Journal of the American Academy of Dermatology》 - Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
+    "hook": "90% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "90%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Journal of the American Academy of Dermatology》 - Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial",
     "highlights": [
-      "Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden.",
-      "Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease.",
-      "Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label."
+      "Objective: To evaluate the efficacy and safety of the Janus kinase 1/2 inhibitor deuruxolitinib dosed 8 mg twice daily (BID) or 16 mg once daily (QD) in adults with severe AA.",
+      "Methods: In this phase 2 study (NCT03811912), patients were randomized to deuruxolitinib 8 mg BID or 16 mg QD.",
+      "At Week 24, the mean relative change from baseline in SALT score was greater with deuruxolitinib 8 mg BID (46.4 [90% confidence interval [CI], 34.3-58.4]) vs 16 mg QD (18.0 [90% CI, 7.6-28.4]) and a greater proportion of patients receiving deuruxolitinib 8 mg BID vs 16 mg QD achieved SALT score ≤20 and ≤10."
     ],
+    "sections": [],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "JAK 억제제 오늘 나온 최신 연구를 정리했습니다\n\n오늘 소개할 논문은 《Journal of the American Academy of Dermatology》에 실린\n\"Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice\" 입니다. (Hill MA, Irfan M, Bergfeld W 외, 2026 Sep 11)\n\n핵심 내용은 이렇습니다:\n- Alopecia areata (AA) is a chronic immune-mediated disorder characterized by nonscarring hair loss that frequently begins in childhood and is associated with substantial psychosocial burden. [검수 필요: 한글 번역/의역 확인]\n- Therapeutic options for pediatric AA remain limited, particularly for patients with extensive or treatment-resistant disease. [검수 필요: 한글 번역/의역 확인]\n- Food and Drug Administration-approved JAKi for pediatric AA (≥12 years), leaving most JAKi use in children off-label. [검수 필요: 한글 번역/의역 확인]\n\n더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42727783/",
-    "reference_title": "Pediatric Alopecia Areata and JAK Inhibitors: Bridging the Gap Between Evidence and Practice",
+    "full_script": "[훅] 90% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial\n저널: Journal of the American Academy of Dermatology\n저자: King B, Kempers S, Mesinkovska NA 외\n발행: 2026 Sep 11\n원문: https://pubmed.ncbi.nlm.nih.gov/42727780/\n\n[한눈에 보기]\n- Objective: To evaluate the efficacy and safety of the Janus kinase 1/2 inhibitor deuruxolitinib dosed 8 mg twice daily (BID) or 16 mg once daily (QD) in adults with severe AA.\n- Methods: In this phase 2 study (NCT03811912), patients were randomized to deuruxolitinib 8 mg BID or 16 mg QD.\n- At Week 24, the mean relative change from baseline in SALT score was greater with deuruxolitinib 8 mg BID (46.4 [90% confidence interval [CI], 34.3-58.4]) vs 16 mg QD (18.0 [90% CI, 7.6-28.4]) and a greater proportion of patients receiving deuruxolitinib 8 mg BID vs 16 mg QD achieved SALT score ≤20 and ≤10.\n\n[본문 요약]\n  이 논문은 전문을 받아올 수 없어(구독 전용 또는 PMC 미공개) 초록만 정리했습니다.\n  더 자세한 내용은 위 원문 링크에서 확인하세요.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42727780/",
+    "reference_title": "Dose optimization of deuruxolitinib in adults with alopecia areata: A phase 2 randomized trial",
     "reference_type": "paper"
   },
   "assets": {
