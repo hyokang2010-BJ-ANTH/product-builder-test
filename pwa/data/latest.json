@@ -1,28 +1,78 @@
 {
   "date": "2026-09-13",
   "topic": {
-    "source_type": "news",
-    "title": "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그",
-    "source_name": "에이피알 공식 블로그",
-    "pub_date": "Sat, 12 Sep 2026 23:08:16 GMT",
-    "summary": "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재&nbsp;&nbsp;에이피알 공식 블로그",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JOUNhZmMySXp6dFpKZC1ZU3ZGdmtXVExtMVlyWlU2Y2FWa3BRQWREek9mY3pKTWhkZXNPSm04cjdhVVVUZXZzNTZEeU1UVnZ1MGJPTDRn?oc=5",
-    "id": "news:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JOUNhZmMySXp6dFpKZC1ZU3ZGdmtXVExtMVlyWlU2Y2FWa3BRQWREek9mY3pKTWhkZXNPSm04cjdhVVVUZXZzNTZEeU1UVnZ1MGJPTDRn?oc=5",
-    "query": "탈모 치료"
+    "source_type": "paper",
+    "pmid": "42723052",
+    "title": "Aging of hair follicle stem cells and their niche: mechanisms and regenerative therapeutic strategies",
+    "journal": "Cell communication and signaling : CCS",
+    "pub_date": "2026 Jul 27",
+    "authors": [
+      "Xu S",
+      "Guo J",
+      "Kang Y"
+    ],
+    "pubtypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42723052/",
+    "id": "pmid:42723052",
+    "abstract": "Hair follicles (HFs) are vital skin appendages that perform fundamental functions including protection, thermoregulation, and sensation. Orchestrated by hair follicle stem cells (HFSCs), HFs undergo cyclic regeneration throughout the lifespan. However, during chronological aging, this mini-organ experiences progressive physiological decline, clinically characterized by a marked reduction in hair density and hair graying due to pigmentation dysfunction. This aging process involves HFSC exhaustion accompanied by diminished regenerative potential and differentiation capacity, leading to degenerative changes in the bulge architecture. Concurrently, the niche supporting HFSC homeostasis undergoes multi-dimensional and systemic degradation. This niche deterioration disrupts the delicate balance between HFSC quiescence and activation, further impeding hair regeneration. In this review, we delineate the dynamic anatomical changes throughout the hair growth cycle and describe the alterations of HFSCs during aging. We specifically focus on the mechanisms underlying the multi-dimensional degradation of the HFSC niche at tissue, cellular, and molecular levels. Furthermore, we discuss various therapeutic strategies aimed at ameliorating HF aging, offering potential insights for future clinical translation in hair regeneration. Finally, we propose that integrating spatiotemporal high-resolution technologies with genomic data to further decipher the spatiotemporal behaviors of aging HFSCs and niche cells will facilitate the establishment of a robust mechanistic framework for HFSC and niche aging."
   },
   "script": {
-    "hook": "탈모 뉴스 오늘 나온 소식을 3줄로 정리했습니다",
-    "hook_accent": "탈모 뉴스",
-    "hook_sub": "오늘 나온 소식을 3줄로 정리했습니다",
-    "intro": "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그",
+    "hook": "줄기세포 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "줄기세포",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Cell communication and signaling : CCS》 - Aging of hair follicle stem cells and their niche: mechanisms and regenerative therapeutic strategies",
     "highlights": [
-      "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재&nbsp;&nbsp;에이피알 공식 블로그"
+      "Hair follicles (HFs) are vital skin appendages that perform fundamental functions including protection, thermoregulation, and sensation.",
+      "Orchestrated by hair follicle stem cells (HFSCs), HFs undergo cyclic regeneration throughout the lifespan.",
+      "However, during chronological aging, this mini-organ experiences progressive physiological decline, clinically characterized by a marked reduction in hair density and hair graying due to pigmentation dysfunction."
     ],
-    "cta": "원문은 링크에서 확인하세요. 매일 새로운 탈모 소식, 놓치지 마세요!",
-    "full_script": "탈모 뉴스 오늘 나온 소식을 3줄로 정리했습니다\n\n오늘의 소식: [에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그\n(에이피알 공식 블로그, Sat, 12 Sep 2026 23:08:16 GMT)\n\n요약:\n- [에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재&nbsp;&nbsp;에이피알 공식 블로그 [검수 필요: 원문 대조 확인]\n\n원문은 링크에서 확인하세요. 매일 새로운 탈모 소식, 놓치지 마세요!",
-    "reference_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JOUNhZmMySXp6dFpKZC1ZU3ZGdmtXVExtMVlyWlU2Y2FWa3BRQWREek9mY3pKTWhkZXNPSm04cjdhVVVUZXZzNTZEeU1UVnZ1MGJPTDRn?oc=5",
-    "reference_title": "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그",
-    "reference_type": "news"
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Hair follicles (HFs) are vital skin appendages that perform fundamental functions including protection, thermoregulation, and sensation.",
+          "Orchestrated by hair follicle stem cells (HFSCs), HFs undergo cyclic regeneration throughout the lifespan.",
+          "However, during chronological aging, this mini-organ experiences progressive physiological decline, clinically characterized by a marked reduction in hair density and hair graying due to pigmentation dysfunction."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "In this review, we delineate the dynamic anatomical changes throughout the hair growth cycle and describe the alterations of HFSCs during aging."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "This aging process involves HFSC exhaustion accompanied by diminished regenerative potential and differentiation capacity, leading to degenerative changes in the bulge architecture.",
+          "Concurrently, the niche supporting HFSC homeostasis undergoes multi-dimensional and systemic degradation.",
+          "This niche deterioration disrupts the delicate balance between HFSC quiescence and activation, further impeding hair regeneration.",
+          "We specifically focus on the mechanisms underlying the multi-dimensional degradation of the HFSC niche at tissue, cellular, and molecular levels."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion (자동 구분)",
+        "kind": "conclusion",
+        "sentences": [
+          "Furthermore, we discuss various therapeutic strategies aimed at ameliorating HF aging, offering potential insights for future clinical translation in hair regeneration."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 줄기세포 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Aging of hair follicle stem cells and their niche: mechanisms and regenerative therapeutic strategies\n저널: Cell communication and signaling : CCS\n저자: Xu S, Guo J, Kang Y 외\n발행: 2026 Jul 27\n원문: https://pubmed.ncbi.nlm.nih.gov/42723052/\n\n[한눈에 보기]\n- Hair follicles (HFs) are vital skin appendages that perform fundamental functions including protection, thermoregulation, and sensation.\n- Orchestrated by hair follicle stem cells (HFSCs), HFs undergo cyclic regeneration throughout the lifespan.\n- However, during chronological aging, this mini-organ experiences progressive physiological decline, clinically characterized by a marked reduction in hair density and hair graying due to pigmentation dysfunction.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Hair follicles (HFs) are vital skin appendages that perform fundamental functions including protection, thermoregulation, and sensation.\n  · Orchestrated by hair follicle stem cells (HFSCs), HFs undergo cyclic regeneration throughout the lifespan.\n  · However, during chronological aging, this mini-organ experiences progressive physiological decline, clinically characterized by a marked reduction in hair density and hair graying due to pigmentation dysfunction.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · In this review, we delineate the dynamic anatomical changes throughout the hair growth cycle and describe the alterations of HFSCs during aging.\n\n◆ 주요 결과 — Results (자동 구분)\n  · This aging process involves HFSC exhaustion accompanied by diminished regenerative potential and differentiation capacity, leading to degenerative changes in the bulge architecture.\n  · Concurrently, the niche supporting HFSC homeostasis undergoes multi-dimensional and systemic degradation.\n  · This niche deterioration disrupts the delicate balance between HFSC quiescence and activation, further impeding hair regeneration.\n  · We specifically focus on the mechanisms underlying the multi-dimensional degradation of the HFSC niche at tissue, cellular, and molecular levels.\n\n◆ 결론 — Conclusion (자동 구분)\n  · Furthermore, we discuss various therapeutic strategies aimed at ameliorating HF aging, offering potential insights for future clinical translation in hair regeneration.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42723052/",
+    "reference_title": "Aging of hair follicle stem cells and their niche: mechanisms and regenerative therapeutic strategies",
+    "reference_type": "paper"
   },
   "assets": {
     "paper_card": "paper_card.png",
@@ -34,6 +84,7 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
@@ -41,7 +92,7 @@
     "paper_figures": [],
     "paper_tables": [],
     "paper_source": null,
-    "paper_skip_reason": "논문이 아닌 소재(뉴스)",
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
     "paper_figure_note": null
   }
 }

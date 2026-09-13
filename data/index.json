@@ -5,12 +5,12 @@
     {
       "date": "2026-09-13",
       "dir": "2026-09-13",
-      "title": "[에이피알] 에이피알, 고주파 미세천공 기술 기반 탈모 치료 효능 연구 국제 학술지 게재 - 에이피알 공식 블로그",
-      "journal": "에이피알 공식 블로그",
-      "source_type": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JOUNhZmMySXp6dFpKZC1ZU3ZGdmtXVExtMVlyWlU2Y2FWa3BRQWREek9mY3pKTWhkZXNPSm04cjdhVVVUZXZzNTZEeU1UVnZ1MGJPTDRn?oc=5",
-      "hook_accent": "탈모 뉴스",
-      "hook_sub": "오늘 나온 소식을 3줄로 정리했습니다",
+      "title": "Aging of hair follicle stem cells and their niche: mechanisms and regenerative therapeutic strategies",
+      "journal": "Cell communication and signaling : CCS",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42723052/",
+      "hook_accent": "줄기세포",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
       "thumb": "2026-09-13/paper_card.png",
       "pptx": "2026-09-13/slides.pptx",
       "has_paper_figures": false
