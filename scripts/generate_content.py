@@ -192,18 +192,33 @@ def fetch_fulltext_summary(paper):
         print(f"  전문 요약 모듈을 불러오지 못했습니다: {e}")
         return None
 
+    from paper_fulltext import summarize_abstract
+
+    def from_abstract(reason):
+        """전문을 못 쓸 때 초록이라도 섹션으로 나눠 쓴다.
+
+        최근 30일 논문은 엠바고 탓에 PMC에 거의 없어서(실측 0/15일)
+        실제로는 이 경로가 기본이 된다.
+        """
+        summary = summarize_abstract(paper.get("abstract", ""))
+        if summary["section_count"]:
+            print(
+                f"  {reason} - 초록을 {summary['section_count']}개 항목, "
+                f"{summary['sentence_count']}문장으로 정리했습니다"
+            )
+        return summary or None
+
     pmid = paper.get("pmid")
     if not pmid:
-        return None
+        return from_abstract("PMID 없음")
 
     pmcid = pmid_to_pmcid(pmid)
     if not pmcid:
-        print("  전문 없음(PMC 미공개) - 초록만으로 대본을 만듭니다")
-        return None
+        return from_abstract("전문 미공개(PMC 없음)")
 
     root = fetch_pmc_article(pmcid)
     if root is None:
-        return None
+        return from_abstract("전문 내려받기 실패")
 
     summary = summarize_fulltext(root)
     if summary["section_count"]:
@@ -212,10 +227,10 @@ def fetch_fulltext_summary(paper):
             f"{summary['sentence_count']}문장 ({pmcid})"
         )
         paper["pmcid"] = pmcid
+        summary["source"] = "fulltext"
         return summary
 
-    print(f"  전문을 읽었지만 본문 섹션을 찾지 못했습니다 ({pmcid})")
-    return None
+    return from_abstract(f"본문 섹션을 찾지 못함 ({pmcid})")
 
 
 def build_script_for_paper(paper, fulltext=None):
@@ -249,7 +264,15 @@ def build_script_for_paper(paper, fulltext=None):
         lines.append(f"- {h.strip()}")
 
     if sections:
-        lines += ["", f"[본문 요약] (전문 {len(sections)}개 섹션에서 발췌)"]
+        is_fulltext = (fulltext or {}).get("source") == "fulltext"
+        if is_fulltext:
+            header = f"[상세 내용] (논문 전문 {len(sections)}개 섹션에서 발췌)"
+        else:
+            header = (
+                f"[상세 내용] (초록 {len(sections)}개 항목 정리 "
+                "— 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)"
+            )
+        lines += ["", header]
         for sec in sections:
             lines += ["", f"◆ {sec['label']} — {sec['title']}"]
             for sentence in sec["sentences"]:
@@ -257,9 +280,8 @@ def build_script_for_paper(paper, fulltext=None):
     else:
         lines += [
             "",
-            "[본문 요약]",
-            "  이 논문은 전문을 받아올 수 없어(구독 전용 또는 PMC 미공개) 초록만 정리했습니다.",
-            "  더 자세한 내용은 위 원문 링크에서 확인하세요.",
+            "[상세 내용]",
+            "  초록을 읽지 못해 정리할 내용이 없습니다. 원문 링크를 확인하세요.",
         ]
 
     lines += [

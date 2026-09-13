@@ -145,6 +145,88 @@ def pick_key_sentences(section, budget=None):
     return [s for s in sentences if s in chosen]
 
 
+# 구조화 초록의 라벨. PubMed 초록은 대개 "Objective: ... Methods: ..." 꼴이다.
+ABSTRACT_LABELS = (
+    ("intro", ("background", "objective", "objectives", "aim", "aims", "purpose",
+               "introduction", "importance", "context")),
+    ("methods", ("method", "methods", "materials", "design", "setting", "participants",
+                 "patients", "intervention", "interventions", "measurements",
+                 "data sources", "study selection", "main outcome", "main outcomes")),
+    ("results", ("result", "results", "finding", "findings", "outcome", "outcomes")),
+    ("conclusion", ("conclusion", "conclusions", "interpretation", "implication",
+                    "implications", "significance", "relevance")),
+)
+_LABEL_WORDS = sorted(
+    {w for _, words in ABSTRACT_LABELS for w in words}, key=len, reverse=True
+)
+_ABSTRACT_SPLIT = re.compile(
+    r"(?=\b(?:" + "|".join(re.escape(w) for w in _LABEL_WORDS) + r")\b\s*:)",
+    re.IGNORECASE,
+)
+
+
+def summarize_abstract(abstract, max_sentences_per_part=6):
+    """초록을 섹션처럼 나눠 요약 재료로 만든다.
+
+    최근 30일 논문은 출판사 엠바고 때문에 PMC에 거의 올라오지 않는다(실측 0/15일).
+    그래서 대부분의 날은 초록이 유일한 재료다. 구조화 초록이면 라벨을 살려
+    배경·방법·결과·결론으로 나누고, 아닌 경우에도 문장을 넉넉히 싣는다.
+    """
+    abstract = (abstract or "").strip()
+    if not abstract:
+        return {"sections": [], "section_count": 0, "sentence_count": 0}
+
+    chunks = [c.strip() for c in _ABSTRACT_SPLIT.split(abstract) if c.strip()]
+    sections = []
+
+    # 라벨이 하나도 없으면 통짜 초록이므로 문장만 넉넉히 뽑는다
+    if len(chunks) <= 1:
+        sentences = [s for s in _split_sentences(abstract) if not CITATION_NOISE.search(s)]
+        if not sentences:
+            sentences = [abstract]
+        sections.append(
+            {
+                "label": "초록 요약",
+                "title": "Abstract",
+                "kind": "other",
+                "sentences": sentences[: max_sentences_per_part + 2],
+            }
+        )
+    else:
+        for chunk in chunks:
+            head, _, rest = chunk.partition(":")
+            label_word = head.strip().lower()
+            body = rest.strip() or chunk
+
+            kind = "other"
+            for k, words in ABSTRACT_LABELS:
+                if label_word in words:
+                    kind = k
+                    break
+
+            sentences = [s for s in _split_sentences(body) if not CITATION_NOISE.search(s)]
+            if not sentences:
+                sentences = [body] if len(body) > 30 else []
+            if not sentences:
+                continue
+
+            sections.append(
+                {
+                    "label": KIND_LABELS.get(kind, "내용"),
+                    "title": head.strip().title() or "Abstract",
+                    "kind": kind,
+                    "sentences": sentences[:max_sentences_per_part],
+                }
+            )
+
+    return {
+        "sections": sections,
+        "section_count": len(sections),
+        "sentence_count": sum(len(s["sentences"]) for s in sections),
+        "source": "abstract",
+    }
+
+
 def summarize_fulltext(root):
     """본문을 섹션별로 요약한 결과를 돌려준다.
 
