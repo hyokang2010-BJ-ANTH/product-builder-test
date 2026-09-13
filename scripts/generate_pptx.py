@@ -207,6 +207,42 @@ def _add_cta(prs, blank, script):
     return s
 
 
+def _add_fulltext_slides(prs, blank, script):
+    """본문 요약을 섹션별 슬라이드로 넣는다.
+
+    쇼츠 6컷과 별개로, 편집할 때 원문 내용을 바로 보고 고를 수 있게 하는 참고용이다.
+    한 슬라이드에 다 넣으면 글씨가 뭉개지므로 섹션을 2개씩 나눠 담는다.
+    """
+    sections = script.get("sections") or []
+    if not sections:
+        return
+
+    for i in range(0, len(sections), 2):
+        chunk = sections[i : i + 2]
+        s = prs.slides.add_slide(blank)
+        _fill(s, BRAND_BG2)
+        _textbox(s, "본문 요약 (편집용)", Inches(0.4), Inches(0.5),
+                 prs.slide_width - Inches(0.8), Inches(0.5), 16, ACCENT,
+                 align=PP_ALIGN.LEFT)
+
+        top = Inches(1.2)
+        for sec in chunk:
+            _textbox(s, f"◆ {sec['label']} — {sec['title']}", Inches(0.4), top,
+                     prs.slide_width - Inches(0.8), Inches(0.5), 13, WHITE,
+                     align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP)
+            body = "\n".join(f"· {x}" for x in sec["sentences"])
+            _textbox(s, body, Inches(0.5), top + Inches(0.55),
+                     prs.slide_width - Inches(0.9), Inches(3.9), 10,
+                     RGBColor(0xD5, 0xD8, 0xEA), bold=False,
+                     align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP)
+            top = top + Inches(4.6)
+
+        s.notes_slide.notes_text_frame.text = (
+            "편집 참고용 슬라이드입니다. 영상에는 쓰지 않아도 됩니다.\n"
+            "원문 영어 문장을 그대로 발췌했으므로 번역·검수 후 사용하세요."
+        )
+
+
 def _add_sources(prs, blank, content, day_dir):
     s = prs.slides.add_slide(blank)
     _fill(s, BRAND_BG2)
@@ -271,6 +307,7 @@ def build_pptx(content, frame_paths, out_path, paper_assets=None, day_dir=None):
                        "my_take", seconds.get("my_take", 10),
                        "본인 사진 + 코멘트. 문구를 직접 바꿔 쓰세요.")
     _add_cta(prs, blank, script)
+    _add_fulltext_slides(prs, blank, script)
     _add_sources(prs, blank, content, day_dir)
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)

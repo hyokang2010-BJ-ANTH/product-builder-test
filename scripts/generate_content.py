@@ -180,30 +180,106 @@ def build_hook_parts(paper, highlights):
     return "오늘의 탈모 연구", "새로 나온 논문을 정리했습니다"
 
 
-def build_script_for_paper(paper):
+def fetch_fulltext_summary(paper):
+    """PMC 오픈액세스면 본문을 받아 섹션별로 요약한다. 없으면 None.
+
+    그림과 달리 본문 텍스트는 정상적으로 받아진다(PMC가 막는 것은 이미지 파일이다).
+    """
+    try:
+        from paper_figures import fetch_pmc_article, pmid_to_pmcid
+        from paper_fulltext import summarize_fulltext
+    except ImportError as e:
+        print(f"  전문 요약 모듈을 불러오지 못했습니다: {e}")
+        return None
+
+    pmid = paper.get("pmid")
+    if not pmid:
+        return None
+
+    pmcid = pmid_to_pmcid(pmid)
+    if not pmcid:
+        print("  전문 없음(PMC 미공개) - 초록만으로 대본을 만듭니다")
+        return None
+
+    root = fetch_pmc_article(pmcid)
+    if root is None:
+        return None
+
+    summary = summarize_fulltext(root)
+    if summary["section_count"]:
+        print(
+            f"  전문 요약 확보: {summary['section_count']}개 섹션, "
+            f"{summary['sentence_count']}문장 ({pmcid})"
+        )
+        paper["pmcid"] = pmcid
+        return summary
+
+    print(f"  전문을 읽었지만 본문 섹션을 찾지 못했습니다 ({pmcid})")
+    return None
+
+
+def build_script_for_paper(paper, fulltext=None):
+    """편집용 상세 대본을 만든다.
+
+    초록 문장 몇 개만 싣던 예전 방식은 "면역 특권이 무너진다" 한 줄로 끝나
+    영상으로 만들 내용이 없었다. 본문을 받아올 수 있으면 배경·방법·결과·고찰·결론을
+    섹션별로 싣는다. 길이를 줄이는 대신 재료를 충분히 주고, 편집은 사람이 한다.
+    """
     highlights = extract_highlights(paper.get("abstract", ""))
     authors = ", ".join(paper.get("authors") or []) or "연구진"
     accent, sub = build_hook_parts(paper, highlights)
     hook = f"{accent} {sub}"
-    body_lines = [
-        f"오늘 소개할 논문은 《{paper['journal']}》에 실린",
-        f"\"{paper['title']}\" 입니다. ({authors} 외, {paper.get('pub_date', '')})",
-        "",
-        "핵심 내용은 이렇습니다:",
-    ]
-    for h in highlights:
-        body_lines.append(f"- {h.strip()} [검수 필요: 한글 번역/의역 확인]")
     cta = "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!"
 
-    script_text = "\n".join(
-        [hook, "", *body_lines, "", cta]
-    )
+    sections = (fulltext or {}).get("sections") or []
+
+    lines = [
+        f"[훅] {hook}",
+        "",
+        "[논문 정보]",
+        f"제목: {paper['title']}",
+        f"저널: {paper['journal']}",
+        f"저자: {authors} 외",
+        f"발행: {paper.get('pub_date', '')}",
+        f"원문: {paper['url']}",
+        "",
+        "[한눈에 보기]",
+    ]
+    for h in highlights:
+        lines.append(f"- {h.strip()}")
+
+    if sections:
+        lines += ["", f"[본문 요약] (전문 {len(sections)}개 섹션에서 발췌)"]
+        for sec in sections:
+            lines += ["", f"◆ {sec['label']} — {sec['title']}"]
+            for sentence in sec["sentences"]:
+                lines.append(f"  · {sentence}")
+    else:
+        lines += [
+            "",
+            "[본문 요약]",
+            "  이 논문은 전문을 받아올 수 없어(구독 전용 또는 PMC 미공개) 초록만 정리했습니다.",
+            "  더 자세한 내용은 위 원문 링크에서 확인하세요.",
+        ]
+
+    lines += [
+        "",
+        "[CTA] " + cta,
+        "",
+        "-" * 60,
+        "※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).",
+        "   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.",
+        "   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    ]
+
+    script_text = "\n".join(lines)
     return {
         "hook": hook,
         "hook_accent": accent,
         "hook_sub": sub,
         "intro": f"《{paper['journal']}》 - {paper['title']}",
         "highlights": highlights,
+        "sections": sections,
         "cta": cta,
         "full_script": script_text,
         "reference_url": paper["url"],
@@ -245,7 +321,7 @@ def generate():
         raise RuntimeError("검색 결과가 없습니다 (네트워크 또는 소스 응답 확인 필요)")
 
     if topic["source_type"] == "paper":
-        script = build_script_for_paper(topic)
+        script = build_script_for_paper(topic, fetch_fulltext_summary(topic))
     else:
         script = build_script_for_news(topic)
 
