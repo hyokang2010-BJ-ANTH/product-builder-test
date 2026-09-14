@@ -1,32 +1,34 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "topic": {
     "source_type": "paper",
-    "pmid": "42731548",
-    "title": "Artemisinin-derived radicals trigger TGFβ oxidation and degradation for alopecia therapy",
-    "journal": "Biomaterials",
-    "pub_date": "2026 Sep 7",
+    "pmid": "42733368",
+    "title": "[Hair loss during treatment of obesity: current state of the problem and potential solutions]",
+    "journal": "Problemy endokrinologii",
+    "pub_date": "2026 Sep 8",
     "authors": [
-      "Wang R",
-      "Wang C",
-      "Liu C"
+      "Troshina EA",
+      "Suplotova LA",
+      "Dzgoeva FK"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review",
+      "English Abstract"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42731548/",
-    "id": "pmid:42731548",
-    "abstract": "Protein oxidation orchestrates hair follicle anagen transition and regeneration by mediating the activation or degradation of target proteins. However, current oxidative strategies primarily rely on exogenous reactive oxygen species (ROS) supplementation, which is plagued by poor selectivity and severe off-target oxidative damage. Herein, we propose a targeted protein oxidation strategy for the treatment of androgenetic alopecia (AGA), and engineer artemisinin (ART)-based lipid nanoparticles (EPC/CS@ART NPs) via self-assembly of cholesterol (CS), egg phosphatidylcholine (EPC), and ART. These nanoparticles achieve efficient penetration into human dermal papilla cells (hDPCs) within the hair follicular regions. Upon internalization, ART responds to the intracellular metal ion microenvironment to generate ART-derived radicals, which potently promote hDPCs proliferation and ex vivo hair shaft elongation. Mechanistically, ART-derived radicals preferentially interact with TGFβ via spatial structural matching, and subsequently induce oxidative modification of TGFβ and its degradation predominantly through the ubiquitin-proteasome system (UPS), thereby blocking the Smad2/3 signaling pathway. In vivo AGA models further confirmed that EPC/CS@ART NPs exerted robust hair regeneration efficacy. This protein oxidation strategy not only presents a novel therapeutic approach for AGA treatment but also expands the therapeutic potential of artemisinin-based nanomedicine."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42733368/",
+    "id": "pmid:42733368",
+    "abstract": "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss. This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss. The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity. Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss. It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies. Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity. Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy."
   },
   "script": {
-    "hook": "오늘의 논문 Biomaterials에 실린 새 연구입니다",
+    "hook": "오늘의 논문 Problemy endokrinologii에 실린 새 연구입니다",
     "hook_accent": "오늘의 논문",
-    "hook_sub": "Biomaterials에 실린 새 연구입니다",
-    "intro": "《Biomaterials》 - Artemisinin-derived radicals trigger TGFβ oxidation and degradation for alopecia therapy",
+    "hook_sub": "Problemy endokrinologii에 실린 새 연구입니다",
+    "intro": "《Problemy endokrinologii》 - [Hair loss during treatment of obesity: current state of the problem and potential solutions]",
     "highlights": [
-      "Protein oxidation orchestrates hair follicle anagen transition and regeneration by mediating the activation or degradation of target proteins.",
-      "However, current oxidative strategies primarily rely on exogenous reactive oxygen species (ROS) supplementation, which is plagued by poor selectivity and severe off-target oxidative damage.",
-      "Mechanistically, ART-derived radicals preferentially interact with TGFβ via spatial structural matching, and subsequently induce oxidative modification of TGFβ and its degradation predominantly through the ubiquitin-proteasome system (UPS), thereby blocking the Smad2/3 signaling pathway."
+      "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.",
+      "This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.",
+      "The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity."
     ],
     "sections": [
       {
@@ -34,8 +36,8 @@
         "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Protein oxidation orchestrates hair follicle anagen transition and regeneration by mediating the activation or degradation of target proteins.",
-          "However, current oxidative strategies primarily rely on exogenous reactive oxygen species (ROS) supplementation, which is plagued by poor selectivity and severe off-target oxidative damage."
+          "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.",
+          "This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss."
         ]
       },
       {
@@ -43,26 +45,18 @@
         "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "Herein, we propose a targeted protein oxidation strategy for the treatment of androgenetic alopecia (AGA), and engineer artemisinin (ART)-based lipid nanoparticles (EPC/CS@ART NPs) via self-assembly of cholesterol (CS), egg phosphatidylcholine (EPC), and ART.",
-          "These nanoparticles achieve efficient penetration into human dermal papilla cells (hDPCs) within the hair follicular regions.",
-          "Upon internalization, ART responds to the intracellular metal ion microenvironment to generate ART-derived radicals, which potently promote hDPCs proliferation and ex vivo hair shaft elongation.",
-          "Mechanistically, ART-derived radicals preferentially interact with TGFβ via spatial structural matching, and subsequently induce oxidative modification of TGFβ and its degradation predominantly through the ubiquitin-proteasome system (UPS), thereby blocking the Smad2/3 signaling pathway.",
-          "In vivo AGA models further confirmed that EPC/CS@ART NPs exerted robust hair regeneration efficacy."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion (자동 구분)",
-        "kind": "conclusion",
-        "sentences": [
-          "This protein oxidation strategy not only presents a novel therapeutic approach for AGA treatment but also expands the therapeutic potential of artemisinin-based nanomedicine."
+          "The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.",
+          "Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.",
+          "It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.",
+          "Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.",
+          "Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Biomaterials에 실린 새 연구입니다\n\n[논문 정보]\n제목: Artemisinin-derived radicals trigger TGFβ oxidation and degradation for alopecia therapy\n저널: Biomaterials\n저자: Wang R, Wang C, Liu C 외\n발행: 2026 Sep 7\n원문: https://pubmed.ncbi.nlm.nih.gov/42731548/\n\n[한눈에 보기]\n- Protein oxidation orchestrates hair follicle anagen transition and regeneration by mediating the activation or degradation of target proteins.\n- However, current oxidative strategies primarily rely on exogenous reactive oxygen species (ROS) supplementation, which is plagued by poor selectivity and severe off-target oxidative damage.\n- Mechanistically, ART-derived radicals preferentially interact with TGFβ via spatial structural matching, and subsequently induce oxidative modification of TGFβ and its degradation predominantly through the ubiquitin-proteasome system (UPS), thereby blocking the Smad2/3 signaling pathway.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Protein oxidation orchestrates hair follicle anagen transition and regeneration by mediating the activation or degradation of target proteins.\n  · However, current oxidative strategies primarily rely on exogenous reactive oxygen species (ROS) supplementation, which is plagued by poor selectivity and severe off-target oxidative damage.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Herein, we propose a targeted protein oxidation strategy for the treatment of androgenetic alopecia (AGA), and engineer artemisinin (ART)-based lipid nanoparticles (EPC/CS@ART NPs) via self-assembly of cholesterol (CS), egg phosphatidylcholine (EPC), and ART.\n  · These nanoparticles achieve efficient penetration into human dermal papilla cells (hDPCs) within the hair follicular regions.\n  · Upon internalization, ART responds to the intracellular metal ion microenvironment to generate ART-derived radicals, which potently promote hDPCs proliferation and ex vivo hair shaft elongation.\n  · Mechanistically, ART-derived radicals preferentially interact with TGFβ via spatial structural matching, and subsequently induce oxidative modification of TGFβ and its degradation predominantly through the ubiquitin-proteasome system (UPS), thereby blocking the Smad2/3 signaling pathway.\n  · In vivo AGA models further confirmed that EPC/CS@ART NPs exerted robust hair regeneration efficacy.\n\n◆ 결론 — Conclusion (자동 구분)\n  · This protein oxidation strategy not only presents a novel therapeutic approach for AGA treatment but also expands the therapeutic potential of artemisinin-based nanomedicine.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42731548/",
-    "reference_title": "Artemisinin-derived radicals trigger TGFβ oxidation and degradation for alopecia therapy",
+    "full_script": "[훅] 오늘의 논문 Problemy endokrinologii에 실린 새 연구입니다\n\n[논문 정보]\n제목: [Hair loss during treatment of obesity: current state of the problem and potential solutions]\n저널: Problemy endokrinologii\n저자: Troshina EA, Suplotova LA, Dzgoeva FK 외\n발행: 2026 Sep 8\n원문: https://pubmed.ncbi.nlm.nih.gov/42733368/\n\n[한눈에 보기]\n- Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.\n- This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n- The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.\n  · This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n\n◆ 주요 결과 — Results (자동 구분)\n  · The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n  · Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n  · It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.\n  · Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n  · Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42733368/",
+    "reference_title": "[Hair loss during treatment of obesity: current state of the problem and potential solutions]",
     "reference_type": "paper"
   },
   "assets": {

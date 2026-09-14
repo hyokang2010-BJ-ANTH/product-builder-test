@@ -1,7 +1,20 @@
 {
-  "count": 16,
-  "updated": "2026-09-14",
+  "count": 17,
+  "updated": "2026-09-15",
   "items": [
+    {
+      "date": "2026-09-15",
+      "dir": "2026-09-15",
+      "title": "[Hair loss during treatment of obesity: current state of the problem and potential solutions]",
+      "journal": "Problemy endokrinologii",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42733368/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Problemy endokrinologii에 실린 새 연구입니다",
+      "thumb": "2026-09-15/paper_card.png",
+      "pptx": "2026-09-15/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-14",
       "dir": "2026-09-14",
