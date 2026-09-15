@@ -1,62 +1,86 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "topic": {
     "source_type": "paper",
-    "pmid": "42733368",
-    "title": "[Hair loss during treatment of obesity: current state of the problem and potential solutions]",
-    "journal": "Problemy endokrinologii",
-    "pub_date": "2026 Sep 8",
+    "pmid": "42741478",
+    "title": "Hmmr(+) Fibroblasts Facilitate Hair Regeneration by Biomechanical Sensing of Extracellular Matrix Viscoelasticity",
+    "journal": "Research (Washington, D.C.)",
+    "pub_date": "2026",
     "authors": [
-      "Troshina EA",
-      "Suplotova LA",
-      "Dzgoeva FK"
+      "Tang Y",
+      "Wang M",
+      "Ye Y"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review",
-      "English Abstract"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42733368/",
-    "id": "pmid:42733368",
-    "abstract": "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss. This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss. The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity. Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss. It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies. Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity. Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42741478/",
+    "id": "pmid:42741478",
+    "abstract": "How fibroblast heterogeneity orchestrates tissue regeneration by remodeling tissue mechanical properties that guide stem cell function is not well understood. Although fibroblasts are increasingly recognized as key regulators of tissue homeostasis, the specific subpopulations and molecular pathways through which they remodel the mechanical niche during hair follicle regeneration are not fully defined. Here, we identify that Hmmr+ fibroblasts located beneath the dermal papilla (DP) of the hair follicle promote hair follicle regeneration by secreting extracellular matrix (ECM) components to activate hair follicle stem cells. Single-cell RNA-sequencing and immunostaining mapped spatially distinct fibroblast subpopulations in the dermal microenvironment and showed that regional ECM viscoelastic remodeling occurs prior to hair regeneration and coincides precisely with the emergence of Hmmr+ fibroblasts. Functional studies in vivo and in skin organoids demonstrate that Hmmr+ fibroblasts act as mechanical sensors that engage DP cells via NCAM1-FGFR1 signaling to stimulate hair regeneration. We propose a tripartite biomechanical module comprising ECM viscoelastic remodeling (effector), Hmmr+ fibroblasts (sensor), and DP cells (executor) that cooperatively drives hair regeneration. Together, our work identifies a heterogeneous fibroblast-defined mechanical niche as a central regulator of tissue renewal, highlighting the role of fibroblast diversity in coordinating regeneration and advancing our understanding of the mechano-molecular basis of tissue repair.",
+    "pmcid": "PMC13572799"
   },
   "script": {
-    "hook": "오늘의 논문 Problemy endokrinologii에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "Problemy endokrinologii에 실린 새 연구입니다",
-    "intro": "《Problemy endokrinologii》 - [Hair loss during treatment of obesity: current state of the problem and potential solutions]",
+    "hook": "모발 재생 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "모발 재생",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Research (Washington, D.C.)》 - Hmmr(+) Fibroblasts Facilitate Hair Regeneration by Biomechanical Sensing of Extracellular Matrix Viscoelasticity",
     "highlights": [
-      "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.",
-      "This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.",
-      "The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity."
+      "How fibroblast heterogeneity orchestrates tissue regeneration by remodeling tissue mechanical properties that guide stem cell function is not well understood.",
+      "Although fibroblasts are increasingly recognized as key regulators of tissue homeostasis, the specific subpopulations and molecular pathways through which they remodel the mechanical niche during hair follicle regeneration are not fully defined.",
+      "Here, we identify that Hmmr+ fibroblasts located beneath the dermal papilla (DP) of the hair follicle promote hair follicle regeneration by secreting extracellular matrix (ECM) components to activate hair follicle stem cells."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Introduction",
         "kind": "intro",
         "sentences": [
-          "Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.",
-          "This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss."
+          "Tissue regeneration is orchestrated by a dynamic exchange of biochemical and mechanical instructions between cells and their local microenvironment.",
+          "Within these mechanical cues, the viscoelasticity of the extracellular matrix (ECM), its ability to simultaneously exhibit energy storage as an elastic solid and energy dissipation as a viscous fluid, has emerged as a key physical cue that regulates cellular behaviors such as spreading, proliferation, and invasion.",
+          "In addition, microRNA-205 promotes regeneration by targeting cytoskeletal and junctional components to alter tissue mechanics."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.",
-          "Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.",
-          "It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.",
-          "Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.",
-          "Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy."
+          "Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.",
+          "One-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.",
+          "(B) AFM-based quantitative analysis of ECM adhesion force in HMMR+ fibroblast regions at telogen and early anagen stages (n = 16; P < 0.05, **P < 0.01, ***P < 0.001).",
+          "(D) AFM-based quantitative analysis of ECM adhesion force in HMMR+ fibroblast regions following subcutaneous Eln treatment (n = 16; P < 0.05, **P < 0.01, ***P < 0.001).",
+          "Unpaired 2-tailed t test. *P < 0.05, **P < 0.01, ***P < 0.001.",
+          "Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.",
+          "Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.",
+          "One-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001."
+        ]
+      },
+      {
+        "label": "고찰",
+        "title": "Discussion",
+        "kind": "discussion",
+        "sentences": [
+          "Tissue regeneration is not merely linearly driven by genetic programs, but rather represents an adaptive process dynamically encoded by the biomechanical properties of the microenvironment, decoded through cellular perception, and reshaped via signal transduction.",
+          "For instance, PIEZO1-mediated calcium signaling senses mechanical forces through E-cadherin to reinforce the mechanical properties of hair follicle stem cells (HFSCs) and maintain their quiescence, while microRNA-205 fine-tunes actomyosin contractility and cell mechanics by targeting cytoskeletal and adhesion genes to promote hair regeneration.",
+          "In this study, we focus on the dynamic viscoelastic remodeling of the ECM during the telogen-to-anagen transition and identifies a novel tripartite biomechanical regulatory module consisting of ECM mechanical effectors, Hmmr+ fibroblast mechanical sensors, and DP signal executors, which collaboratively drives hair follicle regeneration.",
+          "In particular, we verified the dynamic biomechanical alterations of the peri-follicular microenvironment via AFM."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Materials and Methods",
+        "kind": "methods",
+        "sentences": [
+          "Each nude mouse, weighing 20 g, is administered an intraperitoneal injection of 140 μl of 1% sodium pentobarbital solution and 25 μl of 25% flunixin meglumine for pain relief.",
+          "The following reagents and concentrations were used: 50 μl of HA solution (2 mg/ml, CAS# HY-B0633A, MCE), 50 μl of Ncam1 solution (1 μg/ml, CAS# HY-P78764, MCE), 50 μl of 4-MU solution (5 mM, CAS# HY-N0187, MCE), 50 μl of triptolide (10 μM, CAS# M3985, Abmole), 50 μl of Eln solution (1 μg/ml, CAS# P1577, FineTest), and 50 μl of PD173074 solution (100 μM, CAS# HY-10321, MCE).",
+          "For 8-μm paraffin sections, deparaffinization was performed twice with xylene for 15 min each, followed by hydration using a graded series of alcohol (100%, 100%, 95%, 85%, 75%, and 50%)."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Problemy endokrinologii에 실린 새 연구입니다\n\n[논문 정보]\n제목: [Hair loss during treatment of obesity: current state of the problem and potential solutions]\n저널: Problemy endokrinologii\n저자: Troshina EA, Suplotova LA, Dzgoeva FK 외\n발행: 2026 Sep 8\n원문: https://pubmed.ncbi.nlm.nih.gov/42733368/\n\n[한눈에 보기]\n- Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.\n- This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n- The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Obesity and overweight are significant medical and social problems, and current approaches to their treatment, including hypocaloric diets, bariatric interventions, and pharmacotherapy, including incretin drugs (e.g., glucagon-like peptide-1 receptor agonists), can be accompanied by the development of diffuse hair loss.\n  · This article, prepared following a discussion at an expert council, systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n\n◆ 주요 결과 — Results (자동 구분)\n  · The main pathogenic mechanisms are discussed, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n  · Approaches to the prevention, monitoring, and comprehensive management of such patients are presented, taking into account the need to maintain adherence to the main therapy.This article systematizes current data on the prevalence and clinical and morphological variants of alopecia associated with weight loss.\n  · It examines the main pathogenic mechanisms, including metabolic stress, protein-energy malnutrition, and micronutrient deficiencies.\n  · Special attention is paid to the role of biotin and vitamin D in maintaining hair follicle function, as well as to risk groups for alopecia in patients undergoing treatment for obesity.\n  · Approaches to prevention, monitoring, and comprehensive management of these patients are presented, taking into account the need to maintain adherence to the primary therapy.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42733368/",
-    "reference_title": "[Hair loss during treatment of obesity: current state of the problem and potential solutions]",
+    "full_script": "[훅] 모발 재생 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Hmmr(+) Fibroblasts Facilitate Hair Regeneration by Biomechanical Sensing of Extracellular Matrix Viscoelasticity\n저널: Research (Washington, D.C.)\n저자: Tang Y, Wang M, Ye Y 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42741478/\n\n[한눈에 보기]\n- How fibroblast heterogeneity orchestrates tissue regeneration by remodeling tissue mechanical properties that guide stem cell function is not well understood.\n- Although fibroblasts are increasingly recognized as key regulators of tissue homeostasis, the specific subpopulations and molecular pathways through which they remodel the mechanical niche during hair follicle regeneration are not fully defined.\n- Here, we identify that Hmmr+ fibroblasts located beneath the dermal papilla (DP) of the hair follicle promote hair follicle regeneration by secreting extracellular matrix (ECM) components to activate hair follicle stem cells.\n\n[상세 내용] (논문 전문 4개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Tissue regeneration is orchestrated by a dynamic exchange of biochemical and mechanical instructions between cells and their local microenvironment.\n  · Within these mechanical cues, the viscoelasticity of the extracellular matrix (ECM), its ability to simultaneously exhibit energy storage as an elastic solid and energy dissipation as a viscous fluid, has emerged as a key physical cue that regulates cellular behaviors such as spreading, proliferation, and invasion.\n  · In addition, microRNA-205 promotes regeneration by targeting cytoskeletal and junctional components to alter tissue mechanics.\n\n◆ 주요 결과 — Results\n  · Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.\n  · One-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.\n  · (B) AFM-based quantitative analysis of ECM adhesion force in HMMR+ fibroblast regions at telogen and early anagen stages (n = 16; P < 0.05, **P < 0.01, ***P < 0.001).\n  · (D) AFM-based quantitative analysis of ECM adhesion force in HMMR+ fibroblast regions following subcutaneous Eln treatment (n = 16; P < 0.05, **P < 0.01, ***P < 0.001).\n  · Unpaired 2-tailed t test. *P < 0.05, **P < 0.01, ***P < 0.001.\n  · Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.\n  · Unpaired 2-tailed t test or one-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.\n  · One-way ANOVA with Tukey’s post hoc test. *P < 0.05, **P < 0.01, ***P < 0.001.\n\n◆ 고찰 — Discussion\n  · Tissue regeneration is not merely linearly driven by genetic programs, but rather represents an adaptive process dynamically encoded by the biomechanical properties of the microenvironment, decoded through cellular perception, and reshaped via signal transduction.\n  · For instance, PIEZO1-mediated calcium signaling senses mechanical forces through E-cadherin to reinforce the mechanical properties of hair follicle stem cells (HFSCs) and maintain their quiescence, while microRNA-205 fine-tunes actomyosin contractility and cell mechanics by targeting cytoskeletal and adhesion genes to promote hair regeneration.\n  · In this study, we focus on the dynamic viscoelastic remodeling of the ECM during the telogen-to-anagen transition and identifies a novel tripartite biomechanical regulatory module consisting of ECM mechanical effectors, Hmmr+ fibroblast mechanical sensors, and DP signal executors, which collaboratively drives hair follicle regeneration.\n  · In particular, we verified the dynamic biomechanical alterations of the peri-follicular microenvironment via AFM.\n\n◆ 연구 방법 — Materials and Methods\n  · Each nude mouse, weighing 20 g, is administered an intraperitoneal injection of 140 μl of 1% sodium pentobarbital solution and 25 μl of 25% flunixin meglumine for pain relief.\n  · The following reagents and concentrations were used: 50 μl of HA solution (2 mg/ml, CAS# HY-B0633A, MCE), 50 μl of Ncam1 solution (1 μg/ml, CAS# HY-P78764, MCE), 50 μl of 4-MU solution (5 mM, CAS# HY-N0187, MCE), 50 μl of triptolide (10 μM, CAS# M3985, Abmole), 50 μl of Eln solution (1 μg/ml, CAS# P1577, FineTest), and 50 μl of PD173074 solution (100 μM, CAS# HY-10321, MCE).\n  · For 8-μm paraffin sections, deparaffinization was performed twice with xylene for 15 min each, followed by hydration using a graded series of alcohol (100%, 100%, 95%, 85%, 75%, and 50%).\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42741478/",
+    "reference_title": "Hmmr(+) Fibroblasts Facilitate Hair Regeneration by Biomechanical Sensing of Extracellular Matrix Viscoelasticity",
     "reference_type": "paper"
   },
   "assets": {
@@ -76,8 +100,11 @@
     "pptx": "slides.pptx",
     "paper_figures": [],
     "paper_tables": [],
-    "paper_source": null,
-    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
-    "paper_figure_note": null
+    "paper_source": {
+      "pmcid": "PMC13572799",
+      "license_note": "재사용 가능 라이선스"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13572799)에서 직접 캡처해 쓰세요."
   }
 }

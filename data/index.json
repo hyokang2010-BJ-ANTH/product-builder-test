@@ -1,7 +1,20 @@
 {
-  "count": 17,
-  "updated": "2026-09-15",
+  "count": 18,
+  "updated": "2026-09-16",
   "items": [
+    {
+      "date": "2026-09-16",
+      "dir": "2026-09-16",
+      "title": "Hmmr(+) Fibroblasts Facilitate Hair Regeneration by Biomechanical Sensing of Extracellular Matrix Viscoelasticity",
+      "journal": "Research (Washington, D.C.)",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42741478/",
+      "hook_accent": "모발 재생",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-16/paper_card.png",
+      "pptx": "2026-09-16/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-15",
       "dir": "2026-09-15",
