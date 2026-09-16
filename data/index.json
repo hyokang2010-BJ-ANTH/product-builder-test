@@ -1,7 +1,20 @@
 {
-  "count": 18,
-  "updated": "2026-09-16",
+  "count": 19,
+  "updated": "2026-09-17",
   "items": [
+    {
+      "date": "2026-09-17",
+      "dir": "2026-09-17",
+      "title": "Topical Application of Cultured Human Hair Follicle-Derived Epithelial Progenitor Cells Enhances Wound Healing and Epithelialization",
+      "journal": "Plastic and reconstructive surgery",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747264/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Plastic and reconstructive surgery에 실린 새 연구입니다",
+      "thumb": "2026-09-17/paper_card.png",
+      "pptx": "2026-09-17/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-16",
       "dir": "2026-09-16",
