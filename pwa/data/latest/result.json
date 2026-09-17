@@ -1,79 +1,122 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "topic": {
     "source_type": "paper",
-    "pmid": "42747264",
-    "title": "Topical Application of Cultured Human Hair Follicle-Derived Epithelial Progenitor Cells Enhances Wound Healing and Epithelialization",
-    "journal": "Plastic and reconstructive surgery",
-    "pub_date": "2026 Sep 16",
+    "pmid": "42750717",
+    "title": "Microneedle-mediated intelligent combination delivery for hair regeneration: A comprehensive review of technologies, mechanistic evidence, and translational prospects",
+    "journal": "Materials today. Bio",
+    "pub_date": "2026 Oct",
     "authors": [
-      "Zhang B",
-      "Saito N",
-      "Wu Y"
+      "Lan L",
+      "Wang Y",
+      "Xue B"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42747264/",
-    "id": "pmid:42747264",
-    "abstract": "Background: Epithelial cell-based approaches - including cultured keratinocyte sheets, bilayered skin substitutes, and cell-enriched wound dressings derived from epidermal cells - have been explored to enhance wound epithelialization; however, most studies have focused on epidermis-derived cells. Wound-healing potential of epithelial cells originating from different regions of human hair follicle remains insufficiently characterized. Methods: Epithelial cells were isolated from distinct regions of human scalp hair follicles, including upper root epithelial cells (UECs), lower root epithelial cells (LECs), and bulb epithelial cells (BECs), and were compared with epidermal keratinocytes. Cell viability, proliferation, and phenotypic characteristics were evaluated in vitro. In vivo epithelialization was assessed using a full-thickness wound model in immunodeficient mice following topical application of each cell population. Histological analyses were performed on healed tissue, and donor-site outcomes were explored using a rat whisker model. Results: BECs exhibited the highest viability and proliferative capacity, along with a lower proportion of differentiated keratinocytes. All cell-treated groups enhanced epithelialization compared to controls, with BECs-treated wounds showing the most pronounced improvement. Histological analysis demonstrated reduced scar formation and increased retention of human-derived cells in regenerated epidermis following BECs treatment. In rat model, hair follicle regeneration was observed after bulb removal, although regenerated whiskers exhibited reduced thickness and length. Conclusion: These findings provide proof-of-concept evidence that epithelial cells derived from the human hair follicle bulb possess favorable biological properties and enhance epithelialization in preclinical wound model. Hair follicle-derived epithelial cells may represent promising cell source for cutaneous regeneration, although further investigation is required to establish clinical applicability."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42750717/",
+    "id": "pmid:42750717",
+    "abstract": "Androgenetic alopecia (AGA) is a prevalent hair-loss disorder with substantial psychosocial burden, while current treatments such as topical minoxidil and oral finasteride remain limited by insufficient follicular delivery, long-term adherence requirements, local irritation, systemic adverse effects, and recurrence after discontinuation. Microneedle (MN) technology offers a minimally invasive local intervention strategy by bypassing the stratum corneum, enhancing follicular exposure, reducing unnecessary systemic distribution, and providing mechanical stimulation to the scalp microenvironment. This review summarizes recent advances in MN-mediated intelligent combination delivery for hair regeneration, covering MN types, material selection, structural design, controlled-release strategies, and major therapeutic mechanisms, including antioxidative remodeling, pro-angiogenic support, growth factor and collagen delivery, immunomodulation, extracellular vesicle-based therapy, nanomedicine integration, and anti-androgenic intervention. We further discuss stimulus-responsive MN systems, including ROS-, pH-, enzyme-, temperature-, light-, ultrasound-, magnetic-, and electrically responsive platforms, as well as emerging closed-loop concepts that integrate sensing, data processing, and adaptive actuation. Importantly, we critically examine the gap between preclinical proof-of-concept studies and clinical translation, highlighting key challenges related to scalp-specific insertion, hair obstruction, payload stability, immune compatibility, scalable manufacturing, sterilization, patient usability, long-term safety, and regulatory uncertainty. By integrating mechanistic evidence with translational considerations, this review provides a structured perspective for researchers developing disease-tailored, microenvironment-oriented, and clinically feasible MN-based strategies for hair regeneration.",
+    "pmcid": "PMC13577838"
   },
   "script": {
-    "hook": "오늘의 논문 Plastic and reconstructive surgery에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "Plastic and reconstructive surgery에 실린 새 연구입니다",
-    "intro": "《Plastic and reconstructive surgery》 - Topical Application of Cultured Human Hair Follicle-Derived Epithelial Progenitor Cells Enhances Wound Healing and Epithelialization",
+    "hook": "마이크로니들 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "마이크로니들",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Materials today. Bio》 - Microneedle-mediated intelligent combination delivery for hair regeneration: A comprehensive review of technologies, mechanistic evidence, and translational prospects",
     "highlights": [
-      "Background: Epithelial cell-based approaches - including cultured keratinocyte sheets, bilayered skin substitutes, and cell-enriched wound dressings derived from epidermal cells - have been explored to enhance wound epithelialization; however, most studies have focused on epidermis-derived cells.",
-      "Wound-healing potential of epithelial cells originating from different regions of human hair follicle remains insufficiently characterized.",
-      "Methods: Epithelial cells were isolated from distinct regions of human scalp hair follicles, including upper root epithelial cells (UECs), lower root epithelial cells (LECs), and bulb epithelial cells (BECs), and were compared with epidermal keratinocytes."
+      "Androgenetic alopecia (AGA) is a prevalent hair-loss disorder with substantial psychosocial burden, while current treatments such as topical minoxidil and oral finasteride remain limited by insufficient follicular delivery, long-term adherence requirements, local irritation, systemic adverse effects, and recurrence after discontinuation.",
+      "Microneedle (MN) technology offers a minimally invasive local intervention strategy by bypassing the stratum corneum, enhancing follicular exposure, reducing unnecessary systemic distribution, and providing mechanical stimulation to the scalp microenvironment.",
+      "This review summarizes recent advances in MN-mediated intelligent combination delivery for hair regeneration, covering MN types, material selection, structural design, controlled-release strategies, and major therapeutic mechanisms, including antioxidative remodeling, pro-angiogenic support, growth factor and collagen delivery, immunomodulation, extracellular vesicle-based therapy, nanomedicine integration, and anti-androgenic intervention."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background",
+        "title": "Introduction",
         "kind": "intro",
         "sentences": [
-          "Epithelial cell-based approaches - including cultured keratinocyte sheets, bilayered skin substitutes, and cell-enriched wound dressings derived from epidermal cells - have been explored to enhance wound epithelialization; however, most studies have focused on epidermis-derived cells.",
-          "Wound-healing potential of epithelial cells originating from different regions of human hair follicle remains insufficiently characterized."
+          "Androgenetic alopecia (AGA) is the most prevalent subtype of alopecia, affecting approximately 15–30% of women and up to 50% of men worldwide [,,,].",
+          "Beyond the loss of hair itself, AGA imposes a substantial psychosocial burden, frequently leading to reduced self-esteem, impaired social functioning, and mental health concerns, particularly among adolescents.",
+          "As next-generation transdermal delivery platforms, microneedles can penetrate the stratum corneum in a nearly painless manner, create microchannels, and directly deliver active agents into the dermis [7,21,22,,,]."
         ]
       },
       {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
+        "label": "그 밖의 내용",
+        "title": "Core microneedle types and design",
+        "kind": "other",
         "sentences": [
-          "Epithelial cells were isolated from distinct regions of human scalp hair follicles, including upper root epithelial cells (UECs), lower root epithelial cells (LECs), and bulb epithelial cells (BECs), and were compared with epidermal keratinocytes.",
-          "Cell viability, proliferation, and phenotypic characteristics were evaluated in vitro.",
-          "In vivo epithelialization was assessed using a full-thickness wound model in immunodeficient mice following topical application of each cell population.",
-          "Histological analyses were performed on healed tissue, and donor-site outcomes were explored using a rat whisker model."
+          "The principal limitations of solid MNs include their two-step workflow—puncture followed by topical administration—and limited dose-control capability, which constrain their clinical utility [29,,,].",
+          "Representative materials, applicable MN types, key design features, AGA application potential, and major limitations are summarized in Table 2.Table 2Summary of material characteristics for AGA-oriented microneedles.Table 2MN typeRepresentative materialsKey material characteristicsAGA-oriented design rationaleSuitable cargoes or usesMain limitations of the AGA applicationRef.Solid MNsStainless steel, titanium, silicon, ceramics, rigid resins, PMMA, PLAHigh modulus, strong puncture ability, dimensional stability, fracture resistance, and limited intrinsic drug-loading capacitySuitable for reproducible scalp microporation and mechanical stimulation; may enhance subsequent penetration of topical or nanocarrier formulations and activate wound-healing-related signals involved in hair cyclingPretreatment before topical minoxidil/finasteride, mechanical stimulation, and permeability enhancement for anti-inflammatory agents or nanoformulationsTwo-step administration; limited drug loading and release control; dose affected by microchannel closure, formulation spreading, hair shafts, sebum, and scalp contact; possible irritation or fracture riskHollow MNsStainless steel, silicon, rigid resins, high-strength polymers, ceramicsLumen-containing structure, high wall stiffness, tip sharpness, infusion compatibility, pressure-driven deliverySuitable when controlled intradermal infusion is needed; can reduce surface drug loss and deliver liquid or higher-dose formulations closer to follicular regionsLiquid formulations; growth factors; JAK inhibitors; extracellular vesicles; nanoparticle suspensions; relatively high-dose agentsComplex fabrication; lumen blockage by viscous formulations, particles, vesicle aggregation, or compressed scalp tissue; risk of leakage, backflow, and uneven infusionDissolvable MNsHA, PVP, gelatin, chitosan, sodium alginate, sodium hyaluronate, starch-based polymers, PVA blendsHydrophilic, biodegradable, drug-loaded needle matrix, hydration-triggered dissolution, tip-localized loading, tunable dissolution by polymer compositionSuitable for one-step follicular deposition; reduces drug loss on scalp surface and improves localization around follicular units; useful for repeated outpatient or self-administered AGA therapyMinoxidil; finasteride; JAK inhibitors; phytochemicals; peptides; nucleic acids; liposomes; polymeric nanoparticles; LPNsLower dry-state strength than rigid MNs; humidity-sensitive storage; release affected by hydration and local interstitial fluid; overly fast dissolution may cause superficial release, whereas slow dissolution may delay perifollicular exposureHydrogel MNsHA/HAMA, PVA, PEG/PEGDA, GelMA, alginate, collagen, silk fibroin, PMVE/MACrosslinked polymer network, dry-state insertion strength, post-insertion swelling, hydrated diffusion pathways, tunable mesh size, and release behaviorSuitable for sustained local exposure and long-acting AGA therapy; can prolong retention near follicular niches and potentially reduce dosing frequencyVEGF; growth factors; JAK inhibitors; immunomodulators; exosomes; nanoparticle formulations; sustained delivery systemsRequires a balance between crosslinking, strength, swelling, and diffusion; excessive crosslinking may restrict release, insufficient crosslinking may cause weak insertion, leakage, or inconsistent residence time; more demanding quality control[54,70,,,,]"
         ]
       },
       {
-        "label": "주요 결과",
-        "title": "Results",
-        "kind": "results",
+        "label": "그 밖의 내용",
+        "title": "Core MN-mediated therapeutic strategies for hair regeneration",
+        "kind": "other",
         "sentences": [
-          "BECs exhibited the highest viability and proliferative capacity, along with a lower proportion of differentiated keratinocytes.",
-          "All cell-treated groups enhanced epithelialization compared to controls, with BECs-treated wounds showing the most pronounced improvement.",
-          "Histological analysis demonstrated reduced scar formation and increased retention of human-derived cells in regenerated epidermis following BECs treatment.",
-          "In rat model, hair follicle regeneration was observed after bulb removal, although regenerated whiskers exhibited reduced thickness and length."
+          "Machine-learning-aided discovery identified a manganese thiophosphate (MnPS3) superoxide dismutase (SOD) mimic with an IC50 of 3.61 μg mL−1—12-fold lower than most reported SOD-like nanozymes."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Design and optimization of multi-drug combination delivery",
+        "kind": "other",
+        "sentences": [
+          "The minoxidil-spironolactone group had a 6.7% non-response rate, compared to 16.7% in the minoxidil-finasteride group; 56.7% of patients in the minoxidil-spironolactone group achieved an excellent treatment outcome, versus 0% in the minoxidil-finasteride group, a statistically significant difference (p = 0.01)."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Core features of intelligent stimulus-responsive MN systems",
+        "kind": "other",
+        "sentences": [
+          "Copyright 2019, American Chemical Society.Fig. 7Schematic illustration of the mechanisms of intelligent stimulus-responsive microneedle systems."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Closed-loop systems and real-time monitoring",
+        "kind": "other",
+        "sentences": [
+          "Copyright 2025, Journal of Nanobiotechnology.",
+          "Copyright 2025, Journal of Nanobiotechnology."
+        ]
+      },
+      {
+        "label": "고찰",
+        "title": "Current limitations, translational challenges, and future research directions of microneedle-mediated hair regeneration",
+        "kind": "discussion",
+        "sentences": [
+          "Still, they should also characterize post-fabrication potency, batch-to-batch variability, residual bioactivity after storage, and degradation pathways [106,112,,,,].",
+          "Still, they should be designed around scalp anatomy, hair density, follicular target depth, disease stage, payload properties, dosing frequency, and intended treatment duration [83,193,,,].",
+          "For AGA, this means developing scalp-adapted backing layers, applicators capable of separating hair shafts or overcoming hair interference, needle lengths suitable for perifollicular deposition, moisture-protective packaging, and formulations suitable for repeated use in outpatient or home settings [14.79,202-204].",
+          "Only through such a staged pathway can MN-based hair regeneration technologies progress from promising laboratory systems to practical, scalable, and safe therapeutic options for alopecia [14,83,193,,,]."
         ]
       },
       {
         "label": "결론",
-        "title": "Conclusion",
+        "title": "Conclusions",
         "kind": "conclusion",
         "sentences": [
-          "These findings provide proof-of-concept evidence that epithelial cells derived from the human hair follicle bulb possess favorable biological properties and enhance epithelialization in preclinical wound model.",
-          "Hair follicle-derived epithelial cells may represent promising cell source for cutaneous regeneration, although further investigation is required to establish clinical applicability."
+          "This review summarizes recent advances in MN-mediated intelligent combination delivery systems for hair regeneration, with a particular focus on how MN platforms integrate material design, follicular delivery, therapeutic synergy, stimuli responsiveness, and closed-loop regulation.",
+          "Compared with conventional topical or systemic therapies, MNs provide a unique therapeutic interface for alopecia treatment: they can not only bypass the stratum corneum barrier, enhance local follicular exposure, and reduce unnecessary systemic distribution, but also activate wound-repair and regeneration-related signaling through mechanical stimulation.",
+          "As highlighted in this review, MN-based strategies have evolved from simple penetration-enhancing tools into multifunctional platforms capable of delivering small-molecule drugs, natural products, biologics, extracellular vesicles, nanozymes, growth factors, collagen-related components, and physical stimuli to the follicular microenvironment."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "CRediT authorship contribution statement",
+        "kind": "other",
+        "sentences": [
+          "Liang Lan: Writing – original draft, Visualization, Conceptualization."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Plastic and reconstructive surgery에 실린 새 연구입니다\n\n[논문 정보]\n제목: Topical Application of Cultured Human Hair Follicle-Derived Epithelial Progenitor Cells Enhances Wound Healing and Epithelialization\n저널: Plastic and reconstructive surgery\n저자: Zhang B, Saito N, Wu Y 외\n발행: 2026 Sep 16\n원문: https://pubmed.ncbi.nlm.nih.gov/42747264/\n\n[한눈에 보기]\n- Background: Epithelial cell-based approaches - including cultured keratinocyte sheets, bilayered skin substitutes, and cell-enriched wound dressings derived from epidermal cells - have been explored to enhance wound epithelialization; however, most studies have focused on epidermis-derived cells.\n- Wound-healing potential of epithelial cells originating from different regions of human hair follicle remains insufficiently characterized.\n- Methods: Epithelial cells were isolated from distinct regions of human scalp hair follicles, including upper root epithelial cells (UECs), lower root epithelial cells (LECs), and bulb epithelial cells (BECs), and were compared with epidermal keratinocytes.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Epithelial cell-based approaches - including cultured keratinocyte sheets, bilayered skin substitutes, and cell-enriched wound dressings derived from epidermal cells - have been explored to enhance wound epithelialization; however, most studies have focused on epidermis-derived cells.\n  · Wound-healing potential of epithelial cells originating from different regions of human hair follicle remains insufficiently characterized.\n\n◆ 연구 방법 — Methods\n  · Epithelial cells were isolated from distinct regions of human scalp hair follicles, including upper root epithelial cells (UECs), lower root epithelial cells (LECs), and bulb epithelial cells (BECs), and were compared with epidermal keratinocytes.\n  · Cell viability, proliferation, and phenotypic characteristics were evaluated in vitro.\n  · In vivo epithelialization was assessed using a full-thickness wound model in immunodeficient mice following topical application of each cell population.\n  · Histological analyses were performed on healed tissue, and donor-site outcomes were explored using a rat whisker model.\n\n◆ 주요 결과 — Results\n  · BECs exhibited the highest viability and proliferative capacity, along with a lower proportion of differentiated keratinocytes.\n  · All cell-treated groups enhanced epithelialization compared to controls, with BECs-treated wounds showing the most pronounced improvement.\n  · Histological analysis demonstrated reduced scar formation and increased retention of human-derived cells in regenerated epidermis following BECs treatment.\n  · In rat model, hair follicle regeneration was observed after bulb removal, although regenerated whiskers exhibited reduced thickness and length.\n\n◆ 결론 — Conclusion\n  · These findings provide proof-of-concept evidence that epithelial cells derived from the human hair follicle bulb possess favorable biological properties and enhance epithelialization in preclinical wound model.\n  · Hair follicle-derived epithelial cells may represent promising cell source for cutaneous regeneration, although further investigation is required to establish clinical applicability.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42747264/",
-    "reference_title": "Topical Application of Cultured Human Hair Follicle-Derived Epithelial Progenitor Cells Enhances Wound Healing and Epithelialization",
+    "full_script": "[훅] 마이크로니들 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Microneedle-mediated intelligent combination delivery for hair regeneration: A comprehensive review of technologies, mechanistic evidence, and translational prospects\n저널: Materials today. Bio\n저자: Lan L, Wang Y, Xue B 외\n발행: 2026 Oct\n원문: https://pubmed.ncbi.nlm.nih.gov/42750717/\n\n[한눈에 보기]\n- Androgenetic alopecia (AGA) is a prevalent hair-loss disorder with substantial psychosocial burden, while current treatments such as topical minoxidil and oral finasteride remain limited by insufficient follicular delivery, long-term adherence requirements, local irritation, systemic adverse effects, and recurrence after discontinuation.\n- Microneedle (MN) technology offers a minimally invasive local intervention strategy by bypassing the stratum corneum, enhancing follicular exposure, reducing unnecessary systemic distribution, and providing mechanical stimulation to the scalp microenvironment.\n- This review summarizes recent advances in MN-mediated intelligent combination delivery for hair regeneration, covering MN types, material selection, structural design, controlled-release strategies, and major therapeutic mechanisms, including antioxidative remodeling, pro-angiogenic support, growth factor and collagen delivery, immunomodulation, extracellular vesicle-based therapy, nanomedicine integration, and anti-androgenic intervention.\n\n[상세 내용] (논문 전문 9개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Androgenetic alopecia (AGA) is the most prevalent subtype of alopecia, affecting approximately 15–30% of women and up to 50% of men worldwide [,,,].\n  · Beyond the loss of hair itself, AGA imposes a substantial psychosocial burden, frequently leading to reduced self-esteem, impaired social functioning, and mental health concerns, particularly among adolescents.\n  · As next-generation transdermal delivery platforms, microneedles can penetrate the stratum corneum in a nearly painless manner, create microchannels, and directly deliver active agents into the dermis [7,21,22,,,].\n\n◆ 그 밖의 내용 — Core microneedle types and design\n  · The principal limitations of solid MNs include their two-step workflow—puncture followed by topical administration—and limited dose-control capability, which constrain their clinical utility [29,,,].\n  · Representative materials, applicable MN types, key design features, AGA application potential, and major limitations are summarized in Table 2.Table 2Summary of material characteristics for AGA-oriented microneedles.Table 2MN typeRepresentative materialsKey material characteristicsAGA-oriented design rationaleSuitable cargoes or usesMain limitations of the AGA applicationRef.Solid MNsStainless steel, titanium, silicon, ceramics, rigid resins, PMMA, PLAHigh modulus, strong puncture ability, dimensional stability, fracture resistance, and limited intrinsic drug-loading capacitySuitable for reproducible scalp microporation and mechanical stimulation; may enhance subsequent penetration of topical or nanocarrier formulations and activate wound-healing-related signals involved in hair cyclingPretreatment before topical minoxidil/finasteride, mechanical stimulation, and permeability enhancement for anti-inflammatory agents or nanoformulationsTwo-step administration; limited drug loading and release control; dose affected by microchannel closure, formulation spreading, hair shafts, sebum, and scalp contact; possible irritation or fracture riskHollow MNsStainless steel, silicon, rigid resins, high-strength polymers, ceramicsLumen-containing structure, high wall stiffness, tip sharpness, infusion compatibility, pressure-driven deliverySuitable when controlled intradermal infusion is needed; can reduce surface drug loss and deliver liquid or higher-dose formulations closer to follicular regionsLiquid formulations; growth factors; JAK inhibitors; extracellular vesicles; nanoparticle suspensions; relatively high-dose agentsComplex fabrication; lumen blockage by viscous formulations, particles, vesicle aggregation, or compressed scalp tissue; risk of leakage, backflow, and uneven infusionDissolvable MNsHA, PVP, gelatin, chitosan, sodium alginate, sodium hyaluronate, starch-based polymers, PVA blendsHydrophilic, biodegradable, drug-loaded needle matrix, hydration-triggered dissolution, tip-localized loading, tunable dissolution by polymer compositionSuitable for one-step follicular deposition; reduces drug loss on scalp surface and improves localization around follicular units; useful for repeated outpatient or self-administered AGA therapyMinoxidil; finasteride; JAK inhibitors; phytochemicals; peptides; nucleic acids; liposomes; polymeric nanoparticles; LPNsLower dry-state strength than rigid MNs; humidity-sensitive storage; release affected by hydration and local interstitial fluid; overly fast dissolution may cause superficial release, whereas slow dissolution may delay perifollicular exposureHydrogel MNsHA/HAMA, PVA, PEG/PEGDA, GelMA, alginate, collagen, silk fibroin, PMVE/MACrosslinked polymer network, dry-state insertion strength, post-insertion swelling, hydrated diffusion pathways, tunable mesh size, and release behaviorSuitable for sustained local exposure and long-acting AGA therapy; can prolong retention near follicular niches and potentially reduce dosing frequencyVEGF; growth factors; JAK inhibitors; immunomodulators; exosomes; nanoparticle formulations; sustained delivery systemsRequires a balance between crosslinking, strength, swelling, and diffusion; excessive crosslinking may restrict release, insufficient crosslinking may cause weak insertion, leakage, or inconsistent residence time; more demanding quality control[54,70,,,,]\n\n◆ 그 밖의 내용 — Core MN-mediated therapeutic strategies for hair regeneration\n  · Machine-learning-aided discovery identified a manganese thiophosphate (MnPS3) superoxide dismutase (SOD) mimic with an IC50 of 3.61 μg mL−1—12-fold lower than most reported SOD-like nanozymes.\n\n◆ 그 밖의 내용 — Design and optimization of multi-drug combination delivery\n  · The minoxidil-spironolactone group had a 6.7% non-response rate, compared to 16.7% in the minoxidil-finasteride group; 56.7% of patients in the minoxidil-spironolactone group achieved an excellent treatment outcome, versus 0% in the minoxidil-finasteride group, a statistically significant difference (p = 0.01).\n\n◆ 그 밖의 내용 — Core features of intelligent stimulus-responsive MN systems\n  · Copyright 2019, American Chemical Society.Fig. 7Schematic illustration of the mechanisms of intelligent stimulus-responsive microneedle systems.\n\n◆ 그 밖의 내용 — Closed-loop systems and real-time monitoring\n  · Copyright 2025, Journal of Nanobiotechnology.\n  · Copyright 2025, Journal of Nanobiotechnology.\n\n◆ 고찰 — Current limitations, translational challenges, and future research directions of microneedle-mediated hair regeneration\n  · Still, they should also characterize post-fabrication potency, batch-to-batch variability, residual bioactivity after storage, and degradation pathways [106,112,,,,].\n  · Still, they should be designed around scalp anatomy, hair density, follicular target depth, disease stage, payload properties, dosing frequency, and intended treatment duration [83,193,,,].\n  · For AGA, this means developing scalp-adapted backing layers, applicators capable of separating hair shafts or overcoming hair interference, needle lengths suitable for perifollicular deposition, moisture-protective packaging, and formulations suitable for repeated use in outpatient or home settings [14.79,202-204].\n  · Only through such a staged pathway can MN-based hair regeneration technologies progress from promising laboratory systems to practical, scalable, and safe therapeutic options for alopecia [14,83,193,,,].\n\n◆ 결론 — Conclusions\n  · This review summarizes recent advances in MN-mediated intelligent combination delivery systems for hair regeneration, with a particular focus on how MN platforms integrate material design, follicular delivery, therapeutic synergy, stimuli responsiveness, and closed-loop regulation.\n  · Compared with conventional topical or systemic therapies, MNs provide a unique therapeutic interface for alopecia treatment: they can not only bypass the stratum corneum barrier, enhance local follicular exposure, and reduce unnecessary systemic distribution, but also activate wound-repair and regeneration-related signaling through mechanical stimulation.\n  · As highlighted in this review, MN-based strategies have evolved from simple penetration-enhancing tools into multifunctional platforms capable of delivering small-molecule drugs, natural products, biologics, extracellular vesicles, nanozymes, growth factors, collagen-related components, and physical stimuli to the follicular microenvironment.\n\n◆ 그 밖의 내용 — CRediT authorship contribution statement\n  · Liang Lan: Writing – original draft, Visualization, Conceptualization.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42750717/",
+    "reference_title": "Microneedle-mediated intelligent combination delivery for hair regeneration: A comprehensive review of technologies, mechanistic evidence, and translational prospects",
     "reference_type": "paper"
   },
   "assets": {
@@ -86,15 +129,67 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
+      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [],
-    "paper_source": null,
-    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
-    "paper_figure_note": null
+    "paper_tables": [
+      {
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "Comparison of the four core types of microneedles.",
+        "rows": [
+          [
+            "Type",
+            "Administration Approach",
+            "Delivery Efficiency",
+            "Advantages",
+            "Disadvantages",
+            "Ref."
+          ],
+          [
+            "Solid MNs",
+            "Poke-patch (two-step)",
+            "Drug loading: +Sustained release: +",
+            "•High mechanical strength and physical stability•Well-established fabrication•Mechanical stimulation promotes hair growth",
+            "•Two-step operation, inconvenient•Poor dose accuracy•Reuse may pose an infection risk",
+            "[29,35,36]"
+          ],
+          [
+            "Hollow MNs",
+            "Poke-flow (continuous injection)",
+            "Drug loading: ++++Sustained release: ++++",
+            "•Precise control over dose and infusion rate•Compatible with liquid drugs and biologics•Can integrate with external enhancement (e.g., ultrasound)",
+            "•Susceptible to clogging and fluidic constraints•Complex fabrication•Requires external pump/pressure source",
+            "[30,35]"
+          ],
+          [
+            "Dissolvable MNs",
+            "Poke-release (dissolution)",
+            "Drug loading: ++++Sustained release: ++++",
+            "•One-step application, user-friendly•No biohazardous sharps waste, no retrieval•Tunable release profiles•High biocompatibility",
+            "•Relatively low mechanical strength•Stringent requirements for matrix materials•Release duration is relatively fixed",
+            "[7,33]"
+          ],
+          [
+            "Hydrogel-Forming MNs",
+            "Poke-release (swelling)",
+            "Drug loading: ++++Sustained release: ++++",
+            "•Dual functionality: drug delivery and ISF extraction•Enables long-acting sustained release•Potential for personalized therapy and monitoring",
+            "•Limited mechanical strength•Complex fabrication, higher cost•Risk of interstitial fluid ingress",
+            "[34,41,42]"
+          ]
+        ]
+      }
+    ],
+    "paper_source": {
+      "pmcid": "PMC13577838",
+      "license_note": "재사용 가능 라이선스"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13577838)에서 직접 캡처해 쓰세요."
   }
 }

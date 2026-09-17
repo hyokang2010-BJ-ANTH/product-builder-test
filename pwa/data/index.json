@@ -1,7 +1,20 @@
 {
-  "count": 19,
-  "updated": "2026-09-17",
+  "count": 20,
+  "updated": "2026-09-18",
   "items": [
+    {
+      "date": "2026-09-18",
+      "dir": "2026-09-18",
+      "title": "Microneedle-mediated intelligent combination delivery for hair regeneration: A comprehensive review of technologies, mechanistic evidence, and translational prospects",
+      "journal": "Materials today. Bio",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42750717/",
+      "hook_accent": "마이크로니들",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-18/paper_card.png",
+      "pptx": "2026-09-18/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-17",
       "dir": "2026-09-17",
