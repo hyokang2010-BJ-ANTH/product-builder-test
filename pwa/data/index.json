@@ -1,7 +1,20 @@
 {
-  "count": 20,
-  "updated": "2026-09-18",
+  "count": 21,
+  "updated": "2026-09-19",
   "items": [
+    {
+      "date": "2026-09-19",
+      "dir": "2026-09-19",
+      "title": "Extracellular Vesicles for Androgenetic Alopecia: Current Evidence, Mechanisms, and Clinical Prospects",
+      "journal": "International journal of nanomedicine",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42756864/",
+      "hook_accent": "남성형 탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-19/paper_card.png",
+      "pptx": "2026-09-19/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-18",
       "dir": "2026-09-18",
