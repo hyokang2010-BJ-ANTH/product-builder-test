@@ -1,7 +1,20 @@
 {
-  "count": 21,
-  "updated": "2026-09-19",
+  "count": 22,
+  "updated": "2026-09-20",
   "items": [
+    {
+      "date": "2026-09-20",
+      "dir": "2026-09-20",
+      "title": "The role of hormones in female androgenetic alopecia: focus on menopause",
+      "journal": "Climacteric : the journal of the International Menopause Society",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42755697/",
+      "hook_accent": "남성형 탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-20/paper_card.png",
+      "pptx": "2026-09-20/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-19",
       "dir": "2026-09-19",

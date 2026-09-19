@@ -1,128 +1,61 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "topic": {
     "source_type": "paper",
-    "pmid": "42756864",
-    "title": "Extracellular Vesicles for Androgenetic Alopecia: Current Evidence, Mechanisms, and Clinical Prospects",
-    "journal": "International journal of nanomedicine",
-    "pub_date": "2026",
+    "pmid": "42755697",
+    "title": "The role of hormones in female androgenetic alopecia: focus on menopause",
+    "journal": "Climacteric : the journal of the International Menopause Society",
+    "pub_date": "2026 Sep 18",
     "authors": [
-      "Tang WZ",
-      "Liao CY",
-      "Xu HY"
+      "Anderson A",
+      "Konopelski P",
+      "Skorzewska K"
     ],
     "pubtypes": [
       "Journal Article",
       "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42756864/",
-    "id": "pmid:42756864",
-    "abstract": "While mainstream therapies for androgenetic alopecia (AGA), including pharmacological treatments, mesotherapy, low-level light therapy, and hair transplantation, often fall short of clinical needs due to limited efficacy, side effects, or invasiveness, regenerative medicine based on stem cells shows promise yet faces challenges related to immunogenicity, standardization, and safety. Against this backdrop, extracellular vesicles (EVs)-nanoscale signaling vesicles enclosed by a lipid bilayer-have rapidly emerged as an innovative \"cell-free\" therapeutic paradigm. By delivering bioactive \"cargo\" such as proteins, lipids, and nucleic acids, EVs mimic the therapeutic functions of their parent cells and precisely regulate recipient cells. This approach combines high biosafety, low immunogenicity, and good stability while avoiding the risks associated with live-cell therapies. Distinct from previous reviews largely centered on mesenchymal stem cell-derived EVs, this review offers a broader synthesis that encompasses emerging sources including somatic cells, blood components, plants, and milk, with comparative mechanistic and translational analyses. In this narrative review, we comprehensively synthesize the current evidence from preclinical and preliminary clinical studies identified through a literature search across major databases (PubMed, Web of Science, and Cochrane Library), covering diverse EV sources, isolation methods, engineering strategies, and administration routes. We identify that the therapeutic actions converge on several major mechanistic themes, including synergistic activation of the Wnt/β-catenin pathway, suppression of the TGF-β/SMAD and androgen signaling, and restoration of the perifollicular niche through anti-oxidative, anti-inflammatory, and pro-angiogenic effects. Nevertheless, we critically highlight the key translational limitations,-noting that the field remains predominantly preclinical with only limited early-phase clinical data-including the absence of standardized manufacturing protocols, inconsistency in dosing and administration regimens, and the urgent need for rigorous large-scale clinical trials to confirm long‑term safety and efficacy. Looking ahead, through interdisciplinary collaboration to advance manufacturing processes, conduct rigorous clinical trials, and develop engineered strategies for enhanced efficacy, EVs are poised to become an efficient, minimally invasive, and accessible emerging therapeutic option within the AGA treatment landscape.",
-    "pmcid": "PMC13584953"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42755697/",
+    "id": "pmid:42755697",
+    "abstract": "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women. Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age. This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism. Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA. This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women. In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA. Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease."
   },
   "script": {
     "hook": "남성형 탈모 오늘 나온 최신 연구를 정리했습니다",
     "hook_accent": "남성형 탈모",
     "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《International journal of nanomedicine》 - Extracellular Vesicles for Androgenetic Alopecia: Current Evidence, Mechanisms, and Clinical Prospects",
+    "intro": "《Climacteric : the journal of the International Menopause Society》 - The role of hormones in female androgenetic alopecia: focus on menopause",
     "highlights": [
-      "While mainstream therapies for androgenetic alopecia (AGA), including pharmacological treatments, mesotherapy, low-level light therapy, and hair transplantation, often fall short of clinical needs due to limited efficacy, side effects, or invasiveness, regenerative medicine based on stem cells shows promise yet faces challenges related to immunogenicity, standardization, and safety.",
-      "Against this backdrop, extracellular vesicles (EVs)-nanoscale signaling vesicles enclosed by a lipid bilayer-have rapidly emerged as an innovative \"cell-free\" therapeutic paradigm.",
-      "By delivering bioactive \"cargo\" such as proteins, lipids, and nucleic acids, EVs mimic the therapeutic functions of their parent cells and precisely regulate recipient cells."
+      "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.",
+      "Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.",
+      "This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Introduction",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Epidemiological data indicate its prevalence increases markedly with age, affecting up to 50% of women and 80% of men, and exerting a profound negative impact on patients’ psychosocial well-being and quality of life.1–3 The core pathophysiological mechanism involves an abnormal sensitivity of hair follicles to dihydrotestosterone (DHT), leading to excessive activation of androgen receptor signaling, dysfunction of dermal papilla cells, and disruption of the hair follicle cycle.",
-          "Regenerative medicine strategies based on tissue engineering and stem cell transplantation have brought new hope for AGA treatment, demonstrating the potential to reconstruct the hair follicle niche through cellular therapies.8,9 However, stem cell therapies face their own bottlenecks—such as immune rejection, tumorigenicity risks, survival uncertainty, and difficulties in standardized preparation—which hinder their clinical translation.10 Synthetic nanomedicine strategies, in addition to stem cell therapy, have also been explored as potential interventions for AGA, aiming to enhance the transdermal delivery efficiency and follicular targeting of drugs such as minoxidil through carrier systems like liposomes, solid lipid nanoparticles, nanostructured lipid carriers, and polymeric nanoparticles.11 However, the application of these synthetic nanocarrier systems in dermatology is limited by poor skin barrier penetration efficiency, questionable biocompatibility, and a lack of long-term safety data, resulting in slow clinical translation progress.12–14 These shared challenges in synthetic nanomedicine and regenerative medicine underscore the urgent need to develop novel nanoplatforms that combine inherent targeting capabilities with the potential for standardization.",
-          "They precisely regulate recipient cell functions, thereby mimicking the therapeutic effects of their parent cells while circumventing the risks associated with live-cell therapies.16,17 Compared to other emerging biological products such as platelet-rich plasma (PRP)—which is limited by compositional complexity, donor variability, and lack of standardized protocols, with multiple randomized controlled trials failing to replicate early positive findings18–20—and stem cell-conditioned media, whose active components are unstable, have short half-lives, and are prone to degradation,21 EVs, encapsulating their cargo within a lipid bilayer, exhibit superior stability and lower immunogenicity.22 Preliminary studies have confirmed the encouraging potential of EVs from various sources in promoting hair growth.23,24 A recent pilot study also showed that plasma- and sonophoresis-assisted topical delivery of exosomes improved hair density and diameter in 25 AGA patients with a favorable safety profile.25 The relevance of EVs to AGA has never been more timely: recent breakthroughs in scalable isolation, engineered cargo loading, and targeted delivery have substantially advanced their translational feasibility, while the persistent shortcomings of current pharmacological and cell-based therapies have created an urgent demand for safer, more standardized off-the-shelf alternatives."
+          "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.",
+          "Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age."
         ]
       },
       {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
         "sentences": [
-          "Table 3Summary of Clinical Study Characteristics and Outcomes for EVs in AGAAuthorYearCountryParticipants, nInclusion CriteriaStudy DesignSourceCargoesAdministration RouteCombined TherapyDurationMain Study FindingsWan et al392025Korea16Men aged 36–45 years, diagnosed with mild to moderate AGA (Norwood-Hamilton stages III–V), with stable AGA and no prior treatments in the past 6 months.Prospective, open-label studyADSCsNaïve EVsTopical application after microneedlingMicroneedling12 monthsHair density increased by 35 hairs/cm2 at 12 months; 80% of participants reported noticeable improvement, 87% were satisfied or very satisfiedPark et al582022Korea39 (27 men, 12 women)Male: Hamilton‑Norwood type IIIa–V; Female: Ludwig type I–II; No hair growth products/drugs used within 6 months prior to therapyRetrospective studyADSCsNaïve EVsTopical application with microneedle rollerMicroneedle roller12 weeksHair density increased from 121.7 ± 37.2 to 146.6 ± 39.5 hairs/cm2; hair thickness increased from 52.6 ± 10.4 to 61.4 ± 10.7 μm.",
-          "No major side effects; EVs were confirmed in micrografts and shown to interact with cells in vitro.Chen et al372026China22 (10 men, 12 women)Aged 18–50 years; clinically diagnosed with AGA per Chinese guidelines (2019); no hair growth products/drugs or laser therapy within 6 months prior; no significant comorbiditiesSingle-arm, assessor-blinded exploratory clinical trialhUC-MSCsNaïve EVsTopical application after microneedlingMicroneedling3 monthsHair density increased by 20.69±4.25 hairs/cm2; mean hair diameter increased by 7.32±1.42 μm; terminal hair rate increased by 7.85±2.58%; vellus hair rate decreased by 13.77±2.88%; 72.21% (15/22) showed visible improvement on 7-point scale; no severe adverse events reported.Sasaki et al222022USA31 (22 females, 9 males)Age 18–80, MPHL Norwood‑Hamilton III–IV, FPHL Ludwig I‑III, with or without previous medical/surgical treatments, in remission or worsening.Retrospective, open‑label, non‑blinded, non‑randomized studyBMSCNaïve EVsIntradermal scalp injectionMicroneedling (2.5 mm) and/or low‑level light therapy (LLLT) in some patients6 months54.5% of females and 88.9% of males showed hair growth; 36.4% of females and 11.1% of males remained stable Trichoscans showed increased hair density, terminal hair density, vellus hair density, and follicle diameter in responders.Amini et al612025Malaysia20 (Male)Men aged 20–50 years, diagnosed with Norwood grade 2–3 AGA, no thyroid disorders, bleeding disorders, diabetes, and not using other hair loss treatments.RCTNAExosomes combined with Ecklonia cava and Thuja orientalis plant extractsIntradermal scalp injectionNone16 weeksThe treatment group showed a statistically significant increase in hair count from baseline, while the placebo group showed no significant change.",
-          "Self-perceived satisfaction scores were also significantly higher in the ECPE group.Sydorchuk et al252026Korea25 (16 men, 9 women)Aged 25–55 years; clinically diagnosed AGA; men Hamilton-Norwood II–V; women Sinclair grades 2–4; no new hair treatments within 3 months.Prospective, single-arm pilot studyNot specifiedUnknownTopical application after plasma + sonophoresis-assisted deliveryPlasma + sonophoresis12 weeksHair density increased from 165.3±32.5 to 182.5±29.8 hairs/cm2 (+17.2, p<0.01); diameter increased from 48.7±6.2 to 52.1±5.8 μm; T/V ratio improved from 2.1±0.5 to 2.6±0.6; 72% showed ≥slight improvement on blinded photographic assessment; 68% satisfied; mild transient erythema in 12%; no serious AEs.Olisova et al622026Russia53 male (Norwood-Hamilton III–IV) and 2 female (Ludwig I–II) AGA; mean age 26 y; no minoxidil/5α-reductase inhibitors in past 6 mo; no fish allergy; no autoimmune/scarring/malignancy/pregnancy/immunosuppressionExploratory pilot prospective studySalmon-derived exosomesEndogenous growth factors, cytokines, and miRNAsTopical application after microneedlingMicroneedling (dermapen)12 weeks (4 biweekly sessions)Vellus hairs reduced (40.4%→3.4%); anagen increased (64.0%→89.2%); Ki-67+ increased (follicle 10–15%→60–80%); CD31+ microvessel density increased (10–15→20–25 vessels/×200); no adverse eventsLueangarun et al632024Thailand1 (54-year-old male)Healthy male with Hamilton–Norwood stage V AGA, no prior treatments, no inflammation or scarring.Case reportRose stem cellsExosomes containing microRNAs (eg, Let-7 family, miR-8485, miR-574-5p, miR-1246) and 206 identified proteinsTopical applicationNoninvasive electroporation12 sessions, every 3 weeksVisible improvement in hair density and thickness after 3 sessions; sustained regrowth observed through 12 sessions and 3 months post-treatment."
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "Biological Characteristics and Preparation of EVs",
-        "kind": "other",
-        "sentences": [
-          "Their ability to regulate recipient cell function by delivering bioactive “cargo” has garnered significant attention in the field of regenerative medicine.68,69 Based on their biogenesis pathways and physical size, EVs are primarily classified into three categories: exosomes (approximately 30–150 nm in diameter), which originate from the endocytic pathway and are released upon fusion of multivesicular bodies with the plasma membrane; microvesicles (approximately 100–1000 nm), which are generated by direct outward budding of the plasma membrane; and apoptotic bodies, produced during the process of apoptosis.70,71 The formation mechanism of exosomes is relatively well-defined, involving the inward budding of the limiting membrane to form intraluminal vesicles, the maturation of multivesicular bodies, and the process of exocytosis.",
-          "For example, applying mechanical stress (eg, fluid shear stress, stretching),86,87 altering culture conditions (eg, hypoxia, three-dimensional culture),88 or using biochemical stimuli (eg, cytokines, lipopolysaccharides)89,90 can significantly influence EV secretion rates and alter the abundance of their cargo (such as specific miRNAs or proteins), thereby directionally enhancing their efficacy in promoting angiogenesis, anti-inflammation, or tissue repair.91,92 This strategy of producing functionally enhanced, “customized” EVs by modulating cell states provides an important pathway for obtaining high-quality therapeutic EVs."
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "EVs from Mesenchymal Stem Cells (MSCs)",
-        "kind": "other",
-        "sentences": [
-          "Its long-term safety, optimal dosage and regimen, and full elucidation of mechanisms need to be established through large-scale randomized controlled trials.97,98 In the future, combining gene-editing technologies to optimize EV cargo loading or integrating them with existing therapies like lasers or drugs holds promise for further efficacy enhancement.99,100 To date, the first randomized, double-blind, placebo-controlled trial evaluating ADSC-exosomes combined with microneedling for AGA has been reported by Luna-Garza et al.59 In this study, 48 AGA patients were randomized to receive four sessions of microneedling plus topical ADSC-exosomes or microneedling plus saline placebo.59 At 12-week follow-up, the exosome group showed no statistically significant improvements over microneedling alone in any trichoscopic parameter, including hair density, total hair count, shaft thickness, or vellus-to-terminal ratio (all p > 0.05).59 Both groups achieved significant DLQI improvements, and no serious adverse events were reported.59 The authors noted that the negative result may reflect the short follow-up, single-donor exosome preparation, suboptimal dosing, or patient heterogeneity, emphasizing the need for larger studies with standardized exosome potency assays and longer observation periods.59 This rigorous trial provides a critical counterbalance to earlier positive reports and underscores the necessity of sham-controlled designs to distinguish true therapeutic effects from the confounding impact of microneedling.59 In summary, ADSC-EVs counteract the core pathology of AGA through multi-pathway synergy and are steadily advancing toward clinical practicality aided by engineering strategies, representing a highly promising direction in the field of AGA treatment."
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "EVs Derived from Somatic Cells and Blood Components",
-        "kind": "other",
-        "sentences": [
-          "This platform is based on genetically engineering HEK-293 cells to stably co-express and secrete exosomes enriched with three key hair growth-promoting factors: WNT10B, VEGFA, and FGF7.45 This design co-delivers pleiotropic signals within a single nanocarrier: WNT10B activates DPC and stem cell proliferation;130 VEGFA potently promotes perifollicular angiogenesis, improving nutrient supply;131 and FGF7 helps enlarge hair follicle size and maintain the anagen phase.132 This multi-factor strategy concurrently targets DPC dysfunction, microvascular atrophy, and keratinocyte apoptosis.133–135 In preclinical models, EX104 reversed DHT-induced miniaturization in human DPCs and downregulated key negative regulators including AR, DKK1, and IL-6.45 In DHT-induced AGA mice, topical EX104 achieved hair regeneration comparable to minoxidil, with additional advantages in stimulating perifollicular angiogenesis and follicle cell proliferation.45 Mechanistically, it activates β-catenin signaling while inhibiting local inflammation and apoptosis.45 This multimodal effect enables EX104 to achieve “reprogramming” of the pathological hair follicle microenvironment."
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "Plant-Derived Exosome-Like Nanoparticles",
-        "kind": "other",
-        "sentences": [
-          "Ginger-derived exosome-like nanoparticles (GELNs) have recently emerged as a promising plant-based platform for AGA treatment, offering dual functionality as both active therapeutic agents and efficient drug delivery vehicles.55 GELNs, with sizes of 30–150 nm, possess intrinsic anti-inflammatory, antioxidant, and bio-regulatory properties while exhibiting low immunogenicity and high delivery efficiency.186,187 To overcome the limitations of poor solubility and systemic adverse effects associated with oral finasteride—researchers developed a finasteride-loaded GELN system integrated into a thermosensitive poloxamer gel (FIN@GELNs-Gel) for enhanced transdermal delivery.55 The poloxamer-based gel exhibits sol‑gel transition at body temperature, facilitating drug loading at low temperature and sustained release upon topical application.188,189 In vitro, FIN@GELNs-Gel promoted cell migration and angiogenesis, suggesting improved perifollicular microenvironment remodeling.55 In an AGA mouse model, the formulation significantly reduced DHT levels in both skin and serum, upregulated VEGF and Ki67 expression, and effectively accelerated telogen‑to‑anagen transition.55 Importantly, FIN@GELNs-Gel demonstrated superior hair regeneration efficacy compared to oral finasteride, with reduced dosing frequency and minimized systemic toxicity risk.55 Although industrial scale‑up and drug loading capacity require further optimization, this integrated nanovesicle‑hydrogel platform offers a safe, effective, and patient‑friendly topical therapeutic strategy for AGA, with promising implications for improving treatment adherence and clinical translation.55"
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "Milk-Derived EVs",
-        "kind": "other",
-        "sentences": [
-          "The therapeutic value of mEVs is first reflected in their naturally carried bioactive “cargo”, with researchers demonstrating that exosomes isolated directly from bovine colostrum (Milk-exo) can effectively promote the proliferation of human DPCs and antagonize DHT-induced hair follicle growth arrest in vivo.56 In animal models, their efficacy in inducing hair growth was comparable to the first-line clinical drug minoxidil, with no significant adverse reactions reported.56 Mechanistically, Milk-exo drives telogen-to-anagen transition by activating the Wnt/β-catenin pathway, an effect attributed not to a single component (eg, lactoferrin) but to a “multifunctional active molecular complex” comprising over 1000 growth factors, cytokines, and miRNAs.198,199"
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "Challenges in the Clinical Translation of EVs",
-        "kind": "other",
-        "sentences": [
-          "Some studies exhibit shortcomings in the transparency of isolation methods, the exclusion of contaminants (eg, Calnexin), and multi-technique characterization, which weakens data reliability and cross-study comparability.23,206 This “fragmented” state is particularly pronounced in clinical research, manifesting as extreme inconsistency in key treatment parameters: the dose reporting of EVs (particle number vs protein mass) and the numerical range vary enormously (109 to 1011 particles/mL), and there is a lack of consensus on the route of administration (topical, injection, microneedling), frequency, and treatment duration (4 to 26 weeks).23,207 Furthermore, most studies are limited by small sample sizes, short follow-up periods (often ≤12 weeks), and homogeneous subject populations, severely restricting the evaluation of efficacy generalizability and long-term safety.29 A notable concern in the current literature is the lack of systematic reporting on neutral or negative outcomes, which may reflect publication bias rather than definitive evidence of efficacy."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Critical Comparison of EV Sources and Future Perspective",
-        "kind": "conclusion",
-        "sentences": [
-          "EVs, as an innovative “cell-free” therapeutic paradigm, represent a promising but still investigational approach in the treatment of AGA.",
-          "HEK-293/293T-derived engineered exosomes enable off-the-shelf production of rationally designed biologics; however, immunogenicity and long-term safety require rigorous investigation.",
-          "Ultimately, over the next 5–10 years, the convergence of these priorities—with regulatory clarity and high-quality clinical evidence at the core—will be essential for translating EV-based therapies into routine practice."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion",
-        "kind": "conclusion",
-        "sentences": [
-          "EVs represent a promising but still investigational cell-free therapeutic paradigm for AGA, capable of delivering complex bioactive cargo that synergistically activates Wnt/β-catenin, suppresses TGF-β/SMAD signaling, and restores the perifollicular microenvironment."
+          "This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.",
+          "Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA.",
+          "This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women.",
+          "In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA.",
+          "Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Extracellular Vesicles for Androgenetic Alopecia: Current Evidence, Mechanisms, and Clinical Prospects\n저널: International journal of nanomedicine\n저자: Tang WZ, Liao CY, Xu HY 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42756864/\n\n[한눈에 보기]\n- While mainstream therapies for androgenetic alopecia (AGA), including pharmacological treatments, mesotherapy, low-level light therapy, and hair transplantation, often fall short of clinical needs due to limited efficacy, side effects, or invasiveness, regenerative medicine based on stem cells shows promise yet faces challenges related to immunogenicity, standardization, and safety.\n- Against this backdrop, extracellular vesicles (EVs)-nanoscale signaling vesicles enclosed by a lipid bilayer-have rapidly emerged as an innovative \"cell-free\" therapeutic paradigm.\n- By delivering bioactive \"cargo\" such as proteins, lipids, and nucleic acids, EVs mimic the therapeutic functions of their parent cells and precisely regulate recipient cells.\n\n[상세 내용] (논문 전문 10개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Epidemiological data indicate its prevalence increases markedly with age, affecting up to 50% of women and 80% of men, and exerting a profound negative impact on patients’ psychosocial well-being and quality of life.1–3 The core pathophysiological mechanism involves an abnormal sensitivity of hair follicles to dihydrotestosterone (DHT), leading to excessive activation of androgen receptor signaling, dysfunction of dermal papilla cells, and disruption of the hair follicle cycle.\n  · Regenerative medicine strategies based on tissue engineering and stem cell transplantation have brought new hope for AGA treatment, demonstrating the potential to reconstruct the hair follicle niche through cellular therapies.8,9 However, stem cell therapies face their own bottlenecks—such as immune rejection, tumorigenicity risks, survival uncertainty, and difficulties in standardized preparation—which hinder their clinical translation.10 Synthetic nanomedicine strategies, in addition to stem cell therapy, have also been explored as potential interventions for AGA, aiming to enhance the transdermal delivery efficiency and follicular targeting of drugs such as minoxidil through carrier systems like liposomes, solid lipid nanoparticles, nanostructured lipid carriers, and polymeric nanoparticles.11 However, the application of these synthetic nanocarrier systems in dermatology is limited by poor skin barrier penetration efficiency, questionable biocompatibility, and a lack of long-term safety data, resulting in slow clinical translation progress.12–14 These shared challenges in synthetic nanomedicine and regenerative medicine underscore the urgent need to develop novel nanoplatforms that combine inherent targeting capabilities with the potential for standardization.\n  · They precisely regulate recipient cell functions, thereby mimicking the therapeutic effects of their parent cells while circumventing the risks associated with live-cell therapies.16,17 Compared to other emerging biological products such as platelet-rich plasma (PRP)—which is limited by compositional complexity, donor variability, and lack of standardized protocols, with multiple randomized controlled trials failing to replicate early positive findings18–20—and stem cell-conditioned media, whose active components are unstable, have short half-lives, and are prone to degradation,21 EVs, encapsulating their cargo within a lipid bilayer, exhibit superior stability and lower immunogenicity.22 Preliminary studies have confirmed the encouraging potential of EVs from various sources in promoting hair growth.23,24 A recent pilot study also showed that plasma- and sonophoresis-assisted topical delivery of exosomes improved hair density and diameter in 25 AGA patients with a favorable safety profile.25 The relevance of EVs to AGA has never been more timely: recent breakthroughs in scalable isolation, engineered cargo loading, and targeted delivery have substantially advanced their translational feasibility, while the persistent shortcomings of current pharmacological and cell-based therapies have created an urgent demand for safer, more standardized off-the-shelf alternatives.\n\n◆ 연구 방법 — Methods\n  · Table 3Summary of Clinical Study Characteristics and Outcomes for EVs in AGAAuthorYearCountryParticipants, nInclusion CriteriaStudy DesignSourceCargoesAdministration RouteCombined TherapyDurationMain Study FindingsWan et al392025Korea16Men aged 36–45 years, diagnosed with mild to moderate AGA (Norwood-Hamilton stages III–V), with stable AGA and no prior treatments in the past 6 months.Prospective, open-label studyADSCsNaïve EVsTopical application after microneedlingMicroneedling12 monthsHair density increased by 35 hairs/cm2 at 12 months; 80% of participants reported noticeable improvement, 87% were satisfied or very satisfiedPark et al582022Korea39 (27 men, 12 women)Male: Hamilton‑Norwood type IIIa–V; Female: Ludwig type I–II; No hair growth products/drugs used within 6 months prior to therapyRetrospective studyADSCsNaïve EVsTopical application with microneedle rollerMicroneedle roller12 weeksHair density increased from 121.7 ± 37.2 to 146.6 ± 39.5 hairs/cm2; hair thickness increased from 52.6 ± 10.4 to 61.4 ± 10.7 μm.\n  · No major side effects; EVs were confirmed in micrografts and shown to interact with cells in vitro.Chen et al372026China22 (10 men, 12 women)Aged 18–50 years; clinically diagnosed with AGA per Chinese guidelines (2019); no hair growth products/drugs or laser therapy within 6 months prior; no significant comorbiditiesSingle-arm, assessor-blinded exploratory clinical trialhUC-MSCsNaïve EVsTopical application after microneedlingMicroneedling3 monthsHair density increased by 20.69±4.25 hairs/cm2; mean hair diameter increased by 7.32±1.42 μm; terminal hair rate increased by 7.85±2.58%; vellus hair rate decreased by 13.77±2.88%; 72.21% (15/22) showed visible improvement on 7-point scale; no severe adverse events reported.Sasaki et al222022USA31 (22 females, 9 males)Age 18–80, MPHL Norwood‑Hamilton III–IV, FPHL Ludwig I‑III, with or without previous medical/surgical treatments, in remission or worsening.Retrospective, open‑label, non‑blinded, non‑randomized studyBMSCNaïve EVsIntradermal scalp injectionMicroneedling (2.5 mm) and/or low‑level light therapy (LLLT) in some patients6 months54.5% of females and 88.9% of males showed hair growth; 36.4% of females and 11.1% of males remained stable Trichoscans showed increased hair density, terminal hair density, vellus hair density, and follicle diameter in responders.Amini et al612025Malaysia20 (Male)Men aged 20–50 years, diagnosed with Norwood grade 2–3 AGA, no thyroid disorders, bleeding disorders, diabetes, and not using other hair loss treatments.RCTNAExosomes combined with Ecklonia cava and Thuja orientalis plant extractsIntradermal scalp injectionNone16 weeksThe treatment group showed a statistically significant increase in hair count from baseline, while the placebo group showed no significant change.\n  · Self-perceived satisfaction scores were also significantly higher in the ECPE group.Sydorchuk et al252026Korea25 (16 men, 9 women)Aged 25–55 years; clinically diagnosed AGA; men Hamilton-Norwood II–V; women Sinclair grades 2–4; no new hair treatments within 3 months.Prospective, single-arm pilot studyNot specifiedUnknownTopical application after plasma + sonophoresis-assisted deliveryPlasma + sonophoresis12 weeksHair density increased from 165.3±32.5 to 182.5±29.8 hairs/cm2 (+17.2, p<0.01); diameter increased from 48.7±6.2 to 52.1±5.8 μm; T/V ratio improved from 2.1±0.5 to 2.6±0.6; 72% showed ≥slight improvement on blinded photographic assessment; 68% satisfied; mild transient erythema in 12%; no serious AEs.Olisova et al622026Russia53 male (Norwood-Hamilton III–IV) and 2 female (Ludwig I–II) AGA; mean age 26 y; no minoxidil/5α-reductase inhibitors in past 6 mo; no fish allergy; no autoimmune/scarring/malignancy/pregnancy/immunosuppressionExploratory pilot prospective studySalmon-derived exosomesEndogenous growth factors, cytokines, and miRNAsTopical application after microneedlingMicroneedling (dermapen)12 weeks (4 biweekly sessions)Vellus hairs reduced (40.4%→3.4%); anagen increased (64.0%→89.2%); Ki-67+ increased (follicle 10–15%→60–80%); CD31+ microvessel density increased (10–15→20–25 vessels/×200); no adverse eventsLueangarun et al632024Thailand1 (54-year-old male)Healthy male with Hamilton–Norwood stage V AGA, no prior treatments, no inflammation or scarring.Case reportRose stem cellsExosomes containing microRNAs (eg, Let-7 family, miR-8485, miR-574-5p, miR-1246) and 206 identified proteinsTopical applicationNoninvasive electroporation12 sessions, every 3 weeksVisible improvement in hair density and thickness after 3 sessions; sustained regrowth observed through 12 sessions and 3 months post-treatment.\n\n◆ 그 밖의 내용 — Biological Characteristics and Preparation of EVs\n  · Their ability to regulate recipient cell function by delivering bioactive “cargo” has garnered significant attention in the field of regenerative medicine.68,69 Based on their biogenesis pathways and physical size, EVs are primarily classified into three categories: exosomes (approximately 30–150 nm in diameter), which originate from the endocytic pathway and are released upon fusion of multivesicular bodies with the plasma membrane; microvesicles (approximately 100–1000 nm), which are generated by direct outward budding of the plasma membrane; and apoptotic bodies, produced during the process of apoptosis.70,71 The formation mechanism of exosomes is relatively well-defined, involving the inward budding of the limiting membrane to form intraluminal vesicles, the maturation of multivesicular bodies, and the process of exocytosis.\n  · For example, applying mechanical stress (eg, fluid shear stress, stretching),86,87 altering culture conditions (eg, hypoxia, three-dimensional culture),88 or using biochemical stimuli (eg, cytokines, lipopolysaccharides)89,90 can significantly influence EV secretion rates and alter the abundance of their cargo (such as specific miRNAs or proteins), thereby directionally enhancing their efficacy in promoting angiogenesis, anti-inflammation, or tissue repair.91,92 This strategy of producing functionally enhanced, “customized” EVs by modulating cell states provides an important pathway for obtaining high-quality therapeutic EVs.\n\n◆ 그 밖의 내용 — EVs from Mesenchymal Stem Cells (MSCs)\n  · Its long-term safety, optimal dosage and regimen, and full elucidation of mechanisms need to be established through large-scale randomized controlled trials.97,98 In the future, combining gene-editing technologies to optimize EV cargo loading or integrating them with existing therapies like lasers or drugs holds promise for further efficacy enhancement.99,100 To date, the first randomized, double-blind, placebo-controlled trial evaluating ADSC-exosomes combined with microneedling for AGA has been reported by Luna-Garza et al.59 In this study, 48 AGA patients were randomized to receive four sessions of microneedling plus topical ADSC-exosomes or microneedling plus saline placebo.59 At 12-week follow-up, the exosome group showed no statistically significant improvements over microneedling alone in any trichoscopic parameter, including hair density, total hair count, shaft thickness, or vellus-to-terminal ratio (all p > 0.05).59 Both groups achieved significant DLQI improvements, and no serious adverse events were reported.59 The authors noted that the negative result may reflect the short follow-up, single-donor exosome preparation, suboptimal dosing, or patient heterogeneity, emphasizing the need for larger studies with standardized exosome potency assays and longer observation periods.59 This rigorous trial provides a critical counterbalance to earlier positive reports and underscores the necessity of sham-controlled designs to distinguish true therapeutic effects from the confounding impact of microneedling.59 In summary, ADSC-EVs counteract the core pathology of AGA through multi-pathway synergy and are steadily advancing toward clinical practicality aided by engineering strategies, representing a highly promising direction in the field of AGA treatment.\n\n◆ 그 밖의 내용 — EVs Derived from Somatic Cells and Blood Components\n  · This platform is based on genetically engineering HEK-293 cells to stably co-express and secrete exosomes enriched with three key hair growth-promoting factors: WNT10B, VEGFA, and FGF7.45 This design co-delivers pleiotropic signals within a single nanocarrier: WNT10B activates DPC and stem cell proliferation;130 VEGFA potently promotes perifollicular angiogenesis, improving nutrient supply;131 and FGF7 helps enlarge hair follicle size and maintain the anagen phase.132 This multi-factor strategy concurrently targets DPC dysfunction, microvascular atrophy, and keratinocyte apoptosis.133–135 In preclinical models, EX104 reversed DHT-induced miniaturization in human DPCs and downregulated key negative regulators including AR, DKK1, and IL-6.45 In DHT-induced AGA mice, topical EX104 achieved hair regeneration comparable to minoxidil, with additional advantages in stimulating perifollicular angiogenesis and follicle cell proliferation.45 Mechanistically, it activates β-catenin signaling while inhibiting local inflammation and apoptosis.45 This multimodal effect enables EX104 to achieve “reprogramming” of the pathological hair follicle microenvironment.\n\n◆ 그 밖의 내용 — Plant-Derived Exosome-Like Nanoparticles\n  · Ginger-derived exosome-like nanoparticles (GELNs) have recently emerged as a promising plant-based platform for AGA treatment, offering dual functionality as both active therapeutic agents and efficient drug delivery vehicles.55 GELNs, with sizes of 30–150 nm, possess intrinsic anti-inflammatory, antioxidant, and bio-regulatory properties while exhibiting low immunogenicity and high delivery efficiency.186,187 To overcome the limitations of poor solubility and systemic adverse effects associated with oral finasteride—researchers developed a finasteride-loaded GELN system integrated into a thermosensitive poloxamer gel (FIN@GELNs-Gel) for enhanced transdermal delivery.55 The poloxamer-based gel exhibits sol‑gel transition at body temperature, facilitating drug loading at low temperature and sustained release upon topical application.188,189 In vitro, FIN@GELNs-Gel promoted cell migration and angiogenesis, suggesting improved perifollicular microenvironment remodeling.55 In an AGA mouse model, the formulation significantly reduced DHT levels in both skin and serum, upregulated VEGF and Ki67 expression, and effectively accelerated telogen‑to‑anagen transition.55 Importantly, FIN@GELNs-Gel demonstrated superior hair regeneration efficacy compared to oral finasteride, with reduced dosing frequency and minimized systemic toxicity risk.55 Although industrial scale‑up and drug loading capacity require further optimization, this integrated nanovesicle‑hydrogel platform offers a safe, effective, and patient‑friendly topical therapeutic strategy for AGA, with promising implications for improving treatment adherence and clinical translation.55\n\n◆ 그 밖의 내용 — Milk-Derived EVs\n  · The therapeutic value of mEVs is first reflected in their naturally carried bioactive “cargo”, with researchers demonstrating that exosomes isolated directly from bovine colostrum (Milk-exo) can effectively promote the proliferation of human DPCs and antagonize DHT-induced hair follicle growth arrest in vivo.56 In animal models, their efficacy in inducing hair growth was comparable to the first-line clinical drug minoxidil, with no significant adverse reactions reported.56 Mechanistically, Milk-exo drives telogen-to-anagen transition by activating the Wnt/β-catenin pathway, an effect attributed not to a single component (eg, lactoferrin) but to a “multifunctional active molecular complex” comprising over 1000 growth factors, cytokines, and miRNAs.198,199\n\n◆ 그 밖의 내용 — Challenges in the Clinical Translation of EVs\n  · Some studies exhibit shortcomings in the transparency of isolation methods, the exclusion of contaminants (eg, Calnexin), and multi-technique characterization, which weakens data reliability and cross-study comparability.23,206 This “fragmented” state is particularly pronounced in clinical research, manifesting as extreme inconsistency in key treatment parameters: the dose reporting of EVs (particle number vs protein mass) and the numerical range vary enormously (109 to 1011 particles/mL), and there is a lack of consensus on the route of administration (topical, injection, microneedling), frequency, and treatment duration (4 to 26 weeks).23,207 Furthermore, most studies are limited by small sample sizes, short follow-up periods (often ≤12 weeks), and homogeneous subject populations, severely restricting the evaluation of efficacy generalizability and long-term safety.29 A notable concern in the current literature is the lack of systematic reporting on neutral or negative outcomes, which may reflect publication bias rather than definitive evidence of efficacy.\n\n◆ 결론 — Critical Comparison of EV Sources and Future Perspective\n  · EVs, as an innovative “cell-free” therapeutic paradigm, represent a promising but still investigational approach in the treatment of AGA.\n  · HEK-293/293T-derived engineered exosomes enable off-the-shelf production of rationally designed biologics; however, immunogenicity and long-term safety require rigorous investigation.\n  · Ultimately, over the next 5–10 years, the convergence of these priorities—with regulatory clarity and high-quality clinical evidence at the core—will be essential for translating EV-based therapies into routine practice.\n\n◆ 결론 — Conclusion\n  · EVs represent a promising but still investigational cell-free therapeutic paradigm for AGA, capable of delivering complex bioactive cargo that synergistically activates Wnt/β-catenin, suppresses TGF-β/SMAD signaling, and restores the perifollicular microenvironment.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42756864/",
-    "reference_title": "Extracellular Vesicles for Androgenetic Alopecia: Current Evidence, Mechanisms, and Clinical Prospects",
+    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: The role of hormones in female androgenetic alopecia: focus on menopause\n저널: Climacteric : the journal of the International Menopause Society\n저자: Anderson A, Konopelski P, Skorzewska K 외\n발행: 2026 Sep 18\n원문: https://pubmed.ncbi.nlm.nih.gov/42755697/\n\n[한눈에 보기]\n- Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.\n- Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.\n- This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.\n  · Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.\n\n◆ 주요 결과 — Results (자동 구분)\n  · This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.\n  · Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA.\n  · This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women.\n  · In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA.\n  · Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42755697/",
+    "reference_title": "The role of hormones in female androgenetic alopecia: focus on menopause",
     "reference_type": "paper"
   },
   "assets": {
@@ -135,123 +68,15 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "Summary of Preclinical Study Characteristics and Outcomes for MSCs Derived EVs in AGA",
-        "rows": [
-          [
-            "Author",
-            "Year",
-            "Country",
-            "EVs Source",
-            "Isolation Methods",
-            "Modification",
-            "Cargoes",
-            "Outcome (in vitro or ex vivo)",
-            "In vivo (Delivery Route)",
-            "Outcome (In vivo)"
-          ],
-          [
-            "Liang et al30",
-            "2023",
-            "China",
-            "ADSCs",
-            "Gradient ultracentrifugation",
-            "Lentivirus-mediated engineering of ADSCs to stably overexpress miR-122-5p or a miR-122-5p inhibitor, yielding modified exosomes (Exo-miR-122-5p/Exo-in-miR-122-5p).",
-            "miR-122-5p",
-            "Promoted DPC proliferation/migration and hair-growth markers; Antagonized DHT-induced inhibition and TGF-β1/SMAD3 pathway; Luciferase assay confirmed miR-122-5p directly targets SMAD3.",
-            "C57BL/6 Mice, (S.C)",
-            "Promoted hair regeneration and coverage in DHT-induced model; Restored hair bulb size and dermal thickness; Upregulated β-catenin and downregulated SMAD3; Effects were miR-122-5p dependent."
-          ],
-          [
-            "Tang et al31",
-            "2023",
-            "China",
-            "ADSCs",
-            "Ultracentrifugation",
-            "Naïve EVs",
-            "Unknown",
-            "Promoted DPC proliferation/migration and hair inductivity; Enhanced human hair follicle growth, prolonged anagen, and increased Ki-67+ cells; Antagonized DHT-induced inhibition; Activated Wnt/β-catenin pathway (upregulated p-GSK-3β and β-catenin, promoted β-catenin nuclear translocation), effects blocked by inhibitor DKK1",
-            "C57BL/6 Mice, (S.C)",
-            "Promoted hair regeneration in both normal and DHT-induced AGA mice, superior to minoxidil; Increased skin thickness and hair follicle number; Accelerated telogen-to-anagen transition; Partially restored DHT-suppressed β-catenin expression in skin."
-          ],
-          [
-            "Fu et al32",
-            "2025",
-            "China",
-            "ADSCs",
-            "Differential ultracentrifugation",
-            "Naïve EVs",
-            "Unknown",
-            "Promoted proliferation and migration of human hair DPC; Reversed the inhibitory effects of DHT on DPC proliferation; Activated Wnt/β-catenin signaling pathway (upregulated Wnt3a and β-catenin, suppressed GSK-3β).",
-            "C57BL/6 Mice, (Topical microneedle roller administration)",
-            "Promoted hair regeneration, improved hair growth score, and increased the number of hair follicles; Showed comparable efficacy to minoxidil in promoting hair growth and extending anagen phase."
-          ],
-          [
-            "Chu et al33",
-            "2025",
-            "China",
-            "ADSCs",
-            "Ultracentrifugation",
-            "Lentivirus-mediated engineering of ADSCs to overexpress lncRNA AC010789.1, yielding modified exosomes",
-            "m6A-modified lncRNA AC010789.1",
-            "Promoted HFSC proliferation, migration, and DNA synthesis; Upregulated hair follicle markers (K6HF, Lgr5); Activated S100A8/Wnt/β-catenin signaling pathway.",
-            "Hairless mice model, (S.C)",
-            "Promoted hair regeneration and increased hair follicle number; Upregulated S100A8, Wnt10b, β-catenin, and proliferation markers (Ki-67) in skin tissue."
-          ],
-          [
-            "Xiong et al34",
-            "2024",
-            "China",
-            "ADSCs",
-            "Gradient membrane mechanical extrusion combined with ultracentrifugation",
-            "Lentiviral transduction of ADSCs to overexpress JAM-A, yielding engineered nanovesicles",
-            "Overexpressed JAM-A protein",
-            "Promoted proliferation and migration of DPCs; Reduced DHT- and macrophage-induced senescence and apoptosis; Activated autophagy and Wnt/β-catenin signaling pathways (upregulated LC3-II, β-catenin, Cyclin D1; downregulated p62, p-AKT).",
-            "C57BL/6 Mice, (S.C)",
-            "Significantly promoted hair regeneration, increased hair coverage area, and augmented the number and size of hair follicles; Upregulated proliferation marker Ki-67 in hair follicle regions."
-          ],
-          [
-            "Mao et al35",
-            "2024",
-            "China",
-            "UCMSCs",
-            "Ultracentrifugation",
-            "Naïve EVs",
-            "Unknown",
-            "None",
-            "C57BL/6 Mice, (Topical application)",
-            "Promoted hair regrowth, increased hair length and diameter; Increased number of hair follicles and reversed DHT-induced hair follicle miniaturization; Downregulated AR expression; Enhanced stemness of hair follicle stem cells (upregulated K15 and CD200); Activated the RAS/ERK signaling pathway (upregulated Ras, p-Raf, p-MEK1/2, p-ERK1/2, c-Fos)."
-          ],
-          [
-            "Yu et al36",
-            "2025",
-            "China",
-            "UCMSCs",
-            "Ultracentrifugation",
-            "Naïve EVs",
-            "miR-21-5p and let-7b-5p (two highly abundant miRNAs)",
-            "Promotes proliferation and migration of hDPCs; upregulates LEF1, Cyclin D1, and c-MET expression, while suppressing TGF-β1; activates the Wnt/β‑catenin signaling pathway.",
-            "C57BL/6 Mice, (Topical application)",
-            "Promotes hair follicle entry into the anagen phase, increases follicle size, stimulates hair regrowth, and restores hair density to near wild-type levels."
-          ]
-        ]
-      }
-    ],
-    "paper_source": {
-      "pmcid": "PMC13584953",
-      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
-    },
-    "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13584953)에서 직접 캡처해 쓰세요."
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }
