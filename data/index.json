@@ -1,7 +1,20 @@
 {
-  "count": 22,
-  "updated": "2026-09-20",
+  "count": 23,
+  "updated": "2026-09-21",
   "items": [
+    {
+      "date": "2026-09-21",
+      "dir": "2026-09-21",
+      "title": "Automated Quantification of Shedding Hairs from Smartphone Photographs Using an AI Tool for Alopecia Monitoring",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763653/",
+      "hook_accent": "95%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-09-21/paper_card.png",
+      "pptx": "2026-09-21/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-20",
       "dir": "2026-09-20",

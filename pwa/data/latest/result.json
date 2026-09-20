@@ -1,61 +1,95 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "topic": {
     "source_type": "paper",
-    "pmid": "42755697",
-    "title": "The role of hormones in female androgenetic alopecia: focus on menopause",
-    "journal": "Climacteric : the journal of the International Menopause Society",
-    "pub_date": "2026 Sep 18",
+    "pmid": "42763653",
+    "title": "Automated Quantification of Shedding Hairs from Smartphone Photographs Using an AI Tool for Alopecia Monitoring",
+    "journal": "Clinical, cosmetic and investigational dermatology",
+    "pub_date": "2026",
     "authors": [
-      "Anderson A",
-      "Konopelski P",
-      "Skorzewska K"
+      "Zhang S",
+      "Zhang Y",
+      "Li X"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42755697/",
-    "id": "pmid:42755697",
-    "abstract": "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women. Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age. This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism. Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA. This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women. In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA. Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42763653/",
+    "id": "pmid:42763653",
+    "abstract": "Introduction: Objective shed-hair counts can support clinical assessment, longitudinal monitoring, and evaluation of treatment response. Manual counting is time-consuming, whereas visual estimates vary between observers. We developed an artificial intelligence (AI) model to count shedding hairs from ordinary smartphone photographs. Methods: Thirty volunteers acquired 5630 home smartphone photographs of dark shedding hairs on light backgrounds, and paired manual counts served as the reference standard. Images were assigned by participant into training/internal validation (24 volunteers, 4509 images) and independent testing (6 volunteers, 1121 images). A weakly supervised density-regression model was trained with image-level counts. A blinded reader study compared AI with visual estimates from 15 readers across 56 paired image sets. A non-randomized sequential refined wash test (RWT) comparison evaluated completion and usable quantitative data in historical manual and subsequent AI-assisted cohorts. Results: In independent testing, AI achieved a mean absolute error (MAE) of 5.4 hairs and a mean absolute percentage error (MAPE) of 7.0%. The mean model-minus-reference bias was -0.8 hairs (95% LoA, -17.0 to 15.4 hairs). In the blinded comparison, AI had lower error than all visual estimation methods (MAE, 6.99 hairs; MAPE, 6.15%; P < 0.001). Median total AI workflow time was 24.5 seconds versus 123.0 seconds for manual counting. Usable RWT data were available for 14 of 48 patients (29.2%) in the historical manual cohort and 23 of 30 (76.7%) in the subsequent AI-assisted cohort (P < 0.001). Conclusion: Under the evaluated dark-hair and light-background conditions, AI provided low-error counts and lower error than human visual estimation. The subsequent AI-assisted RWT cohort more often provided usable quantitative data than the historical manual cohort in this non-randomized sequential comparison. Prospective studies are needed to evaluate workflow feasibility and potential benefits for clinical monitoring and patient outcomes.",
+    "pmcid": "PMC13589520"
   },
   "script": {
-    "hook": "남성형 탈모 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "남성형 탈모",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Climacteric : the journal of the International Menopause Society》 - The role of hormones in female androgenetic alopecia: focus on menopause",
+    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "95%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Clinical, cosmetic and investigational dermatology》 - Automated Quantification of Shedding Hairs from Smartphone Photographs Using an AI Tool for Alopecia Monitoring",
     "highlights": [
-      "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.",
-      "Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.",
-      "This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism."
+      "Images were assigned by participant into training/internal validation (24 volunteers, 4509 images) and independent testing (6 volunteers, 1121 images).",
+      "The mean model-minus-reference bias was -0.8 hairs (95% LoA, -17.0 to 15.4 hairs).",
+      "Usable RWT data were available for 14 of 48 patients (29.2%) in the historical manual cohort and 23 of 30 (76.7%) in the subsequent AI-assisted cohort (P < 0.001)."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Introduction",
         "kind": "intro",
         "sentences": [
-          "Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.",
-          "Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age."
+          "Hair shedding is a common concern in dermatology and a clinically relevant feature of androgenetic alopecia (AGA) and telogen effluvium (TE).1–3 Objective counts of shedding hairs can support differential assessment, longitudinal monitoring, treatment counselling, and evaluation of treatment response.4,5 Reliable measurement also matters because perceived hair loss is closely associated with anxiety, altered self-image, impaired coping, and reduced quality of life.6–11",
+          "Visual shedding scales are faster and easier to use, but they provide only subjective, semi-quantitative estimates.12,13 Variation between observers can complicate longitudinal comparison, communication with patients, and interpretation of apparent changes in shedding.",
+          "Smartphone images are already used in teledermatology, where image quality and clinical usefulness have been evaluated.14–16 However, although artificial intelligence performs well in some dermatological tasks, such as dermoscopy image classification,17,18 clinical use depends on generalizability and on whether the output addresses a defined need.19–21 Because shedding hairs are fine, curved, overlapping, and often tangled, automated counting still faces unique and unresolved challenges."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Material and Methods",
+        "kind": "methods",
+        "sentences": [
+          "Images were partitioned by participant into training (18 participants, 3396 images), internal validation (6 participants, 1113 images), and independent testing (6 participants, 1121 images).",
+          "The model combined an EfficientNet-B0 encoder,22 a U-Net-style decoder,23 and a feature module based on strip pooling and deformable convolution.24,25 These operations were used to represent long, thin, curved, and tangled hair structures.",
+          "Independent-test performance was stratified by reference-count range (1–50, 51–100, 101–200, and >200 hairs)."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.",
-          "Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA.",
-          "This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women.",
-          "In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA.",
-          "Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease."
+          "In stratified performance analysis, MAE increased from 1.9 hairs for counts of 1–50 to 10.6 hairs for counts >200, whereas MAPE decreased from 10.4% to 3.6%.Table 1Independent-Test Performance Stratified by Reference Hair-Count RangeReference Count, HairsImages, nMAE, hairsMAPE, %Mean Signed Error, Hairs1–503911.910.40.251–1002744.35.8−0.1101–2002587.85.8−1.0>20019810.63.6−3.3 Figure 2Independent test set performance.",
+          "The model predicted 174.8 hairs for a reference count of 134 (absolute error, 40.8; 30.4%) and 97.0 hairs for a reference count of 149 (absolute error, 52.0; 34.9%).Figure 3Model visualization and qualitative error analysis.",
+          "The model overestimated 134 hairs as 174.8 (absolute error, 40.8 hairs; 30.4%) and underestimated 149 hairs as 97.0 (absolute error, 52.0 hairs; 34.9%).Two panels show model error analysis with density maps and count comparisons for hair predictions.Image A shows two accurate model predictions.",
+          "The model overestimated 134 hairs as 174.8 (absolute error, 40.8 hairs; 30.4%) and underestimated 149 hairs as 97.0 (absolute error, 52.0 hairs; 34.9%).",
+          "AI had an MAE of 6.99 hairs (95% CI, 5.75–8.23) and an MAPE of 6.15% (95% CI, 5.18–7.12).",
+          "Inter-reader reliability was moderate to good and was higher for clustered images, particularly among healthy participants and dermatologists.Table 2Performance of AI and Human Visual Estimation in the Blinded Reader StudyEstimatorMAE (95% CI)MAPE, % (95% CI)Bias (95% CI)Overestimation, % (95% CI)AI model6.99 (5.75–8.23)6.15 (5.18–7.12)2.35 (0.18–4.52)60.71 (47.52–73.91)Healthy participant/Scatter57.62 (45.53–69.72)40.56 (37.66–43.46)−33.08 (−45.12 to −21.05)26.43 (21.21–31.65)Healthy participant /Cluster50.89 (40.35–61.43)39.35 (34.63–44.07)14.73 (4.88–24.59)56.43 (49.72–63.13)Patient/Scatter61.21 (46.38–76.04)41.05 (36.76–45.35)38.14 (27.10–49.18)71.07 (65.77–76.37)Patient/Cluster68.38 (54.88–81.87)52.79 (46.61–58.97)49.16 (36.15–62.17)73.21 (67.59–78.83)Dermatologist/Scatter49.56 (40.94–58.18)40.95 (36.41–45.48)−16.88 (−24.52 to −9.24)31.79 (27.36–36.21)Dermatologist/Cluster46.21 (37.65–54.77)38.73 (34.04–43.41)17.52 (9.91–25.12)55.71 (49.04–62.39) Table 3Inter-Reader Reliability by Reader Group and Estimation MethodGroupMethodInter-Reader ICC (2,1), 95% CIHealthy participantScatter0.617 (0.506–0.725)Healthy participantCluster0.754 (0.667–0.831)PatientScatter0.699 (0.599–0.790)PatientCluster0.781 (0.699–0.851)DermatologistScatter0.707 (0.610–0.796)DermatologistCluster0.788 (0.709–0.855) Figure 4Reader study performance comparison.",
+          "The between-cohort difference in completion was 22.5 percentage points (P = 0.056), and the difference in usable quantitative data was 47.5 percentage points (P < 0.001).Table 4RWT Completion and Usable Quantitative Data in the Historical Manual and Subsequent AI-Assisted CohortsWorkflowTotal Instructed, nCompleted RWT, n (%)Usable Quantitative Data, n (%)Historical manual workflow4826 (54.2%)14 (29.2%)Subsequent AI-assisted photograph-upload workflow3023 (76.7%)23 (76.7%)"
+        ]
+      },
+      {
+        "label": "고찰",
+        "title": "Discussion",
+        "kind": "discussion",
+        "sentences": [
+          "Patients reporting increased hair loss tended to overestimate hair numbers, possibly reflecting the psychosocial burden of alopecia.6,8,10 Automated counting may therefore provide a more consistent reference for consultations in which perceived and measured shedding diverge.",
+          "Usable quantitative data were more frequent in the subsequent AI-assisted cohort than in the historical manual cohort (76.7% versus 29.2%), while RWT completion was 22.5 percentage points higher, although this difference was not statistically significant (P = 0.056).",
+          "The model MAE of 5.4 hairs was small relative to both population-level differences reported in previous RWT studies3,4 and the count ranges represented by existing semi-quantitative visual shedding scales,12,13 while remaining close in magnitude to the mean absolute disagreement of 3.8 hairs between independent manual counters.",
+          "Repeated time-separated collection sessions and paired adjudicated counts strengthened the reference standard, while the 56 naturally collected samples from 10 additional participants provided complementary evaluation outside the sequence-construction paradigm and broadened participant representation, thus validation remains limited in scale and diversity."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
+        "sentences": [
+          "AI analysis of ordinary smartphone photographs quantified dark brown or black shedding hairs on white or light-colored backgrounds rapidly and with low error under the evaluated conditions.",
+          "It had lower error than human visual estimation and was associated with a higher proportion of usable quantitative RWT data in the subsequent AI-assisted cohort.",
+          "This photograph-based method has the potential to support objective hair-shedding assessment in clinical care and research, with further validation needed across broader populations and settings."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: The role of hormones in female androgenetic alopecia: focus on menopause\n저널: Climacteric : the journal of the International Menopause Society\n저자: Anderson A, Konopelski P, Skorzewska K 외\n발행: 2026 Sep 18\n원문: https://pubmed.ncbi.nlm.nih.gov/42755697/\n\n[한눈에 보기]\n- Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.\n- Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.\n- This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Female androgenetic alopecia (FAGA) is the most common cause of hair loss in women.\n  · Even though its prevalence differs between populations, studies show consistent evidence that the incidence increases with age.\n\n◆ 주요 결과 — Results (자동 구분)\n  · This can be attributed to hormonal changes during the menopausal transition - a decrease of estrogen levels leading to the state of relative hyperandrogenism.\n  · Nonetheless, the pathogenesis of the disease remains unclear, as up-to-date studies have failed to prove the correlation between total and free testosterone concentrations and the prevalence of FAGA.\n  · This article provides a literature review on the impact of hormones on the hair cycle and their role in postmenopausal women.\n  · In particular, the article focuses on the role of androgens, estrogens, progesterone, stress hormones and hormones released from the adipose tissue in the context of AGA.\n  · Furthermore, the article reviews the risk factors of FAGA in postmenopausal women, such as insulin resistance, high body mass index and metabolic syndrome, and elucidates their possible role in the pathogenesis of the disease.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42755697/",
-    "reference_title": "The role of hormones in female androgenetic alopecia: focus on menopause",
+    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Automated Quantification of Shedding Hairs from Smartphone Photographs Using an AI Tool for Alopecia Monitoring\n저널: Clinical, cosmetic and investigational dermatology\n저자: Zhang S, Zhang Y, Li X 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42763653/\n\n[한눈에 보기]\n- Images were assigned by participant into training/internal validation (24 volunteers, 4509 images) and independent testing (6 volunteers, 1121 images).\n- The mean model-minus-reference bias was -0.8 hairs (95% LoA, -17.0 to 15.4 hairs).\n- Usable RWT data were available for 14 of 48 patients (29.2%) in the historical manual cohort and 23 of 30 (76.7%) in the subsequent AI-assisted cohort (P < 0.001).\n\n[상세 내용] (논문 전문 5개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Hair shedding is a common concern in dermatology and a clinically relevant feature of androgenetic alopecia (AGA) and telogen effluvium (TE).1–3 Objective counts of shedding hairs can support differential assessment, longitudinal monitoring, treatment counselling, and evaluation of treatment response.4,5 Reliable measurement also matters because perceived hair loss is closely associated with anxiety, altered self-image, impaired coping, and reduced quality of life.6–11\n  · Visual shedding scales are faster and easier to use, but they provide only subjective, semi-quantitative estimates.12,13 Variation between observers can complicate longitudinal comparison, communication with patients, and interpretation of apparent changes in shedding.\n  · Smartphone images are already used in teledermatology, where image quality and clinical usefulness have been evaluated.14–16 However, although artificial intelligence performs well in some dermatological tasks, such as dermoscopy image classification,17,18 clinical use depends on generalizability and on whether the output addresses a defined need.19–21 Because shedding hairs are fine, curved, overlapping, and often tangled, automated counting still faces unique and unresolved challenges.\n\n◆ 연구 방법 — Material and Methods\n  · Images were partitioned by participant into training (18 participants, 3396 images), internal validation (6 participants, 1113 images), and independent testing (6 participants, 1121 images).\n  · The model combined an EfficientNet-B0 encoder,22 a U-Net-style decoder,23 and a feature module based on strip pooling and deformable convolution.24,25 These operations were used to represent long, thin, curved, and tangled hair structures.\n  · Independent-test performance was stratified by reference-count range (1–50, 51–100, 101–200, and >200 hairs).\n\n◆ 주요 결과 — Results\n  · In stratified performance analysis, MAE increased from 1.9 hairs for counts of 1–50 to 10.6 hairs for counts >200, whereas MAPE decreased from 10.4% to 3.6%.Table 1Independent-Test Performance Stratified by Reference Hair-Count RangeReference Count, HairsImages, nMAE, hairsMAPE, %Mean Signed Error, Hairs1–503911.910.40.251–1002744.35.8−0.1101–2002587.85.8−1.0>20019810.63.6−3.3 Figure 2Independent test set performance.\n  · The model predicted 174.8 hairs for a reference count of 134 (absolute error, 40.8; 30.4%) and 97.0 hairs for a reference count of 149 (absolute error, 52.0; 34.9%).Figure 3Model visualization and qualitative error analysis.\n  · The model overestimated 134 hairs as 174.8 (absolute error, 40.8 hairs; 30.4%) and underestimated 149 hairs as 97.0 (absolute error, 52.0 hairs; 34.9%).Two panels show model error analysis with density maps and count comparisons for hair predictions.Image A shows two accurate model predictions.\n  · The model overestimated 134 hairs as 174.8 (absolute error, 40.8 hairs; 30.4%) and underestimated 149 hairs as 97.0 (absolute error, 52.0 hairs; 34.9%).\n  · AI had an MAE of 6.99 hairs (95% CI, 5.75–8.23) and an MAPE of 6.15% (95% CI, 5.18–7.12).\n  · Inter-reader reliability was moderate to good and was higher for clustered images, particularly among healthy participants and dermatologists.Table 2Performance of AI and Human Visual Estimation in the Blinded Reader StudyEstimatorMAE (95% CI)MAPE, % (95% CI)Bias (95% CI)Overestimation, % (95% CI)AI model6.99 (5.75–8.23)6.15 (5.18–7.12)2.35 (0.18–4.52)60.71 (47.52–73.91)Healthy participant/Scatter57.62 (45.53–69.72)40.56 (37.66–43.46)−33.08 (−45.12 to −21.05)26.43 (21.21–31.65)Healthy participant /Cluster50.89 (40.35–61.43)39.35 (34.63–44.07)14.73 (4.88–24.59)56.43 (49.72–63.13)Patient/Scatter61.21 (46.38–76.04)41.05 (36.76–45.35)38.14 (27.10–49.18)71.07 (65.77–76.37)Patient/Cluster68.38 (54.88–81.87)52.79 (46.61–58.97)49.16 (36.15–62.17)73.21 (67.59–78.83)Dermatologist/Scatter49.56 (40.94–58.18)40.95 (36.41–45.48)−16.88 (−24.52 to −9.24)31.79 (27.36–36.21)Dermatologist/Cluster46.21 (37.65–54.77)38.73 (34.04–43.41)17.52 (9.91–25.12)55.71 (49.04–62.39) Table 3Inter-Reader Reliability by Reader Group and Estimation MethodGroupMethodInter-Reader ICC (2,1), 95% CIHealthy participantScatter0.617 (0.506–0.725)Healthy participantCluster0.754 (0.667–0.831)PatientScatter0.699 (0.599–0.790)PatientCluster0.781 (0.699–0.851)DermatologistScatter0.707 (0.610–0.796)DermatologistCluster0.788 (0.709–0.855) Figure 4Reader study performance comparison.\n  · The between-cohort difference in completion was 22.5 percentage points (P = 0.056), and the difference in usable quantitative data was 47.5 percentage points (P < 0.001).Table 4RWT Completion and Usable Quantitative Data in the Historical Manual and Subsequent AI-Assisted CohortsWorkflowTotal Instructed, nCompleted RWT, n (%)Usable Quantitative Data, n (%)Historical manual workflow4826 (54.2%)14 (29.2%)Subsequent AI-assisted photograph-upload workflow3023 (76.7%)23 (76.7%)\n\n◆ 고찰 — Discussion\n  · Patients reporting increased hair loss tended to overestimate hair numbers, possibly reflecting the psychosocial burden of alopecia.6,8,10 Automated counting may therefore provide a more consistent reference for consultations in which perceived and measured shedding diverge.\n  · Usable quantitative data were more frequent in the subsequent AI-assisted cohort than in the historical manual cohort (76.7% versus 29.2%), while RWT completion was 22.5 percentage points higher, although this difference was not statistically significant (P = 0.056).\n  · The model MAE of 5.4 hairs was small relative to both population-level differences reported in previous RWT studies3,4 and the count ranges represented by existing semi-quantitative visual shedding scales,12,13 while remaining close in magnitude to the mean absolute disagreement of 3.8 hairs between independent manual counters.\n  · Repeated time-separated collection sessions and paired adjudicated counts strengthened the reference standard, while the 56 naturally collected samples from 10 additional participants provided complementary evaluation outside the sequence-construction paradigm and broadened participant representation, thus validation remains limited in scale and diversity.\n\n◆ 결론 — Conclusions\n  · AI analysis of ordinary smartphone photographs quantified dark brown or black shedding hairs on white or light-colored backgrounds rapidly and with low error under the evaluated conditions.\n  · It had lower error than human visual estimation and was associated with a higher proportion of usable quantitative RWT data in the subsequent AI-assisted cohort.\n  · This photograph-based method has the potential to support objective hair-shedding assessment in clinical care and research, with further validation needed across broader populations and settings.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42763653/",
+    "reference_title": "Automated Quantification of Shedding Hairs from Smartphone Photographs Using an AI Tool for Alopecia Monitoring",
     "reference_type": "paper"
   },
   "assets": {
@@ -68,15 +102,62 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
+      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [],
-    "paper_source": null,
-    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
-    "paper_figure_note": null
+    "paper_tables": [
+      {
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "Independent-Test Performance Stratified by Reference Hair-Count Range",
+        "rows": [
+          [
+            "Reference Count, Hairs",
+            "Images, n",
+            "MAE, hairs",
+            "MAPE, %",
+            "Mean Signed Error, Hairs"
+          ],
+          [
+            "1–50",
+            "391",
+            "1.9",
+            "10.4",
+            "0.2"
+          ],
+          [
+            "51–100",
+            "274",
+            "4.3",
+            "5.8",
+            "−0.1"
+          ],
+          [
+            "101–200",
+            "258",
+            "7.8",
+            "5.8",
+            "−1.0"
+          ],
+          [
+            ">200",
+            "198",
+            "10.6",
+            "3.6",
+            "−3.3"
+          ]
+        ]
+      }
+    ],
+    "paper_source": {
+      "pmcid": "PMC13589520",
+      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13589520)에서 직접 캡처해 쓰세요."
   }
 }
