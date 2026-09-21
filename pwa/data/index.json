@@ -1,7 +1,20 @@
 {
-  "count": 23,
-  "updated": "2026-09-21",
+  "count": 24,
+  "updated": "2026-09-22",
   "items": [
+    {
+      "date": "2026-09-22",
+      "dir": "2026-09-22",
+      "title": "Current Management and Unmet Needs in Alopecia Areata: Viewpoint From a Malaysian Perspective",
+      "journal": "JMIR dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42766724/",
+      "hook_accent": "원형탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-22/paper_card.png",
+      "pptx": "2026-09-22/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-21",
       "dir": "2026-09-21",
