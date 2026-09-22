@@ -1,67 +1,89 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "topic": {
     "source_type": "paper",
-    "pmid": "42766724",
-    "title": "Current Management and Unmet Needs in Alopecia Areata: Viewpoint From a Malaysian Perspective",
-    "journal": "JMIR dermatology",
-    "pub_date": "2026 Sep 21",
+    "pmid": "42770618",
+    "title": "Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
+    "journal": "Pakistan journal of pharmaceutical sciences",
+    "pub_date": "2026 Dec 1",
     "authors": [
-      "Mohd Affandi A",
-      "Jamil A",
-      "Azizan NZ"
+      "Hassan S",
+      "Rana SJ",
+      "Zafar S"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42766724/",
-    "id": "pmid:42766724",
-    "abstract": "Alopecia areata (AA) is a chronic, immune-mediated disease characterized by nonscarring hair loss and a substantial clinical and psychosocial burden, yet it is still widely perceived as a purely cosmetic concern. In this viewpoint, we draw on the available Malaysian studies, selected international evidence, and our collective clinical experience to propose that AA warrants greater clinical, research, and policy attention in Malaysia. Malaysia-specific evidence remains limited and is derived largely from retrospective, single-center studies; nonetheless, the available data point to variable disease presentation, inconsistent use of standardized severity assessment, reliance on conventional therapies, substantial loss to follow-up, and a meaningful psychosocial impact among affected patients. Current local management appears to rely mainly on conventional therapies, while access to advanced therapies such as Janus kinase inhibitors remains constrained by affordability and reimbursement challenges. We therefore call for 5 priorities: strengthening Malaysia-specific epidemiological and real-world evidence, including through a national AA registry; adopting standardized disease-assessment tools in clinical studies and routine practice; integrating psychosocial support into AA care pathways; developing locally relevant clinical guidance; and improving public, clinician, and policymaker awareness that AA is a medical condition rather than a cosmetic concern. Together, these steps would support earlier diagnosis, more equitable access to effective treatment, and holistic, patient-centered care for adults and children living with AA in Malaysia."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42770618/",
+    "id": "pmid:42770618",
+    "abstract": "Background: Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients. Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis. Oral minoxidil causes multiple cardiovascular and neurological side effects. Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels. Objectives: The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia. Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology. Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability. Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy. In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel. Results: The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months. Constituents were found to be compatible with each other. The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes. During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin. In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth. Conclusion: The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia."
   },
   "script": {
-    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "원형탈모",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《JMIR dermatology》 - Current Management and Unmet Needs in Alopecia Areata: Viewpoint From a Malaysian Perspective",
+    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "95%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Pakistan journal of pharmaceutical sciences》 - Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
     "highlights": [
-      "Alopecia areata (AA) is a chronic, immune-mediated disease characterized by nonscarring hair loss and a substantial clinical and psychosocial burden, yet it is still widely perceived as a purely cosmetic concern.",
-      "In this viewpoint, we draw on the available Malaysian studies, selected international evidence, and our collective clinical experience to propose that AA warrants greater clinical, research, and policy attention in Malaysia.",
-      "We therefore call for 5 priorities: strengthening Malaysia-specific epidemiological and real-world evidence, including through a national AA registry; adopting standardized disease-assessment tools in clinical studies and routine practice; integrating psychosocial support into AA care pathways; developing locally relevant clinical guidance; and improving public, clinician, and policymaker awareness that AA is a medical condition rather than a cosmetic concern."
+      "Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.",
+      "The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.",
+      "During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Alopecia areata (AA) is a chronic, immune-mediated disease characterized by nonscarring hair loss and a substantial clinical and psychosocial burden, yet it is still widely perceived as a purely cosmetic concern."
+          "Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients.",
+          "Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis.",
+          "Oral minoxidil causes multiple cardiovascular and neurological side effects.",
+          "Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objectives",
+        "kind": "intro",
+        "sentences": [
+          "The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia."
         ]
       },
       {
         "label": "연구 방법",
-        "title": "Methods (자동 구분)",
+        "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "In this viewpoint, we draw on the available Malaysian studies, selected international evidence, and our collective clinical experience to propose that AA warrants greater clinical, research, and policy attention in Malaysia."
+          "Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.",
+          "Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability.",
+          "Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy.",
+          "In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "Malaysia-specific evidence remains limited and is derived largely from retrospective, single-center studies; nonetheless, the available data point to variable disease presentation, inconsistent use of standardized severity assessment, reliance on conventional therapies, substantial loss to follow-up, and a meaningful psychosocial impact among affected patients.",
-          "Current local management appears to rely mainly on conventional therapies, while access to advanced therapies such as Janus kinase inhibitors remains constrained by affordability and reimbursement challenges.",
-          "We therefore call for 5 priorities: strengthening Malaysia-specific epidemiological and real-world evidence, including through a national AA registry; adopting standardized disease-assessment tools in clinical studies and routine practice; integrating psychosocial support into AA care pathways; developing locally relevant clinical guidance; and improving public, clinician, and policymaker awareness that AA is a medical condition rather than a cosmetic concern.",
-          "Together, these steps would support earlier diagnosis, more equitable access to effective treatment, and holistic, patient-centered care for adults and children living with AA in Malaysia."
+          "The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months.",
+          "Constituents were found to be compatible with each other.",
+          "The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.",
+          "During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.",
+          "In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Current Management and Unmet Needs in Alopecia Areata: Viewpoint From a Malaysian Perspective\n저널: JMIR dermatology\n저자: Mohd Affandi A, Jamil A, Azizan NZ 외\n발행: 2026 Sep 21\n원문: https://pubmed.ncbi.nlm.nih.gov/42766724/\n\n[한눈에 보기]\n- Alopecia areata (AA) is a chronic, immune-mediated disease characterized by nonscarring hair loss and a substantial clinical and psychosocial burden, yet it is still widely perceived as a purely cosmetic concern.\n- In this viewpoint, we draw on the available Malaysian studies, selected international evidence, and our collective clinical experience to propose that AA warrants greater clinical, research, and policy attention in Malaysia.\n- We therefore call for 5 priorities: strengthening Malaysia-specific epidemiological and real-world evidence, including through a national AA registry; adopting standardized disease-assessment tools in clinical studies and routine practice; integrating psychosocial support into AA care pathways; developing locally relevant clinical guidance; and improving public, clinician, and policymaker awareness that AA is a medical condition rather than a cosmetic concern.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Alopecia areata (AA) is a chronic, immune-mediated disease characterized by nonscarring hair loss and a substantial clinical and psychosocial burden, yet it is still widely perceived as a purely cosmetic concern.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · In this viewpoint, we draw on the available Malaysian studies, selected international evidence, and our collective clinical experience to propose that AA warrants greater clinical, research, and policy attention in Malaysia.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Malaysia-specific evidence remains limited and is derived largely from retrospective, single-center studies; nonetheless, the available data point to variable disease presentation, inconsistent use of standardized severity assessment, reliance on conventional therapies, substantial loss to follow-up, and a meaningful psychosocial impact among affected patients.\n  · Current local management appears to rely mainly on conventional therapies, while access to advanced therapies such as Janus kinase inhibitors remains constrained by affordability and reimbursement challenges.\n  · We therefore call for 5 priorities: strengthening Malaysia-specific epidemiological and real-world evidence, including through a national AA registry; adopting standardized disease-assessment tools in clinical studies and routine practice; integrating psychosocial support into AA care pathways; developing locally relevant clinical guidance; and improving public, clinician, and policymaker awareness that AA is a medical condition rather than a cosmetic concern.\n  · Together, these steps would support earlier diagnosis, more equitable access to effective treatment, and holistic, patient-centered care for adults and children living with AA in Malaysia.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42766724/",
-    "reference_title": "Current Management and Unmet Needs in Alopecia Areata: Viewpoint From a Malaysian Perspective",
+    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach\n저널: Pakistan journal of pharmaceutical sciences\n저자: Hassan S, Rana SJ, Zafar S 외\n발행: 2026 Dec 1\n원문: https://pubmed.ncbi.nlm.nih.gov/42770618/\n\n[한눈에 보기]\n- Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.\n- The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.\n- During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients.\n  · Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis.\n  · Oral minoxidil causes multiple cardiovascular and neurological side effects.\n  · Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels.\n\n◆ 배경 — Objectives\n  · The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia.\n\n◆ 연구 방법 — Methods\n  · Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.\n  · Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability.\n  · Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy.\n  · In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel.\n\n◆ 주요 결과 — Results\n  · The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months.\n  · Constituents were found to be compatible with each other.\n  · The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.\n  · During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.\n  · In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth.\n\n◆ 결론 — Conclusion\n  · The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42770618/",
+    "reference_title": "Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
     "reference_type": "paper"
   },
   "assets": {
