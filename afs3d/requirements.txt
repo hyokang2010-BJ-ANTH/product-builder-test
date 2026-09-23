@@ -1,0 +1,6 @@
+# AFS 3D 프로토타입 의존성 (루트 requirements.txt 의 일일 콘텐츠 파이프라인과 별개)
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10.3.0
+pytest>=7.4
+# 외부 프로그램 (pip 아님): COLMAP 3.9+ (sparse), CUDA 빌드 COLMAP (dense). concept.md 참고

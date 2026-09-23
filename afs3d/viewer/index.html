@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AFS 3D 뷰어</title>
+<style>
+  :root { --bg:#f4f5f7; --panel:#ffffff; --text:#1d2330; --muted:#667085; --accent:#2f6fed; --border:#d9dde5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151b; --panel:#1b2029; --text:#e6e9ef; --muted:#98a2b3; --accent:#6d9bff; --border:#2c3340; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", sans-serif; }
+  #app { position:fixed; inset:0; }
+  #panel { position:fixed; top:12px; left:12px; max-width:min(340px, calc(100vw - 24px));
+    background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; font-size:13px; line-height:1.5; }
+  #panel h1 { font-size:15px; margin:0 0 6px; }
+  #panel p { margin:4px 0; color:var(--muted); }
+  #panel label { display:flex; align-items:center; gap:6px; margin-top:6px; cursor:pointer; }
+  #panel button, #panel .file { margin-top:8px; padding:6px 10px; border-radius:6px; border:1px solid var(--border);
+    background:var(--bg); color:var(--text); font:inherit; cursor:pointer; display:inline-block; }
+  #measure { font-variant-numeric: tabular-nums; color:var(--text); font-weight:600; }
+  #drop { position:fixed; inset:0; display:none; align-items:center; justify-content:center;
+    background:color-mix(in srgb, var(--accent) 18%, transparent); font-size:20px; pointer-events:none; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="panel">
+  <h1>AFS 3D 뷰어</h1>
+  <p>PLY 메쉬(coverage.ply, meshed-poisson.ply 등)를 끌어다 놓거나 선택하세요. 파일은 브라우저 안에서만 열리며 업로드되지 않습니다.</p>
+  <span class="file"><input id="file" type="file" accept=".ply"></span>
+  <label><input id="wire" type="checkbox"> 와이어프레임</label>
+  <label><input id="measureMode" type="checkbox"> 거리 측정 (두 점 클릭)</label>
+  <label>단위 배율 <input id="scale" type="number" value="1" step="any" style="width:90px"> mm/단위</label>
+  <p id="measure">—</p>
+  <button id="reset">시점 초기화</button>
+</div>
+<div id="drop">여기에 놓기</div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { PLYLoader } from "three/addons/loaders/PLYLoader.js";
+
+const container = document.getElementById("app");
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(window.innerWidth, window.innerHeight);
+container.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+scene.background = new THREE.Color(dark ? 0x12151b : 0xf4f5f7);
+const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.01, 1e6);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x444444, 1.6));
+const key = new THREE.DirectionalLight(0xffffff, 1.2);
+scene.add(key);
+
+let mesh = null;
+const markers = new THREE.Group();
+scene.add(markers);
+let picks = [];
+
+function frame(obj) {
+  const box = new THREE.Box3().setFromObject(obj);
+  const size = box.getSize(new THREE.Vector3()).length();
+  const center = box.getCenter(new THREE.Vector3());
+  controls.target.copy(center);
+  camera.position.copy(center).add(new THREE.Vector3(0, -size * 0.2, size * 1.1));
+  camera.near = size / 1000; camera.far = size * 100; camera.updateProjectionMatrix();
+  markers.userData.r = size / 300;
+}
+
+function load(buffer) {
+  const geom = new PLYLoader().parse(buffer);
+  if (!geom.index || geom.index.count === 0) {
+    alert("면(face)이 없는 점군입니다. 메쉬(PLY with faces)를 열어 주세요.");
+  }
+  geom.computeVertexNormals();
+  const hasColor = !!geom.getAttribute("color");
+  const mat = new THREE.MeshStandardMaterial({ vertexColors: hasColor, color: hasColor ? 0xffffff : 0xc9a28a,
+    roughness: 0.85, metalness: 0, side: THREE.DoubleSide });
+  if (mesh) { scene.remove(mesh); mesh.geometry.dispose(); }
+  mesh = new THREE.Mesh(geom, mat);
+  scene.add(mesh);
+  markers.clear(); picks = []; document.getElementById("measure").textContent = "—";
+  frame(mesh);
+}
+
+document.getElementById("file").addEventListener("change", async (e) => {
+  const f = e.target.files[0]; if (f) load(await f.arrayBuffer());
+});
+const drop = document.getElementById("drop");
+window.addEventListener("dragover", (e) => { e.preventDefault(); drop.style.display = "flex"; });
+window.addEventListener("dragleave", () => { drop.style.display = "none"; });
+window.addEventListener("drop", async (e) => {
+  e.preventDefault(); drop.style.display = "none";
+  const f = e.dataTransfer.files[0]; if (f) load(await f.arrayBuffer());
+});
+document.getElementById("wire").addEventListener("change", (e) => { if (mesh) mesh.material.wireframe = e.target.checked; });
+document.getElementById("reset").addEventListener("click", () => { if (mesh) frame(mesh); });
+
+const ray = new THREE.Raycaster();
+let down = null;
+renderer.domElement.addEventListener("pointerdown", (e) => { down = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener("pointerup", (e) => {
+  if (!mesh || !document.getElementById("measureMode").checked || !down) return;
+  if (Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return; // 드래그(회전)는 무시
+  const ndc = new THREE.Vector2((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(ndc, camera);
+  const hit = ray.intersectObject(mesh)[0];
+  if (!hit) return;
+  if (picks.length === 2) { markers.clear(); picks = []; }
+  picks.push(hit.point.clone());
+  const dot = new THREE.Mesh(new THREE.SphereGeometry(markers.userData.r || 1, 16, 16),
+    new THREE.MeshBasicMaterial({ color: 0xff3b30 }));
+  dot.position.copy(hit.point); markers.add(dot);
+  if (picks.length === 2) {
+    markers.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(picks), new THREE.LineBasicMaterial({ color: 0xff3b30 })));
+    const s = parseFloat(document.getElementById("scale").value) || 1;
+    const d = picks[0].distanceTo(picks[1]) * s;
+    document.getElementById("measure").textContent = `직선거리 ${d.toFixed(1)} mm (표면 곡선거리 아님)`;
+  }
+});
+
+window.addEventListener("resize", () => {
+  camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+renderer.setAnimationLoop(() => {
+  controls.update();
+  key.position.copy(camera.position);
+  renderer.render(scene, camera);
+});
+</script>
+</body>
+</html>

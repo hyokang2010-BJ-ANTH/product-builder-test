@@ -5,3 +5,11 @@ __pycache__/
 
 # 파이프라인 임시 파일 (이미지 변환 실패 시 남을 수 있음)
 *.download
+
+# afs3d: 환자 사진/재구성 결과는 절대 커밋하지 않는다 (공개 저장소)
+afs3d/work*/
+afs3d/data/
+afs3d/demo_data/
+afs3d/**/*.db
+afs3d/**/*.ply
+.pytest_cache/
