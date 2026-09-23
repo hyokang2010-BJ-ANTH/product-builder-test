@@ -1,7 +1,20 @@
 {
-  "count": 25,
-  "updated": "2026-09-23",
+  "count": 26,
+  "updated": "2026-09-24",
   "items": [
+    {
+      "date": "2026-09-24",
+      "dir": "2026-09-24",
+      "title": "H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
+      "journal": "Experimental cell research",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42772662/",
+      "hook_accent": "줄기세포",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-24/paper_card.png",
+      "pptx": "2026-09-24/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-23",
       "dir": "2026-09-23",

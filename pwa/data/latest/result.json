@@ -1,89 +1,62 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "topic": {
     "source_type": "paper",
-    "pmid": "42770618",
-    "title": "Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
-    "journal": "Pakistan journal of pharmaceutical sciences",
-    "pub_date": "2026 Dec 1",
+    "pmid": "42772662",
+    "title": "H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
+    "journal": "Experimental cell research",
+    "pub_date": "2026 Sep 22",
     "authors": [
-      "Hassan S",
-      "Rana SJ",
-      "Zafar S"
+      "Guanyu L",
+      "Xuejun N",
+      "Chen L"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42770618/",
-    "id": "pmid:42770618",
-    "abstract": "Background: Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients. Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis. Oral minoxidil causes multiple cardiovascular and neurological side effects. Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels. Objectives: The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia. Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology. Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability. Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy. In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel. Results: The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months. Constituents were found to be compatible with each other. The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes. During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin. In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth. Conclusion: The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42772662/",
+    "id": "pmid:42772662",
+    "abstract": "Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood. Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal. Stem cells prefer glycolysis as their main energy source. Here, cultured human HFSCs were exposed to 2%O2. Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression. Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression. Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways. FBXW11 was prioritized as a candidate E3 ubiquitin ligase target. IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression. FBXW11 overexpression increased EdU incorporation, colony formation, and HFSC-associated marker expression, while FBXW11 knockdown attenuated hypoxia-induced clonogenic growth and proliferation. In an ex vivo whole-hair-follicle culture model, hypoxia enhanced hair shaft elongation, and this effect was reduced by FBXW11 knockdown. Together, these findings support a hypoxia-glycolysis/lactate-H3K18la-FBXW11 pathway that contributes to proliferative and self-renewal-associated phenotypes of cultured HFSCs and to hypoxia-responsive hair shaft growth ex vivo. Further in vivo studies are required to establish its role in physiological hair cycle."
   },
   "script": {
-    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "95%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Pakistan journal of pharmaceutical sciences》 - Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
+    "hook": "줄기세포 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "줄기세포",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Experimental cell research》 - H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
     "highlights": [
-      "Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.",
-      "The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.",
-      "During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin."
+      "Here, cultured human HFSCs were exposed to 2%O2.",
+      "Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.",
+      "Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients.",
-          "Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis.",
-          "Oral minoxidil causes multiple cardiovascular and neurological side effects.",
-          "Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels."
-        ]
-      },
-      {
-        "label": "배경",
-        "title": "Objectives",
-        "kind": "intro",
-        "sentences": [
-          "The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia."
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
-        "sentences": [
-          "Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.",
-          "Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability.",
-          "Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy.",
-          "In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel."
+          "Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood.",
+          "Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal.",
+          "Stem cells prefer glycolysis as their main energy source."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months.",
-          "Constituents were found to be compatible with each other.",
-          "The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.",
-          "During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.",
-          "In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion",
-        "kind": "conclusion",
-        "sentences": [
-          "The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia."
+          "Here, cultured human HFSCs were exposed to 2%O2.",
+          "Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression.",
+          "Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.",
+          "Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.",
+          "FBXW11 was prioritized as a candidate E3 ubiquitin ligase target.",
+          "IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach\n저널: Pakistan journal of pharmaceutical sciences\n저자: Hassan S, Rana SJ, Zafar S 외\n발행: 2026 Dec 1\n원문: https://pubmed.ncbi.nlm.nih.gov/42770618/\n\n[한눈에 보기]\n- Methods: Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.\n- The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.\n- During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Chemotherapy-induced alopecia negatively impacts the mental health of cancer patients.\n  · Topical minoxidil, a widely recommended drug for hair regrowth, causes scalp irritation and contact dermatitis.\n  · Oral minoxidil causes multiple cardiovascular and neurological side effects.\n  · Cetirizine hydrochloride, an antihistamine with a better safety profile than minoxidil, may stimulate hair follicle activity by modulating prostaglandin levels.\n\n◆ 배경 — Objectives\n  · The present study aimed to develop a cetirizine hydrochloride-loaded emulgel and evaluate its potential, in combination with microneedling, for the treatment of chemotherapy-induced alopecia.\n\n◆ 연구 방법 — Methods\n  · Different emulgel formulations comprising cetirizine HCl, liquid paraffin, carbopol 940, propylene glycol, oleic acid, Tween 20, Span 20 and propylparaben were optimized using central composite design and response surface methodology.\n  · Physicochemical evaluation of the prepared emulgel included physical examination, determination of pH, viscosity, spreadability, drug content and stability.\n  · Interactions and compatibility among formulation constituents were assessed using In-silico analysis and Fourier transform infrared spectroscopy.\n  · In-vitro drug release, ex-vivo permeation and in-vivo hair growth studies were carried out to evaluate the performance efficiency of emulgel.\n\n◆ 주요 결과 — Results\n  · The prepared emulgels exhibited acceptable physicochemical properties and remained stable for 3 months.\n  · Constituents were found to be compatible with each other.\n  · The optimized formulation F4 released >95% drug at pH 5.5 within 360 minutes.\n  · During an ex-vivo study, ~94% of the drug permeated across rat skin within 6 hours following application of emulgel on the microneedle-pretreated skin.\n  · In cyclophosphamide-induced alopecia in rats, application of emulgel to microneedle-pierced skin for 15 days promoted hair growth.\n\n◆ 결론 — Conclusion\n  · The prepared cetirizine HCl-loaded emulgel and microneedle combination may be a promising approach to treating chemotherapy-induced alopecia.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42770618/",
-    "reference_title": "Improved transcutaneous delivery of cetirizine hydrochloride for the treatment of post-chemotherapy alopecia: Poke and emulgel approach",
+    "full_script": "[훅] 줄기세포 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells\n저널: Experimental cell research\n저자: Guanyu L, Xuejun N, Chen L 외\n발행: 2026 Sep 22\n원문: https://pubmed.ncbi.nlm.nih.gov/42772662/\n\n[한눈에 보기]\n- Here, cultured human HFSCs were exposed to 2%O2.\n- Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.\n- Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood.\n  · Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal.\n  · Stem cells prefer glycolysis as their main energy source.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Here, cultured human HFSCs were exposed to 2%O2.\n  · Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression.\n  · Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.\n  · Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.\n  · FBXW11 was prioritized as a candidate E3 ubiquitin ligase target.\n  · IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42772662/",
+    "reference_title": "H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
     "reference_type": "paper"
   },
   "assets": {
