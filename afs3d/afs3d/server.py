@@ -82,6 +82,7 @@ class JobOptions:
     dense: bool = False
     rig_radius_mm: float | None = None
     drop_flagged: bool = False
+    gray_backdrop: bool = False  # 무채색 배경막 → 배경으로 화이트밸런스
     max_side: int = 3200
 
     @classmethod
@@ -94,6 +95,7 @@ class JobOptions:
         r = d.get("rig_radius_mm")
         o.rig_radius_mm = float(r) if r not in (None, "") and float(r) > 0 else None
         o.drop_flagged = bool(d.get("drop_flagged", False))
+        o.gray_backdrop = bool(d.get("gray_backdrop", False)) and o.mask
         o.max_side = int(d.get("max_side", 3200) or 0)
         return o
 
@@ -135,6 +137,8 @@ def build_command(job_dir: Path, opts: JobOptions) -> list[str]:
         cmd.append("--dense")
     if opts.drop_flagged:
         cmd.append("--drop-flagged")
+    if opts.gray_backdrop and opts.mask:
+        cmd += ["--white-balance", "background"]
     if opts.rig_radius_mm:
         cmd += ["--rig-radius-mm", str(opts.rig_radius_mm)]
     return cmd
@@ -333,7 +337,7 @@ class JobManager:
         if rj.exists():
             r = json.loads(rj.read_text(encoding="utf-8"))
             for k in ("mode", "n_input", "n_registered", "scale_mm_per_unit", "up", "front", "camera_centers",
-                      "dense_skipped", "rig_fit"):  # fmt: skip
+                      "rig_center", "dense_skipped", "rig_fit"):  # fmt: skip
                 if k in r:
                     s[k] = r[k]
         rep = d / "work" / "analysis" / "report.json"

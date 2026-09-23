@@ -31,7 +31,9 @@ def _add_input(p: argparse.ArgumentParser) -> None:
 
 def _add_prep(p: argparse.ArgumentParser) -> None:
     p.add_argument("--max-side", type=int, default=3200, help="긴 변 최대 픽셀 (0=원본 유지)")
-    p.add_argument("--no-color-norm", action="store_true", help="화이트밸런스/노출 정규화 끄기")
+    p.add_argument("--no-color-norm", action="store_true", help="노출 정규화 끄기")
+    p.add_argument("--white-balance", choices=["none", "background"], default="none",
+                   help="background: 무채색(회색) 배경막일 때 배경으로 WB 보정 (--mask 필요)")
     p.add_argument("--mask", action="store_true", help="단색 배경 가정 전경 마스크 생성")
     p.add_argument("--drop-flagged", action="store_true", help="품질 플래그가 붙은 사진 제외")
 
@@ -81,7 +83,12 @@ def _prep(args, shots):
         flagged = {r.name for r in results if r.flags}
         shots = [s for s in shots if s.name not in flagged]
         print(f"품질 플래그 {len(flagged)}장 제외 → {len(shots)}장 사용")
-    opts = PrepOptions(max_side=args.max_side or None, normalize_color=not args.no_color_norm, make_masks=args.mask)
+    opts = PrepOptions(
+        max_side=args.max_side or None,
+        normalize_color=not args.no_color_norm,
+        white_balance=args.white_balance,
+        make_masks=args.mask,
+    )
     preprocess_shots(shots, args.work, opts)
     print(f"전처리 완료 → {Path(args.work) / 'images'}")
     return shots

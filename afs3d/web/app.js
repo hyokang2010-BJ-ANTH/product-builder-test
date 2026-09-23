@@ -156,6 +156,7 @@ async function submitJob(e) {
     mask: $("mask").checked,
     dense: $("dense").checked,
     drop_flagged: $("dropFlagged").checked,
+    gray_backdrop: $("mask").checked && $("grayBackdrop").checked,
   };
   let job;
   try {
@@ -368,7 +369,9 @@ function createViewer(stage) {
       let r = geom.boundingSphere.radius * 0.5;
       const c = new THREE.Vector3();
       if (cams.length) {
-        cams.forEach((p) => c.add(new THREE.Vector3(...p))); c.divideScalar(cams.length);
+        // 머리 중심 = 카메라들이 놓인 구의 중심 (평균 위치는 위쪽 링 쪽으로 치우친다)
+        if (summary.rig_center) c.set(...summary.rig_center);
+        else { cams.forEach((p) => c.add(new THREE.Vector3(...p))); c.divideScalar(cams.length); }
         r = cams.reduce((a, p) => a + new THREE.Vector3(...p).distanceTo(c), 0) / cams.length;
       }
       root.add(new THREE.Points(geom, new THREE.PointsMaterial({ size: r * sc * 0.009, vertexColors: !!geom.getAttribute("color") })));
@@ -380,6 +383,7 @@ function createViewer(stage) {
           const m = new THREE.Mesh(coneGeo, mat); m.position.set(...p); m.lookAt(c); m.rotateY(Math.PI); root.add(m);
           const q = new THREE.Vector3(...p).lerp(c, 0.28); lines.push(...p, q.x, q.y, q.z);
         });
+        root.userData.rig = { center: c.clone(), radius: r };
         const lg = new THREE.BufferGeometry(); lg.setAttribute("position", new THREE.Float32BufferAttribute(lines, 3));
         root.add(new THREE.LineSegments(lg, new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: 0.2 })));
       }
@@ -389,12 +393,19 @@ function createViewer(stage) {
 
   function frame(obj, file) {
     obj.updateMatrixWorld(true);
-    const box = new THREE.Box3();
-    // 점군은 떠 있는 잡음 점이 있어 3D 점 대신 전체(카메라 포함)로, 메쉬는 메쉬로 맞춘다
-    box.setFromObject(obj);
-    const size = box.getSize(new THREE.Vector3()).length();
-    const center = box.getCenter(new THREE.Vector3());
-    const dist = size * (file === "sparse.ply" ? 0.85 : 1.1);
+    let center, size, dist;
+    const rig = obj.userData.rig;
+    if (rig) {
+      // 점군에는 멀리 떠 있는 잡음 점이 섞여 있어, 상자 대신 카메라 링(머리 중심·촬영 반경)으로 맞춘다
+      center = obj.localToWorld(rig.center.clone());
+      size = rig.radius * obj.scale.x * 2;
+      dist = size * 1.1;
+    } else {
+      const box = new THREE.Box3().setFromObject(obj);
+      size = box.getSize(new THREE.Vector3()).length();
+      center = box.getCenter(new THREE.Vector3());
+      dist = size * 1.1;
+    }
     controls.target.copy(center);
     camera.position.copy(center).add(new THREE.Vector3(0.55, 0.45, 0.7).normalize().multiplyScalar(dist));
     camera.near = size / 1000; camera.far = size * 50; camera.updateProjectionMatrix();

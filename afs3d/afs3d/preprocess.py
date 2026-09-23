@@ -1,8 +1,11 @@
 """전처리: 세트 단위 화이트밸런스/노출 정규화, 배경 마스크, 리사이즈.
 
 AFS 에서 밝기를 바꿔 가며 찍었거나 각도에 따라 조명이 달라진 경우, 특징점 매칭과
-텍스처 색이 흔들린다. 이미지마다 따로 보정하면 모발(어두움)과 두피(밝음) 비율이 다른
-각도끼리 색이 달라지므로, 화이트밸런스는 세트 전체에 한 번만 적용하고 노출만 이미지별로 맞춘다.
+텍스처 색이 흔들린다. 노출은 이미지별로 맞춘다.
+
+화이트밸런스는 기본적으로 하지 않는다. 머리 사진에 회색세계(gray-world) 가정을 적용하면
+피부·모발색 자체가 '색 틀어짐'으로 간주되어 피부색이 회색으로 지워진다 (합성 데이터로 확인).
+카메라 WB 를 고정하는 것이 원칙이고, 배경막이 무채색(회색)일 때만 배경 픽셀로 WB 를 잡는 옵션을 둔다.
 """
 from __future__ import annotations
 
@@ -116,7 +119,8 @@ def exposure_gains(shots: list[Shot], lumas: list[float]) -> dict:
 @dataclass
 class PrepOptions:
     max_side: int | None = 3200
-    normalize_color: bool = True
+    normalize_color: bool = True  # 노출 정규화
+    white_balance: str = "none"  # "none" | "background" (무채색 배경막 + 마스크 필요)
     make_masks: bool = False
     jpeg_quality: int = 95
 
@@ -143,18 +147,29 @@ def preprocess_shots(shots: list[Shot], out_dir: str | Path, opts: PrepOptions =
         rgb, scale = _resize(read_rgb(s.path), opts.max_side)
         mask = foreground_mask(rgb) if opts.make_masks else None
         stats.append(
-            {"scale": scale, "gains": gray_world_gains(rgb, mask), "luma": median_luma(rgb, mask), "mask": mask}
+            {
+                "scale": scale,
+                # 배경(마스크 0) 픽셀로만 WB 를 추정한다: 무채색 배경막이라면 그것이 회색이어야 맞다
+                "gains": gray_world_gains(rgb, 255 - mask) if mask is not None else np.ones(3, np.float32),
+                "luma": median_luma(rgb, mask),
+                "mask": mask,
+            }
         )
 
-    wb = np.median(np.stack([st["gains"] for st in stats]), axis=0) if opts.normalize_color else np.ones(3, np.float32)
+    if opts.white_balance == "background":
+        if not opts.make_masks:
+            raise ValueError("배경 기반 화이트밸런스는 배경 마스크(--mask)가 필요합니다")
+        wb = np.median(np.stack([st["gains"] for st in stats]), axis=0)
+    else:
+        wb = np.ones(3, np.float32)
     gains = exposure_gains(shots, [st["luma"] for st in stats])
 
-    meta = {"wb_gains": wb.tolist(), "exposure_source": gains["source"], "images": []}
+    meta = {"white_balance": opts.white_balance, "wb_gains": wb.tolist(), "exposure_source": gains["source"], "images": []}
     for s, st, gain in zip(shots, stats, gains["gains"]):
         rgb, _ = _resize(read_rgb(s.path), opts.max_side)
         if not opts.normalize_color:
             gain = 1.0
-        else:
+        if gain != 1.0 or opts.white_balance != "none":
             rgb = apply_color(rgb, wb, gain)
         out_name = Path(s.name).with_suffix(".jpg").name
         exif = read_exif_bytes(s.path)

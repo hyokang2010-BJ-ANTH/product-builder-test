@@ -58,3 +58,37 @@ def test_foreground_mask_matches_head():
     mask = foreground_mask(img) > 0
     iou = (mask & truth).sum() / (mask | truth).sum()
     assert iou > 0.97
+
+
+def _fg_rb_ratio(img, mask):
+    px = img[mask].astype(float)
+    return px[:, 0].mean() / px[:, 2].mean()
+
+
+def test_default_prep_keeps_skin_tone(tmp_path):
+    """머리 사진에 회색세계 WB 를 적용하면 피부색이 회색이 된다 → 기본값은 WB 없음."""
+    _write_set(tmp_path, [1.0, 1.0, 1.0])
+    shots = load_shots(tmp_path / "images", tmp_path / "manifest.csv")
+    preprocess_shots(shots, tmp_path / "work", PrepOptions(max_side=None, make_masks=True))
+    src = _render(az=0)
+    out = np.asarray(Image.open(tmp_path / "work" / "images" / "s_0.jpg"))
+    m = foreground_mask(src) > 0
+    assert _fg_rb_ratio(out, m) > 1.3  # 피부/모발의 붉은 기가 유지되어야 함
+    assert abs(_fg_rb_ratio(out, m) - _fg_rb_ratio(src, m)) < 0.05
+
+
+def test_background_white_balance_removes_cast(tmp_path):
+    d = tmp_path / "images"
+    d.mkdir()
+    cast = np.array([1.0, 1.0, 0.7])  # 파란 채널이 약한(노란) 색 틀어짐
+    src = _render(az=0)
+    for i in range(3):
+        img = np.clip(src.astype(float) * cast, 0, 255).astype(np.uint8)
+        Image.fromarray(img).save(d / f"c_{i}.png")
+    shots = load_shots(d)
+    meta = preprocess_shots(shots, tmp_path / "w", PrepOptions(max_side=None, make_masks=True, white_balance="background"))
+    out = np.asarray(Image.open(tmp_path / "w" / "images" / "c_0.jpg")).astype(float)
+    bg = foreground_mask(src) == 0
+    r, g, b = out[bg].mean(axis=0)
+    assert abs(r - b) < 4 and abs(g - b) < 4  # 회색 배경막이 다시 회색으로
+    assert meta["white_balance"] == "background"
