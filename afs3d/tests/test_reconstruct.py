@@ -40,3 +40,21 @@ def test_colmap_on_synthetic_head(tmp_path, mode):
     assert np.isclose(res["rig_radius_model"] * res["scale_mm_per_unit"], 450, rtol=0.02)
     if mode == "rig":
         assert np.isclose(res["rig_radius_model"], 450, rtol=1e-3)
+
+
+def test_known_focal_is_passed_to_colmap(tmp_path):
+    from PIL import Image
+
+    from afs3d.io_utils import Shot
+    from afs3d.reconstruct import _known_intrinsics
+
+    (tmp_path / "a.jpg").touch()
+    Image.new("RGB", (800, 600)).save(tmp_path / "a.jpg")
+    shots = {"a.jpg": Shot(path=tmp_path / "a.jpg", order=0, focal_px=2000.0)}
+    # 전처리에서 절반으로 줄였다면 초점거리도 절반
+    assert _known_intrinsics(tmp_path, shots, {"a.jpg": 0.5}, ReconOptions()) == "1000,400,300,0"
+    # 초점거리를 모르면 COLMAP 추정에 맡긴다
+    shots["a.jpg"].focal_px = None
+    assert _known_intrinsics(tmp_path, shots, {}, ReconOptions()) is None
+    # 여러 카메라면 공유 intrinsics 를 가정하지 않는다
+    assert _known_intrinsics(tmp_path, shots, {}, ReconOptions(single_camera=False, focal_px=900)) is None

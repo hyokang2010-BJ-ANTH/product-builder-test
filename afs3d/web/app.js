@@ -227,7 +227,8 @@ async function loadJob(id) {
   const pill = $("jobPill"); pill.className = "pill " + job.status; pill.textContent = STATUS[job.status] || job.status;
   const active = job.status === "running" || job.status === "queued";
   $("cancelBtn").hidden = !active;
-  $("retryBtn").hidden = !(job.status === "failed" || job.status === "cancelled");
+  $("retryBtn").hidden = !["failed", "cancelled", "done"].includes(job.status);
+  $("retryBtn").textContent = job.status === "done" ? "다시 처리" : "다시 시작";
 
   $("progressBox").hidden = job.status === "done";
   $("stageName").textContent = job.status === "queued" ? "앞 작업이 끝나기를 기다리는 중" : job.stage;
@@ -437,6 +438,8 @@ $("optForm").addEventListener("submit", submitJob);
 $("cancelBtn").onclick = async () => { await api(`/api/jobs/${currentJob}/cancel`, { method: "POST" }); loadJob(currentJob); };
 $("retryBtn").onclick = async () => {
   try { await api(`/api/jobs/${currentJob}/start`, { method: "POST" }); } catch (e) { alert(e.message); }
+  if (viewer) { viewer.dispose(); viewer = null; }
+  $("resultBox").hidden = true;
   loadJob(currentJob);
 };
 $("deleteBtn").onclick = async () => {

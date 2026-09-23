@@ -246,8 +246,8 @@ class JobManager:
 
     def start(self, job: Job) -> None:
         with self.lock:
-            if job.status not in ("uploading", "failed", "cancelled"):
-                raise ValueError("이미 진행 중이거나 끝난 작업입니다")
+            if job.status in ("queued", "running"):
+                raise ValueError("이미 진행 중인 작업입니다")
             if job.n_images < 3:
                 raise ValueError("사진이 3장 이상 필요합니다 (권장 60장 이상)")
             job.status, job.stage, job.progress, job.error = "queued", "대기 중", 0, ""

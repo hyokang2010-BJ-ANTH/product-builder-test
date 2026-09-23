@@ -18,6 +18,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 import numpy as np
+from PIL import Image
 
 from .colmap_io import read_db_cameras, read_db_images, read_images_txt, write_text_model
 from .geometry import camera_center, look_at_world_to_cam, rig_radius
@@ -29,7 +30,9 @@ class ReconOptions:
     mode: str = "sfm"  # "sfm" | "rig"
     matcher: str = "auto"  # "auto" | "exhaustive" | "sequential"
     single_camera: bool = True
-    camera_model: str = "OPENCV"
+    # SIMPLE_RADIAL(f, cx, cy, k): 보정되지 않은 카메라에서 가장 안정적. OPENCV 는 왜곡계수가 많아
+    # 초기 2장 조정 때 초점거리가 무너지면 이후 사진이 전혀 등록되지 않는 경우가 있다.
+    camera_model: str = "SIMPLE_RADIAL"
     use_masks: bool = True
     dense: bool = False
     rig_radius_mm: float | None = None  # sfm 모드 스케일 복원용 촬영 반경
@@ -139,6 +142,32 @@ def _rig_prior_model(work: Path, shots_by_name: dict[str, Shot], scales: dict[st
     return prior
 
 
+def _known_intrinsics(
+    images: Path, shots_by_name: dict[str, Shot], scales: dict[str, float], opts: ReconOptions
+) -> str | None:
+    """매니페스트/옵션의 초점거리를 COLMAP 초기값 "f,cx,cy,k" 로 (단일 카메라 + SIMPLE_RADIAL 일 때만).
+
+    EXIF 도 초점거리 정보도 없으면 COLMAP 은 1.2×긴 변으로 추정하는데, 그 추정이 틀리면 등록률이 크게 떨어진다.
+    """
+    if not opts.single_camera or opts.camera_model != "SIMPLE_RADIAL" or not shots_by_name:
+        return None
+    first = next(iter(shots_by_name))
+    scale = scales.get(first, 1.0)
+    fs = {round(s.focal_px * scales.get(n, 1.0), 3) for n, s in shots_by_name.items() if s.focal_px}
+    if len(fs) == 1:
+        f = fs.pop()
+    elif not fs and opts.focal_px:
+        f = opts.focal_px * scale
+    else:
+        return None
+    path = images / first
+    if not path.exists():
+        return None
+    with Image.open(path) as im:
+        w, h = im.size
+    return f"{f:.6g},{w / 2:.6g},{h / 2:.6g},0"
+
+
 def estimate_frame(model_txt: Path, rig_radius_mm: float | None, front_image: str | None = None) -> dict:
     """모델 좌표계 정보를 계산한다: mm 스케일, 위쪽 벡터, 앞쪽 힌트, 머리 중심 추정."""
     imgs = read_images_txt(model_txt / "images.txt")
@@ -182,6 +211,9 @@ def reconstruct(work: str | Path, shots: list[Shot], opts: ReconOptions) -> dict
                "--ImageReader.single_camera", int(opts.single_camera)]  # fmt: skip
     if opts.use_masks and masks.is_dir():
         extract += ["--ImageReader.mask_path", masks]
+    prior = _known_intrinsics(images, shots_by_name, scales, opts)
+    if prior:
+        extract += ["--ImageReader.camera_params", prior]
     _run(opts, *extract, *_gpu_flags(opts, "extract"))
 
     matcher = _pick_matcher(opts, n_images)
