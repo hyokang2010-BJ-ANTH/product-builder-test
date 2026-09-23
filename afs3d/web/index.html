@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AFS 3D 스튜디오</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <div class="brand-name">AFS 3D 스튜디오</div>
+        <div class="brand-sub">원내 전용 · 사진은 이 PC 에만 저장</div>
+      </div>
+    </div>
+    <button id="newJobBtn" class="btn primary block">새 촬영 세트 올리기</button>
+    <h2 class="rail-title">작업 목록</h2>
+    <ul id="jobList" class="job-list" aria-live="polite"></ul>
+  </aside>
+
+  <main id="main">
+    <!-- 새 작업 -->
+    <section id="newView" class="view">
+      <header class="view-head">
+        <h1>각도별 사진으로 3D 모델 만들기</h1>
+        <p class="muted">AFS 에서 내보낸 사진 폴더를 통째로 끌어다 놓으세요. 사진은 이 PC 안에서만 처리됩니다.</p>
+      </header>
+
+      <div id="drop" class="drop" tabindex="0" role="button" aria-describedby="dropHelp">
+        <div class="drop-icon" aria-hidden="true"></div>
+        <div class="drop-title">사진 폴더 또는 파일을 여기에 놓기</div>
+        <div id="dropHelp" class="muted small">JPG · PNG · TIF, 촬영 각도 파일(manifest.csv), 또는 ZIP · 권장 60~150장</div>
+        <div class="drop-actions">
+          <label class="btn">파일 선택<input id="fileInput" type="file" multiple accept=".jpg,.jpeg,.png,.tif,.tiff,.bmp,.csv,.zip" hidden></label>
+          <label class="btn">폴더 선택<input id="dirInput" type="file" webkitdirectory multiple hidden></label>
+        </div>
+      </div>
+
+      <div id="picked" class="picked" hidden>
+        <div class="picked-head">
+          <strong id="pickedCount"></strong>
+          <span id="pickedMeta" class="muted small"></span>
+          <button id="clearBtn" class="btn ghost small">비우기</button>
+        </div>
+        <div id="thumbs" class="thumbs"></div>
+      </div>
+
+      <form id="optForm" class="opts" autocomplete="off">
+        <div class="field">
+          <label for="label">케이스 이름</label>
+          <input id="label" name="label" maxlength="80" placeholder="예: 차트번호 12345 · 2026-09 방문">
+          <div class="hint">환자 실명 대신 차트번호나 가명을 권장합니다.</div>
+        </div>
+        <div class="field">
+          <label for="radius">촬영 반경 (mm)</label>
+          <input id="radius" name="radius" type="number" min="100" max="2000" step="1" placeholder="예: 450">
+          <div class="hint">카메라 ~ 머리 중심 거리. 입력하면 결과가 실제 크기(mm, cm²)로 나옵니다. manifest.csv 에 radius_mm 이 있으면 비워도 됩니다.</div>
+        </div>
+        <fieldset class="field">
+          <legend>카메라 위치 추정 방식</legend>
+          <label class="radio"><input type="radio" name="mode" value="sfm" checked> 사진으로 추정 <span class="muted small">(기본 · 환자 움직임에 강함)</span></label>
+          <label class="radio"><input type="radio" name="mode" value="rig"> 장비 각도값 사용 <span class="muted small">(manifest.csv 필요)</span></label>
+        </fieldset>
+        <fieldset class="field">
+          <legend>처리 옵션</legend>
+          <label class="check"><input type="checkbox" id="mask" checked> 배경 제거 <span class="muted small">(단색 배경막 촬영 시 권장)</span></label>
+          <label class="check"><input type="checkbox" id="dropFlagged"> 흔들리거나 노출이 튄 사진 자동 제외</label>
+          <label class="check"><input type="checkbox" id="dense"> 메쉬 생성 + 탈모 면적 분석 <span class="muted small">(NVIDIA GPU 필요 · 20~60분)</span></label>
+        </fieldset>
+        <div class="submit-row">
+          <button id="submitBtn" type="submit" class="btn primary" disabled>업로드하고 3D 만들기</button>
+          <div id="uploadStatus" class="muted small" aria-live="polite"></div>
+        </div>
+        <div id="uploadBar" class="bar" hidden><span></span></div>
+      </form>
+    </section>
+
+    <!-- 작업 상세 -->
+    <section id="jobView" class="view" hidden>
+      <header class="view-head job-head">
+        <div>
+          <div class="eyebrow" id="jobId"></div>
+          <h1 id="jobTitle"></h1>
+          <div class="muted small" id="jobMeta"></div>
+        </div>
+        <div class="head-actions">
+          <span id="jobPill" class="pill"></span>
+          <button id="retryBtn" class="btn small" hidden>다시 시작</button>
+          <button id="cancelBtn" class="btn small" hidden>취소</button>
+          <button id="deleteBtn" class="btn small danger">삭제</button>
+        </div>
+      </header>
+
+      <div id="progressBox" class="progress-box">
+        <div class="progress-top"><strong id="stageName"></strong><span id="stagePct" class="mono"></span></div>
+        <div class="bar"><span id="stageBar"></span></div>
+        <ol id="steps" class="steps"></ol>
+      </div>
+
+      <div id="errorBox" class="alert error" hidden></div>
+      <div id="warnBox" class="alert warn" hidden></div>
+
+      <div id="resultBox" class="result" hidden>
+        <div class="viewer">
+          <div id="stage" class="stage">
+            <div class="seg" id="viewSeg" role="group" aria-label="3D 보기 선택"></div>
+            <div class="stage-hint">드래그: 회전 · 휠: 확대 · 우클릭 드래그: 이동</div>
+          </div>
+          <div class="facts">
+            <h2>결과 요약</h2>
+            <dl id="facts" class="kv"></dl>
+            <div id="legend" class="legend"></div>
+            <div class="downloads">
+              <h3>파일 받기</h3>
+              <div id="downloads" class="dl-list"></div>
+            </div>
+          </div>
+        </div>
+        <figure id="topFig" class="top" hidden>
+          <figcaption>정수리 지도 — 왼쪽 원래 색, 오른쪽 노출 두피(빨강)·모발(파랑). 위쪽이 이마 방향, 막대 5 cm.</figcaption>
+          <img id="topImg" alt="정수리 위에서 본 두피 지도">
+        </figure>
+      </div>
+
+      <details class="log">
+        <summary>처리 기록 보기</summary>
+        <pre id="logBox"></pre>
+      </details>
+    </section>
+  </main>
+</div>
+
+<script src="/static/vendor/three.min.js"></script>
+<script src="/static/vendor/OrbitControls.js"></script>
+<script src="/static/vendor/PLYLoader.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

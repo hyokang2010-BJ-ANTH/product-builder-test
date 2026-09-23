@@ -10,6 +10,7 @@ __pycache__/
 afs3d/work*/
 afs3d/data/
 afs3d/demo_data/
+afs3d/jobs/
 afs3d/**/*.db
 afs3d/**/*.ply
 .pytest_cache/

@@ -6,6 +6,7 @@
   analyze      메쉬에서 두피 노출 면적/지도 계산
   run          check → prep → reconstruct → analyze 일괄 실행
   demo         합성 두상 촬영 세트 생성 (실제 환자 사진 없이 시험)
+  serve        원내 웹 앱: 브라우저에서 사진을 올리면 3D 모델·분석 결과 생성
 """
 from __future__ import annotations
 
@@ -188,6 +189,13 @@ def cmd_demo(args) -> int:
     return 0
 
 
+def cmd_serve(args) -> int:
+    from .server import serve
+
+    serve(host=args.host, port=args.port, data_dir=args.data_dir, token=args.token)
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="afs3d", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--version", action="version", version=__version__)
@@ -229,6 +237,13 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", default="demo_data")
     s.add_argument("--seed", type=int, default=0)
     s.set_defaults(func=cmd_demo)
+
+    s = sub.add_parser("serve", help="원내 웹 앱 (사진 업로드 → 3D 모델)")
+    s.add_argument("--host", default="127.0.0.1", help="원내 다른 PC 에서 접속하려면 0.0.0.0 (토큰 자동 생성)")
+    s.add_argument("--port", type=int, default=8765)
+    s.add_argument("--data-dir", default="jobs", help="업로드 사진·결과 저장 폴더 (환자 데이터)")
+    s.add_argument("--token", help="접속 토큰 직접 지정 (기본: 외부 접속 허용 시 자동 생성)")
+    s.set_defaults(func=cmd_serve)
     return p
 
 

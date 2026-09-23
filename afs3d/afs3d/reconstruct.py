@@ -145,7 +145,7 @@ def estimate_frame(model_txt: Path, rig_radius_mm: float | None, front_image: st
     centers = np.array([im.center for im in imgs])
     up = np.mean([im.up_world for im in imgs], axis=0)
     up /= np.linalg.norm(up)
-    info: dict = {"n_registered": len(imgs), "up": up.tolist()}
+    info: dict = {"n_registered": len(imgs), "up": up.tolist(), "camera_centers": centers.round(6).tolist()}
     if len(imgs) >= 4:
         c, r, kind = rig_radius(centers)
         info.update({"rig_center": c.tolist(), "rig_radius_model": r, "rig_fit": kind})
@@ -211,8 +211,11 @@ def reconstruct(work: str | Path, shots: list[Shot], opts: ReconOptions) -> dict
     model_txt = work / "sparse_txt"
     model_txt.mkdir(exist_ok=True)
     _run(opts, "model_converter", "--input_path", model, "--output_path", model_txt, "--output_type", "TXT")
+    # GPU 없이도 결과를 눈으로 확인할 수 있도록 sparse 점군을 PLY 로도 내보낸다
+    _run(opts, "model_converter", "--input_path", model, "--output_path", work / "sparse.ply", "--output_type", "PLY")
 
-    result: dict = {"mode": opts.mode, "model": str(model), "model_txt": str(model_txt), "n_input": n_images}
+    result: dict = {"mode": opts.mode, "model": str(model), "model_txt": str(model_txt), "n_input": n_images,
+                    "sparse_ply": str(work / "sparse.ply")}  # fmt: skip
     if not opts.dry_run:
         result.update(estimate_frame(model_txt, None if opts.mode == "rig" else opts.rig_radius_mm))
         if opts.mode == "rig":
