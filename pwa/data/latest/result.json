@@ -1,62 +1,75 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "topic": {
     "source_type": "paper",
-    "pmid": "42772662",
-    "title": "H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
-    "journal": "Experimental cell research",
-    "pub_date": "2026 Sep 22",
+    "pmid": "42781563",
+    "title": "A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
+    "journal": "Clinical, cosmetic and investigational dermatology",
+    "pub_date": "2026",
     "authors": [
-      "Guanyu L",
-      "Xuejun N",
-      "Chen L"
+      "Park JH"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42772662/",
-    "id": "pmid:42772662",
-    "abstract": "Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood. Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal. Stem cells prefer glycolysis as their main energy source. Here, cultured human HFSCs were exposed to 2%O2. Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression. Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression. Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways. FBXW11 was prioritized as a candidate E3 ubiquitin ligase target. IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression. FBXW11 overexpression increased EdU incorporation, colony formation, and HFSC-associated marker expression, while FBXW11 knockdown attenuated hypoxia-induced clonogenic growth and proliferation. In an ex vivo whole-hair-follicle culture model, hypoxia enhanced hair shaft elongation, and this effect was reduced by FBXW11 knockdown. Together, these findings support a hypoxia-glycolysis/lactate-H3K18la-FBXW11 pathway that contributes to proliferative and self-renewal-associated phenotypes of cultured HFSCs and to hypoxia-responsive hair shaft growth ex vivo. Further in vivo studies are required to establish its role in physiological hair cycle."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42781563/",
+    "id": "pmid:42781563",
+    "abstract": "Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl. Methods: This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed. The model was applied to acute insertion angles and radial whorl implantation. Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°. As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution. At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression. Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces. Conclusion: Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling. The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations."
   },
   "script": {
-    "hook": "줄기세포 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "줄기세포",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Experimental cell research》 - H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
+    "hook": "72% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "72%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Clinical, cosmetic and investigational dermatology》 - A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
     "highlights": [
-      "Here, cultured human HFSCs were exposed to 2%O2.",
-      "Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.",
-      "Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways."
+      "Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.",
+      "Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.",
+      "As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Objective",
         "kind": "intro",
         "sentences": [
-          "Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood.",
-          "Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal.",
-          "Stem cells prefer glycolysis as their main energy source."
+          "To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed.",
+          "The model was applied to acute insertion angles and radial whorl implantation."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "Here, cultured human HFSCs were exposed to 2%O2.",
-          "Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression.",
-          "Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.",
-          "Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.",
-          "FBXW11 was prioritized as a candidate E3 ubiquitin ligase target.",
-          "IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression."
+          "Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.",
+          "As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.",
+          "At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression.",
+          "Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling.",
+          "The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 줄기세포 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells\n저널: Experimental cell research\n저자: Guanyu L, Xuejun N, Chen L 외\n발행: 2026 Sep 22\n원문: https://pubmed.ncbi.nlm.nih.gov/42772662/\n\n[한눈에 보기]\n- Here, cultured human HFSCs were exposed to 2%O2.\n- Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.\n- Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Hair follicle stem cells (HFSCs) reside in a relatively hypoxic niche and preferentially use glycolytic metabolism, but how metabolic adaptation is coupled to epigenetic regulation of HFSC function remains incompletely understood.\n  · Since oxidative phosphorylation produces more reactive oxygen species (ROS) than glycolysis, and excessive ROS production eliminates various stem cell properties including quiescence and self-renewal.\n  · Stem cells prefer glycolysis as their main energy source.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Here, cultured human HFSCs were exposed to 2%O2.\n  · Hypoxia increased HIF-1α expression, glycolysis-related gene expression, intracellular H3K18 histone lactylation (H3K18la), EdU incorporation, colony-forming efficiency, and HFSC-associated markers CK15, CK19, and CD34 expression.\n  · Separate treatment with the glycolysis inhibitors 2-deoxy-D-glucose (2-DG) or oxamate reduced lactate accumulation, H3K18la, and HFSC-associated marker expression.\n  · Integrated H3K18la CUT&Tag and RNA sequencing identified 822 genes with concordantly increased H3K18la peaks and mRNA levels, with ubiquitin-mediated proteolysis among the enriched pathways.\n  · FBXW11 was prioritized as a candidate E3 ubiquitin ligase target.\n  · IGV visualization and H3K18la ChIP-qPCR showed increased H3K18la enrichment at the FBXW11 locus under hypoxia, whereas 2-DG or the p300 inhibitor C646 attenuated H3K18la enrichment and FBXW11 expression.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42772662/",
-    "reference_title": "H3K18 histone lactylation mediates hypoxia-induced FBXW11 upregulation and supports proliferative and self-renewal-associated properties of hair follicle stem cells",
+    "full_script": "[훅] 72% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation\n저널: Clinical, cosmetic and investigational dermatology\n저자: Park JH 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42781563/\n\n[한눈에 보기]\n- Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.\n- Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.\n- As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Objective\n  · To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.\n\n◆ 연구 방법 — Methods\n  · This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed.\n  · The model was applied to acute insertion angles and radial whorl implantation.\n\n◆ 주요 결과 — Results\n  · Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.\n  · As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.\n  · At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression.\n  · Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces.\n\n◆ 결론 — Conclusion\n  · Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling.\n  · The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42781563/",
+    "reference_title": "A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
     "reference_type": "paper"
   },
   "assets": {

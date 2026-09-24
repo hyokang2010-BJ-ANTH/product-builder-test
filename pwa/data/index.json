@@ -1,7 +1,20 @@
 {
-  "count": 26,
-  "updated": "2026-09-24",
+  "count": 27,
+  "updated": "2026-09-25",
   "items": [
+    {
+      "date": "2026-09-25",
+      "dir": "2026-09-25",
+      "title": "A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42781563/",
+      "hook_accent": "72%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-09-25/paper_card.png",
+      "pptx": "2026-09-25/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-24",
       "dir": "2026-09-24",
