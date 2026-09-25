@@ -1,7 +1,20 @@
 {
-  "count": 27,
-  "updated": "2026-09-25",
+  "count": 28,
+  "updated": "2026-09-26",
   "items": [
+    {
+      "date": "2026-09-26",
+      "dir": "2026-09-26",
+      "title": "Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis",
+      "journal": "Journal of the American Academy of Dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42785684/",
+      "hook_accent": "원형탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-26/paper_card.png",
+      "pptx": "2026-09-26/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-25",
       "dir": "2026-09-25",

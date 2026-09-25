@@ -1,39 +1,49 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "topic": {
     "source_type": "paper",
-    "pmid": "42781563",
-    "title": "A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
-    "journal": "Clinical, cosmetic and investigational dermatology",
-    "pub_date": "2026",
+    "pmid": "42785684",
+    "title": "Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis",
+    "journal": "Journal of the American Academy of Dermatology",
+    "pub_date": "2026 Sep 24",
     "authors": [
-      "Park JH"
+      "Ezzat RZ",
+      "Paz M",
+      "Kreytak C"
     ],
     "pubtypes": [
       "Journal Article",
       "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42781563/",
-    "id": "pmid:42781563",
-    "abstract": "Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl. Methods: This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed. The model was applied to acute insertion angles and radial whorl implantation. Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°. As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution. At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression. Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces. Conclusion: Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling. The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42785684/",
+    "id": "pmid:42785684",
+    "abstract": "Background: JAK inhibitors are increasingly used as systemic therapies for inflammatory dermatoses, but adults aged 65 and older are underrepresented in their clinical trials. Objective: To synthesize the efficacy, safety, and regulatory evidence on JAK inhibitors in adults aged 65 and older with atopic dermatitis, alopecia areata, and psoriasis. Methods: Clinical review synthesizing phase 3 trials, integrated safety analyses, real-world cohorts, and FDA/EMA labeling with age-stratified outcomes into practice recommendations (Supplementary Appendix 1B). Results: In atopic dermatitis, upadacitinib 15 mg and abrocitinib 100 mg are effective in older adults, with higher doses generally avoided. In alopecia areata, baricitinib shows efficacy in small older-adult cohorts, while ritlecitinib data in this age group remain too limited for age-specific conclusions. In psoriasis, deucravacitinib provides durable responses and avoids boxed warnings for MACE or VTE, while catalytic JAK inhibitors for psoriatic arthritis need label-directed dosing and close monitoring. Conclusion: JAK inhibitors may be a reasonable option for carefully selected older adults, but the decision should be a deliberate one. It rests on disease-specific efficacy, baseline cardiovascular and oncologic risk, modifiable comorbidities, label-directed dosing, and close monitoring. Age-stratified data remain sparse, and each decision should be individualized."
   },
   "script": {
-    "hook": "72% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "72%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Clinical, cosmetic and investigational dermatology》 - A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
+    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "원형탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Journal of the American Academy of Dermatology》 - Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis",
     "highlights": [
-      "Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.",
-      "Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.",
-      "As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution."
+      "Background: JAK inhibitors are increasingly used as systemic therapies for inflammatory dermatoses, but adults aged 65 and older are underrepresented in their clinical trials.",
+      "Objective: To synthesize the efficacy, safety, and regulatory evidence on JAK inhibitors in adults aged 65 and older with atopic dermatitis, alopecia areata, and psoriasis.",
+      "Results: In atopic dermatitis, upadacitinib 15 mg and abrocitinib 100 mg are effective in older adults, with higher doses generally avoided."
     ],
     "sections": [
+      {
+        "label": "배경",
+        "title": "Background",
+        "kind": "intro",
+        "sentences": [
+          "JAK inhibitors are increasingly used as systemic therapies for inflammatory dermatoses, but adults aged 65 and older are underrepresented in their clinical trials."
+        ]
+      },
       {
         "label": "배경",
         "title": "Objective",
         "kind": "intro",
         "sentences": [
-          "To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl."
+          "To synthesize the efficacy, safety, and regulatory evidence on JAK inhibitors in adults aged 65 and older with atopic dermatitis, alopecia areata, and psoriasis."
         ]
       },
       {
@@ -41,8 +51,7 @@
         "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed.",
-          "The model was applied to acute insertion angles and radial whorl implantation."
+          "Clinical review synthesizing phase 3 trials, integrated safety analyses, real-world cohorts, and FDA/EMA labeling with age-stratified outcomes into practice recommendations (Supplementary Appendix 1B)."
         ]
       },
       {
@@ -50,10 +59,9 @@
         "title": "Results",
         "kind": "results",
         "sentences": [
-          "Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.",
-          "As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.",
-          "At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression.",
-          "Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces."
+          "In atopic dermatitis, upadacitinib 15 mg and abrocitinib 100 mg are effective in older adults, with higher doses generally avoided.",
+          "In alopecia areata, baricitinib shows efficacy in small older-adult cohorts, while ritlecitinib data in this age group remain too limited for age-specific conclusions.",
+          "In psoriasis, deucravacitinib provides durable responses and avoids boxed warnings for MACE or VTE, while catalytic JAK inhibitors for psoriatic arthritis need label-directed dosing and close monitoring."
         ]
       },
       {
@@ -61,15 +69,16 @@
         "title": "Conclusion",
         "kind": "conclusion",
         "sentences": [
-          "Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling.",
-          "The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations."
+          "JAK inhibitors may be a reasonable option for carefully selected older adults, but the decision should be a deliberate one.",
+          "It rests on disease-specific efficacy, baseline cardiovascular and oncologic risk, modifiable comorbidities, label-directed dosing, and close monitoring.",
+          "Age-stratified data remain sparse, and each decision should be individualized."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 72% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation\n저널: Clinical, cosmetic and investigational dermatology\n저자: Park JH 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42781563/\n\n[한눈에 보기]\n- Objective: To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.\n- Results: Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.\n- As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Objective\n  · To develop a first-principles biomechanical framework that may explain graft popping in sharp implanter hair transplantation and to apply it to two high-risk geometries-the anterior hairline and the parietal whorl.\n\n◆ 연구 방법 — Methods\n  · This theoretical analysis used simplified first-order geometric approximations of force-vector decomposition, bevel-tip geometry, scalp elasticity, and recipient-site pressure dynamics; no ex vivo or clinical measurements were performed.\n  · The model was applied to acute insertion angles and radial whorl implantation.\n\n◆ 주요 결과 — Results\n  · Bevel penetration is estimated to generate a lateral force of F lateral = ½ sin(2α) · F axial, approximately 20-25% of the axial force at bevel angles of 12-15°.\n  · As insertion angle decreases toward the hairline, the normalized in-plane push-out force index rises from approximately 25% at perpendicular insertion to 72% at 60° and 90-103% at 15°, depending on the sign of the bevel contribution.\n  · At the whorl, the angular divergence between adjacent follicular exit vectors follows Δφ = d/r, which would favor centrifugal implantation along the natural spiral progression.\n  · Curved finger-driven trajectories, oscillating rotation, and excessive tumescence may further increase lateral or ejection forces.\n\n◆ 결론 — Conclusion\n  · Within this model, established preventive maneuvers for graft popping emerge as mechanical consequences of force direction, incision geometry, tissue elasticity, and recipient-site pressure coupling.\n  · The framework provides testable hypotheses for ex vivo, finite-element, and clinical validation rather than definitive clinical recommendations.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42781563/",
-    "reference_title": "A First-Principles Biomechanical Analysis of Graft Popping in Sharp Implanter Hair Transplantation",
+    "full_script": "[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis\n저널: Journal of the American Academy of Dermatology\n저자: Ezzat RZ, Paz M, Kreytak C 외\n발행: 2026 Sep 24\n원문: https://pubmed.ncbi.nlm.nih.gov/42785684/\n\n[한눈에 보기]\n- Background: JAK inhibitors are increasingly used as systemic therapies for inflammatory dermatoses, but adults aged 65 and older are underrepresented in their clinical trials.\n- Objective: To synthesize the efficacy, safety, and regulatory evidence on JAK inhibitors in adults aged 65 and older with atopic dermatitis, alopecia areata, and psoriasis.\n- Results: In atopic dermatitis, upadacitinib 15 mg and abrocitinib 100 mg are effective in older adults, with higher doses generally avoided.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · JAK inhibitors are increasingly used as systemic therapies for inflammatory dermatoses, but adults aged 65 and older are underrepresented in their clinical trials.\n\n◆ 배경 — Objective\n  · To synthesize the efficacy, safety, and regulatory evidence on JAK inhibitors in adults aged 65 and older with atopic dermatitis, alopecia areata, and psoriasis.\n\n◆ 연구 방법 — Methods\n  · Clinical review synthesizing phase 3 trials, integrated safety analyses, real-world cohorts, and FDA/EMA labeling with age-stratified outcomes into practice recommendations (Supplementary Appendix 1B).\n\n◆ 주요 결과 — Results\n  · In atopic dermatitis, upadacitinib 15 mg and abrocitinib 100 mg are effective in older adults, with higher doses generally avoided.\n  · In alopecia areata, baricitinib shows efficacy in small older-adult cohorts, while ritlecitinib data in this age group remain too limited for age-specific conclusions.\n  · In psoriasis, deucravacitinib provides durable responses and avoids boxed warnings for MACE or VTE, while catalytic JAK inhibitors for psoriatic arthritis need label-directed dosing and close monitoring.\n\n◆ 결론 — Conclusion\n  · JAK inhibitors may be a reasonable option for carefully selected older adults, but the decision should be a deliberate one.\n  · It rests on disease-specific efficacy, baseline cardiovascular and oncologic risk, modifiable comorbidities, label-directed dosing, and close monitoring.\n  · Age-stratified data remain sparse, and each decision should be individualized.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42785684/",
+    "reference_title": "Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis",
     "reference_type": "paper"
   },
   "assets": {
