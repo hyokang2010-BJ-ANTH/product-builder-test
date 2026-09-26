@@ -1,7 +1,20 @@
 {
-  "count": 28,
-  "updated": "2026-09-26",
+  "count": 29,
+  "updated": "2026-09-27",
   "items": [
+    {
+      "date": "2026-09-27",
+      "dir": "2026-09-27",
+      "title": "Hair Growth-Promoting Activity of a Biorenovated Esculetin Complex Through Modulation of Dermal Papilla Cell Function and Hair Follicle Cycling",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42797475/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Pharmaceuticals (Basel, Switzerland)에 실린 새 연구입니다",
+      "thumb": "2026-09-27/paper_card.png",
+      "pptx": "2026-09-27/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-26",
       "dir": "2026-09-26",
