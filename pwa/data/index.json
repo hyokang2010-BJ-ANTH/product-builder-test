@@ -1,7 +1,20 @@
 {
-  "count": 29,
-  "updated": "2026-09-27",
+  "count": 30,
+  "updated": "2026-09-28",
   "items": [
+    {
+      "date": "2026-09-28",
+      "dir": "2026-09-28",
+      "title": "Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
+      "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42801746/",
+      "hook_accent": "5%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-09-28/paper_card.png",
+      "pptx": "2026-09-28/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-27",
       "dir": "2026-09-27",

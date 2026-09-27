@@ -1,78 +1,63 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "topic": {
     "source_type": "paper",
-    "pmid": "42797475",
-    "title": "Hair Growth-Promoting Activity of a Biorenovated Esculetin Complex Through Modulation of Dermal Papilla Cell Function and Hair Follicle Cycling",
-    "journal": "Pharmaceuticals (Basel, Switzerland)",
-    "pub_date": "2026 Sep 10",
+    "pmid": "42801746",
+    "title": "Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
+    "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+    "pub_date": "2026 Sep 27",
     "authors": [
-      "Lee YJ",
-      "Han YJ",
-      "Oh JJ"
+      "David KP",
+      "Solórzano Flores C",
+      "Pineda A"
     ],
     "pubtypes": [
-      "Journal Article"
+      "Journal Article",
+      "Case Reports"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42797475/",
-    "id": "pmid:42797475",
-    "abstract": "Objectives: Hair loss is a prevalent condition influenced by genetic, hormonal, and environmental factors, and effective therapies with minimal side effects are highly desired. In this study, the hair growth-promoting potential of a biorenovated esculetin complex (BEC) was evaluated in a C57BL/6N mouse model. Methods: BEC was topically applied to the depilated dorsal skin of mice once daily for 24 days. Hair growth was evaluated by measuring hair length, thickness, and weight, together with histological assessment of hair follicle number, follicle depth, and dermal thickness. Protein expression associated with Wnt/β-catenin and AKT signaling was evaluated by Western blot analysis. Results: BEC treatment accelerated hair regrowth and increased hair length, thickness, and weight compared with the vehicle control under the present experimental conditions. Histological analysis of hematoxylin-and-eosin-stained skin sections showed increased hair follicle number and greater follicle depth in the BEC-treated group, whereas dermal thickness was not significantly altered. Western blot analysis showed changes in β-catenin, phospho-GSK-3β (Ser9), and PCNA levels following BEC treatment. The p-AKT/AKT ratio also showed an increasing trend, although the difference was not statistically significant. Conclusions: These findings demonstrate the hair growth-promoting activity of the BEC preparation in this short-term murine model and suggest that these effects are associated with changes in Wnt/β-catenin- and AKT-related signaling. Further studies are warranted to characterize the active components, dose dependence, mechanism of action, and safety profile of BEC."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42801746/",
+    "id": "pmid:42801746",
+    "abstract": "Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder. Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory. Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth. We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor. Laboratory studies showed normal thyroid function and low vitamin D levels. Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response. Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment. Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes. Psychological support was provided throughout management. This case highlights psychosocial stress as a potential contributor in pediatric AU and supports a multidisciplinary approach. Methotrexate was effective and well tolerated, and poliosis may be a marker of follicular recovery."
   },
   "script": {
-    "hook": "오늘의 논문 Pharmaceuticals (Basel, Switzerland)에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "Pharmaceuticals (Basel, Switzerland)에 실린 새 연구입니다",
-    "intro": "《Pharmaceuticals (Basel, Switzerland)》 - Hair Growth-Promoting Activity of a Biorenovated Esculetin Complex Through Modulation of Dermal Papilla Cell Function and Hair Follicle Cycling",
+    "hook": "5% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "5%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Acta dermatovenerologica Alpina, Pannonica, et Adriatica》 - Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
     "highlights": [
-      "Objectives: Hair loss is a prevalent condition influenced by genetic, hormonal, and environmental factors, and effective therapies with minimal side effects are highly desired.",
-      "In this study, the hair growth-promoting potential of a biorenovated esculetin complex (BEC) was evaluated in a C57BL/6N mouse model.",
-      "Methods: BEC was topically applied to the depilated dorsal skin of mice once daily for 24 days."
+      "We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.",
+      "Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.",
+      "Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Objectives",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Hair loss is a prevalent condition influenced by genetic, hormonal, and environmental factors, and effective therapies with minimal side effects are highly desired.",
-          "In this study, the hair growth-promoting potential of a biorenovated esculetin complex (BEC) was evaluated in a C57BL/6N mouse model."
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
-        "sentences": [
-          "BEC was topically applied to the depilated dorsal skin of mice once daily for 24 days.",
-          "Hair growth was evaluated by measuring hair length, thickness, and weight, together with histological assessment of hair follicle number, follicle depth, and dermal thickness.",
-          "Protein expression associated with Wnt/β-catenin and AKT signaling was evaluated by Western blot analysis."
+          "Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder.",
+          "Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory.",
+          "Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "BEC treatment accelerated hair regrowth and increased hair length, thickness, and weight compared with the vehicle control under the present experimental conditions.",
-          "Histological analysis of hematoxylin-and-eosin-stained skin sections showed increased hair follicle number and greater follicle depth in the BEC-treated group, whereas dermal thickness was not significantly altered.",
-          "Western blot analysis showed changes in β-catenin, phospho-GSK-3β (Ser9), and PCNA levels following BEC treatment.",
-          "The p-AKT/AKT ratio also showed an increasing trend, although the difference was not statistically significant."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusions",
-        "kind": "conclusion",
-        "sentences": [
-          "These findings demonstrate the hair growth-promoting activity of the BEC preparation in this short-term murine model and suggest that these effects are associated with changes in Wnt/β-catenin- and AKT-related signaling.",
-          "Further studies are warranted to characterize the active components, dose dependence, mechanism of action, and safety profile of BEC."
+          "We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.",
+          "Laboratory studies showed normal thyroid function and low vitamin D levels.",
+          "Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.",
+          "Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.",
+          "Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes.",
+          "Psychological support was provided throughout management."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Pharmaceuticals (Basel, Switzerland)에 실린 새 연구입니다\n\n[논문 정보]\n제목: Hair Growth-Promoting Activity of a Biorenovated Esculetin Complex Through Modulation of Dermal Papilla Cell Function and Hair Follicle Cycling\n저널: Pharmaceuticals (Basel, Switzerland)\n저자: Lee YJ, Han YJ, Oh JJ 외\n발행: 2026 Sep 10\n원문: https://pubmed.ncbi.nlm.nih.gov/42797475/\n\n[한눈에 보기]\n- Objectives: Hair loss is a prevalent condition influenced by genetic, hormonal, and environmental factors, and effective therapies with minimal side effects are highly desired.\n- In this study, the hair growth-promoting potential of a biorenovated esculetin complex (BEC) was evaluated in a C57BL/6N mouse model.\n- Methods: BEC was topically applied to the depilated dorsal skin of mice once daily for 24 days.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Objectives\n  · Hair loss is a prevalent condition influenced by genetic, hormonal, and environmental factors, and effective therapies with minimal side effects are highly desired.\n  · In this study, the hair growth-promoting potential of a biorenovated esculetin complex (BEC) was evaluated in a C57BL/6N mouse model.\n\n◆ 연구 방법 — Methods\n  · BEC was topically applied to the depilated dorsal skin of mice once daily for 24 days.\n  · Hair growth was evaluated by measuring hair length, thickness, and weight, together with histological assessment of hair follicle number, follicle depth, and dermal thickness.\n  · Protein expression associated with Wnt/β-catenin and AKT signaling was evaluated by Western blot analysis.\n\n◆ 주요 결과 — Results\n  · BEC treatment accelerated hair regrowth and increased hair length, thickness, and weight compared with the vehicle control under the present experimental conditions.\n  · Histological analysis of hematoxylin-and-eosin-stained skin sections showed increased hair follicle number and greater follicle depth in the BEC-treated group, whereas dermal thickness was not significantly altered.\n  · Western blot analysis showed changes in β-catenin, phospho-GSK-3β (Ser9), and PCNA levels following BEC treatment.\n  · The p-AKT/AKT ratio also showed an increasing trend, although the difference was not statistically significant.\n\n◆ 결론 — Conclusions\n  · These findings demonstrate the hair growth-promoting activity of the BEC preparation in this short-term murine model and suggest that these effects are associated with changes in Wnt/β-catenin- and AKT-related signaling.\n  · Further studies are warranted to characterize the active components, dose dependence, mechanism of action, and safety profile of BEC.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42797475/",
-    "reference_title": "Hair Growth-Promoting Activity of a Biorenovated Esculetin Complex Through Modulation of Dermal Papilla Cell Function and Hair Follicle Cycling",
+    "full_script": "[훅] 5% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management\n저널: Acta dermatovenerologica Alpina, Pannonica, et Adriatica\n저자: David KP, Solórzano Flores C, Pineda A 외\n발행: 2026 Sep 27\n원문: https://pubmed.ncbi.nlm.nih.gov/42801746/\n\n[한눈에 보기]\n- We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.\n- Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.\n- Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder.\n  · Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory.\n  · Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth.\n\n◆ 주요 결과 — Results (자동 구분)\n  · We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.\n  · Laboratory studies showed normal thyroid function and low vitamin D levels.\n  · Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.\n  · Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.\n  · Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes.\n  · Psychological support was provided throughout management.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42801746/",
+    "reference_title": "Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
     "reference_type": "paper"
   },
   "assets": {
