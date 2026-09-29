@@ -1,7 +1,20 @@
 {
-  "count": 31,
-  "updated": "2026-09-29",
+  "count": 32,
+  "updated": "2026-09-30",
   "items": [
+    {
+      "date": "2026-09-30",
+      "dir": "2026-09-30",
+      "title": "Exosome-based therapy for androgenetic alopecia: a systematic review of preclinical mechanisms and efficacy",
+      "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42809765/",
+      "hook_accent": "엑소좀",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-09-30/paper_card.png",
+      "pptx": "2026-09-30/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-29",
       "dir": "2026-09-29",
