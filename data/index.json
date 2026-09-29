@@ -1,7 +1,20 @@
 {
-  "count": 30,
-  "updated": "2026-09-28",
+  "count": 31,
+  "updated": "2026-09-29",
   "items": [
+    {
+      "date": "2026-09-29",
+      "dir": "2026-09-29",
+      "title": "Cross-cultural adaptation and assessment of psychometric properties of the Polish version of the Hairdex Life Quality Questionnaire (Hairdex-PL)",
+      "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42803085/",
+      "hook_accent": "55.9%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-09-29/paper_card.png",
+      "pptx": "2026-09-29/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-28",
       "dir": "2026-09-28",

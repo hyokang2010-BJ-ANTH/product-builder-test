@@ -1,63 +1,89 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "topic": {
     "source_type": "paper",
-    "pmid": "42801746",
-    "title": "Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
-    "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
-    "pub_date": "2026 Sep 27",
+    "pmid": "42803085",
+    "title": "Cross-cultural adaptation and assessment of psychometric properties of the Polish version of the Hairdex Life Quality Questionnaire (Hairdex-PL)",
+    "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+    "pub_date": "2026 Sep 28",
     "authors": [
-      "David KP",
-      "Solórzano Flores C",
-      "Pineda A"
+      "Mróz-Kijowska K",
+      "Juárez-Vela R",
+      "Martinez-Sabater A"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Case Reports"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42801746/",
-    "id": "pmid:42801746",
-    "abstract": "Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder. Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory. Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth. We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor. Laboratory studies showed normal thyroid function and low vitamin D levels. Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response. Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment. Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes. Psychological support was provided throughout management. This case highlights psychosocial stress as a potential contributor in pediatric AU and supports a multidisciplinary approach. Methotrexate was effective and well tolerated, and poliosis may be a marker of follicular recovery."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42803085/",
+    "id": "pmid:42803085",
+    "abstract": "Background: Hair and scalp disorders substantially impair health-related quality of life (HRQoL), yet no validated Polish-language disease-specific instrument is currently available to assess this burden. Objectives: This study aimed to translate, cross-culturally adapt, and assess the structural validity and internal consistency of the Polish version of the Hairdex questionnaire (Hairdex-PL). Material and methods: The original 48-item German Hairdex questionnaire was translated and culturally adapted according to the Beaton guidelines. Psychometric evaluation was performed in 245 adults with hair loss or scalp disorders recruited through an online survey. Structural validity was assessed using confirmatory factor analysis (CFA), followed by exploratory factor analysis (EFA) when the predefined model demonstrated inadequate fit. Internal consistency was assessed using Cronbach's α and McDonald's ω. Results: A total of 245 participants (55.9% women; 44.1% men; mean age 35.8 ±9.7 years) were included in the final analysis. Confirmatory factor analysis did not confirm the original 5-factor structure (root mean square error of approximation (RMSEA) = 0.234; comparative fit index (CFI) = 0.744; Tucker-Lewis index (TLI) = 0.749; standardized root mean square residual (SRMR) = 0.192). Exploratory factor analysis retained a single factor explaining 38.2% of the total variance. The greatest impairment in HRQoL was observed in the Self-confidence and Emotions domains, corresponding to the greatest impairment in the same items in the original Hairdex, whereas Functioning and Symptoms were the least affected. Stigmatization had an intermediate mean score. Internal consistency was high (Cronbach's α = 0.960; McDonald's ω = 0.963). Conclusions: Hairdex-PL showed high internal consistency and provided preliminary psychometric evidence supporting its use to assess disease-specific HRQoL in Polish-speaking individuals with hair and scalp disorders. Although confirmatory factor analysis did not support the original 5-factor structure, exploratory factor analysis identified a single factor in the present sample; this exploratory finding requires confirmation in an independent population. This study provides new evidence regarding its underlying measurement structure and supports further evaluation of the instrument in clinical and research settings."
   },
   "script": {
-    "hook": "5% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "5%",
+    "hook": "55.9% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "55.9%",
     "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Acta dermatovenerologica Alpina, Pannonica, et Adriatica》 - Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
+    "intro": "《Advances in clinical and experimental medicine : official organ Wroclaw Medical University》 - Cross-cultural adaptation and assessment of psychometric properties of the Polish version of the Hairdex Life Quality Questionnaire (Hairdex-PL)",
     "highlights": [
-      "We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.",
-      "Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.",
-      "Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment."
+      "Results: A total of 245 participants (55.9% women; 44.1% men; mean age 35.8 ±9.7 years) were included in the final analysis.",
+      "Confirmatory factor analysis did not confirm the original 5-factor structure (root mean square error of approximation (RMSEA) = 0.234; comparative fit index (CFI) = 0.744; Tucker-Lewis index (TLI) = 0.749; standardized root mean square residual (SRMR) = 0.192).",
+      "Internal consistency was high (Cronbach's α = 0.960; McDonald's ω = 0.963)."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder.",
-          "Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory.",
-          "Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth."
+          "Hair and scalp disorders substantially impair health-related quality of life (HRQoL), yet no validated Polish-language disease-specific instrument is currently available to assess this burden."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objectives",
+        "kind": "intro",
+        "sentences": [
+          "This study aimed to translate, cross-culturally adapt, and assess the structural validity and internal consistency of the Polish version of the Hairdex questionnaire (Hairdex-PL)."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "The original 48-item German Hairdex questionnaire was translated and culturally adapted according to the Beaton guidelines.",
+          "Psychometric evaluation was performed in 245 adults with hair loss or scalp disorders recruited through an online survey.",
+          "Structural validity was assessed using confirmatory factor analysis (CFA), followed by exploratory factor analysis (EFA) when the predefined model demonstrated inadequate fit.",
+          "Internal consistency was assessed using Cronbach's α and McDonald's ω."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.",
-          "Laboratory studies showed normal thyroid function and low vitamin D levels.",
-          "Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.",
-          "Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.",
-          "Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes.",
-          "Psychological support was provided throughout management."
+          "A total of 245 participants (55.9% women; 44.1% men; mean age 35.8 ±9.7 years) were included in the final analysis.",
+          "Confirmatory factor analysis did not confirm the original 5-factor structure (root mean square error of approximation (RMSEA) = 0.234; comparative fit index (CFI) = 0.744; Tucker-Lewis index (TLI) = 0.749; standardized root mean square residual (SRMR) = 0.192).",
+          "Exploratory factor analysis retained a single factor explaining 38.2% of the total variance.",
+          "The greatest impairment in HRQoL was observed in the Self-confidence and Emotions domains, corresponding to the greatest impairment in the same items in the original Hairdex, whereas Functioning and Symptoms were the least affected.",
+          "Stigmatization had an intermediate mean score.",
+          "Internal consistency was high (Cronbach's α = 0.960; McDonald's ω = 0.963)."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
+        "sentences": [
+          "Hairdex-PL showed high internal consistency and provided preliminary psychometric evidence supporting its use to assess disease-specific HRQoL in Polish-speaking individuals with hair and scalp disorders.",
+          "Although confirmatory factor analysis did not support the original 5-factor structure, exploratory factor analysis identified a single factor in the present sample; this exploratory finding requires confirmation in an independent population.",
+          "This study provides new evidence regarding its underlying measurement structure and supports further evaluation of the instrument in clinical and research settings."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 5% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management\n저널: Acta dermatovenerologica Alpina, Pannonica, et Adriatica\n저자: David KP, Solórzano Flores C, Pineda A 외\n발행: 2026 Sep 27\n원문: https://pubmed.ncbi.nlm.nih.gov/42801746/\n\n[한눈에 보기]\n- We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.\n- Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.\n- Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Alopecia areata (AA) is an immune-mediated non-scarring hair loss disorder.\n  · Severe forms, including alopecia totalis and alopecia universalis (AU), are rare in children and often refractory.\n  · Psychosocial stress has been implicated as a trigger, and pigmentary changes may occur during regrowth.\n\n◆ 주요 결과 — Results (자동 구분)\n  · We report a 9-year-old girl from Honduras with AU involving the scalp, eyebrows, eyelashes, and forearms, with nail pitting following a significant psychosocial stressor.\n  · Laboratory studies showed normal thyroid function and low vitamin D levels.\n  · Initial treatment included topical clobetasol propionate 0.05% for 6 months, topical minoxidil 5% for 12 months, and oral vitamin D supplementation for 6 months, with minimal response.\n  · Systemic therapy was initiated with oral corticosteroids (1 mg/kg/day) tapered over 4 months, followed by oral methotrexate (12 mg/m²/week) for 1 year; topical therapies were maintained concurrently throughout systemic treatment.\n  · Hair regrowth began at 3 months of methotrexate, initially as diffuse poliosis, followed by complete terminal hair regrowth and normalization of nail changes.\n  · Psychological support was provided throughout management.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42801746/",
-    "reference_title": "Pediatric alopecia universalis with poliosis post-psychosocial stress: a case report on methotrexate and adjunctive management",
+    "full_script": "[훅] 55.9% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Cross-cultural adaptation and assessment of psychometric properties of the Polish version of the Hairdex Life Quality Questionnaire (Hairdex-PL)\n저널: Advances in clinical and experimental medicine : official organ Wroclaw Medical University\n저자: Mróz-Kijowska K, Juárez-Vela R, Martinez-Sabater A 외\n발행: 2026 Sep 28\n원문: https://pubmed.ncbi.nlm.nih.gov/42803085/\n\n[한눈에 보기]\n- Results: A total of 245 participants (55.9% women; 44.1% men; mean age 35.8 ±9.7 years) were included in the final analysis.\n- Confirmatory factor analysis did not confirm the original 5-factor structure (root mean square error of approximation (RMSEA) = 0.234; comparative fit index (CFI) = 0.744; Tucker-Lewis index (TLI) = 0.749; standardized root mean square residual (SRMR) = 0.192).\n- Internal consistency was high (Cronbach's α = 0.960; McDonald's ω = 0.963).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Hair and scalp disorders substantially impair health-related quality of life (HRQoL), yet no validated Polish-language disease-specific instrument is currently available to assess this burden.\n\n◆ 배경 — Objectives\n  · This study aimed to translate, cross-culturally adapt, and assess the structural validity and internal consistency of the Polish version of the Hairdex questionnaire (Hairdex-PL).\n\n◆ 연구 방법 — Methods\n  · The original 48-item German Hairdex questionnaire was translated and culturally adapted according to the Beaton guidelines.\n  · Psychometric evaluation was performed in 245 adults with hair loss or scalp disorders recruited through an online survey.\n  · Structural validity was assessed using confirmatory factor analysis (CFA), followed by exploratory factor analysis (EFA) when the predefined model demonstrated inadequate fit.\n  · Internal consistency was assessed using Cronbach's α and McDonald's ω.\n\n◆ 주요 결과 — Results\n  · A total of 245 participants (55.9% women; 44.1% men; mean age 35.8 ±9.7 years) were included in the final analysis.\n  · Confirmatory factor analysis did not confirm the original 5-factor structure (root mean square error of approximation (RMSEA) = 0.234; comparative fit index (CFI) = 0.744; Tucker-Lewis index (TLI) = 0.749; standardized root mean square residual (SRMR) = 0.192).\n  · Exploratory factor analysis retained a single factor explaining 38.2% of the total variance.\n  · The greatest impairment in HRQoL was observed in the Self-confidence and Emotions domains, corresponding to the greatest impairment in the same items in the original Hairdex, whereas Functioning and Symptoms were the least affected.\n  · Stigmatization had an intermediate mean score.\n  · Internal consistency was high (Cronbach's α = 0.960; McDonald's ω = 0.963).\n\n◆ 결론 — Conclusions\n  · Hairdex-PL showed high internal consistency and provided preliminary psychometric evidence supporting its use to assess disease-specific HRQoL in Polish-speaking individuals with hair and scalp disorders.\n  · Although confirmatory factor analysis did not support the original 5-factor structure, exploratory factor analysis identified a single factor in the present sample; this exploratory finding requires confirmation in an independent population.\n  · This study provides new evidence regarding its underlying measurement structure and supports further evaluation of the instrument in clinical and research settings.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42803085/",
+    "reference_title": "Cross-cultural adaptation and assessment of psychometric properties of the Polish version of the Hairdex Life Quality Questionnaire (Hairdex-PL)",
     "reference_type": "paper"
   },
   "assets": {
