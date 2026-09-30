@@ -1,70 +1,81 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "topic": {
     "source_type": "paper",
-    "pmid": "42809765",
-    "title": "Exosome-based therapy for androgenetic alopecia: a systematic review of preclinical mechanisms and efficacy",
-    "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
-    "pub_date": "2026 Sep",
+    "pmid": "42814435",
+    "title": "Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement",
+    "journal": "JAMA dermatology",
+    "pub_date": "2026 Sep 30",
     "authors": [
-      "Nareswari A",
-      "Dirgahayu P",
-      "Febrinasari RP"
+      "Akiska YM",
+      "Fu J",
+      "Castelo-Soccio L"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Systematic Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42809765/",
-    "id": "pmid:42809765",
-    "abstract": "Androgenetic alopecia (AGA) is a progressive hair disorder with a substantial psychosocial impact. Current therapies have variable efficacy and adherence challenges. Exosomes are emerging as regenerative candidates. We systematically appraised preclinical (in vivo / in vitro) evidence on exosome-based intervention for AGA following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed and Scopus. Eligible studies evaluated exosome or extracellular vesicle interventions in androgen-related alopecia models. Of 352 records, 16 studies met inclusion criteria, most employing male C57BL/6 mice with testosterone or dihydrotestosterone (DHT) induction alongside assays in dermal papilla cells (DPCs) and hair follicle stem cells. Sources include mesenchymal stem cell derived, DPC-derived, platelet-rich plasma derived, and engineered/primed exosomes, predominantly delivered via local intradermal/subcutaneous routes or topical microneedles/hydrogels over 2 to 4 weeks. Across studies, exosomes improved hair coverage and density, anagen/telogen ratio, follicle diameter, dermal thickness, and proliferation markers, while reducing apoptosis; mechanistic signals consistently showed reactivation of Wnt/β-catenin and down-modulation of TGF-β/SMAD3, with additional angiogenic support, anti-inflammatory effects, and mitigation of oxidative stress, and adverse signals were minimal in animals. Systematic Review Centre for Laboratory Animal Experimentation (SYRCLE) appraisal indicated generally low risk with common concerns regarding blinding and allocation concealment. Overall, exosome therapy demonstrates compelling preclinical efficacy for AGA via multi-target regenerative mechanisms."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42814435/",
+    "id": "pmid:42814435",
+    "abstract": "Importance: Low-dose oral minoxidil (LDOM) is increasingly used off-label to treat pediatric hair disorders; however, standardized guidance for patient selection, dosing, safety, and monitoring in patients younger than 12 years is lacking. Objective: To establish expert consensus recommendations for LDOM use in pediatric patients (age <12 years) with hair disorders. Evidence review: Survey development was informed by a review of the literature on LDOM pharmacology, safety, and clinical use, with emphasis on pediatric populations. A modified Delphi process was conducted from June 30, 2025, to March 7, 2026. Of 98 clinicians completing a prescreening survey, 51 met eligibility criteria (>10 pediatric patients treated with LDOM) and were invited to participate. Three iterative survey rounds were conducted using REDCap with multidisciplinary input. Consensus was defined as 70% or greater agreement on a 5-point Likert scale. Findings: Of 51 experts, 50 from 9 countries completed rounds 1 and 2, and 49 (98.0% retention rate) completed round 3, reflecting broad international representation. Of 127 initial items considered, 84 achieved consensus. LDOM is supported for pediatric patients (aged ≥4 to <12 years) for hair follicle miniaturization (100%), hair cycle abnormalities (100%), and hair shaft disorders (84%), with adjunctive use in select scarring alopecia (98%). Preference for LDOM over topical minoxidil included concerns for logistical difficulty, poor tolerability, inadequate efficacy, caregiver preference, diffuse hair loss, sensory sensitivities, or risk of toxic effects in domestic animals (pets) (74%-96%). Both fixed weight-based and mg/kg dosing strategies met consensus. Fixed dosing aligned with available tablet formulations (weight <20 kg, 0.250-0.625 mg; 20-40 kg, 1.250 mg; >40 kg, 1.875 mg [ 80%]), while a starting dosage of 0.01 to 0.02 mg/kg/d (73.5%) provided a flexible alternative. Dosage escalation of 50% to 100% and reassessment every 3 to 6 months reached consensus. Contraindications included pericardial effusion or tamponade and pheochromocytoma. For experts, routine baseline testing and blood pressure monitoring were not universally necessary in patients at low risk. LDOM was supported as long-term therapy with tapering strategies, and as combination therapy with additional agents (eg, spironolactone, corticosteroids, Janus kinase inhibitors, and other immunosuppressants) as appropriate for subtype of hair loss. Conclusions and relevance: This international consensus statement provides a structured, pediatric-specific framework for LDOM use, supporting it as a flexible, nonimmunosuppressive therapeutic strategy and addressing key gaps in dosing, safety, and monitoring."
   },
   "script": {
-    "hook": "엑소좀 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "엑소좀",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Acta dermatovenerologica Alpina, Pannonica, et Adriatica》 - Exosome-based therapy for androgenetic alopecia: a systematic review of preclinical mechanisms and efficacy",
+    "hook": "100% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "100%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《JAMA dermatology》 - Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement",
     "highlights": [
-      "We systematically appraised preclinical (in vivo / in vitro) evidence on exosome-based intervention for AGA following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed and Scopus.",
-      "Of 352 records, 16 studies met inclusion criteria, most employing male C57BL/6 mice with testosterone or dihydrotestosterone (DHT) induction alongside assays in dermal papilla cells (DPCs) and hair follicle stem cells.",
-      "Sources include mesenchymal stem cell derived, DPC-derived, platelet-rich plasma derived, and engineered/primed exosomes, predominantly delivered via local intradermal/subcutaneous routes or topical microneedles/hydrogels over 2 to 4 weeks."
+      "Findings: Of 51 experts, 50 from 9 countries completed rounds 1 and 2, and 49 (98.0% retention rate) completed round 3, reflecting broad international representation.",
+      "LDOM is supported for pediatric patients (aged ≥4 to <12 years) for hair follicle miniaturization (100%), hair cycle abnormalities (100%), and hair shaft disorders (84%), with adjunctive use in select scarring alopecia (98%).",
+      "Fixed dosing aligned with available tablet formulations (weight <20 kg, 0.250-0.625 mg; 20-40 kg, 1.250 mg; >40 kg, 1.875 mg [ 80%]), while a starting dosage of 0.01 to 0.02 mg/kg/d (73.5%) provided a flexible alternative."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background (자동 구분)",
+        "title": "Importance",
         "kind": "intro",
         "sentences": [
-          "Androgenetic alopecia (AGA) is a progressive hair disorder with a substantial psychosocial impact.",
-          "Current therapies have variable efficacy and adherence challenges.",
-          "Exosomes are emerging as regenerative candidates."
+          "Low-dose oral minoxidil (LDOM) is increasingly used off-label to treat pediatric hair disorders; however, standardized guidance for patient selection, dosing, safety, and monitoring in patients younger than 12 years is lacking."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objective",
+        "kind": "intro",
+        "sentences": [
+          "To establish expert consensus recommendations for LDOM use in pediatric patients (age <12 years) with hair disorders.",
+          "Evidence review: Survey development was informed by a review of the literature on LDOM pharmacology, safety, and clinical use, with emphasis on pediatric populations.",
+          "A modified Delphi process was conducted from June 30, 2025, to March 7, 2026.",
+          "Of 98 clinicians completing a prescreening survey, 51 met eligibility criteria (>10 pediatric patients treated with LDOM) and were invited to participate.",
+          "Three iterative survey rounds were conducted using REDCap with multidisciplinary input.",
+          "Consensus was defined as 70% or greater agreement on a 5-point Likert scale."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Findings",
         "kind": "results",
         "sentences": [
-          "We systematically appraised preclinical (in vivo / in vitro) evidence on exosome-based intervention for AGA following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed and Scopus.",
-          "Eligible studies evaluated exosome or extracellular vesicle interventions in androgen-related alopecia models.",
-          "Of 352 records, 16 studies met inclusion criteria, most employing male C57BL/6 mice with testosterone or dihydrotestosterone (DHT) induction alongside assays in dermal papilla cells (DPCs) and hair follicle stem cells.",
-          "Sources include mesenchymal stem cell derived, DPC-derived, platelet-rich plasma derived, and engineered/primed exosomes, predominantly delivered via local intradermal/subcutaneous routes or topical microneedles/hydrogels over 2 to 4 weeks.",
-          "Across studies, exosomes improved hair coverage and density, anagen/telogen ratio, follicle diameter, dermal thickness, and proliferation markers, while reducing apoptosis; mechanistic signals consistently showed reactivation of Wnt/β-catenin and down-modulation of TGF-β/SMAD3, with additional angiogenic support, anti-inflammatory effects, and mitigation of oxidative stress, and adverse signals were minimal in animals."
+          "Of 51 experts, 50 from 9 countries completed rounds 1 and 2, and 49 (98.0% retention rate) completed round 3, reflecting broad international representation.",
+          "Of 127 initial items considered, 84 achieved consensus.",
+          "LDOM is supported for pediatric patients (aged ≥4 to <12 years) for hair follicle miniaturization (100%), hair cycle abnormalities (100%), and hair shaft disorders (84%), with adjunctive use in select scarring alopecia (98%).",
+          "Preference for LDOM over topical minoxidil included concerns for logistical difficulty, poor tolerability, inadequate efficacy, caregiver preference, diffuse hair loss, sensory sensitivities, or risk of toxic effects in domestic animals (pets) (74%-96%).",
+          "Both fixed weight-based and mg/kg dosing strategies met consensus.",
+          "Fixed dosing aligned with available tablet formulations (weight <20 kg, 0.250-0.625 mg; 20-40 kg, 1.250 mg; >40 kg, 1.875 mg [ 80%]), while a starting dosage of 0.01 to 0.02 mg/kg/d (73.5%) provided a flexible alternative."
         ]
       },
       {
         "label": "결론",
-        "title": "Conclusion (자동 구분)",
+        "title": "Relevance",
         "kind": "conclusion",
         "sentences": [
-          "Systematic Review Centre for Laboratory Animal Experimentation (SYRCLE) appraisal indicated generally low risk with common concerns regarding blinding and allocation concealment."
+          "This international consensus statement provides a structured, pediatric-specific framework for LDOM use, supporting it as a flexible, nonimmunosuppressive therapeutic strategy and addressing key gaps in dosing, safety, and monitoring."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 엑소좀 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Exosome-based therapy for androgenetic alopecia: a systematic review of preclinical mechanisms and efficacy\n저널: Acta dermatovenerologica Alpina, Pannonica, et Adriatica\n저자: Nareswari A, Dirgahayu P, Febrinasari RP 외\n발행: 2026 Sep\n원문: https://pubmed.ncbi.nlm.nih.gov/42809765/\n\n[한눈에 보기]\n- We systematically appraised preclinical (in vivo / in vitro) evidence on exosome-based intervention for AGA following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed and Scopus.\n- Of 352 records, 16 studies met inclusion criteria, most employing male C57BL/6 mice with testosterone or dihydrotestosterone (DHT) induction alongside assays in dermal papilla cells (DPCs) and hair follicle stem cells.\n- Sources include mesenchymal stem cell derived, DPC-derived, platelet-rich plasma derived, and engineered/primed exosomes, predominantly delivered via local intradermal/subcutaneous routes or topical microneedles/hydrogels over 2 to 4 weeks.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Androgenetic alopecia (AGA) is a progressive hair disorder with a substantial psychosocial impact.\n  · Current therapies have variable efficacy and adherence challenges.\n  · Exosomes are emerging as regenerative candidates.\n\n◆ 주요 결과 — Results (자동 구분)\n  · We systematically appraised preclinical (in vivo / in vitro) evidence on exosome-based intervention for AGA following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed and Scopus.\n  · Eligible studies evaluated exosome or extracellular vesicle interventions in androgen-related alopecia models.\n  · Of 352 records, 16 studies met inclusion criteria, most employing male C57BL/6 mice with testosterone or dihydrotestosterone (DHT) induction alongside assays in dermal papilla cells (DPCs) and hair follicle stem cells.\n  · Sources include mesenchymal stem cell derived, DPC-derived, platelet-rich plasma derived, and engineered/primed exosomes, predominantly delivered via local intradermal/subcutaneous routes or topical microneedles/hydrogels over 2 to 4 weeks.\n  · Across studies, exosomes improved hair coverage and density, anagen/telogen ratio, follicle diameter, dermal thickness, and proliferation markers, while reducing apoptosis; mechanistic signals consistently showed reactivation of Wnt/β-catenin and down-modulation of TGF-β/SMAD3, with additional angiogenic support, anti-inflammatory effects, and mitigation of oxidative stress, and adverse signals were minimal in animals.\n\n◆ 결론 — Conclusion (자동 구분)\n  · Systematic Review Centre for Laboratory Animal Experimentation (SYRCLE) appraisal indicated generally low risk with common concerns regarding blinding and allocation concealment.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42809765/",
-    "reference_title": "Exosome-based therapy for androgenetic alopecia: a systematic review of preclinical mechanisms and efficacy",
+    "full_script": "[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement\n저널: JAMA dermatology\n저자: Akiska YM, Fu J, Castelo-Soccio L 외\n발행: 2026 Sep 30\n원문: https://pubmed.ncbi.nlm.nih.gov/42814435/\n\n[한눈에 보기]\n- Findings: Of 51 experts, 50 from 9 countries completed rounds 1 and 2, and 49 (98.0% retention rate) completed round 3, reflecting broad international representation.\n- LDOM is supported for pediatric patients (aged ≥4 to <12 years) for hair follicle miniaturization (100%), hair cycle abnormalities (100%), and hair shaft disorders (84%), with adjunctive use in select scarring alopecia (98%).\n- Fixed dosing aligned with available tablet formulations (weight <20 kg, 0.250-0.625 mg; 20-40 kg, 1.250 mg; >40 kg, 1.875 mg [ 80%]), while a starting dosage of 0.01 to 0.02 mg/kg/d (73.5%) provided a flexible alternative.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Importance\n  · Low-dose oral minoxidil (LDOM) is increasingly used off-label to treat pediatric hair disorders; however, standardized guidance for patient selection, dosing, safety, and monitoring in patients younger than 12 years is lacking.\n\n◆ 배경 — Objective\n  · To establish expert consensus recommendations for LDOM use in pediatric patients (age <12 years) with hair disorders.\n  · Evidence review: Survey development was informed by a review of the literature on LDOM pharmacology, safety, and clinical use, with emphasis on pediatric populations.\n  · A modified Delphi process was conducted from June 30, 2025, to March 7, 2026.\n  · Of 98 clinicians completing a prescreening survey, 51 met eligibility criteria (>10 pediatric patients treated with LDOM) and were invited to participate.\n  · Three iterative survey rounds were conducted using REDCap with multidisciplinary input.\n  · Consensus was defined as 70% or greater agreement on a 5-point Likert scale.\n\n◆ 주요 결과 — Findings\n  · Of 51 experts, 50 from 9 countries completed rounds 1 and 2, and 49 (98.0% retention rate) completed round 3, reflecting broad international representation.\n  · Of 127 initial items considered, 84 achieved consensus.\n  · LDOM is supported for pediatric patients (aged ≥4 to <12 years) for hair follicle miniaturization (100%), hair cycle abnormalities (100%), and hair shaft disorders (84%), with adjunctive use in select scarring alopecia (98%).\n  · Preference for LDOM over topical minoxidil included concerns for logistical difficulty, poor tolerability, inadequate efficacy, caregiver preference, diffuse hair loss, sensory sensitivities, or risk of toxic effects in domestic animals (pets) (74%-96%).\n  · Both fixed weight-based and mg/kg dosing strategies met consensus.\n  · Fixed dosing aligned with available tablet formulations (weight <20 kg, 0.250-0.625 mg; 20-40 kg, 1.250 mg; >40 kg, 1.875 mg [ 80%]), while a starting dosage of 0.01 to 0.02 mg/kg/d (73.5%) provided a flexible alternative.\n\n◆ 결론 — Relevance\n  · This international consensus statement provides a structured, pediatric-specific framework for LDOM use, supporting it as a flexible, nonimmunosuppressive therapeutic strategy and addressing key gaps in dosing, safety, and monitoring.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42814435/",
+    "reference_title": "Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement",
     "reference_type": "paper"
   },
   "assets": {

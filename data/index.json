@@ -1,7 +1,20 @@
 {
-  "count": 32,
-  "updated": "2026-09-30",
+  "count": 33,
+  "updated": "2026-10-01",
   "items": [
+    {
+      "date": "2026-10-01",
+      "dir": "2026-10-01",
+      "title": "Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement",
+      "journal": "JAMA dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814435/",
+      "hook_accent": "100%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-01/paper_card.png",
+      "pptx": "2026-10-01/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-09-30",
       "dir": "2026-09-30",
