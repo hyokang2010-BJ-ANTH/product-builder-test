@@ -1,7 +1,20 @@
 {
-  "count": 33,
-  "updated": "2026-10-01",
+  "count": 34,
+  "updated": "2026-10-02",
   "items": [
+    {
+      "date": "2026-10-02",
+      "dir": "2026-10-02",
+      "title": "Biosome Therapy for Androgenetic Alopecia in a Patient With Incomplete Response to Minoxidil and Finasteride: A Case Report",
+      "journal": "Clinical case reports",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42818892/",
+      "hook_accent": "미녹시딜",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-02/paper_card.png",
+      "pptx": "2026-10-02/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-01",
       "dir": "2026-10-01",
