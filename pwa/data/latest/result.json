@@ -1,54 +1,80 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "topic": {
     "source_type": "paper",
-    "pmid": "42818892",
-    "title": "Biosome Therapy for Androgenetic Alopecia in a Patient With Incomplete Response to Minoxidil and Finasteride: A Case Report",
-    "journal": "Clinical case reports",
-    "pub_date": "2026 Oct",
+    "pmid": "42825997",
+    "title": "Monitoring the Response to JAK Inhibitor Treatment in Alopecia Areata Using Reflectance Confocal Microscopy and Videotrichoscopy: A 60-Week Observational Study",
+    "journal": "Dermatology and therapy",
+    "pub_date": "2026 Oct 2",
     "authors": [
-      "Almashali M"
+      "Kołcz K",
+      "Włodyka J",
+      "Reich A"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42818892/",
-    "id": "pmid:42818892",
-    "abstract": "A 25-year-old man with androgenetic alopecia showed limited response to long-term minoxidil and finasteride. Three monthly Biosome treatment sessions were associated with progressive clinical improvement in apparent hair coverage on serial follow-up photographs, without treatment-related adverse events during the 3-month observation period. This case provides a hypothesis-generating clinical observation supporting further investigation of Biosome-based therapy using standardized and objective outcome measures."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42825997/",
+    "id": "pmid:42825997",
+    "abstract": "Introduction: Alopecia areata (AA) is an autoimmune disease affecting approximately 2.1% of the population. JAK inhibitors represent a therapeutic breakthrough for severe AA, yet objective tools for monitoring treatment response remain limited. The objective of this study was to correlate trichoscopic and reflectance confocal microscopy (RCM) features with clinical changes in patients with severe AA treated with JAK inhibitors (upadacitinib and baricitinib) over 60 weeks. Methods: Twenty patients with severe AA were enrolled. Patients were treated with upadacitinib 15 mg/day or baricitinib 4 mg/day. Clinical (Severity of Alopecia Tool score), trichoscopic, and RCM evaluations were performed at baseline and every 12 weeks thereafter. Results: Mean Severity of Alopecia Tool (SALT) decreased from 85% at baseline to 17% at week 60. Upadacitinib treated patients showed faster early response (32.6%% SALT reduction at week 12 vs. 5.2% increase with baricitinib), though both groups achieved comparable outcomes by week 60 (SALT 17%). Trichoscopy showed progressive reduction of activity markers: (yellow dots, black dots, broken hairs, and exclamation mark hairs) with characteristic regrowth sequence: short vellus hairs, upright regrowing hairs, terminal hairs. RCM identified three parameter categories: (1) inflammatory activity markers (epidermal infiltration, bright rimming, luminal bright material, cadaverised hairs), with persistent diffuse follicular inflammation and perifollicular muffle; (2) transient collagen remodelling features without fibrosis; and (3) recovery markers, including follicular normalisation (strongest RCM predictor of response) and vellus-to-terminal transition. Conclusions: JAK inhibitors demonstrated sustained efficacy in severe AA. Multimodal assessment combining SALT, trichoscopy, and RCM enables precise biological response monitoring. RCM uniquely detects subclinical perifollicular inflammation persisting despite clinical improvement, potentially predicting relapse risk after treatment discontinuation."
   },
   "script": {
-    "hook": "미녹시딜 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "미녹시딜",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Clinical case reports》 - Biosome Therapy for Androgenetic Alopecia in a Patient With Incomplete Response to Minoxidil and Finasteride: A Case Report",
+    "hook": "85% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "85%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Dermatology and therapy》 - Monitoring the Response to JAK Inhibitor Treatment in Alopecia Areata Using Reflectance Confocal Microscopy and Videotrichoscopy: A 60-Week Observational Study",
     "highlights": [
-      "A 25-year-old man with androgenetic alopecia showed limited response to long-term minoxidil and finasteride.",
-      "Three monthly Biosome treatment sessions were associated with progressive clinical improvement in apparent hair coverage on serial follow-up photographs, without treatment-related adverse events during the 3-month observation period.",
-      "This case provides a hypothesis-generating clinical observation supporting further investigation of Biosome-based therapy using standardized and objective outcome measures."
+      "Results: Mean Severity of Alopecia Tool (SALT) decreased from 85% at baseline to 17% at week 60.",
+      "5.2% increase with baricitinib), though both groups achieved comparable outcomes by week 60 (SALT 17%).",
+      "RCM identified three parameter categories: (1) inflammatory activity markers (epidermal infiltration, bright rimming, luminal bright material, cadaverised hairs), with persistent diffuse follicular inflammation and perifollicular muffle; (2) transient collagen remodelling features without fibrosis; and (3) recovery markers, including follicular normalisation (strongest RCM predictor of response) and vellus-to-terminal transition."
     ],
     "sections": [
       {
+        "label": "배경",
+        "title": "Introduction",
+        "kind": "intro",
+        "sentences": [
+          "Alopecia areata (AA) is an autoimmune disease affecting approximately 2.1% of the population.",
+          "JAK inhibitors represent a therapeutic breakthrough for severe AA, yet objective tools for monitoring treatment response remain limited.",
+          "The objective of this study was to correlate trichoscopic and reflectance confocal microscopy (RCM) features with clinical changes in patients with severe AA treated with JAK inhibitors (upadacitinib and baricitinib) over 60 weeks."
+        ]
+      },
+      {
         "label": "연구 방법",
-        "title": "Methods (자동 구분)",
+        "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "This case provides a hypothesis-generating clinical observation supporting further investigation of Biosome-based therapy using standardized and objective outcome measures."
+          "Twenty patients with severe AA were enrolled.",
+          "Patients were treated with upadacitinib 15 mg/day or baricitinib 4 mg/day.",
+          "Clinical (Severity of Alopecia Tool score), trichoscopic, and RCM evaluations were performed at baseline and every 12 weeks thereafter."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results (자동 구분)",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "A 25-year-old man with androgenetic alopecia showed limited response to long-term minoxidil and finasteride.",
-          "Three monthly Biosome treatment sessions were associated with progressive clinical improvement in apparent hair coverage on serial follow-up photographs, without treatment-related adverse events during the 3-month observation period."
+          "Mean Severity of Alopecia Tool (SALT) decreased from 85% at baseline to 17% at week 60.",
+          "Upadacitinib treated patients showed faster early response (32.6%% SALT reduction at week 12 vs. 5.2% increase with baricitinib), though both groups achieved comparable outcomes by week 60 (SALT 17%).",
+          "Trichoscopy showed progressive reduction of activity markers: (yellow dots, black dots, broken hairs, and exclamation mark hairs) with characteristic regrowth sequence: short vellus hairs, upright regrowing hairs, terminal hairs.",
+          "RCM identified three parameter categories: (1) inflammatory activity markers (epidermal infiltration, bright rimming, luminal bright material, cadaverised hairs), with persistent diffuse follicular inflammation and perifollicular muffle; (2) transient collagen remodelling features without fibrosis; and (3) recovery markers, including follicular normalisation (strongest RCM predictor of response) and vellus-to-terminal transition."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
+        "sentences": [
+          "JAK inhibitors demonstrated sustained efficacy in severe AA.",
+          "Multimodal assessment combining SALT, trichoscopy, and RCM enables precise biological response monitoring.",
+          "RCM uniquely detects subclinical perifollicular inflammation persisting despite clinical improvement, potentially predicting relapse risk after treatment discontinuation."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 미녹시딜 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Biosome Therapy for Androgenetic Alopecia in a Patient With Incomplete Response to Minoxidil and Finasteride: A Case Report\n저널: Clinical case reports\n저자: Almashali M 외\n발행: 2026 Oct\n원문: https://pubmed.ncbi.nlm.nih.gov/42818892/\n\n[한눈에 보기]\n- A 25-year-old man with androgenetic alopecia showed limited response to long-term minoxidil and finasteride.\n- Three monthly Biosome treatment sessions were associated with progressive clinical improvement in apparent hair coverage on serial follow-up photographs, without treatment-related adverse events during the 3-month observation period.\n- This case provides a hypothesis-generating clinical observation supporting further investigation of Biosome-based therapy using standardized and objective outcome measures.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 연구 방법 — Methods (자동 구분)\n  · This case provides a hypothesis-generating clinical observation supporting further investigation of Biosome-based therapy using standardized and objective outcome measures.\n\n◆ 주요 결과 — Results (자동 구분)\n  · A 25-year-old man with androgenetic alopecia showed limited response to long-term minoxidil and finasteride.\n  · Three monthly Biosome treatment sessions were associated with progressive clinical improvement in apparent hair coverage on serial follow-up photographs, without treatment-related adverse events during the 3-month observation period.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42818892/",
-    "reference_title": "Biosome Therapy for Androgenetic Alopecia in a Patient With Incomplete Response to Minoxidil and Finasteride: A Case Report",
+    "full_script": "[훅] 85% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Monitoring the Response to JAK Inhibitor Treatment in Alopecia Areata Using Reflectance Confocal Microscopy and Videotrichoscopy: A 60-Week Observational Study\n저널: Dermatology and therapy\n저자: Kołcz K, Włodyka J, Reich A 외\n발행: 2026 Oct 2\n원문: https://pubmed.ncbi.nlm.nih.gov/42825997/\n\n[한눈에 보기]\n- Results: Mean Severity of Alopecia Tool (SALT) decreased from 85% at baseline to 17% at week 60.\n- 5.2% increase with baricitinib), though both groups achieved comparable outcomes by week 60 (SALT 17%).\n- RCM identified three parameter categories: (1) inflammatory activity markers (epidermal infiltration, bright rimming, luminal bright material, cadaverised hairs), with persistent diffuse follicular inflammation and perifollicular muffle; (2) transient collagen remodelling features without fibrosis; and (3) recovery markers, including follicular normalisation (strongest RCM predictor of response) and vellus-to-terminal transition.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Introduction\n  · Alopecia areata (AA) is an autoimmune disease affecting approximately 2.1% of the population.\n  · JAK inhibitors represent a therapeutic breakthrough for severe AA, yet objective tools for monitoring treatment response remain limited.\n  · The objective of this study was to correlate trichoscopic and reflectance confocal microscopy (RCM) features with clinical changes in patients with severe AA treated with JAK inhibitors (upadacitinib and baricitinib) over 60 weeks.\n\n◆ 연구 방법 — Methods\n  · Twenty patients with severe AA were enrolled.\n  · Patients were treated with upadacitinib 15 mg/day or baricitinib 4 mg/day.\n  · Clinical (Severity of Alopecia Tool score), trichoscopic, and RCM evaluations were performed at baseline and every 12 weeks thereafter.\n\n◆ 주요 결과 — Results\n  · Mean Severity of Alopecia Tool (SALT) decreased from 85% at baseline to 17% at week 60.\n  · Upadacitinib treated patients showed faster early response (32.6%% SALT reduction at week 12 vs. 5.2% increase with baricitinib), though both groups achieved comparable outcomes by week 60 (SALT 17%).\n  · Trichoscopy showed progressive reduction of activity markers: (yellow dots, black dots, broken hairs, and exclamation mark hairs) with characteristic regrowth sequence: short vellus hairs, upright regrowing hairs, terminal hairs.\n  · RCM identified three parameter categories: (1) inflammatory activity markers (epidermal infiltration, bright rimming, luminal bright material, cadaverised hairs), with persistent diffuse follicular inflammation and perifollicular muffle; (2) transient collagen remodelling features without fibrosis; and (3) recovery markers, including follicular normalisation (strongest RCM predictor of response) and vellus-to-terminal transition.\n\n◆ 결론 — Conclusions\n  · JAK inhibitors demonstrated sustained efficacy in severe AA.\n  · Multimodal assessment combining SALT, trichoscopy, and RCM enables precise biological response monitoring.\n  · RCM uniquely detects subclinical perifollicular inflammation persisting despite clinical improvement, potentially predicting relapse risk after treatment discontinuation.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42825997/",
+    "reference_title": "Monitoring the Response to JAK Inhibitor Treatment in Alopecia Areata Using Reflectance Confocal Microscopy and Videotrichoscopy: A 60-Week Observational Study",
     "reference_type": "paper"
   },
   "assets": {

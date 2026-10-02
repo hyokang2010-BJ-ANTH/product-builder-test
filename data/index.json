@@ -1,7 +1,20 @@
 {
-  "count": 34,
-  "updated": "2026-10-02",
+  "count": 35,
+  "updated": "2026-10-03",
   "items": [
+    {
+      "date": "2026-10-03",
+      "dir": "2026-10-03",
+      "title": "Monitoring the Response to JAK Inhibitor Treatment in Alopecia Areata Using Reflectance Confocal Microscopy and Videotrichoscopy: A 60-Week Observational Study",
+      "journal": "Dermatology and therapy",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42825997/",
+      "hook_accent": "85%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-03/paper_card.png",
+      "pptx": "2026-10-03/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-02",
       "dir": "2026-10-02",
