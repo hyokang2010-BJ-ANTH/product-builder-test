@@ -1,7 +1,20 @@
 {
-  "count": 35,
-  "updated": "2026-10-03",
+  "count": 36,
+  "updated": "2026-10-04",
   "items": [
+    {
+      "date": "2026-10-04",
+      "dir": "2026-10-04",
+      "title": "Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2",
+      "journal": "Dermatology and therapy",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42825995/",
+      "hook_accent": "86.5%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-04/paper_card.png",
+      "pptx": "2026-10-04/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-03",
       "dir": "2026-10-03",
