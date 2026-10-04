@@ -1,80 +1,81 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "topic": {
     "source_type": "paper",
-    "pmid": "42825995",
-    "title": "Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2",
-    "journal": "Dermatology and therapy",
-    "pub_date": "2026 Oct 2",
+    "pmid": "42829587",
+    "title": "Subpericranial and epidural abscess with skull osteomyelitis as a complication of microneedling for alopecia: A singular case report",
+    "journal": "Surgical neurology international",
+    "pub_date": "2026",
     "authors": [
-      "Vleugels RA",
-      "Piraccini BM",
-      "Mesinkovska N"
+      "Jain R",
+      "Sharma A",
+      "Bhardwaj P"
     ],
     "pubtypes": [
+      "Case Reports",
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42825995/",
-    "id": "pmid:42825995",
-    "abstract": "Introduction: Long-term efficacy and safety data are imperative for therapies used to treat severe alopecia areata (AA) because the disease is chronic, loss of response can be devastating to patients, and the safety profile needs to support long-term therapy. Baricitinib, a selective JAK inhibitor, has been approved for severe AA in adults and is being studied in pediatric patients. This study evaluates the final long-term efficacy and safety of baricitinib in adults with severe AA. Methods: Efficacy was assessed for patients randomized to baricitinib 4 mg or 2 mg who achieved response (Severity of Alopecia Tool [SALT] score ≤ 20) at Week 52 (4 mg, N = 133; 2 mg, N = 72) and stayed on the same dose through Week 200. Proportions of patients maintaining a SALT score ≤ 20 and achieving a Clinician-Reported Outcome Measure for Eyebrow/Eyelash (EB/EL) Hair Loss™ score of 0 or 1 with ≥ 2-point improvement from baseline were reported using the modified last-observation-carried-forward method. Safety is reported as incidence rates (IR) per 100 patient-years at risk for the All BARI AA group (N = 1303) and Extended BARI AA group (N = 948) through 248 weeks of exposure RESULTS: For baricitinib 4 mg and 2 mg, respectively, among Week 52 responders, 115/133 (86.5%) and 61/72 (84.7%) maintained a SALT score ≤ 20 at Week 200. Regrowth of EB/EL hair continued beyond Week 52 and was maintained through Week 200. In up to 5 years of exposure with baricitinib, the IR for serious infections, nonmelanoma skin cancer malignancies, deep vein thrombosis/pulmonary embolism, and major adverse cardiovascular events remained low relative to background rates. No deaths occurred, and adverse event rates remained stable over time. Conclusions: Within this population, ~ 85% of responders maintained SALT scores ≤ 20 through approximately 4 years with continued benefit for EB/EL. Baricitinib's safety profile remained consistent over 5 years of treatment, in line with prior BRAVE program findings. Trial registration number: BRAVE-AA1, ClinicalTrials.gov number, NCT03570749, start date, September 24, 2018; BRAVE-AA2, ClinicalTrials.gov number, NCT03899259, start date, July 8, 2019."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829587/",
+    "id": "pmid:42829587",
+    "abstract": "Background: Subpericranial hematoma (SPH) is unusual in adults and is usually seen in neonates as cephalohematoma. Closed scalp hematoma is usually not associated with infection and abscess formation. Case description: A 28-year-old male presented with complaints of swelling on the left forehead. The patient at that time was on self-treatment for alopecia following a routine of application of minoxidil hair spray followed by microneedling with his derma roller. Radiological evaluation revealed a mass in the left frontal scalp region and communicating through frontal bone defect with mass in the extradural space. The patient was planned for surgical evacuation of the abscess under general anesthesia. Conclusion: Subpericranial abscess is an unreported complication of SPH in an adult. SPH can get infected with procedures like microneedling without an open wound.",
+    "pmcid": "PMC13633512"
   },
   "script": {
-    "hook": "86.5% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "86.5%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Dermatology and therapy》 - Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2",
+    "hook": "마이크로니들 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "마이크로니들",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Surgical neurology international》 - Subpericranial and epidural abscess with skull osteomyelitis as a complication of microneedling for alopecia: A singular case report",
     "highlights": [
-      "Methods: Efficacy was assessed for patients randomized to baricitinib 4 mg or 2 mg who achieved response (Severity of Alopecia Tool [SALT] score ≤ 20) at Week 52 (4 mg, N = 133; 2 mg, N = 72) and stayed on the same dose through Week 200.",
-      "Proportions of patients maintaining a SALT score ≤ 20 and achieving a Clinician-Reported Outcome Measure for Eyebrow/Eyelash (EB/EL) Hair Loss™ score of 0 or 1 with ≥ 2-point improvement from baseline were reported using the modified last-observation-carried-forward method.",
-      "Safety is reported as incidence rates (IR) per 100 patient-years at risk for the All BARI AA group (N = 1303) and Extended BARI AA group (N = 948) through 248 weeks of exposure RESULTS: For baricitinib 4 mg and 2 mg, respectively, among Week 52 responders, 115/133 (86.5%) and 61/72 (84.7%) maintained a SALT score ≤ 20 at Week 200."
+      "Background: Subpericranial hematoma (SPH) is unusual in adults and is usually seen in neonates as cephalohematoma.",
+      "Closed scalp hematoma is usually not associated with infection and abscess formation.",
+      "Case description: A 28-year-old male presented with complaints of swelling on the left forehead."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Introduction",
+        "title": "INTRODUCTION",
         "kind": "intro",
         "sentences": [
-          "Long-term efficacy and safety data are imperative for therapies used to treat severe alopecia areata (AA) because the disease is chronic, loss of response can be devastating to patients, and the safety profile needs to support long-term therapy.",
-          "Baricitinib, a selective JAK inhibitor, has been approved for severe AA in adults and is being studied in pediatric patients.",
-          "This study evaluates the final long-term efficacy and safety of baricitinib in adults with severe AA."
+          "Subgaleal hematoma (SGH) is commonly associated with traumatic head injury.",
+          "It may or may not be associated with intracranial injury.",
+          "This case report has been reported in line with the CARE criteria and revised SCARE criteria of 2023."
         ]
       },
       {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
+        "label": "그 밖의 내용",
+        "title": "CASE PRESENTATION",
+        "kind": "other",
         "sentences": [
-          "Efficacy was assessed for patients randomized to baricitinib 4 mg or 2 mg who achieved response (Severity of Alopecia Tool [SALT] score ≤ 20) at Week 52 (4 mg, N = 133; 2 mg, N = 72) and stayed on the same dose through Week 200.",
-          "Proportions of patients maintaining a SALT score ≤ 20 and achieving a Clinician-Reported Outcome Measure for Eyebrow/Eyelash (EB/EL) Hair Loss™ score of 0 or 1 with ≥ 2-point improvement from baseline were reported using the modified last-observation-carried-forward method.",
-          "Safety is reported as incidence rates (IR) per 100 patient-years at risk for the All BARI AA group (N = 1303) and Extended BARI AA group (N = 948) through 248 weeks of exposure"
+          "A 28-year-old male presented with complaints of swelling on the left forehead anterior to the hairline for 2 months.",
+          "Postoperatively, the patient was kept on injection ceftriaxone 1 g bis in die (BD) and injection amikacin 500 mg OD for 3 days, followed by tablet faropenem 300 mg BD with tablet linezolid 600 mg BD for 14 days."
         ]
       },
       {
-        "label": "주요 결과",
-        "title": "Results",
-        "kind": "results",
+        "label": "고찰",
+        "title": "DISCUSSION",
+        "kind": "discussion",
         "sentences": [
-          "For baricitinib 4 mg and 2 mg, respectively, among Week 52 responders, 115/133 (86.5%) and 61/72 (84.7%) maintained a SALT score ≤ 20 at Week 200.",
-          "Regrowth of EB/EL hair continued beyond Week 52 and was maintained through Week 200.",
-          "In up to 5 years of exposure with baricitinib, the IR for serious infections, nonmelanoma skin cancer malignancies, deep vein thrombosis/pulmonary embolism, and major adverse cardiovascular events remained low relative to background rates.",
-          "No deaths occurred, and adverse event rates remained stable over time."
+          "The subpericranial space is a potential location between the overlying pericranium and skull bone below.",
+          "Pericranium is the deepest layer of scalp, which is adhered to the skull and harvested during neurosurgical procedures for duroplasty or defect coverage.",
+          "Hematoma collection in subpericranial location is commonly seen in newborns during the process of birth where they are termed cephalohematomas.",
+          "The exception mentioned was a 39-year-old female who had SGH contralateral to the scalp injury which was managed conservatively using compression bandage application."
         ]
       },
       {
         "label": "결론",
-        "title": "Conclusions",
+        "title": "CONCLUSION",
         "kind": "conclusion",
         "sentences": [
-          "Within this population, ~ 85% of responders maintained SALT scores ≤ 20 through approximately 4 years with continued benefit for EB/EL.",
-          "Baricitinib's safety profile remained consistent over 5 years of treatment, in line with prior BRAVE program findings.",
-          "Trial registration number: BRAVE-AA1, ClinicalTrials.gov number, NCT03570749, start date, September 24, 2018; BRAVE-AA2, ClinicalTrials.gov number, NCT03899259, start date, July 8, 2019."
+          "Subpericranial abscess is an unreported complication of SPH in an adult.",
+          "SPH can get infected with procedures like microneedling without an open wound.",
+          "Deep scalp location makes this a surgical entity rather than an aspiration procedure."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 86.5% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2\n저널: Dermatology and therapy\n저자: Vleugels RA, Piraccini BM, Mesinkovska N 외\n발행: 2026 Oct 2\n원문: https://pubmed.ncbi.nlm.nih.gov/42825995/\n\n[한눈에 보기]\n- Methods: Efficacy was assessed for patients randomized to baricitinib 4 mg or 2 mg who achieved response (Severity of Alopecia Tool [SALT] score ≤ 20) at Week 52 (4 mg, N = 133; 2 mg, N = 72) and stayed on the same dose through Week 200.\n- Proportions of patients maintaining a SALT score ≤ 20 and achieving a Clinician-Reported Outcome Measure for Eyebrow/Eyelash (EB/EL) Hair Loss™ score of 0 or 1 with ≥ 2-point improvement from baseline were reported using the modified last-observation-carried-forward method.\n- Safety is reported as incidence rates (IR) per 100 patient-years at risk for the All BARI AA group (N = 1303) and Extended BARI AA group (N = 948) through 248 weeks of exposure RESULTS: For baricitinib 4 mg and 2 mg, respectively, among Week 52 responders, 115/133 (86.5%) and 61/72 (84.7%) maintained a SALT score ≤ 20 at Week 200.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Introduction\n  · Long-term efficacy and safety data are imperative for therapies used to treat severe alopecia areata (AA) because the disease is chronic, loss of response can be devastating to patients, and the safety profile needs to support long-term therapy.\n  · Baricitinib, a selective JAK inhibitor, has been approved for severe AA in adults and is being studied in pediatric patients.\n  · This study evaluates the final long-term efficacy and safety of baricitinib in adults with severe AA.\n\n◆ 연구 방법 — Methods\n  · Efficacy was assessed for patients randomized to baricitinib 4 mg or 2 mg who achieved response (Severity of Alopecia Tool [SALT] score ≤ 20) at Week 52 (4 mg, N = 133; 2 mg, N = 72) and stayed on the same dose through Week 200.\n  · Proportions of patients maintaining a SALT score ≤ 20 and achieving a Clinician-Reported Outcome Measure for Eyebrow/Eyelash (EB/EL) Hair Loss™ score of 0 or 1 with ≥ 2-point improvement from baseline were reported using the modified last-observation-carried-forward method.\n  · Safety is reported as incidence rates (IR) per 100 patient-years at risk for the All BARI AA group (N = 1303) and Extended BARI AA group (N = 948) through 248 weeks of exposure\n\n◆ 주요 결과 — Results\n  · For baricitinib 4 mg and 2 mg, respectively, among Week 52 responders, 115/133 (86.5%) and 61/72 (84.7%) maintained a SALT score ≤ 20 at Week 200.\n  · Regrowth of EB/EL hair continued beyond Week 52 and was maintained through Week 200.\n  · In up to 5 years of exposure with baricitinib, the IR for serious infections, nonmelanoma skin cancer malignancies, deep vein thrombosis/pulmonary embolism, and major adverse cardiovascular events remained low relative to background rates.\n  · No deaths occurred, and adverse event rates remained stable over time.\n\n◆ 결론 — Conclusions\n  · Within this population, ~ 85% of responders maintained SALT scores ≤ 20 through approximately 4 years with continued benefit for EB/EL.\n  · Baricitinib's safety profile remained consistent over 5 years of treatment, in line with prior BRAVE program findings.\n  · Trial registration number: BRAVE-AA1, ClinicalTrials.gov number, NCT03570749, start date, September 24, 2018; BRAVE-AA2, ClinicalTrials.gov number, NCT03899259, start date, July 8, 2019.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42825995/",
-    "reference_title": "Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2",
+    "full_script": "[훅] 마이크로니들 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Subpericranial and epidural abscess with skull osteomyelitis as a complication of microneedling for alopecia: A singular case report\n저널: Surgical neurology international\n저자: Jain R, Sharma A, Bhardwaj P 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42829587/\n\n[한눈에 보기]\n- Background: Subpericranial hematoma (SPH) is unusual in adults and is usually seen in neonates as cephalohematoma.\n- Closed scalp hematoma is usually not associated with infection and abscess formation.\n- Case description: A 28-year-old male presented with complaints of swelling on the left forehead.\n\n[상세 내용] (논문 전문 4개 섹션에서 발췌)\n\n◆ 배경 — INTRODUCTION\n  · Subgaleal hematoma (SGH) is commonly associated with traumatic head injury.\n  · It may or may not be associated with intracranial injury.\n  · This case report has been reported in line with the CARE criteria and revised SCARE criteria of 2023.\n\n◆ 그 밖의 내용 — CASE PRESENTATION\n  · A 28-year-old male presented with complaints of swelling on the left forehead anterior to the hairline for 2 months.\n  · Postoperatively, the patient was kept on injection ceftriaxone 1 g bis in die (BD) and injection amikacin 500 mg OD for 3 days, followed by tablet faropenem 300 mg BD with tablet linezolid 600 mg BD for 14 days.\n\n◆ 고찰 — DISCUSSION\n  · The subpericranial space is a potential location between the overlying pericranium and skull bone below.\n  · Pericranium is the deepest layer of scalp, which is adhered to the skull and harvested during neurosurgical procedures for duroplasty or defect coverage.\n  · Hematoma collection in subpericranial location is commonly seen in newborns during the process of birth where they are termed cephalohematomas.\n  · The exception mentioned was a 39-year-old female who had SGH contralateral to the scalp injury which was managed conservatively using compression bandage application.\n\n◆ 결론 — CONCLUSION\n  · Subpericranial abscess is an unreported complication of SPH in an adult.\n  · SPH can get infected with procedures like microneedling without an open wound.\n  · Deep scalp location makes this a surgical entity rather than an aspiration procedure.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42829587/",
+    "reference_title": "Subpericranial and epidural abscess with skull osteomyelitis as a complication of microneedling for alopecia: A singular case report",
     "reference_type": "paper"
   },
   "assets": {
@@ -94,8 +95,11 @@
     "pptx": "slides.pptx",
     "paper_figures": [],
     "paper_tables": [],
-    "paper_source": null,
-    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
-    "paper_figure_note": null
+    "paper_source": {
+      "pmcid": "PMC13633512",
+      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13633512)에서 직접 캡처해 쓰세요."
   }
 }

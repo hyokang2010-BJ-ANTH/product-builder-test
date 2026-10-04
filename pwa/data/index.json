@@ -1,7 +1,20 @@
 {
-  "count": 36,
-  "updated": "2026-10-04",
+  "count": 37,
+  "updated": "2026-10-05",
   "items": [
+    {
+      "date": "2026-10-05",
+      "dir": "2026-10-05",
+      "title": "Subpericranial and epidural abscess with skull osteomyelitis as a complication of microneedling for alopecia: A singular case report",
+      "journal": "Surgical neurology international",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829587/",
+      "hook_accent": "마이크로니들",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-05/paper_card.png",
+      "pptx": "2026-10-05/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-04",
       "dir": "2026-10-04",
