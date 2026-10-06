@@ -1,7 +1,20 @@
 {
-  "count": 37,
-  "updated": "2026-10-05",
+  "count": 38,
+  "updated": "2026-10-06",
   "items": [
+    {
+      "date": "2026-10-06",
+      "dir": "2026-10-06",
+      "title": "Microneedle-based technology for treating hair loss disorders - an emerging trend for managing alopecia",
+      "journal": "Journal of biomaterials science. Polymer edition",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42832345/",
+      "hook_accent": "마이크로니들",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-06/paper_card.png",
+      "pptx": "2026-10-06/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-05",
       "dir": "2026-10-05",
