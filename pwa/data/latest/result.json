@@ -1,33 +1,32 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "topic": {
     "source_type": "paper",
-    "pmid": "42832345",
-    "title": "Microneedle-based technology for treating hair loss disorders - an emerging trend for managing alopecia",
-    "journal": "Journal of biomaterials science. Polymer edition",
-    "pub_date": "2026 Oct 5",
+    "pmid": "42830514",
+    "title": "Expanding Access to Care: Implementation of a Pediatric and Young Adult Laser Hair Removal Program for Hidradenitis Suppurativa",
+    "journal": "Pediatric dermatology",
+    "pub_date": "2026 Oct 4",
     "authors": [
-      "Vedakumari SW",
-      "Prabakaran L",
-      "Jeevahan A"
+      "Lee S",
+      "Servattalab S",
+      "Damji Y"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832345/",
-    "id": "pmid:42832345",
-    "abstract": "Hair loss or alopecia is a universal problem faced by both men and women around the world. An individual's self-esteem is affected by alopecia, and it may lead to psychological stress and anxiety. Topical minoxidil, oral finasteride, and hair transplantation are the common procedures for treating alopecia. But these approaches are associated with various challenges due to high cost, poor patient compliance, and undesired side effects, thereby demanding new strategies for treating alopecia. Identifying novel approaches to treat alopecia has long been a major concern of dermatological research. Recently, microneedles (MNs) have received enormous attention in the field of transdermal drug delivery due to their biocompatible, noninvasive, and painless approach. They are micron-sized needles that have received huge attention in hair loss treatment. MNs can improve the efficiency of drugs as they can puncture the stratum corneum and release the therapeutic molecules at the site of action. This review highlights the potential use of MN-based therapies in treating alopecia. The various phases of hair growth, types of alopecia, and the role of MNs in promoting hair growth are discussed."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42830514/",
+    "id": "pmid:42830514",
+    "abstract": "Laser hair removal (LHR) is an effective adjunctive therapy for hidradenitis suppurativa (HS), but access is often limited by inconsistent insurance coverage. A retrospective review was conducted of 21 pediatric and young adult patients enrolled in an LHR program for HS at a tertiary children's hospital. Among patients receiving two or more sessions (n = 20), 86% demonstrated visible hair thinning or reduced hair regrowth on examination, and 81% self-reported decreased flare severity or frequency, with no adverse events observed. All treatments were ultimately covered by insurance through a standardized prior authorization process, supporting the feasibility of expanding access to LHR for pediatric and young adult patients with HS."
   },
   "script": {
-    "hook": "마이크로니들 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "마이크로니들",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Journal of biomaterials science. Polymer edition》 - Microneedle-based technology for treating hair loss disorders - an emerging trend for managing alopecia",
+    "hook": "86% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "86%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Pediatric dermatology》 - Expanding Access to Care: Implementation of a Pediatric and Young Adult Laser Hair Removal Program for Hidradenitis Suppurativa",
     "highlights": [
-      "Hair loss or alopecia is a universal problem faced by both men and women around the world.",
-      "An individual's self-esteem is affected by alopecia, and it may lead to psychological stress and anxiety.",
-      "Topical minoxidil, oral finasteride, and hair transplantation are the common procedures for treating alopecia."
+      "Laser hair removal (LHR) is an effective adjunctive therapy for hidradenitis suppurativa (HS), but access is often limited by inconsistent insurance coverage.",
+      "A retrospective review was conducted of 21 pediatric and young adult patients enrolled in an LHR program for HS at a tertiary children's hospital.",
+      "Among patients receiving two or more sessions (n = 20), 86% demonstrated visible hair thinning or reduced hair regrowth on examination, and 81% self-reported decreased flare severity or frequency, with no adverse events observed."
     ],
     "sections": [
       {
@@ -35,9 +34,7 @@
         "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Hair loss or alopecia is a universal problem faced by both men and women around the world.",
-          "An individual's self-esteem is affected by alopecia, and it may lead to psychological stress and anxiety.",
-          "Topical minoxidil, oral finasteride, and hair transplantation are the common procedures for treating alopecia."
+          "Laser hair removal (LHR) is an effective adjunctive therapy for hidradenitis suppurativa (HS), but access is often limited by inconsistent insurance coverage."
         ]
       },
       {
@@ -45,26 +42,16 @@
         "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "But these approaches are associated with various challenges due to high cost, poor patient compliance, and undesired side effects, thereby demanding new strategies for treating alopecia.",
-          "Identifying novel approaches to treat alopecia has long been a major concern of dermatological research.",
-          "Recently, microneedles (MNs) have received enormous attention in the field of transdermal drug delivery due to their biocompatible, noninvasive, and painless approach.",
-          "They are micron-sized needles that have received huge attention in hair loss treatment.",
-          "MNs can improve the efficiency of drugs as they can puncture the stratum corneum and release the therapeutic molecules at the site of action."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion (자동 구분)",
-        "kind": "conclusion",
-        "sentences": [
-          "This review highlights the potential use of MN-based therapies in treating alopecia."
+          "A retrospective review was conducted of 21 pediatric and young adult patients enrolled in an LHR program for HS at a tertiary children's hospital.",
+          "Among patients receiving two or more sessions (n = 20), 86% demonstrated visible hair thinning or reduced hair regrowth on examination, and 81% self-reported decreased flare severity or frequency, with no adverse events observed.",
+          "All treatments were ultimately covered by insurance through a standardized prior authorization process, supporting the feasibility of expanding access to LHR for pediatric and young adult patients with HS."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 마이크로니들 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Microneedle-based technology for treating hair loss disorders - an emerging trend for managing alopecia\n저널: Journal of biomaterials science. Polymer edition\n저자: Vedakumari SW, Prabakaran L, Jeevahan A 외\n발행: 2026 Oct 5\n원문: https://pubmed.ncbi.nlm.nih.gov/42832345/\n\n[한눈에 보기]\n- Hair loss or alopecia is a universal problem faced by both men and women around the world.\n- An individual's self-esteem is affected by alopecia, and it may lead to psychological stress and anxiety.\n- Topical minoxidil, oral finasteride, and hair transplantation are the common procedures for treating alopecia.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Hair loss or alopecia is a universal problem faced by both men and women around the world.\n  · An individual's self-esteem is affected by alopecia, and it may lead to psychological stress and anxiety.\n  · Topical minoxidil, oral finasteride, and hair transplantation are the common procedures for treating alopecia.\n\n◆ 주요 결과 — Results (자동 구분)\n  · But these approaches are associated with various challenges due to high cost, poor patient compliance, and undesired side effects, thereby demanding new strategies for treating alopecia.\n  · Identifying novel approaches to treat alopecia has long been a major concern of dermatological research.\n  · Recently, microneedles (MNs) have received enormous attention in the field of transdermal drug delivery due to their biocompatible, noninvasive, and painless approach.\n  · They are micron-sized needles that have received huge attention in hair loss treatment.\n  · MNs can improve the efficiency of drugs as they can puncture the stratum corneum and release the therapeutic molecules at the site of action.\n\n◆ 결론 — Conclusion (자동 구분)\n  · This review highlights the potential use of MN-based therapies in treating alopecia.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42832345/",
-    "reference_title": "Microneedle-based technology for treating hair loss disorders - an emerging trend for managing alopecia",
+    "full_script": "[훅] 86% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Expanding Access to Care: Implementation of a Pediatric and Young Adult Laser Hair Removal Program for Hidradenitis Suppurativa\n저널: Pediatric dermatology\n저자: Lee S, Servattalab S, Damji Y 외\n발행: 2026 Oct 4\n원문: https://pubmed.ncbi.nlm.nih.gov/42830514/\n\n[한눈에 보기]\n- Laser hair removal (LHR) is an effective adjunctive therapy for hidradenitis suppurativa (HS), but access is often limited by inconsistent insurance coverage.\n- A retrospective review was conducted of 21 pediatric and young adult patients enrolled in an LHR program for HS at a tertiary children's hospital.\n- Among patients receiving two or more sessions (n = 20), 86% demonstrated visible hair thinning or reduced hair regrowth on examination, and 81% self-reported decreased flare severity or frequency, with no adverse events observed.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Laser hair removal (LHR) is an effective adjunctive therapy for hidradenitis suppurativa (HS), but access is often limited by inconsistent insurance coverage.\n\n◆ 주요 결과 — Results (자동 구분)\n  · A retrospective review was conducted of 21 pediatric and young adult patients enrolled in an LHR program for HS at a tertiary children's hospital.\n  · Among patients receiving two or more sessions (n = 20), 86% demonstrated visible hair thinning or reduced hair regrowth on examination, and 81% self-reported decreased flare severity or frequency, with no adverse events observed.\n  · All treatments were ultimately covered by insurance through a standardized prior authorization process, supporting the feasibility of expanding access to LHR for pediatric and young adult patients with HS.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42830514/",
+    "reference_title": "Expanding Access to Care: Implementation of a Pediatric and Young Adult Laser Hair Removal Program for Hidradenitis Suppurativa",
     "reference_type": "paper"
   },
   "assets": {

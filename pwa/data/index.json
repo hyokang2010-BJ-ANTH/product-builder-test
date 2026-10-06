@@ -1,7 +1,20 @@
 {
-  "count": 38,
-  "updated": "2026-10-06",
+  "count": 39,
+  "updated": "2026-10-07",
   "items": [
+    {
+      "date": "2026-10-07",
+      "dir": "2026-10-07",
+      "title": "Expanding Access to Care: Implementation of a Pediatric and Young Adult Laser Hair Removal Program for Hidradenitis Suppurativa",
+      "journal": "Pediatric dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830514/",
+      "hook_accent": "86%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-07/paper_card.png",
+      "pptx": "2026-10-07/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-06",
       "dir": "2026-10-06",
