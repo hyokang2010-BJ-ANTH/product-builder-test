@@ -1,7 +1,20 @@
 {
-  "count": 39,
-  "updated": "2026-10-07",
+  "count": 40,
+  "updated": "2026-10-08",
   "items": [
+    {
+      "date": "2026-10-08",
+      "dir": "2026-10-08",
+      "title": "Describing Patient Characteristics, Treatment Patterns, and Disease Burden Among Patients with Alopecia Areata in Mexico: A Secondary Analysis of the Adelphi Real World Alopecia Areata Disease Specific Programme",
+      "journal": "Dermatology and therapy",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842111/",
+      "hook_accent": "60.6%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-08/paper_card.png",
+      "pptx": "2026-10-08/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-07",
       "dir": "2026-10-07",
