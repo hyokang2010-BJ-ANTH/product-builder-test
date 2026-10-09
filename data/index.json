@@ -1,7 +1,20 @@
 {
-  "count": 40,
-  "updated": "2026-10-08",
+  "count": 41,
+  "updated": "2026-10-09",
   "items": [
+    {
+      "date": "2026-10-09",
+      "dir": "2026-10-09",
+      "title": "Periprocedural Anesthesia and Analgesia in Hair Transplantation: An Evidence-Based Review of Contemporary Clinical Practice",
+      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42847986/",
+      "hook_accent": "모발이식",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-09/paper_card.png",
+      "pptx": "2026-10-09/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-08",
       "dir": "2026-10-08",
