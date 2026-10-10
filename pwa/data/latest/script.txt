@@ -4,13 +4,13 @@
 제목: Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists
 저널: Clinics in dermatology
 저자: Ramush G, Kim J, Lipner SR 외
-발행: 2026 Oct 8
-원문: https://pubmed.ncbi.nlm.nih.gov/42849858/
+발행: 2026 Oct 9
+원문: https://pubmed.ncbi.nlm.nih.gov/42854877/
 
 [한눈에 보기]
 - Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.
 - For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.
-- Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment.
+- Recent policy changes have placed greater restrictions on shaving waivers and may create career consequences for service members who continue to require accommodations despite treatment.
 
 [상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
@@ -19,7 +19,7 @@
   · For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.
 
 ◆ 주요 결과 — Results (자동 구분)
-  · Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment.
+  · Recent policy changes have placed greater restrictions on shaving waivers and may create career consequences for service members who continue to require accommodations despite treatment.
   · These policies raise ethical concerns involving justice, beneficence, nonmaleficence, and autonomy.
   · Military safety requirements related to protective equipment must be balanced against the clinical needs of patients with PFB.
   · Laser hair removal may provide meaningful benefit but can recur, permanently alter facial hair growth, and carry additional risks depending on skin type, device selection, and treatment setting.
