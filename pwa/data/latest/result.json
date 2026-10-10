@@ -1,82 +1,60 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "topic": {
     "source_type": "paper",
-    "pmid": "42847986",
-    "title": "Periprocedural Anesthesia and Analgesia in Hair Transplantation: An Evidence-Based Review of Contemporary Clinical Practice",
-    "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
-    "pub_date": "2026 Oct 9",
+    "pmid": "42849858",
+    "title": "Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists",
+    "journal": "Clinics in dermatology",
+    "pub_date": "2026 Oct 8",
     "authors": [
-      "Tringali S"
+      "Ramush G",
+      "Kim J",
+      "Lipner SR"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42847986/",
-    "id": "pmid:42847986",
-    "abstract": "Background: Hair transplantation is a widely performed office-based aesthetic procedure characterized by prolonged procedural duration, cumulative local anesthetic exposure, and reliance on sustained patient cooperation. Despite extensive literature on surgical technique and aesthetic outcomes, periprocedural anesthetic and analgesic considerations remain comparatively undersynthesized. Objective: The aims of this study were to review periprocedural anesthesia and analgesia strategies in hair transplantation and highlight practical considerations related to patient safety, procedural workflow, and intraoperative management. Materials and methods: A structured literature review was conducted using PubMed/MEDLINE and Embase from database inception through January 2026. Studies evaluating anesthetic techniques, analgesic strategies, periprocedural pain management, and anesthesia-related safety considerations in hair transplantation and comparable office-based dermatologic surgical procedures were included. Evidence was synthesized qualitatively according to predefined clinical domains. Results: Available evidence supports multimodal anesthetic strategies incorporating individualized local anesthetic selection, tumescence, regional nerve blocks, adjunctive analgesia, and structured intraoperative monitoring to optimize patient comfort, procedural efficiency, and safety. However, available evidence consists predominantly of observational studies, case series, and expert consensus, with limited high-quality comparative data. Conclusion: Individualized multimodal anesthetic strategies represent the current evidence-informed approach to periprocedural management in hair transplantation. Prospective comparative studies are needed to strengthen the evidence base and inform future clinical recommendations."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42849858/",
+    "id": "pmid:42849858",
+    "abstract": "Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent. For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance. Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment. These policies raise ethical concerns involving justice, beneficence, nonmaleficence, and autonomy. Military safety requirements related to protective equipment must be balanced against the clinical needs of patients with PFB. Laser hair removal may provide meaningful benefit but can recur, permanently alter facial hair growth, and carry additional risks depending on skin type, device selection, and treatment setting. Dermatologists should provide accurate medical assessments, support medically necessary accommodations, and use shared decision-making so that treatment remains guided by clinical need and patient preference rather than institutional pressure."
   },
   "script": {
-    "hook": "모발이식 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "모발이식",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]》 - Periprocedural Anesthesia and Analgesia in Hair Transplantation: An Evidence-Based Review of Contemporary Clinical Practice",
+    "hook": "오늘의 논문 Clinics in dermatology에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Clinics in dermatology에 실린 새 연구입니다",
+    "intro": "《Clinics in dermatology》 - Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists",
     "highlights": [
-      "Background: Hair transplantation is a widely performed office-based aesthetic procedure characterized by prolonged procedural duration, cumulative local anesthetic exposure, and reliance on sustained patient cooperation.",
-      "Despite extensive literature on surgical technique and aesthetic outcomes, periprocedural anesthetic and analgesic considerations remain comparatively undersynthesized.",
-      "Materials and methods: A structured literature review was conducted using PubMed/MEDLINE and Embase from database inception through January 2026."
+      "Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.",
+      "For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.",
+      "Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Hair transplantation is a widely performed office-based aesthetic procedure characterized by prolonged procedural duration, cumulative local anesthetic exposure, and reliance on sustained patient cooperation.",
-          "Despite extensive literature on surgical technique and aesthetic outcomes, periprocedural anesthetic and analgesic considerations remain comparatively undersynthesized."
-        ]
-      },
-      {
-        "label": "배경",
-        "title": "Objective",
-        "kind": "intro",
-        "sentences": [
-          "The aims of this study were to review periprocedural anesthesia and analgesia strategies in hair transplantation and highlight practical considerations related to patient safety, procedural workflow, and intraoperative management."
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
-        "sentences": [
-          "A structured literature review was conducted using PubMed/MEDLINE and Embase from database inception through January 2026.",
-          "Studies evaluating anesthetic techniques, analgesic strategies, periprocedural pain management, and anesthesia-related safety considerations in hair transplantation and comparable office-based dermatologic surgical procedures were included.",
-          "Evidence was synthesized qualitatively according to predefined clinical domains."
+          "Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.",
+          "For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "Available evidence supports multimodal anesthetic strategies incorporating individualized local anesthetic selection, tumescence, regional nerve blocks, adjunctive analgesia, and structured intraoperative monitoring to optimize patient comfort, procedural efficiency, and safety.",
-          "However, available evidence consists predominantly of observational studies, case series, and expert consensus, with limited high-quality comparative data."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion",
-        "kind": "conclusion",
-        "sentences": [
-          "Individualized multimodal anesthetic strategies represent the current evidence-informed approach to periprocedural management in hair transplantation.",
-          "Prospective comparative studies are needed to strengthen the evidence base and inform future clinical recommendations."
+          "Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment.",
+          "These policies raise ethical concerns involving justice, beneficence, nonmaleficence, and autonomy.",
+          "Military safety requirements related to protective equipment must be balanced against the clinical needs of patients with PFB.",
+          "Laser hair removal may provide meaningful benefit but can recur, permanently alter facial hair growth, and carry additional risks depending on skin type, device selection, and treatment setting.",
+          "Dermatologists should provide accurate medical assessments, support medically necessary accommodations, and use shared decision-making so that treatment remains guided by clinical need and patient preference rather than institutional pressure."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Periprocedural Anesthesia and Analgesia in Hair Transplantation: An Evidence-Based Review of Contemporary Clinical Practice\n저널: Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]\n저자: Tringali S 외\n발행: 2026 Oct 9\n원문: https://pubmed.ncbi.nlm.nih.gov/42847986/\n\n[한눈에 보기]\n- Background: Hair transplantation is a widely performed office-based aesthetic procedure characterized by prolonged procedural duration, cumulative local anesthetic exposure, and reliance on sustained patient cooperation.\n- Despite extensive literature on surgical technique and aesthetic outcomes, periprocedural anesthetic and analgesic considerations remain comparatively undersynthesized.\n- Materials and methods: A structured literature review was conducted using PubMed/MEDLINE and Embase from database inception through January 2026.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Hair transplantation is a widely performed office-based aesthetic procedure characterized by prolonged procedural duration, cumulative local anesthetic exposure, and reliance on sustained patient cooperation.\n  · Despite extensive literature on surgical technique and aesthetic outcomes, periprocedural anesthetic and analgesic considerations remain comparatively undersynthesized.\n\n◆ 배경 — Objective\n  · The aims of this study were to review periprocedural anesthesia and analgesia strategies in hair transplantation and highlight practical considerations related to patient safety, procedural workflow, and intraoperative management.\n\n◆ 연구 방법 — Methods\n  · A structured literature review was conducted using PubMed/MEDLINE and Embase from database inception through January 2026.\n  · Studies evaluating anesthetic techniques, analgesic strategies, periprocedural pain management, and anesthesia-related safety considerations in hair transplantation and comparable office-based dermatologic surgical procedures were included.\n  · Evidence was synthesized qualitatively according to predefined clinical domains.\n\n◆ 주요 결과 — Results\n  · Available evidence supports multimodal anesthetic strategies incorporating individualized local anesthetic selection, tumescence, regional nerve blocks, adjunctive analgesia, and structured intraoperative monitoring to optimize patient comfort, procedural efficiency, and safety.\n  · However, available evidence consists predominantly of observational studies, case series, and expert consensus, with limited high-quality comparative data.\n\n◆ 결론 — Conclusion\n  · Individualized multimodal anesthetic strategies represent the current evidence-informed approach to periprocedural management in hair transplantation.\n  · Prospective comparative studies are needed to strengthen the evidence base and inform future clinical recommendations.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42847986/",
-    "reference_title": "Periprocedural Anesthesia and Analgesia in Hair Transplantation: An Evidence-Based Review of Contemporary Clinical Practice",
+    "full_script": "[훅] 오늘의 논문 Clinics in dermatology에 실린 새 연구입니다\n\n[논문 정보]\n제목: Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists\n저널: Clinics in dermatology\n저자: Ramush G, Kim J, Lipner SR 외\n발행: 2026 Oct 8\n원문: https://pubmed.ncbi.nlm.nih.gov/42849858/\n\n[한눈에 보기]\n- Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.\n- For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.\n- Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.\n  · For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Recent policy changes have tightened restrictions on shaving waivers and may create career consequences for service members who still require accommodations despite treatment.\n  · These policies raise ethical concerns involving justice, beneficence, nonmaleficence, and autonomy.\n  · Military safety requirements related to protective equipment must be balanced against the clinical needs of patients with PFB.\n  · Laser hair removal may provide meaningful benefit but can recur, permanently alter facial hair growth, and carry additional risks depending on skin type, device selection, and treatment setting.\n  · Dermatologists should provide accurate medical assessments, support medically necessary accommodations, and use shared decision-making so that treatment remains guided by clinical need and patient preference rather than institutional pressure.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42849858/",
+    "reference_title": "Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists",
     "reference_type": "paper"
   },
   "assets": {

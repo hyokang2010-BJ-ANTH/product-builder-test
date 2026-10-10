@@ -1,7 +1,20 @@
 {
-  "count": 41,
-  "updated": "2026-10-09",
+  "count": 42,
+  "updated": "2026-10-10",
   "items": [
+    {
+      "date": "2026-10-10",
+      "dir": "2026-10-10",
+      "title": "Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists",
+      "journal": "Clinics in dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849858/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Clinics in dermatology에 실린 새 연구입니다",
+      "thumb": "2026-10-10/paper_card.png",
+      "pptx": "2026-10-10/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-09",
       "dir": "2026-10-09",
