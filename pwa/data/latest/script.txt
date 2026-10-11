@@ -1,29 +1,36 @@
-[훅] 오늘의 논문 Clinics in dermatology에 실린 새 연구입니다
+[훅] 50% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: Military shaving waivers for pseudofolliculitis barbae: Ethical considerations for dermatologists
-저널: Clinics in dermatology
-저자: Ramush G, Kim J, Lipner SR 외
-발행: 2026 Oct 9
-원문: https://pubmed.ncbi.nlm.nih.gov/42854877/
+제목: Double Challenges for Scalp Health: A Review of the Pathogenesis and Treatment Strategies of Coexistence of Seborrheic Dermatitis and Androgenetic Alopecia
+저널: Dermatology research and practice
+저자: Zhu M, Hu L 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/42857554/
 
 [한눈에 보기]
-- Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.
-- For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.
-- Recent policy changes have placed greater restrictions on shaving waivers and may create career consequences for service members who continue to require accommodations despite treatment.
+- Androgenetic alopecia (AGA) and seborrheic dermatitis (SD) are two common scalp disorders that frequently impair the quality of life and may coexist in a subset of patients across all genders.
+- SD presents in 40%-50% of all patients diagnosed with AGA.
+- Although these conditions are traditionally discussed separately, increasing evidence suggests that they may share overlapping pathogenic factors, including androgen-driven sebum hypersecretion, imbalance of the scalp microecology, barrier dysfunction, and inflammatory signaling.
 
-[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (논문 전문 5개 섹션에서 발췌)
 
-◆ 배경 — Background (자동 구분)
-  · Pseudofolliculitis barbae (PFB) is a chronic inflammatory disorder triggered by shaving and disproportionately affects individuals of African descent.
-  · For service members, medically appropriate management may conflict with military grooming standards requiring a clean-shaven appearance.
+◆ 배경 — 1. Introduction
+  · Seborrheic dermatitis (SD) is a common, recurrent, chronic inflammatory skin disease that predominantly affects sebaceous gland‐rich areas, particularly the scalp, and is characterized by yellow‐red patches covered with greasy, yellowish scales or crusts and varying degrees of pruritus.
+  · Androgenetic alopecia (AGA), formerly known as seborrheic alopecia, is a progressive androgen‐dependent disorder characterized by hair follicle miniaturization with a typical patterned distribution.
+  · Although SD and AGA are distinct conditions, both exhibit high prevalence and incidence rates, with a predilection for young adults and older men.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Recent policy changes have placed greater restrictions on shaving waivers and may create career consequences for service members who continue to require accommodations despite treatment.
-  · These policies raise ethical concerns involving justice, beneficence, nonmaleficence, and autonomy.
-  · Military safety requirements related to protective equipment must be balanced against the clinical needs of patients with PFB.
-  · Laser hair removal may provide meaningful benefit but can recur, permanently alter facial hair growth, and carry additional risks depending on skin type, device selection, and treatment setting.
-  · Dermatologists should provide accurate medical assessments, support medically necessary accommodations, and use shared decision-making so that treatment remains guided by clinical need and patient preference rather than institutional pressure.
+◆ 그 밖의 내용 — 2. Clinical and Epidemiological Overlap Between SD and AGA
+  · In a study by Jang et al. involving 1218 patients with AGA, SD was the most common concomitant disease in both sexes, with a prevalence of 51.2% in men and 45.7% in women.
+  · Another study reported an SD prevalence of 42.1% among patients with AGA, with both prevalence and severity scores increasing in parallel with AGA severity.
+
+◆ 그 밖의 내용 — 3. Mechanism of Association Between SD and AGA
+  · Evidence from the UK Biobank and twin studies has confirmed that the heritability of AGA in males is estimated at 62%–80%.
+
+◆ 그 밖의 내용 — 4. Integrated Mechanism of SD–AGA Coexistence
+  · Based on the aforementioned information, we have summarized the coexistence mechanism between SD and AGA.
+
+◆ 그 밖의 내용 — 5. Comprehensive Treatment Strategies Based on Target Synergy and Prospects
+  · One study reported that daily use of a 1% zinc pyrithione shampoo for 26 weeks resulted in moderate and sustained improvement in hair growth.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

@@ -1,7 +1,20 @@
 {
-  "count": 43,
-  "updated": "2026-10-11",
+  "count": 44,
+  "updated": "2026-10-12",
   "items": [
+    {
+      "date": "2026-10-12",
+      "dir": "2026-10-12",
+      "title": "Double Challenges for Scalp Health: A Review of the Pathogenesis and Treatment Strategies of Coexistence of Seborrheic Dermatitis and Androgenetic Alopecia",
+      "journal": "Dermatology research and practice",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857554/",
+      "hook_accent": "50%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-12/paper_card.png",
+      "pptx": "2026-10-12/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-11",
       "dir": "2026-10-11",

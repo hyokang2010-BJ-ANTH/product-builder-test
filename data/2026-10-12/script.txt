@@ -1,0 +1,40 @@
+[훅] 50% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Double Challenges for Scalp Health: A Review of the Pathogenesis and Treatment Strategies of Coexistence of Seborrheic Dermatitis and Androgenetic Alopecia
+저널: Dermatology research and practice
+저자: Zhu M, Hu L 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/42857554/
+
+[한눈에 보기]
+- Androgenetic alopecia (AGA) and seborrheic dermatitis (SD) are two common scalp disorders that frequently impair the quality of life and may coexist in a subset of patients across all genders.
+- SD presents in 40%-50% of all patients diagnosed with AGA.
+- Although these conditions are traditionally discussed separately, increasing evidence suggests that they may share overlapping pathogenic factors, including androgen-driven sebum hypersecretion, imbalance of the scalp microecology, barrier dysfunction, and inflammatory signaling.
+
+[상세 내용] (논문 전문 5개 섹션에서 발췌)
+
+◆ 배경 — 1. Introduction
+  · Seborrheic dermatitis (SD) is a common, recurrent, chronic inflammatory skin disease that predominantly affects sebaceous gland‐rich areas, particularly the scalp, and is characterized by yellow‐red patches covered with greasy, yellowish scales or crusts and varying degrees of pruritus.
+  · Androgenetic alopecia (AGA), formerly known as seborrheic alopecia, is a progressive androgen‐dependent disorder characterized by hair follicle miniaturization with a typical patterned distribution.
+  · Although SD and AGA are distinct conditions, both exhibit high prevalence and incidence rates, with a predilection for young adults and older men.
+
+◆ 그 밖의 내용 — 2. Clinical and Epidemiological Overlap Between SD and AGA
+  · In a study by Jang et al. involving 1218 patients with AGA, SD was the most common concomitant disease in both sexes, with a prevalence of 51.2% in men and 45.7% in women.
+  · Another study reported an SD prevalence of 42.1% among patients with AGA, with both prevalence and severity scores increasing in parallel with AGA severity.
+
+◆ 그 밖의 내용 — 3. Mechanism of Association Between SD and AGA
+  · Evidence from the UK Biobank and twin studies has confirmed that the heritability of AGA in males is estimated at 62%–80%.
+
+◆ 그 밖의 내용 — 4. Integrated Mechanism of SD–AGA Coexistence
+  · Based on the aforementioned information, we have summarized the coexistence mechanism between SD and AGA.
+
+◆ 그 밖의 내용 — 5. Comprehensive Treatment Strategies Based on Target Synergy and Prospects
+  · One study reported that daily use of a 1% zinc pyrithione shampoo for 26 weeks resulted in moderate and sustained improvement in hair growth.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
