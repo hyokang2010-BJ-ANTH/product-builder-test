@@ -1,36 +1,47 @@
-[훅] 50% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 오늘의 논문 Frontiers in immunology에 실린 새 연구입니다
 
 [논문 정보]
-제목: Double Challenges for Scalp Health: A Review of the Pathogenesis and Treatment Strategies of Coexistence of Seborrheic Dermatitis and Androgenetic Alopecia
-저널: Dermatology research and practice
-저자: Zhu M, Hu L 외
+제목: Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review
+저널: Frontiers in immunology
+저자: Yang Y, Li M, Chen H 외
 발행: 2026
-원문: https://pubmed.ncbi.nlm.nih.gov/42857554/
+원문: https://pubmed.ncbi.nlm.nih.gov/42857222/
 
 [한눈에 보기]
-- Androgenetic alopecia (AGA) and seborrheic dermatitis (SD) are two common scalp disorders that frequently impair the quality of life and may coexist in a subset of patients across all genders.
-- SD presents in 40%-50% of all patients diagnosed with AGA.
-- Although these conditions are traditionally discussed separately, increasing evidence suggests that they may share overlapping pathogenic factors, including androgen-driven sebum hypersecretion, imbalance of the scalp microecology, barrier dysfunction, and inflammatory signaling.
+- Postpartum alopecia (PPA) is a common physiological hair loss in women, characterized by complex pathogenesis involving abrupt postpartum hormonal withdrawal, disrupted hair follicle cycling, local microenvironmental inflammation, and oxidative stress.
+- Umbilical cord blood-derived extracellular vesicles (UCB-EVs)-nanosized, lipid-bilayer-enclosed particles enriched with microRNAs, growth factors, and proteins-have shown considerable promise in regenerative medicine owing to their low immunogenicity, high biocompatibility, and tissue-repair capacity.
+- This review systematically summarizes the current state of research on UCB-EVs in the context of PPA, focusing on their proposed molecular mechanisms in hair follicle regeneration, hair-cycle modulation, antiinflammatory effects, and antioxidative stress responses.
 
-[상세 내용] (논문 전문 5개 섹션에서 발췌)
+[상세 내용] (논문 전문 7개 섹션에서 발췌)
 
-◆ 배경 — 1. Introduction
-  · Seborrheic dermatitis (SD) is a common, recurrent, chronic inflammatory skin disease that predominantly affects sebaceous gland‐rich areas, particularly the scalp, and is characterized by yellow‐red patches covered with greasy, yellowish scales or crusts and varying degrees of pruritus.
-  · Androgenetic alopecia (AGA), formerly known as seborrheic alopecia, is a progressive androgen‐dependent disorder characterized by hair follicle miniaturization with a typical patterned distribution.
-  · Although SD and AGA are distinct conditions, both exhibit high prevalence and incidence rates, with a predilection for young adults and older men.
+◆ 배경 — Introduction
+  · Female postpartum alopecia (PPA) represents a significant clinical and psychosocial challenge, emerging as one of the most common dermatological conditions affecting women in the postpartum period.
+  · Epidemiological data indicates that the prevalence of PPA is remarkably high, with studies suggesting that over 90% of postpartum women experience some degree of hair loss (3).
+  · At the molecular level, UCB-EVs are enriched with specific miRNAs, such as miR-21-5p and let-7b-5p, which are capable of targeting and modulating key signaling pathways critical for hair follicle biology (2).
 
-◆ 그 밖의 내용 — 2. Clinical and Epidemiological Overlap Between SD and AGA
-  · In a study by Jang et al. involving 1218 patients with AGA, SD was the most common concomitant disease in both sexes, with a prevalence of 51.2% in men and 45.7% in women.
-  · Another study reported an SD prevalence of 42.1% among patients with AGA, with both prevalence and severity scores increasing in parallel with AGA severity.
+◆ 그 밖의 내용 — Biological characteristics and preparation of UCB-EVs
+  · They are broadly classified into exosomes (30–150 nm), microvesicles (100–1000 nm), and apoptotic bodies (>1000 nm) based on their biogenesis and size (9).
+  · This typically involves a combination of techniques: This typically involves a combination of techniques: dynamic light scattering (DLS), also known as photon correlation spectroscopy, which measures time-dependent fluctuations in scattered light caused by Brownian motion of particles to determine the hydrodynamic diameter and polydispersity index (PDI) of EVs (21); Nanoparticle tracking analysis (NTA) to determine particle size distribution and concentration (13, 14); Western blot analysis to confirm the presence of EV protein markers such as CD63, CD81, and TSG101 (13, 15); and transmission electron microscopy (TEM) or cryo-electron microscopy (cryo-EM) to verify the characteristic spherical, lipid bilayer morphology of the vesicles (14, 22).
 
-◆ 그 밖의 내용 — 3. Mechanism of Association Between SD and AGA
-  · Evidence from the UK Biobank and twin studies has confirmed that the heritability of AGA in males is estimated at 62%–80%.
+◆ 고찰 — Pathogenesis of postpartum hair loss in women and limitations of current treatments
+  · In fact, the prevalence of thyroid abnormalities in patients with telogen effluvium has been documented to be between 5.7% and 17%, underscoring the importance of screening for postpartum thyroiditis in patients presenting with persistent postpartum hair loss (30).
+  · Studies show that low ferritin is significantly associated with telogen effluvium, and vitamin D, which acts as a hormone, is crucial for proper hair follicle cycling through its involvement in signaling pathways of growth and differentiation (33–35).
+  · Evidence from other forms of alopecia, such as that seen in COVID-19, suggests that severe systemic inflammation can dramatically increase the risk of telogen effluvium, with patients exhibiting higher levels of inflammatory biomarkers like C-reactive protein and IL-1β correlating with increased hair shedding (36).
+  · These cytokines directly inhibit the proliferation of hair follicle stem cells and keratinocytes, by activating signaling cascades, most notably the JAK-STAT pathway (38–40).
 
-◆ 그 밖의 내용 — 4. Integrated Mechanism of SD–AGA Coexistence
-  · Based on the aforementioned information, we have summarized the coexistence mechanism between SD and AGA.
+◆ 그 밖의 내용 — Molecular mechanisms of UCB-EVs in promoting hair follicle regeneration
+  · Table 1Summary of UCB-EV studies for hair regeneration with categorized evidence levels.EV sourceModelIntervention main mechanism/outcomeEvidence levelUCB-EVsHumanDPC/HFK coculture50 μg/mL for 48 hProliferation ↑45%, apoptosis ↓35%, Versican/ALP ↑,Wnt/β- catenin activation Direct (in vitro, PPA-related cells)UCB-EVsCortisol/DHT-inducedtelogen cell modelIn vitro treatmentHair shaft elongation ↑30%, restoration of Ki67/PCNA Direct (in vitro, hormonal/stress-induced telogen)UCB-EVsC57BL/6 PPA mouse modelIntradermal injection every 3 days ×4Hair coverage ≈80% vs 30%, hair density ↑2-fold, follicle number ↑50%, anagen 20%→65%, CD31 ↑ Direct (in vivo, PPA model)UCB-EVsvs 2%minoxidilMouse modelLocal injectionComparable hair coverage at day 14; at day 21, anagen60% (UCB-EVs) vs 40% (minoxidil)Direct comparative (model type to be specified)hUCMSC-derived exosomes AGA animal model Local administration Rescue from DHT damage, enlarged follicles, telogen→anagen, Wnt/β-catenin activation Indirect (other EV source, AGA model)Macrophage-derived EVs Balb/c mice Injection Wnt3a/7b activation, DPC proliferation/migration ↑, VEGF/KGF ↑ Indirect (other EV source, generic hair growth)Fibroblast-derived EVs Ex vivo human hair follicles In vitro culture Hair shaft elongation, Wnt/βcatenin activationIndirect (other EV source, follicle culture)UCB-MSC-EVsMouse wound healing modelLocal treatmentAngiogenesis, ECM remodeling Indirect (wound healing model)Direct evidence indicates that the intervention was UCB-EV and the model was PPA or PPA-related; indirect evidence indicates other EV sources or non-PPA models.
 
-◆ 그 밖의 내용 — 5. Comprehensive Treatment Strategies Based on Target Synergy and Prospects
-  · One study reported that daily use of a 1% zinc pyrithione shampoo for 26 weeks resulted in moderate and sustained improvement in hair growth.
+◆ 그 밖의 내용 — Preclinical evidence for UCB-EVs in treating postpartum hair loss
+  · When DPCs, the master regulators of hair follicle cycling, were treated with UCB-EVs at a concentration of 50 μg/mL for 48 hours, significant cellular responses were observed, including a 45% increase in proliferation and a 35% reduction in apoptosis (55).
+
+◆ 결론 — Clinical translation challenges and future directions of UCB-EVs for postpartum hair loss
+  · A primary hurdle is the limited volume of UCB obtainable per unit, as a single cord blood donation yields only approximately 10^10 to 10^11 EV particles.
+  · For instance, the use of a chemically defined, xeno- and blood-free culture medium, such as Oxium™EXO, has been shown to increase small EV (sEV) secretion from MSCs by three-fold, consistently across multiple harvest time points and different cell sources, yielding an enrichment of particles within the 51–200 nm range (71).
+  · Preclinical safety evaluations using non-human primates have shown that high-dose intravenous administration of human UCB-MSC-derived exosomes (3.85 × 10^12 particles) did not cause significant adverse effects on general clinical conditions, hematology, coagulation, or immune organs, and did not induce major changes in immunoglobulins or cytokines (79).
+
+◆ 결론 — Conclusion
+  · Transcriptomic analyses have revealed the involvement of immune cells and ferroptosis in frontal fibrosing alopecia (81).
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

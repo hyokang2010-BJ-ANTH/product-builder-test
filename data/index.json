@@ -1,7 +1,20 @@
 {
-  "count": 44,
-  "updated": "2026-10-12",
+  "count": 45,
+  "updated": "2026-10-13",
   "items": [
+    {
+      "date": "2026-10-13",
+      "dir": "2026-10-13",
+      "title": "Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review",
+      "journal": "Frontiers in immunology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857222/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Frontiers in immunology에 실린 새 연구입니다",
+      "thumb": "2026-10-13/paper_card.png",
+      "pptx": "2026-10-13/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-12",
       "dir": "2026-10-12",
