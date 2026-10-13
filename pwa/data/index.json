@@ -1,7 +1,20 @@
 {
-  "count": 45,
-  "updated": "2026-10-13",
+  "count": 46,
+  "updated": "2026-10-14",
   "items": [
+    {
+      "date": "2026-10-14",
+      "dir": "2026-10-14",
+      "title": "Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42866572/",
+      "hook_accent": "35.9%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-14/paper_card.png",
+      "pptx": "2026-10-14/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-13",
       "dir": "2026-10-13",

@@ -1,90 +1,67 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "topic": {
     "source_type": "paper",
-    "pmid": "42857222",
-    "title": "Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review",
-    "journal": "Frontiers in immunology",
+    "pmid": "42866572",
+    "title": "Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
+    "journal": "Clinical, cosmetic and investigational dermatology",
     "pub_date": "2026",
     "authors": [
-      "Yang Y",
-      "Li M",
-      "Chen H"
+      "Wu Y",
+      "Liu D",
+      "Lin YM"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Review"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42857222/",
-    "id": "pmid:42857222",
-    "abstract": "Postpartum alopecia (PPA) is a common physiological hair loss in women, characterized by complex pathogenesis involving abrupt postpartum hormonal withdrawal, disrupted hair follicle cycling, local microenvironmental inflammation, and oxidative stress. Umbilical cord blood-derived extracellular vesicles (UCB-EVs)-nanosized, lipid-bilayer-enclosed particles enriched with microRNAs, growth factors, and proteins-have shown considerable promise in regenerative medicine owing to their low immunogenicity, high biocompatibility, and tissue-repair capacity. This review systematically summarizes the current state of research on UCB-EVs in the context of PPA, focusing on their proposed molecular mechanisms in hair follicle regeneration, hair-cycle modulation, antiinflammatory effects, and antioxidative stress responses. Importantly, the available evidence remains largely preclinical, derived from in vitro and animal-model studies; direct clinical evidence for UCBEVs in PPA is still lacking. UCB-EVs should therefore be regarded as a promising investigational strategy, and their clinical translation will require rigorous validation of standardization, safety, and efficacy.",
-    "pmcid": "PMC13651770"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42866572/",
+    "id": "pmid:42866572",
+    "abstract": "Background: Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized. Objective: To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management. Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments. K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes. Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders. Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34). Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership. Conclusion: Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes. Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application."
   },
   "script": {
-    "hook": "오늘의 논문 Frontiers in immunology에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "Frontiers in immunology에 실린 새 연구입니다",
-    "intro": "《Frontiers in immunology》 - Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review",
+    "hook": "35.9% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "35.9%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Clinical, cosmetic and investigational dermatology》 - Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
     "highlights": [
-      "Postpartum alopecia (PPA) is a common physiological hair loss in women, characterized by complex pathogenesis involving abrupt postpartum hormonal withdrawal, disrupted hair follicle cycling, local microenvironmental inflammation, and oxidative stress.",
-      "Umbilical cord blood-derived extracellular vesicles (UCB-EVs)-nanosized, lipid-bilayer-enclosed particles enriched with microRNAs, growth factors, and proteins-have shown considerable promise in regenerative medicine owing to their low immunogenicity, high biocompatibility, and tissue-repair capacity.",
-      "This review systematically summarizes the current state of research on UCB-EVs in the context of PPA, focusing on their proposed molecular mechanisms in hair follicle regeneration, hair-cycle modulation, antiinflammatory effects, and antioxidative stress responses."
+      "Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.",
+      "Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.",
+      "Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34)."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Introduction",
+        "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Female postpartum alopecia (PPA) represents a significant clinical and psychosocial challenge, emerging as one of the most common dermatological conditions affecting women in the postpartum period.",
-          "Epidemiological data indicates that the prevalence of PPA is remarkably high, with studies suggesting that over 90% of postpartum women experience some degree of hair loss (3).",
-          "At the molecular level, UCB-EVs are enriched with specific miRNAs, such as miR-21-5p and let-7b-5p, which are capable of targeting and modulating key signaling pathways critical for hair follicle biology (2)."
+          "Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized."
         ]
       },
       {
-        "label": "그 밖의 내용",
-        "title": "Biological characteristics and preparation of UCB-EVs",
-        "kind": "other",
+        "label": "배경",
+        "title": "Objective",
+        "kind": "intro",
         "sentences": [
-          "They are broadly classified into exosomes (30–150 nm), microvesicles (100–1000 nm), and apoptotic bodies (>1000 nm) based on their biogenesis and size (9).",
-          "This typically involves a combination of techniques: This typically involves a combination of techniques: dynamic light scattering (DLS), also known as photon correlation spectroscopy, which measures time-dependent fluctuations in scattered light caused by Brownian motion of particles to determine the hydrodynamic diameter and polydispersity index (PDI) of EVs (21); Nanoparticle tracking analysis (NTA) to determine particle size distribution and concentration (13, 14); Western blot analysis to confirm the presence of EV protein markers such as CD63, CD81, and TSG101 (13, 15); and transmission electron microscopy (TEM) or cryo-electron microscopy (cryo-EM) to verify the characteristic spherical, lipid bilayer morphology of the vesicles (14, 22)."
+          "To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management."
         ]
       },
       {
-        "label": "고찰",
-        "title": "Pathogenesis of postpartum hair loss in women and limitations of current treatments",
-        "kind": "discussion",
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
         "sentences": [
-          "In fact, the prevalence of thyroid abnormalities in patients with telogen effluvium has been documented to be between 5.7% and 17%, underscoring the importance of screening for postpartum thyroiditis in patients presenting with persistent postpartum hair loss (30).",
-          "Studies show that low ferritin is significantly associated with telogen effluvium, and vitamin D, which acts as a hormone, is crucial for proper hair follicle cycling through its involvement in signaling pathways of growth and differentiation (33–35).",
-          "Evidence from other forms of alopecia, such as that seen in COVID-19, suggests that severe systemic inflammation can dramatically increase the risk of telogen effluvium, with patients exhibiting higher levels of inflammatory biomarkers like C-reactive protein and IL-1β correlating with increased hair shedding (36).",
-          "These cytokines directly inhibit the proliferation of hair follicle stem cells and keratinocytes, by activating signaling cascades, most notably the JAK-STAT pathway (38–40)."
+          "In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.",
+          "K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes."
         ]
       },
       {
-        "label": "그 밖의 내용",
-        "title": "Molecular mechanisms of UCB-EVs in promoting hair follicle regeneration",
-        "kind": "other",
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
         "sentences": [
-          "Table 1Summary of UCB-EV studies for hair regeneration with categorized evidence levels.EV sourceModelIntervention main mechanism/outcomeEvidence levelUCB-EVsHumanDPC/HFK coculture50 μg/mL for 48 hProliferation ↑45%, apoptosis ↓35%, Versican/ALP ↑,Wnt/β- catenin activation Direct (in vitro, PPA-related cells)UCB-EVsCortisol/DHT-inducedtelogen cell modelIn vitro treatmentHair shaft elongation ↑30%, restoration of Ki67/PCNA Direct (in vitro, hormonal/stress-induced telogen)UCB-EVsC57BL/6 PPA mouse modelIntradermal injection every 3 days ×4Hair coverage ≈80% vs 30%, hair density ↑2-fold, follicle number ↑50%, anagen 20%→65%, CD31 ↑ Direct (in vivo, PPA model)UCB-EVsvs 2%minoxidilMouse modelLocal injectionComparable hair coverage at day 14; at day 21, anagen60% (UCB-EVs) vs 40% (minoxidil)Direct comparative (model type to be specified)hUCMSC-derived exosomes AGA animal model Local administration Rescue from DHT damage, enlarged follicles, telogen→anagen, Wnt/β-catenin activation Indirect (other EV source, AGA model)Macrophage-derived EVs Balb/c mice Injection Wnt3a/7b activation, DPC proliferation/migration ↑, VEGF/KGF ↑ Indirect (other EV source, generic hair growth)Fibroblast-derived EVs Ex vivo human hair follicles In vitro culture Hair shaft elongation, Wnt/βcatenin activationIndirect (other EV source, follicle culture)UCB-MSC-EVsMouse wound healing modelLocal treatmentAngiogenesis, ECM remodeling Indirect (wound healing model)Direct evidence indicates that the intervention was UCB-EV and the model was PPA or PPA-related; indirect evidence indicates other EV sources or non-PPA models."
-        ]
-      },
-      {
-        "label": "그 밖의 내용",
-        "title": "Preclinical evidence for UCB-EVs in treating postpartum hair loss",
-        "kind": "other",
-        "sentences": [
-          "When DPCs, the master regulators of hair follicle cycling, were treated with UCB-EVs at a concentration of 50 μg/mL for 48 hours, significant cellular responses were observed, including a 45% increase in proliferation and a 35% reduction in apoptosis (55)."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Clinical translation challenges and future directions of UCB-EVs for postpartum hair loss",
-        "kind": "conclusion",
-        "sentences": [
-          "A primary hurdle is the limited volume of UCB obtainable per unit, as a single cord blood donation yields only approximately 10^10 to 10^11 EV particles.",
-          "For instance, the use of a chemically defined, xeno- and blood-free culture medium, such as Oxium™EXO, has been shown to increase small EV (sEV) secretion from MSCs by three-fold, consistently across multiple harvest time points and different cell sources, yielding an enrichment of particles within the 51–200 nm range (71).",
-          "Preclinical safety evaluations using non-human primates have shown that high-dose intravenous administration of human UCB-MSC-derived exosomes (3.85 × 10^12 particles) did not cause significant adverse effects on general clinical conditions, hematology, coagulation, or immune organs, and did not induce major changes in immunoglobulins or cytokines (79)."
+          "Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.",
+          "Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).",
+          "Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership."
         ]
       },
       {
@@ -92,14 +69,15 @@
         "title": "Conclusion",
         "kind": "conclusion",
         "sentences": [
-          "Transcriptomic analyses have revealed the involvement of immune cells and ferroptosis in frontal fibrosing alopecia (81)."
+          "Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes.",
+          "Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Frontiers in immunology에 실린 새 연구입니다\n\n[논문 정보]\n제목: Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review\n저널: Frontiers in immunology\n저자: Yang Y, Li M, Chen H 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42857222/\n\n[한눈에 보기]\n- Postpartum alopecia (PPA) is a common physiological hair loss in women, characterized by complex pathogenesis involving abrupt postpartum hormonal withdrawal, disrupted hair follicle cycling, local microenvironmental inflammation, and oxidative stress.\n- Umbilical cord blood-derived extracellular vesicles (UCB-EVs)-nanosized, lipid-bilayer-enclosed particles enriched with microRNAs, growth factors, and proteins-have shown considerable promise in regenerative medicine owing to their low immunogenicity, high biocompatibility, and tissue-repair capacity.\n- This review systematically summarizes the current state of research on UCB-EVs in the context of PPA, focusing on their proposed molecular mechanisms in hair follicle regeneration, hair-cycle modulation, antiinflammatory effects, and antioxidative stress responses.\n\n[상세 내용] (논문 전문 7개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Female postpartum alopecia (PPA) represents a significant clinical and psychosocial challenge, emerging as one of the most common dermatological conditions affecting women in the postpartum period.\n  · Epidemiological data indicates that the prevalence of PPA is remarkably high, with studies suggesting that over 90% of postpartum women experience some degree of hair loss (3).\n  · At the molecular level, UCB-EVs are enriched with specific miRNAs, such as miR-21-5p and let-7b-5p, which are capable of targeting and modulating key signaling pathways critical for hair follicle biology (2).\n\n◆ 그 밖의 내용 — Biological characteristics and preparation of UCB-EVs\n  · They are broadly classified into exosomes (30–150 nm), microvesicles (100–1000 nm), and apoptotic bodies (>1000 nm) based on their biogenesis and size (9).\n  · This typically involves a combination of techniques: This typically involves a combination of techniques: dynamic light scattering (DLS), also known as photon correlation spectroscopy, which measures time-dependent fluctuations in scattered light caused by Brownian motion of particles to determine the hydrodynamic diameter and polydispersity index (PDI) of EVs (21); Nanoparticle tracking analysis (NTA) to determine particle size distribution and concentration (13, 14); Western blot analysis to confirm the presence of EV protein markers such as CD63, CD81, and TSG101 (13, 15); and transmission electron microscopy (TEM) or cryo-electron microscopy (cryo-EM) to verify the characteristic spherical, lipid bilayer morphology of the vesicles (14, 22).\n\n◆ 고찰 — Pathogenesis of postpartum hair loss in women and limitations of current treatments\n  · In fact, the prevalence of thyroid abnormalities in patients with telogen effluvium has been documented to be between 5.7% and 17%, underscoring the importance of screening for postpartum thyroiditis in patients presenting with persistent postpartum hair loss (30).\n  · Studies show that low ferritin is significantly associated with telogen effluvium, and vitamin D, which acts as a hormone, is crucial for proper hair follicle cycling through its involvement in signaling pathways of growth and differentiation (33–35).\n  · Evidence from other forms of alopecia, such as that seen in COVID-19, suggests that severe systemic inflammation can dramatically increase the risk of telogen effluvium, with patients exhibiting higher levels of inflammatory biomarkers like C-reactive protein and IL-1β correlating with increased hair shedding (36).\n  · These cytokines directly inhibit the proliferation of hair follicle stem cells and keratinocytes, by activating signaling cascades, most notably the JAK-STAT pathway (38–40).\n\n◆ 그 밖의 내용 — Molecular mechanisms of UCB-EVs in promoting hair follicle regeneration\n  · Table 1Summary of UCB-EV studies for hair regeneration with categorized evidence levels.EV sourceModelIntervention main mechanism/outcomeEvidence levelUCB-EVsHumanDPC/HFK coculture50 μg/mL for 48 hProliferation ↑45%, apoptosis ↓35%, Versican/ALP ↑,Wnt/β- catenin activation Direct (in vitro, PPA-related cells)UCB-EVsCortisol/DHT-inducedtelogen cell modelIn vitro treatmentHair shaft elongation ↑30%, restoration of Ki67/PCNA Direct (in vitro, hormonal/stress-induced telogen)UCB-EVsC57BL/6 PPA mouse modelIntradermal injection every 3 days ×4Hair coverage ≈80% vs 30%, hair density ↑2-fold, follicle number ↑50%, anagen 20%→65%, CD31 ↑ Direct (in vivo, PPA model)UCB-EVsvs 2%minoxidilMouse modelLocal injectionComparable hair coverage at day 14; at day 21, anagen60% (UCB-EVs) vs 40% (minoxidil)Direct comparative (model type to be specified)hUCMSC-derived exosomes AGA animal model Local administration Rescue from DHT damage, enlarged follicles, telogen→anagen, Wnt/β-catenin activation Indirect (other EV source, AGA model)Macrophage-derived EVs Balb/c mice Injection Wnt3a/7b activation, DPC proliferation/migration ↑, VEGF/KGF ↑ Indirect (other EV source, generic hair growth)Fibroblast-derived EVs Ex vivo human hair follicles In vitro culture Hair shaft elongation, Wnt/βcatenin activationIndirect (other EV source, follicle culture)UCB-MSC-EVsMouse wound healing modelLocal treatmentAngiogenesis, ECM remodeling Indirect (wound healing model)Direct evidence indicates that the intervention was UCB-EV and the model was PPA or PPA-related; indirect evidence indicates other EV sources or non-PPA models.\n\n◆ 그 밖의 내용 — Preclinical evidence for UCB-EVs in treating postpartum hair loss\n  · When DPCs, the master regulators of hair follicle cycling, were treated with UCB-EVs at a concentration of 50 μg/mL for 48 hours, significant cellular responses were observed, including a 45% increase in proliferation and a 35% reduction in apoptosis (55).\n\n◆ 결론 — Clinical translation challenges and future directions of UCB-EVs for postpartum hair loss\n  · A primary hurdle is the limited volume of UCB obtainable per unit, as a single cord blood donation yields only approximately 10^10 to 10^11 EV particles.\n  · For instance, the use of a chemically defined, xeno- and blood-free culture medium, such as Oxium™EXO, has been shown to increase small EV (sEV) secretion from MSCs by three-fold, consistently across multiple harvest time points and different cell sources, yielding an enrichment of particles within the 51–200 nm range (71).\n  · Preclinical safety evaluations using non-human primates have shown that high-dose intravenous administration of human UCB-MSC-derived exosomes (3.85 × 10^12 particles) did not cause significant adverse effects on general clinical conditions, hematology, coagulation, or immune organs, and did not induce major changes in immunoglobulins or cytokines (79).\n\n◆ 결론 — Conclusion\n  · Transcriptomic analyses have revealed the involvement of immune cells and ferroptosis in frontal fibrosing alopecia (81).\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42857222/",
-    "reference_title": "Translating umbilical cord blood extracellular vesicles into a novel therapy for postpartum alopecia: a mechanistic and preclinical review",
+    "full_script": "[훅] 35.9% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering\n저널: Clinical, cosmetic and investigational dermatology\n저자: Wu Y, Liu D, Lin YM 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42866572/\n\n[한눈에 보기]\n- Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.\n- Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.\n- Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized.\n\n◆ 배경 — Objective\n  · To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management.\n\n◆ 연구 방법 — Methods\n  · In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.\n  · K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes.\n\n◆ 주요 결과 — Results\n  · Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.\n  · Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).\n  · Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership.\n\n◆ 결론 — Conclusion\n  · Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes.\n  · Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42866572/",
+    "reference_title": "Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
     "reference_type": "paper"
   },
   "assets": {
@@ -112,63 +90,15 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "Summary of UCB-EV studies for hair regeneration with categorized evidence levels.",
-        "rows": [
-          [
-            "EV source",
-            "Model",
-            "Intervention main mechanism/outcome",
-            "Evidence level"
-          ],
-          [
-            "UCB-EVs",
-            "HumanDPC/HFK coculture",
-            "50 μg/mL for 48 h",
-            "Proliferation ↑45%, apoptosis ↓35%, Versican/ALP ↑,Wnt/β- catenin activation Direct (in vitro, PPA-related cells)"
-          ],
-          [
-            "UCB-EVs",
-            "Cortisol/DHT-inducedtelogen cell model",
-            "In vitro treatment",
-            "Hair shaft elongation ↑30%, restoration of Ki67/PCNA Direct (in vitro, hormonal/stress-induced telogen)"
-          ],
-          [
-            "UCB-EVs",
-            "C57BL/6 PPA mouse model",
-            "Intradermal injection every 3 days ×4",
-            "Hair coverage ≈80% vs 30%, hair density ↑2-fold, follicle number ↑50%, anagen 20%→65%, CD31 ↑ Direct (in vivo, PPA model)"
-          ],
-          [
-            "UCB-EVs",
-            "vs 2%minoxidilMouse model",
-            "Local injectionComparable hair coverage at day 14; at day 21, anagen60% (UCB-EVs) vs 40% (minoxidil)Direct comparative (model type to be specified)",
-            "hUCMSC-derived exosomes AGA animal model Local administration Rescue from DHT damage, enlarged follicles, telogen→anagen, Wnt/β-catenin activation Indirect (other EV source, AGA model)Macrophage-derived EVs Balb/c mice Injection Wnt3a/7b activation, DPC proliferation/migration ↑, VEGF/KGF ↑ Indirect (other EV source, generic hair growth)Fibroblast-derived EVs Ex vivo human hair follicles In vitro culture Hair shaft elongation, Wnt/βcatenin activationIndirect (other EV source, follicle culture)"
-          ],
-          [
-            "UCB-MSC-EVs",
-            "Mouse wound healing model",
-            "Local treatment",
-            "Angiogenesis, ECM remodeling Indirect (wound healing model)"
-          ]
-        ]
-      }
-    ],
-    "paper_source": {
-      "pmcid": "PMC13651770",
-      "license_note": "재사용 가능 라이선스"
-    },
-    "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13651770)에서 직접 캡처해 쓰세요."
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-14",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42866572",
+    "title": "Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
+    "journal": "Clinical, cosmetic and investigational dermatology",
+    "pub_date": "2026",
+    "authors": [
+      "Wu Y",
+      "Liu D",
+      "Lin YM"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42866572/",
+    "id": "pmid:42866572",
+    "abstract": "Background: Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized. Objective: To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management. Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments. K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes. Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders. Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34). Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership. Conclusion: Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes. Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application."
+  },
+  "script": {
+    "hook": "35.9% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "35.9%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Clinical, cosmetic and investigational dermatology》 - Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
+    "highlights": [
+      "Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.",
+      "Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.",
+      "Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34)."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background",
+        "kind": "intro",
+        "sentences": [
+          "Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objective",
+        "kind": "intro",
+        "sentences": [
+          "To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.",
+          "K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
+        "sentences": [
+          "Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.",
+          "Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).",
+          "Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes.",
+          "Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 35.9% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering\n저널: Clinical, cosmetic and investigational dermatology\n저자: Wu Y, Liu D, Lin YM 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42866572/\n\n[한눈에 보기]\n- Methods: In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.\n- Results: Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.\n- Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Combination therapy with scalp microneedling and topical minoxidil is more effective than minoxidil alone in androgenetic alopecia (AGA), yet treatment responses vary considerably among patients and the multidimensional structure of this heterogeneity remains poorly characterized.\n\n◆ 배경 — Objective\n  · To explore whether unsupervised clustering identifies distinct multidimensional treatment-response profiles during combination therapy and to describe their clinical and molecular characteristics as a hypothesis-generating basis for personalized management.\n\n◆ 연구 방법 — Methods\n  · In this prospective cohort study, 156 patients with AGA received standardized combination therapy (microneedling 1.0 mm depth, biweekly; 5% topical minoxidil, twice daily) for 24 weeks, with longitudinal trichoscopic, molecular and clinical assessments.\n  · K-means clustering was applied to ten standardized treatment-response (change-from-baseline) variables; the number of clusters was examined by silhouette, gap-statistic and bootstrap-stability analyses, and between-profile differences were tested with assumption-appropriate methods and reported with effect sizes.\n\n◆ 주요 결과 — Results\n  · Silhouette analysis indicated weak global cluster structure (k=2, 0.274; k=3, 0.168); a three-cluster solution was retained as an exploratory, clinically motivated grouping and labelled Robust (n=45, 28.8%), Moderate (n=56, 35.9%) and Limited (n=55, 35.3%) responders.\n  · Profiles differed across the response variables that defined them, including hair-density change (36.25±19.07 vs 17.76±10.93 hairs/cm2 for Robust vs Limited; ε2=0.19) and Wnt10b transcript change (0.80±0.37 vs 0.27±0.19; ε2=0.34).\n  · Baseline clinical and molecular parameters, including LEF-1 and IGF-1, did not differ across profiles and did not predict profile membership.\n\n◆ 결론 — Conclusion\n  · Unsupervised clustering identified three clinically interpretable treatment-response profiles accompanied by graded differences in Wnt/β-catenin-associated transcript changes.\n  · Because the profiles showed weak internal separation and could not be predicted from baseline characteristics, these hypothesis-generating findings suggest, rather than demonstrate, multidimensional structure in treatment response and require validation in independent, controlled cohorts before any clinical application.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42866572/",
+    "reference_title": "Exploratory Identification of Multidimensional Treatment-Response Profiles in Androgenetic Alopecia Treated with Combined Scalp Microneedling and Topical Minoxidil Using Unsupervised Clustering",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}
