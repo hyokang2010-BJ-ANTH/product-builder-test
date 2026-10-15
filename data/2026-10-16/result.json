@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-16",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42878119",
+    "title": "Finasteride and depression: the high cost of failed regulation",
+    "journal": "Journal of public health (Oxford, England)",
+    "pub_date": "2026 Oct 15",
+    "authors": [
+      "Brezis M"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42878119/",
+    "id": "pmid:42878119",
+    "abstract": "This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts. In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually. The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs. The author concludes that public health must take precedence over corporate interests and shareholder duties. To prevent future similar events, the article proposes regulatory reform that mandates ongoing surveillance. Regulators must require manufacturers to commit to continuous safety monitoring and formal studies after a medication is approved. Regulators must enforce these post-approval study requirements with clear timelines, rather than relying on industry self-discipline, to rebuild public trust and protect citizens from drug safety failures."
+  },
+  "script": {
+    "hook": "피나스테리드 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "피나스테리드",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Journal of public health (Oxford, England)》 - Finasteride and depression: the high cost of failed regulation",
+    "highlights": [
+      "This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.",
+      "In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually.",
+      "The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.",
+          "In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs.",
+          "The author concludes that public health must take precedence over corporate interests and shareholder duties.",
+          "To prevent future similar events, the article proposes regulatory reform that mandates ongoing surveillance.",
+          "Regulators must require manufacturers to commit to continuous safety monitoring and formal studies after a medication is approved.",
+          "Regulators must enforce these post-approval study requirements with clear timelines, rather than relying on industry self-discipline, to rebuild public trust and protect citizens from drug safety failures."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 피나스테리드 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Finasteride and depression: the high cost of failed regulation\n저널: Journal of public health (Oxford, England)\n저자: Brezis M 외\n발행: 2026 Oct 15\n원문: https://pubmed.ncbi.nlm.nih.gov/42878119/\n\n[한눈에 보기]\n- This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.\n- In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually.\n- The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.\n  · In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually.\n\n◆ 주요 결과 — Results (자동 구분)\n  · The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs.\n  · The author concludes that public health must take precedence over corporate interests and shareholder duties.\n  · To prevent future similar events, the article proposes regulatory reform that mandates ongoing surveillance.\n  · Regulators must require manufacturers to commit to continuous safety monitoring and formal studies after a medication is approved.\n  · Regulators must enforce these post-approval study requirements with clear timelines, rather than relying on industry self-discipline, to rebuild public trust and protect citizens from drug safety failures.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42878119/",
+    "reference_title": "Finasteride and depression: the high cost of failed regulation",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

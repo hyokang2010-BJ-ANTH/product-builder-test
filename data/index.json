@@ -1,7 +1,20 @@
 {
-  "count": 47,
-  "updated": "2026-10-15",
+  "count": 48,
+  "updated": "2026-10-16",
   "items": [
+    {
+      "date": "2026-10-16",
+      "dir": "2026-10-16",
+      "title": "Finasteride and depression: the high cost of failed regulation",
+      "journal": "Journal of public health (Oxford, England)",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42878119/",
+      "hook_accent": "피나스테리드",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-16/paper_card.png",
+      "pptx": "2026-10-16/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-15",
       "dir": "2026-10-15",
