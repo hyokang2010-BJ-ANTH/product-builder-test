@@ -1,0 +1,36 @@
+[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
+
+[논문 정보]
+제목: Targeting fibroimmune remodeling in androgenetic alopecia: emerging opportunities for RNA-based drug discovery
+저널: Expert opinion on drug discovery
+저자: Park IG, Song L, Cho J 외
+발행: 2026 Oct 15
+원문: https://pubmed.ncbi.nlm.nih.gov/42885144/
+
+[한눈에 보기]
+- Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
+- Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
+- Literature was identified primarily through PubMed in the last 20 years.
+
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background (자동 구분)
+  · Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
+  · Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
+
+◆ 주요 결과 — Results (자동 구분)
+  · Areas covered: This review integrates transcriptomic and mechanistic evidence linking androgen-responsive fibroblasts, immune-cell recruitment, and extracellular matrix remodeling, in male and female pattern hair loss.
+  · Herein, the authors assessed published human scalp, cell and animal studies of JAK/STAT, TGF-β, CXCL12-CXCR4/ACKR3, and DKK3-CKAP4, and evaluated RNA therapeutic modalities and delivery barriers.
+  · Literature was identified primarily through PubMed in the last 20 years.
+  · Expert opinion: Fibroimmune remodeling should be viewed as a complementary, rather than alternative, framework to androgen biology.
+  · The most promising drug discovery strategy is to identify molecularly defined patient subsets and locally inhibit nodal mediators that couple fibroblast activation to inflammation and matrix remodeling.
+
+◆ 결론 — Conclusion (자동 구분)
+  · RNA therapeutics are well suited to otherwise difficult-to-drug intracellular targets, but progress will require human spatial validation, rigorous target prioritization, reproducible delivery, and pharmacodynamic biomarkers demonstrating restoration of the regenerative follicular niche.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

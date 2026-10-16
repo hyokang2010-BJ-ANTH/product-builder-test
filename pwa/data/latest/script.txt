@@ -1,29 +1,32 @@
-[훅] 피나스테리드 오늘 나온 최신 연구를 정리했습니다
+[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Finasteride and depression: the high cost of failed regulation
-저널: Journal of public health (Oxford, England)
-저자: Brezis M 외
+제목: Targeting fibroimmune remodeling in androgenetic alopecia: emerging opportunities for RNA-based drug discovery
+저널: Expert opinion on drug discovery
+저자: Park IG, Song L, Cho J 외
 발행: 2026 Oct 15
-원문: https://pubmed.ncbi.nlm.nih.gov/42878119/
+원문: https://pubmed.ncbi.nlm.nih.gov/42885144/
 
 [한눈에 보기]
-- This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.
-- In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually.
-- The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs.
+- Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
+- Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
+- Literature was identified primarily through PubMed in the last 20 years.
 
-[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
 ◆ 배경 — Background (자동 구분)
-  · This essay examines the costs of regulatory failure by highlighting the serious neuropsychiatric risks associated with finasteride, a popular hair-loss medication that can cause long-lasting depression and suicidal thoughts.
-  · In the United States, illustrative estimates suggest that hundreds of thousands of users may experience depression, over a thousand may die by suicide, and the associated societal costs may approach several billion dollars annually.
+  · Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
+  · Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
 
 ◆ 주요 결과 — Results (자동 구분)
-  · The article criticizes the FDA and the pharmaceutical industry for failing to conduct or require thorough post-marketing safety studies despite early warning signs.
-  · The author concludes that public health must take precedence over corporate interests and shareholder duties.
-  · To prevent future similar events, the article proposes regulatory reform that mandates ongoing surveillance.
-  · Regulators must require manufacturers to commit to continuous safety monitoring and formal studies after a medication is approved.
-  · Regulators must enforce these post-approval study requirements with clear timelines, rather than relying on industry self-discipline, to rebuild public trust and protect citizens from drug safety failures.
+  · Areas covered: This review integrates transcriptomic and mechanistic evidence linking androgen-responsive fibroblasts, immune-cell recruitment, and extracellular matrix remodeling, in male and female pattern hair loss.
+  · Herein, the authors assessed published human scalp, cell and animal studies of JAK/STAT, TGF-β, CXCL12-CXCR4/ACKR3, and DKK3-CKAP4, and evaluated RNA therapeutic modalities and delivery barriers.
+  · Literature was identified primarily through PubMed in the last 20 years.
+  · Expert opinion: Fibroimmune remodeling should be viewed as a complementary, rather than alternative, framework to androgen biology.
+  · The most promising drug discovery strategy is to identify molecularly defined patient subsets and locally inhibit nodal mediators that couple fibroblast activation to inflammation and matrix remodeling.
+
+◆ 결론 — Conclusion (자동 구분)
+  · RNA therapeutics are well suited to otherwise difficult-to-drug intracellular targets, but progress will require human spatial validation, rigorous target prioritization, reproducible delivery, and pharmacodynamic biomarkers demonstrating restoration of the regenerative follicular niche.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
