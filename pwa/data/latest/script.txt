@@ -1,32 +1,30 @@
-[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
+[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: Targeting fibroimmune remodeling in androgenetic alopecia: emerging opportunities for RNA-based drug discovery
-저널: Expert opinion on drug discovery
-저자: Park IG, Song L, Cho J 외
-발행: 2026 Oct 15
-원문: https://pubmed.ncbi.nlm.nih.gov/42885144/
+제목: Persistent chemotherapy-induced alopecia: a scoping review
+저널: Current opinion in supportive and palliative care
+저자: Lo AW, Leung SS, Wong CL 외
+발행: 2026 Oct 16
+원문: https://pubmed.ncbi.nlm.nih.gov/42888908/
 
 [한눈에 보기]
-- Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
-- Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
-- Literature was identified primarily through PubMed in the last 20 years.
+- The most common study type was case reports (12/39, 30.8%).
+- Only 2/39 (5.1%) were randomized controlled trials (RCTs).
+- Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · Introduction: Current treatments for androgenetic alopecia (AGA) primarily suppress androgen signaling or stimulate hair growth.
-  · Recent single-cell and spatial transcriptomic studies identify fibroimmune remodeling as a potential source of new AGA targets.
+◆ 그 밖의 내용 — Purpose Of Review
+  · Persistent chemotherapy-induced alopecia (pCIA) is defined as incomplete hair growth ≥6 months after chemotherapy completion.
+  · This scoping review aimed to identify gaps for future research by mapping pCIA's incidence, risk factors, quality-of-life (QoL) impacts, presentation, prevention, and management.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Areas covered: This review integrates transcriptomic and mechanistic evidence linking androgen-responsive fibroblasts, immune-cell recruitment, and extracellular matrix remodeling, in male and female pattern hair loss.
-  · Herein, the authors assessed published human scalp, cell and animal studies of JAK/STAT, TGF-β, CXCL12-CXCR4/ACKR3, and DKK3-CKAP4, and evaluated RNA therapeutic modalities and delivery barriers.
-  · Literature was identified primarily through PubMed in the last 20 years.
-  · Expert opinion: Fibroimmune remodeling should be viewed as a complementary, rather than alternative, framework to androgen biology.
-  · The most promising drug discovery strategy is to identify molecularly defined patient subsets and locally inhibit nodal mediators that couple fibroblast activation to inflammation and matrix remodeling.
-
-◆ 결론 — Conclusion (자동 구분)
-  · RNA therapeutics are well suited to otherwise difficult-to-drug intracellular targets, but progress will require human spatial validation, rigorous target prioritization, reproducible delivery, and pharmacodynamic biomarkers demonstrating restoration of the regenerative follicular niche.
+◆ 주요 결과 — Findings
+  · Thirty-nine articles were included.
+  · The most common study type was case reports (12/39, 30.8%).
+  · Only 2/39 (5.1%) were randomized controlled trials (RCTs).
+  · Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
+  · Alkylating agents, taxanes, and anthracyclines were most frequently reported to be associated with pCIA.
+  · All six studies that evaluated QoL reported that pCIA negatively affected patients' psychological, functional, and social well-being.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

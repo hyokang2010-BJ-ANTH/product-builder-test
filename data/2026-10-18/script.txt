@@ -1,0 +1,34 @@
+[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Persistent chemotherapy-induced alopecia: a scoping review
+저널: Current opinion in supportive and palliative care
+저자: Lo AW, Leung SS, Wong CL 외
+발행: 2026 Oct 16
+원문: https://pubmed.ncbi.nlm.nih.gov/42888908/
+
+[한눈에 보기]
+- The most common study type was case reports (12/39, 30.8%).
+- Only 2/39 (5.1%) were randomized controlled trials (RCTs).
+- Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
+
+[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 그 밖의 내용 — Purpose Of Review
+  · Persistent chemotherapy-induced alopecia (pCIA) is defined as incomplete hair growth ≥6 months after chemotherapy completion.
+  · This scoping review aimed to identify gaps for future research by mapping pCIA's incidence, risk factors, quality-of-life (QoL) impacts, presentation, prevention, and management.
+
+◆ 주요 결과 — Findings
+  · Thirty-nine articles were included.
+  · The most common study type was case reports (12/39, 30.8%).
+  · Only 2/39 (5.1%) were randomized controlled trials (RCTs).
+  · Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
+  · Alkylating agents, taxanes, and anthracyclines were most frequently reported to be associated with pCIA.
+  · All six studies that evaluated QoL reported that pCIA negatively affected patients' psychological, functional, and social well-being.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

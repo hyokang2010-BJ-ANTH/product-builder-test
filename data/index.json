@@ -1,7 +1,20 @@
 {
-  "count": 49,
-  "updated": "2026-10-17",
+  "count": 50,
+  "updated": "2026-10-18",
   "items": [
+    {
+      "date": "2026-10-18",
+      "dir": "2026-10-18",
+      "title": "Persistent chemotherapy-induced alopecia: a scoping review",
+      "journal": "Current opinion in supportive and palliative care",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42888908/",
+      "hook_accent": "100%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-18/paper_card.png",
+      "pptx": "2026-10-18/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-17",
       "dir": "2026-10-17",
