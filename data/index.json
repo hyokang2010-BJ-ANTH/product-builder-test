@@ -1,7 +1,20 @@
 {
-  "count": 50,
-  "updated": "2026-10-18",
+  "count": 51,
+  "updated": "2026-10-19",
   "items": [
+    {
+      "date": "2026-10-19",
+      "dir": "2026-10-19",
+      "title": "Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action",
+      "journal": "Colloids and surfaces. B, Biointerfaces",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42892175/",
+      "hook_accent": "남성형 탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-19/paper_card.png",
+      "pptx": "2026-10-19/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-18",
       "dir": "2026-10-18",

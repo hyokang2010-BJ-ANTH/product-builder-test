@@ -1,30 +1,33 @@
-[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Persistent chemotherapy-induced alopecia: a scoping review
-저널: Current opinion in supportive and palliative care
-저자: Lo AW, Leung SS, Wong CL 외
-발행: 2026 Oct 16
-원문: https://pubmed.ncbi.nlm.nih.gov/42888908/
+제목: Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action
+저널: Colloids and surfaces. B, Biointerfaces
+저자: Zhao Z, Huang X, Huang L 외
+발행: 2026 Oct 15
+원문: https://pubmed.ncbi.nlm.nih.gov/42892175/
 
 [한눈에 보기]
-- The most common study type was case reports (12/39, 30.8%).
-- Only 2/39 (5.1%) were randomized controlled trials (RCTs).
-- Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
+- Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.
+- Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.
+- In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.
 
-[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 그 밖의 내용 — Purpose Of Review
-  · Persistent chemotherapy-induced alopecia (pCIA) is defined as incomplete hair growth ≥6 months after chemotherapy completion.
-  · This scoping review aimed to identify gaps for future research by mapping pCIA's incidence, risk factors, quality-of-life (QoL) impacts, presentation, prevention, and management.
+◆ 배경 — Background (자동 구분)
+  · Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.
+  · Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.
 
-◆ 주요 결과 — Findings
-  · Thirty-nine articles were included.
-  · The most common study type was case reports (12/39, 30.8%).
-  · Only 2/39 (5.1%) were randomized controlled trials (RCTs).
-  · Most studies (27/39, 69.2%) reported pCIA in patients with breast cancer.
-  · Alkylating agents, taxanes, and anthracyclines were most frequently reported to be associated with pCIA.
-  · All six studies that evaluated QoL reported that pCIA negatively affected patients' psychological, functional, and social well-being.
+◆ 연구 방법 — Methods (자동 구분)
+  · Here, we developed a hyaluronic acid-based liposomal transdermal delivery system loaded with L-arginine (HL@L-Arg) to enhance cutaneous delivery and promote endogenous nitric oxide (NO) production through nitric oxide synthase.
+
+◆ 주요 결과 — Results (자동 구분)
+  · Transcriptomic analysis indicated significant changes in pathways related to inflammatory responses, Wnt signaling, and steroid hormone biosynthesis.
+  · Mechanistically, HL@L-Arg inhibited 5α-reductase activity and reduced dihydrotestosterone (DHT) production while promoting endogenous NO generation.
+  · In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.
+
+◆ 결론 — Conclusion (자동 구분)
+  · Collectively, transdermal L-Arg delivery represents a promising endogenous NO-based therapeutic strategy for AGA through DHT suppression, regulation of the follicular microenvironment, and anti-inflammatory activity.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

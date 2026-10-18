@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-19",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42892175",
+    "title": "Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action",
+    "journal": "Colloids and surfaces. B, Biointerfaces",
+    "pub_date": "2026 Oct 15",
+    "authors": [
+      "Zhao Z",
+      "Huang X",
+      "Huang L"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42892175/",
+    "id": "pmid:42892175",
+    "abstract": "Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization. Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects. Here, we developed a hyaluronic acid-based liposomal transdermal delivery system loaded with L-arginine (HL@L-Arg) to enhance cutaneous delivery and promote endogenous nitric oxide (NO) production through nitric oxide synthase. Transcriptomic analysis indicated significant changes in pathways related to inflammatory responses, Wnt signaling, and steroid hormone biosynthesis. Mechanistically, HL@L-Arg inhibited 5α-reductase activity and reduced dihydrotestosterone (DHT) production while promoting endogenous NO generation. In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration. Collectively, transdermal L-Arg delivery represents a promising endogenous NO-based therapeutic strategy for AGA through DHT suppression, regulation of the follicular microenvironment, and anti-inflammatory activity."
+  },
+  "script": {
+    "hook": "남성형 탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "남성형 탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Colloids and surfaces. B, Biointerfaces》 - Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action",
+    "highlights": [
+      "Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.",
+      "Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.",
+      "In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.",
+          "Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "Here, we developed a hyaluronic acid-based liposomal transdermal delivery system loaded with L-arginine (HL@L-Arg) to enhance cutaneous delivery and promote endogenous nitric oxide (NO) production through nitric oxide synthase."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Transcriptomic analysis indicated significant changes in pathways related to inflammatory responses, Wnt signaling, and steroid hormone biosynthesis.",
+          "Mechanistically, HL@L-Arg inhibited 5α-reductase activity and reduced dihydrotestosterone (DHT) production while promoting endogenous NO generation.",
+          "In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion (자동 구분)",
+        "kind": "conclusion",
+        "sentences": [
+          "Collectively, transdermal L-Arg delivery represents a promising endogenous NO-based therapeutic strategy for AGA through DHT suppression, regulation of the follicular microenvironment, and anti-inflammatory activity."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action\n저널: Colloids and surfaces. B, Biointerfaces\n저자: Zhao Z, Huang X, Huang L 외\n발행: 2026 Oct 15\n원문: https://pubmed.ncbi.nlm.nih.gov/42892175/\n\n[한눈에 보기]\n- Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.\n- Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.\n- In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.\n  · Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · Here, we developed a hyaluronic acid-based liposomal transdermal delivery system loaded with L-arginine (HL@L-Arg) to enhance cutaneous delivery and promote endogenous nitric oxide (NO) production through nitric oxide synthase.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Transcriptomic analysis indicated significant changes in pathways related to inflammatory responses, Wnt signaling, and steroid hormone biosynthesis.\n  · Mechanistically, HL@L-Arg inhibited 5α-reductase activity and reduced dihydrotestosterone (DHT) production while promoting endogenous NO generation.\n  · In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.\n\n◆ 결론 — Conclusion (자동 구분)\n  · Collectively, transdermal L-Arg delivery represents a promising endogenous NO-based therapeutic strategy for AGA through DHT suppression, regulation of the follicular microenvironment, and anti-inflammatory activity.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42892175/",
+    "reference_title": "Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}
