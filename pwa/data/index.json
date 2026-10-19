@@ -1,7 +1,20 @@
 {
-  "count": 51,
-  "updated": "2026-10-19",
+  "count": 52,
+  "updated": "2026-10-20",
   "items": [
+    {
+      "date": "2026-10-20",
+      "dir": "2026-10-20",
+      "title": "Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis",
+      "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42895661/",
+      "hook_accent": "97%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-20/paper_card.png",
+      "pptx": "2026-10-20/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-19",
       "dir": "2026-10-19",

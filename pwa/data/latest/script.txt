@@ -1,33 +1,42 @@
-[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
+[훅] 97% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: Transdermal L-arginine and hyaluronic acid delivery to treat androgenetic alopecia through dual hormone modulation and anti-inflammatory action
-저널: Colloids and surfaces. B, Biointerfaces
-저자: Zhao Z, Huang X, Huang L 외
-발행: 2026 Oct 15
-원문: https://pubmed.ncbi.nlm.nih.gov/42892175/
+제목: Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis
+저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer
+저자: Boonpattharatthiti K, Lawin S, Limhengsin P 외
+발행: 2026 Oct 19
+원문: https://pubmed.ncbi.nlm.nih.gov/42895661/
 
 [한눈에 보기]
-- Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.
-- Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.
-- In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.
+- Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.
+- Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).
+- Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).
 
 [상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · Androgenetic alopecia (AGA) is a common hair loss disorder caused by genetic susceptibility and androgen-driven follicular miniaturization.
-  · Current FDA-approved therapies, including finasteride and minoxidil, are limited by adverse effects.
+◆ 배경 — Purpose
+  · Chemotherapy-induced alopecia (CIA) negatively affects patients' appearance and emotional well-being.
+  · This network meta-analysis aimed to compare the efficacy of different preventive interventions for CIA.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · Here, we developed a hyaluronic acid-based liposomal transdermal delivery system loaded with L-arginine (HL@L-Arg) to enhance cutaneous delivery and promote endogenous nitric oxide (NO) production through nitric oxide synthase.
+◆ 연구 방법 — Methods
+  · We searched PubMed, Embase, CENTRAL, and EBSCO Open Dissertations from inception to March 2025.
+  · Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.
+  · Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).
+  · Risk of bias was assessed using Cochrane RoB2.
+  · Risk ratios (RRs) with 95% confidence intervals (CIs) were pooled using a random-effects model.
+  · Interventions were ranked with surface under the cumulative ranking curve (SUCRA), and certainty of evidence was evaluated using CINeMA.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Transcriptomic analysis indicated significant changes in pathways related to inflammatory responses, Wnt signaling, and steroid hormone biosynthesis.
-  · Mechanistically, HL@L-Arg inhibited 5α-reductase activity and reduced dihydrotestosterone (DHT) production while promoting endogenous NO generation.
-  · In an AGA mouse model, HL@L-Arg reduced TNF-α, IL-6, and androgen receptor (AR) expression, increased VEGF and Ki67 levels, and markedly promoted hair regeneration.
+◆ 주요 결과 — Results
+  · Of 6696 articles identified, 12 (n = 736) evaluating nine interventions (three scalp hypothermia durations, scalp compression, four pharmacological agents, and usual care) were included.
+  · Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).
+  · However, prolonged-scalp hypothermia tended to show better hair preservation than short duration, though not statistically significant (RR = 2.06, 95%CI = 0.78-5.39).
+  · Based on SUCRA, prolonged-scalp hypothermia (97.0%) had the highest ranking, followed by short scalp hypothermia (78.6%) and traditional scalp hypothermia (76.8%).
+  · Most studies were rated as having high risk of bias, and the certainty of evidence was graded as low to very low.
 
-◆ 결론 — Conclusion (자동 구분)
-  · Collectively, transdermal L-Arg delivery represents a promising endogenous NO-based therapeutic strategy for AGA through DHT suppression, regulation of the follicular microenvironment, and anti-inflammatory activity.
+◆ 결론 — Conclusion
+  · Current low certainty evidence suggests that scalp hypothermia could prevent CIA.
+  · Prolonged-scalp hypothermia provides a higher degree of protection, whereas a short duration demonstrates a weaker protective effect.
+  · However, this difference was not statistically significant.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
