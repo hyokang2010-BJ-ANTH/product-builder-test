@@ -1,7 +1,20 @@
 {
-  "count": 52,
-  "updated": "2026-10-20",
+  "count": 53,
+  "updated": "2026-10-21",
   "items": [
+    {
+      "date": "2026-10-21",
+      "dir": "2026-10-21",
+      "title": "Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls",
+      "journal": "Journal of cutaneous pathology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899449/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Journal of cutaneous pathology에 실린 새 연구입니다",
+      "thumb": "2026-10-21/paper_card.png",
+      "pptx": "2026-10-21/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-20",
       "dir": "2026-10-20",

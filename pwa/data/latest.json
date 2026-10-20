@@ -1,86 +1,69 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "topic": {
     "source_type": "paper",
-    "pmid": "42895661",
-    "title": "Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis",
-    "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
-    "pub_date": "2026 Oct 19",
+    "pmid": "42899449",
+    "title": "Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls",
+    "journal": "Journal of cutaneous pathology",
+    "pub_date": "2026 Oct 20",
     "authors": [
-      "Boonpattharatthiti K",
-      "Lawin S",
-      "Limhengsin P"
+      "Ting Z",
+      "Spear L",
+      "Smith J"
     ],
     "pubtypes": [
-      "Journal Article",
-      "Systematic Review",
-      "Network Meta-Analysis",
-      "Comparative Study"
+      "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42895661/",
-    "id": "pmid:42895661",
-    "abstract": "Purpose: Chemotherapy-induced alopecia (CIA) negatively affects patients' appearance and emotional well-being. This network meta-analysis aimed to compare the efficacy of different preventive interventions for CIA. Methods: We searched PubMed, Embase, CENTRAL, and EBSCO Open Dissertations from inception to March 2025. Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included. Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min). Risk of bias was assessed using Cochrane RoB2. Risk ratios (RRs) with 95% confidence intervals (CIs) were pooled using a random-effects model. Interventions were ranked with surface under the cumulative ranking curve (SUCRA), and certainty of evidence was evaluated using CINeMA. Results: Of 6696 articles identified, 12 (n = 736) evaluating nine interventions (three scalp hypothermia durations, scalp compression, four pharmacological agents, and usual care) were included. Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty). However, prolonged-scalp hypothermia tended to show better hair preservation than short duration, though not statistically significant (RR = 2.06, 95%CI = 0.78-5.39). Based on SUCRA, prolonged-scalp hypothermia (97.0%) had the highest ranking, followed by short scalp hypothermia (78.6%) and traditional scalp hypothermia (76.8%). Most studies were rated as having high risk of bias, and the certainty of evidence was graded as low to very low. Conclusion: Current low certainty evidence suggests that scalp hypothermia could prevent CIA. Prolonged-scalp hypothermia provides a higher degree of protection, whereas a short duration demonstrates a weaker protective effect. However, this difference was not statistically significant. Trial registration: This systematic review was registered in PROSPERO (registration number: CRD420251103932) and can be accessed via the following link: https://www.crd.york.ac.uk/PROSPERO/view/CRD420251103932 ."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42899449/",
+    "id": "pmid:42899449",
+    "abstract": "Mechanical stress on the pilosebaceous unit can contribute to mechanical alopecia (MA) as seen with traction alopecia (TA) and trichotillomania (TTM). While some histological features that point to TA and TTM have been described, these may be absent in biopsies obtained at earlier stages of disease. Additional anomalies of the pilosebaceous unit have been observed that may assist in the histopathological detection of MA. A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15). Translocation of sebocytes into the follicular canal was seen in both TA and TTM, supporting a shared underlying mechanism. Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002). Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA. These alterations were observed in the absence of other previously described features. Further validation studies in larger cohorts are warranted to assess their diagnostic utility in the recognition of MA."
   },
   "script": {
-    "hook": "97% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "97%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer》 - Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis",
+    "hook": "오늘의 논문 Journal of cutaneous pathology에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Journal of cutaneous pathology에 실린 새 연구입니다",
+    "intro": "《Journal of cutaneous pathology》 - Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls",
     "highlights": [
-      "Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.",
-      "Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).",
-      "Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty)."
+      "A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).",
+      "Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).",
+      "Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Purpose",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Chemotherapy-induced alopecia (CIA) negatively affects patients' appearance and emotional well-being.",
-          "This network meta-analysis aimed to compare the efficacy of different preventive interventions for CIA."
+          "Mechanical stress on the pilosebaceous unit can contribute to mechanical alopecia (MA) as seen with traction alopecia (TA) and trichotillomania (TTM).",
+          "While some histological features that point to TA and TTM have been described, these may be absent in biopsies obtained at earlier stages of disease."
         ]
       },
       {
         "label": "연구 방법",
-        "title": "Methods",
+        "title": "Methods (자동 구분)",
         "kind": "methods",
         "sentences": [
-          "We searched PubMed, Embase, CENTRAL, and EBSCO Open Dissertations from inception to March 2025.",
-          "Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.",
-          "Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).",
-          "Risk of bias was assessed using Cochrane RoB2.",
-          "Risk ratios (RRs) with 95% confidence intervals (CIs) were pooled using a random-effects model.",
-          "Interventions were ranked with surface under the cumulative ranking curve (SUCRA), and certainty of evidence was evaluated using CINeMA."
+          "A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).",
+          "Further validation studies in larger cohorts are warranted to assess their diagnostic utility in the recognition of MA."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "Of 6696 articles identified, 12 (n = 736) evaluating nine interventions (three scalp hypothermia durations, scalp compression, four pharmacological agents, and usual care) were included.",
-          "Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).",
-          "However, prolonged-scalp hypothermia tended to show better hair preservation than short duration, though not statistically significant (RR = 2.06, 95%CI = 0.78-5.39).",
-          "Based on SUCRA, prolonged-scalp hypothermia (97.0%) had the highest ranking, followed by short scalp hypothermia (78.6%) and traditional scalp hypothermia (76.8%).",
-          "Most studies were rated as having high risk of bias, and the certainty of evidence was graded as low to very low."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion",
-        "kind": "conclusion",
-        "sentences": [
-          "Current low certainty evidence suggests that scalp hypothermia could prevent CIA.",
-          "Prolonged-scalp hypothermia provides a higher degree of protection, whereas a short duration demonstrates a weaker protective effect.",
-          "However, this difference was not statistically significant."
+          "Additional anomalies of the pilosebaceous unit have been observed that may assist in the histopathological detection of MA.",
+          "Translocation of sebocytes into the follicular canal was seen in both TA and TTM, supporting a shared underlying mechanism.",
+          "Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).",
+          "Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.",
+          "These alterations were observed in the absence of other previously described features."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 97% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis\n저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer\n저자: Boonpattharatthiti K, Lawin S, Limhengsin P 외\n발행: 2026 Oct 19\n원문: https://pubmed.ncbi.nlm.nih.gov/42895661/\n\n[한눈에 보기]\n- Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.\n- Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).\n- Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Purpose\n  · Chemotherapy-induced alopecia (CIA) negatively affects patients' appearance and emotional well-being.\n  · This network meta-analysis aimed to compare the efficacy of different preventive interventions for CIA.\n\n◆ 연구 방법 — Methods\n  · We searched PubMed, Embase, CENTRAL, and EBSCO Open Dissertations from inception to March 2025.\n  · Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.\n  · Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).\n  · Risk of bias was assessed using Cochrane RoB2.\n  · Risk ratios (RRs) with 95% confidence intervals (CIs) were pooled using a random-effects model.\n  · Interventions were ranked with surface under the cumulative ranking curve (SUCRA), and certainty of evidence was evaluated using CINeMA.\n\n◆ 주요 결과 — Results\n  · Of 6696 articles identified, 12 (n = 736) evaluating nine interventions (three scalp hypothermia durations, scalp compression, four pharmacological agents, and usual care) were included.\n  · Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).\n  · However, prolonged-scalp hypothermia tended to show better hair preservation than short duration, though not statistically significant (RR = 2.06, 95%CI = 0.78-5.39).\n  · Based on SUCRA, prolonged-scalp hypothermia (97.0%) had the highest ranking, followed by short scalp hypothermia (78.6%) and traditional scalp hypothermia (76.8%).\n  · Most studies were rated as having high risk of bias, and the certainty of evidence was graded as low to very low.\n\n◆ 결론 — Conclusion\n  · Current low certainty evidence suggests that scalp hypothermia could prevent CIA.\n  · Prolonged-scalp hypothermia provides a higher degree of protection, whereas a short duration demonstrates a weaker protective effect.\n  · However, this difference was not statistically significant.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42895661/",
-    "reference_title": "Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis",
+    "full_script": "[훅] 오늘의 논문 Journal of cutaneous pathology에 실린 새 연구입니다\n\n[논문 정보]\n제목: Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls\n저널: Journal of cutaneous pathology\n저자: Ting Z, Spear L, Smith J 외\n발행: 2026 Oct 20\n원문: https://pubmed.ncbi.nlm.nih.gov/42899449/\n\n[한눈에 보기]\n- A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).\n- Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).\n- Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Mechanical stress on the pilosebaceous unit can contribute to mechanical alopecia (MA) as seen with traction alopecia (TA) and trichotillomania (TTM).\n  · While some histological features that point to TA and TTM have been described, these may be absent in biopsies obtained at earlier stages of disease.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).\n  · Further validation studies in larger cohorts are warranted to assess their diagnostic utility in the recognition of MA.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Additional anomalies of the pilosebaceous unit have been observed that may assist in the histopathological detection of MA.\n  · Translocation of sebocytes into the follicular canal was seen in both TA and TTM, supporting a shared underlying mechanism.\n  · Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).\n  · Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.\n  · These alterations were observed in the absence of other previously described features.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42899449/",
+    "reference_title": "Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls",
     "reference_type": "paper"
   },
   "assets": {

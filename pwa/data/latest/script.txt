@@ -1,42 +1,33 @@
-[훅] 97% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 오늘의 논문 Journal of cutaneous pathology에 실린 새 연구입니다
 
 [논문 정보]
-제목: Comparative efficacy of interventions for preventing chemotherapy-induced alopecia: a systematic review and network meta-analysis
-저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer
-저자: Boonpattharatthiti K, Lawin S, Limhengsin P 외
-발행: 2026 Oct 19
-원문: https://pubmed.ncbi.nlm.nih.gov/42895661/
+제목: Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls
+저널: Journal of cutaneous pathology
+저자: Ting Z, Spear L, Smith J 외
+발행: 2026 Oct 20
+원문: https://pubmed.ncbi.nlm.nih.gov/42899449/
 
 [한눈에 보기]
-- Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.
-- Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).
-- Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).
+- A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).
+- Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).
+- Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.
 
-[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Purpose
-  · Chemotherapy-induced alopecia (CIA) negatively affects patients' appearance and emotional well-being.
-  · This network meta-analysis aimed to compare the efficacy of different preventive interventions for CIA.
+◆ 배경 — Background (자동 구분)
+  · Mechanical stress on the pilosebaceous unit can contribute to mechanical alopecia (MA) as seen with traction alopecia (TA) and trichotillomania (TTM).
+  · While some histological features that point to TA and TTM have been described, these may be absent in biopsies obtained at earlier stages of disease.
 
-◆ 연구 방법 — Methods
-  · We searched PubMed, Embase, CENTRAL, and EBSCO Open Dissertations from inception to March 2025.
-  · Randomized controlled trials evaluating interventions to prevent CIA in cancer patients and reporting hair preservation outcomes (as defined by individual trials, including CTCAE grade < 2, < 30 to < 50% hair loss, or WHO grade 0-2) were included.
-  · Scalp hypothermia was divided into three groups based on duration post-chemotherapy: short (0-45 min), traditional (46-90 min), and prolonged (> 90 min).
-  · Risk of bias was assessed using Cochrane RoB2.
-  · Risk ratios (RRs) with 95% confidence intervals (CIs) were pooled using a random-effects model.
-  · Interventions were ranked with surface under the cumulative ranking curve (SUCRA), and certainty of evidence was evaluated using CINeMA.
+◆ 연구 방법 — Methods (자동 구분)
+  · A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).
+  · Further validation studies in larger cohorts are warranted to assess their diagnostic utility in the recognition of MA.
 
-◆ 주요 결과 — Results
-  · Of 6696 articles identified, 12 (n = 736) evaluating nine interventions (three scalp hypothermia durations, scalp compression, four pharmacological agents, and usual care) were included.
-  · Network meta-analysis indicated that prolonged-scalp hypothermia significantly improved hair preservation compared with usual care (RR = 24.66; 95%CI = 7.07-86.05; low certainty of evidence) and traditional scalp hypothermia (RR = 2.13; 95%CI = 1.15-3.93; very low certainty of evidence), and pharmacological agents (RRs ranging from 14.06 to 23.83; low certainty).
-  · However, prolonged-scalp hypothermia tended to show better hair preservation than short duration, though not statistically significant (RR = 2.06, 95%CI = 0.78-5.39).
-  · Based on SUCRA, prolonged-scalp hypothermia (97.0%) had the highest ranking, followed by short scalp hypothermia (78.6%) and traditional scalp hypothermia (76.8%).
-  · Most studies were rated as having high risk of bias, and the certainty of evidence was graded as low to very low.
-
-◆ 결론 — Conclusion
-  · Current low certainty evidence suggests that scalp hypothermia could prevent CIA.
-  · Prolonged-scalp hypothermia provides a higher degree of protection, whereas a short duration demonstrates a weaker protective effect.
-  · However, this difference was not statistically significant.
+◆ 주요 결과 — Results (자동 구분)
+  · Additional anomalies of the pilosebaceous unit have been observed that may assist in the histopathological detection of MA.
+  · Translocation of sebocytes into the follicular canal was seen in both TA and TTM, supporting a shared underlying mechanism.
+  · Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).
+  · Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.
+  · These alterations were observed in the absence of other previously described features.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
