@@ -1,33 +1,41 @@
-[훅] 오늘의 논문 Journal of cutaneous pathology에 실린 새 연구입니다
+[훅] 91% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: Novel Potential Histologic Clues to Mechanical Alopecia: A Comparative Study of Traction Alopecia, Trichotillomania, and Approximately Age/Gender Matched Controls
+제목: Mast Cell Infiltration Helps Distinguish Fibrosing Alopecia in a Pattern Distribution From Androgenetic Alopecia in Scalp Biopsy
 저널: Journal of cutaneous pathology
-저자: Ting Z, Spear L, Smith J 외
+저자: Rakhshan A, Ashjaazade F, Dadkhahfar S 외
 발행: 2026 Oct 20
-원문: https://pubmed.ncbi.nlm.nih.gov/42899449/
+원문: https://pubmed.ncbi.nlm.nih.gov/42902517/
 
 [한눈에 보기]
-- A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).
-- Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).
-- Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.
+- Method: A total of 56 patients diagnosed with AGA, FAPD, or LPP were enrolled.
+- Result: The majority of participants (91%) were female, with a mean age of 44.3 years.
+- Post hoc analysis revealed significant differences between AGA and FAPD (-17.7%, p = 0.001) and between AGA and LPP (-20.1%, p = 0.001).
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · Mechanical stress on the pilosebaceous unit can contribute to mechanical alopecia (MA) as seen with traction alopecia (TA) and trichotillomania (TTM).
-  · While some histological features that point to TA and TTM have been described, these may be absent in biopsies obtained at earlier stages of disease.
+◆ 배경 — Background
+  · Mast cells are key regulators of cutaneous inflammation and are known to accumulate in response to various immunological stimuli.
+  · Although their role in several dermatological conditions has been established, their specific contribution to different forms of alopecia-particularly scarring versus nonscarring types-remains incompletely understood.
+  · This study aimed to compare the degree of mast cell infiltration across three distinct types of alopecia: androgenetic alopecia (AGA), fibrosing alopecia in a pattern distribution (FAPD), and lichen planopilaris (LPP).
 
-◆ 연구 방법 — Methods (자동 구분)
-  · A blinded, retrospective, qualitative, and semiquantitative study was performed comparing horizontally processed scalp biopsy sections of clinicopathologically confirmed TA (n = 16) and TTM (n = 9) to nearly matched controls (n = 15).
-  · Further validation studies in larger cohorts are warranted to assess their diagnostic utility in the recognition of MA.
+◆ 연구 방법 — Method
+  · A total of 56 patients diagnosed with AGA, FAPD, or LPP were enrolled.
+  · Scalp biopsies were obtained from all participants, and diagnoses were confirmed through histopathological examination.
+  · Mast cell distribution and infiltration density were quantified and analyzed using SPSS and Stata software.
+  · The study was conducted with full ethical approval.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Additional anomalies of the pilosebaceous unit have been observed that may assist in the histopathological detection of MA.
-  · Translocation of sebocytes into the follicular canal was seen in both TA and TTM, supporting a shared underlying mechanism.
-  · Vectorially warped sebaceous lobules were observed predominately in TA (p = 0.0002), while collapse of the inner root sheath of the lower follicular isthmus and surface lichenification were primarily seen in TTM (p < 0.0002).
-  · Lateral impingement of the follicular canal was seen in both TA and TTM (p < 0.0001), although more commonly in TA.
-  · These alterations were observed in the absence of other previously described features.
+◆ 주요 결과 — Result
+  · The majority of participants (91%) were female, with a mean age of 44.3 years.
+  · FAPD was the most prevalent diagnosis (42.9%).
+  · LPP demonstrated the highest degree of mast cell infiltration, while AGA exhibited the lowest (ANOVA, p < 0.001).
+  · Post hoc analysis revealed significant differences between AGA and FAPD (-17.7%, p = 0.001) and between AGA and LPP (-20.1%, p = 0.001).
+  · Although mast cell infiltration was higher in patients over 40 years of age, this difference did not reach statistical significance.
+  · No significant association was identified between mast cell infiltration and patient sex.
+
+◆ 결론 — Conclusion
+  · Mast cell infiltration is significantly more pronounced in scarring alopecias (LPP and FAPD) compared to non-scarring AGA, suggesting a shared immunopathological mechanism underlying follicular destruction in scarring subtypes.
+  · These findings also raise important questions regarding the potential inflammatory contribution of mast cells to AGA pathogenesis.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
