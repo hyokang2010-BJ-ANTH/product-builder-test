@@ -1,0 +1,35 @@
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
+
+[논문 정보]
+제목: Biologics in alopecia areata: promise, paradox, and the precision medicine frontier
+저널: Expert opinion on biological therapy
+저자: Tang Z, Wu J, Li C 외
+발행: 2026 Oct 21
+원문: https://pubmed.ncbi.nlm.nih.gov/42904500/
+
+[한눈에 보기]
+- Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.
+- Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).
+- Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.
+
+[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background (자동 구분)
+  · Introduction: Alopecia areata (AA) is a chronic, immune-mediated non-scarring hair loss affecting approximately 2% of the population.
+  · The approval of oral JAK inhibitors has established targeted systemic therapy for moderate-to-severe AA.
+  · Incomplete response rates, relapse upon treatment discontinuation, and safety contraindications, however, leave a substantial proportion of patients requiring alternative options.
+
+◆ 주요 결과 — Results (자동 구분)
+  · Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.
+  · Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).
+  · Expert opinion: No biologic has demonstrated efficacy in an adequately powered randomized controlled trial in AA.
+  · A phase 2a randomized trial of dupilumab showed modest efficacy, most pronounced in patients with elevated baseline IgE.
+  · Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.
+  · Given the higher bar set by JAK inhibitors and the risk of paradoxical disease, currently available cytokine-targeting biologics cannot be recommended for AA outside of clinical trials.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

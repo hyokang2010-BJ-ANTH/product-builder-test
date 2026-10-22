@@ -1,41 +1,31 @@
-[훅] 91% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Mast Cell Infiltration Helps Distinguish Fibrosing Alopecia in a Pattern Distribution From Androgenetic Alopecia in Scalp Biopsy
-저널: Journal of cutaneous pathology
-저자: Rakhshan A, Ashjaazade F, Dadkhahfar S 외
-발행: 2026 Oct 20
-원문: https://pubmed.ncbi.nlm.nih.gov/42902517/
+제목: Biologics in alopecia areata: promise, paradox, and the precision medicine frontier
+저널: Expert opinion on biological therapy
+저자: Tang Z, Wu J, Li C 외
+발행: 2026 Oct 21
+원문: https://pubmed.ncbi.nlm.nih.gov/42904500/
 
 [한눈에 보기]
-- Method: A total of 56 patients diagnosed with AGA, FAPD, or LPP were enrolled.
-- Result: The majority of participants (91%) were female, with a mean age of 44.3 years.
-- Post hoc analysis revealed significant differences between AGA and FAPD (-17.7%, p = 0.001) and between AGA and LPP (-20.1%, p = 0.001).
+- Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.
+- Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).
+- Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.
 
-[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background
-  · Mast cells are key regulators of cutaneous inflammation and are known to accumulate in response to various immunological stimuli.
-  · Although their role in several dermatological conditions has been established, their specific contribution to different forms of alopecia-particularly scarring versus nonscarring types-remains incompletely understood.
-  · This study aimed to compare the degree of mast cell infiltration across three distinct types of alopecia: androgenetic alopecia (AGA), fibrosing alopecia in a pattern distribution (FAPD), and lichen planopilaris (LPP).
+◆ 배경 — Background (자동 구분)
+  · Introduction: Alopecia areata (AA) is a chronic, immune-mediated non-scarring hair loss affecting approximately 2% of the population.
+  · The approval of oral JAK inhibitors has established targeted systemic therapy for moderate-to-severe AA.
+  · Incomplete response rates, relapse upon treatment discontinuation, and safety contraindications, however, leave a substantial proportion of patients requiring alternative options.
 
-◆ 연구 방법 — Method
-  · A total of 56 patients diagnosed with AGA, FAPD, or LPP were enrolled.
-  · Scalp biopsies were obtained from all participants, and diagnoses were confirmed through histopathological examination.
-  · Mast cell distribution and infiltration density were quantified and analyzed using SPSS and Stata software.
-  · The study was conducted with full ethical approval.
-
-◆ 주요 결과 — Result
-  · The majority of participants (91%) were female, with a mean age of 44.3 years.
-  · FAPD was the most prevalent diagnosis (42.9%).
-  · LPP demonstrated the highest degree of mast cell infiltration, while AGA exhibited the lowest (ANOVA, p < 0.001).
-  · Post hoc analysis revealed significant differences between AGA and FAPD (-17.7%, p = 0.001) and between AGA and LPP (-20.1%, p = 0.001).
-  · Although mast cell infiltration was higher in patients over 40 years of age, this difference did not reach statistical significance.
-  · No significant association was identified between mast cell infiltration and patient sex.
-
-◆ 결론 — Conclusion
-  · Mast cell infiltration is significantly more pronounced in scarring alopecias (LPP and FAPD) compared to non-scarring AGA, suggesting a shared immunopathological mechanism underlying follicular destruction in scarring subtypes.
-  · These findings also raise important questions regarding the potential inflammatory contribution of mast cells to AGA pathogenesis.
+◆ 주요 결과 — Results (자동 구분)
+  · Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.
+  · Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).
+  · Expert opinion: No biologic has demonstrated efficacy in an adequately powered randomized controlled trial in AA.
+  · A phase 2a randomized trial of dupilumab showed modest efficacy, most pronounced in patients with elevated baseline IgE.
+  · Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.
+  · Given the higher bar set by JAK inhibitors and the risk of paradoxical disease, currently available cytokine-targeting biologics cannot be recommended for AA outside of clinical trials.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
