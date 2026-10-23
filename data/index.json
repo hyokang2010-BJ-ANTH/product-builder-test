@@ -1,7 +1,20 @@
 {
-  "count": 55,
-  "updated": "2026-10-23",
+  "count": 56,
+  "updated": "2026-10-24",
   "items": [
+    {
+      "date": "2026-10-24",
+      "dir": "2026-10-24",
+      "title": "Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study",
+      "journal": "Lasers in medical science",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42911445/",
+      "hook_accent": "9.2%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-10-24/paper_card.png",
+      "pptx": "2026-10-24/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-23",
       "dir": "2026-10-23",

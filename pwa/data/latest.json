@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "topic": {
     "source_type": "paper",
-    "pmid": "42904500",
-    "title": "Biologics in alopecia areata: promise, paradox, and the precision medicine frontier",
-    "journal": "Expert opinion on biological therapy",
-    "pub_date": "2026 Oct 21",
+    "pmid": "42911445",
+    "title": "Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study",
+    "journal": "Lasers in medical science",
+    "pub_date": "2026 Oct 22",
     "authors": [
-      "Tang Z",
-      "Wu J",
-      "Li C"
+      "Nguyen L",
+      "Schneider SW",
+      "Herberger K"
     ],
     "pubtypes": [
       "Journal Article",
-      "Review"
+      "Randomized Controlled Trial"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904500/",
-    "id": "pmid:42904500",
-    "abstract": "Introduction: Alopecia areata (AA) is a chronic, immune-mediated non-scarring hair loss affecting approximately 2% of the population. The approval of oral JAK inhibitors has established targeted systemic therapy for moderate-to-severe AA. Incomplete response rates, relapse upon treatment discontinuation, and safety contraindications, however, leave a substantial proportion of patients requiring alternative options. Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23. Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026). Expert opinion: No biologic has demonstrated efficacy in an adequately powered randomized controlled trial in AA. A phase 2a randomized trial of dupilumab showed modest efficacy, most pronounced in patients with elevated baseline IgE. Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation. Given the higher bar set by JAK inhibitors and the risk of paradoxical disease, currently available cytokine-targeting biologics cannot be recommended for AA outside of clinical trials. Endotype-stratified investigation represents the most promising path toward precision immunotherapy in AA."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42911445/",
+    "id": "pmid:42911445",
+    "abstract": "Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life. Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums. The aim of the study was to evaluate the safety and efficacy of non-ablative fractional laser (NAFL)-assisted delivery, with or without adjunct red light therapy, in patients with AGA. In this pilot study, patients were randomly assigned to: (I) NAFL-assisted serum delivery plus red light therapy (triple), (II) NAFL-assisted serum delivery alone (dual), or (III) NAFL plus red light therapy without serum (EBD-only). Primary outcomes were hair density and thickness. Secondary outcomes included patient satisfaction, tolerability, and adverse events. Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %). Hair thickness improved in both serum groups but not in the EBD-only group. Clinical outcomes were similar between triple and dual treatments, though satisfaction was higher with triple therapy. No severe adverse events occurred. Preliminary evidence suggests that NAFL-assisted delivery of biomimetic growth factors is a safe and effective non-invasive treatment for AGA."
   },
   "script": {
-    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
-    "hook_accent": "원형탈모",
-    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
-    "intro": "《Expert opinion on biological therapy》 - Biologics in alopecia areata: promise, paradox, and the precision medicine frontier",
+    "hook": "9.2% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "9.2%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Lasers in medical science》 - Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study",
     "highlights": [
-      "Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.",
-      "Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).",
-      "Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation."
+      "Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.",
+      "Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums.",
+      "Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %)."
     ],
     "sections": [
       {
@@ -35,9 +35,16 @@
         "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Introduction: Alopecia areata (AA) is a chronic, immune-mediated non-scarring hair loss affecting approximately 2% of the population.",
-          "The approval of oral JAK inhibitors has established targeted systemic therapy for moderate-to-severe AA.",
-          "Incomplete response rates, relapse upon treatment discontinuation, and safety contraindications, however, leave a substantial proportion of patients requiring alternative options."
+          "Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "The aim of the study was to evaluate the safety and efficacy of non-ablative fractional laser (NAFL)-assisted delivery, with or without adjunct red light therapy, in patients with AGA.",
+          "In this pilot study, patients were randomly assigned to: (I) NAFL-assisted serum delivery plus red light therapy (triple), (II) NAFL-assisted serum delivery alone (dual), or (III) NAFL plus red light therapy without serum (EBD-only)."
         ]
       },
       {
@@ -45,19 +52,19 @@
         "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.",
-          "Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).",
-          "Expert opinion: No biologic has demonstrated efficacy in an adequately powered randomized controlled trial in AA.",
-          "A phase 2a randomized trial of dupilumab showed modest efficacy, most pronounced in patients with elevated baseline IgE.",
-          "Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.",
-          "Given the higher bar set by JAK inhibitors and the risk of paradoxical disease, currently available cytokine-targeting biologics cannot be recommended for AA outside of clinical trials."
+          "Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.",
+          "Primary outcomes were hair density and thickness.",
+          "Secondary outcomes included patient satisfaction, tolerability, and adverse events.",
+          "Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %).",
+          "Hair thickness improved in both serum groups but not in the EBD-only group.",
+          "Clinical outcomes were similar between triple and dual treatments, though satisfaction was higher with triple therapy."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Biologics in alopecia areata: promise, paradox, and the precision medicine frontier\n저널: Expert opinion on biological therapy\n저자: Tang Z, Wu J, Li C 외\n발행: 2026 Oct 21\n원문: https://pubmed.ncbi.nlm.nih.gov/42904500/\n\n[한눈에 보기]\n- Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.\n- Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).\n- Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Introduction: Alopecia areata (AA) is a chronic, immune-mediated non-scarring hair loss affecting approximately 2% of the population.\n  · The approval of oral JAK inhibitors has established targeted systemic therapy for moderate-to-severe AA.\n  · Incomplete response rates, relapse upon treatment discontinuation, and safety contraindications, however, leave a substantial proportion of patients requiring alternative options.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Areas covered: This review evaluates the immunopathogenic rationale and available clinical evidence for biologic therapies in AA, including inhibitors of tumor necrosis factor (TNF), interleukin-4 receptor α subunit (IL-4 Rα), IL-17, and IL-23.\n  · Relevant literature was identified through PubMed and ClinicalTrials.gov (last search: 17 October 2026).\n  · Expert opinion: No biologic has demonstrated efficacy in an adequately powered randomized controlled trial in AA.\n  · A phase 2a randomized trial of dupilumab showed modest efficacy, most pronounced in patients with elevated baseline IgE.\n  · Paradoxically, TNF, IL-17, and IL-23 inhibitors have been implicated in drug-induced AA, a hypothesis-generating observation that warrants cautious interpretation.\n  · Given the higher bar set by JAK inhibitors and the risk of paradoxical disease, currently available cytokine-targeting biologics cannot be recommended for AA outside of clinical trials.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42904500/",
-    "reference_title": "Biologics in alopecia areata: promise, paradox, and the precision medicine frontier",
+    "full_script": "[훅] 9.2% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study\n저널: Lasers in medical science\n저자: Nguyen L, Schneider SW, Herberger K 외\n발행: 2026 Oct 22\n원문: https://pubmed.ncbi.nlm.nih.gov/42911445/\n\n[한눈에 보기]\n- Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.\n- Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums.\n- Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %).\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · The aim of the study was to evaluate the safety and efficacy of non-ablative fractional laser (NAFL)-assisted delivery, with or without adjunct red light therapy, in patients with AGA.\n  · In this pilot study, patients were randomly assigned to: (I) NAFL-assisted serum delivery plus red light therapy (triple), (II) NAFL-assisted serum delivery alone (dual), or (III) NAFL plus red light therapy without serum (EBD-only).\n\n◆ 주요 결과 — Results (자동 구분)\n  · Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.\n  · Primary outcomes were hair density and thickness.\n  · Secondary outcomes included patient satisfaction, tolerability, and adverse events.\n  · Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %).\n  · Hair thickness improved in both serum groups but not in the EBD-only group.\n  · Clinical outcomes were similar between triple and dual treatments, though satisfaction was higher with triple therapy.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42911445/",
+    "reference_title": "Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study",
     "reference_type": "paper"
   },
   "assets": {
