@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-25",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42911279",
+    "title": "Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach",
+    "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+    "pub_date": "2026 Oct 22",
+    "authors": [
+      "Kaufman L",
+      "Khuhro A",
+      "Valentic L"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42911279/",
+    "id": "pmid:42911279",
+    "abstract": "Purpose: Chemotherapy-induced alopecia (CIA) is a distressing side effect of cancer treatment that significantly impacts patients' quality of life. Despite the availability of interventions such as scalp cooling and topical treatments, many patients report inadequate counseling and limited access to these resources. This study aimed to evaluate disparities in CIA-related counseling and resource access, with particular attention to how socioeconomic and demographic factors shape the patient experience. Methods: We conducted a mixed-methods, cross-sectional survey study of 101 adults who had received chemotherapy and experienced hair loss. Participants were recruited through online cancer support networks. Thematic analysis was performed on open-ended responses to identify key patient-reported themes. Results: Thematic analysis revealed 11 key patient-identified themes, including emotional distress, provider influence, financial barriers, and a strong desire for autonomy in decision-making. Conclusion: This study highlights substantial gaps in CIA-related counseling and access, with disparities influenced by employment, income, and education. Early, empathetic, and comprehensive counseling plays a pivotal role in patient satisfaction and access to care. Standardizing CIA education and improving resource availability may help reduce inequities and improve patient outcomes.",
+    "pmcid": "PMC13690825"
+  },
+  "script": {
+    "hook": "오늘의 논문 Supportive care in cancer에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Supportive care in cancer에 실린 새 연구입니다",
+    "intro": "《Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer》 - Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach",
+    "highlights": [
+      "Purpose: Chemotherapy-induced alopecia (CIA) is a distressing side effect of cancer treatment that significantly impacts patients' quality of life.",
+      "Methods: We conducted a mixed-methods, cross-sectional survey study of 101 adults who had received chemotherapy and experienced hair loss.",
+      "Results: Thematic analysis revealed 11 key patient-identified themes, including emotional distress, provider influence, financial barriers, and a strong desire for autonomy in decision-making."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Introduction and background",
+        "kind": "intro",
+        "sentences": [
+          "Chemotherapy-induced hair loss, also referred to as chemotherapy-induced alopecia (CIA), is one of the most visible and emotionally distressing side effects of cancer treatment.",
+          "Prior research has documented associations between hair loss and reduced quality of life, body image concerns, and psychosocial distress, underscoring the clinical importance of addressing CIA as part of comprehensive cancer care.",
+          "Beyond physical appearance, hair loss can disrupt patients’ sense of privacy and social identity, serving as a visible marker of illness that persists throughout treatment and recovery."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "Eligible participants included adult individuals (at least 18 years old) who had received chemotherapy and experienced hair loss.",
+          "A total of 101 individuals participated in the survey study.",
+          "The survey was open from January to May 2025."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
+        "sentences": [
+          "A total of 101 participants completed the survey.",
+          "Most participants had completed at least a bachelor’s degree (74.3%), and 56.4% were employed either full time or part time.",
+          "Among participants who reported household income (n = 99), 57.6% reported an annual household income of $100,000 or greater.",
+          "Open-ended survey responses revealed 11 distinct themes reflecting patients’ experiences with chemotherapy-induced hair loss, counseling, and access to supportive resources.",
+          "If I had had to pay for it, I don’t know if I could’ve afforded it.”“I wish it had been covered by insurance.”“I was Medicaid pending when I started treatment.”“My insurance requires preauthorization for a wig, which I didn’t know before purchasing one.”Logistical burdens and institutional limitations.Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”Scalp cooling effectiveness and treatment experience.Patients reported mixed outcomes with scalp cooling, ranging from successful partial retention to complete failure.",
+          "Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”",
+          "“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”"
+        ]
+      },
+      {
+        "label": "고찰",
+        "title": "Discussion",
+        "kind": "discussion",
+        "sentences": [
+          "A survey study of oncologists and dermatologists (n = 103) found significant differences in how CIA was viewed.",
+          "Another study of oncologists (n = 155) found that 67.1% of providers felt that all patients should be offered scalp cooling therapy, but only 26.3% report regularly initiating conversations about scalp cooling therapy and only 36% felt that scalp cooling benefits were worth the effort and cost involved.",
+          "A survey study of women in Facebook groups created for scalp cooling therapy users (n = 219) found that key motivations for utilizing social media in scalp cooling therapy included to gain support from others going through a similar experience (88.1% of participants), to receive scalp cooling instructions (82.2%), and to learn about the scalp cooling therapy outcomes of other patients (69.9%).",
+          "In a study of 179 patients undergoing chemotherapy, 56.4% reported that hair loss was the worst side effect, with 11.7% finding it worse than the disease itself and 16.2% reporting that hair loss would have made them stop chemotherapy if it was not a life-saving treatment."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "CIA remains a significant and often inadequately addressed aspect of cancer care.",
+          "Participants described gaps in counseling, variable access to preventive and management strategies, financial and logistical barriers, and unmet needs related to hair regrowth and psychosocial support.",
+          "Standardized, evidence-based CIA education incorporated into routine pre-chemotherapy counseling represents an important starting point for improving care by ensuring that patients receive consistent information about anticipated hair loss and available prevention and management options."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 오늘의 논문 Supportive care in cancer에 실린 새 연구입니다\n\n[논문 정보]\n제목: Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach\n저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer\n저자: Kaufman L, Khuhro A, Valentic L 외\n발행: 2026 Oct 22\n원문: https://pubmed.ncbi.nlm.nih.gov/42911279/\n\n[한눈에 보기]\n- Purpose: Chemotherapy-induced alopecia (CIA) is a distressing side effect of cancer treatment that significantly impacts patients' quality of life.\n- Methods: We conducted a mixed-methods, cross-sectional survey study of 101 adults who had received chemotherapy and experienced hair loss.\n- Results: Thematic analysis revealed 11 key patient-identified themes, including emotional distress, provider influence, financial barriers, and a strong desire for autonomy in decision-making.\n\n[상세 내용] (논문 전문 5개 섹션에서 발췌)\n\n◆ 배경 — Introduction and background\n  · Chemotherapy-induced hair loss, also referred to as chemotherapy-induced alopecia (CIA), is one of the most visible and emotionally distressing side effects of cancer treatment.\n  · Prior research has documented associations between hair loss and reduced quality of life, body image concerns, and psychosocial distress, underscoring the clinical importance of addressing CIA as part of comprehensive cancer care.\n  · Beyond physical appearance, hair loss can disrupt patients’ sense of privacy and social identity, serving as a visible marker of illness that persists throughout treatment and recovery.\n\n◆ 연구 방법 — Methods\n  · Eligible participants included adult individuals (at least 18 years old) who had received chemotherapy and experienced hair loss.\n  · A total of 101 individuals participated in the survey study.\n  · The survey was open from January to May 2025.\n\n◆ 주요 결과 — Results\n  · A total of 101 participants completed the survey.\n  · Most participants had completed at least a bachelor’s degree (74.3%), and 56.4% were employed either full time or part time.\n  · Among participants who reported household income (n = 99), 57.6% reported an annual household income of $100,000 or greater.\n  · Open-ended survey responses revealed 11 distinct themes reflecting patients’ experiences with chemotherapy-induced hair loss, counseling, and access to supportive resources.\n  · If I had had to pay for it, I don’t know if I could’ve afforded it.”“I wish it had been covered by insurance.”“I was Medicaid pending when I started treatment.”“My insurance requires preauthorization for a wig, which I didn’t know before purchasing one.”Logistical burdens and institutional limitations.Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”Scalp cooling effectiveness and treatment experience.Patients reported mixed outcomes with scalp cooling, ranging from successful partial retention to complete failure.\n  · Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”\n  · “Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”\n\n◆ 고찰 — Discussion\n  · A survey study of oncologists and dermatologists (n = 103) found significant differences in how CIA was viewed.\n  · Another study of oncologists (n = 155) found that 67.1% of providers felt that all patients should be offered scalp cooling therapy, but only 26.3% report regularly initiating conversations about scalp cooling therapy and only 36% felt that scalp cooling benefits were worth the effort and cost involved.\n  · A survey study of women in Facebook groups created for scalp cooling therapy users (n = 219) found that key motivations for utilizing social media in scalp cooling therapy included to gain support from others going through a similar experience (88.1% of participants), to receive scalp cooling instructions (82.2%), and to learn about the scalp cooling therapy outcomes of other patients (69.9%).\n  · In a study of 179 patients undergoing chemotherapy, 56.4% reported that hair loss was the worst side effect, with 11.7% finding it worse than the disease itself and 16.2% reporting that hair loss would have made them stop chemotherapy if it was not a life-saving treatment.\n\n◆ 결론 — Conclusion\n  · CIA remains a significant and often inadequately addressed aspect of cancer care.\n  · Participants described gaps in counseling, variable access to preventive and management strategies, financial and logistical barriers, and unmet needs related to hair regrowth and psychosocial support.\n  · Standardized, evidence-based CIA education incorporated into routine pre-chemotherapy counseling represents an important starting point for improving care by ensuring that patients receive consistent information about anticipated hair loss and available prevention and management options.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42911279/",
+    "reference_title": "Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": {
+      "pmcid": "PMC13690825",
+      "license_note": "재사용 가능 라이선스"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 1개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13690825)에서 직접 캡처해 쓰세요."
+  }
+}

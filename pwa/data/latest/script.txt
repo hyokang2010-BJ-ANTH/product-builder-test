@@ -1,33 +1,48 @@
-[훅] 9.2% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 오늘의 논문 Supportive care in cancer에 실린 새 연구입니다
 
 [논문 정보]
-제목: Thulium laser-assisted delivery of growth factors for treating androgenetic alopecia - a randomized, controlled, clinical study
-저널: Lasers in medical science
-저자: Nguyen L, Schneider SW, Herberger K 외
+제목: Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach
+저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer
+저자: Kaufman L, Khuhro A, Valentic L 외
 발행: 2026 Oct 22
-원문: https://pubmed.ncbi.nlm.nih.gov/42911445/
+원문: https://pubmed.ncbi.nlm.nih.gov/42911279/
 
 [한눈에 보기]
-- Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.
-- Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums.
-- Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %).
+- Purpose: Chemotherapy-induced alopecia (CIA) is a distressing side effect of cancer treatment that significantly impacts patients' quality of life.
+- Methods: We conducted a mixed-methods, cross-sectional survey study of 101 adults who had received chemotherapy and experienced hair loss.
+- Results: Thematic analysis revealed 11 key patient-identified themes, including emotional distress, provider influence, financial barriers, and a strong desire for autonomy in decision-making.
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (논문 전문 5개 섹션에서 발췌)
 
-◆ 배경 — Background (자동 구분)
-  · Emerging non-invasive treatments include laser-assisted delivery of biomimetic growth factor-based serums.
+◆ 배경 — Introduction and background
+  · Chemotherapy-induced hair loss, also referred to as chemotherapy-induced alopecia (CIA), is one of the most visible and emotionally distressing side effects of cancer treatment.
+  · Prior research has documented associations between hair loss and reduced quality of life, body image concerns, and psychosocial distress, underscoring the clinical importance of addressing CIA as part of comprehensive cancer care.
+  · Beyond physical appearance, hair loss can disrupt patients’ sense of privacy and social identity, serving as a visible marker of illness that persists throughout treatment and recovery.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · The aim of the study was to evaluate the safety and efficacy of non-ablative fractional laser (NAFL)-assisted delivery, with or without adjunct red light therapy, in patients with AGA.
-  · In this pilot study, patients were randomly assigned to: (I) NAFL-assisted serum delivery plus red light therapy (triple), (II) NAFL-assisted serum delivery alone (dual), or (III) NAFL plus red light therapy without serum (EBD-only).
+◆ 연구 방법 — Methods
+  · Eligible participants included adult individuals (at least 18 years old) who had received chemotherapy and experienced hair loss.
+  · A total of 101 individuals participated in the survey study.
+  · The survey was open from January to May 2025.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Androgenetic alopecia (AGA) is the most common form of hair loss and can significantly impact quality of life.
-  · Primary outcomes were hair density and thickness.
-  · Secondary outcomes included patient satisfaction, tolerability, and adverse events.
-  · Hair density increased in all groups, with greater improvement in the triple (25.6 ± 7.0 %) and dual (22.7 ± 3.4 %) groups compared to EBD-only (4.9 ± 9.2 %).
-  · Hair thickness improved in both serum groups but not in the EBD-only group.
-  · Clinical outcomes were similar between triple and dual treatments, though satisfaction was higher with triple therapy.
+◆ 주요 결과 — Results
+  · A total of 101 participants completed the survey.
+  · Most participants had completed at least a bachelor’s degree (74.3%), and 56.4% were employed either full time or part time.
+  · Among participants who reported household income (n = 99), 57.6% reported an annual household income of $100,000 or greater.
+  · Open-ended survey responses revealed 11 distinct themes reflecting patients’ experiences with chemotherapy-induced hair loss, counseling, and access to supportive resources.
+  · If I had had to pay for it, I don’t know if I could’ve afforded it.”“I wish it had been covered by insurance.”“I was Medicaid pending when I started treatment.”“My insurance requires preauthorization for a wig, which I didn’t know before purchasing one.”Logistical burdens and institutional limitations.Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”Scalp cooling effectiveness and treatment experience.Patients reported mixed outcomes with scalp cooling, ranging from successful partial retention to complete failure.
+  · Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”
+  · “Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”
+
+◆ 고찰 — Discussion
+  · A survey study of oncologists and dermatologists (n = 103) found significant differences in how CIA was viewed.
+  · Another study of oncologists (n = 155) found that 67.1% of providers felt that all patients should be offered scalp cooling therapy, but only 26.3% report regularly initiating conversations about scalp cooling therapy and only 36% felt that scalp cooling benefits were worth the effort and cost involved.
+  · A survey study of women in Facebook groups created for scalp cooling therapy users (n = 219) found that key motivations for utilizing social media in scalp cooling therapy included to gain support from others going through a similar experience (88.1% of participants), to receive scalp cooling instructions (82.2%), and to learn about the scalp cooling therapy outcomes of other patients (69.9%).
+  · In a study of 179 patients undergoing chemotherapy, 56.4% reported that hair loss was the worst side effect, with 11.7% finding it worse than the disease itself and 16.2% reporting that hair loss would have made them stop chemotherapy if it was not a life-saving treatment.
+
+◆ 결론 — Conclusion
+  · CIA remains a significant and often inadequately addressed aspect of cancer care.
+  · Participants described gaps in counseling, variable access to preventive and management strategies, financial and logistical barriers, and unmet needs related to hair regrowth and psychosocial support.
+  · Standardized, evidence-based CIA education incorporated into routine pre-chemotherapy counseling represents an important starting point for improving care by ensuring that patients receive consistent information about anticipated hair loss and available prevention and management options.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
