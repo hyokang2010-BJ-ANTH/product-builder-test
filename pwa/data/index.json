@@ -1,7 +1,20 @@
 {
-  "count": 57,
-  "updated": "2026-10-25",
+  "count": 58,
+  "updated": "2026-10-26",
   "items": [
+    {
+      "date": "2026-10-26",
+      "dir": "2026-10-26",
+      "title": "Immune Cells in Hair Follicle Physiology and Pathology",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42927355/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다",
+      "thumb": "2026-10-26/paper_card.png",
+      "pptx": "2026-10-26/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-25",
       "dir": "2026-10-25",

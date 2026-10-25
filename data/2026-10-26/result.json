@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-26",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42927355",
+    "title": "Immune Cells in Hair Follicle Physiology and Pathology",
+    "journal": "Clinical, cosmetic and investigational dermatology",
+    "pub_date": "2026",
+    "authors": [
+      "Dai C",
+      "Zeng F"
+    ],
+    "pubtypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42927355/",
+    "id": "pmid:42927355",
+    "abstract": "The hair follicle (HF) is a sophisticated mini-organ with intrinsic cyclic activity that generates hair shafts. A variety of immune cells, including macrophages, mast cells, T cells, and Langerhans cells, reside around HFs, collectively forming a delicate and intricate immune microenvironment. This review systematically summarizes the specific distribution, dynamic alterations, and biological functions of diverse immune cells within the HF microenvironment, and highlights their dual roles in maintaining HF physiological homeostasis and mediating pathological damage. Under physiological conditions, these immune cells maintain normal HF physiological functions by precisely regulating hair follicle stem cell (HFSC) activity, modulating hair cycle progression, and defending against microbial invasion. However, multiple stressors, including infection, mechanical trauma, and psychological stress, can disrupt HF immune homeostasis and consequently trigger pathological dysfunctions. This article further expounds the pivotal roles of specific immune cells in HF-associated disorders. An in-depth understanding of the mechanisms underlying physiological regulation and pathological imbalance of the HF immune system not only provides novel mechanistic insights for elucidating the pathogenesis of alopecia but also lays a solid theoretical foundation for developing innovative therapeutic strategies targeting immune modulation.",
+    "pmcid": "PMC13695359"
+  },
+  "script": {
+    "hook": "오늘의 논문 Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다",
+    "intro": "《Clinical, cosmetic and investigational dermatology》 - Immune Cells in Hair Follicle Physiology and Pathology",
+    "highlights": [
+      "The hair follicle (HF) is a sophisticated mini-organ with intrinsic cyclic activity that generates hair shafts.",
+      "A variety of immune cells, including macrophages, mast cells, T cells, and Langerhans cells, reside around HFs, collectively forming a delicate and intricate immune microenvironment.",
+      "This review systematically summarizes the specific distribution, dynamic alterations, and biological functions of diverse immune cells within the HF microenvironment, and highlights their dual roles in maintaining HF physiological homeostasis and mediating pathological damage."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Introduction",
+        "kind": "intro",
+        "sentences": [
+          "As a crucial cutaneous appendage, the hair follicle (HF) executes multiple physiological functions, including sebum and sweat secretion, hair shaft production, cutaneous barrier protection, and thermoregulation.",
+          "Anatomically, the HF is divided into four distinct regions from superficial to deep: the infundibulum, the isthmus, the suprabulbar region, and the hair bulb.1 The infundibulum is located above the sebaceous gland duct opening and communicates directly with the follicular orifice.",
+          "The isthmus is demarcated superiorly by the sebaceous gland duct opening and inferiorly by the arrector pili muscle insertion site, which is adjacent to the bulge region where HFSCs reside."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Composition of Immune Cells Surrounding Hair Follicles",
+        "kind": "other",
+        "sentences": [
+          "The distribution pattern of immune cells differs significantly between the epidermis and HFs, with each immune cell type exhibiting unique localization characteristics in the perifollicular region.",
+          "Approximately 10% of cutaneous CD4⁺ T cells in human skin are FoxP3⁺ regulatory T cells (Treg cells) with potent immunosuppressive properties, which are enriched in HF-rich skin regions.6,7 Accumulating evidence indicates that cutaneous FoxP3⁺ Treg cells preferentially colonize the HF bulge region.8,9 In healthy human scalp skin, a small number of tissue-resident γδ T cells (primarily the Vδ1⁺ subset) are predominantly confined to the HF infundibulum.10,11"
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Functions of Perifollicular Immune Cells",
+        "kind": "other",
+        "sentences": [
+          "Type 2 ILCs upregulate IL‑13 expression to restrict mite colonization and invasion within HFs and maintain follicular structural integrity.33 During Staphylococcus aureus infection of HFs, neutrophils migrate to perifollicular regions to phagocytose bacteria and trigger localized chronic inflammation.34 CCR6⁺ Treg cells abundantly migrate into neonatal skin and colonize HFs under the chemotactic induction of CCL20, mediating host immune tolerance to skin commensal microbes.35 Microbial colonization in HFs drives physiological Treg accumulation in neonatal skin."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Immunopathogenesis of Hair Follicle-Associated Diseases",
+        "kind": "other",
+        "sentences": [
+          "AA is a representative autoimmune alopecia driven by dysregulated immune responses that specifically target autologous HFs, leading to premature anagen termination, arrested hair shaft growth, and localized hair loss.60–62 Accumulating studies have confirmed that massive expansion and aberrant activation of cytotoxic CD8⁺ T cells, which specifically infiltrate and damage HF epithelia, are the core initiating events of AA pathogenesis.49,63–66 Specific depletion of CD8⁺ T cells, rather than CD4⁺ T cells, NK cells, B cells, or γδ T cells, can effectively prevent and reverse AA pathological lesions.46 Clearance of infiltrating CD8⁺ T cells from affected HFs restores follicular structural integrity and promotes hair regrowth.47 Cytotoxic CD8⁺NKG2D⁺ T lymphocytes have been identified as the pivotal drivers of AA immunopathogenesis.48 A clinical study of 331 patients with chronic AA demonstrated compartmentalized infiltration of CD4⁺ Th17 cells and CD8⁺ cytotoxic T lymphocytes (CTLs) in the hair bulb and bulge region, which synergistically promote disease progression.45 CCR6⁺ Th17 cells predominantly accumulate around the hair bulb, disrupt HF immune privilege, and facilitate CTL recruitment and activation via secretion of IL‑17 and IFN‑γ."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "The HF immune system exhibits distinct characteristics different from that of interfollicular skin.",
+          "The unique perifollicular immune microenvironment is indispensable for maintaining HF physiological homeostasis and normal biological functions.",
+          "Under physiological conditions, specialized perifollicular immune cells precisely modulate HFSC proliferation and differentiation to ensure orderly hair cycle progression."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 오늘의 논문 Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다\n\n[논문 정보]\n제목: Immune Cells in Hair Follicle Physiology and Pathology\n저널: Clinical, cosmetic and investigational dermatology\n저자: Dai C, Zeng F 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42927355/\n\n[한눈에 보기]\n- The hair follicle (HF) is a sophisticated mini-organ with intrinsic cyclic activity that generates hair shafts.\n- A variety of immune cells, including macrophages, mast cells, T cells, and Langerhans cells, reside around HFs, collectively forming a delicate and intricate immune microenvironment.\n- This review systematically summarizes the specific distribution, dynamic alterations, and biological functions of diverse immune cells within the HF microenvironment, and highlights their dual roles in maintaining HF physiological homeostasis and mediating pathological damage.\n\n[상세 내용] (논문 전문 5개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · As a crucial cutaneous appendage, the hair follicle (HF) executes multiple physiological functions, including sebum and sweat secretion, hair shaft production, cutaneous barrier protection, and thermoregulation.\n  · Anatomically, the HF is divided into four distinct regions from superficial to deep: the infundibulum, the isthmus, the suprabulbar region, and the hair bulb.1 The infundibulum is located above the sebaceous gland duct opening and communicates directly with the follicular orifice.\n  · The isthmus is demarcated superiorly by the sebaceous gland duct opening and inferiorly by the arrector pili muscle insertion site, which is adjacent to the bulge region where HFSCs reside.\n\n◆ 그 밖의 내용 — Composition of Immune Cells Surrounding Hair Follicles\n  · The distribution pattern of immune cells differs significantly between the epidermis and HFs, with each immune cell type exhibiting unique localization characteristics in the perifollicular region.\n  · Approximately 10% of cutaneous CD4⁺ T cells in human skin are FoxP3⁺ regulatory T cells (Treg cells) with potent immunosuppressive properties, which are enriched in HF-rich skin regions.6,7 Accumulating evidence indicates that cutaneous FoxP3⁺ Treg cells preferentially colonize the HF bulge region.8,9 In healthy human scalp skin, a small number of tissue-resident γδ T cells (primarily the Vδ1⁺ subset) are predominantly confined to the HF infundibulum.10,11\n\n◆ 그 밖의 내용 — Functions of Perifollicular Immune Cells\n  · Type 2 ILCs upregulate IL‑13 expression to restrict mite colonization and invasion within HFs and maintain follicular structural integrity.33 During Staphylococcus aureus infection of HFs, neutrophils migrate to perifollicular regions to phagocytose bacteria and trigger localized chronic inflammation.34 CCR6⁺ Treg cells abundantly migrate into neonatal skin and colonize HFs under the chemotactic induction of CCL20, mediating host immune tolerance to skin commensal microbes.35 Microbial colonization in HFs drives physiological Treg accumulation in neonatal skin.\n\n◆ 그 밖의 내용 — Immunopathogenesis of Hair Follicle-Associated Diseases\n  · AA is a representative autoimmune alopecia driven by dysregulated immune responses that specifically target autologous HFs, leading to premature anagen termination, arrested hair shaft growth, and localized hair loss.60–62 Accumulating studies have confirmed that massive expansion and aberrant activation of cytotoxic CD8⁺ T cells, which specifically infiltrate and damage HF epithelia, are the core initiating events of AA pathogenesis.49,63–66 Specific depletion of CD8⁺ T cells, rather than CD4⁺ T cells, NK cells, B cells, or γδ T cells, can effectively prevent and reverse AA pathological lesions.46 Clearance of infiltrating CD8⁺ T cells from affected HFs restores follicular structural integrity and promotes hair regrowth.47 Cytotoxic CD8⁺NKG2D⁺ T lymphocytes have been identified as the pivotal drivers of AA immunopathogenesis.48 A clinical study of 331 patients with chronic AA demonstrated compartmentalized infiltration of CD4⁺ Th17 cells and CD8⁺ cytotoxic T lymphocytes (CTLs) in the hair bulb and bulge region, which synergistically promote disease progression.45 CCR6⁺ Th17 cells predominantly accumulate around the hair bulb, disrupt HF immune privilege, and facilitate CTL recruitment and activation via secretion of IL‑17 and IFN‑γ.\n\n◆ 결론 — Conclusion\n  · The HF immune system exhibits distinct characteristics different from that of interfollicular skin.\n  · The unique perifollicular immune microenvironment is indispensable for maintaining HF physiological homeostasis and normal biological functions.\n  · Under physiological conditions, specialized perifollicular immune cells precisely modulate HFSC proliferation and differentiation to ensure orderly hair cycle progression.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42927355/",
+    "reference_title": "Immune Cells in Hair Follicle Physiology and Pathology",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_05_paper_table.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [
+      {
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "Hair Follicle-Related Immune Cell Functions and Mechanisms",
+        "rows": [
+          [
+            "Type of Action",
+            "Immune Cell",
+            "Specific Functions and Mechanisms",
+            "Sample Source"
+          ],
+          [
+            "Regulate hair follicle cycle",
+            "Macrophages",
+            "Castellana D et al demonstrated that apoptotic macrophages release Wnt family molecules, which activate the Wnt/β-catenin pathway in hair follicle stem cells (HFSCs), promote cell proliferation and differentiation, and initiate the anagen phase.12",
+            "Mouse"
+          ],
+          [
+            "Perifollicular macrophages act as the core effector cells of innate immunity regulating the hair follicle cycle, and other innate immune cells indirectly affect hair growth mainly by modulating macrophage polarization.13",
+            "Mouse",
+            "Castellana D et al demonstrated that apoptotic macrophages release Wnt family molecules, which activate the Wnt/β-catenin pathway in hair follicle stem cells (HFSCs), promote cell proliferation and differentiation, and initiate the anagen phase.12",
+            "Mouse"
+          ],
+          [
+            "Hardman et al reported that during the transition from anagen to catagen in human hair follicles, perifollicular macrophages undergo apoptosis, M2 polarization and upregulation of Wnt ligands. These changes facilitate the clearance of degenerating hair follicle structures and regulate the subsequent cycle transition of HFSCs.14",
+            "Human",
+            "Castellana D et al demonstrated that apoptotic macrophages release Wnt family molecules, which activate the Wnt/β-catenin pathway in hair follicle stem cells (HFSCs), promote cell proliferation and differentiation, and initiate the anagen phase.12",
+            "Mouse"
+          ],
+          [
+            "Wang E et al found that TREM2⁺ dermal macrophages surrounding telogen hair follicles secrete oncostatin M (OSM). OSM binds to receptors on HFSCs and activates the JAK-STAT5 pathway, thereby suppressing HFSC proliferation and arresting hair growth.15",
+            "Mouse",
+            "Castellana D et al demonstrated that apoptotic macrophages release Wnt family molecules, which activate the Wnt/β-catenin pathway in hair follicle stem cells (HFSCs), promote cell proliferation and differentiation, and initiate the anagen phase.12",
+            "Mouse"
+          ],
+          [
+            "Liu M et al proposed that endogenous reactive oxygen species (ROS) in hair follicles modulate the dynamic balance of DNA damage and repair and induce programmed apoptosis of hair follicle epithelial cells. Apoptotic debris drives the M1-to-M2 polarization of perifollicular macrophages. Meanwhile, TREM2⁺ macrophages produce OSM to deliver inhibitory signals, which collectively drive the progression of the hair follicle cycle.16",
+            "Mouse",
+            "Castellana D et al demonstrated that apoptotic macrophages release Wnt family molecules, which activate the Wnt/β-catenin pathway in hair follicle stem cells (HFSCs), promote cell proliferation and differentiation, and initiate the anagen phase.12",
+            "Mouse"
+          ],
+          [
+            "Mast cells",
+            "Paus R et al firstly confirmed that mast cells are positive regulators of hair growth in mice.17",
+            "Mouse",
+            "Mouse"
+          ],
+          [
+            "The biochemical composition of intracellular granules, staining phenotypes and heparin content of cutaneous mast cells change periodically along with the hair follicle cycle in mice.18",
+            "Mouse",
+            "Mouse",
+            "Mouse"
+          ]
+        ]
+      }
+    ],
+    "paper_source": {
+      "pmcid": "PMC13695359",
+      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 1개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13695359)에서 직접 캡처해 쓰세요."
+  }
+}

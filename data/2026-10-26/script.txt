@@ -1,0 +1,42 @@
+[훅] 오늘의 논문 Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다
+
+[논문 정보]
+제목: Immune Cells in Hair Follicle Physiology and Pathology
+저널: Clinical, cosmetic and investigational dermatology
+저자: Dai C, Zeng F 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/42927355/
+
+[한눈에 보기]
+- The hair follicle (HF) is a sophisticated mini-organ with intrinsic cyclic activity that generates hair shafts.
+- A variety of immune cells, including macrophages, mast cells, T cells, and Langerhans cells, reside around HFs, collectively forming a delicate and intricate immune microenvironment.
+- This review systematically summarizes the specific distribution, dynamic alterations, and biological functions of diverse immune cells within the HF microenvironment, and highlights their dual roles in maintaining HF physiological homeostasis and mediating pathological damage.
+
+[상세 내용] (논문 전문 5개 섹션에서 발췌)
+
+◆ 배경 — Introduction
+  · As a crucial cutaneous appendage, the hair follicle (HF) executes multiple physiological functions, including sebum and sweat secretion, hair shaft production, cutaneous barrier protection, and thermoregulation.
+  · Anatomically, the HF is divided into four distinct regions from superficial to deep: the infundibulum, the isthmus, the suprabulbar region, and the hair bulb.1 The infundibulum is located above the sebaceous gland duct opening and communicates directly with the follicular orifice.
+  · The isthmus is demarcated superiorly by the sebaceous gland duct opening and inferiorly by the arrector pili muscle insertion site, which is adjacent to the bulge region where HFSCs reside.
+
+◆ 그 밖의 내용 — Composition of Immune Cells Surrounding Hair Follicles
+  · The distribution pattern of immune cells differs significantly between the epidermis and HFs, with each immune cell type exhibiting unique localization characteristics in the perifollicular region.
+  · Approximately 10% of cutaneous CD4⁺ T cells in human skin are FoxP3⁺ regulatory T cells (Treg cells) with potent immunosuppressive properties, which are enriched in HF-rich skin regions.6,7 Accumulating evidence indicates that cutaneous FoxP3⁺ Treg cells preferentially colonize the HF bulge region.8,9 In healthy human scalp skin, a small number of tissue-resident γδ T cells (primarily the Vδ1⁺ subset) are predominantly confined to the HF infundibulum.10,11
+
+◆ 그 밖의 내용 — Functions of Perifollicular Immune Cells
+  · Type 2 ILCs upregulate IL‑13 expression to restrict mite colonization and invasion within HFs and maintain follicular structural integrity.33 During Staphylococcus aureus infection of HFs, neutrophils migrate to perifollicular regions to phagocytose bacteria and trigger localized chronic inflammation.34 CCR6⁺ Treg cells abundantly migrate into neonatal skin and colonize HFs under the chemotactic induction of CCL20, mediating host immune tolerance to skin commensal microbes.35 Microbial colonization in HFs drives physiological Treg accumulation in neonatal skin.
+
+◆ 그 밖의 내용 — Immunopathogenesis of Hair Follicle-Associated Diseases
+  · AA is a representative autoimmune alopecia driven by dysregulated immune responses that specifically target autologous HFs, leading to premature anagen termination, arrested hair shaft growth, and localized hair loss.60–62 Accumulating studies have confirmed that massive expansion and aberrant activation of cytotoxic CD8⁺ T cells, which specifically infiltrate and damage HF epithelia, are the core initiating events of AA pathogenesis.49,63–66 Specific depletion of CD8⁺ T cells, rather than CD4⁺ T cells, NK cells, B cells, or γδ T cells, can effectively prevent and reverse AA pathological lesions.46 Clearance of infiltrating CD8⁺ T cells from affected HFs restores follicular structural integrity and promotes hair regrowth.47 Cytotoxic CD8⁺NKG2D⁺ T lymphocytes have been identified as the pivotal drivers of AA immunopathogenesis.48 A clinical study of 331 patients with chronic AA demonstrated compartmentalized infiltration of CD4⁺ Th17 cells and CD8⁺ cytotoxic T lymphocytes (CTLs) in the hair bulb and bulge region, which synergistically promote disease progression.45 CCR6⁺ Th17 cells predominantly accumulate around the hair bulb, disrupt HF immune privilege, and facilitate CTL recruitment and activation via secretion of IL‑17 and IFN‑γ.
+
+◆ 결론 — Conclusion
+  · The HF immune system exhibits distinct characteristics different from that of interfollicular skin.
+  · The unique perifollicular immune microenvironment is indispensable for maintaining HF physiological homeostasis and normal biological functions.
+  · Under physiological conditions, specialized perifollicular immune cells precisely modulate HFSC proliferation and differentiation to ensure orderly hair cycle progression.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

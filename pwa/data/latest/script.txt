@@ -1,48 +1,38 @@
-[훅] 오늘의 논문 Supportive care in cancer에 실린 새 연구입니다
+[훅] 오늘의 논문 Clinical, cosmetic and investigational dermatology에 실린 새 연구입니다
 
 [논문 정보]
-제목: Evaluating disparities in counseling and resources for chemotherapy-induced hair loss: qualitative analysis of a survey-based approach
-저널: Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer
-저자: Kaufman L, Khuhro A, Valentic L 외
-발행: 2026 Oct 22
-원문: https://pubmed.ncbi.nlm.nih.gov/42911279/
+제목: Immune Cells in Hair Follicle Physiology and Pathology
+저널: Clinical, cosmetic and investigational dermatology
+저자: Dai C, Zeng F 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/42927355/
 
 [한눈에 보기]
-- Purpose: Chemotherapy-induced alopecia (CIA) is a distressing side effect of cancer treatment that significantly impacts patients' quality of life.
-- Methods: We conducted a mixed-methods, cross-sectional survey study of 101 adults who had received chemotherapy and experienced hair loss.
-- Results: Thematic analysis revealed 11 key patient-identified themes, including emotional distress, provider influence, financial barriers, and a strong desire for autonomy in decision-making.
+- The hair follicle (HF) is a sophisticated mini-organ with intrinsic cyclic activity that generates hair shafts.
+- A variety of immune cells, including macrophages, mast cells, T cells, and Langerhans cells, reside around HFs, collectively forming a delicate and intricate immune microenvironment.
+- This review systematically summarizes the specific distribution, dynamic alterations, and biological functions of diverse immune cells within the HF microenvironment, and highlights their dual roles in maintaining HF physiological homeostasis and mediating pathological damage.
 
 [상세 내용] (논문 전문 5개 섹션에서 발췌)
 
-◆ 배경 — Introduction and background
-  · Chemotherapy-induced hair loss, also referred to as chemotherapy-induced alopecia (CIA), is one of the most visible and emotionally distressing side effects of cancer treatment.
-  · Prior research has documented associations between hair loss and reduced quality of life, body image concerns, and psychosocial distress, underscoring the clinical importance of addressing CIA as part of comprehensive cancer care.
-  · Beyond physical appearance, hair loss can disrupt patients’ sense of privacy and social identity, serving as a visible marker of illness that persists throughout treatment and recovery.
+◆ 배경 — Introduction
+  · As a crucial cutaneous appendage, the hair follicle (HF) executes multiple physiological functions, including sebum and sweat secretion, hair shaft production, cutaneous barrier protection, and thermoregulation.
+  · Anatomically, the HF is divided into four distinct regions from superficial to deep: the infundibulum, the isthmus, the suprabulbar region, and the hair bulb.1 The infundibulum is located above the sebaceous gland duct opening and communicates directly with the follicular orifice.
+  · The isthmus is demarcated superiorly by the sebaceous gland duct opening and inferiorly by the arrector pili muscle insertion site, which is adjacent to the bulge region where HFSCs reside.
 
-◆ 연구 방법 — Methods
-  · Eligible participants included adult individuals (at least 18 years old) who had received chemotherapy and experienced hair loss.
-  · A total of 101 individuals participated in the survey study.
-  · The survey was open from January to May 2025.
+◆ 그 밖의 내용 — Composition of Immune Cells Surrounding Hair Follicles
+  · The distribution pattern of immune cells differs significantly between the epidermis and HFs, with each immune cell type exhibiting unique localization characteristics in the perifollicular region.
+  · Approximately 10% of cutaneous CD4⁺ T cells in human skin are FoxP3⁺ regulatory T cells (Treg cells) with potent immunosuppressive properties, which are enriched in HF-rich skin regions.6,7 Accumulating evidence indicates that cutaneous FoxP3⁺ Treg cells preferentially colonize the HF bulge region.8,9 In healthy human scalp skin, a small number of tissue-resident γδ T cells (primarily the Vδ1⁺ subset) are predominantly confined to the HF infundibulum.10,11
 
-◆ 주요 결과 — Results
-  · A total of 101 participants completed the survey.
-  · Most participants had completed at least a bachelor’s degree (74.3%), and 56.4% were employed either full time or part time.
-  · Among participants who reported household income (n = 99), 57.6% reported an annual household income of $100,000 or greater.
-  · Open-ended survey responses revealed 11 distinct themes reflecting patients’ experiences with chemotherapy-induced hair loss, counseling, and access to supportive resources.
-  · If I had had to pay for it, I don’t know if I could’ve afforded it.”“I wish it had been covered by insurance.”“I was Medicaid pending when I started treatment.”“My insurance requires preauthorization for a wig, which I didn’t know before purchasing one.”Logistical burdens and institutional limitations.Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”Scalp cooling effectiveness and treatment experience.Patients reported mixed outcomes with scalp cooling, ranging from successful partial retention to complete failure.
-  · Scalp cooling often required extensive coordination—dry ice, caregiver help, and long infusion times—and many centers lacked equipment, training, or support staff, making it difficult to implement effectively.“Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”“I wish my facility had capping machines so we didn’t have to take the machine back and forth.”“The process was exhausting, especially the post-infusion cooling.”“Nurses didn’t really know how to use the machine and seemed to be burdened.”“The self caps don’t stay cold long enough.”
-  · “Professional systems are not available at my treatment center… then I’d still have to trudge in 60 pounds or so of dry ice each time.”
+◆ 그 밖의 내용 — Functions of Perifollicular Immune Cells
+  · Type 2 ILCs upregulate IL‑13 expression to restrict mite colonization and invasion within HFs and maintain follicular structural integrity.33 During Staphylococcus aureus infection of HFs, neutrophils migrate to perifollicular regions to phagocytose bacteria and trigger localized chronic inflammation.34 CCR6⁺ Treg cells abundantly migrate into neonatal skin and colonize HFs under the chemotactic induction of CCL20, mediating host immune tolerance to skin commensal microbes.35 Microbial colonization in HFs drives physiological Treg accumulation in neonatal skin.
 
-◆ 고찰 — Discussion
-  · A survey study of oncologists and dermatologists (n = 103) found significant differences in how CIA was viewed.
-  · Another study of oncologists (n = 155) found that 67.1% of providers felt that all patients should be offered scalp cooling therapy, but only 26.3% report regularly initiating conversations about scalp cooling therapy and only 36% felt that scalp cooling benefits were worth the effort and cost involved.
-  · A survey study of women in Facebook groups created for scalp cooling therapy users (n = 219) found that key motivations for utilizing social media in scalp cooling therapy included to gain support from others going through a similar experience (88.1% of participants), to receive scalp cooling instructions (82.2%), and to learn about the scalp cooling therapy outcomes of other patients (69.9%).
-  · In a study of 179 patients undergoing chemotherapy, 56.4% reported that hair loss was the worst side effect, with 11.7% finding it worse than the disease itself and 16.2% reporting that hair loss would have made them stop chemotherapy if it was not a life-saving treatment.
+◆ 그 밖의 내용 — Immunopathogenesis of Hair Follicle-Associated Diseases
+  · AA is a representative autoimmune alopecia driven by dysregulated immune responses that specifically target autologous HFs, leading to premature anagen termination, arrested hair shaft growth, and localized hair loss.60–62 Accumulating studies have confirmed that massive expansion and aberrant activation of cytotoxic CD8⁺ T cells, which specifically infiltrate and damage HF epithelia, are the core initiating events of AA pathogenesis.49,63–66 Specific depletion of CD8⁺ T cells, rather than CD4⁺ T cells, NK cells, B cells, or γδ T cells, can effectively prevent and reverse AA pathological lesions.46 Clearance of infiltrating CD8⁺ T cells from affected HFs restores follicular structural integrity and promotes hair regrowth.47 Cytotoxic CD8⁺NKG2D⁺ T lymphocytes have been identified as the pivotal drivers of AA immunopathogenesis.48 A clinical study of 331 patients with chronic AA demonstrated compartmentalized infiltration of CD4⁺ Th17 cells and CD8⁺ cytotoxic T lymphocytes (CTLs) in the hair bulb and bulge region, which synergistically promote disease progression.45 CCR6⁺ Th17 cells predominantly accumulate around the hair bulb, disrupt HF immune privilege, and facilitate CTL recruitment and activation via secretion of IL‑17 and IFN‑γ.
 
 ◆ 결론 — Conclusion
-  · CIA remains a significant and often inadequately addressed aspect of cancer care.
-  · Participants described gaps in counseling, variable access to preventive and management strategies, financial and logistical barriers, and unmet needs related to hair regrowth and psychosocial support.
-  · Standardized, evidence-based CIA education incorporated into routine pre-chemotherapy counseling represents an important starting point for improving care by ensuring that patients receive consistent information about anticipated hair loss and available prevention and management options.
+  · The HF immune system exhibits distinct characteristics different from that of interfollicular skin.
+  · The unique perifollicular immune microenvironment is indispensable for maintaining HF physiological homeostasis and normal biological functions.
+  · Under physiological conditions, specialized perifollicular immune cells precisely modulate HFSC proliferation and differentiation to ensure orderly hair cycle progression.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
