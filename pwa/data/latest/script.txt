@@ -1,48 +1,33 @@
-[훅] 미녹시딜 오늘 나온 최신 연구를 정리했습니다
+[훅] 오늘의 논문 Biochemical and biophysical research communications에 실린 새 연구입니다
 
 [논문 정보]
-제목: Study on Construction of and Pharmacodynamics of Baicalin-Minoxidil Co-Loaded Nanogel
-저널: Pharmaceutics
-저자: Chen L, Liu E, Liu X 외
-발행: 2026 Oct 15
-원문: https://pubmed.ncbi.nlm.nih.gov/42942839/
+제목: Dermal papilla-derived BMP4 contributes to epithelial FOXP1-FGF18 signaling in human hair follicle cells
+저널: Biochemical and biophysical research communications
+저자: Hagiwara K, Shioji T, Kusano N 외
+발행: 2026 Oct 22
+원문: https://pubmed.ncbi.nlm.nih.gov/42945804/
 
 [한눈에 보기]
-- Androgenetic alopecia (AGA) is a chronic and highly prevalent hair loss disorder for which current topical therapies are limited by undesirable side effects, dose-dependent efficacy, and poor skin penetration.
-- Objective: Here, we developed a baicalin-minoxidil co-loaded nanogel (Bai-Min-NGs) to synergistically enhance transdermal drug delivery and promote hair regeneration.
-- Methods: The optimized nanogel exhibited favorable colloidal attributes, featuring a nanoscale hydrodynamic diameter of 156 ± 3.62 nm, narrow size distribution (polydispersity index of 0.144 ± 0.011), surface zeta potential of -26.1 ± 0.37 mV, high encapsulation efficiencies (95.86 ± 1.34% for baicalin and 82.16 ± 2.50% for minoxidil), and satisfactory drug loading capacities (1.92 ± 0.08% and 1.64 ± 0.06%, respectively).
+- Bone morphogenetic protein 4 (BMP4) has been implicated in hair follicle telogen maintenance, but its downstream mechanisms in human hair follicle cells remain incompletely understood.
+- We examined whether BMP4 regulates fibroblast growth factor 18 (FGF18) through FOXP1 in dermal papilla-epithelial signaling.
+- In immortalized human outer root sheath cells (iORSCs), BMP4 increased FGF18 and FOXP1 expression, with significant responses at concentrations as low as 0.1 ng/mL.
 
-[상세 내용] (논문 전문 5개 섹션에서 발췌)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — 1. Introduction
-  · Androgenetic alopecia (AGA) is a pervasive dermatological condition affecting hundreds of millions of people worldwide, characterized by progressive follicular miniaturization and disrupted hair growth cycles.
-  · Despite the availability of various therapeutic modalities, minoxidil (Min), the first-line clinical drug, still faces formidable challenges in practical application.
-  · On one hand, commercially available formulations typically contain high concentrations of ethanol and propylene glycol, which frequently lead to severe allergic contact dermatitis and scalp dryness upon long-term use.
+◆ 배경 — Background (자동 구분)
+  · Bone morphogenetic protein 4 (BMP4) has been implicated in hair follicle telogen maintenance, but its downstream mechanisms in human hair follicle cells remain incompletely understood.
 
-◆ 연구 방법 — 2. Materials and Methods
-  · Cells were cultured in the medium supplemented with 10% fetal bovine serum (FBS) and 1% penicillin-streptomycin at 37 °C in a humidified atmosphere containing 5% CO2.
-  · After treatment, cells were incubated with 50 μM LysoTracker Red DND-99 for 90 min to label lysosomes, followed by fixation with 4% paraformaldehyde for 15 min.
-  · Statistical significance was defined as follows: ns, not significant; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001 (vs. model group); # p < 0.05 and ## p < 0.01 (vs. normal group).
+◆ 연구 방법 — Methods (자동 구분)
+  · We examined whether BMP4 regulates fibroblast growth factor 18 (FGF18) through FOXP1 in dermal papilla-epithelial signaling.
 
-◆ 주요 결과 — 3. Results
-  · The measurement results demonstrated that Bai-Min-NEs possessed an average hydrodynamic diameter of 156 ± 3.62 nm, and the size distribution curve exhibited a symmetrical unimodal distribution, indicating a homogeneous dispersion of the system.
-  · Regarding the drug-loading performance, the EE of Bai-Min-NEs for baicalin and minoxidil reached 95.863 ±1.338% and 82.158 ± 2.495%, respectively, which is beneficial for the subsequent drug delivery into the deep layers of the skin.
-  · As shown in Figure 2A, the crude baicalin spectrum exhibited representative characteristic absorption peaks at 3490 cm−1, 3390 cm−1, 1661 cm−1 and 1609 cm−1, corresponding to intermolecular hydroxyl groups, free hydroxyl groups, C=C double bonds, and benzene ring C-H stretching vibrations, respectively.
-  · The spectrum of minoxidil showed characteristic absorption peaks at 3411 cm−1 (-NH2), 1644 cm−1 (C=C) and 1555 cm−1 (C=N).
-  · Furthermore, Korsmeyer–Peppas fitting yielded release exponents (n) of 1.2429 (R2 = 0.9200) for minoxidil and 1.4553 (R2 = 0.9875) for baicalin.
-  · The combination index (CI) values across all tested concentrations remained well below 1.0 (ranging from 0.100 to 0.405), reaching 0.271 at the optimal concentration of 5.0 μg/mL.
-  · (* p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001 (vs. model group); # p < 0.05 and ## p < 0.01 (vs. normal group)).
-
-◆ 고찰 — 4. Discussion
-  · The prepared Bai-Min-NEs exhibited a uniform size distribution (droplet diameter < 200 nm) and stable negative zeta potential.
-  · Sub-micron particles are known to enhance skin penetration via intercellular and follicular routes, while surfactants within the nanoemulsion system disrupt stratum corneum lipid bilayers to improve transdermal delivery.
-  · Although the negative surface charge limits non-specific adsorption, it supports colloidal stability and particle diffusion within the skin.
-  · Specifically, the mathematical fitting confirmed a Super Case-II transport mechanism (n > 0.89), verifying that the swelling-controlled matrix relaxation guarantees constant zero-order release kinetics, thereby preventing rapid local drug depletion.
-
-◆ 결론 — 5. Conclusions
-  · In summary, this study successfully developed a novel dual-drug-loaded nanogel delivery system: Bai-Min-NGs, providing a highly promising and innovative strategy to overcome the bottlenecks of poor transdermal permeability and low bioavailability associated with traditional topical treatments for AGA.
-  · Leveraging the three-dimensional synergistic effect between the high-pressure homogenized nanoemulsion core and the gel network, Bai-Min-NGs effectively overcome the robust physical barrier of the stratum corneum.
-  · This system not only achieves prolonged retention and controlled release of Baicalin and Minoxidil within the deep layers of the skin but also targets DPCs via efficient endocytic pathways.
+◆ 주요 결과 — Results (자동 구분)
+  · In immortalized human dermal papilla cells (iDPCs), cyclosporin A (CsA) decreased BMP4 expression and increased Noggin expression, and the NFAT inhibitor VIVIT produced similar effects.
+  · CsA also reduced BMP4 protein levels in culture supernatants.
+  · In immortalized human outer root sheath cells (iORSCs), BMP4 increased FGF18 and FOXP1 expression, with significant responses at concentrations as low as 0.1 ng/mL.
+  · Noggin and the BMP type I receptor inhibitor LDN193189 suppressed these responses.
+  · BMP4 induced Smad1 phosphorylation and increased FOXP1 protein levels, whereas FOXP1 knockdown prevented BMP4-induced FGF18 upregulation.
+  · In primary human DPCs, CsA decreased BMP4 expression, and in primary human ORSCs, BMP4 increased FGF18 expression.
+  · In Transwell co-culture, CsA pretreatment or BMP4 neutralization attenuated DPC-induced FGF18 and FOXP1 expression, whereas recombinant BMP4 significantly restored their expression.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

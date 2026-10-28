@@ -1,7 +1,20 @@
 {
-  "count": 60,
-  "updated": "2026-10-28",
+  "count": 61,
+  "updated": "2026-10-29",
   "items": [
+    {
+      "date": "2026-10-29",
+      "dir": "2026-10-29",
+      "title": "Dermal papilla-derived BMP4 contributes to epithelial FOXP1-FGF18 signaling in human hair follicle cells",
+      "journal": "Biochemical and biophysical research communications",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945804/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Biochemical and biophysical research communications에 실린 새 연구입니다",
+      "thumb": "2026-10-29/paper_card.png",
+      "pptx": "2026-10-29/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-28",
       "dir": "2026-10-28",
