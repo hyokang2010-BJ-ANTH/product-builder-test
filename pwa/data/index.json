@@ -1,7 +1,20 @@
 {
-  "count": 61,
-  "updated": "2026-10-29",
+  "count": 62,
+  "updated": "2026-10-30",
   "items": [
+    {
+      "date": "2026-10-30",
+      "dir": "2026-10-30",
+      "title": "Decreased superficial retinal microvascular density in alopecia areata: an OCT angiography study",
+      "journal": "International ophthalmology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42955436/",
+      "hook_accent": "원형탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-10-30/paper_card.png",
+      "pptx": "2026-10-30/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-29",
       "dir": "2026-10-29",

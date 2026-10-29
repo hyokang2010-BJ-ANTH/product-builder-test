@@ -1,33 +1,38 @@
-[훅] 오늘의 논문 Biochemical and biophysical research communications에 실린 새 연구입니다
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Dermal papilla-derived BMP4 contributes to epithelial FOXP1-FGF18 signaling in human hair follicle cells
-저널: Biochemical and biophysical research communications
-저자: Hagiwara K, Shioji T, Kusano N 외
-발행: 2026 Oct 22
-원문: https://pubmed.ncbi.nlm.nih.gov/42945804/
+제목: Decreased superficial retinal microvascular density in alopecia areata: an OCT angiography study
+저널: International ophthalmology
+저자: Erdem Uysal M, Kurtul BE, Akbay ST 외
+발행: 2026 Oct 29
+원문: https://pubmed.ncbi.nlm.nih.gov/42955436/
 
 [한눈에 보기]
-- Bone morphogenetic protein 4 (BMP4) has been implicated in hair follicle telogen maintenance, but its downstream mechanisms in human hair follicle cells remain incompletely understood.
-- We examined whether BMP4 regulates fibroblast growth factor 18 (FGF18) through FOXP1 in dermal papilla-epithelial signaling.
-- In immortalized human outer root sheath cells (iORSCs), BMP4 increased FGF18 and FOXP1 expression, with significant responses at concentrations as low as 0.1 ng/mL.
+- Methods: This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
+- Results: VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
+- These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · Bone morphogenetic protein 4 (BMP4) has been implicated in hair follicle telogen maintenance, but its downstream mechanisms in human hair follicle cells remain incompletely understood.
+◆ 배경 — Purpose
+  · This study aimed to evaluate retinal microvascular and structural changes in patients with alopecia areata (AA) using optical coherence tomography angiography (OCTA).
+  · To our knowledge, retinal microvascular alterations have not been investigated via OCTA in AA before.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · We examined whether BMP4 regulates fibroblast growth factor 18 (FGF18) through FOXP1 in dermal papilla-epithelial signaling.
+◆ 연구 방법 — Methods
+  · This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
+  · Superficial capillary plexus vessel densities (VD-SCP) and deep capillary plexus vessel densities (VD-DCP), choriocapillaris flow area, foveal avascular zone (FAZ), retinal nerve fiber layer (RNFL) thickness, optic disc vascular parameters, and central corneal thickness (CCT) were measured.
 
-◆ 주요 결과 — Results (자동 구분)
-  · In immortalized human dermal papilla cells (iDPCs), cyclosporin A (CsA) decreased BMP4 expression and increased Noggin expression, and the NFAT inhibitor VIVIT produced similar effects.
-  · CsA also reduced BMP4 protein levels in culture supernatants.
-  · In immortalized human outer root sheath cells (iORSCs), BMP4 increased FGF18 and FOXP1 expression, with significant responses at concentrations as low as 0.1 ng/mL.
-  · Noggin and the BMP type I receptor inhibitor LDN193189 suppressed these responses.
-  · BMP4 induced Smad1 phosphorylation and increased FOXP1 protein levels, whereas FOXP1 knockdown prevented BMP4-induced FGF18 upregulation.
-  · In primary human DPCs, CsA decreased BMP4 expression, and in primary human ORSCs, BMP4 increased FGF18 expression.
-  · In Transwell co-culture, CsA pretreatment or BMP4 neutralization attenuated DPC-induced FGF18 and FOXP1 expression, whereas recombinant BMP4 significantly restored their expression.
+◆ 주요 결과 — Results
+  · VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
+  · These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
+  · However, foveal VD-SCP did not differ significantly (p = 0.221).
+  · An unadjusted difference in inferior RNFL thickness (p = 0.044) did not remain statistically significant after FDR correction (adjusted p = 0.231), whereas global RNFL thickness showed no significant difference.
+  · No significant differences were observed between groups in VD-DCP, FAZ area, choriocapillaris flow, optic disc vascular parameters, foveal thickness, or CCT (all p > 0.05).
+
+◆ 결론 — Conclusion
+  · Patients with AA demonstrate reduced VD-SCP except in the foveal region, without evidence of widespread retinal or choroidal vascular impairment.
+  · These findings suggest that AA may be associated with early subclinical alterations in retinal microcirculation.
+  · OCTA may serve as a useful non-invasive tool for detecting subtle ocular microvascular changes in patients with AA.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

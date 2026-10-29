@@ -1,0 +1,42 @@
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
+
+[논문 정보]
+제목: Decreased superficial retinal microvascular density in alopecia areata: an OCT angiography study
+저널: International ophthalmology
+저자: Erdem Uysal M, Kurtul BE, Akbay ST 외
+발행: 2026 Oct 29
+원문: https://pubmed.ncbi.nlm.nih.gov/42955436/
+
+[한눈에 보기]
+- Methods: This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
+- Results: VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
+- These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
+
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Purpose
+  · This study aimed to evaluate retinal microvascular and structural changes in patients with alopecia areata (AA) using optical coherence tomography angiography (OCTA).
+  · To our knowledge, retinal microvascular alterations have not been investigated via OCTA in AA before.
+
+◆ 연구 방법 — Methods
+  · This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
+  · Superficial capillary plexus vessel densities (VD-SCP) and deep capillary plexus vessel densities (VD-DCP), choriocapillaris flow area, foveal avascular zone (FAZ), retinal nerve fiber layer (RNFL) thickness, optic disc vascular parameters, and central corneal thickness (CCT) were measured.
+
+◆ 주요 결과 — Results
+  · VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
+  · These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
+  · However, foveal VD-SCP did not differ significantly (p = 0.221).
+  · An unadjusted difference in inferior RNFL thickness (p = 0.044) did not remain statistically significant after FDR correction (adjusted p = 0.231), whereas global RNFL thickness showed no significant difference.
+  · No significant differences were observed between groups in VD-DCP, FAZ area, choriocapillaris flow, optic disc vascular parameters, foveal thickness, or CCT (all p > 0.05).
+
+◆ 결론 — Conclusion
+  · Patients with AA demonstrate reduced VD-SCP except in the foveal region, without evidence of widespread retinal or choroidal vascular impairment.
+  · These findings suggest that AA may be associated with early subclinical alterations in retinal microcirculation.
+  · OCTA may serve as a useful non-invasive tool for detecting subtle ocular microvascular changes in patients with AA.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
