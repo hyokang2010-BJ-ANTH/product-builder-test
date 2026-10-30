@@ -1,0 +1,39 @@
+[훅] 오늘의 논문 Science advances에 실린 새 연구입니다
+
+[논문 정보]
+제목: Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1
+저널: Science advances
+저자: Wyler E, Albertini S, Friedel CC 외
+발행: 2026 Oct 30
+원문: https://pubmed.ncbi.nlm.nih.gov/42962008/
+
+[한눈에 보기]
+- Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.
+- Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.
+- Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.
+
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background (자동 구분)
+  · Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.
+  · Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.
+
+◆ 연구 방법 — Methods (자동 구분)
+  · To model this complex environment, we used human hair-bearing skin organoids and combined single-cell spatial transcriptomics with imaging to map viral spread and host responses across skin architecture.
+
+◆ 주요 결과 — Results (자동 구분)
+  · Infection triggered spatially organized host responses, including induction of IER3 in papillary fibroblasts.
+  · In basal keratinocytes, IRF3 was up-regulated in both infected and neighboring uninfected cells, consistent with paracrine activation of antiviral signaling.
+  · Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.
+  · Enzyme-linked immunosorbent assays confirmed secretion of these cytokines and the TNF-α-responsive chemokines CXCL2 and CXCL10.
+  · CXCL2 expression was enriched in cells adjacent to TNF-α-expressing cells, highlighting spatial coordination of inflammatory signaling.
+
+◆ 결론 — Conclusion (자동 구분)
+  · While interferon-β reduced viral replication, TNF-α and 4-1BBL did not, suggesting that their primary role is to orchestrate immune cell recruitment and activation.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

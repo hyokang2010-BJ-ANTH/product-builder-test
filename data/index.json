@@ -1,7 +1,20 @@
 {
-  "count": 62,
-  "updated": "2026-10-30",
+  "count": 63,
+  "updated": "2026-10-31",
   "items": [
+    {
+      "date": "2026-10-31",
+      "dir": "2026-10-31",
+      "title": "Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1",
+      "journal": "Science advances",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42962008/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Science advances에 실린 새 연구입니다",
+      "thumb": "2026-10-31/paper_card.png",
+      "pptx": "2026-10-31/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-30",
       "dir": "2026-10-30",

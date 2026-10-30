@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42962008",
+    "title": "Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1",
+    "journal": "Science advances",
+    "pub_date": "2026 Oct 30",
+    "authors": [
+      "Wyler E",
+      "Albertini S",
+      "Friedel CC"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42962008/",
+    "id": "pmid:42962008",
+    "abstract": "Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency. To model this complex environment, we used human hair-bearing skin organoids and combined single-cell spatial transcriptomics with imaging to map viral spread and host responses across skin architecture. Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis. Infection triggered spatially organized host responses, including induction of IER3 in papillary fibroblasts. In basal keratinocytes, IRF3 was up-regulated in both infected and neighboring uninfected cells, consistent with paracrine activation of antiviral signaling. Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes. Enzyme-linked immunosorbent assays confirmed secretion of these cytokines and the TNF-α-responsive chemokines CXCL2 and CXCL10. CXCL2 expression was enriched in cells adjacent to TNF-α-expressing cells, highlighting spatial coordination of inflammatory signaling. While interferon-β reduced viral replication, TNF-α and 4-1BBL did not, suggesting that their primary role is to orchestrate immune cell recruitment and activation. These findings establish human hair-bearing skin organoids as a physiologically relevant model for investigating spatial host-HSV-1 interactions."
+  },
+  "script": {
+    "hook": "오늘의 논문 Science advances에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Science advances에 실린 새 연구입니다",
+    "intro": "《Science advances》 - Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1",
+    "highlights": [
+      "Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.",
+      "Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.",
+      "Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.",
+          "Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "To model this complex environment, we used human hair-bearing skin organoids and combined single-cell spatial transcriptomics with imaging to map viral spread and host responses across skin architecture."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Infection triggered spatially organized host responses, including induction of IER3 in papillary fibroblasts.",
+          "In basal keratinocytes, IRF3 was up-regulated in both infected and neighboring uninfected cells, consistent with paracrine activation of antiviral signaling.",
+          "Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.",
+          "Enzyme-linked immunosorbent assays confirmed secretion of these cytokines and the TNF-α-responsive chemokines CXCL2 and CXCL10.",
+          "CXCL2 expression was enriched in cells adjacent to TNF-α-expressing cells, highlighting spatial coordination of inflammatory signaling."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion (자동 구분)",
+        "kind": "conclusion",
+        "sentences": [
+          "While interferon-β reduced viral replication, TNF-α and 4-1BBL did not, suggesting that their primary role is to orchestrate immune cell recruitment and activation."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 오늘의 논문 Science advances에 실린 새 연구입니다\n\n[논문 정보]\n제목: Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1\n저널: Science advances\n저자: Wyler E, Albertini S, Friedel CC 외\n발행: 2026 Oct 30\n원문: https://pubmed.ncbi.nlm.nih.gov/42962008/\n\n[한눈에 보기]\n- Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.\n- Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.\n- Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.\n  · Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · To model this complex environment, we used human hair-bearing skin organoids and combined single-cell spatial transcriptomics with imaging to map viral spread and host responses across skin architecture.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Infection triggered spatially organized host responses, including induction of IER3 in papillary fibroblasts.\n  · In basal keratinocytes, IRF3 was up-regulated in both infected and neighboring uninfected cells, consistent with paracrine activation of antiviral signaling.\n  · Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.\n  · Enzyme-linked immunosorbent assays confirmed secretion of these cytokines and the TNF-α-responsive chemokines CXCL2 and CXCL10.\n  · CXCL2 expression was enriched in cells adjacent to TNF-α-expressing cells, highlighting spatial coordination of inflammatory signaling.\n\n◆ 결론 — Conclusion (자동 구분)\n  · While interferon-β reduced viral replication, TNF-α and 4-1BBL did not, suggesting that their primary role is to orchestrate immune cell recruitment and activation.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42962008/",
+    "reference_title": "Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

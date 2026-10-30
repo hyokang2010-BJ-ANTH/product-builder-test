@@ -1,38 +1,35 @@
-[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
+[훅] 오늘의 논문 Science advances에 실린 새 연구입니다
 
 [논문 정보]
-제목: Decreased superficial retinal microvascular density in alopecia areata: an OCT angiography study
-저널: International ophthalmology
-저자: Erdem Uysal M, Kurtul BE, Akbay ST 외
-발행: 2026 Oct 29
-원문: https://pubmed.ncbi.nlm.nih.gov/42955436/
+제목: Human hair-bearing skin organoids reveal cell type-specific susceptibility and innate immune responses to herpes simplex virus 1
+저널: Science advances
+저자: Wyler E, Albertini S, Friedel CC 외
+발행: 2026 Oct 30
+원문: https://pubmed.ncbi.nlm.nih.gov/42962008/
 
 [한눈에 보기]
-- Methods: This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
-- Results: VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
-- These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
+- Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.
+- Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.
+- Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.
 
 [상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Purpose
-  · This study aimed to evaluate retinal microvascular and structural changes in patients with alopecia areata (AA) using optical coherence tomography angiography (OCTA).
-  · To our knowledge, retinal microvascular alterations have not been investigated via OCTA in AA before.
+◆ 배경 — Background (자동 구분)
+  · Epithelial surfaces are the primary sites of lytic herpes simplex virus 1 (HSV-1) infection following initial exposure or reactivation from latency.
+  · Our data suggest delayed progression of the HSV-1 life cycle in epidermal keratinocytes and hair follicle cells compared to the dermis.
 
-◆ 연구 방법 — Methods
-  · This prospective study included 40 patients with newly diagnosed AA and 42 healthy controls.
-  · Superficial capillary plexus vessel densities (VD-SCP) and deep capillary plexus vessel densities (VD-DCP), choriocapillaris flow area, foveal avascular zone (FAZ), retinal nerve fiber layer (RNFL) thickness, optic disc vascular parameters, and central corneal thickness (CCT) were measured.
+◆ 연구 방법 — Methods (자동 구분)
+  · To model this complex environment, we used human hair-bearing skin organoids and combined single-cell spatial transcriptomics with imaging to map viral spread and host responses across skin architecture.
 
-◆ 주요 결과 — Results
-  · VD-SCP was significantly reduced in the whole image (p = 0.001), parafoveal (p = 0.001), and perifoveal regions (p = 0.007) in patients with AA compared with controls.
-  · These differences remained significant after FDR correction (adjusted p = 0.011, 0.011, and 0.049, respectively).
-  · However, foveal VD-SCP did not differ significantly (p = 0.221).
-  · An unadjusted difference in inferior RNFL thickness (p = 0.044) did not remain statistically significant after FDR correction (adjusted p = 0.231), whereas global RNFL thickness showed no significant difference.
-  · No significant differences were observed between groups in VD-DCP, FAZ area, choriocapillaris flow, optic disc vascular parameters, foveal thickness, or CCT (all p > 0.05).
+◆ 주요 결과 — Results (자동 구분)
+  · Infection triggered spatially organized host responses, including induction of IER3 in papillary fibroblasts.
+  · In basal keratinocytes, IRF3 was up-regulated in both infected and neighboring uninfected cells, consistent with paracrine activation of antiviral signaling.
+  · Inflammatory responses were compartmentalized in a cell type-specific manner, with TNFSF9 (4-1BBL) induced in papillary fibroblasts and tumor necrosis factor-α (TNF-α) induced in keratinocytes.
+  · Enzyme-linked immunosorbent assays confirmed secretion of these cytokines and the TNF-α-responsive chemokines CXCL2 and CXCL10.
+  · CXCL2 expression was enriched in cells adjacent to TNF-α-expressing cells, highlighting spatial coordination of inflammatory signaling.
 
-◆ 결론 — Conclusion
-  · Patients with AA demonstrate reduced VD-SCP except in the foveal region, without evidence of widespread retinal or choroidal vascular impairment.
-  · These findings suggest that AA may be associated with early subclinical alterations in retinal microcirculation.
-  · OCTA may serve as a useful non-invasive tool for detecting subtle ocular microvascular changes in patients with AA.
+◆ 결론 — Conclusion (자동 구분)
+  · While interferon-β reduced viral replication, TNF-α and 4-1BBL did not, suggesting that their primary role is to orchestrate immune cell recruitment and activation.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
