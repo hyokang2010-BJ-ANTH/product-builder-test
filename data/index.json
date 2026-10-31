@@ -1,7 +1,20 @@
 {
-  "count": 63,
-  "updated": "2026-10-31",
+  "count": 64,
+  "updated": "2026-11-01",
   "items": [
+    {
+      "date": "2026-11-01",
+      "dir": "2026-11-01",
+      "title": "[Psychotrichological disorders-hair and the psyche in the biopsychosocial context]",
+      "journal": "Dermatologie (Heidelberg, Germany)",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42963392/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Dermatologie (Heidelberg, Germany)에 실린 새 연구입니다",
+      "thumb": "2026-11-01/paper_card.png",
+      "pptx": "2026-11-01/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-10-31",
       "dir": "2026-10-31",
