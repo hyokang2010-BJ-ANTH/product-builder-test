@@ -1,7 +1,20 @@
 {
-  "count": 64,
-  "updated": "2026-11-01",
+  "count": 65,
+  "updated": "2026-11-02",
   "items": [
+    {
+      "date": "2026-11-02",
+      "dir": "2026-11-02",
+      "title": "A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients",
+      "journal": "Skin appendage disorders",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42965240/",
+      "hook_accent": "75%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-02/paper_card.png",
+      "pptx": "2026-11-02/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-01",
       "dir": "2026-11-01",

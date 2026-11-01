@@ -1,38 +1,41 @@
-[훅] 오늘의 논문 Dermatologie (Heidelberg, Germany)에 실린 새 연구입니다
+[훅] 75% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: [Psychotrichological disorders-hair and the psyche in the biopsychosocial context]
-저널: Dermatologie (Heidelberg, Germany)
-저자: Hanneken S 외
-발행: 2026 Oct 30
-원문: https://pubmed.ncbi.nlm.nih.gov/42963392/
+제목: A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients
+저널: Skin appendage disorders
+저자: Boyle A, Bourke J, Cooke N 외
+발행: 2026 Oct 7
+원문: https://pubmed.ncbi.nlm.nih.gov/42965240/
 
 [한눈에 보기]
-- Background: Psychotrichological disorders play an important role in dermatological practice.
-- The biopsychosocial model provides a fundamental framework for understanding the causal, triggering, and accompanying psychological factors associated with hair and hair loss disorders.
-- Objective: Psychological symptoms and comorbidities are common among patients with hair disorders, particularly hair loss disorders, and represent a significant challenge in clinical practice.
+- Methods: A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.
+- The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.
+- Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss.
 
-[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background
-  · Psychotrichological disorders play an important role in dermatological practice.
-  · The biopsychosocial model provides a fundamental framework for understanding the causal, triggering, and accompanying psychological factors associated with hair and hair loss disorders.
-
-◆ 배경 — Objective
-  · Psychological symptoms and comorbidities are common among patients with hair disorders, particularly hair loss disorders, and represent a significant challenge in clinical practice.
-  · Understanding the close relationship between psychological factors and hair disorders provides the basis for a biopsychosocial management approach that considers biological, psychological, and social factors.
+◆ 배경 — Introduction
+  · Janus kinase inhibitors (JAKis) are a multi-jurisdiction approved treatment for alopecia areata (AA).
+  · Despite obtaining the highest level of evidence of efficacy among available therapies, and carrying the strongest recommendations from international expert groups, access in Ireland, as in other countries such as Australia, has been restricted due to reimbursement challenges.
+  · This study replicates research conducted in Australia, which aimed to establish expert consensus on criteria for initiating and continuing reimbursed JAKis for AA.
+  · By comparing Irish and Australian findings, we aimed to provide a broader international perspective on the utility and need for reimbursed JAKis in the management of AA.
 
 ◆ 연구 방법 — Methods
-  · An overview of common psychotrichological disorders, key psychological symptoms and comorbidities, and biopsychosocial management strategies is provided.
+  · A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.
+  · The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.
+  · Consensus was defined as ≥75% agreement or disagreement.
 
 ◆ 주요 결과 — Results
-  · Hair and hair loss disorders highlight the close bidirectional relationship between the hair and scalp and psychological health.
-  · Psychological comorbidities, psychosocial burden, and impaired quality of life are common among patients with hair and hair loss disorders, and should therefore be identified early, systematically assessed, and treated as clinically indicated.
-  · Psychotrichological disorders can broadly be classified into primary mental disorders affecting the hair and hair growth and primary hair disorders with secondary effects on mental health.
+  · Sixteen consultant dermatologists completed the survey.
+  · All agreed that JAK inhibitors are the preferred systemic treatment for patients with SALT scores >50.
+  · Several additional factors were deemed significant when assessing eligibility for JAKis, namely, refractory disease, psychosocial morbidity, rapid progression, impaired quality of life, disease relapse, ophiasis pattern, and poorly camouflaged hair loss.
+  · These findings closely mirrored the Australian consensus.
+  · Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss.
+  · This aligned with the Australian consensus.
 
 ◆ 결론 — Conclusion
-  · A biopsychosocial and interdisciplinary treatment approach forms the basis of patient-centered care.
-  · Early assessment of psychological distress and its integration into diagnosis and treatment may contribute to improved treatment outcomes, coping with the condition, and quality of life.
+  · This expert consensus provides a framework for determining eligibility for reimbursed JAKi therapy in Irish AA patients.
+  · It also closely aligns with the Australian expert consensus, providing a valuable international perspective for other countries evaluating JAKi reimbursement in AA.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

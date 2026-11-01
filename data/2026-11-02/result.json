@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42965240",
+    "title": "A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients",
+    "journal": "Skin appendage disorders",
+    "pub_date": "2026 Oct 7",
+    "authors": [
+      "Boyle A",
+      "Bourke J",
+      "Cooke N"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42965240/",
+    "id": "pmid:42965240",
+    "abstract": "Introduction: Janus kinase inhibitors (JAKis) are a multi-jurisdiction approved treatment for alopecia areata (AA). Despite obtaining the highest level of evidence of efficacy among available therapies, and carrying the strongest recommendations from international expert groups, access in Ireland, as in other countries such as Australia, has been restricted due to reimbursement challenges. This study replicates research conducted in Australia, which aimed to establish expert consensus on criteria for initiating and continuing reimbursed JAKis for AA. By comparing Irish and Australian findings, we aimed to provide a broader international perspective on the utility and need for reimbursed JAKis in the management of AA. Methods: A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective. The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation. Consensus was defined as ≥75% agreement or disagreement. Results: Sixteen consultant dermatologists completed the survey. All agreed that JAK inhibitors are the preferred systemic treatment for patients with SALT scores >50. Several additional factors were deemed significant when assessing eligibility for JAKis, namely, refractory disease, psychosocial morbidity, rapid progression, impaired quality of life, disease relapse, ophiasis pattern, and poorly camouflaged hair loss. These findings closely mirrored the Australian consensus. Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss. This aligned with the Australian consensus. Indicators of treatment response included achieving SALT 0 and patient-reported satisfaction. Conclusion: This expert consensus provides a framework for determining eligibility for reimbursed JAKi therapy in Irish AA patients. It also closely aligns with the Australian expert consensus, providing a valuable international perspective for other countries evaluating JAKi reimbursement in AA."
+  },
+  "script": {
+    "hook": "75% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "75%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Skin appendage disorders》 - A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients",
+    "highlights": [
+      "Methods: A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.",
+      "The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.",
+      "Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Introduction",
+        "kind": "intro",
+        "sentences": [
+          "Janus kinase inhibitors (JAKis) are a multi-jurisdiction approved treatment for alopecia areata (AA).",
+          "Despite obtaining the highest level of evidence of efficacy among available therapies, and carrying the strongest recommendations from international expert groups, access in Ireland, as in other countries such as Australia, has been restricted due to reimbursement challenges.",
+          "This study replicates research conducted in Australia, which aimed to establish expert consensus on criteria for initiating and continuing reimbursed JAKis for AA.",
+          "By comparing Irish and Australian findings, we aimed to provide a broader international perspective on the utility and need for reimbursed JAKis in the management of AA."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.",
+          "The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.",
+          "Consensus was defined as ≥75% agreement or disagreement."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
+        "sentences": [
+          "Sixteen consultant dermatologists completed the survey.",
+          "All agreed that JAK inhibitors are the preferred systemic treatment for patients with SALT scores >50.",
+          "Several additional factors were deemed significant when assessing eligibility for JAKis, namely, refractory disease, psychosocial morbidity, rapid progression, impaired quality of life, disease relapse, ophiasis pattern, and poorly camouflaged hair loss.",
+          "These findings closely mirrored the Australian consensus.",
+          "Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss.",
+          "This aligned with the Australian consensus."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
+        "sentences": [
+          "This expert consensus provides a framework for determining eligibility for reimbursed JAKi therapy in Irish AA patients.",
+          "It also closely aligns with the Australian expert consensus, providing a valuable international perspective for other countries evaluating JAKi reimbursement in AA."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 75% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients\n저널: Skin appendage disorders\n저자: Boyle A, Bourke J, Cooke N 외\n발행: 2026 Oct 7\n원문: https://pubmed.ncbi.nlm.nih.gov/42965240/\n\n[한눈에 보기]\n- Methods: A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.\n- The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.\n- Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss.\n\n[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Introduction\n  · Janus kinase inhibitors (JAKis) are a multi-jurisdiction approved treatment for alopecia areata (AA).\n  · Despite obtaining the highest level of evidence of efficacy among available therapies, and carrying the strongest recommendations from international expert groups, access in Ireland, as in other countries such as Australia, has been restricted due to reimbursement challenges.\n  · This study replicates research conducted in Australia, which aimed to establish expert consensus on criteria for initiating and continuing reimbursed JAKis for AA.\n  · By comparing Irish and Australian findings, we aimed to provide a broader international perspective on the utility and need for reimbursed JAKis in the management of AA.\n\n◆ 연구 방법 — Methods\n  · A modified version of an eDelphi study developed by Australasian colleagues was developed with input from 12 Irish dermatologists with an interest in hair and scalp disorders to reflect an Irish perspective.\n  · The finalized survey, comprising 43 questions, was distributed electronically to members of the Irish Association of Dermatologists for participation.\n  · Consensus was defined as ≥75% agreement or disagreement.\n\n◆ 주요 결과 — Results\n  · Sixteen consultant dermatologists completed the survey.\n  · All agreed that JAK inhibitors are the preferred systemic treatment for patients with SALT scores >50.\n  · Several additional factors were deemed significant when assessing eligibility for JAKis, namely, refractory disease, psychosocial morbidity, rapid progression, impaired quality of life, disease relapse, ophiasis pattern, and poorly camouflaged hair loss.\n  · These findings closely mirrored the Australian consensus.\n  · Most experts also agreed that JAKi therapy should be re-evaluated at 12 months with treatment failure defined as <50% improvement in scalp hair loss.\n  · This aligned with the Australian consensus.\n\n◆ 결론 — Conclusion\n  · This expert consensus provides a framework for determining eligibility for reimbursed JAKi therapy in Irish AA patients.\n  · It also closely aligns with the Australian expert consensus, providing a valuable international perspective for other countries evaluating JAKi reimbursement in AA.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42965240/",
+    "reference_title": "A Comparative Review of Irish and Australian Expert Consensus on Criteria for Initiating and Continuing Reimbursed Janus Kinase Inhibitor Therapy in Alopecia Areata Patients",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "재사용 가능 여부 불명",
+    "paper_figure_note": null
+  }
+}
