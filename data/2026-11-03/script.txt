@@ -1,0 +1,50 @@
+[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Real-World Outcomes After Switching from Baricitinib to Ritlecitinib in Alopecia Areata: A Multicentre Retrospective Cohort Study
+저널: American journal of clinical dermatology
+저자: Gallo G, di Corteranzo IG, Cangialosi L 외
+발행: 2026 Oct 30
+원문: https://pubmed.ncbi.nlm.nih.gov/42961619/
+
+[한눈에 보기]
+- During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.
+- Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.
+- In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null.
+
+[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Janus kinase inhibitors have reshaped the management of severe alopecia areata, but evidence for intra-class switching after an inadequate or non-durable benefit from baricitinib remains limited.
+
+◆ 배경 — Objective
+  · We aimed to assess real-world effectiveness after switching from baricitinib to ritlecitinib 50 mg once daily and to explore baseline factors associated with the post-switch response.
+
+◆ 연구 방법 — Methods
+  · We performed a multicentre retrospective cohort study across Italian referral centres.
+  · Eligible patients had alopecia areata, had received baricitinib for at least 24 weeks and were switched to ritlecitinib 50 mg once daily.
+  · All switched patients with post-switch outcomes were included irrespective of prior baricitinib response status.
+  · The primary endpoint was a Severity of Alopecia Tool (SALT) score ≤ 20 at any post-switch assessment.
+  · Secondary endpoints were longitudinal SALT change and time to the first post-switch SALT score ≤ 20.
+  · Exploratory logistic and Cox models included age, current alopecia areata episode duration, SALT at ritlecitinib initiation (switch) and prior SALT50 response to baricitinib.
+
+◆ 주요 결과 — Results
+  · Overall, 152 patients underwent a treatment switch and 138 had a post-switch follow-up.
+  · During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.
+  · During ritlecitinib follow-up, 30/138 patients (21.7%) had a SALT score ≤ 20.
+  · Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.
+  · No baseline covariate showed clear evidence of association with the overall binary endpoint.
+  · In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null.
+
+◆ 결론 — Conclusions
+  · In this predominantly baricitinib-refractory, clinically switched cohort, a SALT score ≤ 20 was observed during the ritlecitinib follow-up in about one fifth of evaluable patients.
+  · The association between greater severity at ritlecitinib initiation and slower response was modest and should not be considered a validated predictor.
+  · Retrospective treatment selection, prior baricitinib responses in a small subgroup, late attrition, and unmeasured washout or concomitant-treatment effects limit treatment-specific attribution.
+  · These findings suggest that ritlecitinib may be a salvage option for selected patients and warrant prospective sequencing studies.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
