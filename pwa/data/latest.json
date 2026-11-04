@@ -1,32 +1,30 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "topic": {
     "source_type": "paper",
-    "pmid": "42961619",
-    "title": "Real-World Outcomes After Switching from Baricitinib to Ritlecitinib in Alopecia Areata: A Multicentre Retrospective Cohort Study",
-    "journal": "American journal of clinical dermatology",
-    "pub_date": "2026 Oct 30",
+    "pmid": "42975514",
+    "title": "Extraction and Implantation Speeds in Follicular Unit Excision: A Multicenter Retrospective Study of 612 Cases",
+    "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+    "pub_date": "2026 Nov 3",
     "authors": [
-      "Gallo G",
-      "di Corteranzo IG",
-      "Cangialosi L"
+      "Chong LSL"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42961619/",
-    "id": "pmid:42961619",
-    "abstract": "Background: Janus kinase inhibitors have reshaped the management of severe alopecia areata, but evidence for intra-class switching after an inadequate or non-durable benefit from baricitinib remains limited. Objective: We aimed to assess real-world effectiveness after switching from baricitinib to ritlecitinib 50 mg once daily and to explore baseline factors associated with the post-switch response. Methods: We performed a multicentre retrospective cohort study across Italian referral centres. Eligible patients had alopecia areata, had received baricitinib for at least 24 weeks and were switched to ritlecitinib 50 mg once daily. All switched patients with post-switch outcomes were included irrespective of prior baricitinib response status. The primary endpoint was a Severity of Alopecia Tool (SALT) score ≤ 20 at any post-switch assessment. Secondary endpoints were longitudinal SALT change and time to the first post-switch SALT score ≤ 20. Exploratory logistic and Cox models included age, current alopecia areata episode duration, SALT at ritlecitinib initiation (switch) and prior SALT50 response to baricitinib. Results: Overall, 152 patients underwent a treatment switch and 138 had a post-switch follow-up. During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion. During ritlecitinib follow-up, 30/138 patients (21.7%) had a SALT score ≤ 20. Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse. No baseline covariate showed clear evidence of association with the overall binary endpoint. In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null. Conclusions: In this predominantly baricitinib-refractory, clinically switched cohort, a SALT score ≤ 20 was observed during the ritlecitinib follow-up in about one fifth of evaluable patients. The association between greater severity at ritlecitinib initiation and slower response was modest and should not be considered a validated predictor. Retrospective treatment selection, prior baricitinib responses in a small subgroup, late attrition, and unmeasured washout or concomitant-treatment effects limit treatment-specific attribution. These findings suggest that ritlecitinib may be a salvage option for selected patients and warrant prospective sequencing studies."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42975514/",
+    "id": "pmid:42975514",
+    "abstract": "Background: Advances in follicular unit excision (FUE) have substantially improved procedural efficiency. However, real-world extraction and implantation speeds remain poorly characterized. Objective: To describe typical FUE extraction and implantation speeds and identify factors associated with procedural speed variation. Materials and methods: Operative records of FUE performed by 8 surgeons across 5 clinics over 6 months in 2025 were retrospectively reviewed. Eligible procedures involved single-surgeon scalp-to-scalp FUE exceeding 1,000 grafts. Extraction and implantation speeds were measured during active surgical graft harvesting and placement. Associations between procedural speed and patient, procedural, surgeon, and device-related factors were evaluated using univariate and multiple regression analyses. Results: Analyses included 612 FUE sessions across 526 patients. Mean extraction and implantation speeds were 725.7 and 697.6 grafts/h, respectively. Increased extraction speed was independently associated with larger case sizes, surgeon experience ≥1 year, and a dedicated graft-pulling assistant (all p < .001). Increased implantation speed was independently associated with multi-implanter device utilization (p < .001). Extraction speed was significantly reduced during revision cases (p < .001). Patient age and hair characteristics showed no significant association with speed. Conclusion: Real-world FUE extraction and implantation speeds approximate 700 grafts/h, providing a practical benchmark for operative planning and clinical counseling."
   },
   "script": {
-    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "95%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《American journal of clinical dermatology》 - Real-World Outcomes After Switching from Baricitinib to Ritlecitinib in Alopecia Areata: A Multicentre Retrospective Cohort Study",
+    "hook": "526명 대규모 연구에서 나온 결과입니다",
+    "hook_accent": "526명",
+    "hook_sub": "대규모 연구에서 나온 결과입니다",
+    "intro": "《Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]》 - Extraction and Implantation Speeds in Follicular Unit Excision: A Multicenter Retrospective Study of 612 Cases",
     "highlights": [
-      "During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.",
-      "Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.",
-      "In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null."
+      "Materials and methods: Operative records of FUE performed by 8 surgeons across 5 clinics over 6 months in 2025 were retrospectively reviewed.",
+      "Results: Analyses included 612 FUE sessions across 526 patients.",
+      "Mean extraction and implantation speeds were 725.7 and 697.6 grafts/h, respectively."
     ],
     "sections": [
       {
@@ -34,7 +32,8 @@
         "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Janus kinase inhibitors have reshaped the management of severe alopecia areata, but evidence for intra-class switching after an inadequate or non-durable benefit from baricitinib remains limited."
+          "Advances in follicular unit excision (FUE) have substantially improved procedural efficiency.",
+          "However, real-world extraction and implantation speeds remain poorly characterized."
         ]
       },
       {
@@ -42,7 +41,7 @@
         "title": "Objective",
         "kind": "intro",
         "sentences": [
-          "We aimed to assess real-world effectiveness after switching from baricitinib to ritlecitinib 50 mg once daily and to explore baseline factors associated with the post-switch response."
+          "To describe typical FUE extraction and implantation speeds and identify factors associated with procedural speed variation."
         ]
       },
       {
@@ -50,12 +49,10 @@
         "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "We performed a multicentre retrospective cohort study across Italian referral centres.",
-          "Eligible patients had alopecia areata, had received baricitinib for at least 24 weeks and were switched to ritlecitinib 50 mg once daily.",
-          "All switched patients with post-switch outcomes were included irrespective of prior baricitinib response status.",
-          "The primary endpoint was a Severity of Alopecia Tool (SALT) score ≤ 20 at any post-switch assessment.",
-          "Secondary endpoints were longitudinal SALT change and time to the first post-switch SALT score ≤ 20.",
-          "Exploratory logistic and Cox models included age, current alopecia areata episode duration, SALT at ritlecitinib initiation (switch) and prior SALT50 response to baricitinib."
+          "Operative records of FUE performed by 8 surgeons across 5 clinics over 6 months in 2025 were retrospectively reviewed.",
+          "Eligible procedures involved single-surgeon scalp-to-scalp FUE exceeding 1,000 grafts.",
+          "Extraction and implantation speeds were measured during active surgical graft harvesting and placement.",
+          "Associations between procedural speed and patient, procedural, surgeon, and device-related factors were evaluated using univariate and multiple regression analyses."
         ]
       },
       {
@@ -63,30 +60,27 @@
         "title": "Results",
         "kind": "results",
         "sentences": [
-          "Overall, 152 patients underwent a treatment switch and 138 had a post-switch follow-up.",
-          "During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.",
-          "During ritlecitinib follow-up, 30/138 patients (21.7%) had a SALT score ≤ 20.",
-          "Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.",
-          "No baseline covariate showed clear evidence of association with the overall binary endpoint.",
-          "In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null."
+          "Analyses included 612 FUE sessions across 526 patients.",
+          "Mean extraction and implantation speeds were 725.7 and 697.6 grafts/h, respectively.",
+          "Increased extraction speed was independently associated with larger case sizes, surgeon experience ≥1 year, and a dedicated graft-pulling assistant (all p < .001).",
+          "Increased implantation speed was independently associated with multi-implanter device utilization (p < .001).",
+          "Extraction speed was significantly reduced during revision cases (p < .001).",
+          "Patient age and hair characteristics showed no significant association with speed."
         ]
       },
       {
         "label": "결론",
-        "title": "Conclusions",
+        "title": "Conclusion",
         "kind": "conclusion",
         "sentences": [
-          "In this predominantly baricitinib-refractory, clinically switched cohort, a SALT score ≤ 20 was observed during the ritlecitinib follow-up in about one fifth of evaluable patients.",
-          "The association between greater severity at ritlecitinib initiation and slower response was modest and should not be considered a validated predictor.",
-          "Retrospective treatment selection, prior baricitinib responses in a small subgroup, late attrition, and unmeasured washout or concomitant-treatment effects limit treatment-specific attribution.",
-          "These findings suggest that ritlecitinib may be a salvage option for selected patients and warrant prospective sequencing studies."
+          "Real-world FUE extraction and implantation speeds approximate 700 grafts/h, providing a practical benchmark for operative planning and clinical counseling."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Real-World Outcomes After Switching from Baricitinib to Ritlecitinib in Alopecia Areata: A Multicentre Retrospective Cohort Study\n저널: American journal of clinical dermatology\n저자: Gallo G, di Corteranzo IG, Cangialosi L 외\n발행: 2026 Oct 30\n원문: https://pubmed.ncbi.nlm.nih.gov/42961619/\n\n[한눈에 보기]\n- During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.\n- Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.\n- In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Janus kinase inhibitors have reshaped the management of severe alopecia areata, but evidence for intra-class switching after an inadequate or non-durable benefit from baricitinib remains limited.\n\n◆ 배경 — Objective\n  · We aimed to assess real-world effectiveness after switching from baricitinib to ritlecitinib 50 mg once daily and to explore baseline factors associated with the post-switch response.\n\n◆ 연구 방법 — Methods\n  · We performed a multicentre retrospective cohort study across Italian referral centres.\n  · Eligible patients had alopecia areata, had received baricitinib for at least 24 weeks and were switched to ritlecitinib 50 mg once daily.\n  · All switched patients with post-switch outcomes were included irrespective of prior baricitinib response status.\n  · The primary endpoint was a Severity of Alopecia Tool (SALT) score ≤ 20 at any post-switch assessment.\n  · Secondary endpoints were longitudinal SALT change and time to the first post-switch SALT score ≤ 20.\n  · Exploratory logistic and Cox models included age, current alopecia areata episode duration, SALT at ritlecitinib initiation (switch) and prior SALT50 response to baricitinib.\n\n◆ 주요 결과 — Results\n  · Overall, 152 patients underwent a treatment switch and 138 had a post-switch follow-up.\n  · During baricitinib, a SALT50 score was recorded in 10/141 patients (7.1%) and a SALT score ≤ 20 at the final baricitinib assessment in 5/144 (3.5%); prior response was not an exclusion criterion.\n  · During ritlecitinib follow-up, 30/138 patients (21.7%) had a SALT score ≤ 20.\n  · Median SALT score changed from 95 at ritlecitinib initiation to 70 at week 24 and 10 at week 52 among patients observed at those visits, but a late follow-up was sparse.\n  · No baseline covariate showed clear evidence of association with the overall binary endpoint.\n  · In the exploratory Cox model, a higher SALT score at ritlecitinib initiation was modestly associated with slower achievement of a SALT score ≤ 20 (hazard ratio 0.98, 95% confidence interval 0.95-1.00; P = 0.034), with the confidence interval approaching the null.\n\n◆ 결론 — Conclusions\n  · In this predominantly baricitinib-refractory, clinically switched cohort, a SALT score ≤ 20 was observed during the ritlecitinib follow-up in about one fifth of evaluable patients.\n  · The association between greater severity at ritlecitinib initiation and slower response was modest and should not be considered a validated predictor.\n  · Retrospective treatment selection, prior baricitinib responses in a small subgroup, late attrition, and unmeasured washout or concomitant-treatment effects limit treatment-specific attribution.\n  · These findings suggest that ritlecitinib may be a salvage option for selected patients and warrant prospective sequencing studies.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42961619/",
-    "reference_title": "Real-World Outcomes After Switching from Baricitinib to Ritlecitinib in Alopecia Areata: A Multicentre Retrospective Cohort Study",
+    "full_script": "[훅] 526명 대규모 연구에서 나온 결과입니다\n\n[논문 정보]\n제목: Extraction and Implantation Speeds in Follicular Unit Excision: A Multicenter Retrospective Study of 612 Cases\n저널: Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]\n저자: Chong LSL 외\n발행: 2026 Nov 3\n원문: https://pubmed.ncbi.nlm.nih.gov/42975514/\n\n[한눈에 보기]\n- Materials and methods: Operative records of FUE performed by 8 surgeons across 5 clinics over 6 months in 2025 were retrospectively reviewed.\n- Results: Analyses included 612 FUE sessions across 526 patients.\n- Mean extraction and implantation speeds were 725.7 and 697.6 grafts/h, respectively.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Advances in follicular unit excision (FUE) have substantially improved procedural efficiency.\n  · However, real-world extraction and implantation speeds remain poorly characterized.\n\n◆ 배경 — Objective\n  · To describe typical FUE extraction and implantation speeds and identify factors associated with procedural speed variation.\n\n◆ 연구 방법 — Methods\n  · Operative records of FUE performed by 8 surgeons across 5 clinics over 6 months in 2025 were retrospectively reviewed.\n  · Eligible procedures involved single-surgeon scalp-to-scalp FUE exceeding 1,000 grafts.\n  · Extraction and implantation speeds were measured during active surgical graft harvesting and placement.\n  · Associations between procedural speed and patient, procedural, surgeon, and device-related factors were evaluated using univariate and multiple regression analyses.\n\n◆ 주요 결과 — Results\n  · Analyses included 612 FUE sessions across 526 patients.\n  · Mean extraction and implantation speeds were 725.7 and 697.6 grafts/h, respectively.\n  · Increased extraction speed was independently associated with larger case sizes, surgeon experience ≥1 year, and a dedicated graft-pulling assistant (all p < .001).\n  · Increased implantation speed was independently associated with multi-implanter device utilization (p < .001).\n  · Extraction speed was significantly reduced during revision cases (p < .001).\n  · Patient age and hair characteristics showed no significant association with speed.\n\n◆ 결론 — Conclusion\n  · Real-world FUE extraction and implantation speeds approximate 700 grafts/h, providing a practical benchmark for operative planning and clinical counseling.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42975514/",
+    "reference_title": "Extraction and Implantation Speeds in Follicular Unit Excision: A Multicenter Retrospective Study of 612 Cases",
     "reference_type": "paper"
   },
   "assets": {

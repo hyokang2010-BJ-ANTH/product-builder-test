@@ -1,7 +1,20 @@
 {
-  "count": 66,
-  "updated": "2026-11-03",
+  "count": 67,
+  "updated": "2026-11-04",
   "items": [
+    {
+      "date": "2026-11-04",
+      "dir": "2026-11-04",
+      "title": "Extraction and Implantation Speeds in Follicular Unit Excision: A Multicenter Retrospective Study of 612 Cases",
+      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975514/",
+      "hook_accent": "526명",
+      "hook_sub": "대규모 연구에서 나온 결과입니다",
+      "thumb": "2026-11-04/paper_card.png",
+      "pptx": "2026-11-04/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-03",
       "dir": "2026-11-03",
