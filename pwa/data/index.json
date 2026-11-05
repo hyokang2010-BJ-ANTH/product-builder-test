@@ -1,7 +1,20 @@
 {
-  "count": 67,
-  "updated": "2026-11-04",
+  "count": 68,
+  "updated": "2026-11-05",
   "items": [
+    {
+      "date": "2026-11-05",
+      "dir": "2026-11-05",
+      "title": "Association Between a Nurse-Led Mobile Health Intervention and Medication Adherence and Self-Management in Patients After Hair Transplantation: A Retrospective Cohort Study",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42979463/",
+      "hook_accent": "95%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-05/paper_card.png",
+      "pptx": "2026-11-05/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-04",
       "dir": "2026-11-04",
