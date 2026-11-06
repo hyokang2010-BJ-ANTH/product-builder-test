@@ -1,105 +1,63 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "topic": {
     "source_type": "paper",
-    "pmid": "42979463",
-    "title": "Association Between a Nurse-Led Mobile Health Intervention and Medication Adherence and Self-Management in Patients After Hair Transplantation: A Retrospective Cohort Study",
-    "journal": "Clinical, cosmetic and investigational dermatology",
-    "pub_date": "2026",
+    "pmid": "42985792",
+    "title": "Color Doppler Ultrasound in Hair Transplant Planning for Cicatricial Alopecia",
+    "journal": "Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine",
+    "pub_date": "2026 Nov 5",
     "authors": [
-      "Xu L",
-      "Chen H",
-      "Wu Y"
+      "Hartmann D",
+      "Carreño N",
+      "Wortsman X"
     ],
     "pubtypes": [
+      "Case Reports",
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42979463/",
-    "id": "pmid:42979463",
-    "abstract": "Background: Medication adherence after hair transplantation is vital for graft survival and alopecia control, yet adherence to these regimens remains low in routine practice. Nurse-led mHealth shows promise but lacks hair transplant evidence. Methods: This single-center retrospective cohort study included 200 patients undergoing FUE or FUT at a Chinese hair restoration center (January 2024-June 2025). Those enrolled in a nurse-led mHealth program (n=100) were compared with contemporaneous controls receiving standard care (n=100). Outcomes were extracted from electronic records and the mHealth database. The primary outcome was MARS-5-based medication adherence at 6 months. Secondary outcomes included self-management scores (SMS), DLQI, graft survival, complications, and satisfaction. Results: At 6 months, the intervention cohort had higher MARS-5 scores than controls (21.55±3.00 vs 13.15±3.78; MD 8.40, 95% CI 7.45-9.35; P<0.001), and higher SMS (77.47±13.33 vs 52.02±14.28; P<0.001), lower DLQI (7.71±4.40 vs 13.98±4.90; P<0.001). High adherence rates were 68% vs 3% (P<0.001). Graft survival was superior (91.99±3.67% vs 87.37±4.87%; P<0.001). mHealth participation was the strongest predictor of adherence (beta=8.612, P<0.001); the association persisted after propensity-score inverse probability weighting (adjusted MD 8.64, 95% CI 7.63-9.65; P<0.001) and in mixed-effects repeated-measures models (cohort-by-time interaction P<0.001). Conclusion: A multicomponent nurse-led digital follow-up program was associated with improved adherence, self-management, quality of life, and graft survival post-hair transplantation. These findings support prospective validation of such programs before routine integration into postoperative protocols.",
-    "pmcid": "PMC13729852"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42985792/",
+    "id": "pmid:42985792",
+    "abstract": "Hair transplantation (HT) has become an important reconstructive option for selected patients with stable cicatricial alopecia. However, objective methods for assessing recipient-site suitability before surgery remain limited. The objective of the study is to describe the structural and vascular ultrasound findings in patients with cicatricial alopecia undergoing preoperative evaluation for HT. This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025. Structural variables included dermal and subcutaneous thickness, follicular characteristics, and follicular diameter, while vascular assessment included Doppler patterns and peak systolic velocity. HFUS consistently demonstrated dermal thinning, reduced or absent subcutaneous adipose tissue, and decreased or absent follicular structures. Eleven patients underwent HT, of whom 4 required recipient-site optimization with autologous fat grafting before follicular unit excision. All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound. At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients. Limitations: Retrospective design, limited sample size, and clinical heterogeneity. In conclusion, HFUS and color Doppler provide objective assessment of recipient-site characteristics and may support preoperative planning by identifying patients who could benefit from recipient-site optimization before HT."
   },
   "script": {
-    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "95%",
+    "hook": "90% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "90%",
     "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Clinical, cosmetic and investigational dermatology》 - Association Between a Nurse-Led Mobile Health Intervention and Medication Adherence and Self-Management in Patients After Hair Transplantation: A Retrospective Cohort Study",
+    "intro": "《Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine》 - Color Doppler Ultrasound in Hair Transplant Planning for Cicatricial Alopecia",
     "highlights": [
-      "Results: At 6 months, the intervention cohort had higher MARS-5 scores than controls (21.55±3.00 vs 13.15±3.78; MD 8.40, 95% CI 7.45-9.35; P<0.001), and higher SMS (77.47±13.33 vs 52.02±14.28; P<0.001), lower DLQI (7.71±4.40 vs 13.98±4.90; P<0.001).",
-      "Graft survival was superior (91.99±3.67% vs 87.37±4.87%; P<0.001).",
-      "mHealth participation was the strongest predictor of adherence (beta=8.612, P<0.001); the association persisted after propensity-score inverse probability weighting (adjusted MD 8.64, 95% CI 7.63-9.65; P<0.001) and in mixed-effects repeated-measures models (cohort-by-time interaction P<0.001)."
+      "This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.",
+      "All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.",
+      "At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Introduction",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Androgenetic alopecia (AGA), the most prevalent form of hair loss worldwide, affects approximately 50% of men by the age of 50 years and carries substantial psychosocial consequences including impaired self-esteem, body image disturbance, and reduced quality of life.1 Hair transplantation—encompassing follicular unit extraction (FUE) and follicular unit transplantation (FUT)—has emerged as the definitive surgical intervention for AGA, offering permanent redistribution of hair-bearing follicles from donor to recipient areas.2 Global demand for hair restoration procedures has accelerated markedly over the past decade, with FUE now constituting the predominant technique owing to its minimally invasive nature and favorable scarring profile.3",
-          "Finasteride (1 mg/day orally) and minoxidil (5% topical solution) represent the cornerstones of adjuvant medical therapy, prescribed to preserve non-transplanted follicles, reduce postoperative shedding, and support graft consolidation.4 However, adherence to these regimens is notoriously poor: a cross-sectional analysis demonstrated that fewer than 40% of patients maintained consistent minoxidil use beyond 6 months,5 while long-term adherence to finasteride is similarly compromised by safety concerns and inadequate patient education.6 Poor adherence to adjuvant therapy translates directly into suboptimal graft survival, accelerated progression of residual alopecia, and patient dissatisfaction—outcomes with substantial clinical and economic ramifications.4,5 Without sustained adjuvant therapy, residual androgenetic alopecia continues to progress along its natural course.7",
-          "A 2025 systematic review and meta-analysis of 26 clinical trials concluded that mHealth interventions produced meaningful improvements in medication adherence compared with usual care, with particular efficacy observed for reminder-based and nurse-engaged platforms.10 A complementary scoping review identified nurse engagement, personalized reminders, and two-way communication as the most effective application design features.11 In clinical practice, nurse-led digital programs have demonstrated advantages over unguided applications by providing personalized feedback and timely triage of clinical concerns.12–14 In dermatological contexts, digital health interventions have shown positive effects on treatment adherence and patient-reported outcomes,15 with teledermatology platforms achieving comparable or superior adherence rates relative to conventional encounters.16,17"
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
-        "sentences": [
-          "The primary outcome was overall medication adherence measured by the validated 5-item Medication Adherence Report Scale (MARS-5) at 6 months after surgery.16 MARS-5 scores range from 5 to 25, with higher scores indicating greater adherence; scores >20, 15–20, and <15 denote high, medium, and low adherence, respectively.",
-          "Secondary outcomes included: (1) SMS (self-management score; 0–100 scale, higher = better), a composite measure assessing wound care compliance, activity adherence, and follow-up attendance, collected at baseline and months 1, 3, and 6; (2) Dermatology Life Quality Index (DLQI; 0–30 scale, lower = better quality of life), validated for alopecia populations;19 (3) adherence category distribution at 6 months; (4) graft survival rate (%) at 6 months, calculated as the number of surviving follicular units counted by digital trichoscopy (70x magnification) within three fixed 1-cm2 template zones of the recipient area, divided by the total graft count recorded in the operative note, and multiplied by 100%; trichoscopic assessments were performed by an experienced assessor who was unaware of group assignment, and formal intra- or inter-observer reproducibility testing was not performed (acknowledged as a limitation); (5) wound infection rate within 30 days; (6) follow-up visit completion rate; (7) patient satisfaction score (0–100); and (8) depressive symptom severity by the Patient Health Questionnaire-9 (PHQ-9).20 Application engagement metrics (monthly login frequency and nurse message response rate) were recorded for intervention cohort patients.",
-          "Analyses were performed using Python 3.11 (scipy, statsmodels, pandas libraries).Table 1Baseline Demographic and Clinical CharacteristicsVariableIntervention (n = 100)Control (n = 100)P value*Age, years, mean (SD)31.04 (7.22)30.75 (6.87)0.771Sex, n (%)0.668 Male90 (90.0)88 (88.0) Female10 (10.0)12 (12.0)BMI, kg/m2, mean (SD)24.71 (3.60)24.21 (3.71)0.337Education, n (%)0.449 High school13 (13.0)12 (12.0) College40 (40.0)44 (44.0) Bachelor’s degree42 (42.0)34 (34.0) Graduate or above5 (5.0)10 (10.0)Procedure type, n (%)0.179 FUE75 (75.0)64 (64.0) FUT19 (19.0)25 (25.0) Combined6 (6.0)11 (11.0)Graft count, mean (SD)2204.24 (496.98)2238.69 (586.07)0.641Norwood scale, mean (SD)3.69 (1.12)3.81 (1.31)0.451AGA duration, years, mean (SD)4.85 (2.90)5.11 (3.12)0.528Comorbidities, n (%) Hypertension15 (15.0)13 (13.0)0.691 Diabetes mellitus11 (11.0)7 (7.0)0.374 Anxiety disorder14 (14.0)20 (20.0)0.241Medications prescribed, n (%) Finasteride84 (84.0)86 (86.0)0.693 Minoxidil90 (90.0)90 (90.0)1.000Baseline outcome scores, mean (SD) MARS-516.18 (2.73)16.43 (2.98)0.532 Self-management score59.74 (11.80)57.58 (11.95)0.198 DLQI11.85 (3.94)12.11 (4.03)0.654 PHQ-96.58 (3.97)6.35 (3.96)0.673Notes: *P values are presented for descriptive purposes.Abbreviations: AGA, androgenetic alopecia; BMI, body mass index; DLQI, Dermatology Life Quality Index; FUE, follicular unit extraction; FUT, follicular unit transplantation; MARS-5, 5-item Medication Adherence Report Scale; PHQ-9, Patient Health Questionnaire-9."
+          "Hair transplantation (HT) has become an important reconstructive option for selected patients with stable cicatricial alopecia.",
+          "However, objective methods for assessing recipient-site suitability before surgery remain limited.",
+          "The objective of the study is to describe the structural and vascular ultrasound findings in patients with cicatricial alopecia undergoing preoperative evaluation for HT."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "The cohort comprised 178 male (89.0%) and 22 female (11.0%) patients, with a mean age of 30.90 ± 7.05 years.",
-          "Mean age was 31.04 ± 7.22 years (intervention) versus 30.75 ± 6.87 years (control; P = 0.771).",
-          "Mean graft counts were comparable (intervention: 2204.24 ± 496.98; control: 2238.69 ± 586.07; P = 0.641).",
-          "Baseline MARS-5 scores were similar (intervention: 16.18 ± 2.73; control: 16.43 ± 2.98; P = 0.532), as were SMS (intervention: 59.74 ± 11.80; control: 57.58 ± 11.95; P = 0.198) and DLQI scores (intervention: 11.85 ± 3.94; control: 12.11 ± 4.03; P = 0.654).",
-          "A statistically significant between-group divergence emerged at month 1 (intervention: 17.80 ± 3.23; control: 15.80 ± 3.68; MD 2.00, 95% CI 1.05–2.95; P < 0.001) and progressively widened through month 3 (MD 5.75, 95% CI 4.78–6.75; P < 0.001) and month 6 (intervention: 21.55 ± 3.00; control: 13.15 ± 3.78; MD 8.40, 95% CI 7.45–9.35; P < 0.001; Table 2).",
-          "Concurrently, control cohort adherence declined progressively from baseline through month 6, consistent with established patterns of pharmacological adherence decay in dermatological practice.5Table 2Primary and Secondary Outcome Scores by Cohort and Time PointOutcomeTime PointIntervention (n = 100)Control (n = 100)Mean Difference (95% CI)P valueMARS-5 scoreBaseline16.18 (2.73)16.43 (2.98)Reference--Month 117.80 (3.23)15.80 (3.68)2.00 (1.05, 2.95)<0.001Month 320.08 (3.20)14.30 (3.93)5.75 (4.78, 6.75)<0.001Month 621.55 (3.00)13.15 (3.78)8.40 (7.45, 9.35)<0.001Self-management scoreBaseline59.74 (11.80)57.58 (11.95)Reference--Month 165.84 (13.11)55.49 (13.75)10.34 (6.62, 14.07)<0.001Month 372.47 (13.23)53.85 (12.65)18.62 (15.03, 22.21)<0.001Month 677.47 (13.33)52.02 (14.28)25.45 (21.62, 29.28)<0.001DLQI scoreBaseline11.85 (3.94)12.11 (4.03)Reference--Month 110.22 (4.54)12.64 (4.45)−2.42 (−3.67, −1.18)<0.001Month 39.13 (4.42)13.47 (4.35)−4.34 (−5.56, −3.13)<0.001Month 67.71 (4.40)13.98 (4.90)−6.27 (−7.56, −4.98)<0.001Note: Data are mean (SD).Abbreviations: CI, confidence interval; DLQI, Dermatology Life Quality Index; MARS-5, 5-item Medication Adherence Report Scale; SD, standard deviation.",
-          "Medium adherence (MARS-5 15–20) was present in 28 (28.0%) and 29 (29.0%) patients, respectively.Table 3MARS-5 Adherence Category Distribution at 6 MonthsAdherence CategoryIntervention, n (%)Control, n (%)P valueHigh (MARS-5 > 20)68 (68.0)3 (3.0)<0.001Medium (MARS-5 15–20)28 (28.0)29 (29.0)Low (MARS-5 < 15)4 (4.0)68 (68.0)Note: Chi-square test.Abbreviation: MARS-5, 5-item Medication Adherence Report Scale."
-        ]
-      },
-      {
-        "label": "주요 결과",
-        "title": "Secondary Outcomes",
-        "kind": "results",
-        "sentences": [
-          "PHQ-9 scores at 6 months did not differ significantly (intervention: 5.48 ± 4.12; control: 6.37 ± 3.72; P = 0.109), suggesting the intervention was not associated with a detectable difference in depressive symptom severity within the 6-month observation window.Table 4Safety and Secondary Clinical Outcomes at 6 MonthsOutcomeIntervention (n = 100)Control (n = 100)RR (95% CI) or MD (95% CI)P valueWound infection within 30 days, n (%)4 (4.0)8 (8.0)RR 0.50 (0.16–1.57)0.373Graft survival rate, %, mean (SD)91.99 (3.67)87.37 (4.87)MD 4.62 (3.36–5.88)<0.001Follow-up completion, n (%)88 (88.0)76 (76.0)RR 1.16 (1.01–1.33)0.042Patient satisfaction score, mean (SD)80.56 (12.02)72.07 (13.93)MD 8.49 (4.82–12.16)<0.001PHQ-9 score, mean (SD)5.48 (4.12)6.37 (3.72)MD −0.89 (−2.00–0.22)0.109Abbreviations: MD, mean difference; PHQ-9, Patient Health Questionnaire-9; RR, relative risk; SD, standard deviation.",
-          "IPTW-adjusted analyses confirmed the primary findings: the adjusted mean difference in 6-month MARS-5 was 8.64 (95% CI 7.63–9.65; P < 0.001), and significant adjusted differences persisted for high adherence (adjusted OR 71.19, 95% CI 30.62–165.49; P < 0.001), SMS (MD 23.56, 95% CI 19.76–27.36; P < 0.001), DLQI (MD −6.07, 95% CI −7.54 to −4.60; P < 0.001), graft survival (MD 4.40%, 95% CI 2.97–5.83; P < 0.001), satisfaction (MD 8.48, 95% CI 4.32–12.64; P < 0.001), and follow-up completion (adjusted RR 1.16, 95% CI 1.06–1.27; P = 0.001), whereas wound infection remained non-significant (adjusted RR 0.42, 95% CI 0.17–1.04; P = 0.061).",
-          "Linear mixed-effects models confirmed significant cohort-by-time interactions for MARS-5 (χ2(3) = 631.10, P < 0.001), SMS (χ2(3) = 445.70, P < 0.001), and DLQI (χ2(3) = 202.67, P < 0.001), indicating significantly divergent outcome trajectories between cohorts; month-6 contrasts from these models (MARS-5 MD 8.40, 95% CI 7.47–9.32; SMS MD 25.45, 95% CI 21.85–29.04; DLQI MD −6.27, 95% CI −7.48 to −5.06) were consistent with the primary analyses.Table 6Standardized Mean Differences Before and After Inverse Probability of Treatment WeightingVariableSMD Before IPTWSMD After IPTWAge, years+0.041+0.020Male sex−0.064+0.013BMI+0.137−0.071Education level−0.037−0.003Marital status−0.015+0.017Employment status+0.366+0.053Monthly income+0.073−0.011Insurance type−0.073−0.016FUE procedure−0.178−0.028Graft count−0.063−0.033Norwood scale−0.099−0.033AGA duration, years+0.300+0.006Prior treatment−0.010+0.039Hypertension+0.057+0.014Diabetes mellitus+0.139+0.001Anxiety comorbidity−0.159−0.049Finasteride prescribed−0.057+0.021Minoxidil prescribed−0.121−0.035Number of medications−0.123−0.002Baseline MARS-5 score−0.089+0.016Baseline SMS+0.182+0.019Baseline DLQI score−0.063−0.002Baseline PHQ-9 score+0.331+0.064Notes: The propensity score was estimated by logistic regression including all listed covariates. |SMD| < 0.10 indicates acceptable covariate balance.Abbreviations: IPTW, inverse probability of treatment weighting; SMD, standardized mean difference."
-        ]
-      },
-      {
-        "label": "고찰",
-        "title": "Discussion",
-        "kind": "discussion",
-        "sentences": [
-          "The magnitude of the primary adherence difference (MD 8.40 points on MARS-5 at 6 months) substantially exceeds what would be expected from pharmacological interventions alone, and the corresponding high-adherence rate of 68% in the intervention cohort versus 3% in controls underscores the potential of structured digital nursing support.",
-          "A 2025 meta-analysis by Kim et al (26 trials, n = 5,174) confirmed that mHealth interventions produce significant adherence improvements across chronic conditions.10 A complementary scoping review identified nurse engagement, personalized reminders, and bidirectional communication as the most effective design features,11 precisely the components embedded in our intervention.",
-          "Nurse-delivered psychoeducation via the messaging module may have attenuated distress associated with normal postoperative effluvium—a transient phenomenon that frequently precipitates unnecessary medication discontinuation.5 These findings are consistent with digital dermatology cohorts demonstrating that professional digital engagement improves patient-reported dermatological wellbeing.16,21 The DLQI has been validated as a responsive outcome measure in alopecia populations,19,23 supporting the methodological integrity of this assessment.",
-          "PHQ-9 scores at 6 months did not differ significantly between cohorts in the unadjusted analysis (P = 0.109), although the difference reached statistical significance after propensity-score weighting (adjusted MD −1.94, 95% CI −3.09 to −0.80; P = 0.001); the small magnitude of this difference warrants balanced interpretation."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusions",
-        "kind": "conclusion",
-        "sentences": [
-          "This retrospective cohort study provides real-world evidence that a multicomponent nurse-led mHealth intervention—incorporating personalized medication reminders, bidirectional nurse communication, structured self-management education, and proactive nurse follow-up—is associated with clinically meaningful improvements in medication adherence, self-management behaviors, dermatological quality of life, and graft survival among patients undergoing hair transplantation.",
-          "The association was consistent across demographic and clinical subgroups.",
-          "Given the high global prevalence of AGA, the increasing volume of hair restoration procedures, and the established importance of postoperative medication adherence for sustainable outcomes, nurse-led multicomponent digital follow-up programs may represent a promising and practically feasible enhancement to postoperative care."
+          "This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.",
+          "Structural variables included dermal and subcutaneous thickness, follicular characteristics, and follicular diameter, while vascular assessment included Doppler patterns and peak systolic velocity.",
+          "HFUS consistently demonstrated dermal thinning, reduced or absent subcutaneous adipose tissue, and decreased or absent follicular structures.",
+          "Eleven patients underwent HT, of whom 4 required recipient-site optimization with autologous fat grafting before follicular unit excision.",
+          "All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.",
+          "At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Association Between a Nurse-Led Mobile Health Intervention and Medication Adherence and Self-Management in Patients After Hair Transplantation: A Retrospective Cohort Study\n저널: Clinical, cosmetic and investigational dermatology\n저자: Xu L, Chen H, Wu Y 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42979463/\n\n[한눈에 보기]\n- Results: At 6 months, the intervention cohort had higher MARS-5 scores than controls (21.55±3.00 vs 13.15±3.78; MD 8.40, 95% CI 7.45-9.35; P<0.001), and higher SMS (77.47±13.33 vs 52.02±14.28; P<0.001), lower DLQI (7.71±4.40 vs 13.98±4.90; P<0.001).\n- Graft survival was superior (91.99±3.67% vs 87.37±4.87%; P<0.001).\n- mHealth participation was the strongest predictor of adherence (beta=8.612, P<0.001); the association persisted after propensity-score inverse probability weighting (adjusted MD 8.64, 95% CI 7.63-9.65; P<0.001) and in mixed-effects repeated-measures models (cohort-by-time interaction P<0.001).\n\n[상세 내용] (논문 전문 6개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Androgenetic alopecia (AGA), the most prevalent form of hair loss worldwide, affects approximately 50% of men by the age of 50 years and carries substantial psychosocial consequences including impaired self-esteem, body image disturbance, and reduced quality of life.1 Hair transplantation—encompassing follicular unit extraction (FUE) and follicular unit transplantation (FUT)—has emerged as the definitive surgical intervention for AGA, offering permanent redistribution of hair-bearing follicles from donor to recipient areas.2 Global demand for hair restoration procedures has accelerated markedly over the past decade, with FUE now constituting the predominant technique owing to its minimally invasive nature and favorable scarring profile.3\n  · Finasteride (1 mg/day orally) and minoxidil (5% topical solution) represent the cornerstones of adjuvant medical therapy, prescribed to preserve non-transplanted follicles, reduce postoperative shedding, and support graft consolidation.4 However, adherence to these regimens is notoriously poor: a cross-sectional analysis demonstrated that fewer than 40% of patients maintained consistent minoxidil use beyond 6 months,5 while long-term adherence to finasteride is similarly compromised by safety concerns and inadequate patient education.6 Poor adherence to adjuvant therapy translates directly into suboptimal graft survival, accelerated progression of residual alopecia, and patient dissatisfaction—outcomes with substantial clinical and economic ramifications.4,5 Without sustained adjuvant therapy, residual androgenetic alopecia continues to progress along its natural course.7\n  · A 2025 systematic review and meta-analysis of 26 clinical trials concluded that mHealth interventions produced meaningful improvements in medication adherence compared with usual care, with particular efficacy observed for reminder-based and nurse-engaged platforms.10 A complementary scoping review identified nurse engagement, personalized reminders, and two-way communication as the most effective application design features.11 In clinical practice, nurse-led digital programs have demonstrated advantages over unguided applications by providing personalized feedback and timely triage of clinical concerns.12–14 In dermatological contexts, digital health interventions have shown positive effects on treatment adherence and patient-reported outcomes,15 with teledermatology platforms achieving comparable or superior adherence rates relative to conventional encounters.16,17\n\n◆ 연구 방법 — Methods\n  · The primary outcome was overall medication adherence measured by the validated 5-item Medication Adherence Report Scale (MARS-5) at 6 months after surgery.16 MARS-5 scores range from 5 to 25, with higher scores indicating greater adherence; scores >20, 15–20, and <15 denote high, medium, and low adherence, respectively.\n  · Secondary outcomes included: (1) SMS (self-management score; 0–100 scale, higher = better), a composite measure assessing wound care compliance, activity adherence, and follow-up attendance, collected at baseline and months 1, 3, and 6; (2) Dermatology Life Quality Index (DLQI; 0–30 scale, lower = better quality of life), validated for alopecia populations;19 (3) adherence category distribution at 6 months; (4) graft survival rate (%) at 6 months, calculated as the number of surviving follicular units counted by digital trichoscopy (70x magnification) within three fixed 1-cm2 template zones of the recipient area, divided by the total graft count recorded in the operative note, and multiplied by 100%; trichoscopic assessments were performed by an experienced assessor who was unaware of group assignment, and formal intra- or inter-observer reproducibility testing was not performed (acknowledged as a limitation); (5) wound infection rate within 30 days; (6) follow-up visit completion rate; (7) patient satisfaction score (0–100); and (8) depressive symptom severity by the Patient Health Questionnaire-9 (PHQ-9).20 Application engagement metrics (monthly login frequency and nurse message response rate) were recorded for intervention cohort patients.\n  · Analyses were performed using Python 3.11 (scipy, statsmodels, pandas libraries).Table 1Baseline Demographic and Clinical CharacteristicsVariableIntervention (n = 100)Control (n = 100)P value*Age, years, mean (SD)31.04 (7.22)30.75 (6.87)0.771Sex, n (%)0.668 Male90 (90.0)88 (88.0) Female10 (10.0)12 (12.0)BMI, kg/m2, mean (SD)24.71 (3.60)24.21 (3.71)0.337Education, n (%)0.449 High school13 (13.0)12 (12.0) College40 (40.0)44 (44.0) Bachelor’s degree42 (42.0)34 (34.0) Graduate or above5 (5.0)10 (10.0)Procedure type, n (%)0.179 FUE75 (75.0)64 (64.0) FUT19 (19.0)25 (25.0) Combined6 (6.0)11 (11.0)Graft count, mean (SD)2204.24 (496.98)2238.69 (586.07)0.641Norwood scale, mean (SD)3.69 (1.12)3.81 (1.31)0.451AGA duration, years, mean (SD)4.85 (2.90)5.11 (3.12)0.528Comorbidities, n (%) Hypertension15 (15.0)13 (13.0)0.691 Diabetes mellitus11 (11.0)7 (7.0)0.374 Anxiety disorder14 (14.0)20 (20.0)0.241Medications prescribed, n (%) Finasteride84 (84.0)86 (86.0)0.693 Minoxidil90 (90.0)90 (90.0)1.000Baseline outcome scores, mean (SD) MARS-516.18 (2.73)16.43 (2.98)0.532 Self-management score59.74 (11.80)57.58 (11.95)0.198 DLQI11.85 (3.94)12.11 (4.03)0.654 PHQ-96.58 (3.97)6.35 (3.96)0.673Notes: *P values are presented for descriptive purposes.Abbreviations: AGA, androgenetic alopecia; BMI, body mass index; DLQI, Dermatology Life Quality Index; FUE, follicular unit extraction; FUT, follicular unit transplantation; MARS-5, 5-item Medication Adherence Report Scale; PHQ-9, Patient Health Questionnaire-9.\n\n◆ 주요 결과 — Results\n  · The cohort comprised 178 male (89.0%) and 22 female (11.0%) patients, with a mean age of 30.90 ± 7.05 years.\n  · Mean age was 31.04 ± 7.22 years (intervention) versus 30.75 ± 6.87 years (control; P = 0.771).\n  · Mean graft counts were comparable (intervention: 2204.24 ± 496.98; control: 2238.69 ± 586.07; P = 0.641).\n  · Baseline MARS-5 scores were similar (intervention: 16.18 ± 2.73; control: 16.43 ± 2.98; P = 0.532), as were SMS (intervention: 59.74 ± 11.80; control: 57.58 ± 11.95; P = 0.198) and DLQI scores (intervention: 11.85 ± 3.94; control: 12.11 ± 4.03; P = 0.654).\n  · A statistically significant between-group divergence emerged at month 1 (intervention: 17.80 ± 3.23; control: 15.80 ± 3.68; MD 2.00, 95% CI 1.05–2.95; P < 0.001) and progressively widened through month 3 (MD 5.75, 95% CI 4.78–6.75; P < 0.001) and month 6 (intervention: 21.55 ± 3.00; control: 13.15 ± 3.78; MD 8.40, 95% CI 7.45–9.35; P < 0.001; Table 2).\n  · Concurrently, control cohort adherence declined progressively from baseline through month 6, consistent with established patterns of pharmacological adherence decay in dermatological practice.5Table 2Primary and Secondary Outcome Scores by Cohort and Time PointOutcomeTime PointIntervention (n = 100)Control (n = 100)Mean Difference (95% CI)P valueMARS-5 scoreBaseline16.18 (2.73)16.43 (2.98)Reference--Month 117.80 (3.23)15.80 (3.68)2.00 (1.05, 2.95)<0.001Month 320.08 (3.20)14.30 (3.93)5.75 (4.78, 6.75)<0.001Month 621.55 (3.00)13.15 (3.78)8.40 (7.45, 9.35)<0.001Self-management scoreBaseline59.74 (11.80)57.58 (11.95)Reference--Month 165.84 (13.11)55.49 (13.75)10.34 (6.62, 14.07)<0.001Month 372.47 (13.23)53.85 (12.65)18.62 (15.03, 22.21)<0.001Month 677.47 (13.33)52.02 (14.28)25.45 (21.62, 29.28)<0.001DLQI scoreBaseline11.85 (3.94)12.11 (4.03)Reference--Month 110.22 (4.54)12.64 (4.45)−2.42 (−3.67, −1.18)<0.001Month 39.13 (4.42)13.47 (4.35)−4.34 (−5.56, −3.13)<0.001Month 67.71 (4.40)13.98 (4.90)−6.27 (−7.56, −4.98)<0.001Note: Data are mean (SD).Abbreviations: CI, confidence interval; DLQI, Dermatology Life Quality Index; MARS-5, 5-item Medication Adherence Report Scale; SD, standard deviation.\n  · Medium adherence (MARS-5 15–20) was present in 28 (28.0%) and 29 (29.0%) patients, respectively.Table 3MARS-5 Adherence Category Distribution at 6 MonthsAdherence CategoryIntervention, n (%)Control, n (%)P valueHigh (MARS-5 > 20)68 (68.0)3 (3.0)<0.001Medium (MARS-5 15–20)28 (28.0)29 (29.0)Low (MARS-5 < 15)4 (4.0)68 (68.0)Note: Chi-square test.Abbreviation: MARS-5, 5-item Medication Adherence Report Scale.\n\n◆ 주요 결과 — Secondary Outcomes\n  · PHQ-9 scores at 6 months did not differ significantly (intervention: 5.48 ± 4.12; control: 6.37 ± 3.72; P = 0.109), suggesting the intervention was not associated with a detectable difference in depressive symptom severity within the 6-month observation window.Table 4Safety and Secondary Clinical Outcomes at 6 MonthsOutcomeIntervention (n = 100)Control (n = 100)RR (95% CI) or MD (95% CI)P valueWound infection within 30 days, n (%)4 (4.0)8 (8.0)RR 0.50 (0.16–1.57)0.373Graft survival rate, %, mean (SD)91.99 (3.67)87.37 (4.87)MD 4.62 (3.36–5.88)<0.001Follow-up completion, n (%)88 (88.0)76 (76.0)RR 1.16 (1.01–1.33)0.042Patient satisfaction score, mean (SD)80.56 (12.02)72.07 (13.93)MD 8.49 (4.82–12.16)<0.001PHQ-9 score, mean (SD)5.48 (4.12)6.37 (3.72)MD −0.89 (−2.00–0.22)0.109Abbreviations: MD, mean difference; PHQ-9, Patient Health Questionnaire-9; RR, relative risk; SD, standard deviation.\n  · IPTW-adjusted analyses confirmed the primary findings: the adjusted mean difference in 6-month MARS-5 was 8.64 (95% CI 7.63–9.65; P < 0.001), and significant adjusted differences persisted for high adherence (adjusted OR 71.19, 95% CI 30.62–165.49; P < 0.001), SMS (MD 23.56, 95% CI 19.76–27.36; P < 0.001), DLQI (MD −6.07, 95% CI −7.54 to −4.60; P < 0.001), graft survival (MD 4.40%, 95% CI 2.97–5.83; P < 0.001), satisfaction (MD 8.48, 95% CI 4.32–12.64; P < 0.001), and follow-up completion (adjusted RR 1.16, 95% CI 1.06–1.27; P = 0.001), whereas wound infection remained non-significant (adjusted RR 0.42, 95% CI 0.17–1.04; P = 0.061).\n  · Linear mixed-effects models confirmed significant cohort-by-time interactions for MARS-5 (χ2(3) = 631.10, P < 0.001), SMS (χ2(3) = 445.70, P < 0.001), and DLQI (χ2(3) = 202.67, P < 0.001), indicating significantly divergent outcome trajectories between cohorts; month-6 contrasts from these models (MARS-5 MD 8.40, 95% CI 7.47–9.32; SMS MD 25.45, 95% CI 21.85–29.04; DLQI MD −6.27, 95% CI −7.48 to −5.06) were consistent with the primary analyses.Table 6Standardized Mean Differences Before and After Inverse Probability of Treatment WeightingVariableSMD Before IPTWSMD After IPTWAge, years+0.041+0.020Male sex−0.064+0.013BMI+0.137−0.071Education level−0.037−0.003Marital status−0.015+0.017Employment status+0.366+0.053Monthly income+0.073−0.011Insurance type−0.073−0.016FUE procedure−0.178−0.028Graft count−0.063−0.033Norwood scale−0.099−0.033AGA duration, years+0.300+0.006Prior treatment−0.010+0.039Hypertension+0.057+0.014Diabetes mellitus+0.139+0.001Anxiety comorbidity−0.159−0.049Finasteride prescribed−0.057+0.021Minoxidil prescribed−0.121−0.035Number of medications−0.123−0.002Baseline MARS-5 score−0.089+0.016Baseline SMS+0.182+0.019Baseline DLQI score−0.063−0.002Baseline PHQ-9 score+0.331+0.064Notes: The propensity score was estimated by logistic regression including all listed covariates. |SMD| < 0.10 indicates acceptable covariate balance.Abbreviations: IPTW, inverse probability of treatment weighting; SMD, standardized mean difference.\n\n◆ 고찰 — Discussion\n  · The magnitude of the primary adherence difference (MD 8.40 points on MARS-5 at 6 months) substantially exceeds what would be expected from pharmacological interventions alone, and the corresponding high-adherence rate of 68% in the intervention cohort versus 3% in controls underscores the potential of structured digital nursing support.\n  · A 2025 meta-analysis by Kim et al (26 trials, n = 5,174) confirmed that mHealth interventions produce significant adherence improvements across chronic conditions.10 A complementary scoping review identified nurse engagement, personalized reminders, and bidirectional communication as the most effective design features,11 precisely the components embedded in our intervention.\n  · Nurse-delivered psychoeducation via the messaging module may have attenuated distress associated with normal postoperative effluvium—a transient phenomenon that frequently precipitates unnecessary medication discontinuation.5 These findings are consistent with digital dermatology cohorts demonstrating that professional digital engagement improves patient-reported dermatological wellbeing.16,21 The DLQI has been validated as a responsive outcome measure in alopecia populations,19,23 supporting the methodological integrity of this assessment.\n  · PHQ-9 scores at 6 months did not differ significantly between cohorts in the unadjusted analysis (P = 0.109), although the difference reached statistical significance after propensity-score weighting (adjusted MD −1.94, 95% CI −3.09 to −0.80; P = 0.001); the small magnitude of this difference warrants balanced interpretation.\n\n◆ 결론 — Conclusions\n  · This retrospective cohort study provides real-world evidence that a multicomponent nurse-led mHealth intervention—incorporating personalized medication reminders, bidirectional nurse communication, structured self-management education, and proactive nurse follow-up—is associated with clinically meaningful improvements in medication adherence, self-management behaviors, dermatological quality of life, and graft survival among patients undergoing hair transplantation.\n  · The association was consistent across demographic and clinical subgroups.\n  · Given the high global prevalence of AGA, the increasing volume of hair restoration procedures, and the established importance of postoperative medication adherence for sustainable outcomes, nurse-led multicomponent digital follow-up programs may represent a promising and practically feasible enhancement to postoperative care.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42979463/",
-    "reference_title": "Association Between a Nurse-Led Mobile Health Intervention and Medication Adherence and Self-Management in Patients After Hair Transplantation: A Retrospective Cohort Study",
+    "full_script": "[훅] 90% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Color Doppler Ultrasound in Hair Transplant Planning for Cicatricial Alopecia\n저널: Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine\n저자: Hartmann D, Carreño N, Wortsman X 외\n발행: 2026 Nov 5\n원문: https://pubmed.ncbi.nlm.nih.gov/42985792/\n\n[한눈에 보기]\n- This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.\n- All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.\n- At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Hair transplantation (HT) has become an important reconstructive option for selected patients with stable cicatricial alopecia.\n  · However, objective methods for assessing recipient-site suitability before surgery remain limited.\n  · The objective of the study is to describe the structural and vascular ultrasound findings in patients with cicatricial alopecia undergoing preoperative evaluation for HT.\n\n◆ 주요 결과 — Results (자동 구분)\n  · This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.\n  · Structural variables included dermal and subcutaneous thickness, follicular characteristics, and follicular diameter, while vascular assessment included Doppler patterns and peak systolic velocity.\n  · HFUS consistently demonstrated dermal thinning, reduced or absent subcutaneous adipose tissue, and decreased or absent follicular structures.\n  · Eleven patients underwent HT, of whom 4 required recipient-site optimization with autologous fat grafting before follicular unit excision.\n  · All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.\n  · At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42985792/",
+    "reference_title": "Color Doppler Ultrasound in Hair Transplant Planning for Cicatricial Alopecia",
     "reference_type": "paper"
   },
   "assets": {
@@ -112,75 +70,15 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "Baseline Demographic and Clinical Characteristics",
-        "rows": [
-          [
-            "Variable",
-            "Intervention (n = 100)",
-            "Control (n = 100)",
-            "P value*"
-          ],
-          [
-            "Age, years, mean (SD)",
-            "31.04 (7.22)",
-            "30.75 (6.87)",
-            "0.771"
-          ],
-          [
-            "Sex, n (%)",
-            "31.04 (7.22)",
-            "30.75 (6.87)",
-            "0.668"
-          ],
-          [
-            "Male",
-            "90 (90.0)",
-            "88 (88.0)",
-            "0.668"
-          ],
-          [
-            "Female",
-            "10 (10.0)",
-            "12 (12.0)",
-            "0.668"
-          ],
-          [
-            "BMI, kg/m2, mean (SD)",
-            "24.71 (3.60)",
-            "24.21 (3.71)",
-            "0.337"
-          ],
-          [
-            "Education, n (%)",
-            "24.71 (3.60)",
-            "24.21 (3.71)",
-            "0.449"
-          ],
-          [
-            "High school",
-            "13 (13.0)",
-            "12 (12.0)",
-            "0.449"
-          ]
-        ]
-      }
-    ],
-    "paper_source": {
-      "pmcid": "PMC13729852",
-      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
-    },
-    "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13729852)에서 직접 캡처해 쓰세요."
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }
