@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-07",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "42993878",
+    "title": "Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia",
+    "journal": "Expert review of clinical pharmacology",
+    "pub_date": "2026 Nov 6",
+    "authors": [
+      "Lee J",
+      "Thanomkitti K",
+      "Tosti A"
+    ],
+    "pubtypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42993878/",
+    "id": "pmid:42993878",
+    "abstract": "Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men. Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss. Recent advances have identified new pathways, accelerating a new generation of mechanism-based therapies. Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches. This review evaluates the mechanisms, efficacy, safety, and clinical relevance of current and emerging pharmacological therapies for MPHL. Expert opinion: Current medical treatments for MPHL are most effective in early disease stages, primarily preventing further miniaturization and increasing the diameter of existing hairs; however, patient expectations often exceed achievable outcomes, and hair transplantation remains the only reliable option for restoring hair in areas where terminal follicles have been lost. Advances in hair follicle biology, stem cell activation, and regenerative medicine are driving therapies aimed at preserving existing follicles and improving follicular regeneration, and personalized combinations of conventional and regenerative strategies may eventually provide more effective and durable outcomes than either approach alone."
+  },
+  "script": {
+    "hook": "남성형 탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "남성형 탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Expert review of clinical pharmacology》 - Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia",
+    "highlights": [
+      "Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.",
+      "Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss.",
+      "Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.",
+          "Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Recent advances have identified new pathways, accelerating a new generation of mechanism-based therapies.",
+          "Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches.",
+          "This review evaluates the mechanisms, efficacy, safety, and clinical relevance of current and emerging pharmacological therapies for MPHL.",
+          "Expert opinion: Current medical treatments for MPHL are most effective in early disease stages, primarily preventing further miniaturization and increasing the diameter of existing hairs; however, patient expectations often exceed achievable outcomes, and hair transplantation remains the only reliable option for restoring hair in areas where terminal follicles have been lost.",
+          "Advances in hair follicle biology, stem cell activation, and regenerative medicine are driving therapies aimed at preserving existing follicles and improving follicular regeneration, and personalized combinations of conventional and regenerative strategies may eventually provide more effective and durable outcomes than either approach alone."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia\n저널: Expert review of clinical pharmacology\n저자: Lee J, Thanomkitti K, Tosti A 외\n발행: 2026 Nov 6\n원문: https://pubmed.ncbi.nlm.nih.gov/42993878/\n\n[한눈에 보기]\n- Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.\n- Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss.\n- Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.\n  · Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Recent advances have identified new pathways, accelerating a new generation of mechanism-based therapies.\n  · Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches.\n  · This review evaluates the mechanisms, efficacy, safety, and clinical relevance of current and emerging pharmacological therapies for MPHL.\n  · Expert opinion: Current medical treatments for MPHL are most effective in early disease stages, primarily preventing further miniaturization and increasing the diameter of existing hairs; however, patient expectations often exceed achievable outcomes, and hair transplantation remains the only reliable option for restoring hair in areas where terminal follicles have been lost.\n  · Advances in hair follicle biology, stem cell activation, and regenerative medicine are driving therapies aimed at preserving existing follicles and improving follicular regeneration, and personalized combinations of conventional and regenerative strategies may eventually provide more effective and durable outcomes than either approach alone.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42993878/",
+    "reference_title": "Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

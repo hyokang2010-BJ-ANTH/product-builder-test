@@ -1,7 +1,20 @@
 {
-  "count": 69,
-  "updated": "2026-11-06",
+  "count": 70,
+  "updated": "2026-11-07",
   "items": [
+    {
+      "date": "2026-11-07",
+      "dir": "2026-11-07",
+      "title": "Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia",
+      "journal": "Expert review of clinical pharmacology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993878/",
+      "hook_accent": "남성형 탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-11-07/paper_card.png",
+      "pptx": "2026-11-07/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-06",
       "dir": "2026-11-06",

@@ -1,31 +1,29 @@
-[훅] 90% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Color Doppler Ultrasound in Hair Transplant Planning for Cicatricial Alopecia
-저널: Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine
-저자: Hartmann D, Carreño N, Wortsman X 외
-발행: 2026 Nov 5
-원문: https://pubmed.ncbi.nlm.nih.gov/42985792/
+제목: Evaluating current and emerging pharmacological treatment options for men with androgenetic alopecia
+저널: Expert review of clinical pharmacology
+저자: Lee J, Thanomkitti K, Tosti A 외
+발행: 2026 Nov 6
+원문: https://pubmed.ncbi.nlm.nih.gov/42993878/
 
 [한눈에 보기]
-- This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.
-- All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.
-- At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients.
+- Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.
+- Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss.
+- Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches.
 
 [상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
 ◆ 배경 — Background (자동 구분)
-  · Hair transplantation (HT) has become an important reconstructive option for selected patients with stable cicatricial alopecia.
-  · However, objective methods for assessing recipient-site suitability before surgery remain limited.
-  · The objective of the study is to describe the structural and vascular ultrasound findings in patients with cicatricial alopecia undergoing preoperative evaluation for HT.
+  · Introduction: Androgenetic alopecia (AGA), also known as male pattern hair loss (MPHL), is the most common cause of hair loss in men.
+  · Treatment response to approved therapies varies, adherence remains challenging, and discontinuation results in progressive hair loss.
 
 ◆ 주요 결과 — Results (자동 구분)
-  · This retrospective observational study included 22 patients with cicatricial alopecia evaluated with high-frequency ultrasound (HFUS) and color Doppler between 2014 and 2025.
-  · Structural variables included dermal and subcutaneous thickness, follicular characteristics, and follicular diameter, while vascular assessment included Doppler patterns and peak systolic velocity.
-  · HFUS consistently demonstrated dermal thinning, reduced or absent subcutaneous adipose tissue, and decreased or absent follicular structures.
-  · Eleven patients underwent HT, of whom 4 required recipient-site optimization with autologous fat grafting before follicular unit excision.
-  · All 4 demonstrated preoperative dermal thickness <3 mm and reduced or absent subcutaneous adipose tissue on ultrasound.
-  · At 12 months, graft survival exceeded 90% in 8 patients and was approximately 80% in 3 patients.
+  · Recent advances have identified new pathways, accelerating a new generation of mechanism-based therapies.
+  · Areas covered: PubMed and Google Scholar were searched for publications available through 18 July 2026, supplemented by Google searches.
+  · This review evaluates the mechanisms, efficacy, safety, and clinical relevance of current and emerging pharmacological therapies for MPHL.
+  · Expert opinion: Current medical treatments for MPHL are most effective in early disease stages, primarily preventing further miniaturization and increasing the diameter of existing hairs; however, patient expectations often exceed achievable outcomes, and hair transplantation remains the only reliable option for restoring hair in areas where terminal follicles have been lost.
+  · Advances in hair follicle biology, stem cell activation, and regenerative medicine are driving therapies aimed at preserving existing follicles and improving follicular regeneration, and personalized combinations of conventional and regenerative strategies may eventually provide more effective and durable outcomes than either approach alone.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
