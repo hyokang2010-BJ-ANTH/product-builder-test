@@ -1,85 +1,87 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "topic": {
     "source_type": "paper",
-    "pmid": "42993777",
-    "title": "Spruce-derived extracellular vesicles (SDEVs) improve hair loss by activating the proliferation of dermal papilla cells",
-    "journal": "PloS one",
-    "pub_date": "2026",
+    "pmid": "42993188",
+    "title": "Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients",
+    "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+    "pub_date": "2026 Nov 9",
     "authors": [
-      "Zhang K",
-      "Cao Y",
-      "Wang Z"
+      "Boaventura OL",
+      "Lages Laughton RES",
+      "Santos Souza Yahiro K"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42993777/",
-    "id": "pmid:42993777",
-    "abstract": "Hair loss is a global health problem, and current conventional treatments, despite their effectiveness in delaying hair loss and improving hair growth, suffer from significant side effects and limitations in individualized treatment. In recent years, the application of novel nanotechnology in dermatology and regenerative medicine has gained attention. In this context, researchers explored the potential of applying Spruce-Derived Extracellular Vesicles (SDEVs) to hair loss intervention. Through in vitro experiments and in vivo animal models, it was found that Spruce-Derived Extracellular Vesicles (SDEVs) could improve hair follicles by activating the proliferation of Dermal papilla cells (DPCs) to intervene in hair loss. Spruce-Derived Extracellular Vesicles (SDEVs) significantly improved hair weight, thickness, and luster, and reduced the inflammatory response associated with hair loss compared with conventional treatments. These findings provide new ideas for hair regrowth treatments and demonstrate the potential therapeutic value of Spruce-Derived Extracellular Vesicles (SDEVs) in hair loss prevention.",
-    "pmcid": "PMC13742931"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42993188/",
+    "id": "pmid:42993188",
+    "abstract": "Background: Follicular unit excision (FUE) has become predominant in hair restoration, yet precise recipient-site creation depends on accurate graft length. Follicular unit length (FUL) influences recipient-site depth, and mismatches may cause graft protrusion, dehydration, or folliculitis. The extent to which FUL varies predictably across donor regions within patients, enabling region-specific planning, remains poorly characterized. Objective: The aim of this study was to characterize FUL variation across 14 donor scalp areas and establish a reference value in an admixed Brazilian population. Materials and methods: This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019). In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons. Participant-level means were computed per area and overall; their mean defined the universal follicular length (UFL). Regional differences were analyzed using a linear mixed-effects model. Results: Among 13,720 grafts, UFL was 4.68 (SD, 0.13) mm. The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%). Age, weight, height, body mass index, and Norwood-Hamilton classification were not significantly associated with FUL. Conclusion: Follicular unit length varies significantly by donor scalp area. Region-informed planning and direct intraoperative measurement support precision-based FUE."
   },
   "script": {
-    "hook": "오늘의 논문 PloS one에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "PloS one에 실린 새 연구입니다",
-    "intro": "《PloS one》 - Spruce-derived extracellular vesicles (SDEVs) improve hair loss by activating the proliferation of dermal papilla cells",
+    "hook": "10.4% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "10.4%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]》 - Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients",
     "highlights": [
-      "Hair loss is a global health problem, and current conventional treatments, despite their effectiveness in delaying hair loss and improving hair growth, suffer from significant side effects and limitations in individualized treatment.",
-      "In recent years, the application of novel nanotechnology in dermatology and regenerative medicine has gained attention.",
-      "In this context, researchers explored the potential of applying Spruce-Derived Extracellular Vesicles (SDEVs) to hair loss intervention."
+      "Materials and methods: This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).",
+      "In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.",
+      "The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%)."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "1. Introduction",
+        "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Hair loss is a common dermatological and cosmetic concern that can susbstantially affect quality of life.With the development of science and technology, modern medicine has made significant progress in addressing hair loss, mainly through medication and surgery, but these methods either have side effects or require long-term adherence and are costly.",
-          "Therefore, increasing attention has been directed toward alternative or adjunctive approaches.",
-          "In this context, plants and their extracts show great potential for use in hair loss prevention and treatment due to their high safety, low side effects, and significant efficacy."
+          "Follicular unit excision (FUE) has become predominant in hair restoration, yet precise recipient-site creation depends on accurate graft length.",
+          "Follicular unit length (FUL) influences recipient-site depth, and mismatches may cause graft protrusion, dehydration, or folliculitis.",
+          "The extent to which FUL varies predictably across donor regions within patients, enabling region-specific planning, remains poorly characterized."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objective",
+        "kind": "intro",
+        "sentences": [
+          "The aim of this study was to characterize FUL variation across 14 donor scalp areas and establish a reference value in an admixed Brazilian population."
         ]
       },
       {
         "label": "연구 방법",
-        "title": "2. Materials and methods",
+        "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "The plant residue was discarded and the filtrate was collected, transferred to a 50 mL centrifuge tube and centrifuged at 2000 × g for 15 min at 4 °C, and the supernatant was collected and centrifuged at 120,000 × g for 90 min at 4°C.",
-          "Samples were lysed in BPP buffer containing 100 mM EDTA, 50 mM borax, 50 mM vitamin C, 30% sucrose, 100 mM Tris base, 1% Triton X-100, 1%−5% PVPP, and 5 mM DTT, and protease inhibitors, followed by grinding at −40 °C for four cycles.",
-          "Peptides were separated on an AUR3-15075 C18 analytical column at 50 °C and 300 nL/ min using a 30 min gradient of 2.2%−44% solvent B over 21 min, followed by 44%−90% over 3 min, holding at 90% for 3 min, and re-equilibration at 4% for 3 min."
+          "This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).",
+          "In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.",
+          "Participant-level means were computed per area and overall; their mean defined the universal follicular length (UFL).",
+          "Regional differences were analyzed using a linear mixed-effects model."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "3. Results",
+        "title": "Results",
         "kind": "results",
         "sentences": [
-          "NTA showed that the particles had a mean diameter of 151.9 nm, indicating that the preparation was enriched in nanoscale vesicles within the operational size range generally assigned to small extracellular vesicles.",
-          "The total protein concentration of the SDEV preparation was 3.537 mg/mL, confirming the presence of protein-containing material and providing a basis for dose normalization in subsequent experiments.",
-          "For Ki-67 immunofluorescence staining, cells were incubated with a rabbit monoclonal anti-Ki-67 antibody followed by an Alexa Fluor® 488-conjugated anti-rabbit IgG agment antibody.",
-          "Ki-67-positive cells in the G1, S, G2, and M phases are shown in green, whereas quiescent G0-phase cells are Ki-67-negative.",
-          "After 24 h of treatment, the proportion of EdU-positive cells increased from 20.0% to 23.5%, while the proportion of Ki-67-positive cells increased from 68.8% to 70.8%.",
-          "After 48 h of treatment, the proportion of EdU-positive cells increased from 18.9% to 23.5%, and the proportion of Ki-67-positive cells increased from 73.9% to 80.0%.",
-          "Azide 594: red, excitation/emission maxima: 590/615 nm, DAPI: blue, excitation/emission maxima: 358/461 nm, Alexa Fluor® 488: excitation/emission maxima: 495/519 nm."
+          "Among 13,720 grafts, UFL was 4.68 (SD, 0.13) mm.",
+          "The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).",
+          "Age, weight, height, body mass index, and Norwood-Hamilton classification were not significantly associated with FUL."
         ]
       },
       {
-        "label": "고찰",
-        "title": "4. Discussion",
-        "kind": "discussion",
+        "label": "결론",
+        "title": "Conclusion",
+        "kind": "conclusion",
         "sentences": [
-          "The present study suggests that spruce-derived extracellular vesicles (SDEVs) may activate dermal papilla cells (DPCs) and accelerate hair regrowth in depilated C57BL/6 mice.",
-          "Increased EdU incorporation and Ki-67 positivity provide more direct evidence of DPCs proliferation than the CCK-8 assay.",
-          "In the present animal experiment, more pronounced hair regrowth was observed in the SDEVs group on day 14, suggesting that SDEVs may accelerate the initiation and early progression of hair regeneration.",
-          "However, by day 21, hair regrowth was nearly complete in both the blank control and SDEV groups."
+          "Follicular unit length varies significantly by donor scalp area.",
+          "Region-informed planning and direct intraoperative measurement support precision-based FUE."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 PloS one에 실린 새 연구입니다\n\n[논문 정보]\n제목: Spruce-derived extracellular vesicles (SDEVs) improve hair loss by activating the proliferation of dermal papilla cells\n저널: PloS one\n저자: Zhang K, Cao Y, Wang Z 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/42993777/\n\n[한눈에 보기]\n- Hair loss is a global health problem, and current conventional treatments, despite their effectiveness in delaying hair loss and improving hair growth, suffer from significant side effects and limitations in individualized treatment.\n- In recent years, the application of novel nanotechnology in dermatology and regenerative medicine has gained attention.\n- In this context, researchers explored the potential of applying Spruce-Derived Extracellular Vesicles (SDEVs) to hair loss intervention.\n\n[상세 내용] (논문 전문 4개 섹션에서 발췌)\n\n◆ 배경 — 1. Introduction\n  · Hair loss is a common dermatological and cosmetic concern that can susbstantially affect quality of life.With the development of science and technology, modern medicine has made significant progress in addressing hair loss, mainly through medication and surgery, but these methods either have side effects or require long-term adherence and are costly.\n  · Therefore, increasing attention has been directed toward alternative or adjunctive approaches.\n  · In this context, plants and their extracts show great potential for use in hair loss prevention and treatment due to their high safety, low side effects, and significant efficacy.\n\n◆ 연구 방법 — 2. Materials and methods\n  · The plant residue was discarded and the filtrate was collected, transferred to a 50 mL centrifuge tube and centrifuged at 2000 × g for 15 min at 4 °C, and the supernatant was collected and centrifuged at 120,000 × g for 90 min at 4°C.\n  · Samples were lysed in BPP buffer containing 100 mM EDTA, 50 mM borax, 50 mM vitamin C, 30% sucrose, 100 mM Tris base, 1% Triton X-100, 1%−5% PVPP, and 5 mM DTT, and protease inhibitors, followed by grinding at −40 °C for four cycles.\n  · Peptides were separated on an AUR3-15075 C18 analytical column at 50 °C and 300 nL/ min using a 30 min gradient of 2.2%−44% solvent B over 21 min, followed by 44%−90% over 3 min, holding at 90% for 3 min, and re-equilibration at 4% for 3 min.\n\n◆ 주요 결과 — 3. Results\n  · NTA showed that the particles had a mean diameter of 151.9 nm, indicating that the preparation was enriched in nanoscale vesicles within the operational size range generally assigned to small extracellular vesicles.\n  · The total protein concentration of the SDEV preparation was 3.537 mg/mL, confirming the presence of protein-containing material and providing a basis for dose normalization in subsequent experiments.\n  · For Ki-67 immunofluorescence staining, cells were incubated with a rabbit monoclonal anti-Ki-67 antibody followed by an Alexa Fluor® 488-conjugated anti-rabbit IgG agment antibody.\n  · Ki-67-positive cells in the G1, S, G2, and M phases are shown in green, whereas quiescent G0-phase cells are Ki-67-negative.\n  · After 24 h of treatment, the proportion of EdU-positive cells increased from 20.0% to 23.5%, while the proportion of Ki-67-positive cells increased from 68.8% to 70.8%.\n  · After 48 h of treatment, the proportion of EdU-positive cells increased from 18.9% to 23.5%, and the proportion of Ki-67-positive cells increased from 73.9% to 80.0%.\n  · Azide 594: red, excitation/emission maxima: 590/615 nm, DAPI: blue, excitation/emission maxima: 358/461 nm, Alexa Fluor® 488: excitation/emission maxima: 495/519 nm.\n\n◆ 고찰 — 4. Discussion\n  · The present study suggests that spruce-derived extracellular vesicles (SDEVs) may activate dermal papilla cells (DPCs) and accelerate hair regrowth in depilated C57BL/6 mice.\n  · Increased EdU incorporation and Ki-67 positivity provide more direct evidence of DPCs proliferation than the CCK-8 assay.\n  · In the present animal experiment, more pronounced hair regrowth was observed in the SDEVs group on day 14, suggesting that SDEVs may accelerate the initiation and early progression of hair regeneration.\n  · However, by day 21, hair regrowth was nearly complete in both the blank control and SDEV groups.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42993777/",
-    "reference_title": "Spruce-derived extracellular vesicles (SDEVs) improve hair loss by activating the proliferation of dermal papilla cells",
+    "full_script": "[훅] 10.4% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients\n저널: Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]\n저자: Boaventura OL, Lages Laughton RES, Santos Souza Yahiro K 외\n발행: 2026 Nov 9\n원문: https://pubmed.ncbi.nlm.nih.gov/42993188/\n\n[한눈에 보기]\n- Materials and methods: This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).\n- In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.\n- The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Follicular unit excision (FUE) has become predominant in hair restoration, yet precise recipient-site creation depends on accurate graft length.\n  · Follicular unit length (FUL) influences recipient-site depth, and mismatches may cause graft protrusion, dehydration, or folliculitis.\n  · The extent to which FUL varies predictably across donor regions within patients, enabling region-specific planning, remains poorly characterized.\n\n◆ 배경 — Objective\n  · The aim of this study was to characterize FUL variation across 14 donor scalp areas and establish a reference value in an admixed Brazilian population.\n\n◆ 연구 방법 — Methods\n  · This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).\n  · In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.\n  · Participant-level means were computed per area and overall; their mean defined the universal follicular length (UFL).\n  · Regional differences were analyzed using a linear mixed-effects model.\n\n◆ 주요 결과 — Results\n  · Among 13,720 grafts, UFL was 4.68 (SD, 0.13) mm.\n  · The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).\n  · Age, weight, height, body mass index, and Norwood-Hamilton classification were not significantly associated with FUL.\n\n◆ 결론 — Conclusion\n  · Follicular unit length varies significantly by donor scalp area.\n  · Region-informed planning and direct intraoperative measurement support precision-based FUE.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/42993188/",
+    "reference_title": "Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients",
     "reference_type": "paper"
   },
   "assets": {
@@ -99,11 +101,8 @@
     "pptx": "slides.pptx",
     "paper_figures": [],
     "paper_tables": [],
-    "paper_source": {
-      "pmcid": "PMC13742931",
-      "license_note": "재사용 가능 라이선스"
-    },
-    "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13742931)에서 직접 캡처해 쓰세요."
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }

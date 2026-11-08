@@ -1,7 +1,20 @@
 {
-  "count": 71,
-  "updated": "2026-11-08",
+  "count": 72,
+  "updated": "2026-11-09",
   "items": [
+    {
+      "date": "2026-11-09",
+      "dir": "2026-11-09",
+      "title": "Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients",
+      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993188/",
+      "hook_accent": "10.4%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-09/paper_card.png",
+      "pptx": "2026-11-09/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-08",
       "dir": "2026-11-08",

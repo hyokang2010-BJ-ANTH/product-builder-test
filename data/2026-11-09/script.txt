@@ -1,0 +1,45 @@
+[훅] 10.4% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients
+저널: Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]
+저자: Boaventura OL, Lages Laughton RES, Santos Souza Yahiro K 외
+발행: 2026 Nov 9
+원문: https://pubmed.ncbi.nlm.nih.gov/42993188/
+
+[한눈에 보기]
+- Materials and methods: This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).
+- In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.
+- The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).
+
+[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Follicular unit excision (FUE) has become predominant in hair restoration, yet precise recipient-site creation depends on accurate graft length.
+  · Follicular unit length (FUL) influences recipient-site depth, and mismatches may cause graft protrusion, dehydration, or folliculitis.
+  · The extent to which FUL varies predictably across donor regions within patients, enabling region-specific planning, remains poorly characterized.
+
+◆ 배경 — Objective
+  · The aim of this study was to characterize FUL variation across 14 donor scalp areas and establish a reference value in an admixed Brazilian population.
+
+◆ 연구 방법 — Methods
+  · This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).
+  · In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.
+  · Participant-level means were computed per area and overall; their mean defined the universal follicular length (UFL).
+  · Regional differences were analyzed using a linear mixed-effects model.
+
+◆ 주요 결과 — Results
+  · Among 13,720 grafts, UFL was 4.68 (SD, 0.13) mm.
+  · The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).
+  · Age, weight, height, body mass index, and Norwood-Hamilton classification were not significantly associated with FUL.
+
+◆ 결론 — Conclusion
+  · Follicular unit length varies significantly by donor scalp area.
+  · Region-informed planning and direct intraoperative measurement support precision-based FUE.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
