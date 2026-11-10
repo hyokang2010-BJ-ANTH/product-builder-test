@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-10",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43000218",
+    "title": "MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia",
+    "journal": "Aging cell",
+    "pub_date": "2026 Nov",
+    "authors": [
+      "Chen J",
+      "Hou Y",
+      "Ye K"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43000218/",
+    "id": "pmid:43000218",
+    "abstract": "Aging leads to significant hair changes, including alopecia and graying, yet the underlying mechanisms remain unclear. Emerging evidence highlights the role of the extracellular microenvironment, particularly dermal white adipose tissue (dWAT), in regulating hair regeneration and pigmentation. Previous studies showed that young murine dWAT improves age-related hair phenotypes via follistatin upregulation. This study investigates key molecular mechanisms in dWAT governing hair aging, aiming to inform targeted therapies for age-related hair disorders. Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT. MCP-1 recruits macrophages to perifollicular regions. Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17. Transcriptomic analysis revealed macrophage absence activated signaling pathways essential for hair growth and melanogenesis, upregulating hair follicle development genes. Conversely, M0 and M2 macrophages were associated with earlier anagen entry, whereas M1 macrophages delayed anagen transition. These findings identify dWAT as a pivotal regulator of age-associated hair changes, in which MCP-1-mediated macrophage accumulation is critically involved."
+  },
+  "script": {
+    "hook": "오늘의 논문 Aging cell에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Aging cell에 실린 새 연구입니다",
+    "intro": "《Aging cell》 - MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia",
+    "highlights": [
+      "Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.",
+      "MCP-1 recruits macrophages to perifollicular regions.",
+      "Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Aging leads to significant hair changes, including alopecia and graying, yet the underlying mechanisms remain unclear.",
+          "Emerging evidence highlights the role of the extracellular microenvironment, particularly dermal white adipose tissue (dWAT), in regulating hair regeneration and pigmentation."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "This study investigates key molecular mechanisms in dWAT governing hair aging, aiming to inform targeted therapies for age-related hair disorders.",
+          "Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Previous studies showed that young murine dWAT improves age-related hair phenotypes via follistatin upregulation.",
+          "MCP-1 recruits macrophages to perifollicular regions.",
+          "Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.",
+          "Transcriptomic analysis revealed macrophage absence activated signaling pathways essential for hair growth and melanogenesis, upregulating hair follicle development genes.",
+          "Conversely, M0 and M2 macrophages were associated with earlier anagen entry, whereas M1 macrophages delayed anagen transition."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 오늘의 논문 Aging cell에 실린 새 연구입니다\n\n[논문 정보]\n제목: MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia\n저널: Aging cell\n저자: Chen J, Hou Y, Ye K 외\n발행: 2026 Nov\n원문: https://pubmed.ncbi.nlm.nih.gov/43000218/\n\n[한눈에 보기]\n- Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.\n- MCP-1 recruits macrophages to perifollicular regions.\n- Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Aging leads to significant hair changes, including alopecia and graying, yet the underlying mechanisms remain unclear.\n  · Emerging evidence highlights the role of the extracellular microenvironment, particularly dermal white adipose tissue (dWAT), in regulating hair regeneration and pigmentation.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · This study investigates key molecular mechanisms in dWAT governing hair aging, aiming to inform targeted therapies for age-related hair disorders.\n  · Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Previous studies showed that young murine dWAT improves age-related hair phenotypes via follistatin upregulation.\n  · MCP-1 recruits macrophages to perifollicular regions.\n  · Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.\n  · Transcriptomic analysis revealed macrophage absence activated signaling pathways essential for hair growth and melanogenesis, upregulating hair follicle development genes.\n  · Conversely, M0 and M2 macrophages were associated with earlier anagen entry, whereas M1 macrophages delayed anagen transition.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43000218/",
+    "reference_title": "MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

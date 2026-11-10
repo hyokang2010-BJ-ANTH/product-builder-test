@@ -1,41 +1,33 @@
-[훅] 10.4% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 오늘의 논문 Aging cell에 실린 새 연구입니다
 
 [논문 정보]
-제목: Follicular Unit Length Variation Across 14 Scalp Areas During Follicular Unit Excision: Analysis of 13,720 Grafts From 98 Patients
-저널: Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]
-저자: Boaventura OL, Lages Laughton RES, Santos Souza Yahiro K 외
-발행: 2026 Nov 9
-원문: https://pubmed.ncbi.nlm.nih.gov/42993188/
+제목: MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia
+저널: Aging cell
+저자: Chen J, Hou Y, Ye K 외
+발행: 2026 Nov
+원문: https://pubmed.ncbi.nlm.nih.gov/43000218/
 
 [한눈에 보기]
-- Materials and methods: This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).
-- In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.
-- The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).
+- Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.
+- MCP-1 recruits macrophages to perifollicular regions.
+- Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.
 
-[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background
-  · Follicular unit excision (FUE) has become predominant in hair restoration, yet precise recipient-site creation depends on accurate graft length.
-  · Follicular unit length (FUL) influences recipient-site depth, and mismatches may cause graft protrusion, dehydration, or folliculitis.
-  · The extent to which FUL varies predictably across donor regions within patients, enabling region-specific planning, remains poorly characterized.
+◆ 배경 — Background (자동 구분)
+  · Aging leads to significant hair changes, including alopecia and graying, yet the underlying mechanisms remain unclear.
+  · Emerging evidence highlights the role of the extracellular microenvironment, particularly dermal white adipose tissue (dWAT), in regulating hair regeneration and pigmentation.
 
-◆ 배경 — Objective
-  · The aim of this study was to characterize FUL variation across 14 donor scalp areas and establish a reference value in an admixed Brazilian population.
+◆ 연구 방법 — Methods (자동 구분)
+  · This study investigates key molecular mechanisms in dWAT governing hair aging, aiming to inform targeted therapies for age-related hair disorders.
+  · Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.
 
-◆ 연구 방법 — Methods
-  · This cross-sectional observational study measured intraoperative FUL in 98 men undergoing first-time FUE at a single Brazilian center (May 2018-July 2019).
-  · In each of 14 scalp areas, 10 intact grafts per participant were measured in consensus by 2 surgeons.
-  · Participant-level means were computed per area and overall; their mean defined the universal follicular length (UFL).
-  · Regional differences were analyzed using a linear mixed-effects model.
-
-◆ 주요 결과 — Results
-  · Among 13,720 grafts, UFL was 4.68 (SD, 0.13) mm.
-  · The mean FUL ranged from 4.43 mm (inferior temporal) to 4.89 mm (central superior occipital; difference, 0.46 mm; 10.4%).
-  · Age, weight, height, body mass index, and Norwood-Hamilton classification were not significantly associated with FUL.
-
-◆ 결론 — Conclusion
-  · Follicular unit length varies significantly by donor scalp area.
-  · Region-informed planning and direct intraoperative measurement support precision-based FUE.
+◆ 주요 결과 — Results (자동 구분)
+  · Previous studies showed that young murine dWAT improves age-related hair phenotypes via follistatin upregulation.
+  · MCP-1 recruits macrophages to perifollicular regions.
+  · Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.
+  · Transcriptomic analysis revealed macrophage absence activated signaling pathways essential for hair growth and melanogenesis, upregulating hair follicle development genes.
+  · Conversely, M0 and M2 macrophages were associated with earlier anagen entry, whereas M1 macrophages delayed anagen transition.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
