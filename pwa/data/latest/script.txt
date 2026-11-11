@@ -1,33 +1,41 @@
-[훅] 오늘의 논문 Aging cell에 실린 새 연구입니다
+[훅] 81.7% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: MCP-1 From Aging Dermal Adipose Tissue Impairs Hair Follicle Cycling via Macrophage Recruitment: Implications for Age-Related Alopecia
-저널: Aging cell
-저자: Chen J, Hou Y, Ye K 외
-발행: 2026 Nov
-원문: https://pubmed.ncbi.nlm.nih.gov/43000218/
+제목: Alopecia areata-associated white hair growth can occur independent of follicular cycling
+저널: The British journal of dermatology
+저자: Zhang X, Yan X, Ye Y 외
+발행: 2026 Nov 10
+원문: https://pubmed.ncbi.nlm.nih.gov/43006142/
 
 [한눈에 보기]
-- Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.
-- MCP-1 recruits macrophages to perifollicular regions.
-- Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.
+- Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.
+- Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.
+- The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05).
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · Aging leads to significant hair changes, including alopecia and graying, yet the underlying mechanisms remain unclear.
-  · Emerging evidence highlights the role of the extracellular microenvironment, particularly dermal white adipose tissue (dWAT), in regulating hair regeneration and pigmentation.
+◆ 배경 — Background
+  · Studies of alopecia areata-associated white hair (AA-WH) are scarce.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · This study investigates key molecular mechanisms in dWAT governing hair aging, aiming to inform targeted therapies for age-related hair disorders.
-  · Using in vivo murine models, protein arrays, FACS, immunofluorescence, and transcriptomics, we identified monocyte chemoattractant protein-1 (MCP-1) as a critical factor secreted by aged dWAT.
+◆ 배경 — Objectives
+  · To stratify and evaluate the pathophysiological behaviour of AA-WH.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Previous studies showed that young murine dWAT improves age-related hair phenotypes via follistatin upregulation.
-  · MCP-1 recruits macrophages to perifollicular regions.
-  · Depleting skin macrophages in aged mice shifted hair follicles from telogen to anagen and upregulated melanocyte-lineage proteins, including DCT, Tyrosinase-related protein 1 (TYRP1), and Pmel17.
-  · Transcriptomic analysis revealed macrophage absence activated signaling pathways essential for hair growth and melanogenesis, upregulating hair follicle development genes.
-  · Conversely, M0 and M2 macrophages were associated with earlier anagen entry, whereas M1 macrophages delayed anagen transition.
+◆ 연구 방법 — Methods
+  · This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination.
+
+◆ 주요 결과 — Results
+  · AA-WH was identified in 16% (n = 826/5155) of patients with AA.
+  · Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.
+  · Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.
+  · Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).
+  · Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.
+  · Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU).
+
+◆ 결론 — Conclusions
+  · AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.
+  · Hairline AA-WH correlates with elevated T helper 2-cytokine activity.
+  · Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.
+  · Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

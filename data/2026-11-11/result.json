@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-11",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43006142",
+    "title": "Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+    "journal": "The British journal of dermatology",
+    "pub_date": "2026 Nov 10",
+    "authors": [
+      "Zhang X",
+      "Yan X",
+      "Ye Y"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43006142/",
+    "id": "pmid:43006142",
+    "abstract": "Background: Studies of alopecia areata-associated white hair (AA-WH) are scarce. Objectives: To stratify and evaluate the pathophysiological behaviour of AA-WH. Methods: This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination. Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA. Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old. Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests. Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05). Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified. Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU). The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05). Patients with AA-WH in their hairline or borderline of a patchy lesion tended to exhibit elevated tIgE and interleukin-4 (P values < 0.05). Compared with AA-NWH, AA-WH showed more frequent hair root depigmentation, trichomalacia, follicular pigment casts, regrowth of white vellus hair and weakly pigmented hair bulbs (all P values < 0.05). Three mechanisms are proposed for AA-WH: white vellus hair growth, transformation of pigmented terminal hair or persistence of grey hair. In situ depigmentation of pigmented terminal hairs could be observed. In patients with AA-WH with follow-up, most (81.7%, n = 353/432) recovered following treatment. Conclusions: AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles. Hairline AA-WH correlates with elevated T helper 2-cytokine activity. Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH. Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling."
+  },
+  "script": {
+    "hook": "81.7% 이 숫자, 탈모 연구가 새로 내놨습니다",
+    "hook_accent": "81.7%",
+    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+    "intro": "《The British journal of dermatology》 - Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+    "highlights": [
+      "Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.",
+      "Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.",
+      "The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05)."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background",
+        "kind": "intro",
+        "sentences": [
+          "Studies of alopecia areata-associated white hair (AA-WH) are scarce."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objectives",
+        "kind": "intro",
+        "sentences": [
+          "To stratify and evaluate the pathophysiological behaviour of AA-WH."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
+        "sentences": [
+          "AA-WH was identified in 16% (n = 826/5155) of patients with AA.",
+          "Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.",
+          "Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.",
+          "Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).",
+          "Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.",
+          "Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU)."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
+        "sentences": [
+          "AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.",
+          "Hairline AA-WH correlates with elevated T helper 2-cytokine activity.",
+          "Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.",
+          "Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 81.7% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Alopecia areata-associated white hair growth can occur independent of follicular cycling\n저널: The British journal of dermatology\n저자: Zhang X, Yan X, Ye Y 외\n발행: 2026 Nov 10\n원문: https://pubmed.ncbi.nlm.nih.gov/43006142/\n\n[한눈에 보기]\n- Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.\n- Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.\n- The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Studies of alopecia areata-associated white hair (AA-WH) are scarce.\n\n◆ 배경 — Objectives\n  · To stratify and evaluate the pathophysiological behaviour of AA-WH.\n\n◆ 연구 방법 — Methods\n  · This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination.\n\n◆ 주요 결과 — Results\n  · AA-WH was identified in 16% (n = 826/5155) of patients with AA.\n  · Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.\n  · Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.\n  · Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).\n  · Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.\n  · Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU).\n\n◆ 결론 — Conclusions\n  · AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.\n  · Hairline AA-WH correlates with elevated T helper 2-cytokine activity.\n  · Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.\n  · Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43006142/",
+    "reference_title": "Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

@@ -1,7 +1,20 @@
 {
-  "count": 73,
-  "updated": "2026-11-10",
+  "count": 74,
+  "updated": "2026-11-11",
   "items": [
+    {
+      "date": "2026-11-11",
+      "dir": "2026-11-11",
+      "title": "Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+      "journal": "The British journal of dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006142/",
+      "hook_accent": "81.7%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-11/paper_card.png",
+      "pptx": "2026-11-11/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-10",
       "dir": "2026-11-10",
