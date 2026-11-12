@@ -1,41 +1,33 @@
-[훅] 81.7% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Alopecia areata-associated white hair growth can occur independent of follicular cycling
-저널: The British journal of dermatology
-저자: Zhang X, Yan X, Ye Y 외
-발행: 2026 Nov 10
-원문: https://pubmed.ncbi.nlm.nih.gov/43006142/
+제목: [Microsurgical hair transplantation - safe and sustainable]
+저널: Dermatologie (Heidelberg, Germany)
+저자: Finner AM, Ognjenovic M 외
+발행: 2026 Nov 11
+원문: https://pubmed.ncbi.nlm.nih.gov/43012980/
 
 [한눈에 보기]
-- Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.
-- Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.
-- The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05).
+- A hair transplant may restore advanced androgenetic alopecia or scalp scars.
+- Suitable patients have sufficient donor hair, at least for their current stage of alopecia.
+- In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).
 
-[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background
-  · Studies of alopecia areata-associated white hair (AA-WH) are scarce.
+◆ 배경 — Background (자동 구분)
+  · A hair transplant may restore advanced androgenetic alopecia or scalp scars.
+  · Suitable patients have sufficient donor hair, at least for their current stage of alopecia.
+  · The planning of the hair line, graft number, and hair distribution should be sustainable as the alopecia may progress and the donor hair is limited.
 
-◆ 배경 — Objectives
-  · To stratify and evaluate the pathophysiological behaviour of AA-WH.
+◆ 연구 방법 — Methods (자동 구분)
+  · The procedure is performed in local anaesthesia and consists of several manual steps, using microsurgical instruments and loupe magnification.
+  · In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).
 
-◆ 연구 방법 — Methods
-  · This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination.
-
-◆ 주요 결과 — Results
-  · AA-WH was identified in 16% (n = 826/5155) of patients with AA.
-  · Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.
-  · Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.
-  · Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).
-  · Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.
-  · Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU).
-
-◆ 결론 — Conclusions
-  · AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.
-  · Hairline AA-WH correlates with elevated T helper 2-cytokine activity.
-  · Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.
-  · Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling.
+◆ 주요 결과 — Results (자동 구분)
+  · Hair-preserving medications are therefore recommended.
+  · Digital trichoscopy and artificial intelligence (AI)-assisted hair measurements may aid in the assessment of the recipient and donor area and help to exclude inflammatory hair and scalp conditions.
+  · Each skin cut should be performed by the operating hair surgeon.
+  · This includes the nontraumatic excision of the follicular units and the creation of recipient sites in a natural direction, followed by a careful graft insertion.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

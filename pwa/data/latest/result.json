@@ -1,87 +1,70 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "topic": {
     "source_type": "paper",
-    "pmid": "43006142",
-    "title": "Alopecia areata-associated white hair growth can occur independent of follicular cycling",
-    "journal": "The British journal of dermatology",
-    "pub_date": "2026 Nov 10",
+    "pmid": "43012980",
+    "title": "[Microsurgical hair transplantation - safe and sustainable]",
+    "journal": "Dermatologie (Heidelberg, Germany)",
+    "pub_date": "2026 Nov 11",
     "authors": [
-      "Zhang X",
-      "Yan X",
-      "Ye Y"
+      "Finner AM",
+      "Ognjenovic M"
     ],
     "pubtypes": [
-      "Journal Article"
+      "English Abstract",
+      "Journal Article",
+      "Review"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43006142/",
-    "id": "pmid:43006142",
-    "abstract": "Background: Studies of alopecia areata-associated white hair (AA-WH) are scarce. Objectives: To stratify and evaluate the pathophysiological behaviour of AA-WH. Methods: This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination. Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA. Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old. Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests. Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05). Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified. Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU). The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05). Patients with AA-WH in their hairline or borderline of a patchy lesion tended to exhibit elevated tIgE and interleukin-4 (P values < 0.05). Compared with AA-NWH, AA-WH showed more frequent hair root depigmentation, trichomalacia, follicular pigment casts, regrowth of white vellus hair and weakly pigmented hair bulbs (all P values < 0.05). Three mechanisms are proposed for AA-WH: white vellus hair growth, transformation of pigmented terminal hair or persistence of grey hair. In situ depigmentation of pigmented terminal hairs could be observed. In patients with AA-WH with follow-up, most (81.7%, n = 353/432) recovered following treatment. Conclusions: AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles. Hairline AA-WH correlates with elevated T helper 2-cytokine activity. Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH. Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43012980/",
+    "id": "pmid:43012980",
+    "abstract": "A hair transplant may restore advanced androgenetic alopecia or scalp scars. Suitable patients have sufficient donor hair, at least for their current stage of alopecia. The planning of the hair line, graft number, and hair distribution should be sustainable as the alopecia may progress and the donor hair is limited. Hair-preserving medications are therefore recommended. Digital trichoscopy and artificial intelligence (AI)-assisted hair measurements may aid in the assessment of the recipient and donor area and help to exclude inflammatory hair and scalp conditions. The procedure is performed in local anaesthesia and consists of several manual steps, using microsurgical instruments and loupe magnification. In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE). Each skin cut should be performed by the operating hair surgeon. This includes the nontraumatic excision of the follicular units and the creation of recipient sites in a natural direction, followed by a careful graft insertion. Automated devices may assist the hair surgeon. For a successful procedure, an individual treatment plan, careful graft handling and follow-up care by the hair surgeon are crucial. Referring dermatologists should advise patients, especially when they are younger, to prefer a nonaggressive surgical and individually tailored approach as well as concomitant medical therapy. A procedure which is not performed professionally, especially by nonlicensed personnel, may carry several aesthetic and medical risks. On the other hand, a well-done microsurgical hair transplantation may lead to a long-lasting natural hair restoration."
   },
   "script": {
-    "hook": "81.7% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "81.7%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《The British journal of dermatology》 - Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+    "hook": "모발이식 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "모발이식",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Dermatologie (Heidelberg, Germany)》 - [Microsurgical hair transplantation - safe and sustainable]",
     "highlights": [
-      "Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.",
-      "Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.",
-      "The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05)."
+      "A hair transplant may restore advanced androgenetic alopecia or scalp scars.",
+      "Suitable patients have sufficient donor hair, at least for their current stage of alopecia.",
+      "In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE)."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Studies of alopecia areata-associated white hair (AA-WH) are scarce."
-        ]
-      },
-      {
-        "label": "배경",
-        "title": "Objectives",
-        "kind": "intro",
-        "sentences": [
-          "To stratify and evaluate the pathophysiological behaviour of AA-WH."
+          "A hair transplant may restore advanced androgenetic alopecia or scalp scars.",
+          "Suitable patients have sufficient donor hair, at least for their current stage of alopecia.",
+          "The planning of the hair line, graft number, and hair distribution should be sustainable as the alopecia may progress and the donor hair is limited."
         ]
       },
       {
         "label": "연구 방법",
-        "title": "Methods",
+        "title": "Methods (자동 구분)",
         "kind": "methods",
         "sentences": [
-          "This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination."
+          "The procedure is performed in local anaesthesia and consists of several manual steps, using microsurgical instruments and loupe magnification.",
+          "In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE)."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "AA-WH was identified in 16% (n = 826/5155) of patients with AA.",
-          "Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.",
-          "Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.",
-          "Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).",
-          "Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.",
-          "Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU)."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusions",
-        "kind": "conclusion",
-        "sentences": [
-          "AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.",
-          "Hairline AA-WH correlates with elevated T helper 2-cytokine activity.",
-          "Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.",
-          "Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling."
+          "Hair-preserving medications are therefore recommended.",
+          "Digital trichoscopy and artificial intelligence (AI)-assisted hair measurements may aid in the assessment of the recipient and donor area and help to exclude inflammatory hair and scalp conditions.",
+          "Each skin cut should be performed by the operating hair surgeon.",
+          "This includes the nontraumatic excision of the follicular units and the creation of recipient sites in a natural direction, followed by a careful graft insertion."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 81.7% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Alopecia areata-associated white hair growth can occur independent of follicular cycling\n저널: The British journal of dermatology\n저자: Zhang X, Yan X, Ye Y 외\n발행: 2026 Nov 10\n원문: https://pubmed.ncbi.nlm.nih.gov/43006142/\n\n[한눈에 보기]\n- Results: AA-WH was identified in 16% (n = 826/5155) of patients with AA.\n- Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.\n- The diffuse uniform AA-WH subtype was associated with elevated total IgE (tIgE) and the presence of dust-mite-specific IgE in males ≤ 14 years old, and with abnormal thyroid function and autoantibodies, and positive ANA in females ≥36 years old (all P values < 0.05).\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Studies of alopecia areata-associated white hair (AA-WH) are scarce.\n\n◆ 배경 — Objectives\n  · To stratify and evaluate the pathophysiological behaviour of AA-WH.\n\n◆ 연구 방법 — Methods\n  · This large-scale retrospective study used clinical data, dermatoscopic findings and histopathological examination.\n\n◆ 주요 결과 — Results\n  · AA-WH was identified in 16% (n = 826/5155) of patients with AA.\n  · Incidence increased with grey hair and age, up to 44.4% (n = 79/178) in patients ≥55 years old.\n  · Risk factors for AA-WH included older onset age, higher Severity of Alopecia Tool (SALT) scores, comorbidity with vitiligo, abnormality in thyroid function/autoantibodies and positive antinuclear antibody (ANA) tests.\n  · Compared with patients without AA-WH (AA-NWH), patients with AA-WH were older in age (P < 0.05) and in age of onset of AA (P < 0.05).\n  · Clinical AA-WH patterns could be mosaic or uniformly white; localized, diffuse and hairline distribution patterns were identified.\n  · Mosaic presentations predominated across all AA clinical subtypes, except for alopecia totalis/universalis (AT/AU).\n\n◆ 결론 — Conclusions\n  · AA-WH correlates with ageing, grey hair and autoimmunity across all age groups and allergy in juveniles.\n  · Hairline AA-WH correlates with elevated T helper 2-cytokine activity.\n  · Depigmentation of hair roots and growth of white vellus hairs contribute to AA-WH.\n  · Both depigmentation and repigmentation of hairs were observed without evidence of follicular cycling.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43006142/",
-    "reference_title": "Alopecia areata-associated white hair growth can occur independent of follicular cycling",
+    "full_script": "[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: [Microsurgical hair transplantation - safe and sustainable]\n저널: Dermatologie (Heidelberg, Germany)\n저자: Finner AM, Ognjenovic M 외\n발행: 2026 Nov 11\n원문: https://pubmed.ncbi.nlm.nih.gov/43012980/\n\n[한눈에 보기]\n- A hair transplant may restore advanced androgenetic alopecia or scalp scars.\n- Suitable patients have sufficient donor hair, at least for their current stage of alopecia.\n- In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · A hair transplant may restore advanced androgenetic alopecia or scalp scars.\n  · Suitable patients have sufficient donor hair, at least for their current stage of alopecia.\n  · The planning of the hair line, graft number, and hair distribution should be sustainable as the alopecia may progress and the donor hair is limited.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · The procedure is performed in local anaesthesia and consists of several manual steps, using microsurgical instruments and loupe magnification.\n  · In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).\n\n◆ 주요 결과 — Results (자동 구분)\n  · Hair-preserving medications are therefore recommended.\n  · Digital trichoscopy and artificial intelligence (AI)-assisted hair measurements may aid in the assessment of the recipient and donor area and help to exclude inflammatory hair and scalp conditions.\n  · Each skin cut should be performed by the operating hair surgeon.\n  · This includes the nontraumatic excision of the follicular units and the creation of recipient sites in a natural direction, followed by a careful graft insertion.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43012980/",
+    "reference_title": "[Microsurgical hair transplantation - safe and sustainable]",
     "reference_type": "paper"
   },
   "assets": {
