@@ -1,33 +1,39 @@
-[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다
+[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: [Microsurgical hair transplantation - safe and sustainable]
-저널: Dermatologie (Heidelberg, Germany)
-저자: Finner AM, Ognjenovic M 외
+제목: Forty-Eight-Week Real-World Outcomes of Ritlecitinib in Alopecia Areata: Delayed Responses and Predictive Value of Change in SALT Score at Week 24
+저널: Dermatology and therapy
+저자: Kuwabiraki H, Imanishi H, Watanabe M 외
 발행: 2026 Nov 11
-원문: https://pubmed.ncbi.nlm.nih.gov/43012980/
+원문: https://pubmed.ncbi.nlm.nih.gov/43015456/
 
 [한눈에 보기]
-- A hair transplant may restore advanced androgenetic alopecia or scalp scars.
-- Suitable patients have sufficient donor hair, at least for their current stage of alopecia.
-- In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).
+- Results: At week 48, 39.3% (11/28) and 35.7% (10/28) of patients achieved SALT scores ≤ 20 and ≤ 10, respectively.
+- Responders at week 48 (week-48 responders) showed greater improvement in ΔSALT at week 24 (week-24 ΔSALT) than non-responders (median: - 50.0 vs.
+- ROC analysis showed that week-24 ΔSALT had predictive value for week-48 response (area under the curve [AUC] 0.81; 95% confidence interval 0.619-1.000), with a cutoff of - 40 yielding 81.8% sensitivity and 88.2% specificity.
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Background (자동 구분)
-  · A hair transplant may restore advanced androgenetic alopecia or scalp scars.
-  · Suitable patients have sufficient donor hair, at least for their current stage of alopecia.
-  · The planning of the hair line, graft number, and hair distribution should be sustainable as the alopecia may progress and the donor hair is limited.
+◆ 배경 — Introduction
+  · Alopecia areata (AA) is an autoimmune disease characterized by non-scarring hair loss.
+  · Although ritlecitinib has demonstrated efficacy in moderate-to-severe AA, real-world data on 48-week outcomes and predictors of longer-term response remain limited.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · The procedure is performed in local anaesthesia and consists of several manual steps, using microsurgical instruments and loupe magnification.
-  · In most cases, each follicular unit containing 1-4 hairs is harvested individually using special micropunches (follicular unit excision, FUE).
+◆ 연구 방법 — Methods
+  · We conducted a retrospective, single-center, observational study of 41 patients with moderate-to-severe AA who received ritlecitinib (50 mg/day) at Osaka Metropolitan University Hospital, Japan.
+  · Effectiveness and safety were evaluated for up to 48 weeks.
+  · Patients evaluable at week 48 were classified as responders (Severity of Alopecia Tool [SALT] score ≤ 20) or non-responders (SALT score > 20).
+  · The predictive value of the change in SALT score from baseline (ΔSALT) for response at week 48 was assessed using receiver operating characteristic (ROC) analysis.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Hair-preserving medications are therefore recommended.
-  · Digital trichoscopy and artificial intelligence (AI)-assisted hair measurements may aid in the assessment of the recipient and donor area and help to exclude inflammatory hair and scalp conditions.
-  · Each skin cut should be performed by the operating hair surgeon.
-  · This includes the nontraumatic excision of the follicular units and the creation of recipient sites in a natural direction, followed by a careful graft insertion.
+◆ 주요 결과 — Results
+  · At week 48, 39.3% (11/28) and 35.7% (10/28) of patients achieved SALT scores ≤ 20 and ≤ 10, respectively.
+  · Responders at week 48 (week-48 responders) showed greater improvement in ΔSALT at week 24 (week-24 ΔSALT) than non-responders (median: - 50.0 vs. 0.0; P = 0.006).
+  · Of the 21 patients who had not achieved a SALT score ≤ 20 at week 24, five subsequently achieved this outcome at week 48.
+  · ROC analysis showed that week-24 ΔSALT had predictive value for week-48 response (area under the curve [AUC] 0.81; 95% confidence interval 0.619-1.000), with a cutoff of - 40 yielding 81.8% sensitivity and 88.2% specificity.
+  · Two patients (4.9%) discontinued ritlecitinib because of adverse events; all other adverse events were mild and did not require treatment discontinuation.
+
+◆ 결론 — Conclusions
+  · Ritlecitinib showed real-world effectiveness through 48 weeks in patients with moderate-to-severe AA.
+  · Delayed responses beyond week 24 were observed, and week-24 ΔSALT may have potential value in predicting response at week 48, although these findings require validation in larger cohorts.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

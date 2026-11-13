@@ -1,7 +1,20 @@
 {
-  "count": 75,
-  "updated": "2026-11-12",
+  "count": 76,
+  "updated": "2026-11-13",
   "items": [
+    {
+      "date": "2026-11-13",
+      "dir": "2026-11-13",
+      "title": "Forty-Eight-Week Real-World Outcomes of Ritlecitinib in Alopecia Areata: Delayed Responses and Predictive Value of Change in SALT Score at Week 24",
+      "journal": "Dermatology and therapy",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43015456/",
+      "hook_accent": "95%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-13/paper_card.png",
+      "pptx": "2026-11-13/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-12",
       "dir": "2026-11-12",
