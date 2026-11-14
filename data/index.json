@@ -1,7 +1,20 @@
 {
-  "count": 76,
-  "updated": "2026-11-13",
+  "count": 77,
+  "updated": "2026-11-14",
   "items": [
+    {
+      "date": "2026-11-14",
+      "dir": "2026-11-14",
+      "title": "Reflectance confocal microscopy and line-field confocal optical coherence tomography in hair loss: A systematic review and a glossary of nomenclature",
+      "journal": "JAAD international",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43022282/",
+      "hook_accent": "517명",
+      "hook_sub": "대규모 연구에서 나온 결과입니다",
+      "thumb": "2026-11-14/paper_card.png",
+      "pptx": "2026-11-14/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-13",
       "dir": "2026-11-13",
