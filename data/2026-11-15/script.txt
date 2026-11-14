@@ -1,0 +1,37 @@
+[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Treatment Timing and Early Hair Regrowth in Relation to Response to Intravenous Methylprednisolone Pulse Therapy in Alopecia Areata: A Retrospective Cohort Study
+저널: The Journal of dermatology
+저자: Ishizaki M, Araki T, Miyagawa M 외
+발행: 2026 Nov 13
+원문: https://pubmed.ncbi.nlm.nih.gov/43031367/
+
+[한눈에 보기]
+- Shorter disease duration was associated with response (OR: per 1-unit increase in ln(months): 0.69, 95% CI: 0.51-0.95; p = 0.021), as was treatment within 6 months (OR: 4.89, 95% CI: 1.76-13.63; p = 0.002).
+- After excluding possible self-healing acute diffuse and total alopecia cases, the adjusted association between disease duration and 6-month treatment response was no longer significant (OR: 0.74, 95% CI: 0.54-1.02; p = 0.063), whereas treatment initiation within 6 months of disease onset remained significantly associated with response.
+- Among 46 patients with 3-month data, hair regrowth predicted the 6-month response (AUC: 0.872); a 20% threshold yielded 100% specificity and 70.8% sensitivity.
+
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background (자동 구분)
+  · At 6 months, 39 patients (54.2%) responded.
+
+◆ 연구 방법 — Methods (자동 구분)
+  · We retrospectively analyzed 72 intravenous methylprednisolone (IVMP)-treated patients with moderate to severe alopecia areata to assess predictors of ≥ 50% improvement in the Severity of Alopecia Tool score at 6 months, the predictive value of 3-month hair regrowth and exploratory long-term outcomes.
+
+◆ 주요 결과 — Results (자동 구분)
+  · Shorter disease duration was associated with response (OR: per 1-unit increase in ln(months): 0.69, 95% CI: 0.51-0.95; p = 0.021), as was treatment within 6 months (OR: 4.89, 95% CI: 1.76-13.63; p = 0.002).
+  · After excluding possible self-healing acute diffuse and total alopecia cases, the adjusted association between disease duration and 6-month treatment response was no longer significant (OR: 0.74, 95% CI: 0.54-1.02; p = 0.063), whereas treatment initiation within 6 months of disease onset remained significantly associated with response.
+  · Among 46 patients with 3-month data, hair regrowth predicted the 6-month response (AUC: 0.872); a 20% threshold yielded 100% specificity and 70.8% sensitivity.
+  · Exploratory long-term outcomes were more favorable with shorter disease duration.
+
+◆ 결론 — Conclusion (자동 구분)
+  · Three-month hair regrowth may provide an early quantitative indicator of IVMP response, while the independent continuous association between disease duration and outcome warrants further investigation.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
