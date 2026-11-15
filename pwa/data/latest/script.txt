@@ -1,33 +1,47 @@
-[훅] 100% 이 숫자, 탈모 연구가 새로 내놨습니다
+[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Treatment Timing and Early Hair Regrowth in Relation to Response to Intravenous Methylprednisolone Pulse Therapy in Alopecia Areata: A Retrospective Cohort Study
-저널: The Journal of dermatology
-저자: Ishizaki M, Araki T, Miyagawa M 외
-발행: 2026 Nov 13
-원문: https://pubmed.ncbi.nlm.nih.gov/43031367/
+제목: Therapeutic potential of orally administered Connarus semidecandrus Jack ethanol extract in an androgenetic alopecia model
+저널: Integrative medicine research
+저자: Kang HS, Cho YS, Park SH 외
+발행: 2026 Dec
+원문: https://pubmed.ncbi.nlm.nih.gov/43034595/
 
 [한눈에 보기]
-- Shorter disease duration was associated with response (OR: per 1-unit increase in ln(months): 0.69, 95% CI: 0.51-0.95; p = 0.021), as was treatment within 6 months (OR: 4.89, 95% CI: 1.76-13.63; p = 0.002).
-- After excluding possible self-healing acute diffuse and total alopecia cases, the adjusted association between disease duration and 6-month treatment response was no longer significant (OR: 0.74, 95% CI: 0.54-1.02; p = 0.063), whereas treatment initiation within 6 months of disease onset remained significantly associated with response.
-- Among 46 patients with 3-month data, hair regrowth predicted the 6-month response (AUC: 0.872); a 20% threshold yielded 100% specificity and 70.8% sensitivity.
+- Oral (300 mg/kg) and topical (10 mg/kg) administration of CE were evaluated and compared with finasteride.
+- These effects were accompanied by increased Bcl-2 expression and decreased cleaved caspase-3 levels.
+- CE also reduced AR expression and downregulated AR-associated mediators, including DKK-1, TGF-β1, and IL-6.
 
-[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (논문 전문 5개 섹션에서 발췌)
 
-◆ 배경 — Background (자동 구분)
-  · At 6 months, 39 patients (54.2%) responded.
+◆ 배경 — Introduction
+  · Apoptotic signaling also plays a critical role in AGA progression, particularly during the catagen phase.12 Increased TGF-β1 signaling in hair follicle epithelial compartments, including outer root sheath cells, promotes apoptosis and is associated with upregulation of pro-apoptotic factors such as Bcl-2-associated X protein (Bax) and cleaved caspase-3, along with downregulation of the anti-apoptotic protein Bcl-2.9, 13, 14 These molecular changes contribute to follicular miniaturization and irreversible hair loss.
+  · Current pharmacological treatments for AGA include finasteride, a selective inhibitor of type 2 5α-reductase, and minoxidil, a vasodilator that promotes hair growth.15, 16, 17 Although finasteride effectively reduces DHT levels, its long-term use is associated with adverse effects, including sexual dysfunction, mood disturbances, and potential hepatotoxicity, raising concerns regarding systemic safety.18, 19 Consequently, there is growing interest in identifying safer, naturally derived alternatives—particularly orally administrable agents suitable for long-term management of AGA.
+  · Connarus semidecandrus Jack, a medicinal plant belonging to the Connaraceae family, has been traditionally used in Southeast Asia for the treatment of parasitic infections, fever, allergic conditions, and gastrointestinal disorders.20, 21, 22, 23 Previous studies have reported its anti-inflammatory, antioxidant, and anti-apoptotic properties, as well as protective effects against ultraviolet B (UVB)-induced skin damage.24 Notably, topical application of C. semidecandrus ethanol extract (CE) has been shown to inhibit 5α-reductase activity and alleviate hair loss in experimental AGA models.25 However, despite these promising findings, the therapeutic potential of CE when administered orally—along with its systemic safety and bioactive constituents—remains largely unexplored.
 
-◆ 연구 방법 — Methods (자동 구분)
-  · We retrospectively analyzed 72 intravenous methylprednisolone (IVMP)-treated patients with moderate to severe alopecia areata to assess predictors of ≥ 50% improvement in the Severity of Alopecia Tool score at 6 months, the predictive value of 3-month hair regrowth and exploratory long-term outcomes.
+◆ 연구 방법 — Methods
+  · The entire plant material was air-dried at room temperature (20–22 °C), mechanically ground, and extracted with 70% ethanol for 24 h.
+  · (T.P. 20 mg/kg/PBS/96% EtOH with propylene glycol), CE oral (T.P. 20 mg/kg/CE 300 mg/kg in PBS/96% EtOH with propylene glycol), CE dorsal (T.P. 20 mg/kg/PBS/CE 10 mg/kg in 96% EtOH with propylene glycol), finasteride oral (T.P. 20 mg/kg/finasteride 0.5 mg/kg in PBS/96% EtOH with propylene glycol), and finasteride dorsal (T.P. 20 mg/kg/PBS/finasteride 50 mg/kg in 96% EtOH with propylene glycol).
+  · CE (300 mg/kg) or finasteride (0.5 mg/kg) dissolved in PBS was administered orally once daily, while CE (10 mg/kg) or finasteride (50 mg/kg) dissolved in 96% EtOH with propylene glycol was applied topically to the dorsal skin once daily for 18 days.
 
-◆ 주요 결과 — Results (자동 구분)
-  · Shorter disease duration was associated with response (OR: per 1-unit increase in ln(months): 0.69, 95% CI: 0.51-0.95; p = 0.021), as was treatment within 6 months (OR: 4.89, 95% CI: 1.76-13.63; p = 0.002).
-  · After excluding possible self-healing acute diffuse and total alopecia cases, the adjusted association between disease duration and 6-month treatment response was no longer significant (OR: 0.74, 95% CI: 0.54-1.02; p = 0.063), whereas treatment initiation within 6 months of disease onset remained significantly associated with response.
-  · Among 46 patients with 3-month data, hair regrowth predicted the 6-month response (AUC: 0.872); a 20% threshold yielded 100% specificity and 70.8% sensitivity.
-  · Exploratory long-term outcomes were more favorable with shorter disease duration.
+◆ 주요 결과 — Results
+  · Statistical significance is indicated as follows: ## p < 0.01 vs. normal group; * p < 0.1, ** p < 0.01 vs.
+  · Statistical significance is indicated as follows: ## p < 0.01 vs. normal group; * p < 0.1, ** p < 0.01 vs.
+  · (A) Liver weight and (B) Kidney weight in mice from four groups: (1) normal, (2) T.P. 20 mg/kg alone, (3) T.P. 20 mg/kg plus CE 300 mg/kg, and (4) finasteride-treated.
+  · (A) Liver weight and (B) Kidney weight in mice from four groups: (1) normal, (2) T.P. 20 mg/kg alone, (3) T.P. 20 mg/kg plus CE 300 mg/kg, and (4) finasteride-treated.
+  · Statistical significance is indicated as follows: (B) *p < 0.1, **p < 0.01 vs. normal; (C–D) ## p < 0.01 vs.
+  · Statistical significance is indicated as follows: (B) *p < 0.1, **p < 0.01 vs. normal; (C–D) ## p < 0.01 vs.
+  · For 5α-reductase type 1, several compounds, including luteolin-7-O-glucuronide and bilirubin, exhibited relatively high predicted binding affinities.Table 1Docking scores of 5α-reductase type 2 and 5α-reductase type 1.LigandDocking Score (kcal/mol)No. of hydrogen bond1) 5α reductase type 2Finasteride−11.40Bilirubin−10.54Amentoflavone−11.25Morin−10.05Luteolin-7-O-glucuronide−11.473′-hydroxypuerarin--Procyanidin A2−10.02Isoquercitrin−10.75Hyperoside−10.74Quercitrin−11.03Miquelianin−11.792) 5α reductase type 1Dutasteride−12.91Bilirubin−11.33Amentoflavone−10.81Morin−9.13Luteolin-7-O-glucuronide−12.363′-hydroxypuerarin--Procyanidin A2−9.23Isoquercitrin−8.76Hyperoside−9.25Quercitrin−10.07Miquelianin−9.86–, not determined.
 
-◆ 결론 — Conclusion (자동 구분)
-  · Three-month hair regrowth may provide an early quantitative indicator of IVMP response, while the independent continuous association between disease duration and outcome warrants further investigation.
+◆ 고찰 — Discussion
+  · Our findings extend previous reports that Connarus semidecandrus possesses antioxidant and cytoprotective properties and that its ethanol extract alleviates hair loss when applied topically.25 In contrast to earlier studies focusing on topical application, the present study demonstrates that CE retains biological activity following oral administration, suggesting that systemic exposure can modulate hair follicle biology.
+  · Previous studies have demonstrated that attenuation of follicular apoptosis contributes to the anti-alopecia effects of plant-derived agents.27, 28 Consistent with these findings, oral CE administration also mitigated apoptosis, as evidenced by increased Bcl-2 levels and decreased cleaved caspase-3 levels in dorsal skin.
+  · Although miquelianin has been documented to possess anti-allergic and antiviral properties.30, 31 its potential role in hair loss has not been previously described.
+  · Finally, the translation of these preclinical findings to human use remains challenging because herbal extracts require clinical standardization.16, 32, 33, 34 and interspecies differences in pharmacokinetics may influence therapeutic outcomes.35, 36, 37 Therefore, future research should characterize the pharmacokinetic profile and individual contributions of the bioactive constituents.
+
+◆ 그 밖의 내용 — CRediT authorship contribution statement
+  · Han Soo Kang: Conceptualization, Project administration, Data curation, Formal analysis, Investigation, Writing – original draft.
+  · Yun Soo Cho: Conceptualization, Data curation, Formal analysis, Investigation, Writing – original draft.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
