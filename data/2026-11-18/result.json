@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-18",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43042419",
+    "title": "A Rare Post-Hair Transplant Complication With Complete Recovery",
+    "journal": "Journal of medical cases",
+    "pub_date": "2026 Dec",
+    "authors": [
+      "Tcholadze E",
+      "Javakhadze M",
+      "Goliadze L"
+    ],
+    "pubtypes": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43042419/",
+    "id": "pmid:43042419",
+    "abstract": "Postoperative complications following hair transplantation are generally mild and self-limited; however, severe infectious or inflammatory reactions involving the periorbital or cervicofacial regions are exceedingly rare yet potentially vision- or life-threatening. Early recognition and prompt multidisciplinary management are essential, as delayed intervention may result in rapid soft-tissue progression, necrosis, and systemic instability. A 34-year-old man developed rapidly progressive cervicofacial edema 48 h after an uncomplicated hair transplantation procedure. The patient had no history of prior cranial surgery, trauma, or implanted prosthetic material. The swelling originated in the recipient area and rapidly extended to the forehead and bilateral periorbital regions, accompanied by severe pain, fever, hypotension, and hemodynamic instability. Laboratory evaluation demonstrated markedly elevated inflammatory markers (C-reactive protein 193 mg/L (reference < 5 mg/L), procalcitonin 51.43 ng/mL (reference < 0.05 ng/mL), lactate 9.68 mmol/L (reference 0.5-2.2 mmol/L)) with progressive leukopenia. Despite empirical broad-spectrum antibiotics, intensive care support, and multidisciplinary management, the patient's condition deteriorated, with worsening edema, hemorrhagic-purulent bullae, bilateral pleural effusions, and atrial fibrillation with rapid ventricular response. Subsequent periorbital skin necrosis required surgical debridement. Later during hospitalization, neck soft-tissue involvement with multiple small fluid collections emerged. Gradual improvement followed escalation of antimicrobial therapy and corticosteroid administration; however, residual frontal muscle akinesia and right facial nerve paresis persisted. The patient eventually stabilized on long-term azathioprine therapy and achieved full clinical recovery. This case underscores that rapidly progressive cervicofacial edema, periorbital involvement, frontal muscle akinesia, and right facial nerve paresis after hair transplantation, although rare, may indicate a fulminant infectious or inflammatory process requiring urgent, multidisciplinary management. Early recognition, timely therapeutic escalation, and close monitoring are critical to preventing irreversible tissue damage and systemic complications. Increased awareness of such severe postoperative reactions can enhance clinical vigilance and improve patient outcomes.",
+    "pmcid": "PMC13773654"
+  },
+  "script": {
+    "hook": "모발이식 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "모발이식",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Journal of medical cases》 - A Rare Post-Hair Transplant Complication With Complete Recovery",
+    "highlights": [
+      "Postoperative complications following hair transplantation are generally mild and self-limited; however, severe infectious or inflammatory reactions involving the periorbital or cervicofacial regions are exceedingly rare yet potentially vision- or life-threatening.",
+      "A 34-year-old man developed rapidly progressive cervicofacial edema 48 h after an uncomplicated hair transplantation procedure.",
+      "Laboratory evaluation demonstrated markedly elevated inflammatory markers (C-reactive protein 193 mg/L (reference < 5 mg/L), procalcitonin 51.43 ng/mL (reference < 0.05 ng/mL), lactate 9.68 mmol/L (reference 0.5-2.2 mmol/L)) with progressive leukopenia."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Introduction",
+        "kind": "intro",
+        "sentences": [
+          "According to a recent large-scale review by Garg and Garg, postoperative complications—ranging from edema and folliculitis to rare cases of recipient-site necrosis—were identified in 2.8% of 2,896 patients undergoing hair transplantation procedures.",
+          "Androgenetic alopecia remains the leading indication for surgical hair restoration, affecting up to 80% of men and approximately 25% of women worldwide.",
+          "A 2022 review of postoperative outcomes described periorbital edema as one of the more frequent early complications, but noted that necrosis remains exceedingly rare, with only isolated cases reported in the literature."
+        ]
+      },
+      {
+        "label": "그 밖의 내용",
+        "title": "Case Report",
+        "kind": "other",
+        "sentences": [
+          "On admission, laboratory findings revealed markedly elevated inflammatory markers: C-reactive protein (CRP) 193 mg/L (reference range < 5 mg/L), procalcitonin (PCT) 51.43 ng/mL (reference range < 0.05 ng/mL), and lactate 9.68 mmol/L (reference range 0.5–2.2 mmol/L).",
+          "Leukopenia was also present (white blood cell (WBC) 3.41 × 109/L (reference range 4–10 × 109/L))."
+        ]
+      },
+      {
+        "label": "고찰",
+        "title": "Discussion",
+        "kind": "discussion",
+        "sentences": [
+          "Hair transplantation is widely regarded as a safe and minimally invasive surgical procedure with a low incidence of severe complications.",
+          "Most postoperative reactions are mild and transient, including edema, minor pain, pruritus, or folliculitis.",
+          "Serious complications such as extensive soft-tissue infection, necrosis, or systemic inflammatory response are exceedingly rare but have been described in isolated reports.",
+          "Postoperative facial edema is among the more common early reactions after hair transplantation."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: A Rare Post-Hair Transplant Complication With Complete Recovery\n저널: Journal of medical cases\n저자: Tcholadze E, Javakhadze M, Goliadze L 외\n발행: 2026 Dec\n원문: https://pubmed.ncbi.nlm.nih.gov/43042419/\n\n[한눈에 보기]\n- Postoperative complications following hair transplantation are generally mild and self-limited; however, severe infectious or inflammatory reactions involving the periorbital or cervicofacial regions are exceedingly rare yet potentially vision- or life-threatening.\n- A 34-year-old man developed rapidly progressive cervicofacial edema 48 h after an uncomplicated hair transplantation procedure.\n- Laboratory evaluation demonstrated markedly elevated inflammatory markers (C-reactive protein 193 mg/L (reference < 5 mg/L), procalcitonin 51.43 ng/mL (reference < 0.05 ng/mL), lactate 9.68 mmol/L (reference 0.5-2.2 mmol/L)) with progressive leukopenia.\n\n[상세 내용] (논문 전문 3개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · According to a recent large-scale review by Garg and Garg, postoperative complications—ranging from edema and folliculitis to rare cases of recipient-site necrosis—were identified in 2.8% of 2,896 patients undergoing hair transplantation procedures.\n  · Androgenetic alopecia remains the leading indication for surgical hair restoration, affecting up to 80% of men and approximately 25% of women worldwide.\n  · A 2022 review of postoperative outcomes described periorbital edema as one of the more frequent early complications, but noted that necrosis remains exceedingly rare, with only isolated cases reported in the literature.\n\n◆ 그 밖의 내용 — Case Report\n  · On admission, laboratory findings revealed markedly elevated inflammatory markers: C-reactive protein (CRP) 193 mg/L (reference range < 5 mg/L), procalcitonin (PCT) 51.43 ng/mL (reference range < 0.05 ng/mL), and lactate 9.68 mmol/L (reference range 0.5–2.2 mmol/L).\n  · Leukopenia was also present (white blood cell (WBC) 3.41 × 109/L (reference range 4–10 × 109/L)).\n\n◆ 고찰 — Discussion\n  · Hair transplantation is widely regarded as a safe and minimally invasive surgical procedure with a low incidence of severe complications.\n  · Most postoperative reactions are mild and transient, including edema, minor pain, pruritus, or folliculitis.\n  · Serious complications such as extensive soft-tissue infection, necrosis, or systemic inflammatory response are exceedingly rare but have been described in isolated reports.\n  · Postoperative facial edema is among the more common early reactions after hair transplantation.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43042419/",
+    "reference_title": "A Rare Post-Hair Transplant Complication With Complete Recovery",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": {
+      "pmcid": "PMC13773654",
+      "license_note": "재사용 가능 라이선스"
+    },
+    "paper_skip_reason": null,
+    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13773654)에서 직접 캡처해 쓰세요."
+  }
+}
