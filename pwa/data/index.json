@@ -1,7 +1,20 @@
 {
-  "count": 81,
-  "updated": "2026-11-18",
+  "count": 82,
+  "updated": "2026-11-19",
   "items": [
+    {
+      "date": "2026-11-19",
+      "dir": "2026-11-19",
+      "title": "Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing",
+      "journal": "Science advances",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43050526/",
+      "hook_accent": "모발 재생",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-11-19/paper_card.png",
+      "pptx": "2026-11-19/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-18",
       "dir": "2026-11-18",

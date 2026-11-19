@@ -1,33 +1,33 @@
-[훅] 모발이식 오늘 나온 최신 연구를 정리했습니다
+[훅] 모발 재생 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: A Rare Post-Hair Transplant Complication With Complete Recovery
-저널: Journal of medical cases
-저자: Tcholadze E, Javakhadze M, Goliadze L 외
-발행: 2026 Dec
-원문: https://pubmed.ncbi.nlm.nih.gov/43042419/
+제목: Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing
+저널: Science advances
+저자: Cao X, He R, Wu Z 외
+발행: 2026 Nov 20
+원문: https://pubmed.ncbi.nlm.nih.gov/43050526/
 
 [한눈에 보기]
-- Postoperative complications following hair transplantation are generally mild and self-limited; however, severe infectious or inflammatory reactions involving the periorbital or cervicofacial regions are exceedingly rare yet potentially vision- or life-threatening.
-- A 34-year-old man developed rapidly progressive cervicofacial edema 48 h after an uncomplicated hair transplantation procedure.
-- Laboratory evaluation demonstrated markedly elevated inflammatory markers (C-reactive protein 193 mg/L (reference < 5 mg/L), procalcitonin 51.43 ng/mL (reference < 0.05 ng/mL), lactate 9.68 mmol/L (reference 0.5-2.2 mmol/L)) with progressive leukopenia.
+- Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.
+- The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture.
+- Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability.
 
-[상세 내용] (논문 전문 3개 섹션에서 발췌)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
 
-◆ 배경 — Introduction
-  · According to a recent large-scale review by Garg and Garg, postoperative complications—ranging from edema and folliculitis to rare cases of recipient-site necrosis—were identified in 2.8% of 2,896 patients undergoing hair transplantation procedures.
-  · Androgenetic alopecia remains the leading indication for surgical hair restoration, affecting up to 80% of men and approximately 25% of women worldwide.
-  · A 2022 review of postoperative outcomes described periorbital edema as one of the more frequent early complications, but noted that necrosis remains exceedingly rare, with only isolated cases reported in the literature.
+◆ 배경 — Background (자동 구분)
+  · Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.
+  · The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture.
 
-◆ 그 밖의 내용 — Case Report
-  · On admission, laboratory findings revealed markedly elevated inflammatory markers: C-reactive protein (CRP) 193 mg/L (reference range < 5 mg/L), procalcitonin (PCT) 51.43 ng/mL (reference range < 0.05 ng/mL), and lactate 9.68 mmol/L (reference range 0.5–2.2 mmol/L).
-  · Leukopenia was also present (white blood cell (WBC) 3.41 × 109/L (reference range 4–10 × 109/L)).
+◆ 연구 방법 — Methods (자동 구분)
+  · Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability.
 
-◆ 고찰 — Discussion
-  · Hair transplantation is widely regarded as a safe and minimally invasive surgical procedure with a low incidence of severe complications.
-  · Most postoperative reactions are mild and transient, including edema, minor pain, pruritus, or folliculitis.
-  · Serious complications such as extensive soft-tissue infection, necrosis, or systemic inflammatory response are exceedingly rare but have been described in isolated reports.
-  · Postoperative facial edema is among the more common early reactions after hair transplantation.
+◆ 주요 결과 — Results (자동 구분)
+  · Pre-formed hair follicle germs, derived from co-cultured epidermal and dermal mesenchymal stem cells, were encapsulated within a hydrogel bioink.
+  · Controlled acoustic fields generated flow vortices that directed cell migration and promoted organized cellular assembly from initially disordered states.
+  · Guided cell aggregates were then patterned through bioprinting to construct a grid-structured bionic skin.
+  · This architecture provided stable 3D support while maintaining high porosity, enabling efficient gas exchange.
+  · The printed bionic skin exhibited well-organized spatial cell distribution, high cellular viability, and promising differentiation potential.
+  · Further in vivo experiments demonstrated the efficiency of the bionic skin in accelerating mature hair regeneration, showing promise for clinical alopecia treatment.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 

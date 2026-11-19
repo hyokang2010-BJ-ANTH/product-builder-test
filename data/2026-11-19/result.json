@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-19",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43050526",
+    "title": "Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing",
+    "journal": "Science advances",
+    "pub_date": "2026 Nov 20",
+    "authors": [
+      "Cao X",
+      "He R",
+      "Wu Z"
+    ],
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43050526/",
+    "id": "pmid:43050526",
+    "abstract": "Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions. The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture. Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability. Pre-formed hair follicle germs, derived from co-cultured epidermal and dermal mesenchymal stem cells, were encapsulated within a hydrogel bioink. Controlled acoustic fields generated flow vortices that directed cell migration and promoted organized cellular assembly from initially disordered states. Guided cell aggregates were then patterned through bioprinting to construct a grid-structured bionic skin. This architecture provided stable 3D support while maintaining high porosity, enabling efficient gas exchange. The printed bionic skin exhibited well-organized spatial cell distribution, high cellular viability, and promising differentiation potential. Further in vivo experiments demonstrated the efficiency of the bionic skin in accelerating mature hair regeneration, showing promise for clinical alopecia treatment."
+  },
+  "script": {
+    "hook": "모발 재생 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "모발 재생",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Science advances》 - Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing",
+    "highlights": [
+      "Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.",
+      "The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture.",
+      "Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.",
+          "The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods (자동 구분)",
+        "kind": "methods",
+        "sentences": [
+          "Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Pre-formed hair follicle germs, derived from co-cultured epidermal and dermal mesenchymal stem cells, were encapsulated within a hydrogel bioink.",
+          "Controlled acoustic fields generated flow vortices that directed cell migration and promoted organized cellular assembly from initially disordered states.",
+          "Guided cell aggregates were then patterned through bioprinting to construct a grid-structured bionic skin.",
+          "This architecture provided stable 3D support while maintaining high porosity, enabling efficient gas exchange.",
+          "The printed bionic skin exhibited well-organized spatial cell distribution, high cellular viability, and promising differentiation potential.",
+          "Further in vivo experiments demonstrated the efficiency of the bionic skin in accelerating mature hair regeneration, showing promise for clinical alopecia treatment."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 모발 재생 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing\n저널: Science advances\n저자: Cao X, He R, Wu Z 외\n발행: 2026 Nov 20\n원문: https://pubmed.ncbi.nlm.nih.gov/43050526/\n\n[한눈에 보기]\n- Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.\n- The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture.\n- Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability.\n\n[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Tissue engineering holds substantial potential for constructing normal skin with appendages such as hair follicles, directly restoring skin's complete physiological functions.\n  · The current challenge lies in recreating biomimetic hair follicle organs with high-level cell density and architecture.\n\n◆ 연구 방법 — Methods (자동 구분)\n  · Here, we developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins with efficient hair follicle regeneration capability.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Pre-formed hair follicle germs, derived from co-cultured epidermal and dermal mesenchymal stem cells, were encapsulated within a hydrogel bioink.\n  · Controlled acoustic fields generated flow vortices that directed cell migration and promoted organized cellular assembly from initially disordered states.\n  · Guided cell aggregates were then patterned through bioprinting to construct a grid-structured bionic skin.\n  · This architecture provided stable 3D support while maintaining high porosity, enabling efficient gas exchange.\n  · The printed bionic skin exhibited well-organized spatial cell distribution, high cellular viability, and promising differentiation potential.\n  · Further in vivo experiments demonstrated the efficiency of the bionic skin in accelerating mature hair regeneration, showing promise for clinical alopecia treatment.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43050526/",
+    "reference_title": "Bionic skin with hair follicle regeneration capability from acoustic fluids-mediated 3D printing",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}
