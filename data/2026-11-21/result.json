@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-21",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43063455",
+    "title": "Retrograde Involvement in Androgenetic Alopecia: A Narrative Review and Clinical Case Series",
+    "journal": "Dermatology practical & conceptual",
+    "pub_date": "2026 Oct 29",
+    "authors": [
+      "Rivetti N",
+      "Tesauro P"
+    ],
+    "pubtypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43063455/",
+    "id": "pmid:43063455",
+    "abstract": "Introduction: Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp. Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature. Objectives: To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems. Methods: A narrative review of the literature was conducted using PubMed/MEDLINE and Google Scholar databases, focusing on retrograde androgenetic alopecia, occipital donor area involvement, and unpatterned alopecia concepts. In addition, ten male patients with retrograde involvement were retrospectively analyzed using clinical examination and trichoscopy. Cases were evaluated according to anatomical distribution, global pattern phenotype, and donor area stability. Results: Published evidence on RA is scarce and heterogeneous. Only one study has reported prevalence data, while other contributions are largely descriptive or focused on donor area profiling without isolating RA as a distinct entity. Peer-reviewed surgical literature has described diffuse unpatterned alopecia (DUPA) and its implications for donor area assessment, whereas additional concepts, including bald unpatterned alopecia (BUPA), have been discussed mainly in expert and educational settings without established diagnostic criteria. In our case series, patients demonstrated heterogeneous occipital involvement with frequent overlap between patterned and unpatterned features, illustrating the limited applicability of rigid classification labels in everyday clinical practice. Conclusions: Retrograde androgenetic alopecia represents a clinically relevant but insufficiently integrated aspect of androgenetic alopecia. Current classifications are fragmented and often describe different dimensions of the same phenomenon. We propose a multidimensional conceptual framework integrating anatomical distribution, pattern assessment, and trichoscopic evaluation to facilitate a more comprehensive interpretation of retrograde involvement. This framework remains exploratory and requires further validation before its clinical or surgical utility can be established."
+  },
+  "script": {
+    "hook": "남성형 탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "남성형 탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Dermatology practical & conceptual》 - Retrograde Involvement in Androgenetic Alopecia: A Narrative Review and Clinical Case Series",
+    "highlights": [
+      "Introduction: Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.",
+      "Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature.",
+      "Objectives: To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Introduction",
+        "kind": "intro",
+        "sentences": [
+          "Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.",
+          "Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objectives",
+        "kind": "intro",
+        "sentences": [
+          "To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems."
+        ]
+      },
+      {
+        "label": "연구 방법",
+        "title": "Methods",
+        "kind": "methods",
+        "sentences": [
+          "A narrative review of the literature was conducted using PubMed/MEDLINE and Google Scholar databases, focusing on retrograde androgenetic alopecia, occipital donor area involvement, and unpatterned alopecia concepts.",
+          "In addition, ten male patients with retrograde involvement were retrospectively analyzed using clinical examination and trichoscopy.",
+          "Cases were evaluated according to anatomical distribution, global pattern phenotype, and donor area stability."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results",
+        "kind": "results",
+        "sentences": [
+          "Published evidence on RA is scarce and heterogeneous.",
+          "Only one study has reported prevalence data, while other contributions are largely descriptive or focused on donor area profiling without isolating RA as a distinct entity.",
+          "Peer-reviewed surgical literature has described diffuse unpatterned alopecia (DUPA) and its implications for donor area assessment, whereas additional concepts, including bald unpatterned alopecia (BUPA), have been discussed mainly in expert and educational settings without established diagnostic criteria.",
+          "In our case series, patients demonstrated heterogeneous occipital involvement with frequent overlap between patterned and unpatterned features, illustrating the limited applicability of rigid classification labels in everyday clinical practice."
+        ]
+      },
+      {
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
+        "sentences": [
+          "Retrograde androgenetic alopecia represents a clinically relevant but insufficiently integrated aspect of androgenetic alopecia.",
+          "Current classifications are fragmented and often describe different dimensions of the same phenomenon.",
+          "We propose a multidimensional conceptual framework integrating anatomical distribution, pattern assessment, and trichoscopic evaluation to facilitate a more comprehensive interpretation of retrograde involvement.",
+          "This framework remains exploratory and requires further validation before its clinical or surgical utility can be established."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: Retrograde Involvement in Androgenetic Alopecia: A Narrative Review and Clinical Case Series\n저널: Dermatology practical & conceptual\n저자: Rivetti N, Tesauro P 외\n발행: 2026 Oct 29\n원문: https://pubmed.ncbi.nlm.nih.gov/43063455/\n\n[한눈에 보기]\n- Introduction: Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.\n- Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature.\n- Objectives: To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Introduction\n  · Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.\n  · Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature.\n\n◆ 배경 — Objectives\n  · To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems.\n\n◆ 연구 방법 — Methods\n  · A narrative review of the literature was conducted using PubMed/MEDLINE and Google Scholar databases, focusing on retrograde androgenetic alopecia, occipital donor area involvement, and unpatterned alopecia concepts.\n  · In addition, ten male patients with retrograde involvement were retrospectively analyzed using clinical examination and trichoscopy.\n  · Cases were evaluated according to anatomical distribution, global pattern phenotype, and donor area stability.\n\n◆ 주요 결과 — Results\n  · Published evidence on RA is scarce and heterogeneous.\n  · Only one study has reported prevalence data, while other contributions are largely descriptive or focused on donor area profiling without isolating RA as a distinct entity.\n  · Peer-reviewed surgical literature has described diffuse unpatterned alopecia (DUPA) and its implications for donor area assessment, whereas additional concepts, including bald unpatterned alopecia (BUPA), have been discussed mainly in expert and educational settings without established diagnostic criteria.\n  · In our case series, patients demonstrated heterogeneous occipital involvement with frequent overlap between patterned and unpatterned features, illustrating the limited applicability of rigid classification labels in everyday clinical practice.\n\n◆ 결론 — Conclusions\n  · Retrograde androgenetic alopecia represents a clinically relevant but insufficiently integrated aspect of androgenetic alopecia.\n  · Current classifications are fragmented and often describe different dimensions of the same phenomenon.\n  · We propose a multidimensional conceptual framework integrating anatomical distribution, pattern assessment, and trichoscopic evaluation to facilitate a more comprehensive interpretation of retrograde involvement.\n  · This framework remains exploratory and requires further validation before its clinical or surgical utility can be established.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43063455/",
+    "reference_title": "Retrograde Involvement in Androgenetic Alopecia: A Narrative Review and Clinical Case Series",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}
