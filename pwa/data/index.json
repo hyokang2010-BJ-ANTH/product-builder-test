@@ -1,7 +1,20 @@
 {
-  "count": 84,
-  "updated": "2026-11-21",
+  "count": 85,
+  "updated": "2026-11-22",
   "items": [
+    {
+      "date": "2026-11-22",
+      "dir": "2026-11-22",
+      "title": "Resolution of alopecia areata after switching from vedolizumab to ustekinumab in a patient with Crohn's disease: a case report",
+      "journal": "Frontiers in immunology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43065458/",
+      "hook_accent": "원형탈모",
+      "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+      "thumb": "2026-11-22/paper_card.png",
+      "pptx": "2026-11-22/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-21",
       "dir": "2026-11-21",

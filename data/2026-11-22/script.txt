@@ -1,0 +1,40 @@
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
+
+[논문 정보]
+제목: Resolution of alopecia areata after switching from vedolizumab to ustekinumab in a patient with Crohn's disease: a case report
+저널: Frontiers in immunology
+저자: Ma Y, Deng A, Wen S 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/43065458/
+
+[한눈에 보기]
+- Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
+- Case introduction: We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
+- After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
+
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Crohn's disease (CD) is a chronic inflammatory bowel disease that can be associated with extraintestinal manifestations.
+  · Alopecia areata (AA) is an autoimmune non-scarring hair loss disorder.
+  · Their coexistence is uncommon, and managing both conditions simultaneously is challenging when intestinal and cutaneous responses diverge.
+  · Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
+
+◆ 배경 — Introduction
+  · We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
+  · Computed tomography enterography and colonoscopy showed segmental bowel wall thickening and diffuse pinpoint erosions; histopathological examination demonstrated non-caseating granulomas, supporting a diagnosis of CD.
+  · Vedolizumab induction therapy with methylprednisolone bridging resulted in disease remission.
+  · The patient's hair loss persisted, and he was diagnosed with AA.
+  · After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
+  · By week 24, marked scalp hair regrowth was evident, and by week 48, complete resolution of AA was achieved, while his CD remained in remission.
+
+◆ 결론 — Conclusion
+  · This case suggests that ustekinumab may be a feasible therapeutic option for patients with coexisting CD and refractory AA, particularly when a shared IL-12/IL-23-mediated inflammatory pathway is suspected.
+  · Further prospective studies are required to confirm its efficacy and generalizability in this setting.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

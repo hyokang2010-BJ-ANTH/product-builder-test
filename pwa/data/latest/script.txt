@@ -1,42 +1,36 @@
-[훅] 남성형 탈모 오늘 나온 최신 연구를 정리했습니다
+[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
 
 [논문 정보]
-제목: Retrograde Involvement in Androgenetic Alopecia: A Narrative Review and Clinical Case Series
-저널: Dermatology practical & conceptual
-저자: Rivetti N, Tesauro P 외
-발행: 2026 Oct 29
-원문: https://pubmed.ncbi.nlm.nih.gov/43063455/
+제목: Resolution of alopecia areata after switching from vedolizumab to ustekinumab in a patient with Crohn's disease: a case report
+저널: Frontiers in immunology
+저자: Ma Y, Deng A, Wen S 외
+발행: 2026
+원문: https://pubmed.ncbi.nlm.nih.gov/43065458/
 
 [한눈에 보기]
-- Introduction: Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.
-- Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature.
-- Objectives: To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems.
+- Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
+- Case introduction: We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
+- After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
 
-[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Crohn's disease (CD) is a chronic inflammatory bowel disease that can be associated with extraintestinal manifestations.
+  · Alopecia areata (AA) is an autoimmune non-scarring hair loss disorder.
+  · Their coexistence is uncommon, and managing both conditions simultaneously is challenging when intestinal and cutaneous responses diverge.
+  · Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
 
 ◆ 배경 — Introduction
-  · Retrograde androgenetic alopecia (RA) describes a pattern of follicular miniaturization predominantly involving the lower and lateral occipital scalp.
-  · Although clinically relevant, RA is not included in classical androgenetic alopecia classifications and remains inconsistently defined in the literature.
+  · We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
+  · Computed tomography enterography and colonoscopy showed segmental bowel wall thickening and diffuse pinpoint erosions; histopathological examination demonstrated non-caseating granulomas, supporting a diagnosis of CD.
+  · Vedolizumab induction therapy with methylprednisolone bridging resulted in disease remission.
+  · The patient's hair loss persisted, and he was diagnosed with AA.
+  · After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
+  · By week 24, marked scalp hair regrowth was evident, and by week 48, complete resolution of AA was achieved, while his CD remained in remission.
 
-◆ 배경 — Objectives
-  · To review current dermatologic and surgical perspectives on RA and related unpatterned alopecia variants, and to describe a monocentric clinical-trichoscopic case series highlighting the limitations of existing classification systems.
-
-◆ 연구 방법 — Methods
-  · A narrative review of the literature was conducted using PubMed/MEDLINE and Google Scholar databases, focusing on retrograde androgenetic alopecia, occipital donor area involvement, and unpatterned alopecia concepts.
-  · In addition, ten male patients with retrograde involvement were retrospectively analyzed using clinical examination and trichoscopy.
-  · Cases were evaluated according to anatomical distribution, global pattern phenotype, and donor area stability.
-
-◆ 주요 결과 — Results
-  · Published evidence on RA is scarce and heterogeneous.
-  · Only one study has reported prevalence data, while other contributions are largely descriptive or focused on donor area profiling without isolating RA as a distinct entity.
-  · Peer-reviewed surgical literature has described diffuse unpatterned alopecia (DUPA) and its implications for donor area assessment, whereas additional concepts, including bald unpatterned alopecia (BUPA), have been discussed mainly in expert and educational settings without established diagnostic criteria.
-  · In our case series, patients demonstrated heterogeneous occipital involvement with frequent overlap between patterned and unpatterned features, illustrating the limited applicability of rigid classification labels in everyday clinical practice.
-
-◆ 결론 — Conclusions
-  · Retrograde androgenetic alopecia represents a clinically relevant but insufficiently integrated aspect of androgenetic alopecia.
-  · Current classifications are fragmented and often describe different dimensions of the same phenomenon.
-  · We propose a multidimensional conceptual framework integrating anatomical distribution, pattern assessment, and trichoscopic evaluation to facilitate a more comprehensive interpretation of retrograde involvement.
-  · This framework remains exploratory and requires further validation before its clinical or surgical utility can be established.
+◆ 결론 — Conclusion
+  · This case suggests that ustekinumab may be a feasible therapeutic option for patients with coexisting CD and refractory AA, particularly when a shared IL-12/IL-23-mediated inflammatory pathway is suspected.
+  · Further prospective studies are required to confirm its efficacy and generalizability in this setting.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
