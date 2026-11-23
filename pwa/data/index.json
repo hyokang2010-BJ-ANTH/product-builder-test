@@ -1,7 +1,20 @@
 {
-  "count": 85,
-  "updated": "2026-11-22",
+  "count": 86,
+  "updated": "2026-11-23",
   "items": [
+    {
+      "date": "2026-11-23",
+      "dir": "2026-11-23",
+      "title": "Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068246/",
+      "hook_accent": "96.3%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-23/paper_card.png",
+      "pptx": "2026-11-23/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-22",
       "dir": "2026-11-22",

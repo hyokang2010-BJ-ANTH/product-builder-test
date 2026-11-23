@@ -1,36 +1,43 @@
-[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다
+[훅] 96.3% 이 숫자, 탈모 연구가 새로 내놨습니다
 
 [논문 정보]
-제목: Resolution of alopecia areata after switching from vedolizumab to ustekinumab in a patient with Crohn's disease: a case report
-저널: Frontiers in immunology
-저자: Ma Y, Deng A, Wen S 외
+제목: Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study
+저널: Clinical, cosmetic and investigational dermatology
+저자: Guo T, Wen S, Zheng W 외
 발행: 2026
-원문: https://pubmed.ncbi.nlm.nih.gov/43065458/
+원문: https://pubmed.ncbi.nlm.nih.gov/43068246/
 
 [한눈에 보기]
-- Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
-- Case introduction: We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
-- After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
+- Patients and methods: This retrospective real-world study included patients aged <18 years with AA treated with ritlecitinib 50 mg once daily.
+- Results: Twenty-seven patients were included, with a median age of 9.3 years (IQR, 6.0-14.6), including patients younger than 12 years who received off-label treatment.
+- SALT50, SALT75, and SALT90 were achieved by 96.3%, 77.8%, and 55.6% of patients, respectively, and 51.9% achieved complete scalp regrowth.
 
-[상세 내용] (초록 3개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
-
-◆ 배경 — Background
-  · Crohn's disease (CD) is a chronic inflammatory bowel disease that can be associated with extraintestinal manifestations.
-  · Alopecia areata (AA) is an autoimmune non-scarring hair loss disorder.
-  · Their coexistence is uncommon, and managing both conditions simultaneously is challenging when intestinal and cutaneous responses diverge.
-  · Ustekinumab, a monoclonal antibody targeting the shared IL-12/IL-23 pathway, may offer a dual therapeutic benefit, but evidence in comorbid cases is limited.
+[상세 내용] (논문 전문 4개 섹션에서 발췌)
 
 ◆ 배경 — Introduction
-  · We report an 18-year-old man with a 2-year history of recurrent paroxysmal abdominal pain and mucoid hematochezia, as well as patchy non-scarring scalp alopecia.
-  · Computed tomography enterography and colonoscopy showed segmental bowel wall thickening and diffuse pinpoint erosions; histopathological examination demonstrated non-caseating granulomas, supporting a diagnosis of CD.
-  · Vedolizumab induction therapy with methylprednisolone bridging resulted in disease remission.
-  · The patient's hair loss persisted, and he was diagnosed with AA.
-  · After his AA failed to respond to topical corticosteroids, his treatment was switched from vedolizumab to ustekinumab (390 mg intravenously at week 0, followed by 90 mg subcutaneously every 8 weeks).
-  · By week 24, marked scalp hair regrowth was evident, and by week 48, complete resolution of AA was achieved, while his CD remained in remission.
+  · Signaling downstream of cytokines such as interleukin-15 and interferon-γ plays a key role in sustaining immune-mediated damage to the hair follicle.1
+  · Ritlecitinib has been investigated in randomized, placebo-controlled clinical trials and long-term open-label studies, demonstrating clinically meaningful hair regrowth and an acceptable safety profile in adolescents and adults with moderate-to-severe AA.2 In June 2023, ritlecitinib received regulatory approval in the United States for the treatment of severe AA in patients aged 12 years and older, expanding the therapeutic landscape for patients with limited options.
+  · Despite this progress, there remains a need for real-world evidence to characterize the effectiveness and tolerability of ritlecitinib in routine clinical practice, particularly in younger populations who may exhibit unique disease dynamics or treatment responses.3 Although ritlecitinib has demonstrated efficacy in adolescents and adults with AA, real-world evidence in younger pediatric populations, particularly children younger than 12 years receiving off-label treatment, remains limited.
 
-◆ 결론 — Conclusion
-  · This case suggests that ustekinumab may be a feasible therapeutic option for patients with coexisting CD and refractory AA, particularly when a shared IL-12/IL-23-mediated inflammatory pathway is suspected.
-  · Further prospective studies are required to confirm its efficacy and generalizability in this setting.
+◆ 연구 방법 — Materials and Methods
+  · Patients treated between January 2024 and August 2025 were retrospectively screened for eligibility.
+  · Patients were eligible for inclusion if they met all of the following criteria: (1) age younger than 18 years at the time of ritlecitinib initiation; (2) a clinical diagnosis of alopecia areata, including patchy alopecia areata, alopecia totalis, or alopecia universalis, established by experienced dermatologists based on clinical presentation; (3) treatment with oral ritlecitinib 50 mg once daily in routine clinical practice; (4) available baseline SALT score before treatment initiation; and (5) at least one documented on-treatment follow-up assessment of scalp hair loss severity.
+  · Secondary effectiveness outcomes included the proportion of patients achieving SALT50, SALT75, and SALT90, defined as ≥50%, ≥75%, and ≥90% improvement from baseline SALT score, respectively.
+
+◆ 주요 결과 — Results
+  · Baseline SALT scores were <20 in 29.6%, 20–49 in 14.8%, and ≥50 in 55.6% of patients.Table 1Baseline CharacteristicsCharacteristicAll Patients (N=27)Patients, n27Age <12 years, n (%)18 (66.7%)Age 12–17 years, n (%)9 (33.3%)Age (years), mean ± SD9.7 ± 4.7Age (years), median (IQR)9.3 (6.0–14.6)Sex, male10 (37.0%)Sex, female17 (63.0%)Disease duration (years), median (IQR) [n=27]1.0 (0.8–3.5)Clinical subtype: Patchy AA17 (63.0%)Clinical subtype: AT2 (7.4%)Clinical subtype: AU8 (29.6%)Clinical subtype: Other0 (0.0%)Baseline SALT, median (IQR)50 (11–100)Baseline SALT category: <208 (29.6%)Baseline SALT category: 20–494 (14.8%)Baseline SALT category: ≥5015 (55.6%)Ritlecitinib exposure (weeks), median (IQR)27.7 (22.4–45.2)
+  · At the last on-treatment observation, SALT50 was achieved by 26 of 27 patients (96.3%; 95% CI, 81.7–99.3), SALT75 by 21 patients (77.8%; 95% CI, 59.2–89.4), and SALT90 by 15 patients (55.6%; 95% CI, 37.3–72.4).
+  · In addition, 24 patients (88.9%; 95% CI, 71.9–96.1) achieved SALT ≤20, indicating clinically meaningful scalp hair coverage, and 14 patients (51.9%; 95% CI, 34.0–69.3) achieved complete scalp regrowth (SALT = 0) (Table 2 and Figure 2).Table 2Efficacy OutcomesOutcomeOverallPatchy AAAT/AUBaseline SALT, median (IQR)50 (11–100)20 (10–69)100 (62–100)Follow-up SALT, median (IQR)0 (0–10)0 (0–5)4 (0–11)Absolute change, median (IQR)40 (11–85)20 (7–50)90 (42–100)Percent improvement, median (IQR)100 (75–100)100 (75–100)95 (82–100)SALT5026/27 (96.3%); 95% CI 81.7–99.316/17 (94.1%); 95% CI 73.0–99.010/10 (100.0%); 95% CI 72.2–100.0SALT7521/27 (77.8%); 95% CI 59.2–89.413/17 (76.5%); 95% CI 52.7–90.48/10 (80.0%); 95% CI 49.0–94.3SALT9015/27 (55.6%); 95% CI 37.3–72.49/17 (52.9%); 95% CI 31.0–73.86/10 (60.0%); 95% CI 31.3–83.2SALT ≤2024/27 (88.9%); 95% CI 71.9–96.115/17 (88.2%); 95% CI 65.7–96.79/10 (90.0%); 95% CI 59.6–98.2SALT=014/27 (51.9%); 95% CI 34.0–69.39/17 (52.9%); 95% CI 31.0–73.85/10 (50.0%); 95% CI 23.7–76.3 Figure 1Change in SALT scores from baseline to the last on-treatment observation in pediatric and adolescent patients with alopecia areata treated with ritlecitinib.
+  · Among patients with patchy AA, SALT50, SALT75, and SALT90 were achieved by 16 of 17 patients (94.1%; 95% CI, 73.0–99.0), 13 patients (76.5%; 95% CI, 52.7–90.4), and 9 patients (52.9%; 95% CI, 31.0–73.8), respectively.
+  · SALT ≤20 was achieved by 15 patients (88.2%; 95% CI, 65.7–96.7), and complete scalp regrowth (SALT = 0) was observed in 9 patients (52.9%; 95% CI, 31.0–73.8).
+  · In the AT/AU subgroup, SALT50, SALT75, and SALT90 were achieved by 10 of 10 patients (100.0%; 95% CI, 72.2–100.0), 8 patients (80.0%; 95% CI, 49.0–94.3), and 6 patients (60.0%; 95% CI, 31.3–83.2), respectively.
+  · None of these laboratory findings led to treatment interruption or discontinuation.Table 3Safety SummarySafety OutcomeAll Patients (N=27)Adverse eventsClinical adverse events (recorded)0 (0.0%)Serious adverse events (recorded)0 (0.0%)Discontinuation due to adverse events (recorded)0 (0.0%)Laboratory / screening findingsAny abnormal lab/screening finding reported15 (55.6%)HBV serology abnormal/positive reported2 (7.4%)WBC/neutrophils increased reported1 (3.7%)Platelet count increased reported5 (18.5%)Lipid abnormality reported1 (3.7%)IgE increased reported3 (11.1%)RBC count increased reported1 (3.7%)Treatment discontinuationAny discontinuation3 (11.1%)Discontinuation for lack of efficacy0 (0.0%)Discontinuation after control/remission3 (11.1%)Relapse after stopping (recorded)0 (0.0%)
+
+◆ 고찰 — Discussion
+  · In this real-world cohort of pediatric and adolescent patients with alopecia areata, ritlecitinib treatment was associated with substantial scalp hair regrowth, and no serious adverse events were documented during the available observation period.
+  · Marked reductions in SALT scores were observed from baseline to the last on-treatment assessment, with most patients achieving clinically meaningful response thresholds, including SALT50, SALT75, and SALT ≤20.
+  · Notably, more than half of the cohort achieved complete scalp regrowth, suggesting potential clinical benefit in this cohort.
+  · Larger prospective controlled studies with standardized follow-up are needed to confirm its effectiveness and safety, particularly among children younger than 12 years receiving off-label treatment.
 
 [CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
 
