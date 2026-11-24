@@ -1,0 +1,45 @@
+[훅] 오늘의 논문 Aesthetic surgery journal에 실린 새 연구입니다
+
+[논문 정보]
+제목: Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery
+저널: Aesthetic surgery journal
+저자: Stroble S, Sherrer J, Osei B 외
+발행: 2026 Nov 23
+원문: https://pubmed.ncbi.nlm.nih.gov/43071829/
+
+[한눈에 보기]
+- MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.
+- Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.
+- Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.
+
+[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation.
+  · Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review.
+
+◆ 배경 — Objectives
+  · To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations.
+
+◆ 연구 방법 — Methods
+  · A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles.
+  · MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.
+  · Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.
+
+◆ 주요 결과 — Results
+  · Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.
+  · Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results.
+  · Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials.
+  · Adverse events were mild and transient.
+  · All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up.
+
+◆ 결론 — Conclusions
+  · PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia.
+  · Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.

@@ -1,7 +1,20 @@
 {
-  "count": 86,
-  "updated": "2026-11-23",
+  "count": 87,
+  "updated": "2026-11-24",
   "items": [
+    {
+      "date": "2026-11-24",
+      "dir": "2026-11-24",
+      "title": "Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
+      "journal": "Aesthetic surgery journal",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43071829/",
+      "hook_accent": "오늘의 논문",
+      "hook_sub": "Aesthetic surgery journal에 실린 새 연구입니다",
+      "thumb": "2026-11-24/paper_card.png",
+      "pptx": "2026-11-24/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-23",
       "dir": "2026-11-23",

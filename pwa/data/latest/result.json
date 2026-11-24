@@ -1,53 +1,59 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "topic": {
     "source_type": "paper",
-    "pmid": "43068246",
-    "title": "Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study",
-    "journal": "Clinical, cosmetic and investigational dermatology",
-    "pub_date": "2026",
+    "pmid": "43071829",
+    "title": "Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
+    "journal": "Aesthetic surgery journal",
+    "pub_date": "2026 Nov 23",
     "authors": [
-      "Guo T",
-      "Wen S",
-      "Zheng W"
+      "Stroble S",
+      "Sherrer J",
+      "Osei B"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43068246/",
-    "id": "pmid:43068246",
-    "abstract": "Purpose: Alopecia areata (AA) in pediatric and adolescent patients can be severe and difficult to manage, and real-world data on targeted therapies in this population remain limited. Ritlecitinib, a selective JAK3/TEC inhibitor, has demonstrated efficacy in adults with AA, but evidence in patients under 18 years of age is scarce. The purpose of this study is to assess the real-world effectiveness and safety of ritlecitinib in pediatric and adolescent patients with alopecia areata. Patients and methods: This retrospective real-world study included patients aged <18 years with AA treated with ritlecitinib 50 mg once daily. Treatment response was assessed using changes in Severity of Alopecia Tool (SALT) scores and achievement of SALT50/75/90 at the last on-treatment observation. Safety outcomes were evaluated based on clinical records. Results: Twenty-seven patients were included, with a median age of 9.3 years (IQR, 6.0-14.6), including patients younger than 12 years who received off-label treatment. The median baseline SALT score was 50. The median SALT score decreased to 0 at the last observation (p < 0.001). SALT50, SALT75, and SALT90 were achieved by 96.3%, 77.8%, and 55.6% of patients, respectively, and 51.9% achieved complete scalp regrowth. Treatment responses were observed in both patchy AA and AT/AU subgroups; however, interpretation of subgroup differences is limited by the small sample sizes. No serious adverse events or treatment discontinuations due to adverse events were documented in the available medical records. Conclusion: In this single-center retrospective cohort, ritlecitinib treatment was associated with substantial improvement in SALT scores and no documented serious adverse events during the observation period. These preliminary findings warrant confirmation in larger prospective studies, particularly in children younger than 12 years receiving off-label treatment.",
-    "pmcid": "PMC13788730"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43071829/",
+    "id": "pmid:43071829",
+    "abstract": "Background: Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation. Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review. Objectives: To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations. Methods: A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles. MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM. Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM. Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials. Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results. Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials. Adverse events were mild and transient. All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up. Conclusions: PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia. Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption."
   },
   "script": {
-    "hook": "96.3% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "96.3%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Clinical, cosmetic and investigational dermatology》 - Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study",
+    "hook": "오늘의 논문 Aesthetic surgery journal에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Aesthetic surgery journal에 실린 새 연구입니다",
+    "intro": "《Aesthetic surgery journal》 - Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
     "highlights": [
-      "Patients and methods: This retrospective real-world study included patients aged <18 years with AA treated with ritlecitinib 50 mg once daily.",
-      "Results: Twenty-seven patients were included, with a median age of 9.3 years (IQR, 6.0-14.6), including patients younger than 12 years who received off-label treatment.",
-      "SALT50, SALT75, and SALT90 were achieved by 96.3%, 77.8%, and 55.6% of patients, respectively, and 51.9% achieved complete scalp regrowth."
+      "MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.",
+      "Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.",
+      "Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Introduction",
+        "title": "Background",
         "kind": "intro",
         "sentences": [
-          "Signaling downstream of cytokines such as interleukin-15 and interferon-γ plays a key role in sustaining immune-mediated damage to the hair follicle.1",
-          "Ritlecitinib has been investigated in randomized, placebo-controlled clinical trials and long-term open-label studies, demonstrating clinically meaningful hair regrowth and an acceptable safety profile in adolescents and adults with moderate-to-severe AA.2 In June 2023, ritlecitinib received regulatory approval in the United States for the treatment of severe AA in patients aged 12 years and older, expanding the therapeutic landscape for patients with limited options.",
-          "Despite this progress, there remains a need for real-world evidence to characterize the effectiveness and tolerability of ritlecitinib in routine clinical practice, particularly in younger populations who may exhibit unique disease dynamics or treatment responses.3 Although ritlecitinib has demonstrated efficacy in adolescents and adults with AA, real-world evidence in younger pediatric populations, particularly children younger than 12 years receiving off-label treatment, remains limited."
+          "Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation.",
+          "Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review."
+        ]
+      },
+      {
+        "label": "배경",
+        "title": "Objectives",
+        "kind": "intro",
+        "sentences": [
+          "To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations."
         ]
       },
       {
         "label": "연구 방법",
-        "title": "Materials and Methods",
+        "title": "Methods",
         "kind": "methods",
         "sentences": [
-          "Patients treated between January 2024 and August 2025 were retrospectively screened for eligibility.",
-          "Patients were eligible for inclusion if they met all of the following criteria: (1) age younger than 18 years at the time of ritlecitinib initiation; (2) a clinical diagnosis of alopecia areata, including patchy alopecia areata, alopecia totalis, or alopecia universalis, established by experienced dermatologists based on clinical presentation; (3) treatment with oral ritlecitinib 50 mg once daily in routine clinical practice; (4) available baseline SALT score before treatment initiation; and (5) at least one documented on-treatment follow-up assessment of scalp hair loss severity.",
-          "Secondary effectiveness outcomes included the proportion of patients achieving SALT50, SALT75, and SALT90, defined as ≥50%, ≥75%, and ≥90% improvement from baseline SALT score, respectively."
+          "A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles.",
+          "MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.",
+          "Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM."
         ]
       },
       {
@@ -55,31 +61,27 @@
         "title": "Results",
         "kind": "results",
         "sentences": [
-          "Baseline SALT scores were <20 in 29.6%, 20–49 in 14.8%, and ≥50 in 55.6% of patients.Table 1Baseline CharacteristicsCharacteristicAll Patients (N=27)Patients, n27Age <12 years, n (%)18 (66.7%)Age 12–17 years, n (%)9 (33.3%)Age (years), mean ± SD9.7 ± 4.7Age (years), median (IQR)9.3 (6.0–14.6)Sex, male10 (37.0%)Sex, female17 (63.0%)Disease duration (years), median (IQR) [n=27]1.0 (0.8–3.5)Clinical subtype: Patchy AA17 (63.0%)Clinical subtype: AT2 (7.4%)Clinical subtype: AU8 (29.6%)Clinical subtype: Other0 (0.0%)Baseline SALT, median (IQR)50 (11–100)Baseline SALT category: <208 (29.6%)Baseline SALT category: 20–494 (14.8%)Baseline SALT category: ≥5015 (55.6%)Ritlecitinib exposure (weeks), median (IQR)27.7 (22.4–45.2)",
-          "At the last on-treatment observation, SALT50 was achieved by 26 of 27 patients (96.3%; 95% CI, 81.7–99.3), SALT75 by 21 patients (77.8%; 95% CI, 59.2–89.4), and SALT90 by 15 patients (55.6%; 95% CI, 37.3–72.4).",
-          "In addition, 24 patients (88.9%; 95% CI, 71.9–96.1) achieved SALT ≤20, indicating clinically meaningful scalp hair coverage, and 14 patients (51.9%; 95% CI, 34.0–69.3) achieved complete scalp regrowth (SALT = 0) (Table 2 and Figure 2).Table 2Efficacy OutcomesOutcomeOverallPatchy AAAT/AUBaseline SALT, median (IQR)50 (11–100)20 (10–69)100 (62–100)Follow-up SALT, median (IQR)0 (0–10)0 (0–5)4 (0–11)Absolute change, median (IQR)40 (11–85)20 (7–50)90 (42–100)Percent improvement, median (IQR)100 (75–100)100 (75–100)95 (82–100)SALT5026/27 (96.3%); 95% CI 81.7–99.316/17 (94.1%); 95% CI 73.0–99.010/10 (100.0%); 95% CI 72.2–100.0SALT7521/27 (77.8%); 95% CI 59.2–89.413/17 (76.5%); 95% CI 52.7–90.48/10 (80.0%); 95% CI 49.0–94.3SALT9015/27 (55.6%); 95% CI 37.3–72.49/17 (52.9%); 95% CI 31.0–73.86/10 (60.0%); 95% CI 31.3–83.2SALT ≤2024/27 (88.9%); 95% CI 71.9–96.115/17 (88.2%); 95% CI 65.7–96.79/10 (90.0%); 95% CI 59.6–98.2SALT=014/27 (51.9%); 95% CI 34.0–69.39/17 (52.9%); 95% CI 31.0–73.85/10 (50.0%); 95% CI 23.7–76.3 Figure 1Change in SALT scores from baseline to the last on-treatment observation in pediatric and adolescent patients with alopecia areata treated with ritlecitinib.",
-          "Among patients with patchy AA, SALT50, SALT75, and SALT90 were achieved by 16 of 17 patients (94.1%; 95% CI, 73.0–99.0), 13 patients (76.5%; 95% CI, 52.7–90.4), and 9 patients (52.9%; 95% CI, 31.0–73.8), respectively.",
-          "SALT ≤20 was achieved by 15 patients (88.2%; 95% CI, 65.7–96.7), and complete scalp regrowth (SALT = 0) was observed in 9 patients (52.9%; 95% CI, 31.0–73.8).",
-          "In the AT/AU subgroup, SALT50, SALT75, and SALT90 were achieved by 10 of 10 patients (100.0%; 95% CI, 72.2–100.0), 8 patients (80.0%; 95% CI, 49.0–94.3), and 6 patients (60.0%; 95% CI, 31.3–83.2), respectively.",
-          "None of these laboratory findings led to treatment interruption or discontinuation.Table 3Safety SummarySafety OutcomeAll Patients (N=27)Adverse eventsClinical adverse events (recorded)0 (0.0%)Serious adverse events (recorded)0 (0.0%)Discontinuation due to adverse events (recorded)0 (0.0%)Laboratory / screening findingsAny abnormal lab/screening finding reported15 (55.6%)HBV serology abnormal/positive reported2 (7.4%)WBC/neutrophils increased reported1 (3.7%)Platelet count increased reported5 (18.5%)Lipid abnormality reported1 (3.7%)IgE increased reported3 (11.1%)RBC count increased reported1 (3.7%)Treatment discontinuationAny discontinuation3 (11.1%)Discontinuation for lack of efficacy0 (0.0%)Discontinuation after control/remission3 (11.1%)Relapse after stopping (recorded)0 (0.0%)"
+          "Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.",
+          "Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results.",
+          "Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials.",
+          "Adverse events were mild and transient.",
+          "All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up."
         ]
       },
       {
-        "label": "고찰",
-        "title": "Discussion",
-        "kind": "discussion",
+        "label": "결론",
+        "title": "Conclusions",
+        "kind": "conclusion",
         "sentences": [
-          "In this real-world cohort of pediatric and adolescent patients with alopecia areata, ritlecitinib treatment was associated with substantial scalp hair regrowth, and no serious adverse events were documented during the available observation period.",
-          "Marked reductions in SALT scores were observed from baseline to the last on-treatment assessment, with most patients achieving clinically meaningful response thresholds, including SALT50, SALT75, and SALT ≤20.",
-          "Notably, more than half of the cohort achieved complete scalp regrowth, suggesting potential clinical benefit in this cohort.",
-          "Larger prospective controlled studies with standardized follow-up are needed to confirm its effectiveness and safety, particularly among children younger than 12 years receiving off-label treatment."
+          "PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia.",
+          "Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 96.3% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study\n저널: Clinical, cosmetic and investigational dermatology\n저자: Guo T, Wen S, Zheng W 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/43068246/\n\n[한눈에 보기]\n- Patients and methods: This retrospective real-world study included patients aged <18 years with AA treated with ritlecitinib 50 mg once daily.\n- Results: Twenty-seven patients were included, with a median age of 9.3 years (IQR, 6.0-14.6), including patients younger than 12 years who received off-label treatment.\n- SALT50, SALT75, and SALT90 were achieved by 96.3%, 77.8%, and 55.6% of patients, respectively, and 51.9% achieved complete scalp regrowth.\n\n[상세 내용] (논문 전문 4개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · Signaling downstream of cytokines such as interleukin-15 and interferon-γ plays a key role in sustaining immune-mediated damage to the hair follicle.1\n  · Ritlecitinib has been investigated in randomized, placebo-controlled clinical trials and long-term open-label studies, demonstrating clinically meaningful hair regrowth and an acceptable safety profile in adolescents and adults with moderate-to-severe AA.2 In June 2023, ritlecitinib received regulatory approval in the United States for the treatment of severe AA in patients aged 12 years and older, expanding the therapeutic landscape for patients with limited options.\n  · Despite this progress, there remains a need for real-world evidence to characterize the effectiveness and tolerability of ritlecitinib in routine clinical practice, particularly in younger populations who may exhibit unique disease dynamics or treatment responses.3 Although ritlecitinib has demonstrated efficacy in adolescents and adults with AA, real-world evidence in younger pediatric populations, particularly children younger than 12 years receiving off-label treatment, remains limited.\n\n◆ 연구 방법 — Materials and Methods\n  · Patients treated between January 2024 and August 2025 were retrospectively screened for eligibility.\n  · Patients were eligible for inclusion if they met all of the following criteria: (1) age younger than 18 years at the time of ritlecitinib initiation; (2) a clinical diagnosis of alopecia areata, including patchy alopecia areata, alopecia totalis, or alopecia universalis, established by experienced dermatologists based on clinical presentation; (3) treatment with oral ritlecitinib 50 mg once daily in routine clinical practice; (4) available baseline SALT score before treatment initiation; and (5) at least one documented on-treatment follow-up assessment of scalp hair loss severity.\n  · Secondary effectiveness outcomes included the proportion of patients achieving SALT50, SALT75, and SALT90, defined as ≥50%, ≥75%, and ≥90% improvement from baseline SALT score, respectively.\n\n◆ 주요 결과 — Results\n  · Baseline SALT scores were <20 in 29.6%, 20–49 in 14.8%, and ≥50 in 55.6% of patients.Table 1Baseline CharacteristicsCharacteristicAll Patients (N=27)Patients, n27Age <12 years, n (%)18 (66.7%)Age 12–17 years, n (%)9 (33.3%)Age (years), mean ± SD9.7 ± 4.7Age (years), median (IQR)9.3 (6.0–14.6)Sex, male10 (37.0%)Sex, female17 (63.0%)Disease duration (years), median (IQR) [n=27]1.0 (0.8–3.5)Clinical subtype: Patchy AA17 (63.0%)Clinical subtype: AT2 (7.4%)Clinical subtype: AU8 (29.6%)Clinical subtype: Other0 (0.0%)Baseline SALT, median (IQR)50 (11–100)Baseline SALT category: <208 (29.6%)Baseline SALT category: 20–494 (14.8%)Baseline SALT category: ≥5015 (55.6%)Ritlecitinib exposure (weeks), median (IQR)27.7 (22.4–45.2)\n  · At the last on-treatment observation, SALT50 was achieved by 26 of 27 patients (96.3%; 95% CI, 81.7–99.3), SALT75 by 21 patients (77.8%; 95% CI, 59.2–89.4), and SALT90 by 15 patients (55.6%; 95% CI, 37.3–72.4).\n  · In addition, 24 patients (88.9%; 95% CI, 71.9–96.1) achieved SALT ≤20, indicating clinically meaningful scalp hair coverage, and 14 patients (51.9%; 95% CI, 34.0–69.3) achieved complete scalp regrowth (SALT = 0) (Table 2 and Figure 2).Table 2Efficacy OutcomesOutcomeOverallPatchy AAAT/AUBaseline SALT, median (IQR)50 (11–100)20 (10–69)100 (62–100)Follow-up SALT, median (IQR)0 (0–10)0 (0–5)4 (0–11)Absolute change, median (IQR)40 (11–85)20 (7–50)90 (42–100)Percent improvement, median (IQR)100 (75–100)100 (75–100)95 (82–100)SALT5026/27 (96.3%); 95% CI 81.7–99.316/17 (94.1%); 95% CI 73.0–99.010/10 (100.0%); 95% CI 72.2–100.0SALT7521/27 (77.8%); 95% CI 59.2–89.413/17 (76.5%); 95% CI 52.7–90.48/10 (80.0%); 95% CI 49.0–94.3SALT9015/27 (55.6%); 95% CI 37.3–72.49/17 (52.9%); 95% CI 31.0–73.86/10 (60.0%); 95% CI 31.3–83.2SALT ≤2024/27 (88.9%); 95% CI 71.9–96.115/17 (88.2%); 95% CI 65.7–96.79/10 (90.0%); 95% CI 59.6–98.2SALT=014/27 (51.9%); 95% CI 34.0–69.39/17 (52.9%); 95% CI 31.0–73.85/10 (50.0%); 95% CI 23.7–76.3 Figure 1Change in SALT scores from baseline to the last on-treatment observation in pediatric and adolescent patients with alopecia areata treated with ritlecitinib.\n  · Among patients with patchy AA, SALT50, SALT75, and SALT90 were achieved by 16 of 17 patients (94.1%; 95% CI, 73.0–99.0), 13 patients (76.5%; 95% CI, 52.7–90.4), and 9 patients (52.9%; 95% CI, 31.0–73.8), respectively.\n  · SALT ≤20 was achieved by 15 patients (88.2%; 95% CI, 65.7–96.7), and complete scalp regrowth (SALT = 0) was observed in 9 patients (52.9%; 95% CI, 31.0–73.8).\n  · In the AT/AU subgroup, SALT50, SALT75, and SALT90 were achieved by 10 of 10 patients (100.0%; 95% CI, 72.2–100.0), 8 patients (80.0%; 95% CI, 49.0–94.3), and 6 patients (60.0%; 95% CI, 31.3–83.2), respectively.\n  · None of these laboratory findings led to treatment interruption or discontinuation.Table 3Safety SummarySafety OutcomeAll Patients (N=27)Adverse eventsClinical adverse events (recorded)0 (0.0%)Serious adverse events (recorded)0 (0.0%)Discontinuation due to adverse events (recorded)0 (0.0%)Laboratory / screening findingsAny abnormal lab/screening finding reported15 (55.6%)HBV serology abnormal/positive reported2 (7.4%)WBC/neutrophils increased reported1 (3.7%)Platelet count increased reported5 (18.5%)Lipid abnormality reported1 (3.7%)IgE increased reported3 (11.1%)RBC count increased reported1 (3.7%)Treatment discontinuationAny discontinuation3 (11.1%)Discontinuation for lack of efficacy0 (0.0%)Discontinuation after control/remission3 (11.1%)Relapse after stopping (recorded)0 (0.0%)\n\n◆ 고찰 — Discussion\n  · In this real-world cohort of pediatric and adolescent patients with alopecia areata, ritlecitinib treatment was associated with substantial scalp hair regrowth, and no serious adverse events were documented during the available observation period.\n  · Marked reductions in SALT scores were observed from baseline to the last on-treatment assessment, with most patients achieving clinically meaningful response thresholds, including SALT50, SALT75, and SALT ≤20.\n  · Notably, more than half of the cohort achieved complete scalp regrowth, suggesting potential clinical benefit in this cohort.\n  · Larger prospective controlled studies with standardized follow-up are needed to confirm its effectiveness and safety, particularly among children younger than 12 years receiving off-label treatment.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43068246/",
-    "reference_title": "Ritlecitinib for Alopecia Areata in Patients Under 18 Years of Age: A Single-Center Retrospective Real-World Study",
+    "full_script": "[훅] 오늘의 논문 Aesthetic surgery journal에 실린 새 연구입니다\n\n[논문 정보]\n제목: Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery\n저널: Aesthetic surgery journal\n저자: Stroble S, Sherrer J, Osei B 외\n발행: 2026 Nov 23\n원문: https://pubmed.ncbi.nlm.nih.gov/43071829/\n\n[한눈에 보기]\n- MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.\n- Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.\n- Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation.\n  · Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review.\n\n◆ 배경 — Objectives\n  · To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations.\n\n◆ 연구 방법 — Methods\n  · A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles.\n  · MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.\n  · Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.\n\n◆ 주요 결과 — Results\n  · Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.\n  · Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results.\n  · Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials.\n  · Adverse events were mild and transient.\n  · All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up.\n\n◆ 결론 — Conclusions\n  · PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia.\n  · Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43071829/",
+    "reference_title": "Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
     "reference_type": "paper"
   },
   "assets": {
@@ -92,59 +94,15 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "Baseline Characteristics",
-        "rows": [
-          [
-            "Characteristic",
-            "All Patients (N=27)"
-          ],
-          [
-            "Patients, n",
-            "27"
-          ],
-          [
-            "Age <12 years, n (%)",
-            "18 (66.7%)"
-          ],
-          [
-            "Age 12–17 years, n (%)",
-            "9 (33.3%)"
-          ],
-          [
-            "Age (years), mean ± SD",
-            "9.7 ± 4.7"
-          ],
-          [
-            "Age (years), median (IQR)",
-            "9.3 (6.0–14.6)"
-          ],
-          [
-            "Sex, male",
-            "10 (37.0%)"
-          ],
-          [
-            "Sex, female",
-            "17 (63.0%)"
-          ]
-        ]
-      }
-    ],
-    "paper_source": {
-      "pmcid": "PMC13788730",
-      "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
-    },
-    "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13788730)에서 직접 캡처해 쓰세요."
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
   }
 }
