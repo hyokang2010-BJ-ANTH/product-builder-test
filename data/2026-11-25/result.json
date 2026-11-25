@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "topic": {
+    "source_type": "paper",
+    "pmid": "43077120",
+    "title": "[Alopecia areata: recognise, assess, treat]",
+    "journal": "Dermatologie (Heidelberg, Germany)",
+    "pub_date": "2026 Nov 24",
+    "authors": [
+      "Beyer K",
+      "Olejarczyk-Ekman I",
+      "Eren S"
+    ],
+    "pubtypes": [
+      "English Abstract",
+      "Journal Article"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43077120/",
+    "id": "pmid:43077120",
+    "abstract": "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege. Diagnosis is based on clinical examination and trichoscopy. Preserved follicular ostia distinguish it from scarring alopecias. The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment. JAK inhibitors are the first approved systemic therapies. Response follows the hair cycle and can only be judged after 3-6 months. The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care."
+  },
+  "script": {
+    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "원형탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Dermatologie (Heidelberg, Germany)》 - [Alopecia areata: recognise, assess, treat]",
+    "highlights": [
+      "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.",
+      "Diagnosis is based on clinical examination and trichoscopy.",
+      "Response follows the hair cycle and can only be judged after 3-6 months."
+    ],
+    "sections": [
+      {
+        "label": "배경",
+        "title": "Background (자동 구분)",
+        "kind": "intro",
+        "sentences": [
+          "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.",
+          "Diagnosis is based on clinical examination and trichoscopy."
+        ]
+      },
+      {
+        "label": "주요 결과",
+        "title": "Results (자동 구분)",
+        "kind": "results",
+        "sentences": [
+          "Preserved follicular ostia distinguish it from scarring alopecias.",
+          "The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment.",
+          "JAK inhibitors are the first approved systemic therapies.",
+          "Response follows the hair cycle and can only be judged after 3-6 months.",
+          "The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care."
+        ]
+      }
+    ],
+    "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
+    "full_script": "[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: [Alopecia areata: recognise, assess, treat]\n저널: Dermatologie (Heidelberg, Germany)\n저자: Beyer K, Olejarczyk-Ekman I, Eren S 외\n발행: 2026 Nov 24\n원문: https://pubmed.ncbi.nlm.nih.gov/43077120/\n\n[한눈에 보기]\n- Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.\n- Diagnosis is based on clinical examination and trichoscopy.\n- Response follows the hair cycle and can only be judged after 3-6 months.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.\n  · Diagnosis is based on clinical examination and trichoscopy.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Preserved follicular ostia distinguish it from scarring alopecias.\n  · The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment.\n  · JAK inhibitors are the first approved systemic therapies.\n  · Response follows the hair cycle and can only be judged after 3-6 months.\n  · The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43077120/",
+    "reference_title": "[Alopecia areata: recognise, assess, treat]",
+    "reference_type": "paper"
+  },
+  "assets": {
+    "paper_card": "paper_card.png",
+    "topic_images": [
+      "images/topic_1.jpg",
+      "images/topic_2.jpg"
+    ],
+    "frames": [
+      "images/frame_01_hook.jpg",
+      "images/frame_02_paper_intro.jpg",
+      "images/frame_04_key_finding_1.jpg",
+      "images/frame_06_key_finding_2.jpg",
+      "images/frame_07_my_take.jpg",
+      "images/frame_08_cta.jpg"
+    ],
+    "pptx": "slides.pptx",
+    "paper_figures": [],
+    "paper_tables": [],
+    "paper_source": null,
+    "paper_skip_reason": "PMC 오픈액세스로 공개되지 않은 논문",
+    "paper_figure_note": null
+  }
+}

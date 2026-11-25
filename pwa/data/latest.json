@@ -1,87 +1,61 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "topic": {
     "source_type": "paper",
-    "pmid": "43071829",
-    "title": "Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
-    "journal": "Aesthetic surgery journal",
-    "pub_date": "2026 Nov 23",
+    "pmid": "43077120",
+    "title": "[Alopecia areata: recognise, assess, treat]",
+    "journal": "Dermatologie (Heidelberg, Germany)",
+    "pub_date": "2026 Nov 24",
     "authors": [
-      "Stroble S",
-      "Sherrer J",
-      "Osei B"
+      "Beyer K",
+      "Olejarczyk-Ekman I",
+      "Eren S"
     ],
     "pubtypes": [
+      "English Abstract",
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43071829/",
-    "id": "pmid:43071829",
-    "abstract": "Background: Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation. Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review. Objectives: To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations. Methods: A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles. MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM. Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM. Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials. Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results. Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials. Adverse events were mild and transient. All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up. Conclusions: PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia. Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption."
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43077120/",
+    "id": "pmid:43077120",
+    "abstract": "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege. Diagnosis is based on clinical examination and trichoscopy. Preserved follicular ostia distinguish it from scarring alopecias. The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment. JAK inhibitors are the first approved systemic therapies. Response follows the hair cycle and can only be judged after 3-6 months. The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care."
   },
   "script": {
-    "hook": "오늘의 논문 Aesthetic surgery journal에 실린 새 연구입니다",
-    "hook_accent": "오늘의 논문",
-    "hook_sub": "Aesthetic surgery journal에 실린 새 연구입니다",
-    "intro": "《Aesthetic surgery journal》 - Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
+    "hook": "원형탈모 오늘 나온 최신 연구를 정리했습니다",
+    "hook_accent": "원형탈모",
+    "hook_sub": "오늘 나온 최신 연구를 정리했습니다",
+    "intro": "《Dermatologie (Heidelberg, Germany)》 - [Alopecia areata: recognise, assess, treat]",
     "highlights": [
-      "MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.",
-      "Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.",
-      "Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials."
+      "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.",
+      "Diagnosis is based on clinical examination and trichoscopy.",
+      "Response follows the hair cycle and can only be judged after 3-6 months."
     ],
     "sections": [
       {
         "label": "배경",
-        "title": "Background",
+        "title": "Background (자동 구분)",
         "kind": "intro",
         "sentences": [
-          "Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation.",
-          "Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review."
-        ]
-      },
-      {
-        "label": "배경",
-        "title": "Objectives",
-        "kind": "intro",
-        "sentences": [
-          "To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations."
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Methods",
-        "kind": "methods",
-        "sentences": [
-          "A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles.",
-          "MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.",
-          "Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM."
+          "Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.",
+          "Diagnosis is based on clinical examination and trichoscopy."
         ]
       },
       {
         "label": "주요 결과",
-        "title": "Results",
+        "title": "Results (자동 구분)",
         "kind": "results",
         "sentences": [
-          "Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.",
-          "Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results.",
-          "Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials.",
-          "Adverse events were mild and transient.",
-          "All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusions",
-        "kind": "conclusion",
-        "sentences": [
-          "PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia.",
-          "Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption."
+          "Preserved follicular ostia distinguish it from scarring alopecias.",
+          "The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment.",
+          "JAK inhibitors are the first approved systemic therapies.",
+          "Response follows the hair cycle and can only be judged after 3-6 months.",
+          "The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 오늘의 논문 Aesthetic surgery journal에 실린 새 연구입니다\n\n[논문 정보]\n제목: Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery\n저널: Aesthetic surgery journal\n저자: Stroble S, Sherrer J, Osei B 외\n발행: 2026 Nov 23\n원문: https://pubmed.ncbi.nlm.nih.gov/43071829/\n\n[한눈에 보기]\n- MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.\n- Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.\n- Results: Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.\n\n[상세 내용] (초록 5개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background\n  · Photobiomodulation (PBM) uses red and near-infrared (NIR) light to induce non-thermal, photochemical effects through mitochondrial cytochrome c oxidase activation.\n  · Its evidence base in aesthetic surgery has evolved substantially since the last comprehensive plastic surgery review.\n\n◆ 배경 — Objectives\n  · To compare the strength of evidence for PBM in photorejuvenation, body contouring, and hair restoration, and to provide practical recommendations.\n\n◆ 연구 방법 — Methods\n  · A narrative review was conducted in accordance with the Scale for the Assessment of Narrative Review Articles.\n  · MEDLINE, EMBASE, EBM Reviews, and Google Scholar were searched through March 2026 for clinical studies, systematic reviews, and consensus statements of red (600-700 nm) and NIR (700-1100 nm) PBM.\n  · Levels of evidence followed the hierarchy adopted by the 2025 multidisciplinary Delphi consensus on PBM.\n\n◆ 주요 결과 — Results\n  · Androgenetic alopecia carries the strongest support (Level IA), with meta-analyses reporting density gains of 17 to 24 hairs/cm2, comparable to finasteride in indirect comparisons and topical minoxidil in head-to-head trials.\n  · Photorejuvenation carries moderate support (Level IB), as sham-controlled RCTs using objective endpoints have produced inconsistent results.\n  · Evidence for body contouring remains limited, with one systematic review of three RCTs reporting modest circumferential reductions and two negative sham-controlled trials.\n  · Adverse events were mild and transient.\n  · All domains share small sample sizes, manufacturer-funded trials, heterogeneous protocols, and short follow-up.\n\n◆ 결론 — Conclusions\n  · PBM is a safe adjunct within the plastic surgeon's multimodal aesthetic framework, best supported for androgenetic alopecia.\n  · Standardized protocols, independent replication, and head-to-head comparisons are needed before broader adoption.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43071829/",
-    "reference_title": "Photobiomodulation or Photorejuvenation, Body Contouring, and Hair Restoration: A Comparative Review of Evidence for Aesthetic Plastic and Reconstructive Surgery",
+    "full_script": "[훅] 원형탈모 오늘 나온 최신 연구를 정리했습니다\n\n[논문 정보]\n제목: [Alopecia areata: recognise, assess, treat]\n저널: Dermatologie (Heidelberg, Germany)\n저자: Beyer K, Olejarczyk-Ekman I, Eren S 외\n발행: 2026 Nov 24\n원문: https://pubmed.ncbi.nlm.nih.gov/43077120/\n\n[한눈에 보기]\n- Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.\n- Diagnosis is based on clinical examination and trichoscopy.\n- Response follows the hair cycle and can only be judged after 3-6 months.\n\n[상세 내용] (초록 2개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)\n\n◆ 배경 — Background (자동 구분)\n  · Alopecia areata (AA) is an immune-mediated, nonscarring hair disorder with collapse of follicular immune privilege.\n  · Diagnosis is based on clinical examination and trichoscopy.\n\n◆ 주요 결과 — Results (자동 구분)\n  · Preserved follicular ostia distinguish it from scarring alopecias.\n  · The Severity of Alopecia Tool (SALT) score quantifies scalp hair loss, but not activity or burden-both require separate assessment.\n  · JAK inhibitors are the first approved systemic therapies.\n  · Response follows the hair cycle and can only be judged after 3-6 months.\n  · The following apply for children and adolescents: separate algorithms, evidence and approvals are limited, and families should be included in care.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43077120/",
+    "reference_title": "[Alopecia areata: recognise, assess, treat]",
     "reference_type": "paper"
   },
   "assets": {
