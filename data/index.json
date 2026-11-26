@@ -1,7 +1,20 @@
 {
-  "count": 88,
-  "updated": "2026-11-25",
+  "count": 89,
+  "updated": "2026-11-26",
   "items": [
+    {
+      "date": "2026-11-26",
+      "dir": "2026-11-26",
+      "title": "Antinuclear and Extractable Nuclear Antigen-Related Autoantibody Positivity in Alopecia Areata: Associations with Disease Severity and Treatment Response at 12 and 24 Weeks",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43080722/",
+      "hook_accent": "95%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-26/paper_card.png",
+      "pptx": "2026-11-26/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-25",
       "dir": "2026-11-25",
