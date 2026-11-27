@@ -1,104 +1,49 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "topic": {
     "source_type": "paper",
-    "pmid": "43080722",
-    "title": "Antinuclear and Extractable Nuclear Antigen-Related Autoantibody Positivity in Alopecia Areata: Associations with Disease Severity and Treatment Response at 12 and 24 Weeks",
-    "journal": "Clinical, cosmetic and investigational dermatology",
-    "pub_date": "2026",
+    "pmid": "43094833",
+    "title": "Dermatology residency education in the treatment of testosterone-induced acne and androgenic alopecia in trans men: a cross-sectional survey of academic dermatologists in the USA",
+    "journal": "Skin health and disease",
+    "pub_date": "2026 Dec",
     "authors": [
-      "Hu H",
-      "Liu Y",
-      "Fan Y"
+      "Nguyen TQ",
+      "Neubauer Z",
+      "Zaladonis A"
     ],
     "pubtypes": [
       "Journal Article"
     ],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43080722/",
-    "id": "pmid:43080722",
-    "abstract": "Purpose: To evaluate the association of antinuclear antibody (ANA) and extractable nuclear antigen (ENA)-related autoantibody positivity with baseline severity and short-term outcomes in patients with alopecia areata (AA). Patients and methods: This retrospective cohort included 119 patients with alopecia areata (AA). ANA was measured by ELISA (>55 U/mL positive), and 12 antigen-specific antibodies by immunoblot. At least one definitive positive result defined study-panel positivity. Outcomes were baseline SALT >20 and SALT50 at weeks 12 and 24. Logistic models adjusted for age, sex, total disease duration and atopic comorbidity, and additionally for baseline SALT at follow-up. Firth regression and missing-outcome sensitivity analyses were performed. Results: Eighteen patients (15.1%) were study-panel positive. Baseline SALT was higher in positive patients [median (IQR), 15 (8.5-47.5) vs 5 (2-15); P=0.003]. SALT50 was achieved by 5/17 versus 58/85 patients at week 12 and 7/15 versus 55/66 at week 24. Complete-case adjusted models included 100, 86 and 68 patients at baseline, week 12 and week 24, respectively. The adjusted ORs were 4.809 (95% CI, 1.269-18.218; P=0.021) for baseline SALT >20, 0.170 (0.041-0.709; P=0.015) for week-12 SALT50 and 0.186 (0.039-0.897; P=0.036) for week-24 SALT50. Firth estimates were consistent, including a week-24 OR of 0.232 (0.052-0.946; P=0.042). Conclusion: Study-panel positivity was associated with greater baseline disease burden and lower SALT50 response at 12 and 24 weeks after adjustment for measured clinical factors. These observational findings warrant prospective validation.",
-    "pmcid": "PMC13795135"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43094833/",
+    "id": "pmid:43094833",
+    "abstract": "This cross-sectional survey study explores the experience, comfort and knowledge of dermatology residents and attendings in managing testosterone-induced acne (TiAV) and androgenic alopecia (TiAGA) in trans men. While most respondents reported some level of comfort treating these conditions, objective knowledge scores were modest and revealed gaps across both conditions, particularly TiAGA. Our findings suggest that current LGBTQIA+-focused education may be perceived as adequate but may not translate into knowledge retention or clinical preparedness.",
+    "pmcid": "PMC13796739"
   },
   "script": {
-    "hook": "95% 이 숫자, 탈모 연구가 새로 내놨습니다",
-    "hook_accent": "95%",
-    "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
-    "intro": "《Clinical, cosmetic and investigational dermatology》 - Antinuclear and Extractable Nuclear Antigen-Related Autoantibody Positivity in Alopecia Areata: Associations with Disease Severity and Treatment Response at 12 and 24 Weeks",
+    "hook": "오늘의 논문 Skin health and disease에 실린 새 연구입니다",
+    "hook_accent": "오늘의 논문",
+    "hook_sub": "Skin health and disease에 실린 새 연구입니다",
+    "intro": "《Skin health and disease》 - Dermatology residency education in the treatment of testosterone-induced acne and androgenic alopecia in trans men: a cross-sectional survey of academic dermatologists in the USA",
     "highlights": [
-      "Baseline SALT was higher in positive patients [median (IQR), 15 (8.5-47.5) vs 5 (2-15); P=0.003].",
-      "SALT50 was achieved by 5/17 versus 58/85 patients at week 12 and 7/15 versus 55/66 at week 24.",
-      "The adjusted ORs were 4.809 (95% CI, 1.269-18.218; P=0.021) for baseline SALT >20, 0.170 (0.041-0.709; P=0.015) for week-12 SALT50 and 0.186 (0.039-0.897; P=0.036) for week-24 SALT50."
+      "This cross-sectional survey study explores the experience, comfort and knowledge of dermatology residents and attendings in managing testosterone-induced acne (TiAV) and androgenic alopecia (TiAGA) in trans men.",
+      "While most respondents reported some level of comfort treating these conditions, objective knowledge scores were modest and revealed gaps across both conditions, particularly TiAGA.",
+      "Our findings suggest that current LGBTQIA+-focused education may be perceived as adequate but may not translate into knowledge retention or clinical preparedness."
     ],
     "sections": [
       {
-        "label": "배경",
-        "title": "Introduction",
-        "kind": "intro",
+        "label": "그 밖의 내용",
+        "title": "본문",
+        "kind": "other",
         "sentences": [
-          "AA frequently coexists with autoimmune thyroid disease, vitiligo, atopic disorders, and other immune abnormalities.9,10 Antibodies against hair-follicle structures and various non-organ-specific antigens have been detected in patients with AA, and proteomic studies have suggested heterogeneity in the autoantigen repertoire.11,12 The clinical significance of circulating autoantibodies in AA nevertheless remains unclear: they may simply reflect shared susceptibility to autoimmunity, or they may mark more pronounced immune activation, greater disease burden, or a distinct treatment response.",
-          "Clinical studies that systematically evaluate antinuclear antibody (ANA) and extractable nuclear antigen (ENA) antibody profiles in conjunction with objective SALT severity and longitudinal treatment outcomes remain limited.11–13",
-          "ANA positivity and positivity for any of the 12 antigen-specific antibodies were combined into a single composite exposure to evaluate overall ANA/ENA-related autoantibody status across different specificities."
-        ]
-      },
-      {
-        "label": "연구 방법",
-        "title": "Materials and Methods",
-        "kind": "methods",
-        "sentences": [
-          "SALT was calculated using standard scalp-area weights: vertex, 40%; occipital region, 24%; left temporal region, 18%; and right temporal region, 18%.",
-          "Using clinically established categories, SALT ≤20 was defined as mild disease and SALT >20 as moderate-to-severe disease; the latter comprised moderate disease (20<SALT<50) and severe disease (SALT ≥50).15,16 These SALT-based categories were used for the present analysis; broader morbidity features beyond scalp hair loss were not incorporated into the binary outcome.17 The primary binary baseline outcome was SALT >20.",
-          "SALT50 was defined as a reduction of at least 50% from baseline SALT and was evaluated using the measurements entered in the week-12 and week-24 fields of the case report form.18,19 The primary analyses used available outcomes."
-        ]
-      },
-      {
-        "label": "주요 결과",
-        "title": "Results",
-        "kind": "results",
-        "sentences": [
-          "Table 1Demographic and Baseline Clinical Characteristics According to ANA/ENA-Related Autoantibody StatusVariableStudy-Panel Positive (n=18)Study-Panel Non-Positive (n=101)P ValueAge, years33 (26–50.5)35 (27–41)0.944Male sex, n (%)7 (38.9)48 (47.5)0.611Baseline SALT score15 (8.5–47.5)5 (2–15)0.003SALT severity category, n (%)0.013SALT ≤20, n (%)11 (61.1)87 (86.1)20<SALT<50, n (%)2 (11.1)8 (7.9)SALT ≥50, n (%)5 (27.8)6 (5.9)Documented atopic comorbidity, n (%)5 (27.8)46 (45.5)—Atopic comorbidity absent by study definition, n (%)11 (61.1)46 (45.5)—Atopic comorbidity unknown, n (%)2 (11.1)9 (8.9)—Total disease duration ≤5 years, n (%)16 (88.9)73 (72.3)—Total disease duration >5 years, n (%)1 (5.6)19 (18.8)—Total disease duration unknown, n (%)1 (5.6)9 (8.9)—Notes: Study-panel status denotes at least one definitive positive ANA/ENA-related result.",
-          "Included in baseline analysis, n equals 119: Study-panel positive: n equals 18; Study-panel non-positive: n equals 101; Complete-case model: n equals 100. 12 weeks: n equals 102: Positive: n equals 17; Non-positive: n equals 85; Outcome unavailable: n equals 17: Positive: n equals 1; Non-positive: n equals 16; Complete-case model: n equals 86. 24 weeks: n equals 81: Positive: n equals 15; Non-positive: n equals 66; Outcome unavailable: n equals 38: Positive: n equals 3; Non-positive: n equals 35; Complete-case model: n equals 68.",
-          "Table 2Association Between ANA/ENA-Related Autoantibody Positivity and Baseline Alopecia Areata SeverityOutcome/ModelEffect Estimate95% CIP ValueBaseline SALT score (continuous)Median: 15 vs 5–0.003Three-level SALT severity, overall comparisonOverall distributional difference-0.013SALT >20, unadjustedOR 3.951.31–11.920.018SALT >20, conventional adjustedAdjusted OR 4.8091.269–18.2180.021SALT >20, Firth adjustedAdjusted OR 4.3731.239–15.7730.023Notes: Continuous SALT was compared using the Mann–Whitney U-test; the overall three-level severity comparison used the Fisher-Freeman-Halton exact test; and the unadjusted binary comparison used Fisher’s exact test.",
-          "Table 3Association Between ANA/ENA-Related Autoantibody Status and SALT50 at Weeks 12 and 24Time Point/ModelSALT50 in Positive GroupSALT50 in Non-Positive GroupOR (95% CI)P ValueWeek 12, unadjusted5/17 (29.4%)58/85 (68.2%)0.194 (0.062–0.606)0.005Week 12, conventional adjusted4/15 (26.7%)49/71 (69.0%)0.170 (0.041–0.709)0.015Week 12, Firth adjusted4/15 (26.7%)49/71 (69.0%)0.210 (0.051–0.740)0.015Week 24, unadjusted7/15 (46.7%)55/66 (83.3%)0.175 (0.053–0.583)0.005Week 24, conventional adjusted6/13 (46.2%)46/55 (83.6%)0.186 (0.039–0.897)0.036Week 24, Firth adjusted6/13 (46.2%)46/55 (83.6%)0.232 (0.052–0.946)0.042Notes: OR <1 indicates lower odds of SALT50 in the positive group.",
-          "Firth regression gave adjusted ORs of 4.373 (95% CI, 1.239–15.773; P=0.023) for baseline SALT >20, 0.210 (95% CI, 0.051–0.740; P=0.015) for week-12 SALT50, and 0.232 (95% CI, 0.052–0.946; P=0.042) for week-24 SALT50 (Figure 2 and Table S4).",
-          "Row values are: SALT greater than 20, conventional, sample size equals 100, adjusted odds ratio 4.809, 95 percent confidence interval 1.269 to 18.218, P value 0.021; Week 12, conventional, sample size equals 86, adjusted odds ratio 0.170, 95 percent confidence interval 0.041 to 0.709, P value 0.015; Week 24, conventional, sample size equals 68, adjusted odds ratio 0.186, 95 percent confidence interval 0.039 to 0.897, P value 0.036; SALT greater than 20, Firth, sample size equals 100, adjusted odds ratio 4.373, 95 percent confidence interval 1.239 to 15.773, P value 0.023; Week 12, Firth, sample size equals 86, adjusted odds ratio 0.210, 95 percent confidence interval 0.051 to 0.740, P value 0.015; Week 24, Firth, sample size equals 68, adjusted odds ratio 0.232, 95 percent confidence interval 0.052 to 0.946, P value 0.042.A forest plot of adjusted odds ratios for study panel positivity across SALT outcomes over time.Abbreviations: CI, confidence interval; OR, odds ratio; SALT, Severity of Alopecia Tool.",
-          "Table 4Descriptive SALT50 Counts by Recorded Systemic Treatment RegimenPopulation and RegimenWeek 12 SALT50Week 24 SALT50All: JAK inhibitor7/12 (58.3%)9/10 (90.0%)All: oral methylprednisolone26/38 (68.4%)26/31 (83.9%)All: intramuscular betamethasone3/14 (21.4%)3/9 (33.3%)Panel-positive: JAK inhibitor2/44/4Panel-positive: no recorded JAK inhibitor3/133/11Notes: Patients with a clearly documented switch across the listed treatment categories were excluded from these descriptive fixed-regimen summaries."
-        ]
-      },
-      {
-        "label": "고찰",
-        "title": "Discussion",
-        "kind": "discussion",
-        "sentences": [
-          "In this retrospective cohort, definitive ANA/ENA-related study-panel positivity was associated with greater baseline scalp hair loss and lower SALT50 response at weeks 12 and 24.",
-          "Although T-cell-mediated attack on the hair follicle is central to AA, humoral immune abnormalities may also be present, and patients with AA can produce antibodies against hair-follicle components and other autoantigens.5,11 ANA/ENA positivity in this study may therefore represent a broader autoimmune background or degree of immune activation, rather than necessarily indicating directly pathogenic antibodies.",
-          "Among four exploratory antibody subtypes, anti-SmD1 showed the smallest raw P value for SALT >20 (P=0.018; q=0.072), and anti-snRNP showed a nominal association with continuous SALT (rank-biserial correlation, 0.779; P=0.022; q=0.086; Table S2).",
-          "Systematic reviews and randomized trials support the efficacy of oral JAK inhibitors in appropriate populations with AA.24,25 Baricitinib studies report responses over 36, 52, and 104 weeks, including later-response trajectories,26–29 and trials and extensions of ritlecitinib and deuruxolitinib provide further evidence of benefit.30–32 In our small positive subgroup, four JAK-treated patients with a week-24 measurement achieved SALT50."
-        ]
-      },
-      {
-        "label": "고찰",
-        "title": "Strengths and Limitations",
-        "kind": "discussion",
-        "sentences": [
-          "The positive group was small (n=18), and covariate completeness reduced the adjusted-model sample sizes to 100 at baseline, 86 at week 12 and 68 at week 24.",
-          "Of the 81 patients with week-24 outcomes, 19 did not achieve SALT50; the adjusted model included 68 complete cases with 16 nonresponders and six predictor terms."
-        ]
-      },
-      {
-        "label": "결론",
-        "title": "Conclusion",
-        "kind": "conclusion",
-        "sentences": [
-          "In this single-center retrospective cohort, definitive positivity in the ANA/ENA-related study panel was associated with greater baseline disease burden and lower SALT50 response at 12 and 24 weeks after adjustment for measured clinical factors.",
-          "The findings support further study of antibody status as a possible prognostic marker.",
-          "The JAK subgroup observations remain descriptive, and no individual antibody-subtype association remained significant after FDR correction."
+          "The majority agreed that their programmes emphasized inclusive language (n = 42/50; 84%), gender identity-­inclusive history taking (n = 39/50; 78%) and exposure to multidisciplinary care models (n = 39/50; 78%).",
+          "Lower agreement was reported for training related to gender identity and expression (n = 30/50; 60%), overall preparedness for caring for gender-­diverse patients (n = 30/50; 60%), and LGBTQIA + research and advocacy (n = 29/50; 58%)."
         ]
       }
     ],
     "cta": "더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!",
-    "full_script": "[훅] 95% 이 숫자, 탈모 연구가 새로 내놨습니다\n\n[논문 정보]\n제목: Antinuclear and Extractable Nuclear Antigen-Related Autoantibody Positivity in Alopecia Areata: Associations with Disease Severity and Treatment Response at 12 and 24 Weeks\n저널: Clinical, cosmetic and investigational dermatology\n저자: Hu H, Liu Y, Fan Y 외\n발행: 2026\n원문: https://pubmed.ncbi.nlm.nih.gov/43080722/\n\n[한눈에 보기]\n- Baseline SALT was higher in positive patients [median (IQR), 15 (8.5-47.5) vs 5 (2-15); P=0.003].\n- SALT50 was achieved by 5/17 versus 58/85 patients at week 12 and 7/15 versus 55/66 at week 24.\n- The adjusted ORs were 4.809 (95% CI, 1.269-18.218; P=0.021) for baseline SALT >20, 0.170 (0.041-0.709; P=0.015) for week-12 SALT50 and 0.186 (0.039-0.897; P=0.036) for week-24 SALT50.\n\n[상세 내용] (논문 전문 6개 섹션에서 발췌)\n\n◆ 배경 — Introduction\n  · AA frequently coexists with autoimmune thyroid disease, vitiligo, atopic disorders, and other immune abnormalities.9,10 Antibodies against hair-follicle structures and various non-organ-specific antigens have been detected in patients with AA, and proteomic studies have suggested heterogeneity in the autoantigen repertoire.11,12 The clinical significance of circulating autoantibodies in AA nevertheless remains unclear: they may simply reflect shared susceptibility to autoimmunity, or they may mark more pronounced immune activation, greater disease burden, or a distinct treatment response.\n  · Clinical studies that systematically evaluate antinuclear antibody (ANA) and extractable nuclear antigen (ENA) antibody profiles in conjunction with objective SALT severity and longitudinal treatment outcomes remain limited.11–13\n  · ANA positivity and positivity for any of the 12 antigen-specific antibodies were combined into a single composite exposure to evaluate overall ANA/ENA-related autoantibody status across different specificities.\n\n◆ 연구 방법 — Materials and Methods\n  · SALT was calculated using standard scalp-area weights: vertex, 40%; occipital region, 24%; left temporal region, 18%; and right temporal region, 18%.\n  · Using clinically established categories, SALT ≤20 was defined as mild disease and SALT >20 as moderate-to-severe disease; the latter comprised moderate disease (20<SALT<50) and severe disease (SALT ≥50).15,16 These SALT-based categories were used for the present analysis; broader morbidity features beyond scalp hair loss were not incorporated into the binary outcome.17 The primary binary baseline outcome was SALT >20.\n  · SALT50 was defined as a reduction of at least 50% from baseline SALT and was evaluated using the measurements entered in the week-12 and week-24 fields of the case report form.18,19 The primary analyses used available outcomes.\n\n◆ 주요 결과 — Results\n  · Table 1Demographic and Baseline Clinical Characteristics According to ANA/ENA-Related Autoantibody StatusVariableStudy-Panel Positive (n=18)Study-Panel Non-Positive (n=101)P ValueAge, years33 (26–50.5)35 (27–41)0.944Male sex, n (%)7 (38.9)48 (47.5)0.611Baseline SALT score15 (8.5–47.5)5 (2–15)0.003SALT severity category, n (%)0.013SALT ≤20, n (%)11 (61.1)87 (86.1)20<SALT<50, n (%)2 (11.1)8 (7.9)SALT ≥50, n (%)5 (27.8)6 (5.9)Documented atopic comorbidity, n (%)5 (27.8)46 (45.5)—Atopic comorbidity absent by study definition, n (%)11 (61.1)46 (45.5)—Atopic comorbidity unknown, n (%)2 (11.1)9 (8.9)—Total disease duration ≤5 years, n (%)16 (88.9)73 (72.3)—Total disease duration >5 years, n (%)1 (5.6)19 (18.8)—Total disease duration unknown, n (%)1 (5.6)9 (8.9)—Notes: Study-panel status denotes at least one definitive positive ANA/ENA-related result.\n  · Included in baseline analysis, n equals 119: Study-panel positive: n equals 18; Study-panel non-positive: n equals 101; Complete-case model: n equals 100. 12 weeks: n equals 102: Positive: n equals 17; Non-positive: n equals 85; Outcome unavailable: n equals 17: Positive: n equals 1; Non-positive: n equals 16; Complete-case model: n equals 86. 24 weeks: n equals 81: Positive: n equals 15; Non-positive: n equals 66; Outcome unavailable: n equals 38: Positive: n equals 3; Non-positive: n equals 35; Complete-case model: n equals 68.\n  · Table 2Association Between ANA/ENA-Related Autoantibody Positivity and Baseline Alopecia Areata SeverityOutcome/ModelEffect Estimate95% CIP ValueBaseline SALT score (continuous)Median: 15 vs 5–0.003Three-level SALT severity, overall comparisonOverall distributional difference-0.013SALT >20, unadjustedOR 3.951.31–11.920.018SALT >20, conventional adjustedAdjusted OR 4.8091.269–18.2180.021SALT >20, Firth adjustedAdjusted OR 4.3731.239–15.7730.023Notes: Continuous SALT was compared using the Mann–Whitney U-test; the overall three-level severity comparison used the Fisher-Freeman-Halton exact test; and the unadjusted binary comparison used Fisher’s exact test.\n  · Table 3Association Between ANA/ENA-Related Autoantibody Status and SALT50 at Weeks 12 and 24Time Point/ModelSALT50 in Positive GroupSALT50 in Non-Positive GroupOR (95% CI)P ValueWeek 12, unadjusted5/17 (29.4%)58/85 (68.2%)0.194 (0.062–0.606)0.005Week 12, conventional adjusted4/15 (26.7%)49/71 (69.0%)0.170 (0.041–0.709)0.015Week 12, Firth adjusted4/15 (26.7%)49/71 (69.0%)0.210 (0.051–0.740)0.015Week 24, unadjusted7/15 (46.7%)55/66 (83.3%)0.175 (0.053–0.583)0.005Week 24, conventional adjusted6/13 (46.2%)46/55 (83.6%)0.186 (0.039–0.897)0.036Week 24, Firth adjusted6/13 (46.2%)46/55 (83.6%)0.232 (0.052–0.946)0.042Notes: OR <1 indicates lower odds of SALT50 in the positive group.\n  · Firth regression gave adjusted ORs of 4.373 (95% CI, 1.239–15.773; P=0.023) for baseline SALT >20, 0.210 (95% CI, 0.051–0.740; P=0.015) for week-12 SALT50, and 0.232 (95% CI, 0.052–0.946; P=0.042) for week-24 SALT50 (Figure 2 and Table S4).\n  · Row values are: SALT greater than 20, conventional, sample size equals 100, adjusted odds ratio 4.809, 95 percent confidence interval 1.269 to 18.218, P value 0.021; Week 12, conventional, sample size equals 86, adjusted odds ratio 0.170, 95 percent confidence interval 0.041 to 0.709, P value 0.015; Week 24, conventional, sample size equals 68, adjusted odds ratio 0.186, 95 percent confidence interval 0.039 to 0.897, P value 0.036; SALT greater than 20, Firth, sample size equals 100, adjusted odds ratio 4.373, 95 percent confidence interval 1.239 to 15.773, P value 0.023; Week 12, Firth, sample size equals 86, adjusted odds ratio 0.210, 95 percent confidence interval 0.051 to 0.740, P value 0.015; Week 24, Firth, sample size equals 68, adjusted odds ratio 0.232, 95 percent confidence interval 0.052 to 0.946, P value 0.042.A forest plot of adjusted odds ratios for study panel positivity across SALT outcomes over time.Abbreviations: CI, confidence interval; OR, odds ratio; SALT, Severity of Alopecia Tool.\n  · Table 4Descriptive SALT50 Counts by Recorded Systemic Treatment RegimenPopulation and RegimenWeek 12 SALT50Week 24 SALT50All: JAK inhibitor7/12 (58.3%)9/10 (90.0%)All: oral methylprednisolone26/38 (68.4%)26/31 (83.9%)All: intramuscular betamethasone3/14 (21.4%)3/9 (33.3%)Panel-positive: JAK inhibitor2/44/4Panel-positive: no recorded JAK inhibitor3/133/11Notes: Patients with a clearly documented switch across the listed treatment categories were excluded from these descriptive fixed-regimen summaries.\n\n◆ 고찰 — Discussion\n  · In this retrospective cohort, definitive ANA/ENA-related study-panel positivity was associated with greater baseline scalp hair loss and lower SALT50 response at weeks 12 and 24.\n  · Although T-cell-mediated attack on the hair follicle is central to AA, humoral immune abnormalities may also be present, and patients with AA can produce antibodies against hair-follicle components and other autoantigens.5,11 ANA/ENA positivity in this study may therefore represent a broader autoimmune background or degree of immune activation, rather than necessarily indicating directly pathogenic antibodies.\n  · Among four exploratory antibody subtypes, anti-SmD1 showed the smallest raw P value for SALT >20 (P=0.018; q=0.072), and anti-snRNP showed a nominal association with continuous SALT (rank-biserial correlation, 0.779; P=0.022; q=0.086; Table S2).\n  · Systematic reviews and randomized trials support the efficacy of oral JAK inhibitors in appropriate populations with AA.24,25 Baricitinib studies report responses over 36, 52, and 104 weeks, including later-response trajectories,26–29 and trials and extensions of ritlecitinib and deuruxolitinib provide further evidence of benefit.30–32 In our small positive subgroup, four JAK-treated patients with a week-24 measurement achieved SALT50.\n\n◆ 고찰 — Strengths and Limitations\n  · The positive group was small (n=18), and covariate completeness reduced the adjusted-model sample sizes to 100 at baseline, 86 at week 12 and 68 at week 24.\n  · Of the 81 patients with week-24 outcomes, 19 did not achieve SALT50; the adjusted model included 68 complete cases with 16 nonresponders and six predictor terms.\n\n◆ 결론 — Conclusion\n  · In this single-center retrospective cohort, definitive positivity in the ANA/ENA-related study panel was associated with greater baseline disease burden and lower SALT50 response at 12 and 24 weeks after adjustment for measured clinical factors.\n  · The findings support further study of antibody status as a possible prognostic marker.\n  · The JAK subgroup observations remain descriptive, and no individual antibody-subtype association remained significant after FDR correction.\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
-    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43080722/",
-    "reference_title": "Antinuclear and Extractable Nuclear Antigen-Related Autoantibody Positivity in Alopecia Areata: Associations with Disease Severity and Treatment Response at 12 and 24 Weeks",
+    "full_script": "[훅] 오늘의 논문 Skin health and disease에 실린 새 연구입니다\n\n[논문 정보]\n제목: Dermatology residency education in the treatment of testosterone-induced acne and androgenic alopecia in trans men: a cross-sectional survey of academic dermatologists in the USA\n저널: Skin health and disease\n저자: Nguyen TQ, Neubauer Z, Zaladonis A 외\n발행: 2026 Dec\n원문: https://pubmed.ncbi.nlm.nih.gov/43094833/\n\n[한눈에 보기]\n- This cross-sectional survey study explores the experience, comfort and knowledge of dermatology residents and attendings in managing testosterone-induced acne (TiAV) and androgenic alopecia (TiAGA) in trans men.\n- While most respondents reported some level of comfort treating these conditions, objective knowledge scores were modest and revealed gaps across both conditions, particularly TiAGA.\n- Our findings suggest that current LGBTQIA+-focused education may be perceived as adequate but may not translate into knowledge retention or clinical preparedness.\n\n[상세 내용] (논문 전문 1개 섹션에서 발췌)\n\n◆ 그 밖의 내용 — 본문\n  · The majority agreed that their programmes emphasized inclusive language (n = 42/50; 84%), gender identity-­inclusive history taking (n = 39/50; 78%) and exposure to multidisciplinary care models (n = 39/50; 78%).\n  · Lower agreement was reported for training related to gender identity and expression (n = 30/50; 60%), overall preparedness for caring for gender-­diverse patients (n = 30/50; 60%), and LGBTQIA + research and advocacy (n = 29/50; 58%).\n\n[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!\n\n------------------------------------------------------------\n※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).\n   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.\n   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.",
+    "reference_url": "https://pubmed.ncbi.nlm.nih.gov/43094833/",
+    "reference_title": "Dermatology residency education in the treatment of testosterone-induced acne and androgenic alopecia in trans men: a cross-sectional survey of academic dermatologists in the USA",
     "reference_type": "paper"
   },
   "assets": {
@@ -111,75 +56,18 @@
       "images/frame_01_hook.jpg",
       "images/frame_02_paper_intro.jpg",
       "images/frame_04_key_finding_1.jpg",
-      "images/frame_05_paper_table.jpg",
       "images/frame_06_key_finding_2.jpg",
       "images/frame_07_my_take.jpg",
       "images/frame_08_cta.jpg"
     ],
     "pptx": "slides.pptx",
     "paper_figures": [],
-    "paper_tables": [
-      {
-        "kind": "table",
-        "label": "Table 1",
-        "caption": "Demographic and Baseline Clinical Characteristics According to ANA/ENA-Related Autoantibody Status",
-        "rows": [
-          [
-            "Variable",
-            "Study-Panel Positive (n=18)",
-            "Study-Panel Non-Positive (n=101)",
-            "P Value"
-          ],
-          [
-            "Age, years",
-            "33 (26–50.5)",
-            "35 (27–41)",
-            "0.944"
-          ],
-          [
-            "Male sex, n (%)",
-            "7 (38.9)",
-            "48 (47.5)",
-            "0.611"
-          ],
-          [
-            "Baseline SALT score",
-            "15 (8.5–47.5)",
-            "5 (2–15)",
-            "0.003"
-          ],
-          [
-            "SALT severity category, n (%)",
-            "15 (8.5–47.5)",
-            "5 (2–15)",
-            "0.013"
-          ],
-          [
-            "SALT ≤20, n (%)",
-            "11 (61.1)",
-            "87 (86.1)",
-            "0.013"
-          ],
-          [
-            "20<SALT<50, n (%)",
-            "2 (11.1)",
-            "8 (7.9)",
-            "0.013"
-          ],
-          [
-            "SALT ≥50, n (%)",
-            "5 (27.8)",
-            "6 (5.9)",
-            "0.013"
-          ]
-        ]
-      }
-    ],
+    "paper_tables": [],
     "paper_source": {
-      "pmcid": "PMC13795135",
+      "pmcid": "PMC13796739",
       "license_note": "CC BY-NC(비상업 한정) - 수익화 채널에서는 사용 주의"
     },
     "paper_skip_reason": null,
-    "paper_figure_note": "이 논문에는 그림 2개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13795135)에서 직접 캡처해 쓰세요."
+    "paper_figure_note": "이 논문에는 그림 1개가 있지만 PMC가 이미지 직접 접근을 막아 자동으로 가져오지 못했습니다. 원문(PMC13796739)에서 직접 캡처해 쓰세요."
   }
 }
