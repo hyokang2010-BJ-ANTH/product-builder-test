@@ -1,7 +1,20 @@
 {
-  "count": 90,
-  "updated": "2026-11-27",
+  "count": 91,
+  "updated": "2026-11-28",
   "items": [
+    {
+      "date": "2026-11-28",
+      "dir": "2026-11-28",
+      "title": "Proteomic Signatures of Baricitinib Response in Severe Alopecia Areata",
+      "journal": "Allergy",
+      "source_type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43101924/",
+      "hook_accent": "60.3%",
+      "hook_sub": "이 숫자, 탈모 연구가 새로 내놨습니다",
+      "thumb": "2026-11-28/paper_card.png",
+      "pptx": "2026-11-28/slides.pptx",
+      "has_paper_figures": false
+    },
     {
       "date": "2026-11-27",
       "dir": "2026-11-27",

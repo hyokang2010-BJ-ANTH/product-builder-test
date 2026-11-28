@@ -1,0 +1,45 @@
+[훅] 60.3% 이 숫자, 탈모 연구가 새로 내놨습니다
+
+[논문 정보]
+제목: Proteomic Signatures of Baricitinib Response in Severe Alopecia Areata
+저널: Allergy
+저자: Wang Q, Tao K, Wei Z 외
+발행: 2026 Nov 27
+원문: https://pubmed.ncbi.nlm.nih.gov/43101924/
+
+[한눈에 보기]
+- Methods: In this retrospective real-world study, 110 Chinese patients with severe AA received baricitinib for up to 36 weeks.
+- Proteins associated with Week 24 achievement of SALT20 (absolute SALT score ≤ 20) or SALT50 (≥ 50% reduction from baseline) were evaluated alongside clinical variables in multivariable analyses.
+- Results: At Week 24, 38.2% of patients achieved SALT20 and 54.5% achieved SALT50; by Week 36, these rates increased to 49.3% and 60.3%, respectively.
+
+[상세 내용] (초록 4개 항목 정리 — 이 논문은 전문이 아직 공개되지 않아 초록을 씁니다)
+
+◆ 배경 — Background
+  · Alopecia areata (AA) is an autoimmune disorder characterized by non-scarring hair loss.
+  · Although baricitinib is effective in severe AA, biomarkers associated with subsequent treatment response remain unclear.
+
+◆ 연구 방법 — Methods
+  · In this retrospective real-world study, 110 Chinese patients with severe AA received baricitinib for up to 36 weeks.
+  · Baseline plasma samples from 51 patients with AA and 22 healthy controls underwent proteomic profiling.
+  · Proteins associated with Week 24 achievement of SALT20 (absolute SALT score ≤ 20) or SALT50 (≥ 50% reduction from baseline) were evaluated alongside clinical variables in multivariable analyses.
+  · Selected candidate biomarkers were further evaluated by ELISA.
+  · Paired baseline and Week 24 samples were analyzed in 19 patients.
+
+◆ 주요 결과 — Results
+  · At Week 24, 38.2% of patients achieved SALT20 and 54.5% achieved SALT50; by Week 36, these rates increased to 49.3% and 60.3%, respectively.
+  · Week 24 achievement of SALT20 or SALT50 was associated with shorter disease duration, lower baseline SALT score, and lower frequencies of AU/AT and eyebrow/eyelash involvement.
+  · Compared with healthy controls, patients with AA showed distinct baseline plasma proteomic alterations.
+  · Achievers showed a relatively higher baseline inflammatory plasma proteomic profile, and exploratory longitudinal analyses revealed broader post-treatment reductions in inflammatory proteins.
+  · CCL11 was higher at baseline in patients who subsequently achieved SALT20 or SALT50 and remained associated with both endpoints in multivariable analysis.
+
+◆ 결론 — Conclusions
+  · Baricitinib response was heterogeneous in patients with severe AA.
+  · Better outcomes were associated with higher baseline levels of several inflammatory plasma proteins.
+  · CCL11 emerged as a candidate response-associated biomarker.
+
+[CTA] 더 자세한 내용은 원문 링크에서 확인하세요. 매일 새로운 탈모 연구, 팔로우하고 놓치지 마세요!
+
+------------------------------------------------------------
+※ 위 본문 문장은 논문 원문을 그대로 발췌한 것입니다(영문).
+   번역·의역과 사실 확인을 거친 뒤 영상에 사용하세요.
+   자동 추출은 문장을 고르는 것이지 내용을 이해하는 것이 아닙니다.
